@@ -1,4 +1,4 @@
-name: SEBI hourly scraper
+name: SEBI scraper
 
 on:
   schedule:
