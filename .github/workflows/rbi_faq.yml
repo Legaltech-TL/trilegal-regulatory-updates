@@ -2,9 +2,9 @@ name: RBI FAQ Watcher
 
 on:
   schedule:
-    # 02:30 IST = 21:00 UTC previous day
-    - cron: "0 21 * * *"
+    - cron: '30 3,7,11 * * *'   # 09:00, 13:00, 17:00 IST
   workflow_dispatch:
+
 
 permissions:
   contents: write
