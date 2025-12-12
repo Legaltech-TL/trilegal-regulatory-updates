@@ -23,7 +23,7 @@ import csv, hashlib, re, datetime, os, sys, json, time
 # ----------------- EDITABLE CONFIG -----------------
 NUM_ENTRIES = 10
 MASTER_CSV = "data/sebi_master.csv"
-NEW_JSON   = "data/new_entries.json"
+NEW_JSON   = "data/sebi_new_entries.json"
 CSV_DELIM = ","
 Path("data").mkdir(parents=True, exist_ok=True)
 
@@ -498,5 +498,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
