@@ -1,0 +1,45 @@
+name: RBI FAQ Watcher
+
+on:
+  schedule:
+    # 02:30 IST = 21:00 UTC previous day
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests lxml python-dateutil
+
+      - name: Run RBI FAQ scraper
+        run: |
+          python rbi_faq_scraper.py
+
+      - name: Check for changes
+        run: |
+          git status --porcelain
+          git --no-pager diff --name-only || true
+
+      - name: Commit & push changes (if any)
+        run: |
+          git config --local user.email "github-actions@github.com"
+          git config --local user.name "github-actions"
+
+          git add data/*.csv data/*.json || true
+
+          # commit only if staged changes exist
+          git diff --cached --quiet || (git commit -m "RBI FAQ: new entries added [CI]" && git push)
