@@ -22,8 +22,8 @@ from bs4 import BeautifulSoup
 
 # ---------- CONFIG (repo-root files) ----------
 ROOT = Path(__file__).resolve().parent
-MASTER_CSV = ROOT / "dot_circulars_master.csv"
-JSON_OUT = ROOT / "dot_new_entries.json"
+MASTER_CSV = ROOT / "data/dot_circulars_master.csv"
+JSON_OUT = ROOT / "data/dot_new_entries.json"
 
 LIST_URL = "https://dot.gov.in/all-circulars"
 
@@ -323,3 +323,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
