@@ -105,7 +105,17 @@ def extract_listing_table(html):
             continue
         a = a[0]
 
-        url = a.get("href")
+        raw = a.get("href") or ""
+
+        # RBI listing often gives "FAQDisplay.aspx?Id=174"
+        if raw.lower().startswith("faqdisplay.aspx"):
+            url = f"https://rbi.org.in/Scripts/{raw}"
+        elif raw.lower().startswith("/scripts/"):
+            url = "https://rbi.org.in" + raw
+        else:
+            # Fallback – absolute link that doc.make_links_absolute may generate
+            url = raw
+
         row_text = tr.text_content().strip()
 
         # Extract FAQ ID
@@ -248,3 +258,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
