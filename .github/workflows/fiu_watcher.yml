@@ -1,0 +1,57 @@
+name: FIU India Compliance Orders Watcher
+
+on:
+  schedule:
+    # GitHub cron uses UTC
+    # 08:00 IST  -> 02:30 UTC
+    # 20:00 IST  -> 14:30 UTC
+    - cron: '30 2 * * *'
+    - cron: '30 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fiu-watcher
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    name: Scrape FIU India Orders (Top 10)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run FIU watcher
+        run: |
+          python fiu_watcher.py
+
+      - name: Commit & push if data changed
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+
+          git add data/fiu_master.csv data/fiu_new_entries.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update FIU compliance orders (auto)"
+            git push
+          fi
