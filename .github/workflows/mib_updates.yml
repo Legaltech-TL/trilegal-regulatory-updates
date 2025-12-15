@@ -3,8 +3,8 @@ name: MIB Updates Scraper
 on:
   schedule:
     # GitHub cron uses UTC
-    # 02:30 UTC = 08:00 IST
-    # 12:30 UTC = 18:00 IST
+    # 03:30 UTC = 09:00 IST
+    # 13:30 UTC = 19:00 IST
     - cron: '30 2 * * *'
     - cron: '30 12 * * *'
   workflow_dispatch: {}
