@@ -44,7 +44,7 @@ jobs:
           git config user.email "github-actions@github.com"
 
           if git status --porcelain | grep .; then
-            git add mib_master.csv data/mib_new_entries.json
+            git add data/mib_master.csv data/mib_new_entries.json
             git commit -m "Update MIB notifications (automated)"
             git push
           else
