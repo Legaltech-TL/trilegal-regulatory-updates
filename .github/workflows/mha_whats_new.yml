@@ -40,7 +40,7 @@ jobs:
 
       - name: Run MHA scraper
         run: |
-          python mha_scraper.py
+          python mha_whatsnew_scraper.py
 
       - name: Commit & push if changes exist
         run: |
