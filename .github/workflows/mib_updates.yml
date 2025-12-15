@@ -1,0 +1,52 @@
+name: MIB Updates Scraper
+
+on:
+  schedule:
+    # GitHub cron uses UTC
+    # 02:30 UTC = 08:00 IST
+    # 12:30 UTC = 18:00 IST
+    - cron: '30 2 * * *'
+    - cron: '30 12 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # required to commit CSV/JSON updates
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    name: Run MIB Scraper and Update Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run MIB scraper
+        run: |
+          python mib_updates_scrapper.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git status --porcelain | grep .; then
+            git add mib_master.csv data/mib_new_entries.json
+            git commit -m "Update MIB notifications (automated)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
