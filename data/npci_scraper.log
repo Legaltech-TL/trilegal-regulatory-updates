@@ -46,3 +46,24 @@
 2025-12-16 12:00:01,050 | INFO | WEBP image captured: https://www.npci.org.in/uploads/28_11_NBBL_targets_1_billion_monthly_transactions_8ce28c176f.webp
 2025-12-16 12:00:01,106 | INFO | Total files collected: 7
 2025-12-16 12:00:01,116 | INFO | Added 7 new entries
+2025-12-16 12:15:51,976 | INFO | Opening NPCI page
+2025-12-16 12:15:55,351 | INFO | Using default Press Releases view
+2025-12-16 12:15:55,365 | INFO | Press Releases: 0 rows found
+2025-12-16 12:15:55,365 | INFO | Switching to Media Coverage tab
+2025-12-16 12:15:59,591 | INFO | Media Coverage: 7 rows found
+2025-12-16 12:15:59,596 | INFO | [Media Coverage] Row 1: 26-03 New Bhim 3.0 launched, allows users to split bills, track payments
+2025-12-16 12:15:59,935 | INFO | WEBP image captured: https://www.npci.org.in/uploads/26_03_New_Bhim_3_0_launched_allows_users_to_split_bills_track_payments_5ab3ba0642.webp
+2025-12-16 12:15:59,939 | INFO | [Media Coverage] Row 2: 15-10 BHIM's monthly transactions triple between January and September
+2025-12-16 12:16:00,275 | INFO | WEBP image captured: https://www.npci.org.in/uploads/15_10_BHI_Ms_monthly_transactions_triple_between_January_and_September_610f29edc6.webp
+2025-12-16 12:16:00,278 | INFO | [Media Coverage] Row 3: 18-11 CNBC TV18 - Bharat Connect for Business boosts digital payments among MSMEs, says NBBL’s CEO
+2025-12-16 12:16:00,658 | INFO | PDF captured: https://www.npci.org.in/uploads/Bharat_Connect_for_Business_boosts_digital_payments_among_MSM_Es_says_NBBL_s_98fce8c0cc.pdf
+2025-12-16 12:16:00,661 | INFO | [Media Coverage] Row 4: 26-11 UPI Circle to net new users BHIM chief
+2025-12-16 12:16:00,995 | INFO | WEBP image captured: https://www.npci.org.in/uploads/26_11_UPI_Circle_to_net_new_users_BHIM_chief_b091b7332a.webp
+2025-12-16 12:16:00,998 | INFO | [Media Coverage] Row 5: 27-11 ETBFSI - NPCI’s Bharat Billpay aims to cover half of India’s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi
+2025-12-16 12:16:01,407 | INFO | PDF captured: https://www.npci.org.in/uploads/NPCI_s_Bharat_Bill_Pay_Aims_to_Digitally_Transform_Half_of_India_s_Households_CEO_Noopur_Chaturvedi_4bb9301a91.pdf
+2025-12-16 12:16:01,411 | INFO | [Media Coverage] Row 6: 28-11 Netbanking switch to provide better visibility into transactions: NBBL CEO
+2025-12-16 12:16:01,731 | INFO | WEBP image captured: https://www.npci.org.in/uploads/28_11_Netbanking_switch_to_provide_better_visibility_into_transactions_NBBL_CEO_a058c60497.webp
+2025-12-16 12:16:01,734 | INFO | [Media Coverage] Row 7: 28-11 NBBL targets 1 billion monthly transactions
+2025-12-16 12:16:02,041 | INFO | WEBP image captured: https://www.npci.org.in/uploads/28_11_NBBL_targets_1_billion_monthly_transactions_8ce28c176f.webp
+2025-12-16 12:16:02,075 | INFO | Total files collected: 7
+2025-12-16 12:16:02,086 | INFO | No new entries found
