@@ -2,12 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-NPCI Press Releases + Media Coverage Scraper (FINAL)
-- Correct section separation
-- Handles PDF served as octet-stream
-- Handles WEBP images
-- Outputs CSV + JSON into data/
-- CI-safe
+NPCI Press Releases + Media Coverage Scraper (CI-SAFE)
+
+✔ Works in GitHub Actions
+✔ Correct selectors per tab
+✔ Handles PDF (application/pdf, octet-stream)
+✔ Handles Media Coverage WEBP
+✔ No networkidle
+✔ CSV + JSON in data/
 """
 
 import asyncio
@@ -52,11 +54,10 @@ def safe_filename(url: str) -> str:
     name = Path(urlparse(url).path).name
     return name if name else "file"
 
-def is_pdf_response(response):
+def is_pdf_response(response) -> bool:
     ct = response.headers.get("content-type", "").lower()
     cd = response.headers.get("content-disposition", "").lower()
     url = response.url.lower()
-
     return (
         "pdf" in ct
         or url.endswith(".pdf")
@@ -118,24 +119,29 @@ async def scrape():
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"]
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu"
+            ]
         )
+
         context = await browser.new_context()
         page = await context.new_page()
 
         log.info("Opening NPCI page")
         await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-        await page.wait_for_selector("ul.press-release-body", timeout=60000)
 
         # ---------- PRESS RELEASES ----------
         log.info("Scraping Press Releases")
-        rows = page.locator("ul.press-release-body li.circulars-cell-container")
+
+        await page.wait_for_selector("div.press-release-body", timeout=60000)
+        rows = page.locator("div.press-release-body div.circulars-cell")
         total = await rows.count()
         log.info(f"Press Releases: {total} rows found")
 
         for i in range(min(total, TOP_N)):
-            row = rows.nth(i)
-            entry = await scrape_row(page, row, "press_release")
+            entry = await scrape_row(page, rows.nth(i), "press_release")
             if entry:
                 collected.append(entry)
 
@@ -143,15 +149,14 @@ async def scrape():
         log.info("Switching to Media Coverage tab")
         await page.click("text=Media Coverage")
         await page.wait_for_timeout(2000)
-        await page.wait_for_selector("ul.press-release-body", timeout=60000)
 
+        await page.wait_for_selector("ul.press-release-body", timeout=60000)
         rows = page.locator("ul.press-release-body li.circulars-cell-container")
         total = await rows.count()
         log.info(f"Media Coverage: {total} rows found")
 
         for i in range(min(total, TOP_N)):
-            row = rows.nth(i)
-            entry = await scrape_row(page, row, "media_coverage")
+            entry = await scrape_row(page, rows.nth(i), "media_coverage")
             if entry:
                 collected.append(entry)
 
@@ -209,7 +214,10 @@ def main():
     existing = load_existing_ids()
     new_entries = [d for d in data if d["id"] not in existing]
 
-    NEW_JSON.write_text(json.dumps(new_entries, indent=2), encoding="utf-8")
+    NEW_JSON.write_text(
+        json.dumps(new_entries, indent=2),
+        encoding="utf-8"
+    )
 
     if new_entries:
         append_csv(new_entries)
