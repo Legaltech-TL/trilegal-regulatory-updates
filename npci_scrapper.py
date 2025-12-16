@@ -67,7 +67,10 @@ async def scrape():
         page = await context.new_page()
 
         log.info("Opening NPCI page")
-        await page.goto(URL, wait_until="networkidle")
+        # await page.goto(URL, wait_until="networkidle")
+        await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+        await page.wait_for_selector("ul.press-release-body", timeout=60000)
+
 
         for tab_text, section_key in SECTIONS.items():
 
@@ -198,3 +201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
