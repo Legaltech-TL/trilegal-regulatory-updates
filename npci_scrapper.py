@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 """
-NPCI Press Releases + Media Coverage Scraper
-✔ Outputs stored in data/ directory
-✔ Handles PDF (application/pdf)
-✔ Handles Media Coverage images (image/webp)
-✔ Top 10 per section
-✔ CSV + JSON
+NPCI Press Releases + Media Coverage Scraper (FINAL)
+- Press Releases scraped from default view
+- Media Coverage scraped after tab switch
+- Handles PDF (application/pdf) and WEBP (image/webp)
+- Outputs CSV + JSON into data/
+- CI-safe (no networkidle)
 """
 
 import asyncio
@@ -33,11 +33,6 @@ MASTER_CSV = DATA_DIR / "npci_master.csv"
 NEW_JSON = DATA_DIR / "npci_new_entries.json"
 LOG_FILE = DATA_DIR / "npci_scraper.log"
 
-SECTIONS = {
-    "Press Releases": "press_release",
-    "Media Coverage": "media_coverage"
-}
-
 # ---------------- LOGGING ----------------
 logging.basicConfig(
     level=logging.INFO,
@@ -57,87 +52,99 @@ def safe_filename(url: str) -> str:
     name = Path(urlparse(url).path).name
     return name if name else "file"
 
-# ---------------- SCRAPER ----------------
+# ---------------- ROW SCRAPER ----------------
+async def scrape_row(page, row, section_key):
+    title_el = row.locator("div.circulars-cell-body p")
+    if await title_el.count() == 0:
+        return None
+
+    title = (await title_el.inner_text()).strip()
+    log.info(f"[{section_key}] {title}")
+
+    buttons = row.locator("div.circulars-cell-buttons button")
+    if await buttons.count() == 0:
+        return None
+
+    try:
+        async with page.expect_response(
+            lambda r: (
+                "application/pdf" in r.headers.get("content-type", "")
+                or "image/webp" in r.headers.get("content-type", "")
+            ),
+            timeout=8000
+        ) as resp_info:
+            await buttons.first.click(force=True)
+
+        response = await resp_info.value
+        url = response.url
+        ctype = response.headers.get("content-type", "")
+    except TimeoutError:
+        log.warning("No PDF / WEBP detected")
+        return None
+
+    entry = {
+        "id": make_id(title, url),
+        "section": section_key,
+        "title": title,
+        "pdf_link": None,
+        "media_image_link": None,
+        "filename": safe_filename(url),
+        "scraped_at": datetime.utcnow().isoformat()
+    }
+
+    if "application/pdf" in ctype:
+        entry["pdf_link"] = url
+    elif "image/webp" in ctype:
+        entry["media_image_link"] = url
+
+    return entry
+
+# ---------------- MAIN SCRAPER ----------------
 async def scrape():
     collected = []
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
+        )
         context = await browser.new_context()
         page = await context.new_page()
 
         log.info("Opening NPCI page")
-        # await page.goto(URL, wait_until="networkidle")
         await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
         await page.wait_for_selector("ul.press-release-body", timeout=60000)
 
+        # ---------- PRESS RELEASES ----------
+        log.info("Scraping Press Releases")
+        rows = page.locator("ul.press-release-body li.circulars-cell-container")
+        total = await rows.count()
+        log.info(f"Press Releases: {total} rows found")
 
-        for tab_text, section_key in SECTIONS.items():
+        for i in range(min(total, TOP_N)):
+            row = rows.nth(i)
+            entry = await scrape_row(page, row, "press_release")
+            if entry:
+                collected.append(entry)
 
-            if section_key == "media_coverage":
-                log.info("Switching to Media Coverage tab")
-                await page.click("text=Media Coverage")
-                await page.wait_for_timeout(2000)
-            else:
-                log.info("Using default Press Releases view")
+        # ---------- MEDIA COVERAGE ----------
+        log.info("Switching to Media Coverage tab")
+        await page.click("text=Media Coverage")
+        await page.wait_for_timeout(2000)
+        await page.wait_for_selector("ul.press-release-body", timeout=60000)
 
-            rows = page.locator("ul.press-release-body li.circulars-cell-container")
-            total = await rows.count()
-            log.info(f"{tab_text}: {total} rows found")
+        rows = page.locator("ul.press-release-body li.circulars-cell-container")
+        total = await rows.count()
+        log.info(f"Media Coverage: {total} rows found")
 
-            for i in range(min(total, TOP_N)):
-                row = rows.nth(i)
-
-                title = (await row.locator("div.circulars-cell-body p").inner_text()).strip()
-                log.info(f"[{tab_text}] Row {i+1}: {title}")
-
-                buttons = row.locator("div.circulars-cell-buttons button")
-                if await buttons.count() == 0:
-                    continue
-
-                captured_url = None
-                captured_type = None
-
-                try:
-                    async with page.expect_response(
-                        lambda r: (
-                            "application/pdf" in r.headers.get("content-type", "")
-                            or "image/webp" in r.headers.get("content-type", "")
-                        ),
-                        timeout=8000
-                    ) as resp_info:
-                        await buttons.first.click(force=True)
-
-                    response = await resp_info.value
-                    captured_url = response.url
-                    captured_type = response.headers.get("content-type", "")
-
-                except TimeoutError:
-                    log.warning("No PDF or WEBP detected")
-                    continue
-
-                entry = {
-                    "id": make_id(title, captured_url),
-                    "section": section_key,
-                    "title": title,
-                    "pdf_link": None,
-                    "media_image_link": None,
-                    "filename": safe_filename(captured_url),
-                    "scraped_at": datetime.utcnow().isoformat()
-                }
-
-                if "application/pdf" in captured_type:
-                    entry["pdf_link"] = captured_url
-                    log.info(f"PDF captured: {captured_url}")
-
-                elif "image/webp" in captured_type:
-                    entry["media_image_link"] = captured_url
-                    log.info(f"WEBP image captured: {captured_url}")
-
+        for i in range(min(total, TOP_N)):
+            row = rows.nth(i)
+            entry = await scrape_row(page, row, "media_coverage")
+            if entry:
                 collected.append(entry)
 
         await browser.close()
-        log.info(f"Total files collected: {len(collected)}")
+        log.info(f"Total entries collected: {len(collected)}")
 
     return collected
 
@@ -188,7 +195,6 @@ def main():
 
     data = asyncio.run(scrape())
     existing = load_existing_ids()
-
     new_entries = [d for d in data if d["id"] not in existing]
 
     NEW_JSON.write_text(json.dumps(new_entries, indent=2), encoding="utf-8")
@@ -201,4 +207,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
