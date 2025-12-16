@@ -3,11 +3,11 @@
 
 """
 NPCI Press Releases + Media Coverage Scraper (FINAL)
-- Press Releases scraped from default view
-- Media Coverage scraped after tab switch
-- Handles PDF (application/pdf) and WEBP (image/webp)
+- Correct section separation
+- Handles PDF served as octet-stream
+- Handles WEBP images
 - Outputs CSV + JSON into data/
-- CI-safe (no networkidle)
+- CI-safe
 """
 
 import asyncio
@@ -52,6 +52,17 @@ def safe_filename(url: str) -> str:
     name = Path(urlparse(url).path).name
     return name if name else "file"
 
+def is_pdf_response(response):
+    ct = response.headers.get("content-type", "").lower()
+    cd = response.headers.get("content-disposition", "").lower()
+    url = response.url.lower()
+
+    return (
+        "pdf" in ct
+        or url.endswith(".pdf")
+        or ".pdf" in cd
+    )
+
 # ---------------- ROW SCRAPER ----------------
 async def scrape_row(page, row, section_key):
     title_el = row.locator("div.circulars-cell-body p")
@@ -68,8 +79,8 @@ async def scrape_row(page, row, section_key):
     try:
         async with page.expect_response(
             lambda r: (
-                "application/pdf" in r.headers.get("content-type", "")
-                or "image/webp" in r.headers.get("content-type", "")
+                is_pdf_response(r)
+                or "image/webp" in r.headers.get("content-type", "").lower()
             ),
             timeout=8000
         ) as resp_info:
@@ -77,7 +88,8 @@ async def scrape_row(page, row, section_key):
 
         response = await resp_info.value
         url = response.url
-        ctype = response.headers.get("content-type", "")
+        ctype = response.headers.get("content-type", "").lower()
+
     except TimeoutError:
         log.warning("No PDF / WEBP detected")
         return None
@@ -92,7 +104,7 @@ async def scrape_row(page, row, section_key):
         "scraped_at": datetime.utcnow().isoformat()
     }
 
-    if "application/pdf" in ctype:
+    if is_pdf_response(response):
         entry["pdf_link"] = url
     elif "image/webp" in ctype:
         entry["media_image_link"] = url
