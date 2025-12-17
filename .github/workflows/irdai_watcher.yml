@@ -59,7 +59,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add irdai_master.csv irdai_new_entries.json
+          git add data/irdai_master.csv data/irdai_new_entries.json
           git commit -m "IRDAI: add new regulatory updates"
           git push
 
