@@ -2,20 +2,15 @@
 # -*- coding: utf-8 -*-
 
 """
-IRDAI Watcher (FINAL)
---------------------
-Monitors IRDAI:
-- Acts
-- Rules
-- Regulations
-- Circulars
-
-Features:
-- Checks ONLY top 10 entries per page (page 1)
-- Stable documentId-based change detection
-- Writes master CSV + delta JSON
-- Timezone-aware UTC timestamps
-- Clear per-page logging
+IRDAI Watcher (FINAL – CLEAN ROW FILTERING)
+------------------------------------------
+- Skips blank / invalid table rows
+- Checks ONLY top 10 entries per page
+- CSV columns exactly match JSON
+- Outputs stored in /data folder
+- UTC timezone-aware timestamps
+--------------------------------------------
+Made by - Bhanu Tak
 """
 
 from pathlib import Path
@@ -29,15 +24,16 @@ from datetime import datetime, timezone
 # ================= CONFIG =================
 
 BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
 
-MASTER_CSV = BASE_DIR / "data/irdai_master.csv"
-NEW_JSON = BASE_DIR / "data/irdai_new_entries.json"
+MASTER_CSV = DATA_DIR / "irdai_master.csv"
+NEW_JSON = DATA_DIR / "irdai_new_entries.json"
 
 PAGES = {
     "Acts": "https://irdai.gov.in/acts",
     "Rules": "https://irdai.gov.in/rules",
-    "Regulations": "https://irdai.gov.in/consolidated-gazette-notified-regulated-regulations"
-    if False else "https://irdai.gov.in/consolidated-gazette-notified-regulations",
+    "Regulations": "https://irdai.gov.in/consolidated-gazette-notified-regulations",
     "Circulars": "https://irdai.gov.in/circulars",
 }
 
@@ -55,18 +51,15 @@ TOP_N = 10
 
 
 def load_existing_ids():
-    """Load existing document IDs from master CSV"""
     ids = set()
     if MASTER_CSV.exists():
         with open(MASTER_CSV, newline="", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
+            for row in csv.DictReader(f):
                 ids.add(row["id"])
     return ids
 
 
 def fetch_page(url):
-    """Fetch page 1 with default delta"""
     params = {
         "_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta": "20",
         "_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur": "1",
@@ -77,18 +70,16 @@ def fetch_page(url):
 
 
 def extract_document_id(tr):
-    """Extract stable documentId"""
     checkbox = tr.select_one("input.checkSingle")
     if checkbox and checkbox.get("value"):
         return checkbox["value"]
 
-    # Fallback (extremely rare)
+    # Fallback (only used if row is valid but checkbox missing)
     raw = tr.get_text(strip=True)
     return hashlib.sha1(raw.encode()).hexdigest()
 
 
 def parse_table(html, category, source_url):
-    """Parse table and return (entries, total_rows)"""
     soup = BeautifulSoup(html, "html.parser")
     table = soup.select_one("table.table")
 
@@ -105,11 +96,7 @@ def parse_table(html, category, source_url):
         if len(tds) < 7:
             continue
 
-        doc_id = extract_document_id(tr)
-
         short_desc = tds[2].get_text(strip=True)
-        last_updated = tds[3].get_text(strip=True)
-        reference_no = tds[5].get_text(strip=True)
 
         detail_link = None
         detail_a = tds[4].select_one("a[href]")
@@ -129,12 +116,18 @@ def parse_table(html, category, source_url):
             if size_p:
                 file_size = size_p.get_text(strip=True)
 
+        # 🚨 STRICT ROW VALIDATION
+        if not short_desc or not (detail_link or pdf_link):
+            continue
+
+        doc_id = extract_document_id(tr)
+
         results.append({
             "id": doc_id,
             "category": category,
             "short_description": short_desc,
-            "reference_no": reference_no,
-            "last_updated": last_updated,
+            "reference_no": tds[5].get_text(strip=True),
+            "last_updated": tds[3].get_text(strip=True),
             "detail_page": detail_link,
             "pdf_link": pdf_link,
             "pdf_filename": pdf_filename,
@@ -147,7 +140,6 @@ def parse_table(html, category, source_url):
 
 
 def append_to_csv(rows):
-    """Append new rows to master CSV"""
     file_exists = MASTER_CSV.exists()
     with open(MASTER_CSV, "a", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
@@ -185,12 +177,12 @@ def main():
         )
 
     if new_entries:
-        print(f"[INFO] Total new entries added: {len(new_entries)}")
-
         append_to_csv(new_entries)
 
         with open(NEW_JSON, "w", encoding="utf-8") as f:
             json.dump(new_entries, f, ensure_ascii=False, indent=2)
+
+        print(f"[INFO] Total new entries added: {len(new_entries)}")
     else:
         print("[INFO] No new entries found")
 
