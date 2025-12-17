@@ -1,0 +1,43 @@
+name: PIB Watcher
+
+on:
+  schedule:
+    # Runs 3 times a day (IST ≈ 6:30 AM, 2:30 PM, 10:30 PM)
+    - cron: "0 1,9,17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-pib-watcher:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run PIB watcher
+        run: python pib_watcher.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add pib_master.csv pib_new_entries.json
+
+          git diff --cached --quiet && echo "No changes to commit" || \
+          git commit -m "PIB update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+          git push
