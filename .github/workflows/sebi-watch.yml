@@ -2,7 +2,7 @@ name: SEBI scraper
 
 on:
   schedule:
-    - cron: '30 2,6,10 * * *'   # Runs at 08:00, 12:00, 16:00 IST (UTC+5:30)
+    - cron: '30 2,6,10 * * *'   # 08:00, 12:00, 16:00 IST (UTC+5:30)
   workflow_dispatch:
 
 permissions:
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Cache pip packages
+      - name: Cache pip
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
@@ -40,19 +40,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r sebi_requirements.txt
 
-      - name: Install Playwright browsers
+      - name: Install Playwright Chromium
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: 0
         run: |
-          python -m playwright install --with-deps
+          python -m playwright install chromium --with-deps
 
       - name: Run SEBI scraper
         env:
           PYTHONUNBUFFERED: 1
           PLAYWRIGHT_BROWSERS_PATH: 0
         run: |
-          echo "Running SEBI scraper..."
           python sebi_multi_section_scraper.py
 
-      - name: Commit and push CSVs if changed
+      - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -61,9 +62,8 @@ jobs:
           git add data/sebi_master.csv data/sebi_new_entries.json || true
 
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update SEBI data (scheduled run) [skip ci]"
+            git commit -m "chore: update SEBI data (scheduled)"
             git push origin HEAD:${{ github.ref_name }}
-            echo "✅ Updates committed."
           else
-            echo "No changes detected."
+            echo "No changes detected"
           fi
