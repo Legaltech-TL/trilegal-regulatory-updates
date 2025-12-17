@@ -1,0 +1,71 @@
+name: Bharat Connect Circulars Watcher
+
+on:
+  schedule:
+    # GitHub cron is UTC
+    # 02:30 IST
+    - cron: '0 21 * * *'
+    # 10:30 IST
+    - cron: '0 5 * * *'
+    # 18:30 IST
+    - cron: '0 13 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bharat-connect-watcher
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright beautifulsoup4 lxml
+          playwright install chromium
+
+      - name: Run Bharat Connect watcher (headed via Xvfb)
+        run: |
+          xvfb-run -a python bharat_connect_watcher.py
+
+      - name: Check for changes
+        id: git_status
+        run: |
+          if git status --porcelain | grep -E "data/bharat_connect_master.csv|data/bharat_connect_new_entries.json"; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.git_status.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/bharat_connect_master.csv data/bharat_connect_new_entries.json
+          git commit -m "Bharat Connect: add new circulars"
+          git push
+
+      - name: No changes
+        if: steps.git_status.outputs.changed == 'false'
+        run: |
+          echo "No new Bharat Connect circulars found"
