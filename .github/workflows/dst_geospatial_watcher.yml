@@ -1,5 +1,8 @@
 name: DST Daily Watcher
 
+permissions:
+  contents: write 
+
 on:
   schedule:
     - cron: "30 3 * * *"   # Runs once daily at 09:00 IST
