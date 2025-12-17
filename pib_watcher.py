@@ -6,45 +6,52 @@ import os
 import time
 import datetime
 import re
+import logging
 from urllib.parse import urljoin, urlparse, parse_qs
 
 # ================= CONFIG =================
 
 URL = "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-}
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-CSV_FILE = "pib_master.csv"
-JSON_FILE = "pib_new_entries.json"
-REQUEST_DELAY = 1.2  # polite delay
+DATA_DIR = "data"
+CSV_FILE = os.path.join(DATA_DIR, "pib_master.csv")
+JSON_FILE = os.path.join(DATA_DIR, "pib_new_entries.json")
 
-# ================= UTILITIES =================
+REQUEST_DELAY = 1.2
 
-def extract_prid(url: str) -> str | None:
+# ================= LOGGING =================
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s"
+)
+
+# ================= HELPERS =================
+
+def ensure_data_dir():
+    os.makedirs(DATA_DIR, exist_ok=True)
+
+
+def extract_prid(url: str):
     qs = parse_qs(urlparse(url).query)
     return qs.get("PRID", [None])[0]
 
 
-def extract_date_from_content(content: str) -> str | None:
+def extract_date_from_content(content: str):
     """
-    Robust date extraction:
-    - Works for English & Hindi pages
-    - Handles newlines and extra spaces
-    - Extracts: '17 DEC 2025'
+    Extracts date like: 17 DEC 2025
+    Works for English + Hindi, multiline-safe
     """
     if not content:
         return None
 
-    # Normalize all whitespace
     text = " ".join(content.split())
-
-    # Match date pattern
     match = re.search(r"\b\d{1,2}\s+[A-Z]{3}\s+\d{4}\b", text)
     return match.group(0) if match else None
 
 
-def load_existing_ids() -> set:
+def load_existing_ids():
     if not os.path.exists(CSV_FILE):
         return set()
 
@@ -52,12 +59,7 @@ def load_existing_ids() -> set:
         return {row["id"] for row in csv.DictReader(f)}
 
 
-def write_csv(rows: list[dict]):
-    """
-    CSV-safe writer:
-    - Quotes ALL fields
-    - Protects commas, newlines, unicode
-    """
+def write_csv(rows):
     write_header = not os.path.exists(CSV_FILE)
 
     with open(CSV_FILE, "a", newline="", encoding="utf-8") as f:
@@ -71,32 +73,22 @@ def write_csv(rows: list[dict]):
         writer.writerows(rows)
 
 
-def write_json(rows: list[dict]):
+def write_json(rows):
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(rows, f, indent=2, ensure_ascii=False)
 
 # ================= SCRAPERS =================
 
-def scrape_view_page() -> list[dict]:
-    """
-    Scrapes the PIB listing page.
-    Extracts ONLY:
-    - id (PRID)
-    - ministry
-    - title (FULL, untouched)
-    - detail_page
-    """
-
+def scrape_view_page():
+    logging.info("Fetching PIB listing page")
     r = requests.get(URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
 
+    soup = BeautifulSoup(r.text, "html.parser")
     results = []
 
-    # PIB structure: <h3 class="font104">Ministry</h3> + <ul>...</ul>
     for h3 in soup.find_all("h3", class_="font104"):
         ministry = h3.get_text(strip=True)
-
         ul = h3.find_next_sibling("ul")
         if not ul:
             continue
@@ -108,31 +100,25 @@ def scrape_view_page() -> list[dict]:
             if not prid:
                 continue
 
-            title = a.get_text(strip=True)  # DO NOT TOUCH THIS
-
             results.append({
                 "id": prid,
                 "ministry": ministry,
-                "title": title,
+                "title": a.get_text(strip=True),  # DO NOT MODIFY
                 "detail_page": detail_page
             })
 
+    logging.info("Found %d total releases on listing page", len(results))
     return results
 
 
-def scrape_detail_page(url: str) -> tuple[str, str | None]:
-    """
-    Scrapes detail page.
-    Returns:
-    - content (full text)
-    - date (DD MMM YYYY)
-    """
-
+def scrape_detail_page(url):
+    logging.debug("Fetching detail page: %s", url)
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
 
+    soup = BeautifulSoup(r.text, "html.parser")
     content_div = soup.select_one("div.content-area")
+
     content = (
         content_div.get_text("\n", strip=True)
         if content_div
@@ -145,21 +131,25 @@ def scrape_detail_page(url: str) -> tuple[str, str | None]:
 # ================= MAIN =================
 
 def main():
-    existing_ids = load_existing_ids()
-    view_items = scrape_view_page()
+    ensure_data_dir()
 
+    existing_ids = load_existing_ids()
+    logging.info("Loaded %d existing IDs", len(existing_ids))
+
+    view_items = scrape_view_page()
     new_entries = []
 
     for item in view_items:
         if item["id"] in existing_ids:
             continue
 
+        logging.info("New entry detected: %s", item["id"])
         content, date = scrape_detail_page(item["detail_page"])
 
         row = {
             "id": item["id"],
             "ministry": item["ministry"],
-            "title": item["title"],           # FULL TITLE, UNTOUCHED
+            "title": item["title"],
             "detail_page": item["detail_page"],
             "date": date,
             "content": content,
@@ -171,9 +161,11 @@ def main():
         time.sleep(REQUEST_DELAY)
 
     if new_entries:
+        logging.info("Writing %d new entries", len(new_entries))
         write_csv(new_entries)
         write_json(new_entries)
     else:
+        logging.info("No new entries found")
         write_json([])
 
 
