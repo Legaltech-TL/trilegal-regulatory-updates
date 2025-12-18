@@ -49,8 +49,11 @@ def slugify_title(title, max_words=8, max_chars=80):
     slug = "-".join(words)
     return slug[:max_chars].rstrip("-")
 
-def generate_pdf_filename(title):
-    return f"saras_{slugify_title(title)}.pdf"
+def generate_pdf_filename(title, record_id):
+    slug = slugify_title(title)
+    suffix = record_id[-8:]   # last 8 chars of SHA1
+    return f"saras_{slug}_{suffix}.pdf"
+
 
 # ================= LOAD EXISTING =================
 
@@ -167,3 +170,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
