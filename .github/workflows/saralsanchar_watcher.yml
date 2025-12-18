@@ -40,7 +40,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y xvfb
-          xvfb-run -a python saralsanchar_playwright_watcher.py
+          xvfb-run -a python saralsanchar_watcher.py
 
 
       - name: Commit and push changes
