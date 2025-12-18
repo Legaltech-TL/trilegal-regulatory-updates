@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: sebi-hourly
-  cancel-in-progress: true
+  cancel-in-progress: false   # IMPORTANT: do NOT cancel running jobs
 
 jobs:
   scrape:
@@ -56,14 +56,17 @@ jobs:
       - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git pull --rebase origin "${{ github.ref_name }}" || true
-          git add data/sebi_master.csv data/sebi_new_entries.json || true
+          echo "Pulling latest changes..."
+          git pull origin "${{ github.ref_name }}" --rebase
+
+          echo "Staging data files..."
+          git add data/sebi_master.csv data/sebi_new_entries.json
 
           if ! git diff --cached --quiet; then
             git commit -m "chore: update SEBI data (scheduled)"
-            git push origin HEAD:${{ github.ref_name }}
+            git push origin "${{ github.ref_name }}"
           else
-            echo "No changes detected"
+            echo "No changes detected. Skipping commit."
           fi
