@@ -13,8 +13,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: mha-whats-new
-  cancel-in-progress: true
+  group: regulatory-updates
+  cancel-in-progress: false
 
 jobs:
   scrape:
