@@ -78,26 +78,27 @@ def load_existing_ids():
 # ============================================================
 
 def fetch_html_via_browser(page, license_code):
-    """
-    Executes fetch() INSIDE browser JS context.
-    This is the key to bypass CI blocking.
-    """
     logging.info("Fetching backend HTML for license: %s", license_code)
 
     html = page.evaluate(
         """
-        async ({endpoint, license}) => {
+        async ({ endpoint, license }) => {
             const resp = await fetch(endpoint, {
                 method: "POST",
+                credentials: "same-origin",
                 headers: {
-                    "Content-Type": "application/x-www-form-urlencoded"
+                    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+                    "X-Requested-With": "XMLHttpRequest"
                 },
                 body: "circular_type=" + encodeURIComponent(license)
             });
             return await resp.text();
         }
         """,
-        {"endpoint": XHR_ENDPOINT, "license": license_code}
+        {
+            "endpoint": "https://saralsanchar.gov.in/common/get_circular_list.php",
+            "license": license_code
+        }
     )
 
     return html
@@ -223,3 +224,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
