@@ -38,7 +38,7 @@ jobs:
 
       - name: Run Saral Sanchar Playwright watcher
         run: |
-          python saralsanchar_playwright_watcher.py
+          python saralsanchar_watcher.py
 
       - name: Commit and push changes
         run: |
