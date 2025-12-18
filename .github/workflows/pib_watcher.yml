@@ -9,6 +9,11 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: regulatory-updates
+  cancel-in-progress: false
+
+
 jobs:
   run-pib-watcher:
     runs-on: ubuntu-latest
