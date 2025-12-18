@@ -1,4 +1,4 @@
-name: SARAS Latest Updates Watcher
+name: SARAS Updates Watcher
 
 on:
   schedule:
