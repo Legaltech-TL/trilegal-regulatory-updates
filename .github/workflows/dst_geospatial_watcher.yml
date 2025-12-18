@@ -8,6 +8,10 @@ on:
     - cron: "30 3 * * *"   # Runs once daily at 09:00 IST
   workflow_dispatch:
 
+concurrency:
+  group: regulatory-updates
+  cancel-in-progress: false
+
 jobs:
   run-watcher:
     runs-on: ubuntu-latest
