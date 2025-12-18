@@ -1,5 +1,20 @@
 {
-  "generated_at": "2025-12-17T09:03:02.473145Z",
-  "count": 0,
-  "items": []
+  "generated_at": "2025-12-18T04:08:48.758763Z",
+  "count": 2,
+  "items": [
+    {
+      "id": 31,
+      "pdf_filename": "DoT_OM_dated_17122025-1_1.pdf",
+      "title": "Appointment of Shri Taranjeet Singh, IP&TAFS Group A , as Additional Private Secretary to Honourable Minister of Information & Broadcasting on formal/deputation basis-reg",
+      "publish_date": "12/17/2025",
+      "pdf_url": "https://dot.gov.in/sites/default/files/DoT%20OM%20dated%2017122025-1%20%281%29.pdf?download=1"
+    },
+    {
+      "id": 32,
+      "pdf_filename": "DoT_e-services_CBuD_Notification_1.pdf",
+      "title": "Gazette Notification of the Telecom e-Services Portal including the CBuD Mobile App as the portal in DoT website",
+      "publish_date": "12/17/2025",
+      "pdf_url": "https://dot.gov.in/sites/default/files/DoT%20e-services%20CBuD%20Notification%20%281%29.pdf?download=1"
+    }
+  ]
 }
