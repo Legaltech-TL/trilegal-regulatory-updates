@@ -1,0 +1,52 @@
+name: Saral Sanchar Watcher
+
+on:
+  schedule:
+    # 11:30 AM IST (UTC +5:30)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regulatory-updates
+  cancel-in-progress: false
+
+jobs:
+  saralsanchar-watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run Saral Sanchar watcher
+        run: |
+          python saralsanchar_watcher.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git status
+
+          # Detect tracked + untracked changes
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit"
+          else
+            git add data/saralsanchar_master.csv data/saralsanchar_new_entries.json
+            git commit -m "Saral Sanchar update: Circulars & Orders"
+            git push
+          fi
