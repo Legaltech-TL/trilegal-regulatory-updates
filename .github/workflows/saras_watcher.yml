@@ -2,8 +2,8 @@ name: SARAS Latest Updates Watcher
 
 on:
   schedule:
-    # 11:30 AM IST (UTC +5:30)
-    - cron: '0 6 * * *'
+    # 12:30 AM IST (UTC +5:30)
+    - cron: '0 7 * * *'
   workflow_dispatch:
 
 permissions:
