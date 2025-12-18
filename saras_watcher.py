@@ -108,7 +108,7 @@ def fetch_latest_updates():
             "id": record_id,
             "title": title,
             "pdf_link": pdf_link,
-            "pdf_filename": generate_pdf_filename(title),
+            "pdf_filename": generate_pdf_filename(title,record_id),
             "file_size": file_size,
             "source_page": BASE_URL,
             "scraped_at": now_iso(),
@@ -170,4 +170,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
