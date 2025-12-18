@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: sebi-hourly
-  cancel-in-progress: false   # IMPORTANT: do NOT cancel running jobs
+  group: regulatory-updates
+  cancel-in-progress: false
 
 jobs:
   scrape:
