@@ -81,9 +81,15 @@ def scrape_with_playwright():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled"]
+            headless=False,
+            slow_mo=100,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-setuid-sandbox"
+            ]
         )
+
         context = browser.new_context()
         page = context.new_page()
 
@@ -224,3 +230,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
