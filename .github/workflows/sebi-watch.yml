@@ -53,20 +53,29 @@ jobs:
         run: |
           python sebi_multi_section_scraper.py
 
-      - name: Commit and push data
+      - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          echo "Pulling latest changes..."
+      
+      - name: Pull latest changes
+        run: |
           git pull origin "${{ github.ref_name }}" --rebase
-
-          echo "Staging data files..."
+      
+      - name: Run SEBI scraper
+        env:
+          PYTHONUNBUFFERED: 1
+          PLAYWRIGHT_BROWSERS_PATH: 0
+        run: |
+          python sebi_multi_section_scraper.py
+      
+      - name: Commit and push data
+        run: |
           git add data/sebi_master.csv data/sebi_new_entries.json
-
+      
           if ! git diff --cached --quiet; then
             git commit -m "chore: update SEBI data (scheduled)"
             git push origin "${{ github.ref_name }}"
           else
-            echo "No changes detected. Skipping commit."
+            echo "No changes detected"
           fi
