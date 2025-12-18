@@ -15,8 +15,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: irdai-watcher
-  cancel-in-progress: true
+  group: regulatory-updates
+  cancel-in-progress: false
 
 jobs:
   scrape:
