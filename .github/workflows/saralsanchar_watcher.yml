@@ -1,8 +1,8 @@
-name: Saral Sanchar Circulars Watcher (Playwright)
+name: Saral Sanchar Circulars Watcher (XHR via Playwright)
 
 on:
   schedule:
-    # Runs at 11:30 AM IST (UTC +5:30)
+    # 11:30 AM IST (UTC +5:30)
     - cron: '0 6 * * *'
   workflow_dispatch:
 
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   saralsanchar-watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -30,41 +30,37 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
+          pip install playwright beautifulsoup4
 
       - name: Install Playwright Chromium
         run: |
           playwright install chromium
 
-      - name: Run Saral Sanchar watcher (headed via Xvfb)
+      - name: Run Saral Sanchar XHR watcher
         run: |
-          sudo apt-get update
-          sudo apt-get install -y xvfb
-          xvfb-run -a python saralsanchar_watcher.py
-
+          python saralsanchar_watcher.py
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-      
+
           git status
-      
-          # Add files ONLY if they exist
+
           files_to_add=""
           [ -f data/saralsanchar_master.csv ] && files_to_add="$files_to_add data/saralsanchar_master.csv"
           [ -f data/saralsanchar_new_entries.json ] && files_to_add="$files_to_add data/saralsanchar_new_entries.json"
-      
+
           if [[ -z "$files_to_add" ]]; then
             echo "No output files to commit"
             exit 0
           fi
-      
+
           git add $files_to_add
-      
+
           if [[ -z "$(git status --porcelain)" ]]; then
             echo "No changes to commit"
           else
-            git commit -m "Saral Sanchar update: Circulars & Orders"
+            git commit -m "Saral Sanchar update: Circulars & Orders (XHR)"
             git push
           fi
