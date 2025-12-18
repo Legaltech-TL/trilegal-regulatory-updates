@@ -3,10 +3,10 @@ name: FIU India Compliance Orders Watcher
 on:
   schedule:
     # GitHub cron uses UTC
-    # 08:00 IST  -> 02:30 UTC
-    # 20:00 IST  -> 14:30 UTC
-    - cron: '30 2 * * *'
-    - cron: '30 14 * * *'
+    # 10:00 IST  -> 04:30 UTC
+    # 19:00 IST  -> 13:30 UTC
+    - cron: '30 4 * * *'
+    - cron: '30 13 * * *'
   workflow_dispatch:
 
 permissions:
