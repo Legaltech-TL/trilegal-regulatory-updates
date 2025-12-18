@@ -101,16 +101,21 @@ def scrape_with_playwright():
                 # Click Get List
                 page.click("#Submit")
 
-                # Wait for table rows to load
-                page.wait_for_selector(
-                    "table tbody tr",
-                    timeout=30000
-                )
+               # Wait for DataTables AJAX + render to settle
+                page.wait_for_load_state("networkidle", timeout=45000)
+
+                # Small buffer for DOM paint (CI needs this)
+                page.wait_for_timeout(2000)
+
 
                 # Small buffer for DataTables render
                 time.sleep(1.5)
 
-                rows = page.query_selector_all("table tbody tr")
+                rows = [
+                    r for r in page.query_selector_all("table tbody tr")
+                    if r.is_visible()
+                ]
+                logging.info(    "Extracted %d visible rows for %s",    len(rows),    license_code)
                 logging.info("Found %d rows for %s", len(rows), license_code)
 
                 for row in rows:
@@ -221,3 +226,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
