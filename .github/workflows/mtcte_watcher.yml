@@ -1,0 +1,52 @@
+name: MTCTE WhatsNew Watcher
+
+on:
+  schedule:
+    # 11:30 IST (UTC +5:30)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regulatory-updates
+  cancel-in-progress: false
+
+jobs:
+  mtcte-watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright beautifulsoup4
+          playwright install chromium
+
+      - name: Run MTCTE watcher
+        run: |
+          python mtcte_watcher.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git status
+
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add data/mtcte_master.csv data/mtcte_new_entries.json
+            git commit -m "MTCTE update: Whats New watcher"
+            git push
+          fi
