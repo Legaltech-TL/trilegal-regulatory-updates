@@ -36,9 +36,12 @@ jobs:
         run: |
           playwright install chromium
 
-      - name: Run Saral Sanchar Playwright watcher
+      - name: Run Saral Sanchar watcher (headed via Xvfb)
         run: |
-          python saralsanchar_watcher.py
+          sudo apt-get update
+          sudo apt-get install -y xvfb
+          xvfb-run -a python saralsanchar_playwright_watcher.py
+
 
       - name: Commit and push changes
         run: |
