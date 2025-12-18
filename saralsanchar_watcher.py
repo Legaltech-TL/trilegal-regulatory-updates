@@ -3,7 +3,6 @@ import json
 import logging
 import os
 import re
-import time
 from datetime import datetime, timezone
 from urllib.parse import urljoin, urlparse, parse_qs
 
@@ -74,7 +73,7 @@ def load_existing_ids():
         return {row["id"] for row in csv.DictReader(f)}
 
 # ============================================================
-# PLAYWRIGHT SCRAPER
+# PLAYWRIGHT SCRAPER (CONTENT-BASED WAIT)
 # ============================================================
 
 def scrape_with_playwright():
@@ -101,22 +100,23 @@ def scrape_with_playwright():
                 # Click Get List
                 page.click("#Submit")
 
-               # Wait for DataTables AJAX + render to settle
-                page.wait_for_load_state("networkidle", timeout=45000)
+                # 🔥 ONLY RELIABLE WAIT: wait for real row content
+                page.wait_for_function(
+                    """
+                    () => {
+                        const rows = document.querySelectorAll("table tbody tr");
+                        if (!rows || rows.length === 0) return false;
 
-                # Small buffer for DOM paint (CI needs this)
-                page.wait_for_timeout(2000)
+                        return Array.from(rows).some(r =>
+                            r.innerText && r.innerText.trim().length > 0
+                        );
+                    }
+                    """,
+                    timeout=60000
+                )
 
-
-                # Small buffer for DataTables render
-                time.sleep(1.5)
-
-                rows = [
-                    r for r in page.query_selector_all("table tbody tr")
-                    if r.is_visible()
-                ]
-                logging.info(    "Extracted %d visible rows for %s",    len(rows),    license_code)
-                logging.info("Found %d rows for %s", len(rows), license_code)
+                rows = page.query_selector_all("table tbody tr")
+                logging.info("Extracted %d rows for %s", len(rows), license_code)
 
                 for row in rows:
                     cols = row.query_selector_all("td")
@@ -159,9 +159,6 @@ def scrape_with_playwright():
                     license_code
                 )
                 continue
-
-            # Defensive reset before next license
-            time.sleep(1)
 
         browser.close()
 
@@ -209,6 +206,7 @@ def main():
     logging.info("Loaded %d existing Saral Sanchar records", len(existing_ids))
 
     scraped = scrape_with_playwright()
+    logging.info("Total scraped rows: %d", len(scraped))
 
     new_items = [i for i in scraped if i["id"] not in existing_ids]
 
@@ -226,4 +224,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
