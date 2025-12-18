@@ -3,12 +3,10 @@ name: IRDAI Regulatory Watcher
 on:
   schedule:
     # GitHub cron uses UTC
-    # 02:30 IST
-    - cron: '0 21 * * *'
-    # 10:30 IST
-    - cron: '0 5 * * *'
-    # 18:30 IST
-    - cron: '0 13 * * *'
+    # 11:00 IST
+    - cron: '30 5 * * *'
+    # 17:30 IST
+    - cron: '0 12 * * *'
   workflow_dispatch: {}
 
 permissions:
