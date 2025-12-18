@@ -5,7 +5,7 @@ on:
     # GitHub cron uses UTC
     # 03:30 UTC = 09:00 IST
     # 13:30 UTC = 19:00 IST
-    - cron: '30 2 * * *'
+    - cron: '00 2 * * *'
     - cron: '30 12 * * *'
   workflow_dispatch: {}
 
