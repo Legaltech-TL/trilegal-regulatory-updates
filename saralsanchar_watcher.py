@@ -9,24 +9,15 @@ from urllib.parse import urljoin, urlparse, parse_qs
 import requests
 from bs4 import BeautifulSoup
 
-# ================= CONFIG =================
+# ============================================================
+# CONFIG
+# ============================================================
 
 BASE_PAGE = "https://saralsanchar.gov.in/circulars_order.php"
 POST_URL = "https://saralsanchar.gov.in/common/get_circular_list.php"
 BASE_DOMAIN = "https://saralsanchar.gov.in"
 
 LICENSES = ["UL", "UL_VNO", "WPC", "SACFA", "WANI", "M2M"]
-
-DATA_DIR = "data"
-MASTER_CSV = os.path.join(DATA_DIR, "saralsanchar_master.csv")
-NEW_JSON = os.path.join(DATA_DIR, "saralsanchar_new_entries.json")
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Regulatory Watcher; SaralSanchar)",
-    "Accept": "*/*",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "Referer": BASE_PAGE,
-}
 
 LICENSE_MAP = {
     "UL": "Unified License",
@@ -37,14 +28,33 @@ LICENSE_MAP = {
     "M2M": "Machine-to-Machine (M2M)",
 }
 
-# ================= LOGGING =================
+DATA_DIR = "data"
+MASTER_CSV = os.path.join(DATA_DIR, "saralsanchar_master.csv")
+NEW_JSON = os.path.join(DATA_DIR, "saralsanchar_new_entries.json")
+
+# ⚠️ MINIMAL, BROWSER-LIKE HEADERS (CRITICAL)
+SESSION_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/143.0.0.0 Safari/537.36"
+    ),
+    "Accept": "*/*",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+# ============================================================
+# LOGGING
+# ============================================================
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
 )
 
-# ================= UTIL =================
+# ============================================================
+# UTILITIES
+# ============================================================
 
 def ensure_dirs():
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -61,12 +71,16 @@ def slugify(text, max_words=8, max_chars=80):
 
 def generate_pdf_filename(license_code, title, doc_id):
     license_full = LICENSE_MAP.get(license_code, license_code)
-    license_slug = slugify(license_full)
-    title_slug = slugify(title)
-    return f"saralsanchar_{license_slug}_{title_slug}_{doc_id}.pdf"
+    return (
+        f"saralsanchar_"
+        f"{slugify(license_full)}_"
+        f"{slugify(title)}_"
+        f"{doc_id}.pdf"
+    )
 
-
-# ================= LOAD EXISTING =================
+# ============================================================
+# LOAD EXISTING
+# ============================================================
 
 def load_existing_ids():
     if not os.path.exists(MASTER_CSV):
@@ -75,7 +89,9 @@ def load_existing_ids():
     with open(MASTER_CSV, newline="", encoding="utf-8") as f:
         return {row["id"] for row in csv.DictReader(f)}
 
-# ================= FETCH =================
+# ============================================================
+# FETCH LOGIC (XHR BACKEND)
+# ============================================================
 
 def fetch_for_license(session, license_code):
     logging.info("Fetching circulars for license: %s", license_code)
@@ -84,7 +100,7 @@ def fetch_for_license(session, license_code):
         "circular_type": license_code
     }
 
-    r = session.post(POST_URL, data=payload, headers=HEADERS, timeout=30)
+    r = session.post(POST_URL, data=payload, timeout=30)
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
@@ -109,7 +125,6 @@ def fetch_for_license(session, license_code):
 
         parsed = urlparse(pdf_href)
         f_param = parse_qs(parsed.query).get("f", [""])[0]
-
         if not f_param:
             continue
 
@@ -129,7 +144,9 @@ def fetch_for_license(session, license_code):
     logging.info("Found %d entries for %s", len(results), license_code)
     return results
 
-# ================= SAVE =================
+# ============================================================
+# SAVE
+# ============================================================
 
 def append_to_master(rows):
     exists = os.path.exists(MASTER_CSV)
@@ -158,7 +175,9 @@ def write_new_entries(rows):
     with open(NEW_JSON, "w", encoding="utf-8") as f:
         json.dump(rows, f, indent=2, ensure_ascii=False)
 
-# ================= MAIN =================
+# ============================================================
+# MAIN
+# ============================================================
 
 def main():
     ensure_dirs()
@@ -166,11 +185,13 @@ def main():
     existing_ids = load_existing_ids()
     logging.info("Loaded %d existing Saral Sanchar records", len(existing_ids))
 
+    # ✅ Session-based browsing (MANDATORY)
     session = requests.Session()
+    session.headers.update(SESSION_HEADERS)
 
-    # 🔥 REQUIRED: establish session & cookies
+    # 🔥 SESSION WARM-UP (ABSOLUTELY REQUIRED)
     logging.info("Initializing session with base page")
-    session.get(BASE_PAGE, headers=HEADERS, timeout=30)
+    session.get(BASE_PAGE, timeout=30)
 
     all_new = []
 
@@ -193,4 +214,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
