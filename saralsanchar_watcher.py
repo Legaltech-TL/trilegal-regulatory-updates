@@ -6,7 +6,8 @@ import re
 from datetime import datetime, timezone
 from urllib.parse import urljoin, urlparse, parse_qs
 
-from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 # ============================================================
 # CONFIG
@@ -14,6 +15,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 BASE_URL = "https://saralsanchar.gov.in/circulars_order.php"
 BASE_DOMAIN = "https://saralsanchar.gov.in"
+XHR_ENDPOINT = "/common/get_circular_list.php"
 
 LICENSES = ["UL", "UL_VNO", "WPC", "SACFA", "WANI", "M2M"]
 
@@ -68,107 +70,81 @@ def generate_pdf_filename(license_code, title, doc_id):
 def load_existing_ids():
     if not os.path.exists(MASTER_CSV):
         return set()
-
     with open(MASTER_CSV, newline="", encoding="utf-8") as f:
         return {row["id"] for row in csv.DictReader(f)}
 
 # ============================================================
-# PLAYWRIGHT SCRAPER (CONTENT-BASED WAIT)
+# CORE SCRAPER (XHR via page.evaluate)
 # ============================================================
 
-def scrape_with_playwright():
-    results = []
+def fetch_html_via_browser(page, license_code):
+    """
+    Executes fetch() INSIDE browser JS context.
+    This is the key to bypass CI blocking.
+    """
+    logging.info("Fetching backend HTML for license: %s", license_code)
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=False,
-            slow_mo=100,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox",
-                "--disable-setuid-sandbox"
-            ]
-        )
+    html = page.evaluate(
+        """
+        async ({endpoint, license}) => {
+            const resp = await fetch(endpoint, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: "circular_type=" + encodeURIComponent(license)
+            });
+            return await resp.text();
+        }
+        """,
+        {"endpoint": XHR_ENDPOINT, "license": license_code}
+    )
 
-        context = browser.new_context()
-        page = context.new_page()
+    return html
 
-        logging.info("Opening Saral Sanchar page")
-        page.goto(BASE_URL, wait_until="domcontentloaded", timeout=60000)
+def parse_html(html, license_code):
+    soup = BeautifulSoup(html, "html.parser")
+    rows = soup.select("table tbody tr")
 
-        for license_code in LICENSES:
-            logging.info("Processing license: %s", license_code)
+    records = []
 
-            try:
-                # Select license
-                page.select_option("#circular_type", license_code)
+    for row in rows:
+        cols = row.find_all("td")
+        if len(cols) < 4:
+            continue
 
-                # Click Get List
-                page.click("#Submit")
+        date = cols[1].get_text(strip=True)
+        title = cols[2].get_text(strip=True)
 
-                # 🔥 ONLY RELIABLE WAIT: wait for real row content
-                page.wait_for_function(
-                    """
-                    () => {
-                        const rows = document.querySelectorAll("table tbody tr");
-                        if (!rows || rows.length === 0) return false;
+        link = cols[3].find("a", href=True)
+        if not link:
+            continue
 
-                        return Array.from(rows).some(r =>
-                            r.innerText && r.innerText.trim().length > 0
-                        );
-                    }
-                    """,
-                    timeout=60000
-                )
+        pdf_href = link["href"].strip()
+        pdf_link = urljoin(BASE_DOMAIN, pdf_href)
 
-                rows = page.query_selector_all("table tbody tr")
-                logging.info("Extracted %d rows for %s", len(rows), license_code)
+        parsed = urlparse(pdf_href)
+        f_param = parse_qs(parsed.query).get("f", [""])[0]
+        if not f_param:
+            continue
 
-                for row in rows:
-                    cols = row.query_selector_all("td")
-                    if len(cols) < 4:
-                        continue
+        record_id = f"{license_code}_{f_param}"
 
-                    date = cols[1].inner_text().strip()
-                    title = cols[2].inner_text().strip()
+        records.append({
+            "id": record_id,
+            "license": LICENSE_MAP.get(license_code, license_code),
+            "date": date,
+            "title": title,
+            "pdf_link": pdf_link,
+            "pdf_filename": generate_pdf_filename(
+                license_code, title, f_param
+            ),
+            "source_page": BASE_URL,
+            "scraped_at": now_iso(),
+        })
 
-                    link_el = cols[3].query_selector("a[href]")
-                    if not link_el:
-                        continue
-
-                    pdf_href = link_el.get_attribute("href")
-                    pdf_link = urljoin(BASE_DOMAIN, pdf_href)
-
-                    parsed = urlparse(pdf_href)
-                    f_param = parse_qs(parsed.query).get("f", [""])[0]
-                    if not f_param:
-                        continue
-
-                    record_id = f"{license_code}_{f_param}"
-
-                    results.append({
-                        "id": record_id,
-                        "license": LICENSE_MAP.get(license_code, license_code),
-                        "date": date,
-                        "title": title,
-                        "pdf_link": pdf_link,
-                        "pdf_filename": generate_pdf_filename(
-                            license_code, title, f_param
-                        ),
-                        "source_page": BASE_URL,
-                        "scraped_at": now_iso(),
-                    })
-
-            except PWTimeout:
-                logging.warning(
-                    "Timeout while processing license %s — skipping",
-                    license_code
-                )
-                continue
-
-        browser.close()
-
-    return results
+    logging.info("Parsed %d rows for %s", len(records), license_code)
+    return records
 
 # ============================================================
 # SAVE
@@ -211,10 +187,27 @@ def main():
     existing_ids = load_existing_ids()
     logging.info("Loaded %d existing Saral Sanchar records", len(existing_ids))
 
-    scraped = scrape_with_playwright()
-    logging.info("Total scraped rows: %d", len(scraped))
+    all_scraped = []
 
-    new_items = [i for i in scraped if i["id"] not in existing_ids]
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"]
+        )
+        context = browser.new_context()
+        page = context.new_page()
+
+        logging.info("Opening Saral Sanchar page")
+        page.goto(BASE_URL, wait_until="domcontentloaded", timeout=60000)
+
+        for license_code in LICENSES:
+            html = fetch_html_via_browser(page, license_code)
+            records = parse_html(html, license_code)
+            all_scraped.extend(records)
+
+        browser.close()
+
+    new_items = [r for r in all_scraped if r["id"] not in existing_ids]
 
     if not new_items:
         logging.info("No new Saral Sanchar circulars found")
@@ -230,4 +223,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
