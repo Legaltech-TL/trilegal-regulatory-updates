@@ -8,6 +8,8 @@ on:
 permissions:
   contents: write
 
+# IMPORTANT:
+# All scrapers that commit to this repo MUST use the same group
 concurrency:
   group: regulatory-updates
   cancel-in-progress: false
@@ -17,16 +19,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout full history
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # 2️⃣ Ensure absolutely clean working tree
+      - name: Ensure clean git state
+        run: |
+          git reset --hard
+          git clean -fd
+
+      # 3️⃣ Configure git identity
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # 4️⃣ Pull latest main safely (no dirty tree possible)
+      - name: Pull latest changes
+        run: |
+          git pull origin "${{ github.ref_name }}" --rebase
+
+      # 5️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
+      # 6️⃣ Cache pip
       - name: Cache pip
         uses: actions/cache@v4
         with:
@@ -35,17 +57,20 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
+      # 7️⃣ Install Python dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r sebi_requirements.txt
 
+      # 8️⃣ Install Playwright Chromium
       - name: Install Playwright Chromium
         env:
           PLAYWRIGHT_BROWSERS_PATH: 0
         run: |
           python -m playwright install chromium --with-deps
 
+      # 9️⃣ Run SEBI scraper
       - name: Run SEBI scraper
         env:
           PYTHONUNBUFFERED: 1
@@ -53,29 +78,14 @@ jobs:
         run: |
           python sebi_multi_section_scraper.py
 
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      
-      - name: Pull latest changes
-        run: |
-          git pull origin "${{ github.ref_name }}" --rebase
-      
-      - name: Run SEBI scraper
-        env:
-          PYTHONUNBUFFERED: 1
-          PLAYWRIGHT_BROWSERS_PATH: 0
-        run: |
-          python sebi_multi_section_scraper.py
-      
+      # 🔟 Commit and push ONLY if data changed
       - name: Commit and push data
         run: |
           git add data/sebi_master.csv data/sebi_new_entries.json
-      
+
           if ! git diff --cached --quiet; then
             git commit -m "chore: update SEBI data (scheduled)"
             git push origin "${{ github.ref_name }}"
           else
-            echo "No changes detected"
+            echo "No changes detected. Nothing to commit."
           fi
