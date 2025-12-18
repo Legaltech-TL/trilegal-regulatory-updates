@@ -168,6 +168,10 @@ def main():
 
     session = requests.Session()
 
+    # 🔥 REQUIRED: establish session & cookies
+    logging.info("Initializing session with base page")
+    session.get(BASE_PAGE, headers=HEADERS, timeout=30)
+
     all_new = []
 
     for license_code in LICENSES:
@@ -189,3 +193,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
