@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: regulatory-updates
+  cancel-in-progress: false
+
 jobs:
   run-dot-watch:
     runs-on: ubuntu-latest
