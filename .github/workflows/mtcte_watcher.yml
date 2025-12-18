@@ -40,13 +40,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
+      
           git status
-
-          if git diff --quiet; then
+      
+          # Check for ANY changes (tracked or untracked)
+          if [[ -z "$(git status --porcelain)" ]]; then
             echo "No changes to commit"
           else
             git add data/mtcte_master.csv data/mtcte_new_entries.json
             git commit -m "MTCTE update: Whats New watcher"
             git push
           fi
+
