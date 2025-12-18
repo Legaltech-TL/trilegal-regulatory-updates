@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write   # required to commit CSV/JSON updates
 
+concurrency:
+  group: regulatory-updates
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
