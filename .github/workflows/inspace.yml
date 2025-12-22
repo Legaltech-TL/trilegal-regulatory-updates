@@ -27,7 +27,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install playwright==1.49.0
           playwright install chromium
 
       - name: Run IN-SPACe watcher
