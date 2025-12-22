@@ -2,14 +2,16 @@ name: IN-SPACe Watcher
 
 on:
   schedule:
-    - cron: "30 2,14 * * *"
+    - cron: "30 19 * * *"  # 1:00 AM IST
+    - cron: "45 0 * * *"   # 6:15 AM IST
   workflow_dispatch:
+
 
 permissions:
   contents: write
 
 concurrency:
-  group: inspace-watcher
+  group: regulatory-updates
   cancel-in-progress: false
 
 jobs:
