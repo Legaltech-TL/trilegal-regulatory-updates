@@ -1,4 +1,4 @@
-name: Saral Sanchar Circulars Watcher (XHR via Playwright)
+name: Saral Sanchar Circulars Watcher
 
 on:
   schedule:
