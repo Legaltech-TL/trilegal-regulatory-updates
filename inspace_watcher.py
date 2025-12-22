@@ -3,23 +3,24 @@
 IN-SPACe Watcher – FINAL (Press Releases + Publications)
 
 ✔ Playwright (Chrome channel)
-✔ Handles dynamic accordion (Publications)
+✔ Accordion handling for Publications
 ✔ CSV + JSON
 ✔ Change detection via hash
+✔ pdf_filename extracted
 ✔ GitHub Actions safe
-✔ Never crashes on partial failures
 
 Author: Bhanu Tak
 """
 
 # ===================== IMPORTS =====================
-from playwright.sync_api import sync_playwright, TimeoutError
+from playwright.sync_api import sync_playwright
 from pathlib import Path
 from datetime import datetime
 import hashlib
 import csv
 import json
 import logging
+from urllib.parse import urlparse, parse_qs
 
 # ===================== CONFIG =====================
 BASE_URL = "https://www.inspace.gov.in"
@@ -35,7 +36,7 @@ DATA_DIR.mkdir(exist_ok=True)
 MASTER_CSV = DATA_DIR / "inspace_master.csv"
 NEW_JSON   = DATA_DIR / "inspace_new_entries.json"
 
-MAX_PRESS_ITEMS = 10   # top N only
+MAX_PRESS_ITEMS = 10
 
 # ===================== LOGGING =====================
 logging.basicConfig(
@@ -46,6 +47,21 @@ logging.basicConfig(
 # ===================== HELPERS =====================
 def make_id(text: str) -> str:
     return hashlib.sha1(text.encode("utf-8")).hexdigest()
+
+def extract_pdf_filename(url: str | None) -> str:
+    if not url:
+        return ""
+    parsed = urlparse(url)
+
+    # ServiceNow attachment
+    if "sys_attachment.do" in parsed.path:
+        qs = parse_qs(parsed.query)
+        sys_id = qs.get("sys_id", [""])[0]
+        return f"{sys_id}.pdf" if sys_id else ""
+
+    # Normal file URL
+    name = Path(parsed.path).name
+    return name if name.lower().endswith(".pdf") else ""
 
 def load_existing_ids():
     ids = set()
@@ -71,43 +87,39 @@ def scrape_press_releases(page, url):
     page.goto(url, wait_until="networkidle", timeout=45000)
     page.wait_for_selector(".releases-list", timeout=30000)
 
-    container = page.locator(".releases-list")
-    cards = container.locator(".release-item")
-
+    cards = page.locator(".releases-list .release-item")
     count = min(cards.count(), MAX_PRESS_ITEMS)
-    logging.info(f"Detected {count} press release items")
 
     items = []
 
     for i in range(count):
-        try:
-            card = cards.nth(i)
+        card = cards.nth(i)
 
-            title = card.locator("h3.release-title").inner_text().strip()
-            date  = card.locator(".release-date").inner_text().strip()
+        title = card.locator("h3.release-title").inner_text().strip()
+        date  = card.locator(".release-date").inner_text().strip()
 
-            pdf_link = None
-            if card.locator("a:has-text('Download PDF')").count() > 0:
-                href = card.locator("a:has-text('Download PDF')").get_attribute("href")
-                if href:
-                    pdf_link = BASE_URL + href if href.startswith("/") else href
+        pdf_link = ""
+        if card.locator("a:has-text('Download PDF')").count() > 0:
+            href = card.locator("a:has-text('Download PDF')").get_attribute("href")
+            if href:
+                pdf_link = BASE_URL + href if href.startswith("/") else href
 
-            uid = make_id("press" + title + date)
+        pdf_filename = extract_pdf_filename(pdf_link)
 
-            items.append({
-                "id": uid,
-                "section": "Press Releases",
-                "category": "Press Release",
-                "title": title,
-                "date": date,
-                "meta": "",
-                "pdf_link": pdf_link,
-                "source_page": url,
-                "scraped_at": datetime.utcnow().isoformat()
-            })
+        uid = make_id("press" + title + date)
 
-        except Exception as e:
-            logging.warning(f"Skipping press item {i}: {e}")
+        items.append({
+            "id": uid,
+            "section": "Press Releases",
+            "category": "Press Release",
+            "title": title,
+            "date": date,
+            "meta": "",
+            "pdf_link": pdf_link,
+            "pdf_filename": pdf_filename,
+            "source_page": url,
+            "scraped_at": datetime.utcnow().isoformat()
+        })
 
     logging.info(f"Found {len(items)} items in Press Releases")
     return items
@@ -122,61 +134,48 @@ def scrape_publications(page, url):
     all_items = []
 
     categories = page.locator(".category-block")
-    cat_count = categories.count()
-    logging.info(f"Detected {cat_count} publication categories")
+    logging.info(f"Detected {categories.count()} publication categories")
 
-    for i in range(cat_count):
-        try:
-            category = categories.nth(i)
-            header = category.locator(".category-header")
-            category_title = header.locator("h4").inner_text().strip()
+    for i in range(categories.count()):
+        category = categories.nth(i)
+        header = category.locator(".category-header")
+        category_title = header.locator("h4").inner_text().strip()
 
-            # Open accordion
-            header.click(force=True)
-            page.wait_for_timeout(500)
+        header.click(force=True)
+        page.wait_for_timeout(500)
 
-            doc_list = category.locator("ul.doc-list")
-            if doc_list.count() == 0:
-                continue
+        docs = category.locator("ul.doc-list li")
 
-            docs = doc_list.locator("li")
-            doc_count = docs.count()
-            logging.info(f"{category_title}: {doc_count} documents")
+        for j in range(docs.count()):
+            doc = docs.nth(j)
 
-            for j in range(doc_count):
-                try:
-                    doc = docs.nth(j)
+            link = doc.locator("a.doc-link")
+            title = link.inner_text().strip()
+            href = link.get_attribute("href")
 
-                    link = doc.locator("a.doc-link")
-                    title = link.inner_text().strip()
-                    href = link.get_attribute("href")
+            if href:
+                href = BASE_URL + href if href.startswith("/") else href
 
-                    if href:
-                        href = BASE_URL + href if href.startswith("/") else href
+            meta = ""
+            if doc.locator("p.belowlinetext").count() > 0:
+                meta = doc.locator("p.belowlinetext").inner_text().strip()
 
-                    meta = ""
-                    if doc.locator("p.belowlinetext").count() > 0:
-                        meta = doc.locator("p.belowlinetext").inner_text().strip()
+            pdf_filename = extract_pdf_filename(href)
 
-                    uid = make_id("publication" + category_title + title + (href or ""))
+            uid = make_id("publication" + category_title + title + (href or ""))
 
-                    all_items.append({
-                        "id": uid,
-                        "section": "Publications",
-                        "category": category_title,
-                        "title": title,
-                        "date": "",
-                        "meta": meta,
-                        "pdf_link": href,
-                        "source_page": url,
-                        "scraped_at": datetime.utcnow().isoformat()
-                    })
-
-                except Exception as e:
-                    logging.warning(f"Skipping doc {j} in {category_title}: {e}")
-
-        except Exception as e:
-            logging.warning(f"Skipping category {i}: {e}")
+            all_items.append({
+                "id": uid,
+                "section": "Publications",
+                "category": category_title,
+                "title": title,
+                "date": "",
+                "meta": meta,
+                "pdf_link": href,
+                "pdf_filename": pdf_filename,
+                "source_page": url,
+                "scraped_at": datetime.utcnow().isoformat()
+            })
 
     logging.info(f"Total publications collected: {len(all_items)}")
     return all_items
@@ -190,35 +189,25 @@ def main():
         browser = p.chromium.launch(
             channel="chrome",
             headless=True,
-            args=[
-                "--no-sandbox",
-                "--disable-dev-shm-usage",
-                "--disable-gpu"
-            ]
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
         )
-        context = browser.new_context()
-        page = context.new_page()
+        page = browser.new_page()
 
-        try:
-            press_items = scrape_press_releases(page, PAGES["Press Releases"])
-            for item in press_items:
-                if item["id"] not in existing_ids:
-                    new_entries.append(item)
-                    existing_ids.add(item["id"])
+        for item in scrape_press_releases(page, PAGES["Press Releases"]):
+            if item["id"] not in existing_ids:
+                new_entries.append(item)
+                existing_ids.add(item["id"])
 
-            pub_items = scrape_publications(page, PAGES["Publications"])
-            for item in pub_items:
-                if item["id"] not in existing_ids:
-                    new_entries.append(item)
-                    existing_ids.add(item["id"])
+        for item in scrape_publications(page, PAGES["Publications"]):
+            if item["id"] not in existing_ids:
+                new_entries.append(item)
+                existing_ids.add(item["id"])
 
-        finally:
-            browser.close()
+        browser.close()
 
     if new_entries:
         write_master(new_entries)
-        with open(NEW_JSON, "w", encoding="utf-8") as f:
-            json.dump(new_entries, f, indent=2, ensure_ascii=False)
+        NEW_JSON.write_text(json.dumps(new_entries, indent=2, ensure_ascii=False), encoding="utf-8")
         logging.info(f"✅ {len(new_entries)} new entries saved")
     else:
         NEW_JSON.write_text("[]", encoding="utf-8")
