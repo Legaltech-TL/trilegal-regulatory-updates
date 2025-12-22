@@ -25,10 +25,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Playwright (Python + Chromium)
+      - name: Install Playwright + Chromium (FULL FIX)
         run: |
           pip install playwright==1.49.0
-          python -m playwright install chromium
+          python -m playwright install --with-deps chromium
+
 
       - name: Run IN-SPACe watcher
         run: python inspace_watcher.py
