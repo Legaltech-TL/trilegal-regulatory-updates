@@ -7,6 +7,8 @@ SEBI Multi-Section Scraper (FULL-PROOF)
 ✔ Timeout-tolerant
 ✔ Backward-compatible with old CSVs
 ✔ Never crashes on SEBI slow pages
+✔ Year-only date normalization
+✔ Structured logging
 
 made by BHANU TAK
 """
@@ -25,6 +27,7 @@ import re
 import datetime
 import json
 import time
+import logging
 
 # ===================== CONFIG =====================
 NUM_ENTRIES = 10
@@ -53,6 +56,13 @@ HEADERS = [
     "created_at", "source_commit", "category", "error"
 ]
 
+# ===================== LOGGING =====================
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s",
+)
+logger = logging.getLogger("SEBI-SCRAPER")
+
 # ===================== HELPERS =====================
 def sha_id(*parts):
     return hashlib.sha1("|".join(parts).encode()).hexdigest()
@@ -69,6 +79,21 @@ def safe_filename(text):
     if not text.lower().endswith(".pdf"):
         text += ".pdf"
     return text
+
+def normalize_date(date_str: str) -> str:
+    """
+    If date is only a year (e.g. '2025'), convert to '01-01-2025'
+    Otherwise return as-is.
+    """
+    if not date_str:
+        return ""
+
+    d = date_str.strip()
+
+    if re.fullmatch(r"\d{4}", d):
+        return f"01-01-{d}"
+
+    return d
 
 def load_master():
     if not MASTER_CSV.exists():
@@ -90,7 +115,7 @@ def extract_listing(page, base_url):
         a = tr.query_selector("a")
         if len(tds) >= 2 and a:
             items.append({
-                "date": tds[0].inner_text().strip(),
+                "date": normalize_date(tds[0].inner_text()),
                 "title": a.inner_text().strip(),
                 "link": urljoin(base_url, a.get_attribute("href") or "")
             })
@@ -108,10 +133,12 @@ def find_pdf(page):
 
 # ===================== MAIN =====================
 def main():
+    logger.info("Starting SEBI multi-section scraper")
+
     github_sha = os.getenv("GITHUB_SHA", "")
     master = load_master()
+    logger.info("Loaded %d existing records", len(master))
 
-    # Build safe existing set (NO KeyErrors)
     existing = set()
     for r in master:
         title = (r.get("title") or "").lower().strip()
@@ -135,10 +162,13 @@ def main():
         )
 
         for list_url, category in SECTIONS.items():
+            logger.info("Scraping section: %s", category)
+
             page = context.new_page()
             try:
                 page.goto(list_url, wait_until="domcontentloaded", timeout=30000)
-            except Exception:
+            except Exception as ex:
+                logger.warning("Failed to load list page [%s]: %s", category, ex)
                 page.close()
                 continue
 
@@ -149,6 +179,8 @@ def main():
                 key = (e["title"].lower(), normalize_link(e["link"]))
                 if key in existing:
                     continue
+
+                logger.info("New entry found: %s", e["title"][:80])
 
                 pdf_link = ""
                 error_msg = ""
@@ -163,6 +195,7 @@ def main():
                     pdf_link = find_pdf(detail)
                 except Exception as ex:
                     error_msg = f"detail_timeout: {str(ex)[:160]}"
+                    logger.warning("Detail page failed: %s", e["link"])
                 finally:
                     detail.close()
                     time.sleep(DETAIL_PAGE_DELAY)
@@ -185,6 +218,8 @@ def main():
                 new_entries.append(row)
                 existing.add(key)
 
+            logger.info("Completed section: %s", category)
+
         browser.close()
 
     write_master(master)
@@ -192,7 +227,7 @@ def main():
     with open(NEW_JSON, "w", encoding="utf-8") as f:
         json.dump(new_entries, f, indent=2, ensure_ascii=False)
 
-    print(f"✔ SEBI scrape completed | New entries: {len(new_entries)}")
+    logger.info("SEBI scrape completed | New entries: %d", len(new_entries))
 
 # ===================== ENTRY =====================
 if __name__ == "__main__":
