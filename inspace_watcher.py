@@ -14,6 +14,9 @@ Author: Bhanu Tak
 # ===================== ENV HARDENING =====================
 import os
 os.environ.setdefault("PLAYWRIGHT_BROWSERS_PATH", "0")
+# FORCE Playwright to use bundled Chromium (GH Actions fix)
+os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
+os.environ["PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD"] = "0"
 
 # ===================== IMPORTS =====================
 from playwright.sync_api import sync_playwright, TimeoutError
@@ -108,11 +111,14 @@ def main():
         browser = p.chromium.launch(
             headless=True,
             args=[
-                "--disable-gpu",
                 "--no-sandbox",
-                "--disable-dev-shm-usage"
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--disable-software-rasterizer",
+                "--disable-setuid-sandbox"
             ]
         )
+
         context = browser.new_context()
         page = context.new_page()
 
