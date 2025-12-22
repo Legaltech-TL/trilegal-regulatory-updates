@@ -68,19 +68,33 @@ def write_master(rows):
 # ===================== SCRAPER =====================
 def scrape_page(page, category, url):
     logging.info(f"Scraping {category}")
-    page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT)
+    page.goto(url, wait_until="networkidle", timeout=45000)
+
+    # 🔥 HARD WAIT for dynamic container
+    page.wait_for_selector(".releases-list", timeout=30000)
+
+    container = page.locator(".releases-list")
+    cards = container.locator(".release-item")
+
+    count = cards.count()
+    logging.info(f"Detected {count} raw items in DOM")
 
     items = []
 
-    cards = page.locator(".release-item")
-    count = min(cards.count(), 10)
-
-    for i in range(count):
+    for i in range(min(count, 10)):
         try:
             card = cards.nth(i)
 
-            title = card.locator(".release-title").inner_text().strip()
+            title = card.locator("h3.release-title").inner_text().strip()
             date  = card.locator(".release-date").inner_text().strip()
+
+            pdf_link = None
+            try:
+                pdf_link = card.locator("a:has-text('Download PDF')").get_attribute("href")
+                if pdf_link and pdf_link.startswith("/"):
+                    pdf_link = "https://www.inspace.gov.in" + pdf_link
+            except:
+                pass
 
             uid = make_id(category + title + date)
 
@@ -89,6 +103,7 @@ def scrape_page(page, category, url):
                 "category": category,
                 "title": title,
                 "date": date,
+                "pdf_link": pdf_link,
                 "source_page": url,
                 "scraped_at": datetime.utcnow().isoformat()
             })
