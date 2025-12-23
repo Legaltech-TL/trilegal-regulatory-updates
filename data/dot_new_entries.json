@@ -1,5 +1,20 @@
 {
-  "generated_at": "2025-12-22T09:01:16.061251Z",
-  "count": 0,
-  "items": []
+  "generated_at": "2025-12-23T04:25:53.808861Z",
+  "count": 2,
+  "items": [
+    {
+      "id": 38,
+      "pdf_filename": "TRAI_RR_2025_gazette_notification_dated_18122025.pdf",
+      "title": "TRAI Recruitment Rules 2025 gazette notification dated 18.12.2025",
+      "publish_date": "12/18/2025",
+      "pdf_url": "https://dot.gov.in/sites/default/files/TRAI%20RR%202025%20gazette%20notification%20dated%2018122025.pdf?download=1"
+    },
+    {
+      "id": 39,
+      "pdf_filename": "Rescindment_notification_dated_18_Dec_2025.pdf",
+      "title": "Rescindment notification dated 18.12.2025 regarding TRAI Appointment Regulations, 2023",
+      "publish_date": "12/18/2025",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Rescindment%20notification%20dated%2018%20Dec%202025.pdf?download=1"
+    }
+  ]
 }
