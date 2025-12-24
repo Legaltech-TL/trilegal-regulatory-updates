@@ -1,15 +1,28 @@
 [
   {
-    "id": "3f99fac057c9ebfd3eb7331b26928f6b4e7edc06",
-    "date": "01-01-2021",
-    "title": "Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021 [Last amended on December 4, 2025]",
-    "link": "https://www.sebi.gov.in/legal/regulations/dec-2025/securities-and-exchange-board-of-india-share-based-employee-benefits-and-sweat-equity-regulations-2021-last-amended-on-december-4-2025-_98638.html",
+    "id": "b3212a700a187e1285c902814a8f55e37d3f6b3f",
+    "date": "Dec 24, 2025",
+    "title": "Ease of doing investment - Review of simplification of procedure and standardization of formats of documents for issuance of duplicate certificates",
+    "link": "https://www.sebi.gov.in/legal/circulars/dec-2025/ease-of-doing-investment-review-of-simplification-of-procedure-and-standardization-of-formats-of-documents-for-issuance-of-duplicate-certificates_98668.html",
     "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
-    "pdf_filename": "Regulation_Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021 [Last amended on December 4, 2025].pdf",
+    "pdf_filename": "Circular_Ease of doing investment - Review of simplification of procedure and standardization of formats of documents for issuance of duplicate certificates.pdf",
     "pdf_downloaded": "no",
-    "created_at": "2025-12-24T10:54:27.095414Z",
-    "source_commit": "71d7d30b3770a02cbecce7b7b608b252ec6261f9",
-    "category": "Regulation",
+    "created_at": "2025-12-24T14:52:46.053112Z",
+    "source_commit": "24b9f46a5384a7ff75bddae30ebf4daa837df6fe",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "54e6a103718f4a1e2ed84926b94ac3b18537467a",
+    "date": "Dec 24, 2025",
+    "title": "Ease of investments and ease of doing business measures – enhancing the ‘Facility for Basic Services Demat Account (BSDA)’",
+    "link": "https://www.sebi.gov.in/legal/circulars/dec-2025/ease-of-investments-and-ease-of-doing-business-measures-enhancing-the-facility-for-basic-services-demat-account-bsda-_98667.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Ease of investments and ease of doing business measures – enhancing the ‘Facility for Basic Services Demat Account (BSDA)’.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2025-12-24T14:52:51.088020Z",
+    "source_commit": "24b9f46a5384a7ff75bddae30ebf4daa837df6fe",
+    "category": "Circular",
     "error": ""
   }
 ]
