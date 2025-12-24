@@ -450,3 +450,24 @@
 2025-12-23 22:41:01,866 | WARNING | No PDF / WEBP detected
 2025-12-23 22:41:01,900 | INFO | Total entries collected: 0
 2025-12-23 22:41:01,911 | INFO | No new entries found
+2025-12-24 10:44:12,418 | INFO | Opening NPCI page
+2025-12-24 10:44:13,550 | INFO | Attempting Press Releases scrape
+2025-12-24 10:44:13,605 | WARNING | Press Releases DOM not available (CI / geo restriction)
+2025-12-24 10:44:13,605 | INFO | Switching to Media Coverage tab
+2025-12-24 10:44:34,752 | INFO | Media Coverage: 7 rows found
+2025-12-24 10:44:34,760 | INFO | [media_coverage] 26-03 New Bhim 3.0 launched, allows users to split bills, track payments
+2025-12-24 10:44:35,889 | WARNING | No PDF / WEBP detected
+2025-12-24 10:44:35,897 | INFO | [media_coverage] 15-10 BHIM's monthly transactions triple between January and September
+2025-12-24 10:44:36,967 | WARNING | No PDF / WEBP detected
+2025-12-24 10:44:36,973 | INFO | [media_coverage] 18-11 CNBC TV18 - Bharat Connect for Business boosts digital payments among MSMEs, says NBBL’s CEO
+2025-12-24 10:44:38,257 | WARNING | No PDF / WEBP detected
+2025-12-24 10:44:38,264 | INFO | [media_coverage] 26-11 UPI Circle to net new users BHIM chief
+2025-12-24 10:44:39,339 | WARNING | No PDF / WEBP detected
+2025-12-24 10:44:39,346 | INFO | [media_coverage] 27-11 ETBFSI - NPCI’s Bharat Billpay aims to cover half of India’s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi
+2025-12-24 10:44:40,638 | WARNING | No PDF / WEBP detected
+2025-12-24 10:44:40,645 | INFO | [media_coverage] 28-11 Netbanking switch to provide better visibility into transactions: NBBL CEO
+2025-12-24 10:44:41,702 | WARNING | No PDF / WEBP detected
+2025-12-24 10:44:41,709 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
+2025-12-24 10:44:42,762 | WARNING | No PDF / WEBP detected
+2025-12-24 10:44:42,791 | INFO | Total entries collected: 0
+2025-12-24 10:44:42,802 | INFO | No new entries found
