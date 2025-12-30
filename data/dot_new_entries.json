@@ -1,20 +1,13 @@
 {
-  "generated_at": "2025-12-30T04:29:49.719222Z",
-  "count": 2,
+  "generated_at": "2025-12-30T05:51:16.857520Z",
+  "count": 1,
   "items": [
     {
-      "id": 48,
-      "pdf_filename": "HAG_promotion_order.pdf",
-      "title": "Regular promotion in HAG of ITS Group A against Vacancy Year 2026",
-      "publish_date": "12/29/2025",
-      "pdf_url": "https://dot.gov.in/sites/default/files/HAG%20promotion%20order.pdf?download=1"
-    },
-    {
-      "id": 49,
-      "pdf_filename": "HAG_promotion_order-1.pdf",
-      "title": "Regular promotion in HAG plus of ITS Group A",
-      "publish_date": "12/29/2025",
-      "pdf_url": "https://dot.gov.in/sites/default/files/HAG%2B%20promotion%20order.pdf?download=1"
+      "id": 50,
+      "pdf_filename": "Promotion_Order_SAG_2026.pdf",
+      "title": "Regular promotion in SAG of ITS Group A against VY 2026-reg",
+      "publish_date": "12/30/2025",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Promotion%20Order_SAG_2026.pdf?download=1"
     }
   ]
 }
