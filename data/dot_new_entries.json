@@ -1,5 +1,20 @@
 {
-  "generated_at": "2025-12-31T09:01:10.422957Z",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-01-01T04:57:25.006111Z",
+  "count": 2,
+  "items": [
+    {
+      "id": 54,
+      "pdf_filename": "document_-_2025.pdf",
+      "title": "Placement in JAG NFSG of ITS Group A-reg",
+      "publish_date": "12/31/2025",
+      "pdf_url": "https://dot.gov.in/sites/default/files/document%20-%202025.pdf?download=1"
+    },
+    {
+      "id": 55,
+      "pdf_filename": "Rotational_Transfers_of_ITS_Group_A_officers_reg.pdf",
+      "title": "Rotational Transfers of ITS Group A officers reg.",
+      "publish_date": "12/31/2025",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Rotational%20Transfers%20of%20ITS%20Group%20A%20officers%20reg.pdf?download=1"
+    }
+  ]
 }
