@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "fd03e8af6930e116dc5bc879a06d134c30c9a84e",
+    "date": "01-01-2026",
+    "title": "Securities and Exchange Board of India (Stock Brokers) Regulations, 2026",
+    "link": "https://www.sebi.gov.in/legal/regulations/jan-2026/securities-and-exchange-board-of-india-stock-brokers-regulations-2026_98974.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Regulation_Securities and Exchange Board of India (Stock Brokers) Regulations, 2026.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-01-08T07:03:45.433553Z",
+    "source_commit": "fd3aa87d6b6b93cc927980fcc72071eb688b46f0",
+    "category": "Regulation",
+    "error": ""
+  }
+]
