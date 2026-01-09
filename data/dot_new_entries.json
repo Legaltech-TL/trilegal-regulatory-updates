@@ -1,5 +1,13 @@
 {
-  "generated_at": "2026-01-08T09:45:38.297096Z",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-01-09T04:50:39.342086Z",
+  "count": 1,
+  "items": [
+    {
+      "id": 56,
+      "pdf_filename": "HAG_NFU_Order.pdf",
+      "title": "Grant of NFU in HAG of ITS Group A-reg",
+      "publish_date": "01/08/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/HAG%20NFU%20Order.pdf?download=1"
+    }
+  ]
 }
