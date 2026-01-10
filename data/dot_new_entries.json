@@ -1,5 +1,48 @@
 {
-  "generated_at": "2026-01-09T09:03:29.942652Z",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-01-10T04:21:09.009361Z",
+  "count": 6,
+  "items": [
+    {
+      "id": 57,
+      "pdf_filename": "Inviting_nominations_of_experts_for_NWG-5.pdf",
+      "title": "Inviting nominations of experts from industry, academia, TSPs, Government Organizations, Start-ups, MSME etc. in National Working Group -05",
+      "publish_date": "01/10/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Inviting%20nominations%20of%20experts%20for%20NWG-5.pdf?download=1"
+    },
+    {
+      "id": 58,
+      "pdf_filename": "Order_regarding_promotion_to_JAG_and_transfer__posting_of_JAG_level_officers_3-1.pdf",
+      "title": "Order dated 09.01.2026 regarding promotion from STS to JAG and transfer/ posting of JAG level officers of P&T Building Works Services, Group A-Electrical sub-cadre- reg.",
+      "publish_date": "01/09/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Order%20regarding%20promotion%20to%20JAG%20and%20transfer%20%26%20posting%20of%20JAG%20level%20officers%20%283%29-1.pdf?download=1"
+    },
+    {
+      "id": 59,
+      "pdf_filename": "Draft_Seniority_list_JTS_of_ITS_Gr_A_as_on_01-01-2026_0.pdf",
+      "title": "Circulation of Provisional Seniority List of JTS officers of ITS Group A of Department of Telecommunications as on 01.01.2026",
+      "publish_date": "01/09/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Draft%20Seniority%20list%20JTS%20of%20ITS%20Gr%20A%20as%20on%2001-01-2026_0.pdf?download=1"
+    },
+    {
+      "id": 60,
+      "pdf_filename": "Provisional_Seniority_list_of_JTOs_of_TES_Group_B_of_DoT_as_on_01-01-2026_0.pdf",
+      "title": "Provisional Seniority list of JTOs of TES Group B of Department of Telecommunications as on 01.01.2026-reg",
+      "publish_date": "01/09/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Provisional%20Seniority%20list%20of%20JTOs%20of%20TES%20Group%20B%20of%20DoT%20as%20on%2001-01-2026_0.pdf?download=1"
+    },
+    {
+      "id": 61,
+      "pdf_filename": "Provisional_Seniority_list_of_SDEs_of_TES_Gr_B_of_DoT_as_on_01-01-2026_0.pdf",
+      "title": "Provisional Seniority list of SDEs of TES Group B of Department of Telecommunications as on 01.01.2026",
+      "publish_date": "01/09/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/Provisional%20Seniority%20list%20of%20SDEs%20of%20TES%20Gr%20B%20of%20DoT%20as%20on%2001-01-2026_0.pdf?download=1"
+    },
+    {
+      "id": 62,
+      "pdf_filename": "STS_SENIORITY_AS_ON_01-01-2026_0.pdf",
+      "title": "Circulation of Provisional Seniority List of STS officers of ITS Group A of Department of Telecommunications as on 01.01.2026",
+      "publish_date": "01/09/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/STS%20SENIORITY%20AS%20ON%2001-01-2026_0.pdf?download=1"
+    }
+  ]
 }
