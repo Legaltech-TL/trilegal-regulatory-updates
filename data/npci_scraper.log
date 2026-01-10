@@ -1175,3 +1175,30 @@
 2026-01-10 10:47:06,853 | WARNING | No PDF / WEBP detected
 2026-01-10 10:47:06,911 | INFO | Total entries collected: 3
 2026-01-10 10:47:06,919 | INFO | Added 3 new entries
+2026-01-10 22:41:38,522 | INFO | Opening NPCI page
+2026-01-10 22:41:39,878 | INFO | Attempting Press Releases scrape
+2026-01-10 22:41:39,933 | WARNING | Press Releases DOM not available (CI / geo restriction)
+2026-01-10 22:41:39,933 | INFO | Switching to Media Coverage tab
+2026-01-10 22:41:44,536 | INFO | Media Coverage: 10 rows found
+2026-01-10 22:41:44,545 | INFO | [media_coverage] NBSL Press release - BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI Payments within set limits
+2026-01-10 22:41:46,396 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:46,405 | INFO | [media_coverage] NPCI Press Release - Media Statement - Update Regarding Cheque Truncation System (CTS) – Continuous Clearing
+2026-01-10 22:41:48,033 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:48,041 | INFO | [media_coverage] NPCI Press Release - RuPay JCB cardholders can now avail 25% cashback for in-store purchases* in Indonesia, Malaysia, Singapore, Japan and Philippines
+2026-01-10 22:41:49,567 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:49,574 | INFO | [media_coverage] NPCI Press Release - Media Statement Regarding Cheque Clearance
+2026-01-10 22:41:50,897 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:50,904 | INFO | [media_coverage] NPCI Press Release - RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025
+2026-01-10 22:41:52,707 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:52,714 | INFO | [media_coverage] NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025
+2026-01-10 22:41:54,041 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:54,048 | INFO | [media_coverage] NPCI Press Release - DFS Secretary Launches Initiatives to Simplify Digital Payment Experience at GFF 2025
+2026-01-10 22:41:55,477 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:55,484 | INFO | [media_coverage] NPCI Press release – NPCI and RBL Bank expand RuPay On-The-Go across All Bengaluru Metro Lines
+2026-01-10 22:41:56,858 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:56,865 | INFO | [media_coverage] NBSL Press release - BHIM, Bharat Ka Apna Payments App, Lights Up Diwali with a Touch Of Goodness, Empowering India’s Women Artisans
+2026-01-10 22:41:58,359 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:58,366 | INFO | [media_coverage] NBSL Press release - BHIM Payments App, Bharat Ka Apna Payments App Collaborates with Sony Entertainment Television to launch an exclusive ‘Golden Week’ in Kaun Banega Crorepati
+2026-01-10 22:41:59,825 | WARNING | No PDF / WEBP detected
+2026-01-10 22:41:59,883 | INFO | Total entries collected: 0
+2026-01-10 22:41:59,893 | INFO | No new entries found
