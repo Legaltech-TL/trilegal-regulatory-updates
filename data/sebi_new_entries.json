@@ -1,27 +1,14 @@
 [
   {
-    "id": "55b64d68ab1051f3c3ff196a1847c3df24acfe6d",
+    "id": "476c72c9cb0fda49a3e0fe4995c44e1c7da315f2",
     "date": "Jan 16, 2026",
-    "title": "Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI)” framework for FPIs and FVCIs",
-    "link": "https://www.sebi.gov.in/legal/circulars/jan-2026/single-window-automatic-and-generalised-access-for-trusted-foreign-investors-swagat-fi-framework-for-fpis-and-fvcis_99107.html",
+    "title": "Introduction of Closing Auction Session (CAS) in the Equity Cash Segment and certain modifications in the Pre-Open Auction Session",
+    "link": "https://www.sebi.gov.in/legal/circulars/jan-2026/introduction-of-closing-auction-session-cas-in-the-equity-cash-segment-and-certain-modifications-in-the-pre-open-auction-session_99122.html",
     "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
-    "pdf_filename": "Circular_Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI)” framework for FPIs and FVCIs.pdf",
+    "pdf_filename": "Circular_Introduction of Closing Auction Session (CAS) in the Equity Cash Segment and certain modifications in the Pre-Open Auction Session.pdf",
     "pdf_downloaded": "no",
-    "created_at": "2026-01-16T14:51:54.063502Z",
-    "source_commit": "a3656937da1de1c1f6d7d1c4ed44dd0cbb4ec613",
-    "category": "Circular",
-    "error": ""
-  },
-  {
-    "id": "b5e916ed309acfc979d2f67a65103f8bd271bcc8",
-    "date": "Jan 16, 2026",
-    "title": "Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs",
-    "link": "https://www.sebi.gov.in/legal/circulars/jan-2026/single-window-automatic-and-generalised-access-for-trusted-foreign-investors-swagat-fi-framework-for-fpis-and-fvcis_99106.html",
-    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
-    "pdf_filename": "Circular_Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs.pdf",
-    "pdf_downloaded": "no",
-    "created_at": "2026-01-16T14:51:59.513400Z",
-    "source_commit": "a3656937da1de1c1f6d7d1c4ed44dd0cbb4ec613",
+    "created_at": "2026-01-17T03:44:57.707089Z",
+    "source_commit": "6328dda54621a8f68b71973bd97eba1080a8e604",
     "category": "Circular",
     "error": ""
   }
