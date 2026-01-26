@@ -1814,3 +1814,12 @@
 2026-01-26 10:16:04,231 | WARNING | No PDF / WEBP detected
 2026-01-26 10:16:04,283 | INFO | Total entries collected: 0
 2026-01-26 10:16:04,292 | INFO | No new entries found
+2026-01-26 22:25:40,626 | INFO | Opening NPCI page
+2026-01-26 22:25:43,204 | INFO | Attempting Press Releases scrape
+2026-01-26 22:25:43,261 | WARNING | Press Releases DOM not available (CI / geo restriction)
+2026-01-26 22:25:43,261 | INFO | Switching to Media Coverage tab
+2026-01-26 22:25:47,827 | INFO | Media Coverage: 1 rows found
+2026-01-26 22:25:47,836 | INFO | [media_coverage] NBSL Press Release - NBSL and Canara Bank partner to power UPI payments
+2026-01-26 22:25:49,358 | WARNING | No PDF / WEBP detected
+2026-01-26 22:25:49,390 | INFO | Total entries collected: 0
+2026-01-26 22:25:49,398 | INFO | No new entries found
