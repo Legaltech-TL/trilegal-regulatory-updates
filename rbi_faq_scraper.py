@@ -92,14 +92,13 @@ def extract_listing_table(html):
         if not tds:
             continue
 
-        # Category header row (one cell, usually styled)
+        # Category header row
         if len(tds) == 1:
             txt = tds[0].text_content().strip()
             if txt:
                 current_category = txt
             continue
 
-        # Regular row — look for FAQ link
         a = tr.xpath(".//a[contains(@href,'FAQDisplay.aspx?Id=')]")
         if not a:
             continue
@@ -107,28 +106,23 @@ def extract_listing_table(html):
 
         raw = a.get("href") or ""
 
-        # RBI listing often gives "FAQDisplay.aspx?Id=174"
         if raw.lower().startswith("faqdisplay.aspx"):
             url = f"https://rbi.org.in/Scripts/{raw}"
         elif raw.lower().startswith("/scripts/"):
             url = "https://rbi.org.in" + raw
         else:
-            # Fallback – absolute link that doc.make_links_absolute may generate
             url = raw
 
         row_text = tr.text_content().strip()
 
-        # Extract FAQ ID
         m = re.search(r"Id=(\d+)", url)
         if not m:
             continue
         faq_id = m.group(1)
 
-        # Extract published date + title
         published_date = parse_pub_date(row_text)
         title_text = a.text_content().strip()
 
-        # Extract PDF link if present
         pdf_link = ""
         pdf_a = tr.xpath(".//a[contains(translate(@href,'PDF','pdf'),'.pdf')]")
         if pdf_a:
@@ -154,14 +148,19 @@ def extract_detail_page(url):
     doc = lxml.html.fromstring(r.text)
     doc.make_links_absolute(url)
 
+    # 🔧 FIX: remove script/style/noscript to avoid JS pollution
+    for bad in doc.xpath("//script|//style|//noscript"):
+        bad.drop_tree()
+
     whole_text = doc.text_content()
 
-    # Try to extract "Last Updated"
-    m = re.search(r"(Last Updated|Last reviewed|Last Reviewed)\s*[:\-]?\s*([A-Za-z0-9 ,]{4,50})",
-                  whole_text, flags=re.IGNORECASE)
+    m = re.search(
+        r"(Last Updated|Last reviewed|Last Reviewed)\s*[:\-]?\s*([A-Za-z0-9 ,]{4,50})",
+        whole_text,
+        flags=re.IGNORECASE
+    )
     last_updated = m.group(2).strip() if m else ""
 
-    # Extract main content text (visible text including table)
     content_nodes = doc.xpath("//div[@id='ctl00_ContentPlaceHolder1_pnlFAQ']") or \
                     doc.xpath("//div[contains(@class,'faqcontent')]") or \
                     doc.xpath("//body")
@@ -169,7 +168,6 @@ def extract_detail_page(url):
     text = "\n\n".join(n.text_content() for n in content_nodes)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
 
-    # Extract PDF link on detail page (if not present in listing)
     pdf_link = ""
     a = doc.xpath("//a[contains(translate(@href,'PDF','pdf'), '.pdf')]")
     if a:
@@ -186,7 +184,6 @@ def main():
     existing_ids = load_existing_ids()
     print(f"Loaded {len(existing_ids)} existing IDs")
 
-    # Fetch listing
     listing_html = requests.get(LISTING_URL, headers=HEADERS).text
     listing_rows = extract_listing_table(listing_html)
     print(f"Found {len(listing_rows)} listing rows")
@@ -194,7 +191,6 @@ def main():
     new_items = []
     now_iso = datetime.datetime.now().isoformat()
 
-    # Open CSV in append mode
     csv_exists = MASTER_CSV.exists()
     f = MASTER_CSV.open("a", newline="", encoding="utf-8")
     writer = csv.DictWriter(f, fieldnames=[
@@ -216,7 +212,6 @@ def main():
         faq_id = row["faq_id"]
 
         if faq_id in existing_ids:
-            # Skip old entry (FAST MODE)
             continue
 
         print(f"NEW ENTRY FOUND: {faq_id} — Fetching detail page...")
@@ -225,7 +220,6 @@ def main():
 
         full_text, last_updated, page_pdf_link = extract_detail_page(row["url"])
 
-        # choose pdf link: listing > page
         pdf_link = row["pdf_link"] or page_pdf_link or ""
         pdf_filename = safe_pdf_filename(faq_id, row["title_text"], pdf_link) if pdf_link else ""
 
@@ -247,7 +241,6 @@ def main():
 
     f.close()
 
-    # write JSON of only new items
     with NEW_JSON.open("w", encoding="utf-8") as jf:
         json.dump({"new_items": new_items}, jf, indent=2, ensure_ascii=False)
 
@@ -258,4 +251,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
