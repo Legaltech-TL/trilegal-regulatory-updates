@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "c689d3e33770e21dd20aa942acbd6d3049225996",
+    "date": "Jan 30, 2026",
+    "title": "Master Circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
+    "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2026/master-circular-for-compliance-with-the-provisions-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-by-listed-entities_99432.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Master_Circular_Master Circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Reg.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-01-30T15:04:20.705906Z",
+    "source_commit": "96eacd66966fedf72ba0d27f42fa86ca3ee1b7d8",
+    "category": "Master_Circular",
+    "error": ""
+  },
+  {
+    "id": "4340e2451a806981db9dbfcf7889e54aca639d81",
+    "date": "Jan 30, 2026",
+    "title": "Ease of Doing Investment and Ease of Doing Business – Doing away with requirement of issuance of Letter of Confirmation (“LOC”) and to effect direct credit of securities in dematerialisation account of the investor",
+    "link": "https://www.sebi.gov.in/legal/circulars/jan-2026/ease-of-doing-investment-and-ease-of-doing-business-doing-away-with-requirement-of-issuance-of-letter-of-confirmation-loc-and-to-effect-direct-credit-of-securities-in-dematerialisation-account-o-_99421.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Ease of Doing Investment and Ease of Doing Business – Doing away with requirement of issuance of Letter of Confirmation (“LOC”) and to effect direct c.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-01-30T15:04:30.884519Z",
+    "source_commit": "96eacd66966fedf72ba0d27f42fa86ca3ee1b7d8",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "909e033c530d5fbc97d1e17077af9b0e905b58d4",
+    "date": "Jan 30, 2026",
+    "title": "Ease of Doing Investment – Special Window for Transfer and Dematerialisation of Physical Securities",
+    "link": "https://www.sebi.gov.in/legal/circulars/jan-2026/ease-of-doing-investment-special-window-for-transfer-and-dematerialisation-of-physical-securities_99411.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Ease of Doing Investment – Special Window for Transfer and Dematerialisation of Physical Securities.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-01-30T15:04:36.018250Z",
+    "source_commit": "96eacd66966fedf72ba0d27f42fa86ca3ee1b7d8",
+    "category": "Circular",
+    "error": ""
+  }
+]
