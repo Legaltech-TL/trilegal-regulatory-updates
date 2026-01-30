@@ -1948,3 +1948,11 @@
 2026-01-29 22:31:29,419 | WARNING | No PDF / WEBP detected
 2026-01-29 22:31:29,451 | INFO | Total entries collected: 0
 2026-01-29 22:31:29,460 | INFO | No new entries found
+2026-01-30 10:21:36,404 | INFO | Opening NPCI page
+2026-01-30 10:21:37,229 | INFO | Attempting Press Releases scrape
+2026-01-30 10:21:37,287 | WARNING | Press Releases DOM not available (CI / geo restriction)
+2026-01-30 10:21:37,287 | INFO | Switching to Media Coverage tab
+2026-01-30 10:22:07,290 | WARNING | Media Coverage tab click failed
+2026-01-30 10:22:07,293 | ERROR | Media Coverage DOM not found
+2026-01-30 10:22:07,321 | INFO | Total entries collected: 0
+2026-01-30 10:22:07,329 | INFO | No new entries found
