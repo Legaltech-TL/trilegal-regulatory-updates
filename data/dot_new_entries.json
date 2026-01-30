@@ -1,5 +1,13 @@
 {
-  "generated_at": "2026-01-30T06:05:16.780692Z",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-01-30T09:01:53.935937Z",
+  "count": 1,
+  "items": [
+    {
+      "id": 94,
+      "pdf_filename": "document-OCR.pdf",
+      "title": "Reminder for submission of AIPR for the year 2025 by the officers of IP&TAFS Gr. A reg",
+      "publish_date": "01/30/2026",
+      "pdf_url": "https://dot.gov.in/sites/default/files/document-OCR.pdf?download=1"
+    }
+  ]
 }
