@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-NPCI Press Releases + Media Coverage Scraper (CI-HARDENED)
+NPCI Press Releases + Media Coverage Scraper (FINAL)
 
-✔ Works in GitHub Actions
-✔ Handles NPCI geo / CDN DOM differences
-✔ Press Releases optional (never crash)
-✔ Media Coverage always scraped
-✔ PDF + WEBP supported
-✔ CSV + JSON in data/
+✔ React SPA safe
+✔ Press Releases → PDF
+✔ Media Coverage → PDF or WEBP
+✔ Network-based capture (robust)
+✔ CSV always created
+✔ JSON only new entries
 """
 
 import asyncio
@@ -21,7 +21,7 @@ from pathlib import Path
 from datetime import datetime
 from urllib.parse import urlparse
 
-from playwright.async_api import async_playwright, TimeoutError
+from playwright.async_api import async_playwright
 
 # ---------------- CONFIG ----------------
 URL = "https://www.npci.org.in/media/press-release"
@@ -51,119 +51,7 @@ def make_id(title: str, url: str) -> str:
     return hashlib.sha1(f"{title}|{url}".encode()).hexdigest()
 
 def safe_filename(url: str) -> str:
-    name = Path(urlparse(url).path).name
-    return name if name else "file"
-
-def is_pdf_response(response) -> bool:
-    ct = response.headers.get("content-type", "").lower()
-    cd = response.headers.get("content-disposition", "").lower()
-    url = response.url.lower()
-    return "pdf" in ct or ".pdf" in url or ".pdf" in cd
-
-# ---------------- ROW SCRAPER ----------------
-async def scrape_row(page, row, section_key):
-    title_el = await row.query_selector("div.circulars-cell-body p")
-    if not title_el:
-        return None
-
-    title = (await title_el.inner_text()).strip()
-    log.info(f"[{section_key}] {title}")
-
-    buttons = await row.query_selector_all("div.circulars-cell-buttons button")
-    if not buttons:
-        return None
-
-    try:
-        async with page.expect_response(
-            lambda r: (
-                is_pdf_response(r)
-                or "image/webp" in r.headers.get("content-type", "").lower()
-            ),
-            timeout=8000
-        ):
-            await buttons[0].click()
-
-        response = await page.wait_for_event("response", timeout=1000)
-        url = response.url
-        ctype = response.headers.get("content-type", "").lower()
-
-    except TimeoutError:
-        log.warning("No PDF / WEBP detected")
-        return None
-
-    entry = {
-        "id": make_id(title, url),
-        "section": section_key,
-        "title": title,
-        "pdf_link": None,
-        "media_image_link": None,
-        "filename": safe_filename(url),
-        "scraped_at": datetime.utcnow().isoformat()
-    }
-
-    if is_pdf_response(response):
-        entry["pdf_link"] = url
-    elif "image/webp" in ctype:
-        entry["media_image_link"] = url
-
-    return entry
-
-# ---------------- MAIN SCRAPER ----------------
-async def scrape():
-    collected = []
-
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"]
-        )
-        context = await browser.new_context()
-        page = await context.new_page()
-
-        log.info("Opening NPCI page")
-        await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-
-        # ---------- PRESS RELEASES (OPTIONAL) ----------
-        log.info("Attempting Press Releases scrape")
-
-        press_container = await page.query_selector("div.press-release-body")
-        if press_container:
-            rows = await press_container.query_selector_all("div.circulars-cell")
-            log.info(f"Press Releases: {len(rows)} rows found")
-
-            for row in rows[:TOP_N]:
-                entry = await scrape_row(page, row, "press_release")
-                if entry:
-                    collected.append(entry)
-        else:
-            log.warning("Press Releases DOM not available (CI / geo restriction)")
-
-        # ---------- MEDIA COVERAGE ----------
-        log.info("Switching to Media Coverage tab")
-        try:
-            await page.click("text=Media Coverage")
-            await page.wait_for_timeout(2000)
-        except Exception:
-            log.warning("Media Coverage tab click failed")
-
-        media_container = await page.query_selector("ul.press-release-body")
-        if media_container:
-            rows = await media_container.query_selector_all(
-                "li.circulars-cell-container"
-            )
-            log.info(f"Media Coverage: {len(rows)} rows found")
-
-            for row in rows[:TOP_N]:
-                entry = await scrape_row(page, row, "media_coverage")
-                if entry:
-                    collected.append(entry)
-        else:
-            log.error("Media Coverage DOM not found")
-
-        await browser.close()
-        log.info(f"Total entries collected: {len(collected)}")
-
-    return collected
+    return Path(urlparse(url).path).name
 
 # ---------------- STORAGE ----------------
 def ensure_master_csv():
@@ -206,6 +94,111 @@ def append_csv(rows):
         )
         writer.writerows(rows)
 
+# ---------------- ROW SCRAPER ----------------
+async def scrape_row(page, row, section_key):
+    title_el = await row.query_selector("div.circulars-cell p")
+    if not title_el:
+        return None
+
+    title = (await title_el.inner_text()).strip()
+    log.info(f"[{section_key}] {title}")
+
+    button = await row.query_selector("button[aria-label^='download pdf']")
+    if not button:
+        log.warning("Download button not found")
+        return None
+
+    pdf_link = None
+    image_link = None
+
+    def capture_asset(response):
+        nonlocal pdf_link, image_link
+        url = response.url.lower()
+        if "/uploads/" in url:
+            if url.endswith(".pdf"):
+                pdf_link = response.url
+            elif url.endswith(".webp"):
+                image_link = response.url
+
+    page.on("response", capture_asset)
+
+    try:
+        await button.click()
+        await page.wait_for_timeout(3000)
+    finally:
+        page.remove_listener("response", capture_asset)
+
+    if not pdf_link and not image_link:
+        log.warning("No PDF or image asset captured")
+        return None
+
+    final_url = pdf_link or image_link
+
+    return {
+        "id": make_id(title, final_url),
+        "section": section_key,
+        "title": title,
+        "pdf_link": pdf_link,
+        "media_image_link": image_link,
+        "filename": safe_filename(final_url),
+        "scraped_at": datetime.utcnow().isoformat()
+    }
+
+# ---------------- MAIN SCRAPER ----------------
+async def scrape():
+    collected = []
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
+        )
+        context = await browser.new_context(accept_downloads=True)
+        page = await context.new_page()
+
+        log.info("Opening NPCI page")
+        await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+
+        await page.wait_for_selector(
+            "li.circulars-cell-container div.circulars-cell p",
+            timeout=30000
+        )
+
+        # ---------- PRESS RELEASES ----------
+        log.info("Attempting Press Releases scrape")
+        rows = await page.query_selector_all("li.circulars-cell-container")
+        log.info(f"Press Releases: {len(rows)} rows found")
+
+        for row in rows[:TOP_N]:
+            entry = await scrape_row(page, row, "press_release")
+            if entry:
+                collected.append(entry)
+
+        # ---------- MEDIA COVERAGE ----------
+        log.info("Switching to Media Coverage tab")
+        try:
+            await page.click("text=Media Coverage")
+            await page.wait_for_selector(
+                "li.circulars-cell-container div.circulars-cell p",
+                timeout=30000
+            )
+
+            rows = await page.query_selector_all("li.circulars-cell-container")
+            log.info(f"Media Coverage: {len(rows)} rows found")
+
+            for row in rows[:TOP_N]:
+                entry = await scrape_row(page, row, "media_coverage")
+                if entry:
+                    collected.append(entry)
+
+        except Exception:
+            log.warning("Media Coverage tab not available")
+
+        await browser.close()
+        log.info(f"Total entries collected: {len(collected)}")
+
+    return collected
+
 # ---------------- ENTRYPOINT ----------------
 def main():
     ensure_master_csv()
@@ -214,7 +207,10 @@ def main():
     existing = load_existing_ids()
     new_entries = [d for d in data if d["id"] not in existing]
 
-    NEW_JSON.write_text(json.dumps(new_entries, indent=2), encoding="utf-8")
+    NEW_JSON.write_text(
+        json.dumps(new_entries, indent=2),
+        encoding="utf-8"
+    )
 
     if new_entries:
         append_csv(new_entries)
