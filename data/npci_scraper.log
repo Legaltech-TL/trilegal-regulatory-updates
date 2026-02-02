@@ -2048,3 +2048,18 @@
 2026-02-01 22:28:43,416 | WARNING | No PDF / WEBP detected
 2026-02-01 22:28:43,443 | INFO | Total entries collected: 1
 2026-02-01 22:28:43,459 | INFO | Added 1 new entries
+2026-02-02 09:31:12,359 | INFO | Opening NPCI page
+2026-02-02 09:31:18,783 | INFO | Attempting Press Releases scrape
+2026-02-02 09:31:18,801 | INFO | Press Releases: 1 rows found
+2026-02-02 09:31:18,810 | INFO | [press_release] NBSL Press Release - NBSL and Canara Bank partner to power UPI payments
+2026-02-02 09:31:21,841 | INFO | Switching to Media Coverage tab
+2026-02-02 09:31:23,668 | INFO | Media Coverage: 7 rows found
+2026-02-02 09:31:23,675 | INFO | [media_coverage] 26-03 New Bhim 3.0 launched, allows users to split bills, track payments
+2026-02-02 09:31:26,707 | INFO | [media_coverage] 15-10 BHIM's monthly transactions triple between January and September
+2026-02-02 09:31:29,758 | INFO | [media_coverage] 18-11 CNBC TV18 - Bharat Connect for Business boosts digital payments among MSMEs, says NBBL’s CEO
+2026-02-02 09:31:32,791 | INFO | [media_coverage] 26-11 UPI Circle to net new users BHIM chief
+2026-02-02 09:31:35,840 | INFO | [media_coverage] 27-11 ETBFSI - NPCI’s Bharat Billpay aims to cover half of India’s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi
+2026-02-02 09:31:38,873 | INFO | [media_coverage] 28-11 Netbanking switch to provide better visibility into transactions: NBBL CEO
+2026-02-02 09:31:41,924 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
+2026-02-02 09:31:45,008 | INFO | Total entries collected: 8
+2026-02-02 09:31:45,019 | INFO | Added 1 new entries
