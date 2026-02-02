@@ -164,15 +164,52 @@ async def scrape():
             timeout=30000
         )
 
-        # ---------- PRESS RELEASES ----------
-        log.info("Attempting Press Releases scrape")
+        # ---------- PRESS RELEASES (2026 DEFAULT) ----------
+        log.info("Attempting Press Releases scrape (2026)")
         rows = await page.query_selector_all("li.circulars-cell-container")
-        log.info(f"Press Releases: {len(rows)} rows found")
+        log.info(f"Press Releases 2026: {len(rows)} rows found")
 
         for row in rows[:TOP_N]:
             entry = await scrape_row(page, row, "press_release")
             if entry:
                 collected.append(entry)
+
+        # ---------- PRESS RELEASES (2025) ----------
+        log.info("Switching Press Releases year to 2025")
+
+        try:
+            # Open dropdown
+            await page.click("div.press-year-dropdown button", timeout=5000)
+            await page.wait_for_timeout(500)
+
+            # JS-level click to avoid React/Bootstrap race condition
+            await page.evaluate("""
+                () => {
+                    const buttons = Array.from(
+                        document.querySelectorAll('ul.dropdown-menu button')
+                    );
+                    const btn = buttons.find(b => b.textContent.trim() === '2025');
+                    if (btn) btn.click();
+                }
+            """)
+
+            # Wait for React to re-render list
+            await page.wait_for_timeout(2000)
+            await page.wait_for_selector(
+                "li.circulars-cell-container div.circulars-cell p",
+                timeout=30000
+            )
+
+            rows = await page.query_selector_all("li.circulars-cell-container")
+            log.info(f"Press Releases 2025: {len(rows)} rows found")
+
+            for row in rows[:TOP_N]:
+                entry = await scrape_row(page, row, "press_release")
+                if entry:
+                    collected.append(entry)
+
+        except Exception as e:
+            log.warning(f"Press Releases 2025 failed: {e}")
 
         # ---------- MEDIA COVERAGE ----------
         log.info("Switching to Media Coverage tab")
