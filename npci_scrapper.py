@@ -10,6 +10,7 @@ NPCI Press Releases + Media Coverage Scraper (FINAL)
 ✔ Network-based capture (robust)
 ✔ CSV always created
 ✔ JSON only new entries
+✔ Single merged asset_link column
 """
 
 import asyncio
@@ -64,8 +65,7 @@ def ensure_master_csv():
                 "id",
                 "section",
                 "title",
-                "pdf_link",
-                "media_image_link",
+                "asset_link",
                 "filename",
                 "scraped_at"
             ]
@@ -86,8 +86,7 @@ def append_csv(rows):
                 "id",
                 "section",
                 "title",
-                "pdf_link",
-                "media_image_link",
+                "asset_link",
                 "filename",
                 "scraped_at"
             ]
@@ -138,8 +137,7 @@ async def scrape_row(page, row, section_key):
         "id": make_id(title, final_url),
         "section": section_key,
         "title": title,
-        "pdf_link": pdf_link,
-        "media_image_link": image_link,
+        "asset_link": final_url,
         "filename": safe_filename(final_url),
         "scraped_at": datetime.utcnow().isoformat()
     }
@@ -178,11 +176,9 @@ async def scrape():
         log.info("Switching Press Releases year to 2025")
 
         try:
-            # Open dropdown
             await page.click("div.press-year-dropdown button", timeout=5000)
             await page.wait_for_timeout(500)
 
-            # JS-level click to avoid React/Bootstrap race condition
             await page.evaluate("""
                 () => {
                     const buttons = Array.from(
@@ -193,7 +189,6 @@ async def scrape():
                 }
             """)
 
-            # Wait for React to re-render list
             await page.wait_for_timeout(2000)
             await page.wait_for_selector(
                 "li.circulars-cell-container div.circulars-cell p",
