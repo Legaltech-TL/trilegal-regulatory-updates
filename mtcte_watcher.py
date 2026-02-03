@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import csv
 import json
 import logging
 import re
 import os
 from datetime import datetime, timezone
-from urllib.parse import urljoin, urlparse, parse_qs
+from urllib.parse import urljoin
 
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
@@ -33,48 +36,28 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat()
 
 def slugify_title(title, max_words=8, max_chars=80):
-    """
-    Convert title into filesystem-safe slug
-    """
-    # Lowercase
     title = title.lower()
-
-    # Remove non-alphanumeric (keep spaces)
     title = re.sub(r"[^a-z0-9\s]", "", title)
-
-    # Collapse spaces
-    words = title.split()
-
-    # Limit words
-    words = words[:max_words]
-
+    words = title.split()[:max_words]
     slug = "-".join(words)
-
-    # Safety trim by chars
     return slug[:max_chars].rstrip("-")
 
-def generate_pdf_filename(item_id, title):
+def generate_pdf_filename(title):
     slug = slugify_title(title)
-    return f"{item_id}_{slug}.pdf"
-
-
-def extract_filename(url):
-    parsed = urlparse(url)
-    qs = parse_qs(parsed.query)
-    return qs.get("name", [""])[0]
+    return f"{slug}.pdf"
 
 # ================= LOAD EXISTING =================
 
-def load_existing_ids():
+def load_existing_links():
     if not os.path.exists(MASTER_CSV):
         return set()
 
     with open(MASTER_CSV, newline="", encoding="utf-8") as f:
-        return {row["id"] for row in csv.DictReader(f)}
+        return {row["pdf_link"] for row in csv.DictReader(f)}
 
 # ================= SCRAPER =================
 
-def fetch_whats_new():
+def fetch_updates():
     logging.info("Launching browser (Playwright)")
     items = []
 
@@ -85,33 +68,65 @@ def fetch_whats_new():
         logging.info("Opening MTCTE homepage")
         page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
 
-        # Wait explicitly for the marquee
-        page.wait_for_selector("#marquee1", timeout=30000)
+        page.wait_for_selector("body", timeout=30000)
 
         html = page.content()
         browser.close()
 
     soup = BeautifulSoup(html, "html.parser")
 
-    links = soup.select("#marquee1 ul#myNewsList li a")
-    logging.info("Found %d items in What's New card", len(links))
+    collected = {}
+    
+    # -------- SOURCE 1: WHAT'S NEW MARQUEE --------
+    marquee_links = soup.select("#marquee1 ul#myNewsList li a")
 
-    for a in links:
-        item_id = a.get("id", "").strip()
-        title = a.get_text(strip=True)
+    for a in marquee_links:
         href = a.get("href", "").strip()
+        title = a.get_text(strip=True)
 
-        if not item_id or not href:
+        if not href or not title:
             continue
 
         pdf_link = urljoin(BASE_URL, href)
 
-        items.append({
-            "id": item_id,
+        collected[pdf_link] = {
             "title": title,
             "pdf_link": pdf_link,
-            "pdf_filename": generate_pdf_filename(item_id, title),
+            "source_section": "whats_new_marquee",
+        }
+
+    # -------- SOURCE 2: VISION HEAD (POLICY DOCS) --------
+    vision_links = soup.select("h2.visionHead a")
+
+    for a in vision_links:
+        href = a.get("href", "").strip()
+        title = a.get_text(" ", strip=True)
+
+        if not href or not title:
+            continue
+
+        # Skip dashboards / internal navigation
+        if href.lower().startswith(("monitoring", "voluntary", "cab", "#")):
+            continue
+
+        pdf_link = urljoin(BASE_URL, href)
+
+        collected[pdf_link] = {
+            "title": title,
+            "pdf_link": pdf_link,
+            "source_section": "policy_vision_head",
+        }
+
+    logging.info("Total unique links collected: %d", len(collected))
+
+    for pdf_link, data in collected.items():
+        items.append({
+            "id": re.sub(r"\W+", "_", data["title"].lower())[:50],
+            "title": data["title"],
+            "pdf_link": data["pdf_link"],
+            "pdf_filename": generate_pdf_filename(data["title"]),
             "source_page": BASE_URL,
+            "source_section": data["source_section"],
             "scraped_at": now_iso(),
         })
 
@@ -131,6 +146,7 @@ def append_to_master(rows):
                 "pdf_link",
                 "pdf_filename",
                 "source_page",
+                "source_section",
                 "scraped_at",
             ],
         )
@@ -149,12 +165,12 @@ def write_new_entries(rows):
 def main():
     ensure_dirs()
 
-    existing_ids = load_existing_ids()
-    logging.info("Loaded %d existing records", len(existing_ids))
+    existing_links = load_existing_links()
+    logging.info("Loaded %d existing records", len(existing_links))
 
-    items = fetch_whats_new()
+    items = fetch_updates()
 
-    new_items = [i for i in items if i["id"] not in existing_ids]
+    new_items = [i for i in items if i["pdf_link"] not in existing_links]
 
     if not new_items:
         logging.info("No new MTCTE updates found")
