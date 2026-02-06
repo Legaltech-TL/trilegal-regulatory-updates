@@ -1,28 +1,28 @@
 [
   {
-    "id": "d61a55dcdae2bbe183bc81a50654d6bf779333c5",
+    "id": "b60b3c233420c5db36379a9346870cff5d29529a",
     "date": "Feb 06, 2026",
-    "title": "Master Circular for Registrars to an Issue and Share Transfer Agents",
-    "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-registrars-to-an-issue-and-share-transfer-agents_99567.html",
+    "title": "Master Circular for Research Analysts",
+    "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-research-analysts_99571.html",
     "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
-    "pdf_filename": "Master_Circular_Master Circular for Registrars to an Issue and Share Transfer Agents.pdf",
+    "pdf_filename": "Master_Circular_Master Circular for Research Analysts.pdf",
     "pdf_downloaded": "no",
-    "created_at": "2026-02-06T11:08:50.412290Z",
-    "source_commit": "7968ae042dda7e307ac1413083a6ece3dae96b11",
+    "created_at": "2026-02-06T15:10:04.941198Z",
+    "source_commit": "b374fbd7261d9a030b5ef0554d1218bc6aa1b8b3",
     "category": "Master_Circular",
     "error": ""
   },
   {
-    "id": "a9e8a8b0efa460a6e12bf47e81b6160cf58859b1",
+    "id": "4d33cb24a750f87d004a7a94b1c6e82acd53b570",
     "date": "Feb 06, 2026",
-    "title": "Reporting of value of units of Alternative Investment Funds (AIFs) to Depositories",
-    "link": "https://www.sebi.gov.in/legal/circulars/feb-2026/reporting-of-value-of-units-of-alternative-investment-funds-aifs-to-depositories_99568.html",
+    "title": "Master Circular for Investment Advisers",
+    "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-investment-advisers_99569.html",
     "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
-    "pdf_filename": "Circular_Reporting of value of units of Alternative Investment Funds (AIFs) to Depositories.pdf",
+    "pdf_filename": "Master_Circular_Master Circular for Investment Advisers.pdf",
     "pdf_downloaded": "no",
-    "created_at": "2026-02-06T11:08:59.652659Z",
-    "source_commit": "7968ae042dda7e307ac1413083a6ece3dae96b11",
-    "category": "Circular",
+    "created_at": "2026-02-06T15:10:10.662002Z",
+    "source_commit": "b374fbd7261d9a030b5ef0554d1218bc6aa1b8b3",
+    "category": "Master_Circular",
     "error": ""
   }
 ]
