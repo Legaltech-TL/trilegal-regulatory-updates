@@ -233,21 +233,38 @@ def run_scraper():
 
         browser.close()
 
+    print("TOTAL SCRAPED:", len(all_data))
     return all_data
 
 
 # --------------------------------------------------
-# Save CSV + new JSON
+# Save CSV + new JSON  ✅ FIXED
 # --------------------------------------------------
 
 def save_outputs(data):
 
     new_df = pd.DataFrame(data)
 
-    if Path(CSV_FILE).exists():
-        old_ids = set(pd.read_csv(CSV_FILE)["id"].astype(str))
-    else:
+    # Safety: if nothing scraped
+    if new_df.empty:
+        print("No data scraped — JSON not written")
+        new_df.to_json(NEW_JSON, orient="records", indent=2)
+        return
+
+    # -------- FIRST RUN --------
+    if not Path(CSV_FILE).exists():
+        new_df.to_csv(CSV_FILE, index=False)
+        new_df.to_json(NEW_JSON, orient="records", indent=2)
+        print("First run — all entries new:", len(new_df))
+        return
+
+    # -------- NORMAL RUN --------
+    old_df = pd.read_csv(CSV_FILE)
+
+    if "id" not in old_df.columns:
         old_ids = set()
+    else:
+        old_ids = set(old_df["id"].astype(str))
 
     new_entries = new_df[~new_df["id"].isin(old_ids)]
 
