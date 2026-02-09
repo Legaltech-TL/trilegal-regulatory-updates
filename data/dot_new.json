@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-02-08T08:58:45.779068",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-02-09T04:43:41.419815",
+  "count": 2,
+  "items": [
+    {
+      "id": "0c7643ce906ca8a2",
+      "title": "Entrustment of additional charge of the post of CMD, TCIL",
+      "publish_date": "02/09/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/7eef5da6e7b53125e3a3034b94b4f549.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/09/2026"
+    },
+    {
+      "id": "aba0d7ed91779724",
+      "title": "Limited Departmental Qualifying Examination 2026 for promotion of MTS to LDC of Department of Telecommunications, in the O/o CCAs/ NCA(F)",
+      "publish_date": "02/09/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/9115d2780534d9218c179204b06d7e1e.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/09/2026"
+    }
+  ]
 }
