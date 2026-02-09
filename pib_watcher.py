@@ -8,6 +8,8 @@ import datetime
 import re
 import logging
 from urllib.parse import urljoin, urlparse, parse_qs
+import sys
+csv.field_size_limit(sys.maxsize)
 
 # ================= CONFIG =================
 
@@ -171,3 +173,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
