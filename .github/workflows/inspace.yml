@@ -2,8 +2,8 @@ name: IN-SPACe Watcher
 
 on:
   schedule:
-    - cron: "30 19 * * *"  # 1:00 AM IST
-    - cron: "45 0 * * *"   # 6:15 AM IST
+    - cron: "30 3 * * *"   # 09:00 AM IST
+    - cron: "30 8 * * *"   # 02:00 PM IST
   workflow_dispatch:
 
 
