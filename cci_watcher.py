@@ -245,6 +245,9 @@ def run_scraper():
 
 def save_outputs(data):
 
+    # ✅ ensure data folder exists
+    DATA_DIR.mkdir(exist_ok=True)
+
     new_df = pd.DataFrame(data)
 
     # Safety: if nothing scraped
@@ -274,6 +277,7 @@ def save_outputs(data):
     new_entries.to_json(NEW_JSON, orient="records", indent=2)
 
     print("New entries:", len(new_entries))
+
 
 
 # --------------------------------------------------
