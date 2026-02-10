@@ -12,8 +12,10 @@ WHATS_NEW = "https://cci.gov.in/whats-new"
 PUBLIC_NOTICES = "https://cci.gov.in/public-notices"
 PRESS_RELEASE = "https://cci.gov.in/media-gallery/press-release"
 
-CSV_FILE = "cci_all_sections.csv"
-NEW_JSON = "cci_new_entries.json"
+DATA_DIR = Path("data")
+CSV_FILE = DATA_DIR / "cci_master.csv"
+NEW_JSON = DATA_DIR / "cci_new_entries.json"
+
 
 
 # --------------------------------------------------
