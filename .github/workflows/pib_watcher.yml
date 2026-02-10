@@ -2,8 +2,8 @@ name: PIB Watcher
 
 on:
   schedule:
-    # Runs 3 times a day (UTC)
-    - cron: "0 1,9,17 * * *"
+    # Runs daily at 8 AM, 2 PM, 6 PM IST
+    - cron: "30 2,8,12 * * *"
   workflow_dispatch:
 
 permissions:
