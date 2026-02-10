@@ -8,14 +8,12 @@ from dateutil import parser as dtparser
 from pathlib import Path
 
 
-WHATS_NEW = "https://cci.gov.in/whats-new"
 PUBLIC_NOTICES = "https://cci.gov.in/public-notices"
 PRESS_RELEASE = "https://cci.gov.in/media-gallery/press-release"
 
 DATA_DIR = Path("data")
 CSV_FILE = DATA_DIR / "cci_master.csv"
 NEW_JSON = DATA_DIR / "cci_new_entries.json"
-
 
 
 # --------------------------------------------------
@@ -137,7 +135,8 @@ def parse_table(page, detail_page, section,
             "no": no,
             "title": title,
             "date": date_val,
-            "pdf_link": link
+            "pdf_link": link,
+            "pdf_filename": f"{uid}.pdf"
         })
 
     return out
@@ -190,7 +189,7 @@ def paginate(page, detail_page, section,
 
 
 # --------------------------------------------------
-# Scraper runner
+# Scraper runner (Whats New removed)
 # --------------------------------------------------
 
 def run_scraper():
@@ -204,13 +203,6 @@ def run_scraper():
         detail_page = browser.new_page()
 
         page.set_default_navigation_timeout(60000)
-
-        print("Whats New")
-        page.goto(WHATS_NEW, wait_until="domcontentloaded")
-        wait_for_table_rows(page)
-        all_data.extend(parse_table(page, detail_page, "whats_new"))
-
-        time.sleep(2)
 
         print("Public Notices")
         page.goto(PUBLIC_NOTICES, wait_until="domcontentloaded")
@@ -240,17 +232,15 @@ def run_scraper():
 
 
 # --------------------------------------------------
-# Save CSV + new JSON  ✅ FIXED
+# Save CSV + JSON
 # --------------------------------------------------
 
 def save_outputs(data):
 
-    # ✅ ensure data folder exists
     DATA_DIR.mkdir(exist_ok=True)
 
     new_df = pd.DataFrame(data)
 
-    # Safety: if nothing scraped
     if new_df.empty:
         print("No data scraped — JSON not written")
         new_df.to_json(NEW_JSON, orient="records", indent=2)
@@ -277,7 +267,6 @@ def save_outputs(data):
     new_entries.to_json(NEW_JSON, orient="records", indent=2)
 
     print("New entries:", len(new_entries))
-
 
 
 # --------------------------------------------------
