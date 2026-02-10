@@ -1,5 +1,46 @@
 {
-  "generated_at": "2026-02-09T09:18:09.206624",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-02-10T06:45:32.300447",
+  "count": 5,
+  "items": [
+    {
+      "id": "488d539c7c8e895b",
+      "title": "Transfer & Posting of officers in JTS of ITS Group \u2018A\u2019 - Sh. Raghav Purwar",
+      "publish_date": "02/10/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/8362741bbe572a8eebcf57c32de9e7c0.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/10/2026"
+    },
+    {
+      "id": "98a5ac662489fd1f",
+      "title": "Taken on Strength in respect of officer of ITS Gr. A 09022026",
+      "publish_date": "02/09/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/d405a89181b50469ce385b1a6e2baf1a.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/10/2026"
+    },
+    {
+      "id": "41c9966e582a4270",
+      "title": "CS COMM1152 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 06.02.2026 to ISPs",
+      "publish_date": "02/06/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/7796b4e325828d64fd61a3179794f2b9.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/10/2026"
+    },
+    {
+      "id": "b710aeac2f1898d7",
+      "title": "India hosts ITU-led Study Tour with support from APC Colombia and Department of Telecommunications (DoT) on International Exchange Initiative on Regulating E-Waste and Engaging Tech Companies",
+      "publish_date": "02/09/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/967178d2c9962be0415c1f5c49c4d68e.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "02/10/2026"
+    },
+    {
+      "id": "b542401dcb096d52",
+      "title": "India shines in Network Readiness Index Report 2025, prepared by Portulans Institute based in Washington DC",
+      "publish_date": "02/09/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/f34cb8f2a8323e94d5281a121037809a.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "02/10/2026"
+    }
+  ]
 }
