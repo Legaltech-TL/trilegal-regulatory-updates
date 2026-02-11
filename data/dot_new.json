@@ -1,20 +1,12 @@
 {
-  "generated_at": "2026-02-11T05:30:12.783654",
-  "count": 2,
+  "generated_at": "2026-02-11T06:49:03.189872",
+  "count": 1,
   "items": [
     {
-      "id": "296acdae537991c7",
-      "title": "CS COMM 81 of 2026 in Honble High Court of Delhi: DoT instructions dated 09.02.2026 to ISPs",
-      "publish_date": "02/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/69c902b325de8d0542e951e09b4690e5.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "02/11/2026"
-    },
-    {
-      "id": "051e7417552ef2c1",
-      "title": "CS COMM 1306 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 09.02.2026 to ISPs",
-      "publish_date": "02/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/1c8a1e2753593fd1656116868debb619.pdf",
+      "id": "31753413b65f2256",
+      "title": "Allocation of additional Wireline Access Service Codes to M/s Reliance JIO Infocomm Ltd. for 8 SDCAs of Andhra Pradesh, Madhya Pradesh, Karnataka and Jammu & Kashmir LSAs.",
+      "publish_date": "02/03/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/2f77227a7936e40e4e906d70ddacd35c.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "02/11/2026"
     }
