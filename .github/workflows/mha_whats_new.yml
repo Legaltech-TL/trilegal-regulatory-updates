@@ -3,10 +3,10 @@ name: MHA Whats New Scraper
 on:
   schedule:
     # Runs twice daily (UTC)
-    # 08:30 IST -> 03:00 UTC
-    # 20:30 IST -> 15:00 UTC
-    - cron: '00 3 * * *'
-    - cron: '00 15 * * *'
+    # 08:45 IST -> 03:15 UTC
+    # 20:45 IST -> 15:15 UTC
+    - cron: '15 3 * * *'
+    - cron: '15 15 * * *'
   workflow_dispatch:
 
 permissions:
