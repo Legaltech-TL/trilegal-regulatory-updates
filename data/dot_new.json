@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-02-12T06:48:08.425742",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-02-12T09:38:07.202961",
+  "count": 3,
+  "items": [
+    {
+      "id": "63e46644fb05487a",
+      "title": "Offer of appointment to the post of Junior Telecom Officer Group \u2018B\u2019 in the Department of Telecommunications on the basis of theresults of Engineering Services Examination, 2024 (Reserve List)",
+      "publish_date": "02/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/3f5e93941307526f74231ffcf402580f.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/12/2026"
+    },
+    {
+      "id": "4600c7cb8081e626",
+      "title": "CS COMM 89 of 2026 in Honble High Court of Delhi: DoT instructions dated 12.02.2026 to ISPs",
+      "publish_date": "02/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/894742e4f774d5e2e474115c0407352d.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/12/2026"
+    },
+    {
+      "id": "e37ae56c1e353628",
+      "title": "CS COMM 106 of 2026 in Honble High Court of Delhi: DoT instructions dated 12.02.2026 to ISPs",
+      "publish_date": "02/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/849bff7d439478939ff2c0357776ee36.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/12/2026"
+    }
+  ]
 }
