@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-02-13T06:44:48.841414",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-02-13T09:34:06.072531",
+  "count": 2,
+  "items": [
+    {
+      "id": "87c70e7f04cff109",
+      "title": "Union Minister Shri Jyotiraditya Scindia says BharatNet is transforming India into a digitally empowered society",
+      "publish_date": "02/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/518448dc945871b30eac53d08bc609eb.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "02/13/2026"
+    },
+    {
+      "id": "1bc5155fbdddd6a0",
+      "title": "Union Minister Shri Jyotiraditya Scindia highlights measures undertaken through Digital Intelligence Platform and major outcomes in reducing telecom frauds",
+      "publish_date": "02/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/ae0d4d37cfeb2f6b2cb6c764fef8e201.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "02/13/2026"
+    }
+  ]
 }
