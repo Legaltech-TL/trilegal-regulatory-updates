@@ -65,10 +65,10 @@ jobs:
 
       - name: Run IP India scraper
         run: |
-          if [ -f "./ipindia_scraper.py" ]; then
-            python ./ipindia_scraper.py
+          if [ -f "./ipindia.py" ]; then
+            python ./ipindia.py
           else
-            echo "ERROR: ipindia_scraper.py not found"
+            echo "ERROR: ipindia.py not found"
             ls -la
             exit 1
           fi
