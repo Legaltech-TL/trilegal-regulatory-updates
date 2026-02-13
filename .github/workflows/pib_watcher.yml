@@ -10,9 +10,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: regulatory-updates
+  group: pib-watcher
   cancel-in-progress: false
-
 
 jobs:
   run-pib-watcher:
