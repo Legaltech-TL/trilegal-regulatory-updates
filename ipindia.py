@@ -5,6 +5,7 @@ from urllib.parse import urljoin
 import time
 import hashlib
 import json
+import re
 from pathlib import Path
 
 
@@ -25,6 +26,20 @@ def make_id(title, link):
     return hashlib.sha1(
         f"{title}|{link}".encode()
     ).hexdigest()[:16]
+
+
+# -------------------------
+# PDF filename from title
+# first 5 real words only
+# -------------------------
+def make_pdf_filename(title, pdf_link):
+    if not pdf_link:
+        return ""
+
+    words = re.findall(r"[A-Za-z0-9]+", title)[:5]
+    base = "_".join(words)
+
+    return base + ".pdf"
 
 
 # -------------------------
@@ -85,6 +100,7 @@ def extract_detail(url):
 
         pdf_link = ""
 
+        # primary selector
         pdf_tag = soup.select_one("a[id^=lnkTitle_]")
         if pdf_tag and pdf_tag.get("href"):
             pdf_link = urljoin(BASE, pdf_tag["href"])
@@ -130,6 +146,7 @@ def run_scraper():
             content, pdf = extract_detail(item["detail_link"])
 
             uid = make_id(item["title"], item["detail_link"])
+            pdf_name = make_pdf_filename(item["title"], pdf)
 
             results.append({
                 "id": uid,
@@ -137,6 +154,7 @@ def run_scraper():
                 "date": item["date"],
                 "detail_link": item["detail_link"],
                 "pdf_link": pdf,
+                "pdf_filename": pdf_name,
                 "content": content
             })
 
@@ -183,7 +201,7 @@ def save_outputs(data):
 
     new_entries = new_df[~new_df["id"].isin(old_ids)]
 
-    # overwrite master CSV with latest full scrape
+    # overwrite master CSV with full latest scrape
     new_df.to_csv(CSV_FILE, index=False)
 
     # write only delta to JSON
