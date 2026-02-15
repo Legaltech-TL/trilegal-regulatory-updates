@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "b4a1d9c3c4502297bf3c150ff18cc694d51b3816",
+    "section": "media_coverage",
+    "title": "28-11 Netbanking switch to provide better visibility into transactions:\u2008NBBL\u2008CEO",
+    "asset_link": "https://www.npci.org.in/uploads/NPCI_Press_Release_Ru_Pay_JCB_cardholders_can_now_avail_25_cashback_for_in_store_purchases_54cda18d9d.pdf",
+    "filename": "NPCI_Press_Release_Ru_Pay_JCB_cardholders_can_now_avail_25_cashback_for_in_store_purchases_54cda18d9d.pdf",
+    "scraped_at": "2026-02-15T22:28:55.268076"
+  },
+  {
+    "id": "0b507e9dda692ed8a3069fc7d9e40995f9156f8c",
+    "section": "media_coverage",
+    "title": "28-11 NBBL targets 1 billion monthly transactions",
+    "asset_link": "https://www.npci.org.in/uploads/Media_Statement_Regarding_Cheque_Clearance_8d6a0245de.pdf",
+    "filename": "Media_Statement_Regarding_Cheque_Clearance_8d6a0245de.pdf",
+    "scraped_at": "2026-02-15T22:28:58.299253"
+  }
+]
