@@ -775,3 +775,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-16 10:22:45
+7c487c1ec0f2fadd,CERT-In Vulnerability Note  CIVN-2026-0092,"February 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0092,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0092
+Remote Code Execution Vulnerability in Microsoft Edge (Chromium-based)
+Original Issue Date:February  16, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Edge versions prior to 144.0.3719.115
+Overview
+A vulnerability has been reported in Microsoft Edge, which could allow an attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end user organizations and individuals using Microsoft Edge.
+Risk Assessment:
+High risk of unauthorized access, system compromise, and data exposure.
+Impact Assessment:
+Potential for remote code execution, sensitive data exposure.
+Description
+Microsoft Edge is a web browser developed by Microsoft using the chromium engine, offering fast performance, enhanced Security and compatibility with modern web standards while integrating with Microsoft services.
+Remote Code Execution Vulnerability exists in Microsoft Edge due to Heap buffer overflow in libvpx. A remote attacker could exploit this vulnerability by persuading a victim to visit a specially crafted web page.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate fix/patches as mentioned:
+https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-relnotes-security#february-5-2026
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1861
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1861
+CVE Name
+CVE-2026-1861
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 11:27:43
