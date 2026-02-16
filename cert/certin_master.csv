@@ -1,0 +1,777 @@
+id,title,date,link,category,content,scraped_at
+cd7b9a711af88447,CERT-In Vulnerability Note  CIVN-2026-0091,"February 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0091,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0091
+Multiple Vulnerabilities in GitLab
+Original Issue Date:February  16, 2026
+Severity Rating: HIGH
+Software Affected
+Gitlab versions prior to versions 18.8.4, 18.7.4 and 18.6.6 for GitLab Community Edition (CE) and Enterprise Edition (EE)
+Overview
+Multiple vulnerabilities have been reported in GitLab CE/EE that could allow an attacker to steal sensitive information, perform server-side request forgery, bypass authorization controls, conduct cross-site scripting and HTML injection attacks, manipulate application data, and cause denial-of-service conditions on the targeted system.
+Target Audience:
+Organizations and individuals operating self-managed GitLab CE/EE instances.
+Risk Assessment:
+Risk of unauthorized access, privilege escalation, information disclosure, improper access control, input validation abuse, and denial-of-service conditions.
+Impact Assessment:
+Potential for unauthorized data access, data manipulation, and service disruption.
+Description
+GitLab is a web-based DevOps platform that provides tools for software development, including source code management, continuous integration and continuous deployment. It is available in both open-source Community Edition (CE) and Enterprise Edition (EE) versions.
+Multiple vulnerabilities exist in GitLab CE/EE due to improper input validation issues, incorrect authorization checks, improper filtering, access control weaknesses, encoding flaws, and insufficient request handling. An attacker could exploit these vulnerabilities by injecting or executing specially crafted requests or content on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to steal sensitive information, perform server-side request forgery, bypass authorization controls, conduct cross-site scripting and HTML injection attacks, manipulate application data, and cause denial-of-service conditions on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://about.gitlab.com/releases/2026/02/10/patch-release-gitlab-18-8-4-released/
+Vendor Information
+Gitlab
+https://about.gitlab.com/releases/2026/02/10/patch-release-gitlab-18-8-4-released/
+References
+https://about.gitlab.com/releases/2026/02/10/patch-release-gitlab-18-8-4-released/
+CVE Name
+CVE-2025-7659
+CVE-2025-8099
+CVE-2025-0958
+CVE-2025-14560
+CVE-2026-0595
+CVE-2026-1458
+CVE-2026-1456
+CVE-2026-1387
+CVE-2026-12575
+CVE-2026-1094
+CVE-2026-12073
+CVE-2026-1080
+CVE-2025-14592
+CVE-2026-1282
+CVE-2026-14594
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+7130c914352e1266,CERT-In Vulnerability Note  CIVN-2026-0090,"February 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0090,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0090
+Use after free vulnerability in Google Chrome for Desktop
+Original Issue Date:February  16, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 145.0.7632.75/76 for Windows/Mac
+Google Chrome versions prior to 144.0.7559.75 for Linux
+Overview
+A vulnerability has been reported in Google Chrome, which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organisations and individuals using aﬀected Google Chrome for Desktop.
+Risk Assessment:
+Potential for system compromise and service unavailability.
+Impact Assessment:
+High risk of system compromise and service disruptions.
+Description
+Google Chrome is a widely used web browser developed by Google and used for accessing web-based content on Windows, macOS, and Linux systems.
+This vulnerability exists in Google Chrome due to Use-After-Free condition in the CSS component of Chrome¿s rendering engine. A remote attacker could exploit this vulnerability by convincing a user to visit a specially crafted HTML webpage.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html
+CVE Name
+CVE-2026-2441
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+53c3c6f57dc847a8,CERT-In Vulnerability Note  CIVN-2026-0089,"February 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0089,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0089
+Multiple vulnerabilities in Fortinet products
+Original Issue Date:February  13, 2026
+Severity Rating: HIGH
+Software Affected
+FortiOS versions 7.6.0 through 7.6.4
+FortiSandbox versions 5.0.0 through 5.0.1
+FortiSandbox versions 4.4.0 through 4.4.7
+FortiSandbox versions 4.2 (all versions)
+FortiSandbox versions 4.0 (all versions)
+Overview
+Multiple vulnerabilities have been identified in Fortinet products that could allow an unauthenticated remote attacker to bypass LDAP authentication mechanisms or execute malicious scripts on the targeted system.
+Target Audience:
+All organizations and individuals using the affected Fortinet products.
+Risk Assessment:
+Potential for unauthorized access and execution of malicious scripts due to authentication bypass and improper input handling.
+Impact Assessment:
+High risk of unauthorized network access, user impersonation, session compromise, and potential exposure of sensitive information.
+Description
+Fortinet develops enterprise security solutions that provide VPN authentication, policy enforcement, and advanced threat detection capabilities.
+These issues stem from improper handling of LDAP authentication requests within the operating system component and insufficient neutralization of user-supplied input in the web-based analysis interface. An attacker may exploit these weaknesses to bypass LDAP authentication controls in Agentless VPN or FSSO configurations and execute malicious scripts through crafted web requests.
+Successful exploitation could allow an unauthenticated attacker to gain unauthorized access to protected network resources and perform actions within a victims browser session.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://fortiguard.fortinet.com/psirt/FG-IR-25-093
+https://fortiguard.fortinet.com/psirt/FG-IR-25-1052
+Vendor Information
+Fortinet
+https://fortiguard.fortinet.com/psirt/FG-IR-25-093
+https://fortiguard.fortinet.com/psirt/FG-IR-25-1052
+References
+https://fortiguard.fortinet.com/psirt/FG-IR-25-093
+https://fortiguard.fortinet.com/psirt/FG-IR-25-1052
+CVE Name
+CVE-2025-52436
+CVE-2026-22153
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+3d1249f36ebd06d4,CERT-In Advisory   CIAD-2026-0007,"February 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0007,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0007
+Multiple Vulnerabilities in Apple Products
+Original Issue Date: February  13, 2026
+Severity Rating: High
+Software Affected
+Apple iOS and iPadOS versions prior to 26.3
+Apple iOS and iPadOS versions prior to 18.7.5
+Apple macOS Tahoe versions prior to 26.3
+Apple macOS Sequoia versions prior to 15.7.4
+Apple macOS Sonoma versions prior to 14.8.4
+Apple Safari versions prior to 26.3
+Apple tvOS versions prior to 26.3
+Apple watchOS versions prior to 26.3
+Apple visionOS versions prior to 26.3
+Overview
+Multiple vulnerabilities have been reported in Apple Products which could allow an attacker to execute arbitrary code, gain elevated privileges, disclose sensitive information, bypass security restrictions or can cause denial of service condition on the targeted system.
+Target Audience:
+All organizations and individuals using Apple Products.
+Risk Assessment:
+High risk of information disclosure, code execution and denial of service.
+Impact Assessment:
+Potential for data theft, propagation of malware, and system crash.
+Description
+Multiple vulnerabilities have been reported in Apple products:
+A memory corruption vulnerability (
+CVE-2026-20700
+) exists in Apple's Dynamic Link Editor (dyld) that could allow an attacker with memory write capabilities to execute arbitrary code on affected devices.
+Note: This vulnerability (
+CVE-2026-20700
+) is being exploited in the wild. Users are advised to apply patches immediately.
+Solution
+Apply appropriate patches as mentioned in the Apple Security Updates
+https://support.apple.com/en-in/126347
+https://support.apple.com/en-in/126346
+https://support.apple.com/en-in/126348
+https://support.apple.com/en-in/126354
+https://support.apple.com/en-in/126349
+https://support.apple.com/en-in/126350
+https://support.apple.com/en-in/126351
+https://support.apple.com/en-in/126352
+https://support.apple.com/en-in/126353
+Vendor Information
+Apple
+https://support.apple.com/en-in/126347
+https://support.apple.com/en-in/126346
+https://support.apple.com/en-in/126348
+https://support.apple.com/en-in/126354
+https://support.apple.com/en-in/126349
+https://support.apple.com/en-in/126350
+https://support.apple.com/en-in/126351
+https://support.apple.com/en-in/126352
+https://support.apple.com/en-in/126353
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+12ad9a882b77d32c,CERT-In Advisory   CIAD-2026-0006,"February 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0006,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0006
+Multiple Vulnerabilities in SAP Products
+Original Issue Date: February  12, 2026
+Severity Rating: High
+Software Affected
+SAP CRM and SAP S/4HANA (Scripting Editor)
+SAP NetWeaver Application Server ABAP and ABAP Platform
+SAP Supply Chain Management
+SAP Solution Tools Plug-In (ST-PI)
+SAP Commerce Cloud
+SAP BusinessObjects Business Intelligence Platform
+SAP NetWeaver Application Server ABAP and SAP S/4HANA
+SAP Document Management System
+Business Server Pages Application (TAF_APPLAUNCHER)
+SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML)
+SAP Business One (B1 Client Memory Dump Files)
+SAP Business Workflow
+ABAP-based SAP systems
+SAP BusinessObjects Enterprise (Central Management Console)
+SAP NetWeaver (JMS service)
+SAP Fiori App (Manage Service Entry Sheets ¿ Lean Services)
+SAP Support Tools Plug-In
+SAP S/4HANA Defense& Security (Disconnected Operations)
+SAP Strategic Enterprise Management (Balanced Scorecard in BSP Application)
+SAP NetWeaver Application Server Java
+Overview
+Multiple vulnerabilities have been reported in SAP products which could allow an attacker to perform code injection, SQL injection, cross-site scripting (XSS) attacks, escalate privileges, execute arbitrary commands, bypass authorization checks, conduct open redirect attacks, exploit race conditions, disclose sensitive information, perform CRLF injection, cause memory corruption, and launch denial of service (DoS) attacks on the targeted system.
+Target Audience:
+SAP system administrators, SAP security teams, IT infrastructure teams managing SAP landscape, and application developers using affected SAP products and components.
+Risk Assessment:
+High risk of unauthorized access, data compromise, and potential remote code execution.
+Impact Assessment:
+Potential remote code execution, data compromise, and system takeover.
+Description
+Multiple vulnerabilities have been reported in SAP products; Details of which are provided below:
+Solution
+Apply appropriate fixes as mentioned in SAP Security Advisory:
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/february-2026.html
+Vendor Information
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/february-2026.html
+References
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/february-2026.html
+CVE Name
+CVE‑2026‑0488
+CVE‑2026‑0509
+CVE‑2026‑23687
+CVE‑2026‑23689
+CVE‑2026‑24322
+CVE‑2026‑0490
+CVE‑2026‑0485
+CVE‑2025‑12383
+CVE‑2026‑0508
+CVE‑2026‑0484
+CVE‑2026‑24324
+CVE‑2026‑0505
+CVE‑2026‑24323
+CVE‑2026‑24328
+CVE‑2025‑0059
+CVE‑2026‑23684
+CVE‑2026‑24319
+CVE‑2026‑24321
+CVE‑2026‑24312
+CVE‑2026‑0486
+CVE‑2026‑24325
+CVE‑2026‑23685
+CVE‑2026‑23688
+CVE‑2026‑23681
+CVE‑2026‑24326
+CVE‑2026‑24327
+CVE‑2026‑23686
+CVE‑2026‑24320
+CVE‑2026‑0488
+CVE‑2026‑0509
+CVE‑2026‑23687
+CVE‑2026‑23689
+CVE‑2026‑24322
+CVE‑2026‑0490
+CVE‑2026‑0485
+CVE‑2025‑12383
+CVE‑2026‑0508
+CVE‑2026‑0484
+CVE‑2026‑24324
+CVE‑2026‑0505
+CVE‑2026‑24323
+CVE‑2026‑24328
+CVE‑2025‑0059
+CVE‑2026‑23684
+CVE‑2026‑24319
+CVE‑2026‑24321
+CVE‑2026‑24312
+CVE‑2026‑0486
+CVE‑2026‑24325
+CVE‑2026‑23685
+CVE‑2026‑23688
+CVE‑2026‑23681
+CVE‑2026‑24326
+CVE‑2026‑24327
+CVE‑2026‑23686
+CVE‑2026‑24320
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+e182b673e5a27442,CERT-In Advisory   CIAD-2026-0005,"February 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0005,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0005
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: February  11, 2026
+Severity Rating: High
+Software Affected
+Microsoft Windows
+Microsoft Office
+Developer Tools
+Server Software
+SQL Server
+System Center
+Extended Security Updates (ESU) for legacy Microsoft products
+Apps
+Azure
+GitHub Copilot Plugin for JetBrains IDEs
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to gain elevated privileges, obtain sensitive information, conduct remote code execution attacks, bypass security restrictions, conduct spoofing attacks, or cause denial of service conditions.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating Microsoft products
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure
+Impact Assessment:
+Potential compromise of system, exfiltration of data, ransomware attacks or system crashes.
+Description
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to gain elevated privileges, obtain sensitive information, conduct remote code execution attacks, bypass security restrictions, conduct spoofing attacks, or cause denial of service conditions.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Microsoft security updates.
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Feb
+Solution
+Apply appropriate security updates as mentioned in
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Feb
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/
+References
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Feb
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+078e71f5f49a3e7e,Threat Actors exploiting Remote Code Execution Vulnerability in React Server Components,"December 15, 2025",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2025-3471,Current Activities,"CURRENT ACTIVITIES
+Threat Actors exploiting Remote Code Execution Vulnerability in React Server Components
+Original Issue Date:December  15, 2025
+It has been reported that the threat actors are exploiting Remote Code Execution Vulnerability in React Server Components (CVE-2025-55182).
+Software Affected
+react-server-dom-webpack versions 19.0, 19.1.0, 19.1.1, and 19.2.0
+react-server-dom-parcel versions 19.0, 19.1.0, 19.1.1, and 19.2.0
+react-server-dom-turbopack versions 19.0, 19.1.0, 19.1.1, and 19.2.0
+Next.js 15.x
+Next.js 16.x
+Next.js 14.3.0-canary.77 and later canary releases
+Description
+React (React.js) is an open-source JavaScript library designed for creating application user interfaces.
+This vulnerability exists due to unsafe deserialization of attacker-controlled input inside the React Server Components (RSC) Flight protocol. A remote attacker could exploit this vulnerability by sending a specially crafted HTTP request to an endpoint that processes RSC payloads and execute arbitrary code on the targeted system.
+Successful exploitation of this vulnerability may result in complete compromise of the vulnerable system.
+Note: This vulnerability (
+CVE-2025-55182
+) is being exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate software updates as mentioned by the vendor:
+https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components
+Vendor Information
+React
+https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components
+References
+CERT-In
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2025-0352
+React
+https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components
+CVE Name
+CVE-2025-55182
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+9f1dbc39661812b3,Threat Actors exploiting Buffer Overflow Vulnerability in D-Link routers,"December 10, 2025",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2025-3469,Current Activities,"CURRENT ACTIVITIES
+Threat Actors exploiting Buffer Overflow Vulnerability in D-Link routers
+Original Issue Date:December  10, 2025
+It has been reported that the threat actors are exploiting Buffer Overflow Vulnerability (CVE-2022-37055)  in D-Link routers.
+Software Affected
+D-Link Go-RT-AC750 Versions - GORTAC750_revA_v101b03 and GO-RT-AC750_revB_FWv200b02
+Description
+This vulnerability exists due to improper memory management in D-Link routers. An attacker could exploit this vulnerability to execute arbitrary code with device-level privileges, which result in complete control over network traffic, system integrity, and the confidentiality of data on the affected system.
+Note: This vulnerability (CVE-2022-37055) is being exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10308
+It is also recommended to retire and replace D-Link devices that have reached End-of-Life / End-of-Service.
+Vendor Information
+D-Link
+https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10482
+https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10308
+References
+CyberSecurityNews
+https://cybersecuritynews.com/cisa-d-link-routers-vulnerability/
+RedPacket Security
+https://www.redpacketsecurity.com/cve-alert-cve-2022-37055-n-a-n-a/
+CVE Name
+CVE-2022-37055
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+99b181e1b8be48b4,Threat Actors exploiting Missing Authorization check Vulnerability in SAP NetWeaver (Visual Composer development server),"October 06, 2025",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2025-3449,Current Activities,"CURRENT ACTIVITIES
+Threat Actors exploiting Missing Authorization check Vulnerability in SAP NetWeaver (Visual Composer development server)
+Original Issue Date:October   06, 2025
+It has been reported that the threat actors are exploiting Missing Authorization check Vulnerability (CVE-2025-31324) in SAP NetWeaver (Visual Composer development server).
+Software Affected
+SAP NetWeaver (Visual Composer development server) Version - VCFRAMEWORK 7.50
+Description
+This vulnerability exists due to missing authorization check in SAP NetWeaver Visual Composer Metadata Uploader. An attacker could exploit this flaw to upload potentially malicious executable binaries, which may result in a complete compromise of the affected system.
+Note: This vulnerability (CVE-2025-31324) is being exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/may-2025.html
+Vendor Information
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/may-2025.html
+References
+CERT-In
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2025-0017
+CVE Name
+CVE-2025-31324
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+7926354b3dd1fe42,"CERT-In conducted workshop on ""Automotive Cybersecurity"" on 11th December 2025","December 11, 2025",https://www.cert-in.org.in/PDF/MediaPublish_AutomotiveCyberSecurity.pdf,ITNews,"“Cyber Pit Stop: Automotive Cybersecurity in the Connected Era”  
+CERT -In is advancing  its ongoing efforts to strengthen the nation’s cyber 
+resilience through key initiatives proposed during the CERT -In 
+SAMVAAD 2025  annual conference held at Mahabalipuram, Tamil Nadu 
+in May 2025. Among the notable proposals was the  launch of 
+Automotive Security Working Group for  development of “Automotive 
+Cybersecurity Guidelines & Framework” , envisioned as a strategic 
+national framework to enhance cybersecurity preparedness , regulatory 
+readiness, and incident response capabilities in the rapidly evolving 
+automotive ecosystem.  
+In line with this vision, CERT -In along with the Working Group chair and 
+members organised a  “Automotive Cybersecurity Workshop”  on 
+December  11, 2025 f or the cybersecurity audit community. The 
+workshop brought together more than 185 participants, including 
+representatives from automotive sector regulators, CERT -In empanelled 
+information security auditing organisations, industry experts, and 
+emerging technology innovators, with the objective of strengthening 
+national competencies in securing modern, connected, autonomous and 
+intelligent vehicles.  
+The workshop covered a comprehensive range of focus areas, including:  
+ Protection and security of in -vehicle com munication networks  
+ Threat detection, incident analysis, and mitigation techniques  
+ Automotive Cyber Security Framework and S tandards.  
+ Best practices for developing cyber -resilient automotive 
+architectures  
+Expert -led technical sessions,  demonstrations, and real -world case 
+studies which enabled participants to gain practical insights into 
+addressing emerging cyber risks in the automotive sector. The initiative 
+reaffirms the Government of India’s commitment t o fostering safe, 
+secure, and future -ready mobility , aligned with national cybersecurity 
+priorities.  
+Participants appreciated the workshop’s practical approach and its 
+relevance in today’s rapidly digitizing transportation landscape.  
+CERT -In extends its gr atitude to the working group chair & members,  
+speakers, domain experts, and participating organisations for their 
+valuable contributions.",2026-02-16 10:22:45
+c92ebdeb1af97e1c,"CERT-IN PARTICIPATED IN APCERT CYBER DRILL 2025 ON ""WHEN RANSOMWARE MEETS GENERATIVE AI"" on 29th July 2025.","July 29, 2025",https://www.cert-in.org.in/PDF/APCERT_Drill_2025_Press_Release.pdf,ITNews,"CERT -IN PARTICIPATED IN APCERT CYBER DRILL 2025 ON  
+“WHEN RANSOMWARE MEETS GENERATIVE AI”  
+ 
+29th July 2025  
+ 
+The Asia Pacific Computer Emergency Response Team (APCERT) today has 
+successfully completed its annual drill to test the response capabilities of leading 
+Computer Security Incident Response Teams (CSIRT) among Asia Pacific economies.  
+CERT -In participated in the APCERT drill 2025 for the nineteenth consecutive year 
+and completed each task successfully within designated time.  
+ 
+In today’s APCERT Cyber Drill, CERT -In participated in three distinct roles: Exercise 
+Controller (EXCON), Player and Observer. As one of the EXCONs, CERT -In oversaw 
+the execution of the drill and coordinated communication and responses for the 
+designated international CSIRTs/CERTs . In its role as a Player, CERT -In responded to 
+simulated cyber -attack scenarios presented during the drill. As an Observer, CERT -In 
+monitored and facilitated the overall progress of the drill . 
+ 
+ 
+The theme of this year's APCERT Drill was ""When Ransomware Meets Generative 
+AI."" This exercise reflects emerging real -world cybersecurity threats posed by the 
+malicious use of Generative AI, an evolving technology that is increasingly being 
+misused by cyber threat actors.  
+ 
+Participating teams reviewed and tested their incident response procedures through 
+simulated scenarios involving malicious code generated by Generative AI, exploitation 
+of open -source vulnerabilities, and so on. This incident response exercise provided an 
+opportunity for participating teams to review and strengthen their response procedures 
+against evolving Generative AI -enabled threats, emphasizing the importance of 
+proactive preparedness in an era of rapidly advancing technologies.  
+ 
+22 CSIRTs from 18 economies of APCERT  and 7 CSIRTs from 6 economies of         
+OIC-CERT and AfricaCERT participated  in the drill .",2026-02-16 10:22:45
+e1c585e38b191b31,"National Cybersecurity Agency for France (ANSSI) publishes High-level risk analysis report on Artificial Intelligence (AI) entitled ""Building trust in AI through a cyber-risk-based approach,"" in collaboration with other national authorities including CERT-In.","February 13, 2025",https://www.cert-in.org.in/PDF/ANSSI-AI-CERT-In.pdf,ITNews,"National Cybersecurity Agency for France (ANSSI) publishes High -
+level risk analysis report on Artificial Intelligence (AI) entitled 
+“Building trust in AI throu gh a cyber -risk-based approach,”  in 
+collaboration with other national authorities including CERT -In 
+13 February  2025  
+On February 7, 2025, the National Cybersecurity Agency for France (ANSSI) 
+published a joint high -level risk analysis report on artificial intelligence (AI) 
+entitled “Build ing trust in AI through a cyber -risk-based approach ,” in 
+collaboration with other national authorities including CERT -In. The report 
+advocates for a risk -based approach to support trusted AI systems and secure 
+AI value chains and calls for discussions on A I-related cyber risks and how to 
+mitigate them to foster trusted AI development.  
+The document also provides links to the CERT -In published documents:  
+• Indian Computer Emergency Response Team (CERT -In) Ministry of 
+Electronics and Information Technology Government of India, Technical 
+Guidelines on Software Bill Of Materials (SBOM). Availab le at: 
+https://www.cert -in.org.in/PDF/SBOM_Guidelines.pdf  
+• CERT -IN API security - threats, best practices, challenges and way 
+forward using AI. Available at: https://www.cert -in.org.in/PDF/CIW P-
+2023 -0001.pdf  
+More details about the document can be found in  
+• https://cyber.gouv.fr/en/publications/building -trust-ai-through -cyber -risk-
+based -approach  
+• https://www.dataguidance.com/news/international -anssi -publishes -joint-
+report -ai-risks 
+****",2026-02-16 10:22:45
+be9cbcba799f2343,SpyMax Android Malware,"June 25, 2025",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVA01&VACODE=CIVA-2025-2216,virus alert,"VIRUS ALERTS
+SpyMax Android Malware
+Original Issue Date:June      25, 2025
+Virus Type: Android Remote Access Trojan
+It is reported that a variant of an Android-based Remote Access Trojan (RAT) named SpyMax is currently being distributed via social engineering campaigns. Cybercriminals are targeting mobile users by spreading a fake messaging app such as Telegram or fake wedding invitation app through messaging platforms like WhatsApp. The malware disguises itself as a legitimate app to lure users into granting dangerous permissions, allowing attackers to gain full control over infected devices. Once installed, it steals sensitive user data such as contacts, SMS messages, bank OTPs, and notification content which it sends to an attacker-controlled server.
+Infection Mechanism :
+As observed, the malware is being distributed through fake wedding invitation app (Wedding Invitation[.]apk) and users are tricked to download the fake apk file.
+In another latest campaign, the malware is also being distributed through phishing link claiming to be Telegram. When users attempt to download the file, they are redirected to https://telegroms[.]icu/assets/download/ready[.]apk, where a malicious application named ready[.]apk is downloaded.
+The victim is enticed to install the file under the pretence of viewing a wedding invitation. Upon installation, the app requests several high-risk permissions including accessibility service, notification access, SMS, permission to install package and to Set as Home App (for persistence). Later, the app icon disappears from the launcher, making it difficult for users to detect or uninstall it. It also decrypts and installs another malicious payload with the package name com.android[.]pictach, further expanding its capabilities.
+The malware then logs user activity and device information in hidden directories such as: ""/Config/sys/apps/log/log-yyyy-mm-dd.log"". Captured data including keystrokes, contact lists, SMS content, and notifications is compressed using GZIP and exfiltrated to a Command-and-Control (C2) server at Port 7860.
+Additionally, SpyMax receives encrypted commands from the server to perform further operations, such as deploying additional payloads or exfiltrating files.
+Indicator of Compromise:
+C2 IP:
+104.234.167[.]145
+154.213.65[.]28:7771
+URL:
+https://telegroms[.]icu/assets/download/ready.apk
+Package and Hash:
+com.cristal.bristral.tristal[.]mistral - c58b2bacd7c34ef998497032448e3095
+com.android[.]pictach - 66a7fd9bd39b1ba0c097698b68fd94a7
+reputation.printer[.]garmin - 9C42A99693A2D68D7A19D7F090BD2977
+Best Practices and Recommendations:
+All users should avoid downloading APKs from outside Google Play and be cautious with risky permission requests while installing any app.
+Reduce the risk of downloading potentially harmful apps by limiting your download sources to official app stores, such as your devices manufacturer or operating system app store.
+Prior to downloading / installing apps on android devices (even from Google Play Store):
+Always review the app details, number of downloads, user reviews, comments and ""ADDITIONAL INFORMATION"" section.
+Verify app permissions and grant only those permissions which have relevant context for the app's purpose.
+Do not check ""Untrusted Sources"" checkbox to install side loaded apps.
+Install Android updates and patches as and when available from Android device vendors.
+Google Play Protect should be enabled on Android device.
+Permissions should also be given carefully.
+Never enable Accessibility Services for unknown or unverified apps.
+Do not browse un-trusted websites or follow un-trusted links and exercise caution while clicking on the link provided in any unsolicited emails and SMSs.
+Install and maintain updated anti-virus and antispyware software.
+Do extensive research before clicking on link provided in the message. There are many websites that allow anyone to run search based on a phone number and see any relatable information about whether or not a number is legit.
+Only click on URLs that clearly indicate the website domain. When in doubt, users can search for the organisation's website directly using search engines to ensure that the websites they visited are legitimate.
+Consider using Safe Browsing tools, filtering tools (antivirus and content-based filtering) in your antivirus, firewall, and filtering services.
+Exercise caution towards shortened URLs, such as those involving bit.ly and tinyurl. Users are advised to hover their cursors over the shortened URLs (if possible) to see the full website domain which they are visiting or use a URL checker that will allow the user to enter a short URL and view the full URL. Users can also use the shortening service preview feature to see a preview of the full URL.
+Look out for valid encryption certificates by checking for the green lock in the browser's address bar, before providing any sensitive information such as personal particulars or account login details.
+Customer should report any unusual activity in their account immediately to the respective bank with the relevant details for taking further appropriate actions.
+References
+https://labs.k7computing.com/index.php/spymax-a-fake-wedding-invitation-app-targeting-indian-mobile-users/
+https://labs.k7computing.com/index.php/spymax-an-android-rat-targets-telegram-users/
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+2de9f94e062bde36,Latrodectus Malware,"June 20, 2025",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVA01&VACODE=CIVA-2025-2215,virus alert,"VIRUS ALERTS
+Latrodectus Malware
+Original Issue Date:June      20, 2025
+Virus Type: Backdoor / Loader
+It is reported that a malware campaign distributing sophisticated malware, named as Latrodectus (aka BlackWidow), is currently active. This malware acts as loader and backdoor which is often attributed to the same threat actor behind IcedID (aka LunarSpider) malware campaign. It is typically distributed via phishing emails targeting various sectors. Its modular design supports stealth, persistence, and the ability to download and execute additional payloads such as DLLs, EXEs, stealer malware etc.
+Infection Mechanism
+The primary infection technique is through malicious emails impersonate services like DocuSign containing HTML or PDF attachments embedded with phishing URL.
+The pdf consists of compromised domain that will further leads through URL shorteners (e.g., cutt.ly) and compromised/ suspicious domains before fetching a malicious obfuscated JavaScript loader hosted via Google Cloud Storage.
+The script contains numerous junk comments (such as ""//"" and ""////"") to obscure the actual code, and spawns ActiveXObject(""WindowsInstaller.Installer"") to initiate the download of an MSI installer. Later on, MSI drops a 64-bit DLL into %APPDATA%, then runs it via rundll32.exe. In HTML variant, PowerShell is used to launch the DLL directly. Latrodectus sets up a backdoor that allows attackers to remotely control the system, execute commands, download additional payloads, and exfiltrate sensitive data. For its evasion technique, it can detect if it running in Sandbox environment and uses RC4 encryption over HTTP-based C2 communication (typically port 8041).
+Indicator of Compromise:
+URLs:
+hxxps://delview[.]com/MobileDefault[.]aspx?reff=hxxps://cutt[.]ly/seU8MT6t#_fZ0NmW
+hxxps://cutt[.]ly/seU8MT6t#_fZ0NmW
+hxxps://digitalpinnaclepub[.]com/?3
+C2 Domain:
+topguningit[.]com
+lofiramegi[.]com
+carflotyup[.]com
+daringdesigners[.]com
+pros0512[.]com
+prot12-05[.]com
+domtrst455[.]com
+rofleratom[.]com
+tiguanin[.]com
+greshunka[.]com
+bazarunet[.]com
+mazinom[.]com
+leroboy[.]com
+krinzhodom[.]com
+klemanzino[.]net
+rilomenifis[.]com
+isomicrotich[.]com
+Hashes:
+35A990C3BE798108C9D12A47F4A028468EA6095B
+9361621490915EBB919B79C6101874F03E4E51BC
+For more detailed list of IoC, kindly refer the below URLs:
+https://www.forcepoint.com/blog/x-labs/inside-latrodectus-malware-phishing-campaign
+https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice
+https://www.logpoint.com/en/blog/emerging-threats/latrodectus-the-wrath-of-black-widow/
+Best Practices and Recommendations:
+Don't open attachments in unsolicited e-mails, even if they come from people in your contact list, and never click on a URL contained in an unsolicited e-mail, even if the link seems benign. In cases of genuine URLs close out the e-mail and go to the organizations website directly through browser.
+Update software and operating systems with the latest patches. Outdated applications and operating systems are the targets of most attacks.
+It is advised to block office applications from creating executable files.
+Do not download and install applications from untrusted sources (offered via unknown websites/ links on unscrupulous messages). Install applications downloaded from reputed application market only. Users must be aware while clicking on links during web search.
+Prohibit external FTP connections and blacklist downloads of known offensive security tools.
+All operating systems and applications should be kept updated on a regular basis. Virtual patching can be considered for protecting legacy systems and networks. This measure hinders cybercriminals from gaining easy access to any system through vulnerabilities in outdated applications and software. Avoid applying updates / patches available in any unofficial channel.
+Restrict execution of Power shell /WSCRIPT in an enterprise environment. Ensure installation and use of the latest version of PowerShell, with enhanced logging enabled. Script block logging and transcription enabled. Send the associated logs to a centralized log repository for monitoring and analysis. https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html
+Establish a Sender Policy Framework (SPF) for your domain, which is an email validation system designed to prevent spam by detecting email spoofing by which most of the ransomware samples successfully reaches the corporate email boxes.
+Application whitelisting/Strict implementation of Software Restriction Policies (SRP) to block binaries running from %APPDATA% and %TEMP% paths. Ransomware sample drops and executes generally from these locations.
+Users are advised to disable their RDP if not in use, if required, it should be placed behind the firewall and users are to bind with proper policies while using the RDP.
+Install ad blockers to combat exploit kits such as Fallout that are distributed via malicious advertising.
+Block the attachments of file types, exe|pif|tmp|url|vb|vbe|scr|reg|cer|pst|cmd|com|bat|dll|dat|hlp|hta|js|wsf
+Consider encrypting the confidential data as the ransomware generally targets common file types.
+Perform regular backups of all critical information to limit the impact of data or system loss and to help expedite the recovery process. Ideally, this data should be kept on a separate device, and backups should be stored offline.
+Network segmentation and segregation into security zones - help protect sensitive information and critical services. Separate administrative network from business processes with physical controls and Virtual Local Area Networks.
+References
+https://www.forcepoint.com/blog/x-labs/inside-latrodectus-malware-phishing-campaign
+https://www.logpoint.com/en/blog/emerging-threats/latrodectus-the-wrath-of-black-widow/
+https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
+0b37d1fd1888157a,Lumma Infostealer,"June 12, 2025",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVA01&VACODE=CIVA-2025-2214,virus alert,"VIRUS ALERTS
+Lumma Infostealer
+Original Issue Date:June      12, 2025
+Virus Type: Infostealer
+It is reported that an info stealer dubbed as Lumma stealer, which is an advanced info-stealing malware, is being offered through a Malware-as-a-Service (MaaS) platform. First discovered in 2022, it has quickly gained traction among cybercriminals for its ease of use and high effectiveness. Designed to target Windows systems, it steals sensitive data such as stored browser credentials, cookies, cryptocurrency wallet details, two-factor authentication (2FA) codes, credit card information, session tokens and other personal data. Lumma has been used in global cyber campaigns impacting sectors like healthcare, banking, marketing, and telecom etc.
+Infection Mechanism
+Lumma Stealer employs multiple sophisticated techniques to infiltrate and infect the systems. The delivery tactics include advanced methodologies to go unnoticed and trick the security architecture. Major infection techniques include:
+Deceptive CAPTCHA screens: Attackers mislead users into running harmful PowerShell commands by disguising them as part of a human verification check
+Abuse of Discord CDN: Cybercriminals use Discord's Content Delivery Network to store and spread malicious software.
+Deceptive Browser Update Prompts: Users are tricked into installing bogus updates that actually download and launch malware.
+ClickFix Method: Victims are manipulated through social engineering to run PowerShell commands supplied by the attacker, resulting in the installation of Lumma Stealer malware.
+Many other critical techniques such phishing email, malvertising, drive by downloads etc. are being utilized to infect systems. Also, a group of compromised websites was found using EtherHiding and ClickFix tactics to deliver and install the Lumma Stealer malware. After execution, Lumma Stealer connects to its command-and-control servers to transmit stolen data and may also retrieve and install further malicious components.
+Unusual Powershell activity, suspicious network traffic, unexpected processes, altered system files and browser anomalies may trigger the attention after infection.
+Indicator of Compromise:
+SHA 1:
+6F94CFAABB19491F2B8E719D74AD032D4BEB3F29
+C5D3278284666863D7587F1B31B06F407C592AC4
+5FA1EDC42ABB42D54D98FEE0D282DA453E200E99
+IP:
+172.67.134[.]100
+188.114.96[.]1
+Detection:
+Behavior:Win32/LummaStealer
+Trojan:PowerShell/Powdow
+Behavior:Win64/Shaolaod
+For more detailed list of IoC, kindly refer the below URLs:
+https://www.welivesecurity.com/en/eset-research/eset-takes-part-global-operation-disrupt-lumma-stealer/
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b
+https://www.microsoft.com/en-us/security/blog/2025/05/21/lumma-stealer-breaking-down-the-delivery-techniques-and-capabilities-of-a-prolific-infostealer/
+Best Practices and Recommendations:
+Do not download and install applications from untrusted sources [offered via unknown websites/ links on unscrupulous messages]. Install applications downloaded from reputed application market only. Users must be aware while clicking on links during web search.
+Update software and operating systems with the latest patches. Outdated applications and operating systems are the targets of most attacks.
+Avoid running commands or downloading files presented during CAPTCHA checks, particularly if asked to perform tasks outside your web browser.
+Don't open attachments in unsolicited e-mails, even if they come from people in your contact list, and never click on a URL contained in an unsolicited e-mail, even if the link seems benign. In cases of genuine URLs close out the e-mail and go to the organizations website directly through browser
+It is advised to block office applications from creating executable files.
+Install ad blockers to combat exploit kits such as Fallout that are distributed via malicious advertising.
+Prohibit external FTP connections and blacklist downloads of known offensive security tools.
+All operating systems and applications should be kept updated on a regular basis. Virtual patching can be considered for protecting legacy systems and networks. This measure hinders cybercriminals from gaining easy access to any system through vulnerabilities in outdated applications and software. Avoid applying updates / patches available in any unofficial channel.
+Restrict execution of Power shell /WSCRIPT in an enterprise environment. Ensure installation and use of the latest version of PowerShell, with enhanced logging enabled. Script block logging and transcription enabled. Send the associated logs to a centralized log repository for monitoring and analysis. https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html
+Establish a Sender Policy Framework (SPF) for your domain, which is an email validation system designed to prevent spam by detecting email spoofing by which most of the ransomware samples successfully reaches the corporate email boxes.
+Application whitelisting/Strict implementation of Software Restriction Policies (SRP) to block binaries running from %APPDATA% and %TEMP% paths. Ransomware sample drops and executes generally from these locations.
+Users are advised to disable their RDP if not in use, if required, it should be placed behind the firewall and users are to bind with proper policies while using the RDP.
+Block the attachments of file types, exe|pif|tmp|url|vb|vbe|scr|reg|cer|pst|cmd|com|bat|dll|dat|hlp|hta|js|wsf
+Consider encrypting the confidential data as the ransomware generally targets common file types.
+Perform regular backups of all critical information to limit the impact of data or system loss and to help expedite the recovery process. Ideally, this data should be kept on a separate device, and backups should be stored offline.
+Network segmentation and segregation into security zones - help protect sensitive information and critical services. Separate administrative network from business processes with physical controls and Virtual Local Area Networks.
+References
+https://www.microsoft.com/en-us/security/blog/2025/05/21/lumma-stealer-breaking-down-the-delivery-techniques-and-capabilities-of-a-prolific-infostealer/
+https://www.welivesecurity.com/en/eset-research/eset-takes-part-global-operation-disrupt-lumma-stealer/
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b
+https://www.bleepingcomputer.com/news/security/lumma-infostealer-malware-operation-disrupted-2-300-domains-seized/
+https://www.esentire.com/security-advisories/lumma-stealer-clickfix-distribution
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-16 10:22:45
