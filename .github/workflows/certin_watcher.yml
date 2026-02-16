@@ -1,0 +1,99 @@
+name: CERT-In Watcher
+
+on:
+  schedule:
+    - cron: '15 4 * * *'   # 09:45 IST
+    - cron: '45 7 * * *'   # 13:15 IST
+    - cron: '00 11 * * *'  # 16:30 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: certin-regulatory-updates
+  cancel-in-progress: false
+
+jobs:
+  run-certin-watch:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository (full)
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          persist-credentials: true
+
+
+      - name: Ensure main branch exists and checkout main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          git fetch origin +refs/heads/*:refs/remotes/origin/* || true
+
+          if git ls-remote --exit-code --heads origin main >/dev/null 2>&1; then
+            if git show-ref --verify --quiet refs/heads/main; then
+              git checkout main
+              git reset --hard origin/main
+            else
+              git checkout -b main origin/main
+            fi
+          else
+            if git show-ref --verify --quiet refs/heads/main; then
+              git checkout main
+            else
+              git checkout -b main
+            fi
+            git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" main
+          fi
+
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium webdriver-manager pandas beautifulsoup4 requests PyPDF2
+
+
+      - name: Create cert directory if not exists
+        run: |
+          mkdir -p cert
+
+
+      - name: Run CERT-In scraper
+        run: |
+          if [ -f "./certin_watcher.py" ]; then
+            xvfb-run -a python ./certin_watcher.py
+          else
+            echo "ERROR: certin_watcher.py not found"
+            ls -la
+            exit 1
+          fi
+
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add cert/
+
+          if git diff --cached --quiet; then
+            echo "No new CERT-In updates."
+            exit 0
+          fi
+
+          git commit -m "Auto-update from CERT-In Watcher [CI]"
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
