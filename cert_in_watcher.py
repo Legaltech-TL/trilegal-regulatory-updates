@@ -22,7 +22,7 @@ from pathlib import Path
 
 BASE = "https://www.cert-in.org.in/"
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("cert")
 CSV_FILE = DATA_DIR / "certin_master.csv"
 NEW_JSON = DATA_DIR / "certin_new_entries.json"
 
