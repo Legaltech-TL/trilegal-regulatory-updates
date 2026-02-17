@@ -2,11 +2,12 @@ name: NPCI Scraper
 
 on:
   schedule:
-    # GitHub cron uses UTC
-    # 03:30 IST
-    - cron: "0 22 * * *"
-    # 15:30 IST
-    - cron: "0 10 * * *"
+    # 08:35 AM IST
+    - cron: "5 3 * * *"
+
+    # 02:30 PM IST
+    - cron: "0 9 * * *"
+
   workflow_dispatch: {}
 
 permissions:
