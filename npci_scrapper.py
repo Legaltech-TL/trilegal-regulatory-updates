@@ -29,7 +29,7 @@ URL = "https://www.npci.org.in/media/press-release"
 TOP_N = 10
 
 ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT / "npci"
 DATA_DIR.mkdir(exist_ok=True)
 
 MASTER_CSV = DATA_DIR / "npci_master.csv"
@@ -252,3 +252,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
