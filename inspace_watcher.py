@@ -30,7 +30,7 @@ PAGES = {
     "Publications": "https://www.inspace.gov.in/inspace?id=inspace_publications",
 }
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("inspace")
 DATA_DIR.mkdir(exist_ok=True)
 
 MASTER_CSV = DATA_DIR / "inspace_master.csv"
