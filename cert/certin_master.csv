@@ -818,3 +818,55 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-16 11:27:43
+8f905db46738edea,CERT-In Vulnerability Note  CIVN-2026-0093,"February 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0093,Latest Security Alert,,2026-02-17 11:37:06
+c36f4d7d0e9d2d78,CERT-In Advisory   CIAD-2026-0008,"February 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0008,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0008
+Multiple Vulnerabilities in Intel Products
+Original Issue Date: February  17, 2026
+Severity Rating: High
+Software Affected
+Intel® Atom® Server SoCs (P5000, C5000, P6000 families)
+Intel® Xeon® Processors, including:
+4th and 5th Gen Xeon® Scalable processors
+Intel® Xeon® 6 processors (P-core and E-core variants, including SoCs)
+Intel® Server Boards and Firmware Packages, including affected BIOS and System Firmware Update Packages (SFUP)
+Intel® Server Firmware Update Utility (SysFwUpdt) versions prior to 16.0.12
+Systems using Intel® 100¿700 Series Chipsets and Intel® C-series Server Chipsets
+Platforms running affected Intel® Converged Security and Management Engine (CSME) / Intel® AMT / Manageability firmware
+Select Intel® Core¿ (8th/9th Gen), Core¿ Ultra, Pentium® Gold, and Celeron® processors running impacted firmware versions
+Note: For a complete list, refer to the OEM advisory given in the references section.
+Overview
+Multiple vulnerabilities have been reported in Intel Products, which could allow an attacker to gain elevated privileges, obtain sensitive information or cause denial of service conditions on the targeted system.
+Target Audience:
+Individuals and organizations using the above-mentioned Intel products.
+Risk Assessment:
+High risk of privilege escalation, system instability or sensitive information disclosure.
+Impact Assessment:
+Potential unauthorized access to sensitive information, denial of service, privilege escalation or disruption of system operations.
+Description
+Multiple vulnerabilities have been identified in certain Intel® products. These vulnerabilities could allow an attacker to gain elevated privileges, access sensitive information, or cause denial-of-service conditions on the affected systems.
+For a complete list of affected products, CVEs, workarounds and solutions, refer to the Intel® Security Advisories given in the references section.
+Solution
+Apply appropriate security updates as mentioned in Intel security updates given in the references section
+Vendor Information
+Intel
+https://www.intel.com
+References
+Intel
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01406.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01401.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01397.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01325.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01315.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-17 11:37:06
