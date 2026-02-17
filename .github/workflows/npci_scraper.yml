@@ -48,7 +48,7 @@ jobs:
           git config user.email "github-actions@github.com"
 
           if git status --porcelain | grep .; then
-            git add data/
+            git add npci/
             git commit -m "Update NPCI press releases & media coverage [CI]"
             git push
           else
