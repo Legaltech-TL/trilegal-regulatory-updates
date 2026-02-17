@@ -10,7 +10,7 @@ import time
 
 # ================= CONFIG =================
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("dot")
 CSV_FILE = DATA_DIR / "dot_master.csv"
 JSON_FILE = DATA_DIR / "dot_new.json"
 
@@ -228,3 +228,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
