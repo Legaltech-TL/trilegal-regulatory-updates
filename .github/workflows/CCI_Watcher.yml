@@ -73,19 +73,23 @@ jobs:
             exit 1
           fi
 
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit & push changes (if any)
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
-          git add -A
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
+      
+          git add .
+      
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
             exit 0
           fi
-
+      
           git commit -m "Auto-update from CCI Watcher [CI]"
-          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
+      
+          # Pull latest changes first (CRITICAL FIX)
+          git pull --rebase origin main
+      
+          # Push safely
+          git push origin main
