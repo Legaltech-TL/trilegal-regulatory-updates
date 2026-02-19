@@ -23,7 +23,7 @@ SECTIONS = {
 }
 
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("cdsco")
 
 CSV_FILE = DATA_DIR / "cdsco_master.csv"
 
