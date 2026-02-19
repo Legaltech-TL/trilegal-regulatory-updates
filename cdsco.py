@@ -22,7 +22,11 @@ SECTIONS = {
         "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/",
 
     "circulars":
-        "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/"
+        "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/",
+
+    # NEW SECTION ADDED
+    "alerts":
+        "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/"
 }
 
 
@@ -158,7 +162,14 @@ def scrape_section(category, url):
         print("No table found")
         return []
 
-    rows = table.find("tbody").find_all("tr")
+    tbody = table.find("tbody")
+
+    if not tbody:
+
+        print("No tbody found")
+        return []
+
+    rows = tbody.find_all("tr")
 
     scraped_time = datetime.utcnow().isoformat()
 
@@ -187,7 +198,7 @@ def scrape_section(category, url):
         if not link_tag:
             continue
 
-        pdf_link = urljoin(BASE, link_tag["href"])
+        pdf_link = urljoin(BASE, link_tag.get("href"))
 
         uid = make_id(category, title, pdf_link)
 
@@ -224,7 +235,7 @@ def run_scraper():
 
         all_data.extend(section_data)
 
-        # Prevent blocking
+        # prevent blocking
         time.sleep(5)
 
     print("\nTOTAL:", len(all_data))
