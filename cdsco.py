@@ -3,9 +3,12 @@ from bs4 import BeautifulSoup
 import hashlib
 import pandas as pd
 import re
+import time
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urljoin
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 BASE = "https://cdsco.gov.in"
@@ -33,9 +36,44 @@ NEW_JSON = DATA_DIR / "cdsco_new_entries.json"
 YEAR_FILTER = 2026
 
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
+# --------------------------------------------------
+# Create robust session
+# --------------------------------------------------
+
+def create_session():
+
+    session = requests.Session()
+
+    retry = Retry(
+        total=5,
+        backoff_factor=2,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"]
+    )
+
+    adapter = HTTPAdapter(max_retries=retry)
+
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+
+    session.headers.update({
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36",
+
+        "Accept":
+        "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+
+        "Accept-Language":
+        "en-IN,en;q=0.9",
+
+        "Connection":
+        "keep-alive"
+    })
+
+    return session
+
+
+SESSION = create_session()
 
 
 # --------------------------------------------------
@@ -75,18 +113,50 @@ def extract_year(date):
 
 
 # --------------------------------------------------
+# Fetch page safely
+# --------------------------------------------------
+
+def fetch_page(url):
+
+    for attempt in range(5):
+
+        try:
+
+            print(f"Connecting → {url}")
+
+            res = SESSION.get(url, timeout=60)
+
+            res.raise_for_status()
+
+            return res.text
+
+        except Exception as e:
+
+            print(f"Attempt {attempt+1} failed:", e)
+
+            time.sleep(5)
+
+    raise Exception("Failed after retries")
+
+
+# --------------------------------------------------
 # Scrape section
 # --------------------------------------------------
 
 def scrape_section(category, url):
 
-    print(f"Scraping {category}...")
+    print(f"\nScraping {category}...")
 
-    res = requests.get(url, headers=HEADERS)
+    html = fetch_page(url)
 
-    soup = BeautifulSoup(res.text, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
 
     table = soup.find("table")
+
+    if not table:
+
+        print("No table found")
+        return []
 
     rows = table.find("tbody").find_all("tr")
 
@@ -109,7 +179,6 @@ def scrape_section(category, url):
 
         year = extract_year(date)
 
-        # FILTER
         if year < YEAR_FILTER:
             continue
 
@@ -127,19 +196,12 @@ def scrape_section(category, url):
         results.append({
 
             "id": uid,
-
             "category": category,
-
             "sno": sno,
-
             "title": title,
-
             "date": date,
-
             "pdf_link": pdf_link,
-
             "filename": filename,
-
             "scraped_time": scraped_time
         })
 
@@ -162,13 +224,16 @@ def run_scraper():
 
         all_data.extend(section_data)
 
-    print("TOTAL:", len(all_data))
+        # Prevent blocking
+        time.sleep(5)
+
+    print("\nTOTAL:", len(all_data))
 
     return all_data
 
 
 # --------------------------------------------------
-# Save CSV + new JSON
+# Save outputs
 # --------------------------------------------------
 
 def save_outputs(data):
@@ -186,8 +251,6 @@ def save_outputs(data):
         return
 
 
-    # FIRST RUN
-
     if not CSV_FILE.exists():
 
         new_df.to_csv(CSV_FILE, index=False)
@@ -198,8 +261,6 @@ def save_outputs(data):
 
         return
 
-
-    # NORMAL RUN
 
     old_df = pd.read_csv(CSV_FILE)
 
