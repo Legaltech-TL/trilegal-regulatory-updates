@@ -871,3 +871,98 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-02-17 11:37:06
 86fcbbc9c2297b28,CERT-In Vulnerability Note  CIVN-2026-0094,"February 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0094,Latest Security Alert,,2026-02-19 08:25:31
+4017c3899e87b459,CERT-In Vulnerability Note  CIVN-2026-0096,"February 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0096,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0096
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:February  20, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 145.0.7632.109/110 for Windows
+Google Chrome versions prior to 145.0.7632.109/110 for Mac
+Google Chrome versions prior to 144.0.7559.109 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome for Desktop, which could be exploited by a remote attacker to execute arbitrary code, cause memory corruption or trigger a denial of service (DoS) condition on the targeted system.
+Target Audience:
+All end-users, organizations, and individuals using Google Chrome for Desktop (Windows, macOS, and Linux platforms)
+Risk Assessment:
+High risk of remote code execution (RCE)
+Impact Assessment:
+Potential for memory corruption and denial of service (DoS)
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on the World Wide Web.It is designed for use on Desktop computers, such as those running on Windows, macOS, or Linux operating systems.
+Multiple vulnerabilities exist in Google Chrome due to Heap buffer overflows in PDFium and Media; Integer overflow in V8. A remote attacker could exploit these vulnerabilities by convincing a user to visit a specially crafted or malicious web page on the targeted system.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, cause memory corruption or trigger a denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_18.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_18.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_18.html
+CVE Name
+CVE-2026-2648
+CVE-2026-2649
+CVE-2026-2650
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-20 08:07:38
+00ccc2c700698d48,CERT-In Vulnerability Note  CIVN-2026-0095,"February 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0095,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0095
+Multiple Vulnerabilities in Mozilla Products
+Original Issue Date:February  20, 2026
+Severity Rating: HIGH
+Software Affected
+Mozilla Firefox versions prior to 147.0.4
+Mozilla Firefox ESR versions prior to 115.32.1
+Mozilla Firefox ESR versions prior to 140.7.1
+Mozilla Thunderbird versions prior to 140.7.2
+Mozilla Thunderbird versions prior to 147.0.2
+Mozilla Firefox for iOS versions prior to 147.2.1
+Overview
+Multiple vulnerabilities have been reported in Mozilla products which could be exploited by a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Mozilla Products.
+Risk Assessment:
+High risk of unauthorized access to sensitive information.
+Impact Assessment:
+Potential for data theft, sensitive information disclosure and complete compromise of system.
+Description
+Mozilla Firefox is a free and open-source web browser developed by Mozilla foundation, while Firefox ESR (Extended support Release) is a stable version tailored for organizations that re-quire long-term support with only security and maintenance updates.
+Multiple vulnerabilities exist in Mozilla products due to Heap buffer overflow in libvpx; Interrupted page loads in new tabs could allow website spoofing under trusted domains. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-09/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-10/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-11/
+References
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-09/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-10/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-11/
+CVE Name
+CVE-2026-2447
+CVE-2026-2032
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-20 08:07:38
