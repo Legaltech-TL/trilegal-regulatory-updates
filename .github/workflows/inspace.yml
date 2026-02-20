@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: regulatory-updates
+  group: inspace-updates
   cancel-in-progress: false
 
 jobs:
