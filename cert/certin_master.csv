@@ -966,3 +966,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-20 08:07:38
+7d750ef8de789a01,CERT-In Vulnerability Note  CIVN-2026-0097,"February 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0097,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0097
+Multiple Vulnerabilities in Jenkins
+Original Issue Date:February  20, 2026
+Severity Rating: HIGH
+Software Affected
+Jenkins weekly versions 2.550 and prior
+Jenkins LTS versions 2.541.1 and prior
+Overview
+Multiple vulnerabilities have been reported in Jenkins, which could allow authenticated attackers to perform stored cross-site scripting (XSS) attacks and gain unauthorized access to restricted build information on affected systems.
+Target Audience:
+All organizations and individuals using Jenkins.
+Risk Assessment:
+High risk of administrative session compromise and exposure of sensitive CI/CD data due to improper input validation and insufficient access controls.
+Impact Assessment:
+Potential for stored cross-site scripting (XSS) and unauthorized access to restricted build information.
+Description
+Jenkins is an open-source automation server used for continuous integration (CI) and continuous delivery (CD), enabling developers to build, test, and deploy applications efficiently.
+These vulnerabilities exist in Jenkins due to improper input validation in the node ""offline cause"" field, leading to stored cross-site scripting (XSS), and insufficient validation of Run Parameter values, allowing access to unauthorized build information.
+Successful exploitation could enable attackers with specific permissions to inject malicious scripts or access restricted build metadata.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://www.jenkins.io/security/advisory/2026-02-18/
+Vendor Information
+Jenkins
+https://www.jenkins.io/security/
+References
+https://www.jenkins.io/security/advisory/2026-02-18/
+CVE Name
+CVE-2026-27099
+CVE-2025-27100
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-20 11:28:45
