@@ -62,7 +62,25 @@ def find_ctx(page, timeout=70000):
 
     return None
 
+def force_english(page):
+    try:
+        # click translate dropdown button
+        page.locator("button.bhashini-dropdown-btn").click(timeout=5000)
 
+        # wait for dropdown
+        page.wait_for_selector("li.language-option[data-value='en']", timeout=5000)
+
+        # click English
+        page.locator("li.language-option[data-value='en']").click()
+
+        # wait for translation to apply
+        page.wait_for_timeout(2000)
+
+        print("🌐 Language set to English")
+
+    except Exception as e:
+        print("Language switch skipped:", e)
+        
 # ================= SCRAPER =================
 
 def scrape_section(page, category, base_url, year_stop):
@@ -81,6 +99,7 @@ def scrape_section(page, category, base_url, year_stop):
         page.wait_for_load_state("domcontentloaded")
         page.wait_for_load_state("networkidle")
         page.wait_for_timeout(3500)
+        force_english(page)
 
         ctx = find_ctx(page)
 
@@ -236,3 +255,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
