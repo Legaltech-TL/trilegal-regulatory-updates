@@ -1009,3 +1009,57 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-20 11:28:45
+09c4fdc99fd589a0,CERT-In Advisory   CIAD-2026-0009,"February 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0009,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0009
+Multiple Vulnerabilities in Atlassian Products
+Original Issue Date: February  23, 2026
+Severity Rating: High
+Software Affected
+Bamboo Data Center and Server
+Confluence Data Center and Server
+Crowd Data Center and Server
+Overview
+Multiple vulnerabilities have been reported in Atlassian products which could allow a remote attacker to execute arbitrary code, bypass authorization controls, access sensitive information, or cause Denial of Service (DoS) conditions on the targeted system.
+Target Audience:
+All end-user organisations and administrators using Atlassian applications.
+Risk Assessment:
+High risk of remote code execution, unauthorized access, security control bypass, and service disruption in affected environment.
+Impact Assessment:
+Potential for unauthorized access, data disclosure, application compromise, and service disruption on affected systems.
+Description
+Multiple vulnerabilities have been reported in various Atlassian Products:
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://confluence.atlassian.com/security/security-bulletin-february-17-2026-1722256046.html
+Vendor Information
+Atlassian
+https://www.atlassian.com/
+References
+https://confluence.atlassian.com/security/security-bulletin-february-17-2026-1722256046.html
+CVE Name
+CVE-2025-66021
+CVE-2025-59343
+CVE-2022-25883
+CVE-2025-41249
+CVE-2020-28469
+CVE-2025-48976
+CVE-2022-25927
+CVE-2025-66516
+CVE-2025-9288
+CVE-2025-9287
+CVE-2025-48734
+CVE-2025-66675
+CVE-2019-20149
+CVE-2024-57669
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-23 11:37:13

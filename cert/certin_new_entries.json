@@ -1,3 +1,11 @@
 [
-
+  {
+    "id":"09c4fdc99fd589a0",
+    "title":"CERT-In Advisory   CIAD-2026-0009",
+    "date":"February 23, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0009",
+    "category":"Latest Security Alert",
+    "content":"CERT-In Advisory  \n                                                                      CIAD-2026-0009\nMultiple Vulnerabilities in Atlassian Products\nOriginal Issue Date:\u00a0February  23, 2026\nSeverity Rating: High\nSoftware Affected\nBamboo Data Center and Server\nConfluence Data Center and Server\nCrowd Data Center and Server\nOverview\nMultiple vulnerabilities have been reported in Atlassian products which could allow a remote attacker to execute arbitrary code, bypass authorization controls, access sensitive information, or cause Denial of Service (DoS) conditions on the targeted system.\nTarget Audience:\nAll end-user organisations and administrators using Atlassian applications.\nRisk Assessment:\nHigh risk of remote code execution, unauthorized access, security control bypass, and service disruption in affected environment.\nImpact Assessment:\nPotential for unauthorized access, data disclosure, application compromise, and service disruption on affected systems.\nDescription\nMultiple vulnerabilities have been reported in various Atlassian Products:\nSolution\nApply appropriate updates as mentioned by the vendor:\nhttps:\/\/confluence.atlassian.com\/security\/security-bulletin-february-17-2026-1722256046.html\nVendor Information\nAtlassian\nhttps:\/\/www.atlassian.com\/\nReferences\nhttps:\/\/confluence.atlassian.com\/security\/security-bulletin-february-17-2026-1722256046.html\nCVE Name\nCVE-2025-66021\nCVE-2025-59343\nCVE-2022-25883\nCVE-2025-41249\nCVE-2020-28469\nCVE-2025-48976\nCVE-2022-25927\nCVE-2025-66516\nCVE-2025-9288\nCVE-2025-9287\nCVE-2025-48734\nCVE-2025-66675\nCVE-2019-20149\nCVE-2024-57669\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
+    "scraped_at":"2026-02-23 11:37:13"
+  }
 ]
