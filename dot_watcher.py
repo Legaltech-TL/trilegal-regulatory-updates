@@ -44,6 +44,7 @@ def extract_year(s):
 
 
 def make_id(pdf_url):
+    # PDF URL is the most reliable unique identifier
     return hashlib.sha1(pdf_url.encode()).hexdigest()[:16]
 
 
@@ -97,7 +98,8 @@ def scrape_section(page, category, base_url, year_stop):
         for c in cards:
 
             try:
-                title = c.query_selector("p.mb-0").inner_text().strip()
+                title_el = c.query_selector("p.mb-0")
+                title = title_el.inner_text().strip() if title_el else ""
 
                 date_el = c.query_selector("small.ptype")
                 date_raw = date_el.inner_text().strip() if date_el else ""
@@ -123,7 +125,7 @@ def scrape_section(page, category, base_url, year_stop):
 
             row = {
                 "id": make_id(pdf),
-                "title": title,
+                "title": title,  # keep original (Hindi or English)
                 "publish_date": normalize_date(date_raw),
                 "pdf_url": pdf,
                 "category": category,
@@ -159,7 +161,7 @@ def load_existing_ids():
     if not CSV_FILE.exists():
         return set()
 
-    with CSV_FILE.open() as f:
+    with CSV_FILE.open(encoding="utf-8") as f:
         return {r["id"] for r in csv.DictReader(f)}
 
 
@@ -188,23 +190,31 @@ def main():
 
     with sync_playwright() as p:
 
-        # headful but hidden off-screen
         browser = p.chromium.launch(
-            headless=False,
+            headless=True,
             args=[
-                "--window-position=-2000,-2000",
+                "--lang=en-US",
                 "--window-size=1400,900",
             ]
         )
 
-        page = browser.new_page(viewport=VIEWPORT)
+        context = browser.new_context(
+            viewport=VIEWPORT,
+            locale="en-US",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
+            extra_http_headers={
+                "Accept-Language": "en-US,en;q=0.9"
+            }
+        )
+
+        page = context.new_page()
 
         for category, base, year_stop in SECTIONS:
             scraped.extend(scrape_section(page, category, base, year_stop))
 
         browser.close()
 
-    # ---------- dedupe vs master ----------
+    # ---------- dedupe ----------
 
     new_rows = [r for r in scraped if r["id"] not in existing_ids]
 
@@ -228,4 +238,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
