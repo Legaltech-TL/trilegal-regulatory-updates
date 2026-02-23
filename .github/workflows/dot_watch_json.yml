@@ -102,7 +102,5 @@ jobs:
       
           git commit -m "Auto-update from DOT Watcher [CI]"
       
-          # FIX: pull latest remote changes first
-          git pull --rebase "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" main
-      
-          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
+          git pull --rebase origin main || true
+          git push origin main || true
