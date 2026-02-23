@@ -1,12 +1,42 @@
 [
   {
-    "id":"d70ac1bef7affe8d",
-    "category":"gazette_notifications",
+    "id":"4d7e75f92c1eb76b",
+    "category":"public_notices",
     "sno":"1",
-    "title":"2026.02.18 S.O. 912(E)_Notification of Medical Device Testing Officers (MDTO) for Laboratories",
-    "date":"2026-Feb-18",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM4ODc=",
-    "filename":"20260218_SO_912ENotification_of_Medical_Device_Testing",
-    "scraped_time":"2026-02-23T08:00:54.500865"
+    "title":"Cancellation of Registration Certificates and lmport Registration Numbers for lmport of Cosmetics under the Cosmetics Rules, 2020- Regarding",
+    "date":"2026-Feb-23",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM4ODg=",
+    "filename":"Cancellation_of_Registration_Certificates_and_lmport_Registration",
+    "scraped_time":"2026-02-23T12:56:18.321129"
+  },
+  {
+    "id":"d1ca859968dc253e",
+    "category":"public_notices",
+    "sno":"5",
+    "title":"Cancellation of products underRC\/COS-001655, for import of Cosmetics under Cosmetics Rules, 2020",
+    "date":"2026-Jan-27",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM4MzQ=",
+    "filename":"Cancellation_of_products_underRCCOS001655_for_import_of",
+    "scraped_time":"2026-02-23T12:56:18.321129"
+  },
+  {
+    "id":"f8d03f94c97b6577",
+    "category":"public_notices",
+    "sno":"6",
+    "title":"CDSCO updated list of Laboratories for conducting Performance Evaluation of In-Vitro Diagnostic Medical Device",
+    "date":"2026-Jan-19",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM4MTk=",
+    "filename":"CDSCO_updated_list_of_Laboratories_for_conducting",
+    "scraped_time":"2026-02-23T12:56:18.321129"
+  },
+  {
+    "id":"7868549a2b2d8e32",
+    "category":"public_notices",
+    "sno":"8",
+    "title":"Risk classification list of medical devices pertaining to Oncology",
+    "date":"2026-Jan-02",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM3NTM=",
+    "filename":"Risk_classification_list_of_medical_devices_pertaining",
+    "scraped_time":"2026-02-23T12:56:18.321129"
   }
 ]
