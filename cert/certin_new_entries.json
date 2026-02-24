@@ -1,3 +1,11 @@
 [
-
+  {
+    "id":"59423e8f2bf2dc29",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0099",
+    "date":"February 24, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0099",
+    "category":"Latest Security Alert",
+    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0099\nPrivilege Escalation Vulnerability in Microsoft Windows Admin Center\nOriginal Issue Date:February  24, 2026\nSeverity Rating: HIGH\nSoftware Affected\nMicrosoft Windows Admin Center\nOverview\nA vulnerability has been reported in Microsoft Windows Admin Center, which could be exploited by an attacker to escalate privileges on the targeted system.\nTarget Audience:\nAll end-user organizations and individuals using Microsoft Windows Admin Center.\nImpact Assessment:\nPotential for Privilege Elevation.\nDescription\nMicrosoft Windows Admin Center is a browser-based management platform used to administer Windows servers, clusters, and infrastructure environments.\nA vulnerability exists in Microsoft Windows Admin Center due to improper authentication, which allows an authorized attacker to exploit insufficient validation of authentication mechanisms, enabling local privilege escalation on the affected system.\nSuccessful exploitation of this vulnerability could allow an authorized attacker to bypass security restrictions and gain elevated privileges on the targeted system.\nSolution\nhttps:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2026-26119\nVendor Information\nMicrosoft\nhttps:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2026-26119\nReferences\nMicrosoft\nhttps:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2026-26119\nCVE Name\nCVE-2026-26119\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
+    "scraped_at":"2026-02-24 11:37:35"
+  }
 ]

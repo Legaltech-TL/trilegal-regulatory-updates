@@ -1105,3 +1105,42 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-24 05:36:48
+59423e8f2bf2dc29,CERT-In Vulnerability Note  CIVN-2026-0099,"February 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0099,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0099
+Privilege Escalation Vulnerability in Microsoft Windows Admin Center
+Original Issue Date:February  24, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Windows Admin Center
+Overview
+A vulnerability has been reported in Microsoft Windows Admin Center, which could be exploited by an attacker to escalate privileges on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Microsoft Windows Admin Center.
+Impact Assessment:
+Potential for Privilege Elevation.
+Description
+Microsoft Windows Admin Center is a browser-based management platform used to administer Windows servers, clusters, and infrastructure environments.
+A vulnerability exists in Microsoft Windows Admin Center due to improper authentication, which allows an authorized attacker to exploit insufficient validation of authentication mechanisms, enabling local privilege escalation on the affected system.
+Successful exploitation of this vulnerability could allow an authorized attacker to bypass security restrictions and gain elevated privileges on the targeted system.
+Solution
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26119
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26119
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26119
+CVE Name
+CVE-2026-26119
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-24 11:37:35
