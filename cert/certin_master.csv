@@ -1063,3 +1063,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-23 11:37:13
+b139acb0476053cb,CERT-In Vulnerability Note  CIVN-2026-0098,"February 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0098,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0098
+Security Bypass Vulnerability in Honeywell CCTV products
+Original Issue Date:February  23, 2026
+Severity Rating: CRITICAL
+Systems Affected
+Honeywell I-HIB2PI-UL 2MP IP 6.1.22.1216
+Honeywell SMB NDAA MVO-3 WDR_2MP_32M_PTZ_v2.0
+Honeywell PTZ WDR 2MP 32M WDR_2MP_32M_PTZ_v2.0
+Honeywell 25M IPC WDR_2MP_32M_PTZ_v2.0
+Overview
+A vulnerability has been identified in Honeywell CCTV products that could allow unauthenticated remote attacker to bypass authentication controls, take over administrative accounts, and gain unauthorized access to video feeds.
+Target Audience:
+Organizations and Individuals using Honeywell CCTV products.
+Risk Assessment:
+High risk of unauthorized access to sensitive data.
+Impact Assessment:
+Potential for account takeover, access to live and recorded surveillance feeds.
+Description
+Honeywell CCTV products are widely used for video surveillance in various sectors, providing critical security services. These systems include both hardware and software components, such as cameras and video management platforms, that are essential for monitoring and recording activities.
+A vulnerability exists in Honeywell CCTV products due to authentication error during password recovery mechanism. This vulnerability could allow an attacker to remotely change the recovery email address used for administrative accounts without authentication.
+Successful exploitation of this vulnerability could lead to account takeovers and unauthorized access to camera feeds.
+Solution
+Apply appropriate updates as mentioned:
+https://www.honeywell.com/us/en/contact/support
+References
+Bleeping Computer
+https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
+CVE Name
+CVE-2026-1670
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-24 05:36:48
