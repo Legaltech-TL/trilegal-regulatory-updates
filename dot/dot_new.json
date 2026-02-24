@@ -1,20 +1,36 @@
 {
-  "generated_at": "2026-02-24T06:49:01.043200",
-  "count": 2,
+  "generated_at": "2026-02-24T09:44:16.236564",
+  "count": 4,
   "items": [
     {
-      "id": "056250ede115dc15",
-      "title": "Nomination of officers in One-Week Proficiency Level-2 (PL-2) Course on \u201cOpen Radio Access Network (Open RAN)\u201d for In-Service DoT Officers at IIT Madras planned to be held from 09-13 March, 2026",
+      "id": "905d4e9c13ccfaf7",
+      "title": "CS COMM 86 of 2026 in Honble District Court,South, Saket Courts, New Delhi: DoT instructions dated 24.02.2026 to ISPs",
       "publish_date": "02/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/e6d35d257dc7b894e8f3429c5b4df2ff.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/e85c730ad31a5f4df2de44df8261a633.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "02/24/2026"
     },
     {
-      "id": "056250ede115dc15",
-      "title": "Nomination of officers in One-Week Proficiency Level-2 (PL-2) Course on \u201cOpen Radio Access Network (Open RAN)\u201d for In-Service DoT Officers at IIT Madras planned to be held from 09-13 March, 2026",
+      "id": "bc4241a054e1851c",
+      "title": "CS COMM 106 of 2026 in Honble High Court of Delhi: DoT instructions dated 24.02.2026 to ISPs",
       "publish_date": "02/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/e6d35d257dc7b894e8f3429c5b4df2ff.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/9786257c0b52027c584313351371c99b.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/24/2026"
+    },
+    {
+      "id": "905d4e9c13ccfaf7",
+      "title": "CS COMM 86 of 2026 in Honble District Court,South, Saket Courts, New Delhi: DoT instructions dated 24.02.2026 to ISPs",
+      "publish_date": "02/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/e85c730ad31a5f4df2de44df8261a633.pdf",
+      "category": "REPORTS",
+      "scraped_at": "02/24/2026"
+    },
+    {
+      "id": "bc4241a054e1851c",
+      "title": "CS COMM 106 of 2026 in Honble High Court of Delhi: DoT instructions dated 24.02.2026 to ISPs",
+      "publish_date": "02/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/9786257c0b52027c584313351371c99b.pdf",
       "category": "REPORTS",
       "scraped_at": "02/24/2026"
     }
