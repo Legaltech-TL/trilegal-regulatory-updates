@@ -9,6 +9,7 @@ MIB Updates Scraper — FINAL STABLE VERSION
 ✔ Acts / Policy / Guidelines
 ✔ Other Communication
 ✔ Top 10 entries per page
+✔ Supports PDF, XLSX, XLS, CSV, DOC, DOCX
 """
 
 from pathlib import Path
@@ -47,6 +48,16 @@ HEADERS = {
     )
 }
 
+# NEW: support multiple file types
+ALLOWED_FILE_EXTENSIONS = (
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".doc",
+    ".docx",
+)
+
 CSV_FIELDS = [
     "id",
     "date",
@@ -73,10 +84,10 @@ def normalize_date(date_str):
         return f"{parts[2]}-{parts[1].zfill(2)}-{parts[0].zfill(2)}"
     return date_str or "unknown-date"
 
-def make_pdf_filename(title, date):
+def make_pdf_filename(title, date, extension):
     slug = re.sub(r"[^\w\s-]", "", title.lower())
     slug = re.sub(r"\s+", "-", slug).strip("-")[:80]
-    return f"{normalize_date(date)}_{slug}.pdf"
+    return f"{normalize_date(date)}_{slug}.{extension}"
 
 def ensure_master_csv():
     if not MASTER_CSV.exists():
@@ -102,12 +113,18 @@ def parse_table_row(row, category, base_url):
     wing_category = cols[3].get_text(strip=True)
     file_info = cols[-2].get_text(strip=True)
 
-    # PDF link always in LAST column
-    pdf_link = None
+    # UPDATED: detect multiple file types instead of PDF only
+    file_link = None
+    file_extension = None
+
     for a in cols[-1].find_all("a", href=True):
         href = a["href"].strip()
-        if href.lower().endswith(".pdf"):
-            pdf_link = urljoin(base_url, href)
+        href_lower = href.lower()
+
+        if href_lower.endswith(ALLOWED_FILE_EXTENSIONS):
+            file_link = urljoin(base_url, href)
+            file_extension = href_lower.split(".")[-1]
+            break
 
     # Detail page (sometimes present)
     detail_page_link = None
@@ -119,16 +136,19 @@ def parse_table_row(row, category, base_url):
         title,
         date,
         category,
-        pdf_link or detail_page_link or ""
+        file_link or detail_page_link or ""
     )
 
     return {
         "id": entry_id,
         "date": date,
         "title": title,
-        "pdf_link": pdf_link,
+        "pdf_link": file_link,
         "detail_page_link": detail_page_link,
-        "pdf_filename": make_pdf_filename(title, date) if pdf_link else None,
+        "pdf_filename": (
+            make_pdf_filename(title, date, file_extension)
+            if file_link and file_extension else None
+        ),
         "wing_category": wing_category,
         "file_info": file_info,
         "category": category,
