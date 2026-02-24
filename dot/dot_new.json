@@ -1,14 +1,38 @@
 {
-  "generated_at": "2026-02-23T09:44:53.119239",
-  "count": 1,
+  "generated_at": "2026-02-24T04:40:26.937868",
+  "count": 4,
   "items": [
     {
-      "id": "adc2a6135beb0775",
-      "title": "Memorandum of Cooperation Signed between Digital Bharat Nidhi and Government of Andhra Pradesh for Expedited Rollout of Amended BharatNet Programme",
+      "id": "df555c8ba2f43333",
+      "title": "Appointment of Shri Deepu N. Salim, ITS (Staff No. 20124) as Chief Controller in Vikram Sarabhai Space Centre, Thiruvanthapuram on deputation basis - reg.",
       "publish_date": "02/23/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/755f775084c2a803475d60634afeb2b4.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "02/23/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/9ec7af346e7288a4664b9cbd0f3822e7.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/24/2026"
+    },
+    {
+      "id": "000dd2cf352b7064",
+      "title": "Transfer & Posting of officers in HAG+ of ITS Group A, Shri Alok Shukla, Staff no 20009",
+      "publish_date": "02/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/24eb52a8d7cbd83ccd41821894508ae5.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/24/2026"
+    },
+    {
+      "id": "df555c8ba2f43333",
+      "title": "Appointment of Shri Deepu N. Salim, ITS (Staff No. 20124) as Chief Controller in Vikram Sarabhai Space Centre, Thiruvanthapuram on deputation basis - reg.",
+      "publish_date": "02/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/9ec7af346e7288a4664b9cbd0f3822e7.pdf",
+      "category": "REPORTS",
+      "scraped_at": "02/24/2026"
+    },
+    {
+      "id": "000dd2cf352b7064",
+      "title": "Transfer & Posting of officers in HAG+ of ITS Group A, Shri Alok Shukla, Staff no 20009",
+      "publish_date": "02/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/24eb52a8d7cbd83ccd41821894508ae5.pdf",
+      "category": "REPORTS",
+      "scraped_at": "02/24/2026"
     }
   ]
 }
