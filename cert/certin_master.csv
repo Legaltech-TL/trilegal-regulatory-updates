@@ -1144,3 +1144,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-24 11:37:35
+f11e5e9af12f9d6b,CERT-In Vulnerability Note  CIVN-2026-0100,"February 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0100,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0100
+Information Disclosure Vulnerability in Microsoft Teams
+Original Issue Date:February  25, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Teams
+Overview
+A vulnerability has been reported in Microsoft Teams, which could be exploited by an attacker to disclose sensitive information.
+Target Audience:
+Organizations and enterprises using Microsoft Teams for internal communication and collaboration.
+Risk Assessment:
+High risk of unauthorized access to meetings, chats, and shared files if misconfigured or improperly secured.
+Impact Assessment:
+Potential exposure of sensitive business information and data leakage.
+Description
+Microsoft Teams is a cloud-based collaboration platform integrated with Microsoft 365 that enables messaging, meetings, calling, and file sharing.
+This vulnerability exists in Microsoft Teams due to Improper Access Control. Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information over a network.
+Solution
+Apply appropriate updates as mentioned:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21535
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21535
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21535
+CVE Name
+CVE-2026-21535
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-25 11:38:01
