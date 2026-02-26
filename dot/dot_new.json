@@ -1,21 +1,53 @@
 {
-  "generated_at": "2026-02-26T06:47:12.833708",
-  "count": 2,
+  "generated_at": "2026-02-26T09:41:50.579895",
+  "count": 6,
   "items": [
     {
-      "id": "69e85bceb875aa6b",
-      "title": "TEC signs MoU with IIT Kharagpur for collaboration on Joint Studies and Technical Contributions in Telecom Technologies and Standardisation Activities",
-      "publish_date": "02/25/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/738d70b93f3ab06c23fa6288f80dddb3.pdf",
-      "category": "PRESS_RELEASE",
+      "id": "2751838aaf54ab23",
+      "title": "Promotion of Sh. A.K. Midha to the post of Sr. DDG (BW) w.e.f. 01.03.2026",
+      "publish_date": "02/26/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/72b57f64dbb5806a8b52d06be7759911.pdf",
+      "category": "ORDERS_AND_NOTICES",
       "scraped_at": "02/26/2026"
     },
     {
-      "id": "d43c6e4af4ee0dbd",
-      "title": "\u0926\u0942\u0930\u0938\u0902\u091a\u093e\u0930 \u0935\u093f\u092d\u093e\u0917 \u0915\u0940 \u0939\u093f\u0902\u0926\u0940 \u0938\u0932\u093e\u0939\u0915\u093e\u0930 \u0938\u092e\u093f\u0924\u093f \u0915\u0940 \u092c\u0948\u0920\u0915 \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0902 \u0915\u0947\u0902\u0926\u094d\u0930\u0940\u092f \u0938\u0902\u091a\u093e\u0930 \u0930\u093e\u091c\u094d\u092f \u092e\u0902\u0924\u094d\u0930\u0940 \u0921\u0949. \u092a\u0947\u092e\u094d\u092e\u093e\u0938\u093e\u0928\u0940 \u091a\u0902\u0926\u094d\u0930 \u0936\u0947\u0916\u0930 \u0915\u0940 \u0905\u0927\u094d\u092f\u0915\u094d\u0937\u0924\u093e \u092e\u0947\u0902 \u0906\u092f\u094b\u091c\u093f\u0924 \u0915\u0940 \u0917\u0908\u0964",
-      "publish_date": "02/25/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/a0f3e6675312c3725687a3f633cc88a9.pdf",
-      "category": "PRESS_RELEASE",
+      "id": "2caafe551128c2ac",
+      "title": "Online generation and recording of AnnualPerformance Appraisal Report on SPARROW Portal for all IP&TAFS Group A Officers for the Reporting Year 2025-2026-reg",
+      "publish_date": "02/26/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/8dd7ba6fceafe6a8cbad26fed77b0c4a.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/26/2026"
+    },
+    {
+      "id": "1b8107de1b9b200f",
+      "title": "Final seniority of officers of Junior Administrative Grade and above of Indian Telecommunications Services Group-A of Department of Telecommunications as on 01.01.2026.",
+      "publish_date": "02/26/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/1d39522995dc22c3b79f17fdd695db04.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "02/26/2026"
+    },
+    {
+      "id": "2751838aaf54ab23",
+      "title": "Promotion of Sh. A.K. Midha to the post of Sr. DDG (BW) w.e.f. 01.03.2026",
+      "publish_date": "02/26/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/72b57f64dbb5806a8b52d06be7759911.pdf",
+      "category": "REPORTS",
+      "scraped_at": "02/26/2026"
+    },
+    {
+      "id": "2caafe551128c2ac",
+      "title": "Online generation and recording of AnnualPerformance Appraisal Report on SPARROW Portal for all IP&TAFS Group A Officers for the Reporting Year 2025-2026-reg",
+      "publish_date": "02/26/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/8dd7ba6fceafe6a8cbad26fed77b0c4a.pdf",
+      "category": "REPORTS",
+      "scraped_at": "02/26/2026"
+    },
+    {
+      "id": "1b8107de1b9b200f",
+      "title": "Final seniority of officers of Junior Administrative Grade and above of Indian Telecommunications Services Group-A of Department of Telecommunications as on 01.01.2026.",
+      "publish_date": "02/26/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/1d39522995dc22c3b79f17fdd695db04.pdf",
+      "category": "REPORTS",
       "scraped_at": "02/26/2026"
     }
   ]
