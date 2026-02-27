@@ -10,6 +10,7 @@ MIB Updates Scraper — FINAL STABLE VERSION
 ✔ Other Communication
 ✔ Top 10 entries per page
 ✔ Supports PDF, XLSX, XLS, CSV, DOC, DOCX
+✔ Forces English via /en/ path
 """
 
 from pathlib import Path
@@ -26,10 +27,12 @@ from bs4 import BeautifulSoup
 # -------------------------------------------------
 # CONFIG
 # -------------------------------------------------
+
+# ✅ UPDATED — English URLs
 CATEGORIES = {
-    "notices": "https://mib.gov.in/documents/notification/notices",
-    "acts_policy_guidelines": "https://mib.gov.in/documents/notification/acts-policy-guidelines",
-    "other_communication": "https://mib.gov.in/documents/notification/Other-communication",
+    "notices": "https://mib.gov.in/en/documents/notification/notices",
+    "acts_policy_guidelines": "https://mib.gov.in/en/documents/notification/acts-policy-guidelines",
+    "other_communication": "https://mib.gov.in/en/documents/notification/Other-communication",
 }
 
 MAX_ITEMS_PER_CATEGORY = 10
@@ -45,10 +48,10 @@ HEADERS = {
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/120.0 Safari/537.36"
-    )
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
 }
 
-# NEW: support multiple file types
 ALLOWED_FILE_EXTENSIONS = (
     ".pdf",
     ".xlsx",
@@ -74,9 +77,11 @@ CSV_FIELDS = [
 # -------------------------------------------------
 # HELPERS
 # -------------------------------------------------
+
 def make_id(title, date, category, link):
     raw = f"{title}|{date}|{category}|{link}"
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()
+
 
 def normalize_date(date_str):
     parts = re.split(r"[./-]", date_str)
@@ -84,15 +89,18 @@ def normalize_date(date_str):
         return f"{parts[2]}-{parts[1].zfill(2)}-{parts[0].zfill(2)}"
     return date_str or "unknown-date"
 
+
 def make_pdf_filename(title, date, extension):
     slug = re.sub(r"[^\w\s-]", "", title.lower())
     slug = re.sub(r"\s+", "-", slug).strip("-")[:80]
     return f"{normalize_date(date)}_{slug}.{extension}"
 
+
 def ensure_master_csv():
     if not MASTER_CSV.exists():
         with open(MASTER_CSV, "w", newline="", encoding="utf-8") as f:
             csv.DictWriter(f, fieldnames=CSV_FIELDS).writeheader()
+
 
 def load_existing_ids():
     if not MASTER_CSV.exists():
@@ -100,9 +108,11 @@ def load_existing_ids():
     with open(MASTER_CSV, newline="", encoding="utf-8") as f:
         return {row["id"] for row in csv.DictReader(f)}
 
+
 # -------------------------------------------------
-# PARSER (COMMON FOR ALL 3 PAGES)
+# PARSER
 # -------------------------------------------------
+
 def parse_table_row(row, category, base_url):
     cols = row.find_all("td")
     if len(cols) < 5:
@@ -113,7 +123,6 @@ def parse_table_row(row, category, base_url):
     wing_category = cols[3].get_text(strip=True)
     file_info = cols[-2].get_text(strip=True)
 
-    # UPDATED: detect multiple file types instead of PDF only
     file_link = None
     file_extension = None
 
@@ -126,7 +135,6 @@ def parse_table_row(row, category, base_url):
             file_extension = href_lower.split(".")[-1]
             break
 
-    # Detail page (sometimes present)
     detail_page_link = None
     title_tag = cols[1].find("a", href=True)
     if title_tag:
@@ -155,9 +163,11 @@ def parse_table_row(row, category, base_url):
         "created_at": datetime.now(UTC).isoformat(),
     }
 
+
 # -------------------------------------------------
 # SCRAPER
 # -------------------------------------------------
+
 def scrape_category(category, url):
     res = requests.get(url, headers=HEADERS, timeout=30)
     res.raise_for_status()
@@ -175,11 +185,13 @@ def scrape_category(category, url):
 
     return entries
 
+
 # -------------------------------------------------
 # MAIN
 # -------------------------------------------------
+
 def main():
-    print("[INFO] Starting MIB scraper — STABLE (3 pages only)")
+    print("[INFO] Starting MIB scraper — STABLE (English mode)")
 
     ensure_master_csv()
     existing_ids = load_existing_ids()
@@ -202,6 +214,7 @@ def main():
         json.dump(new_entries, f, ensure_ascii=False, indent=2)
 
     print(f"[INFO] New entries added: {len(new_entries)}")
+
 
 if __name__ == "__main__":
     main()
