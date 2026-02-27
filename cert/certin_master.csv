@@ -1356,3 +1356,49 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-27 05:20:28
+1db7609facfe7517,CERT-In Vulnerability Note  CIVN-2026-0110,"February 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0110,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0110
+Multiple Vulnerabilities in VMware Products
+Original Issue Date:February  27, 2026
+Severity Rating: HIGH
+Software Affected
+VMware Aria Operations
+VMware Cloud Foundation
+VMware Telco Cloud Platform
+VMware Telco Cloud Infrastructure
+Overview
+Multiple vulnerabilities have been reported in VMware products, which could allow an attacker to execute arbitrary commands, inject malicious scripts, and escalate privileges on the targeted VMware environment.
+Target Audience:
+Enterprises and large organizations, cloud service providers, telecom operators, managed service providers, and organizations utilizing VMware Aria Operations and associated VMware infrastructure products.
+Risk Assessment:
+High risk of unauthorized access, administrative compromise, and remote command execution in affected VMware Aria Operations deployments and integrated VMware environments.
+Impact Assessment:
+Remote command execution, stored cross-site scripting (XSS), privilege escalation.
+Description
+VMware provides virtualization and cloud infrastructure solutions that enable organizations to manage virtual environments, monitor workloads, and operate large-scale infrastructure platforms.
+Multiple vulnerabilities have been reported in VMware Aria Operations and products in which it is integrated. These vulnerabilities include a command injection vulnerability, a stored cross-site scripting (XSS) vulnerability, and a privilege escalation vulnerability arising from improper input handling and insufficient access controls in certain components. An attacker could exploit these vulnerabilities by sending specially crafted requests or leveraging existing permissions to execute arbitrary commands, inject malicious scripts, or elevate privileges within the targeted VMware environment.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary commands, inject malicious scripts, and escalate privileges on the targeted VMware environment.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947
+Vendor Information
+VM Products
+https://www.vmware.com/
+References
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947
+CVE Name
+CVE-2026-22719
+CVE-2025-22720
+CVE-2026-22721
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-27 08:06:48
