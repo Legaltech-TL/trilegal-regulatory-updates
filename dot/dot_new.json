@@ -1,54 +1,38 @@
 {
-  "generated_at": "2026-02-26T09:41:50.579895",
-  "count": 6,
+  "generated_at": "2026-02-27T04:36:09.217254",
+  "count": 4,
   "items": [
     {
-      "id": "2751838aaf54ab23",
-      "title": "Promotion of Sh. A.K. Midha to the post of Sr. DDG (BW) w.e.f. 01.03.2026",
+      "id": "414be0dc70d2dd94",
+      "title": "CS COMM 1152 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 26.02.2026 to ISPs",
       "publish_date": "02/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/72b57f64dbb5806a8b52d06be7759911.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/a27378769c74a2cd8ed4aa2dde59b297.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "02/26/2026"
+      "scraped_at": "02/27/2026"
     },
     {
-      "id": "2caafe551128c2ac",
-      "title": "Online generation and recording of AnnualPerformance Appraisal Report on SPARROW Portal for all IP&TAFS Group A Officers for the Reporting Year 2025-2026-reg",
+      "id": "5adfd01f37fe6b7a",
+      "title": "CS COMM 1306 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 26.02.2026 to ISPs",
       "publish_date": "02/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/8dd7ba6fceafe6a8cbad26fed77b0c4a.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/50a546155281a1833929a37227cbb6d9.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "02/26/2026"
+      "scraped_at": "02/27/2026"
     },
     {
-      "id": "1b8107de1b9b200f",
-      "title": "Final seniority of officers of Junior Administrative Grade and above of Indian Telecommunications Services Group-A of Department of Telecommunications as on 01.01.2026.",
+      "id": "414be0dc70d2dd94",
+      "title": "CS COMM 1152 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 26.02.2026 to ISPs",
       "publish_date": "02/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/1d39522995dc22c3b79f17fdd695db04.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "02/26/2026"
-    },
-    {
-      "id": "2751838aaf54ab23",
-      "title": "Promotion of Sh. A.K. Midha to the post of Sr. DDG (BW) w.e.f. 01.03.2026",
-      "publish_date": "02/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/72b57f64dbb5806a8b52d06be7759911.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/a27378769c74a2cd8ed4aa2dde59b297.pdf",
       "category": "REPORTS",
-      "scraped_at": "02/26/2026"
+      "scraped_at": "02/27/2026"
     },
     {
-      "id": "2caafe551128c2ac",
-      "title": "Online generation and recording of AnnualPerformance Appraisal Report on SPARROW Portal for all IP&TAFS Group A Officers for the Reporting Year 2025-2026-reg",
+      "id": "5adfd01f37fe6b7a",
+      "title": "CS COMM 1306 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 26.02.2026 to ISPs",
       "publish_date": "02/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/8dd7ba6fceafe6a8cbad26fed77b0c4a.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/50a546155281a1833929a37227cbb6d9.pdf",
       "category": "REPORTS",
-      "scraped_at": "02/26/2026"
-    },
-    {
-      "id": "1b8107de1b9b200f",
-      "title": "Final seniority of officers of Junior Administrative Grade and above of Indian Telecommunications Services Group-A of Department of Telecommunications as on 01.01.2026.",
-      "publish_date": "02/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/1d39522995dc22c3b79f17fdd695db04.pdf",
-      "category": "REPORTS",
-      "scraped_at": "02/26/2026"
+      "scraped_at": "02/27/2026"
     }
   ]
 }
