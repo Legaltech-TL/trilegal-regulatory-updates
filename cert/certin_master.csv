@@ -1314,3 +1314,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-26 11:37:17
+455cd7488dfa71af,CERT-In Vulnerability Note  CIVN-2026-0109,"February 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0109,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0109
+Vulnerability in IBM WebSphere Application Server
+Original Issue Date:February  26, 2026
+Severity Rating: HIGH
+Software Affected
+IBM WebSphere Application Server (versions 8.5 and 9.0)
+IBM WebSphere Application Server Liberty (versions 21.0.0.3 ¿ 26.0.0.2)
+Overview
+A vulnerability has been reported in IBM WebSphere Application Server and IBM WebSphere Application Server Liberty, which could allow remote attackers to cause a denial-of-service (DoS) condition by sending specially crafted JWE tokens.
+Target Audience:
+Organizations and individuals using IBM WebSphere Application Server and IBM WebSphere Application Server Liberty.
+Risk Assessment:
+High risk of service disruption and potential application instability.
+Impact Assessment:
+Potential impact on confidentiality, integrity, availability of the system and application outages.
+Description
+IBM WebSphere Application Server and IBM WebSphere Application Server Liberty are enterprise application servers that support critical business applications and web services across various industries. These platforms rely on third-party libraries, including jose4j, to process JSON Web Encryption (JWE) tokens for secure communications.
+The reported vulnerability arises from improper handling of specially crafted JWE tokens with excessive compression ratios in the bundled jose4j library. An attacker can exploit this weakness by sending malicious requests that trigger excessive memory allocation and processing time during token decompression.
+Successful exploitation of this vulnerability could allow the attacker to cause a denial-of-service (DoS) condition.
+Solution
+Apply appropriate updates as mentioned in IBM Advisory:
+https://www.ibm.com/support/pages/node/7261794
+Vendor Information
+IBM
+https://www.ibm.com/support/pages/node/7261794
+References
+https://www.ibm.com/support/pages/node/7261794
+CVE Name
+CVE-2024-29371
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-27 05:20:28
