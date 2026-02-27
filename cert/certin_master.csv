@@ -1402,3 +1402,186 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-27 08:06:48
+278c2979fd30338b,CERT-In Vulnerability Note  CIVN-2026-0112,"February 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0112,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0112
+Multiple Vulnerabilities in Zyxel
+Original Issue Date:February  27, 2026
+Severity Rating: HIGH
+Systems Affected
+Zyxel devices 4G/5G NR CPE, DSL/Ethernet CPE, Fiber ONTs, security routers, wireless extenders running older firmware releases such as:
+LTE3301-PLUS	1.00(ABQU.8)C0 and earlier
+Nebula FWA505	1.19(ACKO.0)C0 and earlier
+Nebula FWA510	1.20(ACGD.1)C0 and earlier
+Nebula FWA515	1.50(ACPZ.0)C0 and earlier
+Nebula FWA710	1.20(ACGC.0)C0 and earlier
+Nebula LTE330s1-PLUS	1.18(ACCA.6)C0 and earlier
+DX3300-T0	5.50(ABVY.7)C0 and earlier
+DX3300-T1	5.50(ABVY.7)C0 and earlier
+DX3301-T0	5.50(ABVY.7)C0 and earlier
+DX4510-B0	5.17(ABYL.10)C0 and earlier
+DX4510-B1	5.17(ABYL.10)C0 and earlier
+DX5401-B1	5.17(ABYO.7)C0 and earlier
+EE3301-00	5.63(ACMU.2)C0 and earlier
+EE5301-00	5.63(ACLD.2)C0 and earlier
+EE6510-10	5.19(ACJQ.4)C0 and earlier
+EMG3525-T50B	5.50(ABPM.9.6)C0 and earlier
+EMG5523-T50B	5.50(ABPM.9.6)C0 and earlier
+EX2210-T0	5.50(ACDI.2.2)C0 and earlier
+EX3300-T0	5.50(ABVY.7)C0 and earlier
+EX3300-T1	5.50(ABVY.7)C0 and earlier
+EX3301-T0	5.50(ABVY.7)C0 and earlier
+EX3500-T0	5.44(ACHR.5)C0 and earlier
+EX3501-T0	5.44(ACHR.5)C0 and earlier
+EX3510-B0	5.17(ABUP.15.1)C0 and earlier
+EX3510-B1	5.17(ABUP.15.1)C0 and earlier
+EX3600-T0	5.70(ACIF.2)C0 and earlier
+EX5401-B1	5.17(ABYO.7)C0 and earlier
+EX5510-B0	5.17(ABQX.11)C0 and earlier
+EX5512-T0	5.70(ACEG.5.2)C0 and earlier
+EX5601-T0	5.70(ACDZ.5)C0 and earlier
+EX5601-T1	5.70(ACDZ.5)C0 and earlier
+EX7501-B0	5.18(ACHN.3)C0 and earlier
+EX7710-B0	5.18(ACAK.1.5)C0 and earlier
+GM4100-B0	5.18(ACCL.1.1)C0 and earlier
+VMG3625-T50B	5.50(ABPM.9.6)C0 and earlier
+VMG4005-B50A	5.17(ABQA.3.1)C0 and earlier
+VMG4005-B60A	5.17(ABQA.3.1)C0 and earlier
+VMG8623-T50B	5.50(ABPM.9.6)C0 and earlier
+AX7501-B1	5.17(ABPC.7)C0 and earlier
+PE3301-00	5.63(ACMT.2)C0 and earlier
+PE5301-01	5.63(ACOJ.2)C0 and earlier
+PM3100-T0	5.42(ACBF.4)C0 and earlier
+PM5100-T0	5.42(ACBF.4)C0 and earlier
+PM5100-T1	5.42(ACBF.4)C0 and earlier
+PM7300-T0	5.42(ABYY.4)C0 and earlier
+PM7500-00	5.61(ACKK.1.1)C0 and earlier
+PX3321-T1	5.44(ACJB.1.4)C0, 5.44(ACHK.2)C0, 5.44(ACHK.3)C0 and earlier
+PX5301-T0	5.44(ACKB.0.5)C0 and earlier
+SCR 50AXE	1.20(ACGN.0)C0 and earlier
+WE3300-00	5.70(ACKA.1)C0 and earlier
+WX3100-T0	5.50(ABVL.4.8)C0 and earlier
+WX3401-B1	5.17(ABVE.2.9)C0 and earlier
+WX5600-T0	5.70(ACEB.5)C0 and earlier
+WX5610-B0	5.18(ACGJ.0.4)C0 and earlier
+Overview
+Multiple Vulnerabilities have been reported in Certain Zyxel 4G/5G CPEs, DSL/Ethernet CPEs, Fiber ONTs, routers, and wireless extenders which could allow  an attacker to crash device or execute arbitrary operating system commands..
+Target Audience:
+IT and Network Administrators,Security Teams / SOC Analysts,CISO / Management,Customers / End Users of Zyxel Devices.
+Risk Assessment:
+High risks of service interruption and unauthorized access.
+Impact Assessment:
+Potential impact on confidentiality, integrity and availability of the system.
+Description
+1. Null Pointer Dereference Vulnerabilities
+(
+CVE-2025-11847
+CVE-2025-11848
+CVE-2025-11845
+CVE-2025-11846
+)
+Multiple vulnerabilities exist in the firmware of certain Zyxel 4G LTE/5G NR CPEs, DSL/Ethernet CPEs, Fiber ONTs, security routers, and wireless extenders, affecting CGI programs due to certificate downloader, account settings, IP settings, and Wake-on-LAN CGI programs.
+An authenticated attacker with administrator privileges could exploit these vulnerabilities by sending specially crafted HTTP requests, potentially triggering a denial-of-service (DoS) condition.
+Successful exploitation of these vulnerabilities could allow an attacker to system crash and disrupt packet forwarding.
+2. Command Injection Vulnerabilities
+(
+CVE-2025-13942
+CVE-2025-13943
+CVE-2026-1459
+)
+Multiple vulnerabilities exist in Certain 4G/5G CPEs, DSL/Ethernet CPEs, Fiber ONTs, and Wireless Extenders contain vulnerabilities in the UPnP function, log file download, and TR 369 certificate download CGI programs.  A remote attacker could exploit these by sending specially crafted UPnP SOAP requests to execute arbitrary OS commands on the affected device.
+Solution
+Apply appropriate updates as mentioned in:
+https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-null-pointer-dereference-and-command-injection-vulnerabilities-in-certain-4g-lte-5g-nr-cpe-dsl-ethernet-cpe-fiber-onts-security-routers-and-wireless-extenders-02-24-2026
+Vendor Information
+Zyxel
+https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-null-pointer-dereference-and-command-injection-vulnerabilities-in-certain-4g-lte-5g-nr-cpe-dsl-ethernet-cpe-fiber-onts-security-routers-and-wireless-extenders-02-24-2026
+References
+https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-null-pointer-dereference-and-command-injection-vulnerabilities-in-certain-4g-lte-5g-nr-cpe-dsl-ethernet-cpe-fiber-onts-security-routers-and-wireless-extenders-02-24-2026
+CVE Name
+CVE-2025-11845
+CVE-2025-11846
+CVE-2025-11847
+CVE-2025-11848
+CVE-2025-13942
+CVE-2025-13943
+CVE-2026-1459
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-27 11:29:02
+22c592bca9442a1f,CERT-In Vulnerability Note  CIVN-2026-0111,"February 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0111,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0111
+Multiple Vulnerabilities in Trend Micro Apex One
+Original Issue Date:February  27, 2026
+Severity Rating: CRITICAL
+Software Affected
+Apex One 2019 (On-prem and SaaS)
+Trend Micro Apex One (mac)
+Trend Vision One Endpoint - Standard Endpoint Protection  (SaaS)
+Overview
+Multiple vulnerabilities have been reported in Trend Micro Apex One affecting the management console, scan engine, and macOS agent components which could allow an attacker to perform remote code execution (RCE) to local privilege escalation (LPE) on the targeted device.
+Target Audience:
+IT Administrators, Security Operations Center (SOC) Teams,Cybersecurity Ana-lysts,System Engineers, Executive Management (CISO / IT Leadership).
+Risk Assessment:
+High risks of service interruption and unauthorized access.
+Impact Assessment:
+Potential impact on confidentiality, integrity and availability of the system.
+Description
+Trend Micro Apex One is an enterprise endpoint security solution designed to protect organizations against malware, ransomware, advanced persistent threats (APTs), and zero-day attacks.
+1. Directory Traversal Remote Code Execution Vulnerability
+(
+CVE-2025-71210
+CVE-2025-71211
+)
+Directory traversal vulnerabilities exist in the Trend Micro Apex One Management Console. These vulnerabilities could allow a remote attacker to upload malicious files and execute arbitrary commands on affected installations.
+2. Local Privilege Escalation Vulnerability
+(
+CVE-2025-71212
+CVE-2025-71213
+)
+Multiple vulnerabilities exist in the Trend Micro Apex One Scan Engine. These vulnerabilities could allow a locally authenticated attacker to escalate privileges on affected systems.
+3. Local Privilege Escalation Vulnerability
+(
+CVE-2025-71214
+)
+A vulnerability exists in the Trend Micro Apex One (macOS) Agent iCore service due to improper origin validation. An attacker with local access could exploit this vulnerability to escalate privileges on affected installations.
+4. Local Privilege Escalation Vulnerability
+(
+CVE-2025-71215
+)
+This vulnerability exists in the Trend Micro Apex One (mac) agent iCore service signature verification due to a time-of-check time-of-use.  A local attacker could exploit this vulnerability to escalate privileges on affected systems.
+Solution
+Apply appropriate updates as mentioned in:
+https://success.trendmicro.com/en-US/solution/KA-0022458
+Vendor Information
+Trendmicro
+https://success.trendmicro.com/en-US/solution/KA-0022458
+References
+https://success.trendmicro.com/en-US/solution/KA-0022458
+CVE Name
+CVE-2025-71210
+CVE-2025-71211
+CVE-2025-71212
+CVE-2025-71213
+CVE-2025-71214
+CVE-2025-71215
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-02-27 11:29:02
