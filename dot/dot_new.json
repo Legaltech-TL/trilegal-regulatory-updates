@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-03-02T04:38:36.438382",
-  "count": 1,
+  "generated_at": "2026-03-02T06:44:55.228631",
+  "count": 4,
   "items": [
     {
-      "id": "eb580d152bba45d1",
-      "title": "Shri Jyotiraditya M. Scindia to Lead India\u2019s Participation at Mobile World Congress 2026 in Barcelona, Spain",
-      "publish_date": "03/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f8e8258c359caed2071f9b95b4ba8391.pdf",
-      "category": "PRESS_RELEASE",
+      "id": "834b4a3650ea9bf9",
+      "title": "Superannuation of Shri K G Garg, Sr. DDG (BW), DoT HQs \u2013 Issuance of Struck-Off Order- reg",
+      "publish_date": "02/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/4e13bcc7bb7a14d01348dc8928d805f5.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/02/2026"
+    },
+    {
+      "id": "0fdc10546195fa01",
+      "title": "106 Conducting Police Verification of Point of Sale every five years in J&K, Assam & NE LSA",
+      "publish_date": "01/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/95492a4664e1da5146af28335eea1348.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/02/2026"
+    },
+    {
+      "id": "834b4a3650ea9bf9",
+      "title": "Superannuation of Shri K G Garg, Sr. DDG (BW), DoT HQs \u2013 Issuance of Struck-Off Order- reg",
+      "publish_date": "02/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/4e13bcc7bb7a14d01348dc8928d805f5.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/02/2026"
+    },
+    {
+      "id": "0fdc10546195fa01",
+      "title": "106 Conducting Police Verification of Point of Sale every five years in J&K, Assam & NE LSA",
+      "publish_date": "01/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/95492a4664e1da5146af28335eea1348.pdf",
+      "category": "REPORTS",
       "scraped_at": "03/02/2026"
     }
   ]
