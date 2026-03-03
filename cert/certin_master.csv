@@ -1657,3 +1657,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-03 05:19:19
+815333e3a1fef243,CERT-In Vulnerability Note  CIVN-2026-0114,"March 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0114,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0114
+Remote Code Execution Vulnerability in Juniper Junos OS Evolved
+Original Issue Date:March     03, 2026
+Severity Rating: CRITICAL
+Software Affected
+Junos OS Evolved on PTX Series 25.4 - versions prior to 25.4R1-S1-EVO
+Junos OS Evolved on PTX Series 25.4 - versions prior to 25.4R2-EVO
+Overview
+A vulnerability has been reported in Juniper Junos OS, which could allow a remote attacker to execute remote code (RCE) with root privileges.
+Target Audience:
+All organizations and users using Juniper Junos OS.
+Risk Assessment:
+High risk of remote code execution, unauthorized access of data and service disruption.
+Impact Assessment:
+Unauthenticated remote code execution with root privileges, potentially leading to complete system compromise, unauthorized modification of routing configurations, service disruption.
+Description
+Junos OS Evolved is a cloud-scale network operating system providing high availability, operational resiliency, and programmable infrastructure to support scalable and automated network deployments.
+The vulnerability exists in in Juniper Networks Junos OS due to incorrect permission assignment for critical resource vulnerability which could be exploited by network-based attacker to execute code as root.
+Successful exploitation of this vulnerability could allow an attacker to trigger denial of service condition, remote code execution, sensitive information disclosure and data manipulation.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://supportportal.juniper.net/s/article/2026-02-Out-of-Cycle-Security-Bulletin-Junos-OS-Evolved-PTX-Series-A-vulnerability-allows-a-unauthenticated-network-based-attacker-to-execute-code-as-root-CVE-2026-21902
+Vendor Information
+Juniper Networks
+https://supportportal.juniper.net/s/
+References
+https://supportportal.juniper.net/s/article/2026-02-Out-of-Cycle-Security-Bulletin-Junos-OS-Evolved-PTX-Series-A-vulnerability-allows-a-unauthenticated-network-based-attacker-to-execute-code-as-root-CVE-2026-21902
+CVE Name
+CVE-2026-21902
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-03 11:28:59
