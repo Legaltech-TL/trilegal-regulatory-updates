@@ -1585,3 +1585,75 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-02-27 11:29:02
+efaca01780c2d3f7,CERT-In Vulnerability Note  CIVN-2026-0113,"March 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0113,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0113
+Multiple Vulnerabilities in Drupal Modules
+Original Issue Date:March     02, 2026
+Severity Rating: HIGH
+Software Affected
+Drupal core versions prior to 2.0.4
+Drupal core versions prior to 1.2.1
+Drupal core versions prior to 1.2.49
+Drupal core versions prior to 9.7.0
+Drupal core versions prior to 1.17.0
+Drupal core versions prior to 2.17.5
+Drupal core versions prior to 1.1.1
+Drupal core versions prior to 3.1.3
+Drupal core versions prior to 2.0.2
+Overview
+Multiple vulnerabilities have been reported in Drupal core which allow a remote attacker to obtain sensitive information, execute arbitrary code, bypass access controls or perform cross site scripting attacks on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Drupal.
+Risk Assessment:
+Risk of remote code execution, unauthorized access to sensitive information.
+Impact Assessment:
+Potential compromise of system and unauthorized access to sensitive information.
+Description
+Drupal is an open-source, content management system (CMS) and web application framework written in PHP.
+Multiple vulnerabilities exist in Drupal core due to improper sanitization of user-supplied inputs, improper sanitization of URI paths, insufficient checking for certain user fields before rendering them inside JavaScript templates, used security tokens are not properly invalidated. A remote attacker could exploit these vulnerabilities by sending specially crafted inputs.
+Successful exploitation of these vulnerabilities could allow a remote attacker to trigger remote code execution, perform cross-site scripting, bypass access controls and can obtain sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.drupal.org/sa-contrib-2026-012
+https://www.drupal.org/sa-contrib-2026-011
+https://www.drupal.org/sa-contrib-2026-013
+https://www.drupal.org/sa-contrib-2026-014
+https://www.drupal.org/sa-contrib-2026-015
+https://www.drupal.org/sa-contrib-2026-016
+https://www.drupal.org/sa-contrib-2026-017
+https://www.drupal.org/sa-contrib-2026-018
+https://www.drupal.org/sa-contrib-2026-019
+Vendor Information
+Drupal
+https://www.drupal.org/sa-contrib-2026-012
+https://www.drupal.org/sa-contrib-2026-011
+https://www.drupal.org/sa-contrib-2026-013
+https://www.drupal.org/sa-contrib-2026-014
+https://www.drupal.org/sa-contrib-2026-015
+https://www.drupal.org/sa-contrib-2026-016
+https://www.drupal.org/sa-contrib-2026-017
+https://www.drupal.org/sa-contrib-2026-018
+https://www.drupal.org/sa-contrib-2026-019
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-012
+https://www.drupal.org/sa-contrib-2026-011
+https://www.drupal.org/sa-contrib-2026-013
+https://www.drupal.org/sa-contrib-2026-014
+https://www.drupal.org/sa-contrib-2026-015
+https://www.drupal.org/sa-contrib-2026-016
+https://www.drupal.org/sa-contrib-2026-017
+https://www.drupal.org/sa-contrib-2026-018
+https://www.drupal.org/sa-contrib-2026-019
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-03 05:19:19
