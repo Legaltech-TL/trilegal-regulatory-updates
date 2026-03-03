@@ -1,5 +1,54 @@
 {
-  "generated_at": "2026-03-02T09:41:45.675954",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-03-03T04:38:08.547459",
+  "count": 6,
+  "items": [
+    {
+      "id": "085413be2f25e113",
+      "title": "Allocation of additional Wireline Access Service Codes to M/s Reliance JIO Infocomm Ltd. for 10 SDCAs of Andhra Pradesh, Punjab and Rajasthan LSAs.",
+      "publish_date": "03/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/145349b63b335d6f03be261a31677aaf.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/03/2026"
+    },
+    {
+      "id": "3be70380090be67a",
+      "title": "Allocation of MSC codes to M/s Reliance JIO Infocomm Limited for West Bengal LSA for Mobile Access Services - Regarding.",
+      "publish_date": "03/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f42a5c0278ae88cf2df00271e3d6d15a.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/03/2026"
+    },
+    {
+      "id": "e26edd6c7a57a2ca",
+      "title": "Postponement of PL-2 Course on \"Open Radio Access Network (Open RAN)\" at IIT Madras",
+      "publish_date": "03/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/3d781d7dfa0704ec5abc416ca84cf5b3.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/03/2026"
+    },
+    {
+      "id": "085413be2f25e113",
+      "title": "Allocation of additional Wireline Access Service Codes to M/s Reliance JIO Infocomm Ltd. for 10 SDCAs of Andhra Pradesh, Punjab and Rajasthan LSAs.",
+      "publish_date": "03/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/145349b63b335d6f03be261a31677aaf.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/03/2026"
+    },
+    {
+      "id": "3be70380090be67a",
+      "title": "Allocation of MSC codes to M/s Reliance JIO Infocomm Limited for West Bengal LSA for Mobile Access Services - Regarding.",
+      "publish_date": "03/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f42a5c0278ae88cf2df00271e3d6d15a.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/03/2026"
+    },
+    {
+      "id": "e26edd6c7a57a2ca",
+      "title": "Postponement of PL-2 Course on \"Open Radio Access Network (Open RAN)\" at IIT Madras",
+      "publish_date": "03/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/3d781d7dfa0704ec5abc416ca84cf5b3.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/03/2026"
+    }
+  ]
 }
