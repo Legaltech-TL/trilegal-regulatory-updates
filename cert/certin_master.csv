@@ -1699,3 +1699,62 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-03 11:28:59
+69be90fba20c07f7,CERT-In Vulnerability Note  CIVN-2026-0115,"March 05, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0115,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0115
+Multiple Vulnerabilities in Google ChromeOS / ChromeOS Flex
+Original Issue Date:March     05, 2026
+Severity Rating: HIGH
+Software Affected
+Google ChromeOS version prior to 16552.47.0
+Google ChromeOS Flex version prior to 16552.47.0
+Overview
+Multiple vulnerabilities have reported in Google ChromeOS and ChromeOS Flex which could allow a remote attacker to execute arbitrary code, bypass security restrictions, cause denial-of-service conditions, or obtain sensitive information on the targeted system.
+Target Audience:
+All organization and individual using Google ChromeOS or ChromeOS Flex systems.
+Risk Assessment:
+High risk of arbitrary code execution, privilege escalation, service disruption, system instability.
+Impact Assessment:
+Potential for remote code execution, sensitive data theft, or complete system compromise.
+Description
+ChromeOS is a lightweight operating system developed by Google for Chromebooks, optimized for secure web browsing and cloud-based computing. ChromeOS Flex extends this operating system to older PCs and Macs.
+Multiple vulnerabilities exist in Google ChromeOS due to improper input validation, memory corruption, and insufficient security checks within system components and the underlying Chromium browser engine. An attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted web page.
+Successful exploitation may result in arbitrary code execution, privilege escalation, disclosure of sensitive information, or denial-of-service conditions on the affected system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-chromeos_26.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-chromeos_26.html
+References
+https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-chromeos_26.html
+CVE Name
+CVE-2025-38349
+CVE-2025-0932
+CVE-2025-21704
+CVE-2026-2314
+CVE-2026-2322
+CVE-2026-2323
+CVE-2026-2313
+CVE-2026-2317
+CVE-2026-2321
+CVE-2026-2320
+CVE-2026-2316
+CVE-2026-2318
+CVE-2026-2319
+CVE-2026-2441
+CVE-2025-2649
+CVE-2026-2648
+CVE-2026-2650
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-05 11:30:46
