@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-03-05T04:35:27.637349",
-  "count": 1,
+  "generated_at": "2026-03-05T06:40:24.442465",
+  "count": 4,
   "items": [
     {
-      "id": "9179867b8d89f403",
-      "title": "Union Minister Shri Jyotiraditya M. Scindia leads India\u2019s engagements at Mobile World Congress 2026 in Barcelona, Spain",
-      "publish_date": "03/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/39174346137ac734c8d2027cbcd7f34c.pdf",
-      "category": "PRESS_RELEASE",
+      "id": "9d69ccc7b8529d77",
+      "title": "Extension of additional charge of the post of Director (Finance), MTNL",
+      "publish_date": "03/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/2466e87b810c8ffaf48137e59c27e17c.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/05/2026"
+    },
+    {
+      "id": "90309277a155a97b",
+      "title": "Extension of additional charge of the post of Director (Finance), BBNL",
+      "publish_date": "03/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/570010c4e408b9a10d3b781890ac019f.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/05/2026"
+    },
+    {
+      "id": "9d69ccc7b8529d77",
+      "title": "Extension of additional charge of the post of Director (Finance), MTNL",
+      "publish_date": "03/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/2466e87b810c8ffaf48137e59c27e17c.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/05/2026"
+    },
+    {
+      "id": "90309277a155a97b",
+      "title": "Extension of additional charge of the post of Director (Finance), BBNL",
+      "publish_date": "03/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/570010c4e408b9a10d3b781890ac019f.pdf",
+      "category": "REPORTS",
       "scraped_at": "03/05/2026"
     }
   ]
