@@ -1804,3 +1804,48 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-06 08:02:15
+2146c47ef09a91bd,CERT-In Vulnerability Note  CIVN-2026-0117,"March 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0117,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0117
+Multiple Vulnerabilities in VMware Workstation and Fusion
+Original Issue Date:March     06, 2026
+Severity Rating: MEDIUM
+Software Affected
+VMware Workstation versions prior to 25H2U1
+VMware Fusion versions prior to 25H2U1
+Overview
+Multiple vulnerabilities have been reported in VMware Workstation and Fusion that could be exploited by an attacker to cause denial of service conditions, interrupt or intercept network connections between virtual machines, and obtain limited sensitive information on the target system.
+Target Audience:
+Enterprises and Large Organizations, Cloud Providers, and industries with IT environments utilizing VMware products.
+Risk Assessment:
+Potential for system instability, interruption or interception of network communication between virtual machines, and limited information disclosure.
+Impact Assessment:
+Potential for denial-of-service conditions, interruption or interception of network connections between virtual machines, and limited exposure of sensitive information.
+Description
+VMware provides virtualization software solutions that enable organizations to create and manage virtual machines (VMs).
+These vulnerabilities exist in VMware Workstation and Fusion due to a logic flaw in the management of network packets , a NULL pointer dereference error in VMware Workstation for Windows , an out-of-bounds write vulnerability , and an out-of-bounds read vulnerability.
+Successful exploitation could allow an attacker to cause denial of service conditions, interrupt or intercept network connections between virtual machines, and obtain limited sensitive information on the target system.
+Solution
+Apply appropriate updates as mentioned by the Vendor:
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36986
+Vendor Information
+VMware
+www.vmware.com
+References
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36986
+CVE Name
+CVE-2026-22715
+CVE-2026-22716
+CVE-2026-22717
+CVE-2026-22722
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-06 11:24:56
