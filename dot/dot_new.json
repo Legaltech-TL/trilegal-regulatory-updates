@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-03-06T06:37:56.365091",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-03-06T09:31:27.681707",
+  "count": 2,
+  "items": [
+    {
+      "id": "e923529a6cd77dd5",
+      "title": "CS COMM 89 of 2026 in the Honble High Court of Delhi: Additional list DoT instructions dated 05.03.2026 to ISPs",
+      "publish_date": "03/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/ee5730cbc3c3fd3b2aca25c76b3f1b5f.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/06/2026"
+    },
+    {
+      "id": "e923529a6cd77dd5",
+      "title": "CS COMM 89 of 2026 in the Honble High Court of Delhi: Additional list DoT instructions dated 05.03.2026 to ISPs",
+      "publish_date": "03/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/ee5730cbc3c3fd3b2aca25c76b3f1b5f.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/06/2026"
+    }
+  ]
 }
