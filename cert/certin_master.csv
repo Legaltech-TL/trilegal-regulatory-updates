@@ -1849,3 +1849,196 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-06 11:24:56
+2c9504e9238abe93,CERT-In Vulnerability Note  CIVN-2026-0123,"March 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0123,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0123
+Denial of Service vulnerabilities in CISCO
+Original Issue Date:March     09, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco Secure Firewall ASA Software
+Secure FTD Software
+Overview
+Multiple vulnerabilities have been reported in Cisco Secure Firewall ASA and FTD software, affecting IKEv2 and GCM‑encrypted IPsec processing which could allow a remote attacker by sending crafted packets to Exhaust memory or system resources, Cause device reloads or crashes, denial-of-service (DoS) conditions on targeted device.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+Multiple vulnerabilities exist in Cisco Secure Firewall ASA Software and Secure FTD Software due to improper handling of IKEv2 packets, memory leaks, failure to free memory during packet processing, and insufficient memory allocation for GCM-encrypted IPsec traffic. An attacker could exploit these issues by sending specially crafted IKEv2 or GCM-encrypted IPsec packets to an affected device, potentially exhausting memory or system resources.
+Successful exploitation of these vulnerabilities  result in device reloads, crashes, or denial-of-service conditions.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-eBueGdEG
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-esp-dos-uv7yD8P5
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-eBueGdEG
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-esp-dos-uv7yD8P5
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-eBueGdEG
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-esp-dos-uv7yD8P5
+CVE Name
+CVE-2026-20014
+CVE-2026-20013
+CVE-2026-20015
+CVE-2026-20049
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-09 08:06:29
+b507952deebdbd92,CERT-In Vulnerability Note  CIVN-2026-0122,"March 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0122,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0122
+Multiple Vulnerabilities in CISCO
+Original Issue Date:March     09, 2026
+Severity Rating: HIGH
+Overview
+Multiple vulnerabilities have been reported in Cisco Secure Firewall ASA Software and Cisco Secure Firewall Threat Defense could allow an unauthenticated attacker to send specially crafted packets to the SSL VPN service, potentially causing memory exhaustion, device reloads, or an unresponsive web interface, resulting in a Denial-of-Service (DoS) condition on the affected device.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+Multiple vulnerabilities exist   in Cisco Secure Firewall ASA Software and Cisco Secure Firewall Threat Defense (FTD) Software due to insufficient validation and error handling when processing VPN authentication messages, HTTP requests, and other user-supplied inputs. An attacker could exploit these Vulnerabilities by sending specially crafted packets to the SSL VPN service, which could lead to memory exhaustion, device reloads, or the web interface becoming unresponsive.
+Successful exploitation these Vulnerabilities could result in a Denial-of-Service (DoS) condition on the affected device.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-m9sx6MbC
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-m9sx6MbC
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-m9sx6MbC
+CVE Name
+CVE-2026-20101
+CVE-2026-20103
+CVE-2026-20100
+CVE-2026-20105
+CVE-2026-20106
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-09 08:06:29
+0d87f46d6832ec9d,CERT-In Vulnerability Note  CIVN-2026-0121,"March 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0121,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0121
+Multiple Vulnerabilities in CISCO
+Original Issue Date:March     09, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco Secure Firewall ASA Software
+Overview
+Multiple vulnerabilities have been reported in the  handling of the embryonic connection limits in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software could allow unauthenticated, remote attacker to cause incoming TCP SYN packets to be dropped incorrectly, local attacker with administrative privileges in one context to copy files to or from another context, including configuration files.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+1. Denial of service Vulnerability
+(
+CVE-2026-20082
+)
+This vulnerability exists due to improper handling of new, incoming TCP connections that are destined to management or data interfaces when the device is under a TCP SYN flood attack. An attacker could exploit this vulnerability by sending a crafted stream of traffic to an affected device.
+Successful exploitation of this vulnerability could allow the attacker to prevent all incoming TCP connections to the device from being established, including remote management access, Remote Access VPN (RAVPN) connections, and all network protocols that are TCP-based. This results in a denial of service (DoS) condition for affected features.
+2. Unauthorized File Access Vulnerability
+(
+CVE-2026-20062
+)
+This vulnerability exists due to improper access controls for Secure Copy Protocol (SCP) operations when the Cisco SSH stack is enabled. An attacker could exploit this vulnerability by authenticating to a non-admin context of the device and issuing crafted SCP copy commands in that non-admin context.
+Successful exploitation of this vulnerability could allow the attacker to read, create, or overwrite sensitive files that belong to another context, including the admin and system contexts.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-dos-FCvLD6vR
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-scpcxt-filecpy-rgeP73nE
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-dos-FCvLD6vR
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-scpcxt-filecpy-rgeP73nE
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-dos-FCvLD6vR
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-scpcxt-filecpy-rgeP73nE
+CVE Name
+CVE-2026-20082
+CVE-2026-20062
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-09 08:06:29
+753116d485707412,CERT-In Advisory   CIAD-2026-0010,"March 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0010,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0010
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: March     09, 2026
+Severity Rating: Critical
+Software Affected
+Microsoft ACI Confidential Containers
+Microsoft Payment Orchestrator Service
+Microsoft Azure Compute Gallery
+Microsoft Devices Pricing Program
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products, which could be exploited by a remote attacker to gain elevated privileges, obtain sensitive information and conduct remote code execution attacks on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Microsoft products for Desktop and Cloud environments.
+Risk Assessment:
+High risk of arbitrary code execution, privilege escalation, and sensitive information disclosure.
+Impact Assessment:
+Potential for exfiltration of data and compromise of system.
+Description
+Multiple vulnerabilities have been reported in Microsoft Products due to improper access control and insufficient validation of certain operations. A remote attacker could exploit these vulnerabilities by sending specially crafted requests or leveraging authorized access to vulnerable components.
+Successful exploitation of these vulnerabilities could allow an attacker to gain elevated privileges, obtain sensitive information and conduct remote code execution attacks on the targeted system.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Mar
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/
+References
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Mar
+CVE Name
+CVE-2026-26122
+CVE-2026-26125
+CVE-2026-26124
+CVE-2026-21536
+CVE-2026-23651
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-09 08:06:29
