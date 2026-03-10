@@ -2094,3 +2094,256 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-09 11:32:23
+b4481c111adc64f4,CERT-In Vulnerability Note  CIVN-2026-0127,"March 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0127,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0127
+Remote Code Execution Vulnerability in FreeScout helpdesk platform
+Original Issue Date:March     10, 2026
+Severity Rating: CRITICAL
+Software Affected
+FreeScout versions prior to 1.8.207
+Overview
+A critical vulnerability has been reported in FreeScout, which may allow an authenticated attacker to execute arbitrary code on the targeted vulnerable server.
+Target Audience:
+Administrators and users of systems running affected versions of FreeScout.
+Risk Assessment:
+High risk of arbitrary code execution, privilege escalation, and persistence.
+Impact Assessment:
+Potential for full system takeover, sensitive information disclosure, lateral movement and disruption of services.
+Description
+FreeScout is a lightweight, private alternative to Zendesk or Help Scout. It is a free, open-source, self-hosted help desk and shared mailbox solution.
+The vulnerability exists due to a Time-of-Check to Time-of-Use (TOCTOU) flaw in the sanitizeUploadedFileName() function located in app/Http/Helper.php. The flaw occurs because the application checks whether a filename starts with a dot before removing invisible characters during sanitization. An attacker can exploit this behaviour by uploading a malicious .htaccess file prefixed with a zero-width space character, allowing the file to bypass the security check on the targeted server.
+Successful exploitation could allow an authenticated attacker to execute arbitrary code on the targeted vulnerable server.
+Solution
+https://github.com/freescout-help-desk/freescout/security/advisories/GHSA-5gpc-65p8-ffwp
+Vendor Information
+FreeScout
+https://freescout.net/
+References
+https://github.com/freescout-help-desk/freescout/security/advisories/GHSA-5gpc-65p8-ffwp
+https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/
+CVE Name
+CVE-2026-28289
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-10 08:04:40
+846f276ca832f2f9,CERT-In Vulnerability Note  CIVN-2026-0126,"March 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0126,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0126
+Multiple Vulnerabilities in Android OS
+Original Issue Date:March     10, 2026
+Severity Rating: CRITICAL
+Software Affected
+OpenSSL version 3.6.
+OpenSSL version 3.5.
+OpenSSL version 3.4.
+OpenSSL version 3.3.
+OpenSSL version 3.0.
+OpenSSL version 1.1.1
+OpenSSL version 1.0.2
+Overview
+Multiple vulnerabilities have been identified in Android which could be exploited by an attacker to execute arbitrary code causing denial of service, privilege escalation or disclosure sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Android.
+Risk Assessment:
+Risk of remote code execution, denial of service, privilege escalation and sensitive information disclosure.
+Impact Assessment:
+Potential compromise of system, service disruption and unauthorized access to sensitive information.
+Description
+Android is an open-source operating system primarily designed for mobile devices, including smart phones, tablets, smart watches, and other embedded system.
+Multiple vulnerabilities exist in Android due to flaws in Android bug ID, Qualcomm reference number, MediaTek reference number, NVIDIA reference number, Broadcom reference number, UNISOC reference number.
+Successful exploitation of these vulnerabilities could allow a remote attacker to trigger remote code execution, denial of service condition, gain elevated privileges and obtain sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://source.android.com/docs/security/bulletin/2026/2026-03-01
+Vendor Information
+Android
+https://source.android.com/docs/security/bulletin/2026/2026-03-01
+References
+Android
+https://source.android.com/docs/security/bulletin/2026/2026-03-01
+CVE Name
+CVE-2026-0047
+CVE-2025-32313
+CVE-2025-48544
+CVE-2025-48567
+CVE-2025-48568
+CVE-2025-48574
+CVE-2025-48577
+CVE-2025-48578
+CVE-2025-48579
+CVE-2025-48582
+CVE-2025-48605
+CVE-2025-48619
+CVE-2025-48634
+CVE-2025-48635
+CVE-2025-48645
+CVE-2025-48646
+CVE-2025-48654
+CVE-2026-0007
+CVE-2026-0008
+CVE-2026-0010
+CVE-2026-0011
+CVE-2026-0013
+CVE-2026-0020
+CVE-2026-0023
+CVE-2026-0026
+CVE-2026-0034
+CVE-2026-0012
+CVE-2026-0025
+CVE-2025-48644
+CVE-2026-0014
+CVE-2026-0015
+CVE-2026-0006
+CVE-2025-48631
+CVE-2025-48602
+CVE-2025-48641
+CVE-2025-48650
+CVE-2025-48653
+CVE-2026-0017
+CVE-2026-0021
+CVE-2026-0035
+CVE-2024-43766
+CVE-2025-48642
+CVE-2025-64783
+CVE-2025-64784
+CVE-2025-64893
+CVE-2026-0005
+CVE-2026-0024
+CVE-2025-48585
+CVE-2025-48587
+CVE-2024-43859
+CVE-2025-48609
+CVE-2026-0037
+CVE-2026-0038
+CVE-2025-38616
+CVE-2025-38618
+CVE-2025-39682
+CVE-2025-39946
+CVE-2026-0029
+CVE-2026-0027
+CVE-2026-0028
+CVE-2026-0030
+CVE-2026-0031
+CVE-2025-40266
+CVE-2026-0032
+CVE-2025-2879
+CVE-2025-10865
+CVE-2025-58407
+CVE-2025-58408
+CVE-2025-58409
+CVE-2025-58411
+CVE-2026-21735
+CVE-2025-20795
+CVE-2026-20425
+CVE-2026-20426
+CVE-2026-20427
+CVE-2026-20428
+CVE-2026-20434
+CVE-2025-20760
+CVE-2025-20761
+CVE-2025-20762
+CVE-2025-20793
+CVE-2025-20794
+CVE-2026-20401
+CVE-2026-20402
+CVE-2026-20403
+CVE-2026-20404
+CVE-2026-20405
+CVE-2026-20406
+CVE-2026-20420
+CVE-2026-20421
+CVE-2026-20422
+CVE-2025-48613
+CVE-2025-61612
+CVE-2025-61613
+CVE-2025-61614
+CVE-2025-61615
+CVE-2025-61616
+CVE-2025-69278
+CVE-2025-69279
+CVE-2025-47388
+CVE-2025-47394
+CVE-2025-47396
+CVE-2025-47397
+CVE-2025-47398
+CVE-2025-59600
+CVE-2026-21385
+CVE-2025-47339
+CVE-2025-47346
+CVE-2025-47348
+CVE-2025-47366
+CVE-2025-47378
+CVE-2025-47385
+CVE-2025-47395
+CVE-2025-47402
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-10 08:04:40
+57ec954e201d200c,CERT-In Vulnerability Note  CIVN-2026-0125,"March 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0125,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0125
+Multiple Vulnerabilities in Wireshark
+Original Issue Date:March     10, 2026
+Severity Rating: MEDIUM
+Software Affected
+Wireshark versions affected from 4.6.0 before 4.6.4
+Wireshark versions affected from 4.4.0 before 4.4.14
+Overview
+Multiple vulnerabilities have been reported in Wireshark, which could allow an attacker to cause denial of service conditions on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Wireshark.
+Risk Assessment:
+Potential for service unavailability.
+Impact Assessment:
+High risk of service disruptions.
+Description
+Wireshark is an open source network analyzer, which allows users to capture and inspect packets of data that are transmitted over a network.
+These vulnerabilities exists in Wireshark due to an improperly Controlled Sequential Memory Allocation, null Pointer Dereference and Buffer Over-read. An Attacker could exploit these vulnerabilities by injecting a malformed packet or crafted capture ﬁle.
+Successful exploitation may lead to Wireshark, causing denial of service conditions on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.wireshark.org/security/wnpa-sec-2026-05.html
+https://www.wireshark.org/security/wnpa-sec-2026-06.html
+https://www.wireshark.org/security/wnpa-sec-2026-07.html
+Vendor Information
+Wireshark
+https://www.wireshark.org/security/wnpa-sec-2026-05.html
+https://www.wireshark.org/security/wnpa-sec-2026-06.html
+https://www.wireshark.org/security/wnpa-sec-2026-07.html
+References
+Wireshark
+https://www.wireshark.org/security/wnpa-sec-2026-05.html
+https://www.wireshark.org/security/wnpa-sec-2026-06.html
+https://www.wireshark.org/security/wnpa-sec-2026-07.html
+CVE Name
+CVE-2026-3201
+CVE-2026-3202
+CVE-2026-3203
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-10 08:04:40
