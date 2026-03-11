@@ -1,70 +1,22 @@
 {
-  "generated_at": "2026-03-10T09:38:26.787424",
-  "count": 8,
+  "generated_at": "2026-03-11T04:33:45.828285",
+  "count": 2,
   "items": [
     {
-      "id": "f48ad33ec6cb0409",
-      "title": "CS COMM 181 of 2026: in the Honble High Court of Delhi: \u00a0Additional list DoT instructions dated 10.03.2026 to ISPs",
+      "id": "5fb6891921adc846",
+      "title": "Allocation of additional telecommunication identifiers in numbering series \"1600' exclusively for service and transactional voice calls to M/s Tata Teleservices Limited for Karnataka LSA.",
       "publish_date": "03/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/7277ecc3a5152baf3468f0caa143ebb5.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5b6a8992e08e3ff289467cb6a72e0731.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/10/2026"
+      "scraped_at": "03/11/2026"
     },
     {
-      "id": "f12c216b6031776a",
-      "title": "CS COMM 1152 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 10.03.2026 to ISPs",
+      "id": "5fb6891921adc846",
+      "title": "Allocation of additional telecommunication identifiers in numbering series \"1600' exclusively for service and transactional voice calls to M/s Tata Teleservices Limited for Karnataka LSA.",
       "publish_date": "03/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/c0661e3e40ef54c283352bbb574aa19c.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/10/2026"
-    },
-    {
-      "id": "bb291c0e5db1a546",
-      "title": "Inviting nominations for the Batch-II of Competency Development Program (CDP) in \u2018Network and Mobile Security\u2019 being organized by NCA-T Ghaziabad",
-      "publish_date": "03/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/2a7e96ff73580ab865a654f211107170.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/10/2026"
-    },
-    {
-      "id": "82e6b43cb5b98aa4",
-      "title": "Taken on Strength Order in DoT HQs of Shri A.K. Midha, Sr. DDG (BW) P&T BWS Gr A Service w.e.f. 01.03.2026 dated 03.03.2026",
-      "publish_date": "03/03/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/34aa838f1ff767d87980c598d41659fb.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/10/2026"
-    },
-    {
-      "id": "f48ad33ec6cb0409",
-      "title": "CS COMM 181 of 2026: in the Honble High Court of Delhi: \u00a0Additional list DoT instructions dated 10.03.2026 to ISPs",
-      "publish_date": "03/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/7277ecc3a5152baf3468f0caa143ebb5.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5b6a8992e08e3ff289467cb6a72e0731.pdf",
       "category": "REPORTS",
-      "scraped_at": "03/10/2026"
-    },
-    {
-      "id": "f12c216b6031776a",
-      "title": "CS COMM 1152 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 10.03.2026 to ISPs",
-      "publish_date": "03/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/c0661e3e40ef54c283352bbb574aa19c.pdf",
-      "category": "REPORTS",
-      "scraped_at": "03/10/2026"
-    },
-    {
-      "id": "bb291c0e5db1a546",
-      "title": "Inviting nominations for the Batch-II of Competency Development Program (CDP) in \u2018Network and Mobile Security\u2019 being organized by NCA-T Ghaziabad",
-      "publish_date": "03/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/2a7e96ff73580ab865a654f211107170.pdf",
-      "category": "REPORTS",
-      "scraped_at": "03/10/2026"
-    },
-    {
-      "id": "82e6b43cb5b98aa4",
-      "title": "Taken on Strength Order in DoT HQs of Shri A.K. Midha, Sr. DDG (BW) P&T BWS Gr A Service w.e.f. 01.03.2026 dated 03.03.2026",
-      "publish_date": "03/03/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/34aa838f1ff767d87980c598d41659fb.pdf",
-      "category": "REPORTS",
-      "scraped_at": "03/10/2026"
+      "scraped_at": "03/11/2026"
     }
   ]
 }
