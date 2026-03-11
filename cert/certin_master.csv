@@ -2347,3 +2347,134 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-10 08:04:40
+595b582c856ac4b6,CERT-In Vulnerability Note  CIVN-2026-0129,"March 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0129,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0129
+Domain Spoofing Vulnerability in Firefox Focus for iOS
+Original Issue Date:March     11, 2026
+Severity Rating: MEDIUM
+Software Affected
+Mozilla Firefox Focus for iOS versions prior to 148.2
+Overview
+A domain spoofing vulnerability has been identified in Mozilla Firefox Focus for iOS, which could allow malicious content to be displayed under spoofed trusted domains.
+Target Audience:
+All organizations and administrators using Mozilla Firefox Focus for iOS.
+Risk Assessment:
+Medium risk of domain spoofing that may mislead users into trusting malicious content.
+Impact Assessment:
+Potential for display of attacker-controlled content under a spoofed domain, which could facilitate phishing attacks and disclosure of sensitive information.
+Description
+A domain spoofing vulnerability has been reported in Mozilla Firefox Focus for iOS due to improper handling of navigation events combined with iframe redirection. An attacker could exploit this vulnerability by crafting malicious web content that stalls navigation to an invalid port and subsequently triggers an iframe redirect.
+Successful exploitation of this vulnerability may allow an attacker to deceive users by presenting malicious content under a trusted domain name, thereby increasing the likelihood of phishing or other social engineering attacks.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-18/
+Vendor Information
+Mozilla
+https://www.mozilla.org
+References
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-18/
+CVE Name
+CVE-2026-2919
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-11 11:30:04
+dece0c80c9cfe8d8,CERT-In Vulnerability Note  CIVN-2026-0128,"March 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0128,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0128
+Buffer Overflow Vulnerability in Fortinet FortiManager
+Original Issue Date:March     11, 2026
+Severity Rating: HIGH
+Software Affected
+FortiManager version 7.4.0 through 7.4.2
+FortiManager version 7.2.0 through 7.2.10
+FortiManager version 6.4.0 through 6.4.15
+Note: FortiManager Cloud is not affected by this vulnerability.
+Overview
+A vulnerability has been reported in Fortinet FortiManager, which could allow an unauthenticated remote attacker to execute arbitrary code on the affected system.
+Target Audience:
+All organizations and administrators using affected Fortinet FortiManager
+Risk Assessment:
+High risk of execute arbitrary commands on the targeted system.
+Impact Assessment:
+Potential impact on the system¿s confidentiality, integrity, and availability.
+Description
+Fortinet develops enterprise security solutions that provide VPN authentication, policy enforcement, and advanced threat detection capabilities.
+A vulnerability exists in Fortinet FortiManager due to a stack-based buffer overflow condition. An unauthenticated remote attacker could exploit this vulnerability by sending specially crafted requests, if the fgtupdates service is enabled.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to execute arbitrary code on the affected system. The success of the attack may depend on bypassing stack protection mechanisms implemented in the system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://fortiguard.fortinet.com/psirt/FG-IR-26-098
+Vendor Information
+Fortinet
+https://fortiguard.fortinet.com/psirt/FG-IR-26-098
+References
+https://fortiguard.fortinet.com/psirt/FG-IR-26-098
+CVE Name
+CVE-2025-54820
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-11 11:30:04
+7f097d031d6f9ce6,CERT-In Advisory   CIAD-2026-0011,"March 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0011,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0011
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: March     11, 2026
+Severity Rating: High
+Software Affected
+Microsoft Windows
+Microsoft Office
+Developer Tools
+SQL Server
+System Center
+Extended Security Updates (ESU) for legacy Microsoft products
+Apps
+Azure
+Open Source Software
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to gain elevated privileges, obtain sensitive information, conduct remote code execution attacks, bypass security restrictions, conduct spoofing attacks, or cause denial of service conditions.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating Microsoft products
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure
+Impact Assessment:
+Potential compromise of system, exfiltration of data, ransomware attacks or system crashes.
+Description
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to gain elevated privileges, obtain sensitive information, conduct remote code execution attacks, bypass security restrictions, conduct spoofing attacks, or cause denial of service conditions.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Microsoft security updates.
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Mar
+Solution
+Apply appropriate security updates as mentioned in
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Mar
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/
+References
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Mar
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-11 11:30:04
