@@ -1,12 +1,32 @@
 [
   {
-    "id":"d4c05ac4bfcbe42a",
+    "id":"c9ef70b4d604de07",
     "category":"public_notices",
     "sno":"1",
     "title":"Testing Laboratories approved by Statas&UT in Form 37 of Drugs Rule 1945 and Cos 23 of Cosmetics Rule 2020",
     "date":"2026-Mar-10",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM5NTc=",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM5NTg=",
     "filename":"Testing_Laboratories_approved_by_StatasUT_in_Form",
-    "scraped_time":"2026-03-11T04:52:23.435237"
+    "scraped_time":"2026-03-11T07:51:48.738372"
+  },
+  {
+    "id":"24c1b0b10100d6ef",
+    "category":"gazette_notifications",
+    "sno":"1",
+    "title":"2026.03.09 G.S.R. 164(E)_Draft Notification regarding Blood product testing under Drugs Rules,1945",
+    "date":"2026-Mar-09",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM5NjA=",
+    "filename":"20260309_GSR_164EDraft_Notification_regarding_Blood_product",
+    "scraped_time":"2026-03-11T07:51:55.861054"
+  },
+  {
+    "id":"7f927698d22fcc76",
+    "category":"gazette_notifications",
+    "sno":"2",
+    "title":"2026.03.02 G.S.R. 165(E)_Inclusion of Qualifications of Inspector Medical Devices and Government Analyst",
+    "date":"2026-Mar-02",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTM5NTk=",
+    "filename":"20260302_GSR_165EInclusion_of_Qualifications_of_Inspector",
+    "scraped_time":"2026-03-11T07:51:55.861054"
   }
 ]
