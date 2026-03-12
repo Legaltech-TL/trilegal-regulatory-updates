@@ -2656,3 +2656,139 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-12 08:07:13
+bb66e0ffa0f4ef13,CERT-In Vulnerability Note  CIVN-2026-0134,"March 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0134,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0134
+Denial of Service Vulnerability in CISCO
+Original Issue Date:March     12, 2026
+Severity Rating: HIGH
+Systems Affected
+Cisco IOS XR Software
+NCS 5700 Series line cards with the following products IDs (PIDs):
+NC57-18DD-S
+NC57-24DD
+NC57-36H-SE
+NC57-36H6D-S
+NC57-MOD-S
+NCS 5700 Series Fixed Chassis with the following PIDs:
+NCS-57B1-5D24H-SE
+NCS-57B1-5DSE-SYS
+NCS-57B1-6D24-SYS
+NCS-57B1-6D24H-S
+Overview
+A vulnerability has been reported in handling of an Egress Packet Network Interface (EPNI) Aligner interrupt in Cisco IOS XR Software for Cisco Network Convergence System (NCS) 5500 Series with NC57 line cards and Cisco NCS 5700 Routers and Cisco IOS XR Software for Third Party Software could allow an unauthenticated, remote attacker to cause the network processing unit (NPU) and ASIC to stop processing, preventing traffic from traversing the interface.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+This vulnerability exists due to corruption of packets in specific cases when an EPNI Aligner interrupt is triggered while an affected device is experiencing heavy transit traffic. An attacker could exploit this vulnerability by sending a continuous flow of crafted packets to an interface of the affected device.
+Successful exploitation of this vulnerability could allow the attacker to cause persistent, heavy packet loss, resulting in a denial of service (DoS) condition.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xrncs-epni-int-dos-TWMffUsN
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xrncs-epni-int-dos-TWMffUsN
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xrncs-epni-int-dos-TWMffUsN
+CVE Name
+CVE-2026-20118
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-12 11:29:09
+95b09390133debb8,CERT-In Vulnerability Note  CIVN-2026-0133,"March 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0133,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0133
+Denial of Service Vulnerability in CISCO
+Original Issue Date:March     12, 2026
+Severity Rating: HIGH
+Systems Affected
+Cisco IOS XR Software
+Overview
+A vulnerability has been reported in the Intermediate System-to-Intermediate System (IS-IS) multi-instance routing feature of Cisco IOS XR Software could allow an unauthenticated, adjacent attacker to cause the IS-IS process to restart unexpectedly.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+This vulnerability exists due to insufficient input validation of ingress IS-IS packets. An attacker could exploit this vulnerability by sending crafted IS-IS packets to an affected device after forming an adjacency.
+Successful exploitation of this vulnerability could allow the attacker to cause the IS-IS process to restart unexpectedly, resulting in a temporary loss of connectivity to advertised networks and a denial of service (DoS) condition.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isis-dos-kDMxpSzK
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isis-dos-kDMxpSzK
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isis-dos-kDMxpSzK
+CVE Name
+CVE-2026-20074
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-12 11:29:09
+38fd967ea5ec54a8,CERT-In Vulnerability Note  CIVN-2026-0132,"March 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0132,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0132
+Privilege Escalation Vulnerability in CISCO
+Original Issue Date:March     12, 2026
+Severity Rating: HIGH
+Systems Affected
+Cisco IOS XR Software
+Cisco IOS XRv 9000 Routers
+Overview
+Multiple  vulnerabilities have been reported in Cisco IOS XR Software could allow an  authenticated, local attacker to execute commands as root on an underlying operating system or gain full administrative control of an affected device.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+These vulnerabilities exist due to insufficient validation of user arguments that are passed to specific CLI commands and incorrect mapping of a command to task groups within the source code. An attacker could exploit this vulnerability by using crafted commands at the prompt and   CLI command to bypass the task group-based checks.
+Successful exploitation of this vulnerability could allow the attacker to elevate privileges to root and execute arbitrary commands on the underlying operating system and perform actions on an affected device without authorization checks.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-privesc-bF8D5U4W
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-privesc-bF8D5U4W
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-privesc-bF8D5U4W
+CVE Name
+CVE-2026-20040
+CVE-2026-20046
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-12 11:29:09
