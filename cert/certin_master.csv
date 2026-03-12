@@ -2478,3 +2478,181 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-11 11:30:04
+a63e2b5060e4647a,CERT-In Vulnerability Note  CIVN-2026-0130,"March 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0130,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0130
+Multiple vulnerabilities in Ivanti Endpoint Manager
+Original Issue Date:March     12, 2026
+Severity Rating: HIGH
+Software Affected
+Ivanti Endpoint Manager 2024 SU4 SR1 and prior versions.
+Overview
+Multiple vulnerabilities have been reported in Ivanti Endpoint Manager, which could allow an attacker to obtain sensitive information and bypass security restrictions on the target system.
+Target Audience:
+All end-user organizations and individuals using aﬀected Ivanti Endpoint Manager.
+Risk Assessment:
+High risk of unauthorized access and disclosure of information stored in the application database.
+Impact Assessment:
+Potential unauthorized access to sensitive information and compromise of system security.
+Description
+Ivanti Endpoint Manager (EPM) is a Unified Endpoint Management (UEM) solution that enables centralized management and security of enterprise devices across Windows, macOS, Linux, iOS, and Android environments.
+Multiple vulnerabilities have been reported in Ivanti Endpoint Manager due to improper input validation in the affected software.
+Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive information and bypass security restrictions on the target system.
+Solution
+Apply appropriate updates as mentioned by the vendor
+https://hub.ivanti.com/s/article/Security-Advisory-EPM-February-2026-for-EPM-2024?language=en_US
+Vendor Information
+Ivanti
+https://hub.ivanti.com/s/article/Security-Advisory-EPM-February-2026-for-EPM-2024?language=en_US
+References
+Ivanti
+https://hub.ivanti.com/s/article/Security-Advisory-EPM-February-2026-for-EPM-2024?language=en_US
+CVE Name
+CVE-2026-1602
+CVE-2026-1603
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-12 08:07:13
+d7b652cd86975ec4,CERT-In Advisory   CIAD-2026-0013,"March 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0013,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0013
+Multiple Vulnerabilities in Intel Products
+Original Issue Date: March     12, 2026
+Severity Rating: High
+Software Affected
+Intel® Core Ultra Processors Series 2
+Intel® Core Ultra Processors Series 1
+Intel® Xeon® E processor family
+Intel Core® Processors
+Intel® Xeon® 6
+Intel® Xeon® Scalable processor family
+Intel® Atom® Processors P6000
+Intel ® Xeon ® Scalable Processors
+Intel® Xeon® Scalable processors
+Intel® Xeon® W Processor Family
+Intel® Xeon® W processor 2200 series
+Intel® Core X-series processor
+Intel® Xeon® E Processors
+Intel® Atom® Processors
+Intel Atom® Processor X Series
+Intel® Core Processor Family
+Intel® Core Processors
+Intel® Xeon® Scalable processor
+Intel® Xeon® W processor 3100 series
+Intel® Xeon® W processor 2100 series
+Intel® Xeon® Processor D Family
+Intel Atom® C5000 and P5000 Product Family
+Intel® Core X-series Processors
+Intel® Xeon® Processor E7 v3 Family
+Intel® Xeon® Processor E5 v4 Family
+Intel® Atom® C processor Family
+Intel® Xeon® D processor family
+Intel® Xeon® Processor D NS Family
+Note: For versions refer to the OEM advisory given in the references section.
+Overview
+Multiple vulnerabilities have been reported in Intel Products, which could allow an attacker to gain elevated privileges and obtain sensitive information on the targeted system.
+Target Audience:
+Individuals and organizations using the above-mentioned Intel products.
+Risk Assessment:
+High risk of full System Compromise, System Instability or Sensitive Information Disclosure.
+Impact Assessment:
+Potential unauthorized access to sensitive information, privilege escalation or disruption of system operations.
+Description
+Multiple vulnerabilities have been reported in Intel Products, which could allow an attacker to gain elevated privileges and obtain sensitive information on the targeted system.
+For a complete list of affected products, CVEs, workarounds and solutions, refer to the Intel security Advisories given in the references section.
+Solution
+Apply appropriate security updates as mentioned in the Intel Security updates:
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01234.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01393.html
+Vendor Information
+Intel
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01234.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01393.html
+References
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01234.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01393.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-12 08:07:13
+c4a6c3596658e0c5,CERT-In Advisory   CIAD-2026-0012,"March 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0012,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0012
+Multiple Vulnerabilities in SAP Products
+Original Issue Date: March     11, 2026
+Severity Rating: Critical
+Software Affected
+SAP Quotation Management Insurance application (FS-QUO)
+SAP NetWeaver Enterprise Portal Administration
+SAP Supply Chain Management
+SAP NetWeaver Application Server for ABAP
+SAP NetWeaver (Feedback Notification)
+SAP Business One (Job Service)
+SAP Business Warehouse (Service API)
+SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal
+SAP Customer Checkout 2.0
+SAP GUI for Windows with active GuiXT
+SAP Solution Tools Plug-In (ST-PI)
+SAP NetWeaver AS Java (Adobe Document Services)
+Overview
+Multiple vulnerabilities have been reported in SAP products which could allow an attacker to perform code injection, DOM-based Cross-Site Scripting (XSS), Server-Side Request Forgery (SSRF) and perform Sql injection attacks or cause denial of service condition on the targeted system.
+Target Audience:
+SAP system administrators, SAP security teams, IT infrastructure teams managing SAP landscape and Application developers using affected SAP.
+Risk Assessment:
+Code execution, data manipulation or disclosure, service disruption, redirection of users to malicious resources
+Impact Assessment:
+Execution of malicious code, potential for system compromise, unauthorized access, data exposure, high risk of data breach.
+Description
+Multiple vulnerabilities have been reported in SAP products; Details of which are provided below:
+Solution
+Apply appropriate fixes as mentioned in SAP Security Advisory:
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/march-2026.html
+Vendor Information
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/march-2026.html
+References
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/march-2026.html
+CVE Name
+CVE-2026-0489
+CVE-2026-24309
+CVE-2026-24310
+CVE-2026-24311
+CVE-2026-24313
+CVE-2026-24316
+CVE-2026-24317
+CVE-2026-27684
+CVE-2026-27685
+CVE-2026-27686
+CVE-2026-27687
+CVE-2026-27688
+CVE-2026-27689
+CVE-2025-9230
+CVE-2025-9232
+CVE-2019-17571
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-12 08:07:13
