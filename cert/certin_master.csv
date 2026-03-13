@@ -2792,3 +2792,208 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-12 11:29:09
+4145d404e1afb900,CERT-In Vulnerability Note  CIVN-2026-0136,"March 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0136,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0136
+Multiple Vulnerabilities in Splunk Enterprise Products
+Original Issue Date:March     13, 2026
+Severity Rating: MEDIUM
+Software Affected
+Splunk Enterprise versions prior to 10.2.1
+Splunk Enterprise versions prior to 10.0.4
+Splunk Enterprise versions prior to 9.4.9
+Splunk Enterprise versions prior to 9.3.10
+Splunk Cloud Platform versions prior to 10.2.2510.7
+Splunk Cloud Platform versions prior to 10.1.2507.17
+Splunk Cloud Platform versions prior to 10.0.2503.12
+Splunk Cloud Platform versions prior to 9.3.2411.124
+Overview
+Multiple vulnerabilities have been reported in Splunk Enterprise product which could allow an attacker to execute arbitrary code, perform Cross-Site Scripting (XSS) attack or obtain sensitive information on the targeted system.
+Target Audience:
+All organizations and individuals using Splunk Enterprise products.
+Risk Assessment:
+Potential for unauthorized access to sensitive information, execution of arbitrary commands, and Stored Cross-Site Scripting (XSS).
+Impact Assessment:
+High risk of information disclosure, privilege misuse, and full system compromise.
+Description
+Splunk Enterprise is a data platform that enables organizations to collect, index, search, analyze, and visualize machine-generated data from any source.
+Multiple vulnerabilities exist in Splunk products due to improper access control, insufficient input validation and sanitization, and improper handling of user-supplied input. An attacker could exploit these vulnerabilities by sending specially crafted requests or by tricking an authenticated user into performing certain actions.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, perform Cross-Site Scripting (XSS) attack or obtain sensitive information on the targeted system.
+Solution
+Apply appropriate fixes issued by the vendor:
+https://advisory.splunk.com/advisories/SVD-2026-0301
+https://advisory.splunk.com/advisories/SVD-2026-0302
+https://advisory.splunk.com/advisories/SVD-2026-0303
+https://advisory.splunk.com/advisories/SVD-2026-0304
+https://advisory.splunk.com/advisories/SVD-2026-0305
+Vendor Information
+Splunk
+https://www.splunk.com/
+References
+Splunk
+https://advisory.splunk.com/advisories/SVD-2026-0301
+https://advisory.splunk.com/advisories/SVD-2026-0302
+https://advisory.splunk.com/advisories/SVD-2026-0303
+https://advisory.splunk.com/advisories/SVD-2026-0304
+https://advisory.splunk.com/advisories/SVD-2026-0305
+CVE Name
+CVE-2026-20162
+CVE-2026-20163
+CVE-2026-20164
+CVE-2026-20165
+CVE-2026-20166
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-13 08:06:16
+1c66d729c3d7e9dc,CERT-In Vulnerability Note  CIVN-2026-0135,"March 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0135,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0135
+Multiple Vulnerabilities in Adobe Products
+Original Issue Date:March     13, 2026
+Severity Rating: CRITICAL
+Software Affected
+Adobe Commerce
+Magento Open Source
+Adobe Illustrator
+Adobe Substance 3D Painter
+Adobe Acrobat Reader
+Adobe Premiere Pro
+Adobe Experience Manager (AEM)
+Adobe Substance 3D Stager
+Adobe DNG Software Development Kit (SDK)
+Note: For versions refer to
+https://helpx.adobe.com/security.html
+Overview
+Multiple Vulnerabilities have been reported in Adobe products which could be exploited by an attacker to execute arbitrary code, bypass security restrictions, gain elevated privileges, cross site scripting or can cause denial-of-service (DoS) condition on the targeted system.
+Target Audience:
+System administrators, Security teams or end-users of Adobe software products.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, system compromise.
+Impact Assessment:
+Potential for data theft, remote code execution or service disruption.
+Description
+Multiple vulnerabilities exist in the Adobe products due to Incorrect authorization, Improper input validation & limitation of a pathname to restricted directory, URL redirection to untrusted site, heap-based buffer overflow, stacked-based buffer overflow out-of-bounds write, out-of-bounds read, use-after-free, integer overflow or wraparound, NULL pointer dereference, and improper verification of cryptographic signature issues.
+Successful exploitation of these vulnerabilities could allow an attacker execute arbitrary code, bypass security restrictions, gain elevated privileges, cross site scripting or can cause denial-of-service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned in the Adobe Security Bulletin:
+https://helpx.adobe.com/security/products/magento/apsb26-05.html
+https://helpx.adobe.com/security/products/illustrator/apsb26-18.html
+https://helpx.adobe.com/security/products/substance3d_painter/apsb26-25.html
+https://helpx.adobe.com/security/products/acrobat/apsb26-26.html
+https://helpx.adobe.com/security/products/premiere_pro/apsb26-28.html
+https://helpx.adobe.com/security/products/experience-manager/apsb26-24.html
+https://helpx.adobe.com/security/products/substance3d_stager/apsb26-29.html
+https://helpx.adobe.com/security/products/dng-sdk/apsb26-30.html
+Vendor Information
+Adobe
+https://helpx.adobe.com/security.html
+References
+Adobe
+https://helpx.adobe.com/security/products/magento/apsb26-05.html
+https://helpx.adobe.com/security/products/illustrator/apsb26-18.html
+https://helpx.adobe.com/security/products/substance3d_painter/apsb26-25.html
+https://helpx.adobe.com/security/products/acrobat/apsb26-26.html
+https://helpx.adobe.com/security/products/premiere_pro/apsb26-28.html
+https://helpx.adobe.com/security/products/experience-manager/apsb26-24.html
+https://helpx.adobe.com/security/products/substance3d_stager/apsb26-29.html
+https://helpx.adobe.com/security/products/dng-sdk/apsb26-30.html
+CVE Name
+CVE-2026-21361
+CVE-2026-21284
+CVE-2026-21289
+CVE-2026-21290
+CVE-2026-21311
+CVE-2026-21309
+CVE-2026-21285
+CVE-2026-21286
+CVE-2026-21291
+CVE-2026-21292
+CVE-2026-21293
+CVE-2026-21294
+CVE-2026-21359
+CVE-2026-21360
+CVE-2026-21282
+CVE-2026-21310
+CVE-2026-21296
+CVE-2026-21297
+CVE-2026-21295
+CVE-2026-21333
+CVE-2026-21362
+CVE-2026-27271
+CVE-2026-27272
+CVE-2026-27267
+CVE-2026-27268
+CVE-2026-27270
+CVE-2026-21363
+CVE-2026-21364
+CVE-2026-21365
+CVE-2026-27214
+CVE-2026-27215
+CVE-2026-27216
+CVE-2026-27217
+CVE-2026-27218
+CVE-2026-27219
+CVE-2026-27220
+CVE-2026-27278
+CVE-2026-27221
+CVE-2026-27269
+CVE-2026-27223
+CVE-2026-27224
+CVE-2026-27225
+CVE-2026-27227
+CVE-2026-27228
+CVE-2026-27229
+CVE-2026-27230
+CVE-2026-27231
+CVE-2026-27232
+CVE-2026-27233
+CVE-2026-27234
+CVE-2026-27235
+CVE-2026-27236
+CVE-2026-27237
+CVE-2026-27239
+CVE-2026-27240
+CVE-2026-27241
+CVE-2026-27242
+CVE-2026-27244
+CVE-2026-27247
+CVE-2026-27248
+CVE-2026-27249
+CVE-2026-27250
+CVE-2026-27251
+CVE-2026-27252
+CVE-2026-27253
+CVE-2026-27254
+CVE-2026-27255
+CVE-2026-27256
+CVE-2026-27257
+CVE-2026-27265
+CVE-2026-27266
+CVE-2026-27262
+CVE-2026-27273
+CVE-2026-27274
+CVE-2026-27275
+CVE-2026-27279
+CVE-2026-27276
+CVE-2026-27277
+CVE-2026-27280
+CVE-2026-27281
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-13 08:06:16
