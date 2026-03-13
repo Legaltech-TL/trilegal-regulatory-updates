@@ -2997,3 +2997,66 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-13 08:06:16
+6932ff97123f61df,CERT-In Vulnerability Note  CIVN-2026-0137,"March 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0137,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0137
+Multiple Vulnerabilities in HPE Aruba Networking AOS-CX
+Original Issue Date:March     13, 2026
+Severity Rating: HIGH
+Software Affected
+AOS-CX 10.17.xxxx: 10.17.0001 and below
+AOS-CX 10.16.xxxx: 10.16.1020 and below
+AOS-CX 10.13.xxxx: 10.13.1160 and below
+AOS-CX 10.10.xxxx: 10.10.1170 and below
+Overview
+Multiple vulnerabilities have been reported in HPE Aruba Networking AOS-CX which could allow an attacker to bypass authentication, execute arbitrary commands, perform command injection and conduct open redirect attacks on the targeted systems.
+Target Audience:
+All organizations and individuals using HPE Aruba Networking AOS-CX.
+Risk Assessment:
+High risk of arbitrary command execution, authentication bypass and command injection.
+Impact Assessment:
+Potential for unauthorized administrative access, execution of malicious commands and compromise of the confidentiality, integrity, and availability of the network infrastructure.
+Description
+HPE Aruba Networking AOS-CX is the network operating system used in Aruba CX series switches designed for enterprise campus and data center networks.
+1. Unauthenticated Admin Password Reset
+(
+CVE-2026-23813
+)
+A vulnerability exists in the HPE ArubaOS (AOS) web-based management interface of AOS-CX that allows an unauthenticated attacker to bypass authentication and reset the admin password. Successful exploitation of this vulnerability could allow unauthorized administrative access and full compromise of the device.
+2. Command Injection in AOS-CX CLI:
+(
+CVE-2026-23814
+CVE-2026-23815
+CVE-2026-23816
+)
+These vulnerabilities exist in the HPE ArubaOS (AOS) due to improper input validation in certain CLI components of AOS-CX. An attacker could exploit these vulnerabilities by injecting malicious commands or sending specially crafted commands to the vulnerable system. Successful exploitation of these vulnerabilities could allow the attacker to execute arbitrary commands on the targeted system.
+3. Open Redirect Vulnerability
+(
+CVE-2026-23817
+)
+A vulnerability exists in the HPE ArubaOS (AOS) web-based management interface of AOS-CX due to improper validation of user-supplied redirection URLs. An attacker could exploit this vulnerability by crafting a specially crafted URL on the targeted system. Successful exploitation of this vulnerability could allow the attacker to redirect users to malicious websites and facilitate phishing.
+Solution
+Apply appropriate updates as mentioned:
+https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05027en_us&docLocale=en_US
+Vendor Information
+HPE
+https://www.hpe.com/us/en/networking/hpe-aruba-networking.html
+References
+https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05027en_us&docLocale=en_US
+CVE Name
+CVE-2026-23813
+CVE-2026-23814
+CVE-2026-23815
+CVE-2026-23816
+CVE-2026-23817
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-13 11:27:49
