@@ -1,38 +1,54 @@
 {
-  "generated_at": "2026-03-13T09:35:12.373482",
-  "count": 4,
+  "generated_at": "2026-03-14T04:34:55.044545",
+  "count": 6,
   "items": [
     {
-      "id": "2b0fbf113bd28f19",
-      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 12.03.2026 to ISPs",
-      "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/19f8b5b94cf22aece0d643450a785d57.pdf",
+      "id": "5202d14a0412e6dd",
+      "title": "Online generation and recording of Annual Performance Appraisal Report (APAR) on SPARROW Portal for all ITS Group \u2018A\u2019 and TES Group \u2018B\u2019 officers for the Reporting Year 2025-26-reg",
+      "publish_date": "03/13/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/967f73ebc7d38bad33f2514c9ec650f2.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/13/2026"
+      "scraped_at": "03/14/2026"
     },
     {
-      "id": "08acfe21c4507d28",
-      "title": "CS COMM 1306 of 2025 in the Hon'ble High Court of Delhi: DoT instructions dated 12.03.2026 to ISPs",
+      "id": "2e51490fbc9f90bd",
+      "title": "DoTs OM dated 12-03-2026 regarding Compliance of Transfer Posting Orders issued by DoT",
       "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/bd25ea4967f497071c29e6a237ec3f0e.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5892b3fa35bfe0eaaf312447b1b1cee0.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/13/2026"
+      "scraped_at": "03/14/2026"
     },
     {
-      "id": "2b0fbf113bd28f19",
-      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 12.03.2026 to ISPs",
+      "id": "77514065ae361047",
+      "title": "Allocation of MSC codes to M/s Bharti Airtel Limited for Mobile Access Services in Assam LSA -",
       "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/19f8b5b94cf22aece0d643450a785d57.pdf",
-      "category": "REPORTS",
-      "scraped_at": "03/13/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f33a7ff3a15e5c346e89e44561baab9b.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/14/2026"
     },
     {
-      "id": "08acfe21c4507d28",
-      "title": "CS COMM 1306 of 2025 in the Hon'ble High Court of Delhi: DoT instructions dated 12.03.2026 to ISPs",
-      "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/bd25ea4967f497071c29e6a237ec3f0e.pdf",
+      "id": "5202d14a0412e6dd",
+      "title": "Online generation and recording of Annual Performance Appraisal Report (APAR) on SPARROW Portal for all ITS Group \u2018A\u2019 and TES Group \u2018B\u2019 officers for the Reporting Year 2025-26-reg",
+      "publish_date": "03/13/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/967f73ebc7d38bad33f2514c9ec650f2.pdf",
       "category": "REPORTS",
-      "scraped_at": "03/13/2026"
+      "scraped_at": "03/14/2026"
+    },
+    {
+      "id": "2e51490fbc9f90bd",
+      "title": "DoTs OM dated 12-03-2026 regarding Compliance of Transfer Posting Orders issued by DoT",
+      "publish_date": "03/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5892b3fa35bfe0eaaf312447b1b1cee0.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/14/2026"
+    },
+    {
+      "id": "77514065ae361047",
+      "title": "Allocation of MSC codes to M/s Bharti Airtel Limited for Mobile Access Services in Assam LSA -",
+      "publish_date": "03/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f33a7ff3a15e5c346e89e44561baab9b.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/14/2026"
     }
   ]
 }
