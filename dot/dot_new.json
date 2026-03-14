@@ -1,54 +1,5 @@
 {
-  "generated_at": "2026-03-14T04:34:55.044545",
-  "count": 6,
-  "items": [
-    {
-      "id": "5202d14a0412e6dd",
-      "title": "Online generation and recording of Annual Performance Appraisal Report (APAR) on SPARROW Portal for all ITS Group \u2018A\u2019 and TES Group \u2018B\u2019 officers for the Reporting Year 2025-26-reg",
-      "publish_date": "03/13/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/967f73ebc7d38bad33f2514c9ec650f2.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/14/2026"
-    },
-    {
-      "id": "2e51490fbc9f90bd",
-      "title": "DoTs OM dated 12-03-2026 regarding Compliance of Transfer Posting Orders issued by DoT",
-      "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5892b3fa35bfe0eaaf312447b1b1cee0.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/14/2026"
-    },
-    {
-      "id": "77514065ae361047",
-      "title": "Allocation of MSC codes to M/s Bharti Airtel Limited for Mobile Access Services in Assam LSA -",
-      "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f33a7ff3a15e5c346e89e44561baab9b.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/14/2026"
-    },
-    {
-      "id": "5202d14a0412e6dd",
-      "title": "Online generation and recording of Annual Performance Appraisal Report (APAR) on SPARROW Portal for all ITS Group \u2018A\u2019 and TES Group \u2018B\u2019 officers for the Reporting Year 2025-26-reg",
-      "publish_date": "03/13/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/967f73ebc7d38bad33f2514c9ec650f2.pdf",
-      "category": "REPORTS",
-      "scraped_at": "03/14/2026"
-    },
-    {
-      "id": "2e51490fbc9f90bd",
-      "title": "DoTs OM dated 12-03-2026 regarding Compliance of Transfer Posting Orders issued by DoT",
-      "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5892b3fa35bfe0eaaf312447b1b1cee0.pdf",
-      "category": "REPORTS",
-      "scraped_at": "03/14/2026"
-    },
-    {
-      "id": "77514065ae361047",
-      "title": "Allocation of MSC codes to M/s Bharti Airtel Limited for Mobile Access Services in Assam LSA -",
-      "publish_date": "03/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f33a7ff3a15e5c346e89e44561baab9b.pdf",
-      "category": "REPORTS",
-      "scraped_at": "03/14/2026"
-    }
-  ]
+  "generated_at": "2026-03-14T06:38:54.323860",
+  "count": 0,
+  "items": []
 }
