@@ -3101,3 +3101,57 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-14 05:16:38
+826c1e00ce729eea,CERT-In Vulnerability Note  CIVN-2026-0139,"March 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0139,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0139
+Multiple Vulnerabilities in Zoom Products
+Original Issue Date:March     16, 2026
+Severity Rating: CRITICAL
+Software Affected
+Zoom Workplace for Windows before version 6.6.0
+Zoom Workplace VDI Client for Windows version 6.6.10 and earlier; all versions prior to 6.4.17 and 6.5.15 in their respective branch
+Zoom Rooms for Windows before version 6.6.5
+Zoom Workplace for Windows before version 6.6.11 in the 6.6.x branch
+Zoom Meeting SDK for Windows before version 6.6.11 in the 6.6.x branch
+Overview
+Multiple vulnerabilities have been reported in Zoom products that could be exploited by an attacker to gain elevated privileges on the targeted system.
+Target Audience:
+All end-user organisations and individuals using Zoom applications.
+Risk Assessment:
+High risk of data manipulation and unauthorized access to sensitive information.
+Impact Assessment:
+Potential compromise of application integrity and service disruption.
+Description
+Zoom Video Communications products are cloud-based communication and collaboration tools used for online meetings, messaging, webinars, and business communication.
+Multiple vulnerabilities exist in Zoom products due to improper privilege management, improper input validation and improper checks for minimum version for update functionality.
+Successful exploitation of these vulnerabilities could allow a local attacker to gain elevated privileges on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor given below:
+https://www.zoom.com/en/trust/security-bulletin/zsb-26005/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+https://www.zoom.com/en/trust/security-bulletin/zsb-26004/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+https://www.zoom.com/en/trust/security-bulletin/zsb-26003/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+https://www.zoom.com/en/trust/security-bulletin/zsb-26002/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+Vendor Information
+Zoom
+https://www.zoom.com/en/trust/security-bulletin/
+References
+https://www.zoom.com/en/trust/security-bulletin/zsb-26005/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+https://www.zoom.com/en/trust/security-bulletin/zsb-26004/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+https://www.zoom.com/en/trust/security-bulletin/zsb-26003/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+https://www.zoom.com/en/trust/security-bulletin/zsb-26002/?ampDeviceId=95a6e736-e8fe-469e-b84f-6c743a8150d5&ampSessionId=1773122794664
+CVE Name
+CVE-2026-30900
+CVE-2026-30901
+CVE-2026-30902
+CVE-2026-30903
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-16 08:39:16
