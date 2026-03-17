@@ -3251,3 +3251,53 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-17 05:37:13
+2e2a565fef17aca5,Sophisticated RTO/eChallan themed Android Malware Campaign targeting Sensitive Information,"March 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3492,Current Activities,"CURRENT ACTIVITIES
+Sophisticated RTO/eChallan themed Android Malware Campaign targeting Sensitive Information
+Original Issue Date:March     17, 2026
+CERT-In has received several reports of a malware campaign targeting Android users across India which impersonates the official Regional Transport Office (RTO) and government e-Challan notifications. Cybercriminals are using these fraudulent alerts to lure victims into installing a malicious application file, typically named ""RTO Challan.apk"", ""RTO E Challan.apk"", ""MParivahan.apk"" or similar variations. Once installed, this application functions as a multi-stage dropper malware designed to compromise the device, steal sensitive financial information, and facilitate unauthorised transactions.
+The campaign usually begins with victims receiving a message, like ""Your vehicle challan has been generated, download the receipt from the link below"". The message includes an APK file or a URL to download the malware.
+Upon installation, the application shows up in the App Drawer. This is only the initial dropper and the actual malware is dropped upon tapping ""Install Update"".
+Upon tapping ""Install Update"", the actual malware is installed on the victim's device. The malware follows the same theme of ""e-Challan"", but does not show up in the application list of the phone. It seeks several dangerous permissions such as access to SMS and phone calls from the user. It also seeks permissions to run in the background. This allows the attacker to persist on the victim device without the knowledge of the user.
+The malware also requests the user for permission to create a VPN connection. This enables the attacker to monitor the internet traffic from the victim device.
+These malicious APKs are designed to steal user credentials mainly for financial transactions using fake screens such as the following:
+Once the user enters the details, the malware already has the permissions to read the SMS messages. The OTP messages are sent to the attacker's server.
+Recommendations
+It is recommended to take following actions to mitigate risks associated with such malicious applications:
+Verify all traffic challans only on the official portal (echallan.parivahan.gov.in) or your state traffic police website/app.
+Do not install APKs received via WhatsApp, SMS, Telegram or random websites.
+Keep ""Install from unknown sources"" disabled on your Android phone; enable it only if absolutely necessary and from trusted sources.
+If you receive any suspicious message, delete it immediately, block the sender and do not forward this message to friends or family.
+If you already installed the malicious APK:
+Disconnect mobile data/Wi-Fi
+Go to Settings -> Applications. Uninstall the eChallan and any other suspicious applications immediately.
+Run a trusted mobile antivirus scan.
+Change passwords/UPI PIN, check bank statements for unauthorised transactions.
+Reduce the risk of downloading potentially harmful apps by limiting your download sources to official app stores, such as your device's manufacturer or operating system app store.
+Be cautious before granting dangerous permissions such as access to SMS, Contacts, Phone, Camera, Microphone, Storage to any application.
+Prior to downloading/installing apps on Android devices (even from Google Play Store, review the app details, number of downloads, user reviews, comments and ""ADDITIONAL INFORMATION"" section.
+Install Android updates and patches as and when available from Android device vendors.
+""Google Play Protect"" should be enabled on Android device.
+Never enable Accessibility Services for unknown or unverified apps.
+Do not browse un-trusted websites or follow un-trusted links and exercise caution while clicking on the link provided in any unsolicited emails and SMSs.
+Install and maintain updated anti-virus and antispyware software.
+Only click on URLs that clearly indicate the website domain. When in doubt, users can search for the organisation's website directly using search engines to ensure that the websites they visited are legitimate.
+Consider using Safe Browsing tools, filtering tools (antivirus and content-based filtering) in your antivirus, firewall, and filtering services.
+Exercise caution towards shortened URLs, such as those involving bit.ly and tinyurl. Users are advised to use a URL checker that will allow the user to enter a short URL and view the full URL.
+Look out for valid encryption certificates by checking for the green lock in the browser's address bar, before providing any sensitive information such as personal particulars or account login details.
+Report any unusual activity in your account immediately to the respective bank with the relevant details for taking further appropriate actions.
+Citizens may report any cybercrime/financial frauds to the National Cyber Crime Reporting Portal website:
+www.cybercrime.gov
+.in or call the Cyber Crime Helpline number: 1930.
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-17 11:40:38
