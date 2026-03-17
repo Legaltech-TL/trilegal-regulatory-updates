@@ -3155,3 +3155,99 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-16 08:39:16
+85b8826a96b6edd3,CERT-In Vulnerability Note  CIVN-2026-0141,"March 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0141,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0141
+Multiple vulnerabilities in Google Chrome for Desktop
+Original Issue Date:March     16, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 146.0.7680.80 for Windows/Mac
+Google Chrome versions prior to 146.0.7680.80 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome, which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected Google Chrome for Desktop.
+Risk Assessment:
+Potential for unauthorized access and system compromise.
+Impact Assessment:
+High risk of system compromise, data theft and service disruptions.
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on the World Wide Web. It is designed for use on desktop computers, such as those running on Windows, macOS, or Linux operating systems.
+Multiple vulnerabilities exist in Google Chrome due to Out of bounds write in Skia and inappropriate implementation in V8.A remote attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted web page.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code on the targeted system.
+Note: These vulnerabilities
+CVE-2026-3909
+and
+CVE-2026-3910
+are being actively exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html
+Vendor Information
+Google
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html
+References
+Google
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html
+CVE Name
+CVE-2026-3909
+CVE-2026-3910
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-17 05:37:13
+41da9b3126c54b9d,CERT-In Vulnerability Note  CIVN-2026-0140,"March 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0140,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0140
+Multiple Vulnerabilities in Drupal Plugins
+Original Issue Date:March     16, 2026
+Severity Rating: CRITICAL
+Software Affected
+Drupal core versions prior to 1.7.0
+Drupal core versions from 1.1.11 to 1.2.12
+Overview
+Multiple vulnerabilities have been reported in Drupal plugins which allow a remote attacker to obtain sensitive information or bypass access controls on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Drupal installations with affected contributed modules/plugins.
+Risk Assessment:
+Risk of access bypass, unauthorized access to sensitive information.
+Impact Assessment:
+Potential compromise of system and unauthorized access to sensitive information.
+Description
+Drupal is an open-source, content management system (CMS) and web application framework.
+Multiple vulnerabilities exist in Drupal plugins due to improper access control for unpublished translated nodes and improper sanitization or isolation of untrusted HTML/Markdown content. A remote attacker could exploit these vulnerabilities by sending specially crafted inputs.
+Successful exploitation of these vulnerabilities could allow an attacker to bypass access controls and can obtain sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.drupal.org/sa-contrib-2026-028
+https://www.drupal.org/sa-contrib-2026-029
+Vendor Information
+Drupal
+https://www.drupal.org/sa-contrib-2026-028
+https://www.drupal.org/sa-contrib-2026-029
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-028
+https://www.drupal.org/sa-contrib-2026-029
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-17 05:37:13
