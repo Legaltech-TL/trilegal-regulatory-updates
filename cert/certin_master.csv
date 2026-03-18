@@ -3446,3 +3446,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-18 08:27:43
+826bcd8b7a23d63e,CERT-In Vulnerability Note  CIVN-2026-0146,"March 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0146,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0146
+Information Disclosure Vulnerability in M365 Copilot
+Original Issue Date:March     18, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Word, Excel, Teams, Edge, Outlook, OneNote, PowerPoint, PowerBI,365 Copilot for Android
+Microsoft Word, Excel, Teams, Edge, Outlook, OneNote, PowerPoint, PowerBI, Loop, 365 Copilot for iOS
+Microsoft Outlook for Mac
+Overview
+A vulnerability has been reported in Microsoft M365 Copilot, which could allow a remote attacker potentially view sensitive information or make limited changes to disclosed information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Microsoft M365 Copilot.
+Risk Assessment:
+High risk of unauthorized access of data and data manipulation.
+Impact Assessment:
+Information Disclosure .
+Description
+Microsoft 365 Copilot (M365 Copilot) is an AI assistant integrated into Microsoft 365 apps like Word, Excel, PowerPoint, Outlook, and Teams to help users generate content, analyze data, and summarize information.
+A vulnerability has been reported in Microsoft M365 Copilot due to AI command injection. A remote attacker could exploit this vulnerability by embedding malicious instructions within user-controlled content such as emails or documents on the targeted system.
+Successful exploitation of this vulnerability could allow an attacker potentially view sensitive information or make limited changes to disclosed information on the targeted system.
+Solution
+Apply appropriate updates as mentioned in:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
+CVE Name
+CVE-2026-26133
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-18 11:42:12
