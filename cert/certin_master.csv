@@ -3406,3 +3406,43 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-03-18 05:41:40
 7755f013a61fad9c,CERT-In Vulnerability Note  CIVN-2026-0142,"March 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0142,Latest Security Alert,,2026-03-18 05:41:40
+8fafb98a7164db56,CERT-In Vulnerability Note  CIVN-2026-0145,"March 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0145,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0145
+Multiple Vulnerabilities in Veeam Backup & Replication
+Original Issue Date:March     18, 2026
+Severity Rating: CRITICAL
+Software Affected
+Veeam Backup & Replication 12.3.2.4165 and all earlier version 12 builds.
+Overview
+Multiple vulnerabilities have been reported in Veeam Backup & Replication which could be exploited by an authenticated attacker to execute arbitrary code, bypass security restrictions and gain elevated privileges on the targeted system.
+Target Audience:
+Enterprises and Large Organizations, cloud service providers using Veeam products.
+Impact Assessment:
+Potential for remote code execution, file manipulation, authentication bypass and privilege escalation.
+Description
+Veeam Backup & Replication is a data protection solution that provides backup, recovery, and replication capabilities.
+Multiple vulnerabilities exist in the Veeam Backup & Replication product which could be allow any user who is part of the local users group or any domain user to exploit the flaws.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, bypass restrictions, manipulate files on the backup repository, or gain elevated privileges on the targeted system.
+Solution
+Apply appropriate software updates as mentioned in the Veeam security advisories:
+https://www.veeam.com/kb4830
+References
+https://www.veeam.com/kb4830
+CVE Name
+CVE-2026-21666
+CVE-2026-21667
+CVE-2026-21668
+CVE-2026-21672
+CVE-2026-21708
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-18 08:27:43
