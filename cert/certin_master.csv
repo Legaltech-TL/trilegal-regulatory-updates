@@ -3538,3 +3538,142 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-19 08:07:50
+78f0fc19fccbfceb,CERT-In Vulnerability Note  CIVN-2026-0151,"March 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0151,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0151
+Remote Code Execution Vulnerability in telnetd
+Original Issue Date:March     19, 2026
+Severity Rating: CRITICAL
+Software Affected
+Telnetd all versions through 2.7
+Overview
+A critical vulnerability has been reported in GNU InetUtils telnet daemon (telnetd), which could allow a remote attacker to execute remote code (RCE) with root privileges.
+Target Audience:
+Administrators and users of systems running affected versions of telnetd service.
+Risk Assessment:
+Very high risk of remote code execution, privilege escalation, and complete system compromise.
+Impact Assessment:
+Potential for full system takeover, unauthorized root access, sensitive information disclosure, lateral movement, and disruption of services.
+Description
+Telnetd is a server daemon included in GNU InetUtils that provides remote login capability using the Telnet protocol.
+A critical vulnerability exist in the telnetd service that allows an unauthenticated remote attacker to execute remote code by sending specially crafted messages during the telnet protocol handshake. The flaw can be triggered before authentication by connecting to port 23 and exploiting improper handling of SLC option negotiation, leading to memory corruption.
+Successful exploitation could allow an unauthenticated attacker to execute arbitrary code with root privileges on the targeted vulnerable server.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html
+Vendor Information
+Telnetd
+https://www.gnu.org/software/inetutils/
+References
+https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html
+CVE Name
+CVE-2026-32746
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-19 11:32:45
+b18b0a1fb70d8fc1,CERT-In Vulnerability Note  CIVN-2026-0150,"March 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0150,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0150
+Multiple Vulnerabilities in Apple iOS and iPadOS
+Original Issue Date:March     19, 2026
+Severity Rating: CRITICAL
+Software Affected
+macOS affected before 13.5
+macOS affected before 14.2
+macOS affected before 14.3
+iOS and iPadOS affected before 15.8.7
+iOS, iPadOS and Safari affected before 16.6
+iOS and iPadOS affected before 16.7.5
+iOS and iPadOS affected before 16.7.15
+iOS and iPadOS affected before 17
+iOS, iPadOS and tvOS affected before 17.3
+iOS, iPadOS and Safari affected before 17.2
+Overview
+Multiple vulnerabilities have been reported in Apple Products which could allow an attacker to execute arbitrary code and potentially cause memory corruption on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected Apple product.
+Risk Assessment:
+High risk of remote code execution, unauthorized access, and potential data manipulation.
+Impact Assessment:
+Potential for service unavailability, sensitive information disclosure, and data manipulation.
+Description
+Apple Inc. is an American technology company that designs, develops, and sells consumer electronics, software, and services, including the iPhone, iPad, Mac, Apple Watch, and Apple TV. It is also known for its operating systems (iOS, iPadOS, macOS, watchOS, tvOS) and ecosystem of apps and services.
+These vulnerabilities exist in apple products due to Use After Free in the Kernel component and type confusion in WebKit. An attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted Web site.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code and potentially cause memory corruption on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in the Apple Security Updates:
+https://support.apple.com/en-in/126646
+https://support.apple.com/en-in/126632
+Vendor Information
+Apple
+https://support.apple.com/
+References
+https://support.apple.com/en-in/126646
+https://support.apple.com/en-in/126632
+CVE Name
+CVE-2023-43010
+CVE-2023-41974
+CVE-2024-23222
+CVE-2023-43000
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-19 11:32:45
+4ab8a9aede3dda1d,CERT-In Vulnerability Note  CIVN-2026-0149,"March 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0149,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0149
+Security Bypass Vulnerability in Apple Products
+Original Issue Date:March     19, 2026
+Severity Rating: HIGH
+Software Affected
+Apple iOS and iPadOS versions prior to 26.3.1
+Apple macOS versions prior to 26.3.1
+Apple macOS versions prior to 26.3.2
+Overview
+A vulnerability has been reported in Apple products which could be exploited by an attacker to bypass Same Origin Policy on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Apple products.
+Risk Assessment:
+High risk of unauthorized cross-origin data access.
+Impact Assessment:
+Potential for access to sensitive data.
+Description
+iOS, iPadOS, and macOS are operating systems developed by Apple Inc. to run iPhones, iPads, and Mac computers respectively.
+This vulnerability exists in the Webkit component of Apple products due to improper validation in its Navigation API. A remote attacker could exploit this vulnerability by enticing the target user to execute a specially crafted webpage resulting in bypass of same origin policy.
+Successful exploitation of this vulnerability could lead to unauthorized cross-origin data access and potential disclosure of sensitive information.
+Solution
+Apply appropriate security updates as mentioned in the Apple Security Updates
+https://support.apple.com/en-us/126604
+Vendor Information
+Apple
+https://support.apple.com/en-us/126604
+References
+https://support.apple.com/en-us/126604
+CVE Name
+CVE-2026-20643
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-19 11:32:45
