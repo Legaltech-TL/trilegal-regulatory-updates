@@ -3487,3 +3487,54 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-18 11:42:12
+294bd868d90d1927,CERT-In Vulnerability Note  CIVN-2026-0147,"March 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0147,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0147
+Multiple Remote Code Execution Vulnerabilities in Windows Routing and Remote Access Service (RRAS)
+Original Issue Date:March     19, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Windows Routing and Remote Access Service (RRAS) versions prior to OS Builds 26200.7982 and 26100.7982
+Overview
+Multiple vulnerabilities have been reported in Microsoft Windows Routing and Remote Access Service (RRAS) which could allow an attacker to execute arbitrary code on the targeted system in the context of RRAS service.
+Target Audience:
+All System administrators, Network administrators and organizations using Microsoft Windows systems with RRAS enabled.
+Risk Assessment:
+High risk of remote code execution, unauthorized access, system compromise.
+Impact Assessment:
+Potential for data theft, execution of malicious code, unauthorized actions on the affected system.
+Description
+Windows Routing and Remote Access Service (RRAS) is a Microsoft Windows component that provides routing, remote access and VPN services for enterprise environments.
+Multiple vulnerabilities exist in the RRAS management component due to improper handling of memory conditions such as integer overflow or wraparound. An attacker could exploit these vulnerabilities by tricking a user into connecting to a specially crafted or malicious remote server via the RRAS snap-in.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code on the targeted system in the context of RRAS service.
+Solution
+Apply appropriate software updates as mentioned:
+https://support.microsoft.com/en-us/topic/march-13-2026-hotpatch-kb5084597-os-builds-26200-7982-and-26100-7982-out-of-band-ef323fee-e70f-4f43-8bbc-1021c435bf5c
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111
+CVE Name
+CVE-2026-25172
+CVE-2026-25173
+CVE-2026-26111
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-19 08:07:50
