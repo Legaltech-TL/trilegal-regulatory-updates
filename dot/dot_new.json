@@ -1,22 +1,86 @@
 {
-  "generated_at": "2026-03-18T05:13:38.635147",
-  "count": 2,
+  "generated_at": "2026-03-19T06:58:02.796369",
+  "count": 10,
   "items": [
     {
-      "id": "f051d37661585e48",
-      "title": "Transfer & Posting of officers in SAG of ITS Group A- Shri Prabhat Dikshit, Staff no 20944",
-      "publish_date": "03/17/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/0597790d08172b5396ec678401d90d2a.pdf",
+      "id": "5a1f31898064344d",
+      "title": "Updation of Email ID on SPARROW and iGOT Karmayogi Portal and completion of APAR Linked Prescribed Courses & the Comprehensive Assessment on iGOT portal",
+      "publish_date": "03/19/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f8ac00efaabcf7d51e1da67041a1c1e1.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/18/2026"
+      "scraped_at": "03/19/2026"
     },
     {
-      "id": "f051d37661585e48",
-      "title": "Transfer & Posting of officers in SAG of ITS Group A- Shri Prabhat Dikshit, Staff no 20944",
+      "id": "39baf495ec7c6a6b",
+      "title": "Inviting nominations for regular 2 years M. Tech Programme (Network and Information Security with specialization Cryptology) at IIT-Hyderabad from July- August 2026",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/14c377457b58bf34a1349c3a5d484141.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "35b1d1bdff360a70",
+      "title": "Seniority list of officers in the SAG of IP&TAFS Group 'A' as on 01.01.2026.",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5d80ee661a0564cb310b3f3e6ffdfa7f.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "51a4fa265134e209",
+      "title": "Seniority List of officers in the Apex/HAG+ of IP&TAFS Group 'A' as on 01.01.2026",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/c66e43f3147e8ed8595c892d5a2e96df.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "57b240fa43839be4",
+      "title": "Taken on strength and Temporary attachment of Shri K.P. Yadav an Officer in JAG in P&T BWS Gr. 'A' Cadre dated 17.03.2026",
       "publish_date": "03/17/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/0597790d08172b5396ec678401d90d2a.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/6beb17491372cc863e8a9ac88ac3f3bc.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "5a1f31898064344d",
+      "title": "Updation of Email ID on SPARROW and iGOT Karmayogi Portal and completion of APAR Linked Prescribed Courses & the Comprehensive Assessment on iGOT portal",
+      "publish_date": "03/19/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/f8ac00efaabcf7d51e1da67041a1c1e1.pdf",
       "category": "REPORTS",
-      "scraped_at": "03/18/2026"
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "39baf495ec7c6a6b",
+      "title": "Inviting nominations for regular 2 years M. Tech Programme (Network and Information Security with specialization Cryptology) at IIT-Hyderabad from July- August 2026",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/14c377457b58bf34a1349c3a5d484141.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "35b1d1bdff360a70",
+      "title": "Seniority list of officers in the SAG of IP&TAFS Group 'A' as on 01.01.2026.",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/5d80ee661a0564cb310b3f3e6ffdfa7f.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "51a4fa265134e209",
+      "title": "Seniority List of officers in the Apex/HAG+ of IP&TAFS Group 'A' as on 01.01.2026",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/c66e43f3147e8ed8595c892d5a2e96df.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/19/2026"
+    },
+    {
+      "id": "57b240fa43839be4",
+      "title": "Taken on strength and Temporary attachment of Shri K.P. Yadav an Officer in JAG in P&T BWS Gr. 'A' Cadre dated 17.03.2026",
+      "publish_date": "03/17/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/6beb17491372cc863e8a9ac88ac3f3bc.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/19/2026"
     }
   ]
 }
