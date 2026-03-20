@@ -1,22 +1,54 @@
 {
-  "generated_at": "2026-03-19T09:52:12.868899",
-  "count": 2,
+  "generated_at": "2026-03-20T04:47:35.273147",
+  "count": 6,
   "items": [
     {
-      "id": "e81ce47f13479e67",
-      "title": "Consolidation and submission of Annual Accounts for the year 2025-26, schedule of due dates for closing accounts- Instructions",
-      "publish_date": "03/19/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/93e5f3ca5ba884101d5e4dd1b1488c55.pdf",
+      "id": "2dff36542ae80730",
+      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 18.03.2026 to ISPs",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/05408dbd03563305ea49d386dfd99b12.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/19/2026"
+      "scraped_at": "03/20/2026"
     },
     {
-      "id": "e81ce47f13479e67",
-      "title": "Consolidation and submission of Annual Accounts for the year 2025-26, schedule of due dates for closing accounts- Instructions",
-      "publish_date": "03/19/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/93e5f3ca5ba884101d5e4dd1b1488c55.pdf",
+      "id": "a91fa4277a9d8beb",
+      "title": "CS COMM 1306 of 2025 in the Hon'ble High Court of Delhi: DoT instructions dated 19.03.2026 to ISPs",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/2c1cfd1b9e69f7e1e82f1068912a9184.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/20/2026"
+    },
+    {
+      "id": "2dff36542ae80730",
+      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 18.03.2026 to ISPs",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/05408dbd03563305ea49d386dfd99b12.pdf",
       "category": "REPORTS",
-      "scraped_at": "03/19/2026"
+      "scraped_at": "03/20/2026"
+    },
+    {
+      "id": "a91fa4277a9d8beb",
+      "title": "CS COMM 1306 of 2025 in the Hon'ble High Court of Delhi: DoT instructions dated 19.03.2026 to ISPs",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/2c1cfd1b9e69f7e1e82f1068912a9184.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/20/2026"
+    },
+    {
+      "id": "d2eaaf1cc91a8ea9",
+      "title": "Union Minister Shri Jyotiraditya M. Scindia says, the future of 6G must be built on four pillars\u2014interoperability, common standards, innovation, and inclusive growth",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/eaa99c63155d4e4b663469e0657f6337.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "03/20/2026"
+    },
+    {
+      "id": "f82f4d32f1b8ff00",
+      "title": "Telecom expansion in border villages reflects new development paradigm: Union Minister Shri Jyotiraditya M. Scindia in Lok Sabha",
+      "publish_date": "03/18/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/3f8e87d1cdca228606666c980dcaeb3b.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "03/20/2026"
     }
   ]
 }
