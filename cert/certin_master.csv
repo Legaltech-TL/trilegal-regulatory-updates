@@ -3677,3 +3677,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-19 11:32:45
+823a36d3b09c3b86,CERT-In Vulnerability Note  CIVN-2026-0152,"March 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0152,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0152
+SQL Injection Vulnerability in Ally WordPress Plugin
+Original Issue Date:March     19, 2026
+Severity Rating: HIGH
+Software Affected
+WordPress Plugin Ally - Web Accessibility & Usability versions 4.0.3
+Overview
+A vulnerability has been reported in Ally Plugin for WordPress which could allow an attacker to execute arbitrary code on the target system.
+Target Audience:
+WordPress website owners, administrators, developers, and hosting providers using Ally plugin.
+Risk Assessment:
+High risk of unauthenticated SQL injection leading to data compromise and service disruption.
+Impact Assessment:
+Potential for data theft, unauthorized data modification, service disruption, and potential compromise of the affected system.
+Description
+Ally Plugin is a plugin for WordPress that helps website owners improve accessibility and usability by providing automated remediation tools and accessibility features to enhance the browsing experience for users with disabilities.
+This vulnerability exists in the Ally Plugin of WordPress due to insufficient sanitization and validation of user-supplied input before it is used in SQL queries. An attacker could exploit this vulnerability by sending specially crafted HTTP requests containing malicious SQL payloads to the vulnerable parameter exposed by the plugin.
+Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code on the target system.
+Solution
+Apply appropriate updates as mentioned:
+https://www.wordfence.com/blog/2026/03/400000-wordpress-sites-affected-by-unauthenticated-sql-injection-vulnerability-in-ally-wordpress-plugin/
+Vendor Information
+Wordpress
+https://www.wordfence.com/blog/2026/03/400000-wordpress-sites-affected-by-unauthenticated-sql-injection-vulnerability-in-ally-wordpress-plugin/
+References
+https://www.wordfence.com/blog/2026/03/400000-wordpress-sites-affected-by-unauthenticated-sql-injection-vulnerability-in-ally-wordpress-plugin/
+CVE Name
+CVE-2026-2413
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-20 05:20:39
