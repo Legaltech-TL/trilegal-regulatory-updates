@@ -1,46 +1,54 @@
 {
-  "generated_at": "2026-03-20T09:49:42.160911",
-  "count": 5,
+  "generated_at": "2026-03-21T04:40:29.726540",
+  "count": 6,
   "items": [
     {
-      "id": "956eaf2e48db6bdb",
-      "title": "Extension of additional charge of the post of Director (Finance), ITI Ltd",
+      "id": "11ed22048c10c154",
+      "title": "Launch of Recruitment process for two posts in United Nations Office in the African Union (UNOAU)-reg",
       "publish_date": "03/20/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/eed10991edcbc0a6ba4cd375c6415b49.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/43b54aa3722b6619f6693afa74341abb.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/20/2026"
+      "scraped_at": "03/21/2026"
     },
     {
-      "id": "956eaf2e48db6bdb",
-      "title": "Extension of additional charge of the post of Director (Finance), ITI Ltd",
+      "id": "2e9c771d5c34cbc4",
+      "title": "CS COMM 1191 of 2025 in the Honble High Court of Delhi: DoT instructions dated 20.03.2026 to ISPs",
       "publish_date": "03/20/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/eed10991edcbc0a6ba4cd375c6415b49.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/89cac725dee762d8ffc39cab46081dd6.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/21/2026"
+    },
+    {
+      "id": "1eaa88bcb6183e2f",
+      "title": "Probation completion of JTS-2023(PR) batch",
+      "publish_date": "03/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/9839e835cdeca6892be6a591128202e6.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/21/2026"
+    },
+    {
+      "id": "11ed22048c10c154",
+      "title": "Launch of Recruitment process for two posts in United Nations Office in the African Union (UNOAU)-reg",
+      "publish_date": "03/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/43b54aa3722b6619f6693afa74341abb.pdf",
       "category": "REPORTS",
-      "scraped_at": "03/20/2026"
+      "scraped_at": "03/21/2026"
     },
     {
-      "id": "156ab054c50fe3d0",
-      "title": "New Telecom Policy, 1999",
-      "publish_date": "",
-      "pdf_url": "https://www.dot.gov.in/documents/publications/new-telecom-policy-1999-ETMyETMtQWa?pageTitle=New-Telecom-Policy,-1999",
-      "category": "PUBLICATIONS",
-      "scraped_at": "03/20/2026"
+      "id": "2e9c771d5c34cbc4",
+      "title": "CS COMM 1191 of 2025 in the Honble High Court of Delhi: DoT instructions dated 20.03.2026 to ISPs",
+      "publish_date": "03/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/89cac725dee762d8ffc39cab46081dd6.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/21/2026"
     },
     {
-      "id": "932494e1651c9af1",
-      "title": "Broadband policy, 2004",
-      "publish_date": "",
-      "pdf_url": "https://www.dot.gov.in/documents/publications/broadband-policy-2004-QTNyETMtQWa",
-      "category": "PUBLICATIONS",
-      "scraped_at": "03/20/2026"
-    },
-    {
-      "id": "c668ef068eb8b96e",
-      "title": "National Telecom Policy, 1994",
-      "publish_date": "",
-      "pdf_url": "https://www.dot.gov.in/documents/publications/national-telecom-policy-1994-MzNxETMtQWa?pageTitle=National-Telecom-Policy,-1994",
-      "category": "PUBLICATIONS",
-      "scraped_at": "03/20/2026"
+      "id": "1eaa88bcb6183e2f",
+      "title": "Probation completion of JTS-2023(PR) batch",
+      "publish_date": "03/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/9839e835cdeca6892be6a591128202e6.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/21/2026"
     }
   ]
 }
