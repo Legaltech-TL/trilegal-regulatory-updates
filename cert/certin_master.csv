@@ -3718,3 +3718,135 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-20 05:20:39
+98421f835e585207,CERT-In Vulnerability Note  CIVN-2026-0156,"March 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0156,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0156
+Local Privilege Escalation Vulnerability in Ubuntu
+Original Issue Date:March     23, 2026
+Severity Rating: HIGH
+Software Affected
+Ubuntu 16.04 LTS - snapd versions prior to 2.61.4ubuntu0.16.04.1+esm2
+Ubuntu 18.04 LTS - snapd versions prior to 2.61.4ubuntu0.18.04.1+esm2
+Ubuntu 20.04 LTS - snapd versions prior to 2.67.1+20.04ubuntu1~esm1
+Ubuntu 22.04 LTS - snapd versions prior to 2.73+ubuntu22.04.1
+Ubuntu 24.04 LTS - snapd versions prior to 2.73+ubuntu24.04.2
+Ubuntu 25.10 LTS - snapd versions prior to 2.73+ubuntu25.10.1
+Overview
+A vulnerability has been reported in Ubuntu Linux, which could allow a local attacker to escalate privileges to root on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Ubuntu Linux systems.
+Risk Assessment:
+High risk of full system compromise.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+Snap is a software packaging and deployment system used in Ubuntu to manage applications and their dependencies in a secure and isolated manner.
+A local privilege escalation vulnerability exists in Snap due to improper handling of certain operations and insufficient restriction mechanisms. An attacker with local access could exploit this flaw by re-creating snap¿s private /tmp directory when systemd-tmpfiles is enabled to automatically clean up this directory.
+Successful exploitation of this vulnerability could allow a local attacker to escalate privileges to root on the targeted system
+Solution
+Apply appropriate security updates as mentioned in:
+https://ubuntu.com/security/CVE-2026-3888
+Vendor Information
+Ubuntu
+https://ubuntu.com/
+References
+https://ubuntu.com/security/CVE-2026-3888
+CVE Name
+CVE-2026-3888
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-23 11:41:19
+12aa6742ad187761,CERT-In Vulnerability Note  CIVN-2026-0155,"March 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0155,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0155
+Remote Code Execution Vulnerability in Oracle Identity Manager and Oracle Web Services Manager
+Original Issue Date:March     23, 2026
+Severity Rating: CRITICAL
+Software Affected
+Oracle Identity Manager versions 12.2.1.4.0 and 14.1.2.1.0
+Oracle Web Services Manager versions 12.2.1.4.0 and 14.1.2.1.0
+Overview
+A critical vulnerability has been reported in Oracle Identity Manager and Oracle Web Services Manager, which may allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected Oracle Identity Manager and Oracle Web Services Manager.
+Risk Assessment:
+High risk of unauthorized access, remote system takeover, privilege escalation.
+Impact Assessment:
+Potential for complete system takeover, unauthorized access to sensitive data, and disruption of services.
+Description
+Oracle Identity Manager (OIM) and Oracle Web Services Manager (OWSM) are components of Oracle Fusion Middleware used for identity governance and web service security.
+This vulnerability exists in Oracle Identity Manager (REST WebServices) and Oracle Web Services Manager (Web Services Security) due to improper handling of unauthenticated HTTP requests. An attacker could exploit this vulnerability by sending crafted requests over the network without requiring authentication on the affected targeted system.
+Successful exploitation could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in
+https://www.oracle.com/security-alerts/alert-cve-2026-21992.html
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/alert-cve-2026-21992.html
+References
+https://www.oracle.com/security-alerts/alert-cve-2026-21992.html
+CVE Name
+CVE-2026-21992
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-23 11:41:19
+30d0a0a6906bfddb,CERT-In Vulnerability Note  CIVN-2026-0154,"March 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0154,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0154
+Multiple Vulnerabilities in n8n
+Original Issue Date:March     23, 2026
+Severity Rating: CRITICAL
+Software Affected
+n8n versions prior to 2.10.1
+n8n versions prior to 2.9.3
+n8n versions prior to 1.123.22
+Overview
+Multiple vulnerabilities have been reported in n8n workflow automation platform which could allow an attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations responsible for deploying, securing, and maintaining n8n.
+Risk Assessment:
+Very high risk of remote code execution and system compromise.
+Impact Assessment:
+Potential for unauthorized access, full system takeover, exposure of credentials and sensitive data.
+Description
+n8n is a workflow automation platform that allows you to connect different apps, APIs, and services to automate tasks using a visual, node-based workflow builder. It is a low-code, open-source tool commonly used to automate business processes and integrate software systems.
+These vulnerabilities exist in n8n workflow automation platform due to an eval injection vulnerability (improper expression evaluation) and Expression sandbox escape flaw.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in
+https://n8n.io/legal/security/
+Vendor Information
+n8n
+https://n8n.io/
+References
+https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html
+CVE Name
+CVE-2026-27493
+CVE-2026-27577
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-23 11:41:19
