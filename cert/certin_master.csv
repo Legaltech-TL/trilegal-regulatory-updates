@@ -3850,3 +3850,49 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-23 11:41:19
+5a7fe5d96182f9af,CERT-In Vulnerability Note  CIVN-2026-0157,"March 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0157,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0157
+Multiple Vulnerabilities in MongoDB
+Original Issue Date:March     24, 2026
+Severity Rating: HIGH
+Software Affected
+MongoDB 8.2 versions prior to 8.2.6
+MongoDB 8.0 versions prior to 8.0.20
+MongoDB 7.0 versions prior to 7.0.31
+Overview
+Multiple vulnerabilities have been reported in MongoDB, which could allow an attacker to access sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using MongoDB.
+Risk Assessment:
+High risk of unauthorized access to sensitive information.
+Impact Assessment:
+Potential for unauthorized access and information disclosure.
+Description
+MongoDB is a document-based database that stores information in flexible, JSON-like documents rather than traditional tables and rows, making it well suited for handling large or evolving data structures.
+Multiple vulnerabilities exist in MongoDB due to Use-after-free in the classic engine $lookup and $graphLookup aggregation operators and stack memory disclosure in specially crafted filemd5 command.
+Successful exploitation of these vulnerabilities could allow an attacker to access sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mongodb.com/resources/products/alerts#security
+Vendor Information
+MongoDB
+https://www.mongodb.com/resources/products/alerts#security
+References
+MongoDB
+https://jira.mongodb.org/browse/SERVER-119319
+https://jira.mongodb.org/browse/SERVER-119317
+CVE Name
+CVE-2026-4147
+CVE-2026-4148
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-24 08:29:08
