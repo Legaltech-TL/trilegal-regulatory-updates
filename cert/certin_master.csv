@@ -3896,3 +3896,141 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-24 08:29:08
+e367e0cca765b076,CERT-In Vulnerability Note  CIVN-2026-0158,"March 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0158,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0158
+Multiple Vulnerabilities in TP-Link router
+Original Issue Date:March     25, 2026
+Severity Rating: CRITICAL
+Systems Affected
+Archer NX200 v1.0 versions below 1.8.0 Build 260311
+Archer NX200 v2.0 versions below 1.3.0 Build 260311
+Archer NX200 v2.20 versions below 1.3.0 Build 260311
+Archer NX200 v3.0 versions below 1.3.0 Build 260309
+Archer NX210 v2.0 versions below 1.3.0 Build 260311
+Archer NX210 v2.20 versions below 1.3.0 Build 260311
+Archer NX210 v3.0 versions below 1.3.0 Build 260309
+Archer NX500 v1.0 versions below 1.3.0 Build 260311
+Archer NX500 v2.0 versions below 1.5.0 Build 260309
+Archer NX600 v1.0 versions below 1.4.0 Build 260311
+Archer NX600 v2.0 versions below 1.3.0 Build 260311
+Archer NX600 v3.0 versions below 1.3.0 Build 260309
+Overview
+Multiple vulnerabilities have been reported in TP-Link Archer NX200, NX210, NX500, and NX600 routers which could allow the attacker to perform unauthorized privileged HTTP actions, potentially leading to arbitrary modification or tampering of the device¿s configuration data.
+Target Audience:
+All organizations and individuals using TP-Link Archer router.
+Risk Assessment:
+High risks of service interruption and unauthorized access.
+Impact Assessment:
+Potential impact on confidentiality, integrity and availability of the system.
+Description
+1. Authorization Bypass Vulnerability
+(
+CVE-2025-15517
+)
+A vulnerability exists in the TP-Link Archer NX200, NX210, NX500, and NX600 routers due to a missing authentication check in the HTTP server for certain CGI endpoints. This vulnerability could exploit by unauthenticated us-ers to access functionality intended only for authenticated users.
+Successful exploitation of this vulnerability could enable an attacker to per-form privileged HTTP actions without authentication, including firmware up-loads and configuration changes.
+2. Command Injection Vulnerability
+(
+CVE-2025-15518
+CVE-2025-15519
+)
+Multiple vulnerabilities exist in the TP-Link Archer NX200, NX210, NX500, and NX600 routers due to improper input handling in the wireless-control modem-management administrative CLI command.
+Successful exploitation of these vulnerabilities could allow an authenticated attacker with administrative privileges to execute arbitrary commands on the underlying operating system of the targeted device.
+3. Privilege Escalation Vulnerability
+(
+CVE-2025-15605
+)
+A hardcoded cryptographic key within the configuration mechanism of the TP-Link Archer NX200, NX210, NX500, and NX600 routers allows for the de-cryption and re-encryption of device configuration data. An authenticated at-tacker with administrative privileges could exploit this vulnerability to decrypt configuration files, modify them, and re-encrypt them, thereby compromising the confidentiality and integrity of the device¿s configuration.
+Successful exploitation of this vulnerability could allow an attacker to tamper with configuration data on the targeted system.
+Solution
+Apply appropriate updates as mentioned in:
+https://www.tp-link.com/us/support/faq/5027/
+Vendor Information
+TP-Link
+https://www.tp-link.com/us/support/faq/5027/
+References
+https://www.tp-link.com/us/support/faq/5027/
+CVE Name
+CVE-2025-15517
+CVE-2025-15518
+CVE-2025-15519
+CVE-2025-15605
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-25 11:38:47
+3815e9d412dd3229,CERT-In Advisory   CIAD-2026-0014,"March 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0014,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0014
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: March     25, 2026
+Severity Rating: High
+Software Affected
+Azure DevOps: msazure
+Azure Data Factory
+Microsoft 365 Copilot
+Microsoft Bing
+Microsoft Copilot
+Microsoft 365 Copilot's Business Chat
+Microsoft Purview
+Azure Cloud Shell
+Microsoft Bing Images
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to execute remote code, gain elevated privileges, perform Server-side request forgery (SSRF) attacks and potentially view sensitive information on the targeted system.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating Microsoft products
+Risk Assessment:
+Risk of Remote code execution, elevation of privileges, system instability, or sensitive information disclosure
+Impact Assessment:
+Potentials compromise of system, exfiltration of data, ransomware attacks or system crashes.
+Description
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to execute remote code, gain elevated privileges, perform Server-side request forgery (SSRF) attacks and potentially view sensitive information on the targeted system.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Microsoft security updates.
+https://msrc.microsoft.com/update-guide/
+Solution
+Apply appropriate security updates as mentioned in:
+https://msrc.microsoft.com/update-guide/
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23658
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23659
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24299
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26120
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26136
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26137
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26138
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26139
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32169
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32191
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32194
+CVE Name
+CVE-2026-23658
+CVE-2026-23659
+CVE-2026-24299
+CVE-2026-26120
+CVE-2026-26136
+CVE-2026-26137
+CVE-2026-26138
+CVE-2026-26139
+CVE-2026-32169
+CVE-2026-32191
+CVE-2026-32194
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-25 11:38:47
