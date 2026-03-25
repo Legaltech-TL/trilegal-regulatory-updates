@@ -1,16 +1,3 @@
 {
-  "new_items": [
-    {
-      "faq_id": "176",
-      "title_text": "Mar 25, 2026 Foreign Liabilities and Assets Information Reporting (FLAIR) \u2013 Online Web Based Reporting System",
-      "published_date": "2026-03-25",
-      "category": "Foreign Exchange Management",
-      "url": "https://rbi.org.in/Scripts/FAQDisplay.aspx?Id=176",
-      "pdf_link": "https://rbidocs.rbi.org.in/rdocs/faqs/PDFs/FLAIR25032026.PDF",
-      "last_updated": "2026-03-25T08:04:53.759138",
-      "full_text": "",
-      "pdf_filename": "176_mar_25_2026_foreign_liabilities_and_assets_information_reporting_flair_online_web_based_reporting_system.PDF",
-      "scraped_at": "2026-03-25T08:04:53.759138"
-    }
-  ]
+  "new_items": []
 }
