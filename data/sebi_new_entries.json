@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "5639f1dfe1e2bd8442f989e69b1cfc30ed8b443b",
+    "date": "Mar 25, 2026",
+    "title": "Clarification regarding eligibility of members of the Institute of Cost Accountants of India to conduct annual audit of Research Analysts",
+    "link": "https://www.sebi.gov.in/legal/circulars/mar-2026/clarification-regarding-eligibility-of-members-of-the-institute-of-cost-accountants-of-india-to-conduct-annual-audit-of-research-analysts_100565.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Clarification regarding eligibility of members of the Institute of Cost Accountants of India to conduct annual audit of Research Analysts.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-03-25T11:23:56.979988Z",
+    "source_commit": "823987180a7067b9609f4abda5a282871c0deaf8",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "647273c2857fdca35c39fd136ecfa6a044d7db9c",
+    "date": "Mar 25, 2026",
+    "title": "Clarification regarding eligibility of members of the Institute of Cost Accountants of India to conduct annual audit of Investment Advisers",
+    "link": "https://www.sebi.gov.in/legal/circulars/mar-2026/clarification-regarding-eligibility-of-members-of-the-institute-of-cost-accountants-of-india-to-conduct-annual-audit-of-investment-advisers_100561.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Clarification regarding eligibility of members of the Institute of Cost Accountants of India to conduct annual audit of Investment Advisers.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-03-25T11:24:02.112508Z",
+    "source_commit": "823987180a7067b9609f4abda5a282871c0deaf8",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "a36a8679f86c95e7cabe39f28d8dfa21a5888242",
+    "date": "Mar 25, 2026",
+    "title": "Addendum to SEBI Circular on Borrowing by Mutual Funds",
+    "link": "https://www.sebi.gov.in/legal/circulars/mar-2026/addendum-to-sebi-circular-on-borrowing-by-mutual-funds_100560.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Addendum to SEBI Circular on Borrowing by Mutual Funds.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-03-25T11:24:08.392632Z",
+    "source_commit": "823987180a7067b9609f4abda5a282871c0deaf8",
+    "category": "Circular",
+    "error": ""
+  }
+]
