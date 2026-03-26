@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-03-25T09:59:54.459548",
-  "count": 1,
+  "generated_at": "2026-03-26T05:22:24.288252",
+  "count": 2,
   "items": [
     {
-      "id": "f99c32e373ae519c",
-      "title": "Allocation of short code '1855' as National Census Helpline.",
-      "publish_date": "03/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/cb1d2e0b733ca09c284e265aa0fafbb7.pdf",
+      "id": "ebed93822f24acfe",
+      "title": "Office Order dated 25-03-2026 reg Confirmation of Probationers of JTO of TES Gr B 2022 Batch",
+      "publish_date": "03/25/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/819668a4b6c425364f0d0020b531a998.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/26/2026"
+    },
+    {
+      "id": "ebed93822f24acfe",
+      "title": "Office Order dated 25-03-2026 reg Confirmation of Probationers of JTO of TES Gr B 2022 Batch",
+      "publish_date": "03/25/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/819668a4b6c425364f0d0020b531a998.pdf",
       "category": "REPORTS",
-      "scraped_at": "03/25/2026"
+      "scraped_at": "03/26/2026"
     }
   ]
 }
