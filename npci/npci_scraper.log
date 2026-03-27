@@ -2087,3 +2087,35 @@
 2026-03-27 05:09:50,908 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-03-27 05:09:53,967 | INFO | Total entries collected: 23
 2026-03-27 05:09:53,976 | INFO | No new entries found
+2026-03-27 09:46:10,682 | INFO | Opening NPCI page
+2026-03-27 09:46:15,322 | INFO | Attempting Press Releases scrape (2026)
+2026-03-27 09:46:15,340 | INFO | Press Releases 2026: 6 rows found
+2026-03-27 09:46:15,348 | INFO | [press_release] NBSL Press Release_BHIM Payments App Introduces Biometric Authentication for UPI Payments on Android and IOS
+2026-03-27 09:46:18,398 | INFO | [press_release] NBSL Press Release - BHIM Payments App Announces MS Dhoni as Brand Ambassador
+2026-03-27 09:46:21,444 | INFO | [press_release] NPCI Advances India’s Sovereign AI Infrastructure for Digital Payments With NVIDIA
+2026-03-27 09:46:24,479 | INFO | [press_release] NPCI Press Release - NPCI announces FiMI, a domain-specific AI language Model built for India’s payments ecosystem
+2026-03-27 09:46:27,524 | INFO | [press_release] NPCI Press Release - NPCI Extends ‘UPI One World’ Wallet Service to International Delegates at the India AI Impact Summit 2026
+2026-03-27 09:46:30,557 | INFO | [press_release] NBSL Press Release - NBSL and Canara Bank partner to power UPI payments
+2026-03-27 09:46:33,585 | INFO | Switching Press Releases year to 2025
+2026-03-27 09:46:36,140 | INFO | Press Releases 2025: 10 rows found
+2026-03-27 09:46:36,147 | INFO | [press_release] NBSL Press release - BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI Payments within set limits
+2026-03-27 09:46:39,190 | INFO | [press_release] NPCI Press Release - Media Statement - Update Regarding Cheque Truncation System (CTS) – Continuous Clearing
+2026-03-27 09:46:42,224 | INFO | [press_release] NPCI Press Release - RuPay JCB cardholders can now avail 25% cashback for in-store purchases* in Indonesia, Malaysia, Singapore, Japan and Philippines
+2026-03-27 09:46:45,274 | INFO | [press_release] NPCI Press Release - Media Statement Regarding Cheque Clearance
+2026-03-27 09:46:48,307 | INFO | [press_release] NPCI Press Release - RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025
+2026-03-27 09:46:51,356 | INFO | [press_release] NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025
+2026-03-27 09:46:54,389 | INFO | [press_release] NPCI Press Release - DFS Secretary Launches Initiatives to Simplify Digital Payment Experience at GFF 2025
+2026-03-27 09:46:57,439 | INFO | [press_release] NPCI Press release – NPCI and RBL Bank expand RuPay On-The-Go across All Bengaluru Metro Lines
+2026-03-27 09:47:00,472 | INFO | [press_release] NBSL Press release - BHIM, Bharat Ka Apna Payments App, Lights Up Diwali with a Touch Of Goodness, Empowering India’s Women Artisans
+2026-03-27 09:47:03,523 | INFO | [press_release] NBSL Press release - BHIM Payments App, Bharat Ka Apna Payments App Collaborates with Sony Entertainment Television to launch an exclusive ‘Golden Week’ in Kaun Banega Crorepati
+2026-03-27 09:47:06,548 | INFO | Switching to Media Coverage tab
+2026-03-27 09:47:07,376 | INFO | Media Coverage: 7 rows found
+2026-03-27 09:47:07,382 | INFO | [media_coverage] 26-03 New Bhim 3.0 launched, allows users to split bills, track payments
+2026-03-27 09:47:10,423 | INFO | [media_coverage] 15-10 BHIM's monthly transactions triple between January and September
+2026-03-27 09:47:13,455 | INFO | [media_coverage] 18-11 CNBC TV18 - Bharat Connect for Business boosts digital payments among MSMEs, says NBBL’s CEO
+2026-03-27 09:47:16,488 | INFO | [media_coverage] 26-11 UPI Circle to net new users BHIM chief
+2026-03-27 09:47:19,523 | INFO | [media_coverage] 27-11 ETBFSI - NPCI’s Bharat Billpay aims to cover half of India’s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi
+2026-03-27 09:47:22,555 | INFO | [media_coverage] 28-11 Netbanking switch to provide better visibility into transactions: NBBL CEO
+2026-03-27 09:47:25,588 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
+2026-03-27 09:47:28,656 | INFO | Total entries collected: 23
+2026-03-27 09:47:28,666 | INFO | No new entries found
