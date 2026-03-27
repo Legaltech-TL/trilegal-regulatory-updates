@@ -4034,3 +4034,65 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-25 11:38:47
+6fde1de6e300fa40,CERT-In Advisory   CIAD-2026-0015,"March 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0015,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0015
+Multiple Vulnerabilities in Apple Products
+Original Issue Date: March     26, 2026
+Severity Rating: High
+Software Affected
+Apple iOS and iPadOS versions prior to 26.4
+Apple iOS and iPadOS versions prior to 18.7.7
+Apple macOS Tahoe versions prior to 26.4
+Apple macOS Sequoia versions prior to 15.7.5
+Apple macOS Sonoma versions prior to 14.8.5
+Apple Safari versions prior to 26.4
+Apple tvOS versions prior to 26.4
+Apple watchOS versions prior to 26.4
+Apple visionOS versions prior to 26.4
+Apple Xcode versions prior to 26.4
+Overview
+Multiple vulnerabilities have been reported in Apple Products which could allow an attacker to execute arbitrary code, gain elevated privileges, disclose sensitive information, bypass security restrictions or cause denial of service condition on the targeted system.
+Target Audience:
+All organizations and individuals using Apple Products.
+Risk Assessment:
+High risk of information disclosure, code execution and denial of service.
+Impact Assessment:
+Potential for data theft, propagation of malware, and system crash.
+Description
+Multiple vulnerabilities have been reported in Apple products:
+Solution
+Apply appropriate patches as mentioned in the Apple Security Updates
+https://support.apple.com/en-in/126792
+https://support.apple.com/en-in/126793
+https://support.apple.com/en-in/126794
+https://support.apple.com/en-in/126795
+https://support.apple.com/en-in/126796
+https://support.apple.com/en-in/126797
+https://support.apple.com/en-in/126798
+https://support.apple.com/en-in/126799
+https://support.apple.com/en-in/126800
+https://support.apple.com/en-in/126801
+Vendor Information
+Apple
+https://support.apple.com/en-in/126792
+https://support.apple.com/en-in/126793
+https://support.apple.com/en-in/126794
+https://support.apple.com/en-in/126795
+https://support.apple.com/en-in/126796
+https://support.apple.com/en-in/126797
+https://support.apple.com/en-in/126798
+https://support.apple.com/en-in/126799
+https://support.apple.com/en-in/126800
+https://support.apple.com/en-in/126801
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-27 05:50:29
