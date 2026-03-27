@@ -4096,3 +4096,49 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-27 05:50:29
+82f9ea976be2ba60,CERT-In Vulnerability Note  CIVN-2026-0159,"March 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0159,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0159
+Multiple Vulnerabilities in NetScaler ADC and NetScaler Gateway
+Original Issue Date:March     27, 2026
+Severity Rating: HIGH
+Software Affected
+NetScaler ADC and NetScaler Gateway 14.1 BEFORE 14.1-66.59
+NetScaler ADC and NetScaler Gateway 13.1 BEFORE 13.1-62.23
+NetScaler ADC FIPS and NDcPP BEFORE 13.1-37.262
+NetScaler ADC and NetScaler Gateway 14.1-66.54
+Overview
+Multiple vulnerabilities have been reported in NetScaler ADC and NetScaler Gateway which could allow an attacker to access sensitive information or cause session integrity issues on the targeted system.
+Target Audience:
+Organizations and individuals using NetScaler ADC and NetScaler Gateway appliances.
+Risk Assessment:
+High risk of unauthorised access, system compromise or service disruption.
+Impact Assessment:
+Potential for Information disclosure, Session integrity issues.
+Description
+NetScaler ADC is a network appliance used for application delivery and security, while NetScaler Gateway provides secure remote access to enterprise resources.
+These vulnerabilities exist in NetScaler ADC and NetScaler Gateway due to Out-of-bounds Read and Race Condition. An attacker could exploit these vulnerabilities by sending specially crafted network requests on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to access sensitive information or cause session integrity issues on the targeted system.
+Solution
+Apply appropriate updates as mentioned in:
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300
+Vendor Information
+Citrix
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300
+References
+Citrix
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300
+CVE Name
+CVE-2026-3055
+CVE-2026-4368
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-27 08:28:35
