@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-03-27T05:20:18.153207",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-03-27T09:56:01.448420",
+  "count": 3,
+  "items": [
+    {
+      "id": "3a13e7bd92692eaf",
+      "title": "List of ISP Authorizations UL as on 28.02.2026",
+      "publish_date": "02/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/1583eeb1e6fe5cf8a56110195d8320e9.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/27/2026"
+    },
+    {
+      "id": "71090fb8c6ad011f",
+      "title": "List of ISP Authorizations VNO as on 28.02.2026",
+      "publish_date": "02/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/21db6fc4f57d72d0d68e9e8fb1ecf719.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/27/2026"
+    },
+    {
+      "id": "18ea5c54b8147049",
+      "title": "List of ISP Authorizations Standalone as on 28.02.2026",
+      "publish_date": "02/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/747e61dcee5adf8f04a60085fa82ce08.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/27/2026"
+    }
+  ]
 }
