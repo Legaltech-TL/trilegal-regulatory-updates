@@ -1,30 +1,38 @@
 {
-  "generated_at": "2026-03-27T09:56:01.448420",
-  "count": 3,
+  "generated_at": "2026-03-28T05:00:14.494749",
+  "count": 4,
   "items": [
     {
-      "id": "3a13e7bd92692eaf",
-      "title": "List of ISP Authorizations UL as on 28.02.2026",
-      "publish_date": "02/28/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/1583eeb1e6fe5cf8a56110195d8320e9.pdf",
+      "id": "2d18ea5f71c57334",
+      "title": "Retirement on superannuation of officer of Indian Posts & Telecommunications, Accounts and Finance Service (IP&TAFS) Group A",
+      "publish_date": "03/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/d6f66b922be58e6968f1a4181b8cce73.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/27/2026"
+      "scraped_at": "03/28/2026"
     },
     {
-      "id": "71090fb8c6ad011f",
-      "title": "List of ISP Authorizations VNO as on 28.02.2026",
-      "publish_date": "02/28/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/21db6fc4f57d72d0d68e9e8fb1ecf719.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/27/2026"
+      "id": "2d18ea5f71c57334",
+      "title": "Retirement on superannuation of officer of Indian Posts & Telecommunications, Accounts and Finance Service (IP&TAFS) Group A",
+      "publish_date": "03/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/d6f66b922be58e6968f1a4181b8cce73.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/28/2026"
     },
     {
-      "id": "18ea5c54b8147049",
-      "title": "List of ISP Authorizations Standalone as on 28.02.2026",
+      "id": "278d155c960a0c8b",
+      "title": "Surrender of Unified License (ISP Authorization) No.\u00a0\u00a0Surrender of Unified License (ISP Authorization) No.\u00a0\u00a0DS-11/447/2022 DS-III, Dated 27-02-2023, category-C for service Area MADHYA PRADESH(VIDISHA)- Case of M/S ZAPAAT FIBER PRIVATE LIMITED",
+      "publish_date": "03/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/694fdb236d23c041383b68469fa3ed07.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/28/2026"
+    },
+    {
+      "id": "84e7c6398a0bb92b",
+      "title": "List of ISP Authorizations surrendered as on 28.02.2026",
       "publish_date": "02/28/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/747e61dcee5adf8f04a60085fa82ce08.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "03/27/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/cc053af7de817c83432f0f5a86644ff0.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/28/2026"
     }
   ]
 }
