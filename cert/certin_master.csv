@@ -4142,3 +4142,130 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-27 08:28:35
+1c4dda17cf01d758,CERT-In Vulnerability Note  CIVN-2026-0165,"March 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0165,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0165
+Cisco IKEv2 Denial of Service vulnerability
+Original Issue Date:March     30, 2026
+Severity Rating: HIGH
+Software Affected
+IOS Software
+IOS XE Software
+Secure Firewall ASA Software
+Secure FTD Software
+Overview
+A vulnerability has been reported in the Internet Key Exchange version 2 (IKEv2) feature of Cisco IOS Software, Cisco IOS XE Software, Cisco Secure Firewall Adaptive Security Appliance (ASA) Software, and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to trigger a memory leak, resulting in a denial of service (DoS) condition on an affected device.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+This vulnerability exists due to improper parsing of IKEv2 packets. An attacker could exploit this vulnerability by sending crafted IKEv2 packets to an affected device.
+Successful exploitation of this vulnerability could allow the attacker to reload, resulting in a DoS condition.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ios-dos-kPEpQGGK
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ios-dos-kPEpQGGK
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ios-dos-kPEpQGGK
+CVE Name
+CVE-2026-20012
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-30 08:59:38
+63932541218f6538,CERT-In Vulnerability Note  CIVN-2026-0164,"March 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0164,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0164
+Cisco IOS XE Software DHCP Snooping Denial of Service vulnerability
+Original Issue Date:March     30, 2026
+Severity Rating: HIGH
+Systems Affected
+Cisco IOS XE Software in Catalyst 9000 Series Switches
+Overview
+A vulnerability has been reported in DHCP snooping feature of Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause BOOTP packets to be forwarded between VLANs, resulting in a denial of service (DoS) condition.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+This vulnerability exists due to improper handling of BOOTP packets on Cisco Catalyst 9000 Series Switches. An attacker could exploit this vulnerability by sending BOOTP request packets to an affected device.
+Successful exploitation of this vulnerability could allow the attacker to forward BOOTP packets from one VLAN to another, resulting in BOOTP VLAN leakage and potentially leading to high CPU utilization.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bootp-WuBhNBxA
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bootp-WuBhNBxA
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bootp-WuBhNBxA
+CVE Name
+CVE-2026-20084
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-30 08:59:38
+fc2c7a535632f3e5,CERT-In Vulnerability Note  CIVN-2026-0163,"March 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0163,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0163
+Cisco IOS and IOS XE Software HTTP Server Denial of Service Vulnerability
+Original Issue Date:March     30, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco IOS XE Software
+Cisco IOS Software
+Overview
+A vulnerability has been reported in HTTP Server feature of Cisco IOS Software and Cisco IOS XE Software Release 3E could allow an authenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+This vulnerability exists due to improper validation of user-supplied input. An attacker could exploit this vulnerability by sending malformed HTTP requests to an affected device.
+Successful exploitation of this vulnerability could allow the attacker to cause a watchdog timer to expire and the device to reload, resulting in a DoS condition.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-http-dos-sbv8XRpL
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-http-dos-sbv8XRpL
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-http-dos-sbv8XRpL
+CVE Name
+CVE-2026-20125
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-30 08:59:38
