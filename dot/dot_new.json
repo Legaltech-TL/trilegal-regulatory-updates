@@ -1,5 +1,70 @@
 {
-  "generated_at": "2026-03-30T05:34:15.682953",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-03-30T10:29:22.839022",
+  "count": 8,
+  "items": [
+    {
+      "id": "52b1aefa5e8563ad",
+      "title": "Extension of timeline to 10-04-2026 for the nomination of officers for the Batch-II of Competency Development Program in 'Network and Mobile Security' being organized by NCA-T Ghaziabad",
+      "publish_date": "03/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/9e288513d499daac24128a76f0748d33.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/30/2026"
+    },
+    {
+      "id": "914cdf1b3d7cc155",
+      "title": "Retirement of officers of ITS Gr A on attaining the age of superannuation as on 31-03-2026, AN - regarding",
+      "publish_date": "03/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/704e147aedcdea71162ee7698abcf658.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/30/2026"
+    },
+    {
+      "id": "d0e9847b2e0ad8c9",
+      "title": "Voluntary Retirement from Govt Service - Case of Smt Ratna Thakur, ITS, Staff no 20495",
+      "publish_date": "03/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/ef444702b9874421af1a26154b2f3b55.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/30/2026"
+    },
+    {
+      "id": "1f7bdf4ee1045254",
+      "title": "Order dated 27-03-2026 reg Transfer & Posting of Officers of ITS Gr A",
+      "publish_date": "03/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/08b552daada92ac3469fbe660b3b70d2.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "03/30/2026"
+    },
+    {
+      "id": "52b1aefa5e8563ad",
+      "title": "Extension of timeline to 10-04-2026 for the nomination of officers for the Batch-II of Competency Development Program in 'Network and Mobile Security' being organized by NCA-T Ghaziabad",
+      "publish_date": "03/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/9e288513d499daac24128a76f0748d33.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/30/2026"
+    },
+    {
+      "id": "914cdf1b3d7cc155",
+      "title": "Retirement of officers of ITS Gr A on attaining the age of superannuation as on 31-03-2026, AN - regarding",
+      "publish_date": "03/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/704e147aedcdea71162ee7698abcf658.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/30/2026"
+    },
+    {
+      "id": "d0e9847b2e0ad8c9",
+      "title": "Voluntary Retirement from Govt Service - Case of Smt Ratna Thakur, ITS, Staff no 20495",
+      "publish_date": "03/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/ef444702b9874421af1a26154b2f3b55.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/30/2026"
+    },
+    {
+      "id": "1f7bdf4ee1045254",
+      "title": "Order dated 27-03-2026 reg Transfer & Posting of Officers of ITS Gr A",
+      "publish_date": "03/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/08b552daada92ac3469fbe660b3b70d2.pdf",
+      "category": "REPORTS",
+      "scraped_at": "03/30/2026"
+    }
+  ]
 }
