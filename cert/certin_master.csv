@@ -4269,3 +4269,151 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-30 08:59:38
+b097c12802fb3f9f,CERT-In Vulnerability Note  CIVN-2026-0167,"March 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0167,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0167
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:March     30, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 146.0.7680.164/165 for Windows/Mac
+Google Chrome versions prior to 146.0.7680.164 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, obtain sensitive information and cause denial of sevice(DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of arbitrary code execution or system compromise.
+Impact Assessment:
+Potential for sensitive information disclosure, service disruption.
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on the world wide web. It is designed for use on desktop computers, such as those running on windows, macOS, or Linux operating system.
+Multiple vulnerabilities exist in Google Chrome due to Heap buffer overflow in WebAudio and WebGL; Out of bounds read in CSS and WebAudio; Use after free in Dawn, WebGPU and FedCM; Integer overflow in Fonts. A remote attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted web page.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, obtain sensitive information and cause denial of sevice(DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_23.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_23.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_23.html
+CVE Name
+CVE-2026-4673
+CVE-2026-4674
+CVE-2026-4675
+CVE-2026-4676
+CVE-2026-4677
+CVE-2026-4678
+CVE-2026-4679
+CVE-2026-4680
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-31 05:53:48
+95378afc9394ab71,CERT-In Vulnerability Note  CIVN-2026-0166,"March 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0166,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0166
+Multiple Vulnerabilities in Mozilla Products
+Original Issue Date:March     30, 2026
+Severity Rating: HIGH
+Software Affected
+Mozilla Firefox versions prior to 149
+Mozilla Firefox ESR versions prior to 115.34
+Mozilla Firefox ESR versions prior to 140.9
+Mozilla Thunderbird versions prior to 140.9
+Mozilla Thunderbird versions prior to 149
+Overview
+Multiple vulnerabilities have been reported in Mozilla products which could be exploited by a remote attacker to execute arbitrary code, perform spoofing attack, bypass security restriction or cause Denial of service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Mozilla Products.
+Risk Assessment:
+High risk of unauthorized access to sensitive information.
+Impact Assessment:
+Potential for data theft, sensitive information disclosure and complete compromise of system.
+Description
+Mozilla Firefox is a free and open-source web browser developed by Mozilla foundation, while Firefox ESR (Extended support Release) is a stable version tailored for organizations that re-quire long-term support with only security and maintenance updates.
+Multiple vulnerabilities exist in Mozilla products due to Use-after-free in the Graphics: WebRender com-ponent, Disability Access APIs component, CSS Parsing and Computation component, Layout: Text and Fonts component, JavaScript Engine component, Widget: Cocoa Component; Incorrect boundary conditions in the Graphics: Canvas2D component, Audio/Video: Playback component, Graphics component, Audio/Video: Web Codecs component, Layout: Text and Fonts component; Integer overflow in the XPCOM component, Graphics Component; JIT miscompilation in the JavaScript Engine: JIT component; Mitigation bypass in the Networking: HTTP component and Memory safety bugs. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities which could be exploited by a remote attacker to execute arbitrary code, perform spoofing attack, bypass security restriction or cause Denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-20/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-21/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-22/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-23/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-24/
+References
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-20/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-21/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-22/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-23/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-24/
+CVE Name
+CVE-2025-59375
+CVE-2026-3889
+CVE-2026-4371
+CVE-2026-4684
+CVE-2026-4685
+CVE-2026-4686
+CVE-2026-4687
+CVE-2026-4688
+CVE-2026-4689
+CVE-2026-4690
+CVE-2026-4691
+CVE-2026-4692
+CVE-2026-4693
+CVE-2026-4694
+CVE-2026-4695
+CVE-2026-4696
+CVE-2026-4697
+CVE-2026-4698
+CVE-2026-4699
+CVE-2026-4700
+CVE-2026-4701
+CVE-2026-4702
+CVE-2026-4704
+CVE-2026-4705
+CVE-2026-4706
+CVE-2026-4707
+CVE-2026-4708
+CVE-2026-4709
+CVE-2026-4710
+CVE-2026-4711
+CVE-2026-4712
+CVE-2026-4713
+CVE-2026-4714
+CVE-2026-4715
+CVE-2026-4716
+CVE-2026-4717
+CVE-2026-4718
+CVE-2026-4719
+CVE-2026-4720
+CVE-2026-4721
+CVE-2026-4722
+CVE-2026-4723
+CVE-2026-4724
+CVE-2026-4725
+CVE-2026-4726
+CVE-2026-4727
+CVE-2026-4728
+CVE-2026-4729
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-03-31 05:53:48
