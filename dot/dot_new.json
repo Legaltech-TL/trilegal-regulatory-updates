@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-04-01T07:27:13.370098",
-  "count": 2,
-  "items": [
-    {
-      "id": "b125a16d98007e68",
-      "title": "CS COMM 303 of 2022 in the Honble High Court of Delhi: DoT instructions dated 30.03.2026 to ISPs",
-      "publish_date": "03/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/09149857468d1f93f348b543e42d8216.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/01/2026"
-    },
-    {
-      "id": "290d5906c1b9af49",
-      "title": "Voluntary Retirement from Govt Service - Case of Smt Ratna Thakur, ITS, Staff no 20495",
-      "publish_date": "03/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/7a10e9c46007552794b83e358851fcfb.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/01/2026"
-    }
-  ]
+  "generated_at": "2026-04-01T10:18:26.339106",
+  "count": 0,
+  "items": []
 }
