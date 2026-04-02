@@ -4417,3 +4417,116 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-03-31 05:53:48
+e309bf69356d823b,CERT-In Vulnerability Note  CIVN-2026-0169,"April 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0169,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0169
+Multiple Vulnerabilities in QNAP Products
+Original Issue Date:April     02, 2026
+Severity Rating: CRITICAL
+Software Affected
+QVR Pro versions prior to 2.7.4.1485
+QuNetSwitch versions prior to 2.0.4.0415 and 2.0.5.0906
+QuRouter versions prior to 2.6.3.009
+QuFTP Service versions prior to 1.4.3
+QuFTP Service versions prior to 1.5.2
+QuFTP Service versions prior to 1.6.2
+Overview
+Multiple vulnerabilities have been reported in QNAP products which may allow a remote attacker to gain elevated privileges, bypass security restrictions, execute arbitrary code, disclose sensitive information, and cause denial-of-service (DoS) conditions on the targeted system.
+Target Audience:
+Individuals and organizations using the above mentioned QNAP products.
+Risk Assessment:
+High risk of full system compromise, unauthorized access, system instability.
+Impact Assessment:
+Memory corruption, sensitive information disclosure, and service disruption.
+Description
+QNAP offers a wide range of network-attached storage (NAS), direct-attached storage (DAS), networking devices, surveillance solutions and cloud applications. These products are widely used for data backup, file sharing, multimedia streaming, virtualization and security.
+The vulnerabilities exist in QNAP products due to missing authentication, command injection, improper restriction of communication channels, inadequate neutralization of escape or control sequences, and cross-site scripting (XSS).
+Successful exploitation of these vulnerabilities may allow a remote attacker to gain elevated privileges, bypass security restrictions, execute arbitrary code, disclose sensitive information and cause denial-of-service (DoS) conditions on the targeted system.
+Solution
+Apply appropriate patches as mentioned in QNAPs advisory:
+https://www.qnap.com/en/security-advisory/qsa-26-07
+https://www.qnap.com/en/security-advisory/qsa-26-11
+https://www.qnap.com/en/security-advisory/qsa-26-12
+https://www.qnap.com/en/security-advisory/qsa-26-15
+Vendor Information
+QNAP
+https://www.qnap.com/en/security-advisories
+References
+https://www.qnap.com/en/security-advisory/qsa-26-07
+https://www.qnap.com/en/security-advisory/qsa-26-11
+https://www.qnap.com/en/security-advisory/qsa-26-12
+https://www.qnap.com/en/security-advisory/qsa-26-15
+CVE Name
+CVE-2026-22898
+CVE-2026-22897
+CVE-2026-22900
+CVE-2026-22901
+CVE-2026-22902
+CVE-2025-62843
+CVE-2025-62844
+CVE-2025-62846
+CVE-2025-62845
+CVE-2026-22895
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-02 05:49:34
+0456a572120613ca,CERT-In Vulnerability Note  CIVN-2026-0168,"April 01, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0168,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0168
+Multiple Vulnerabilities in NGINX
+Original Issue Date:April     01, 2026
+Severity Rating: HIGH
+Software Affected
+NGINX Open Source versions 1.0.0 to 1.29.6
+NGINX Open Source versions 1.1.19 to 1.29.6
+NGINX Open Source versions 0.5.13 to 0.9.7
+NGINX Open Source versions 1.27.2 to 1.29.6
+NGINX Open Source versions 0.6.27 to 0.9.7
+NGINX Plus R32 - R36
+Overview
+Multiple vulnerabilities have been reported in NGINX Products which could allow an attacker to execute arbitrary code, cause memory corruption and trigger denial of service (DoS) condition on the targeted system.
+Target Audience:
+Organizations and individuals running affected versions of NGINX Open Source or NGINX Plus products.
+Risk Assessment:
+High risk of memory corruption, remote code execution, data manipulation.
+Impact Assessment:
+Potential for service disruption, memory corruption, unauthorized access.
+Description
+NGINX is a high-performance web server, reverse proxy, load balancer, and HTTP cache designed to handle massive, simultaneous connections with low resource usage. It acts as a fast, secure intermediary between clients and backend servers, serving static content, managing SSL/TLS encryption, and distributing traffic to optimize speed.
+These vulnerabilities exist in NGINX products due to heap-based Buffer Overflow, Integer Overflow or Wraparound, Out-of-bounds Read, NULL Pointer Dereference, Incorrect Authorization, Improper Neutralization of CRLF Sequences.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause memory corruption and trigger denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in the NGINX Security Updates:
+https://my.f5.com/manage/s/article/K000160336
+Vendor Information
+NGINX
+https://my.f5.com/manage/s/article/K000160336
+References
+NGINX
+https://my.f5.com/manage/s/article/K000160336
+CVE Name
+CVE-2026-27654
+CVE-2026-27784
+CVE-2026-32647
+CVE-2026-27651
+CVE-2026-28755
+CVE-2026-28753
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-02 05:49:34
