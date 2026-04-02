@@ -1,38 +1,5 @@
 {
-  "generated_at": "2026-04-02T05:18:20.011868",
-  "count": 4,
-  "items": [
-    {
-      "id": "b8419ea8463fcd8c",
-      "title": "Seniority List of officers in the Junior Administrative Grade of lndian Posts and Telecommunications Accounts and Finance Service Group 'A' as on 01.01.2026",
-      "publish_date": "04/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4504943cdd78e890f05f644080334d38.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/02/2026"
-    },
-    {
-      "id": "c63c156517dbc3e6",
-      "title": "Order dated 01-04-2026 regarding Taken on Strength in respect of ITS officers",
-      "publish_date": "04/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/818e875c401ed54246d55f538501f874.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/02/2026"
-    },
-    {
-      "id": "b8419ea8463fcd8c",
-      "title": "Seniority List of officers in the Junior Administrative Grade of lndian Posts and Telecommunications Accounts and Finance Service Group 'A' as on 01.01.2026",
-      "publish_date": "04/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4504943cdd78e890f05f644080334d38.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/02/2026"
-    },
-    {
-      "id": "c63c156517dbc3e6",
-      "title": "Order dated 01-04-2026 regarding Taken on Strength in respect of ITS officers",
-      "publish_date": "04/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/818e875c401ed54246d55f538501f874.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/02/2026"
-    }
-  ]
+  "generated_at": "2026-04-02T07:22:36.855897",
+  "count": 0,
+  "items": []
 }
