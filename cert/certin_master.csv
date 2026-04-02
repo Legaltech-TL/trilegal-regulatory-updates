@@ -4530,3 +4530,89 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-02 05:49:34
+712dbd513459e821,Multiple Software Supply Chain Attacks Targeting Open-Source Packages and Developer Tools,"April 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3493,Current Activities,"CURRENT ACTIVITIES
+Multiple Software Supply Chain Attacks Targeting Open-Source Packages and Developer Tools
+Original Issue Date:April     02, 2026
+Multiple software supply chain compromises were reported in March 2026 affecting widely used developer tools and libraries across npm, PyPI, GitHub Actions, and container registries, including components associated with Checkmarx, Trivy, LiteLLM, Axios, Telnyx, and multiple npm packages linked to the CanisterWorm campaign.
+Threat actors leveraged compromised credentials and unauthorized access to publishing mechanisms to introduce malicious code into trusted software packages, CI/CD workflows, and development tools. These malicious components were distributed through legitimate repositories and executed automatically via mechanisms such as postinstall scripts, import-time execution, and CI/CD pipeline execution.
+The malicious payloads were observed to perform credential harvesting, data exfiltration, remote payload execution, and persistence establishment within developer systems and associated environments.
+Organizations and individuals using the affected tools are advised to review their environments and take appropriate mitigation actions.
+Affected Products / Components:
+Checkmarx GitHub Actions and OpenVSX Plugins
+Affected Software:
+ast-github-action (v2.3.33) and kics-github-action (v2.1.20)
+Malicious code introduced via unauthorized tag modifications
+Risk:
+Exposure of CI/CD credentials and developer environment secrets
+Trivy Vulnerability Scanner and Related Components
+Affected Versions:
+v0.69.4, v0.69.5 and v0.69.6
+Unauthorized publishing and tag manipulation using compromised credentials
+Malicious activity executed within CI/CD pipelines and container images
+Risk:
+Credential harvesting and exposure of sensitive pipeline data
+LiteLLM (Python Package - PyPI)
+Affected Versions:
+1.82.7 and 1.82.8
+Unauthorized PyPI package publishing using compromised maintainer access
+Direct upload bypassing CI/CD workflows
+Observed Capabilities:
+Harvesting of environment variables and credentials
+Exfiltration of collected data
+Telnyx Python SDK (PyPI)
+Affected Versions:
+4.87.1 and 4.87.2
+Unauthorized versions published between 03:51 UTC and 10:13 UTC on March 27, 2026
+Payload execution at import time
+Observed Capabilities:
+Retrieval of payloads via WAV-based delivery
+Credential collection and data exfiltration
+Axios npm Library
+Affected Versions:
+1.14.1 and 0.30.4
+Malicious dependency (plain-crypto-js) introduced into package
+Execution via postinstall script
+Observed Capabilities:
+Deployment of cross-platform remote access trojan
+System access and data exfiltration
+Multiple Malicious npm Packages (CanisterWorm Campaign)
+Execution triggered through postinstall scripts
+Observed Capabilities:
+Harvesting npm authentication tokens from .npmrc and environment variables
+Automated republishing of compromised packages using stolen credentials
+Persistence via systemd services on Linux systems
+Impact:
+Successful exploitation may result in:
+Compromise of CI/CD pipelines
+Unauthorized execution of malicious code
+Theft of credentials (API keys, SSH keys, cloud tokens, Kubernetes tokens)
+Unauthorized access to development environments
+Data exfiltration to attacker-controlled infrastructure
+Propagation of malicious packages across software supply chains
+Recommendations:
+Identify and remove compromised versions of affected packages
+Rotate credentials (API keys, SSH keys, cloud credentials, CI/CD tokens)
+Audit CI/CD workflows
+Monitor for abnormal execution during installations
+Enforce dependency version pinning
+Limit exposure of long-lived credentials
+References
+http://checkmarx.com/blog/checkmarx-security-update/
+http://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23
+https://docs.litellm.ai/blog/security-update-march-2026
+https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package
+https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026
+https://www.endorlabs.com/learn/canisterworm
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-02 11:42:25
