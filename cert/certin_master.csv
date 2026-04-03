@@ -4616,3 +4616,65 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-02 11:42:25
+1b65be1522b1ed13,CERT-In Vulnerability Note  CIVN-2026-0170,"April 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0170,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0170
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:April     02, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 146.0.7680.177 for Linux
+Google Chrome versions prior to 146.0.7680.177/178 for Windows and Mac
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, bypass security restrictions, or disclose sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, memory corruption, and security bypass.
+Impact Assessment:
+Successful exploitation could lead to system compromise, data theft, or service disruption.
+Description
+Multiple vulnerabilities exist in Google Chrome due to Use-after-free in CSS, Web MIDI, WebCodecs, Dawn, WebGL, PDF, WebView, Navigation and Compositing; Heap buffer overflow in GPU and ANGLE; Integer overflow in ANGLE and Codecs; Out-of-bounds read in WebCodecs; Object corruption in V8; Inappropriate implementation in ANGLE and WebGL;  Insufficient policy enforcement in WebUSB. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, bypass security restrictions, or disclose sensitive information on the targeted system.
+Note: An exploit for CVE-2026-5281 (Use-after-free in Dawn) has been reported in the wild.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html
+References
+https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html
+CVE Name
+CVE-2026-5272
+CVE-2026-5273
+CVE-2026-5274
+CVE-2026-5275
+CVE-2026-5276
+CVE-2026-5277
+CVE-2026-5278
+CVE-2026-5279
+CVE-2026-5280
+CVE-2026-5281
+CVE-2026-5282
+CVE-2026-5283
+CVE-2026-5284
+CVE-2026-5285
+CVE-2026-5286
+CVE-2026-5287
+CVE-2026-5288
+CVE-2026-5289
+CVE-2026-5290
+CVE-2026-5291
+CVE-2026-5292
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-03 05:49:42
