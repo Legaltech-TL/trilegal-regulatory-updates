@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "a5497beb0da47d82f2540eaf3dd0c8ec377a95e0",
+    "date": "01-01-2026",
+    "title": "Securities and Exchange Board of India (Mutual Funds) Regulations, 2026",
+    "link": "https://www.sebi.gov.in/legal/regulations/apr-2026/securities-and-exchange-board-of-india-mutual-funds-regulations-2026_100744.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Regulation_Securities and Exchange Board of India (Mutual Funds) Regulations, 2026.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-04-06T15:12:25.094748Z",
+    "source_commit": "9f829598d29a763afd267d822c8eda121b71eec3",
+    "category": "Regulation",
+    "error": ""
+  }
+]
