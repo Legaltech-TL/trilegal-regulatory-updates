@@ -4736,3 +4736,48 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-07 05:56:45
+f60160a8c2924d8a,CERT-In Vulnerability Note  CIVN-2026-0172,"April 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0172,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0172
+Improper Access Control Vulnerability in FortiClient (EMS)
+Original Issue Date:April     07, 2026
+Severity Rating: CRITICAL
+Software Affected
+FortiClient EMS 7.4.0 through to 7.4.6
+Overview
+A vulnerability has been reported in FortiClient EMS which could allow an unauthenticated attacker to execute arbitrary code with specially crafted requests on the affected system.
+Target Audience:
+All organizations and individuals using FortiClient EMS deployments.
+Risk Assessment:
+High risk of Unauthorized command execution, data loss, or full system compromise.
+Impact Assessment:
+High potential of remote code execution and system compromise.
+Description
+FortiClient Endpoint Management Server (EMS) is used to centrally manage FortiClient endpoint security deployments within an organization.
+The vulnerability exists in FortiClient (EMS) due to an improper access control that allows unauthenticated attacker to bypass authentication and authorization. An attacker could exploit this vulnerability via specially crafted requests.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary code on the affected system.
+Note: This vulnerability (CVE-2026-35616) is being exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://fortiguard.fortinet.com/psirt/FG-IR-26-099
+Vendor Information
+Fortinet
+https://fortiguard.fortinet.com/psirt/FG-IR-26-099
+References
+Fortinet
+https://fortiguard.fortinet.com/psirt/FG-IR-26-099
+Bleeping Computer
+https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/
+CVE Name
+CVE-2026-35616
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-07 08:45:28
