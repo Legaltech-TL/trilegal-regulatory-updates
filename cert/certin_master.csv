@@ -4678,3 +4678,61 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-03 05:49:42
+92886dabd8e7ec0a,CERT-In Vulnerability Note  CIVN-2026-0171,"April 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0171,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0171
+Multiple Vulnerabilities in ISC BIND
+Original Issue Date:April     07, 2026
+Severity Rating: HIGH
+Software Affected
+ISC BIND versions 9.11.0 through 9.16.50
+ISC BIND versions 9.18.0 through 9.18.46
+ISC BIND versions 9.20.0 through 9.20.20
+ISC BIND versions 9.21.0 through 9.21.19
+ISC BIND Supported Preview Edition 9.11.3.S1 through 9.16.50.S1
+ISC BIND Supported Preview Edition 9.18.11.S1 through 9.18.46.S1
+ISC BIND Supported Preview Edition 9.20.9.S1 through 9.20.20.S1
+Note: (Versions prior to 9.11.0 were not assessed.)
+Overview
+Multiple vulnerabilities have been reported in ISC BIND which could allow a remote attacker to cause CPU exhaustion, which could lead to Denial of Service (DoS), ACL bypass, unauthorized access or memory leak on the targeted system.
+Target Audience:
+All end-user organizations and individuals using ISC BIND.
+Risk Assessment:
+Risk of remote code execution, denial of service, unauthorized access and memory leak.
+Impact Assessment:
+Authoritative servers and Resolvers are affected by these vulnerabilities.
+Description
+ISC BIND is an open-source software that implements the Domain Name System (DNS) protocols for resolving domain names to IP addresses.
+Multiple vulnerabilities exist in ISC BIND which could allow a remote attacker to cause excessive CPU utilization, ACL bypass, unauthorized access and/or memory leak on the targeted server with specially crafted requests.
+Successful exploitation of these vulnerabilities could allow a remote attacker to trigger denial of service condition, gain elevated privileges and memory leak on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://kb.isc.org/docs/cve-2026-1519
+https://kb.isc.org/docs/cve-2026-3591
+https://kb.isc.org/docs/cve-2026-3119
+https://kb.isc.org/docs/cve-2026-3104
+Vendor Information
+ISC BIND
+https://kb.isc.org/
+References
+ISC BIND
+https://kb.isc.org/docs/cve-2026-1519
+https://kb.isc.org/docs/cve-2026-3591
+https://kb.isc.org/docs/cve-2026-3119
+https://kb.isc.org/docs/cve-2026-3104
+CVE Name
+CVE-2026-1519
+CVE-2026-3591
+CVE-2026-3119
+CVE-2026-3104
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-07 05:56:45
