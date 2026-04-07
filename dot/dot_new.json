@@ -1,5 +1,70 @@
 {
-  "generated_at": "2026-04-06T05:38:01.840170",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-07T10:11:34.399567",
+  "count": 8,
+  "items": [
+    {
+      "id": "07fcc4797ead7bff",
+      "title": "Transfer posting in the junior Administrative Grade (JAG) of IP&TAFS Group 'A'",
+      "publish_date": "04/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/554ac246aa2aa40657730eff2c7923d3.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/07/2026"
+    },
+    {
+      "id": "729afaf39873f69a",
+      "title": "Participation in \u201cSADHANA SAPTAH\u201d \u2013 Completion of Learning Activities on iGOT and Participation in Webinars/Training Programmes",
+      "publish_date": "04/06/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/3ab09343331cf0131fc68cda660f8afc.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/07/2026"
+    },
+    {
+      "id": "651ce33974d36907",
+      "title": "CS COMM 1306 of 2025 in the Hon'ble High Court of Delhi: DoT instructions dated 02.04.2026 to ISPs",
+      "publish_date": "04/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/0dfdea83ea18048bac153b671a0a4e0e.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/07/2026"
+    },
+    {
+      "id": "d52967e7a27851cb",
+      "title": "Compliance Requirements for Enabling 5925\u20136425 MHz Band under Revised Regulatory Framework - Extension of Timeline",
+      "publish_date": "04/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/2a29c2f120772710ad849ca2bf0e88e6.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/07/2026"
+    },
+    {
+      "id": "07fcc4797ead7bff",
+      "title": "Transfer posting in the junior Administrative Grade (JAG) of IP&TAFS Group 'A'",
+      "publish_date": "04/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/554ac246aa2aa40657730eff2c7923d3.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/07/2026"
+    },
+    {
+      "id": "729afaf39873f69a",
+      "title": "Participation in \u201cSADHANA SAPTAH\u201d \u2013 Completion of Learning Activities on iGOT and Participation in Webinars/Training Programmes",
+      "publish_date": "04/06/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/3ab09343331cf0131fc68cda660f8afc.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/07/2026"
+    },
+    {
+      "id": "651ce33974d36907",
+      "title": "CS COMM 1306 of 2025 in the Hon'ble High Court of Delhi: DoT instructions dated 02.04.2026 to ISPs",
+      "publish_date": "04/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/0dfdea83ea18048bac153b671a0a4e0e.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/07/2026"
+    },
+    {
+      "id": "d52967e7a27851cb",
+      "title": "Compliance Requirements for Enabling 5925\u20136425 MHz Band under Revised Regulatory Framework - Extension of Timeline",
+      "publish_date": "04/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/2a29c2f120772710ad849ca2bf0e88e6.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/07/2026"
+    }
+  ]
 }
