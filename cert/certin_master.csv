@@ -4781,3 +4781,91 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-07 08:45:28
+7b22034948a45f1a,CERT-In Vulnerability Note  CIVN-2026-0174,"April 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0174,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0174
+Authentication Bypass Vulnerability in SAML SSO Plugin of Drupal
+Original Issue Date:April     07, 2026
+Severity Rating: CRITICAL
+Software Affected
+SAML SSO Plugin of Drupal version prior to 3.1.4
+Overview
+A critical vulnerability has been reported in the SAML SSO ¿ Service Provider module for Drupal that could allow a remote attacker to obtain sensitive information or bypass access controls on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Drupal installations with the affected SAML SSO module.
+Risk Assessment:
+Very high risk of access bypass, unauthorized access to sensitive information.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+Drupal is an open-source, content management system (CMS) and web application framework.
+A critical vulnerability exist in the SAML SSO ¿ Service Provider module that allows an authentication bypass vulnerability due to improper enforcement of access restrictions during the SAML authentication process. An attacker may exploit this flaw by manipulating SAML responses or authentication flows.
+Successful exploitation of these vulnerabilities could allow an attacker to bypass access controls and can obtain sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.drupal.org/sa-contrib-2026-031
+Vendor Information
+Drupal
+https://www.drupal.org/sa-contrib-2026-031
+References
+https://www.drupal.org/sa-contrib-2026-031
+CVE Name
+CVE-2026-5343
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-07 11:50:40
+17be413ec1facebc,CERT-In Vulnerability Note  CIVN-2026-0173,"April 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0173,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0173
+Multiple Vulnerabilities in Android OS
+Original Issue Date:April     07, 2026
+Severity Rating: CRITICAL
+Software Affected
+Android 14
+Android 15
+Android 16
+Android 16-QPR2
+Overview
+Multiple vulnerabilities have been identified in Android which could be exploited by an attacker to execute arbitrary code causing denial of service, privilege escalation or disclosure sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Android.
+Risk Assessment:
+Risk of remote code execution, denial of service, privilege escalation and sensitive information disclosure.
+Impact Assessment:
+Potential compromise of system, service disruption and unauthorized access to sensitive information.
+Description
+Android is an open-source operating system primarily designed for mobile devices, including smart phones, tablets, smart watches, and other embedded system.
+Multiple vulnerabilities exist in Android due to flaws in several components, including the Android Framework, Google, NXP components, STMicroelectronics and Thales components.
+Successful exploitation of these vulnerabilities could allow a remote attacker to trigger remote code execution, denial of service condition, gain elevated privileges and obtain sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://source.android.com/docs/security/bulletin/2026/2026-04-01
+Vendor Information
+Android
+https://source.android.com/docs/security/bulletin/2026/2026-04-01
+References
+Android
+https://source.android.com/docs/security/bulletin/2026/2026-04-01
+CVE Name
+CVE-2026-0049
+CVE-2025-48651
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-07 11:50:40
