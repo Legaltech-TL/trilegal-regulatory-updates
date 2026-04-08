@@ -4869,3 +4869,63 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-07 11:50:40
+fa2f8fd8a2636f97,CERT-In Vulnerability Note  CIVN-2026-0175,"April 08, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0175,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0175
+Multiple Vulnerabilities in Microsoft Azure and Bing
+Original Issue Date:April     08, 2026
+Severity Rating: CRITICAL
+Software Affected
+Microsoft Azure
+Microsoft Bing
+Overview
+Multiple vulnerabilities have been reported in Microsoft Azure and Bing which may allow a remote attacker to elevate privileges, access sensitive information, and compromise system integrity.
+Target Audience:
+Individuals and organizations using the Microsoft Azure and Bing services.
+Risk Assessment:
+High risk of unauthorized access, privilege escalation, and sensitive data exposure.
+Impact Assessment:
+Elevation of privilege, information disclosure, unauthorized access, potential service disruption.
+Description
+Microsoft Azure and Microsoft Bing are cloud-based platforms that provide computing, storage, networking, and web search services to users and enterprises worldwide. These services are widely used and form a critical part of modern cloud and web infrastructure.
+These vulnerabilities exist due to improper input validation, access control weaknesses, server-side request forgery (SSRF), and other security flaws in the affected services. A remote attacker may exploit these vulnerabilities to gain elevated privileges, access sensitive data, or perform unauthorized operations within the affected environment.
+Successful exploitation of these vulnerabilities may allow a remote attacker to elevate privileges, access sensitive information, and compromise the integrity of the targeted system or service.
+Solution
+Apply appropriate updates as mentioned in:
+https://msrc.microsoft.com/update-guide/vulnerability
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32186
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32211
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32173
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33105
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26135
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33107
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32213
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32211
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32186
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32173
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33105
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26135
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33107
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32213
+CVE Name
+CVE-2026-32173
+CVE-2026-33105
+CVE-2026-26135
+CVE-2026-33107
+CVE-2026-32213
+CVE-2026-32186
+CVE-2026-32211
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-08 08:44:53
