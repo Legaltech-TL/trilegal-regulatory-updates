@@ -4976,3 +4976,58 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-09 08:52:11
+b43279c3ca4394c1,CERT-In Vulnerability Note  CIVN-2026-0177,"April 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0177,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0177
+Multiple Vulnerabilities in OpenSSL
+Original Issue Date:April     09, 2026
+Severity Rating: MEDIUM
+Software Affected
+OpenSSL version 3.6.
+OpenSSL version 3.5.
+OpenSSL version 3.4.
+OpenSSL version 3.3.
+OpenSSL version 3.1.
+OpenSSL version 3.0.
+OpenSSL version 1.1.1
+OpenSSL version 1.0.2
+Overview
+Multiple vulnerabilities have been reported in OpenSSL which could be exploited by an attacker to cause denial of service, or disclosure of sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using OpenSSL.
+Risk Assessment:
+Risk of denial of service and sensitive information disclosure.
+Impact Assessment:
+Potential service disruption and unauthorized access to sensitive information.
+Description
+OpenSSL is a free and open-source software for general-purpose cryptography and secure communication. It provides a robust, full-featured toolkit for implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols.
+Multiple vulnerabilities exist in OpenSSL due to incorrect failure handling in RSA KEM RSASVE encapsulation; out-of-bounds read in AES-CFB-128 on X86-64 with AVX-512 support; potential use-after-free in DANE Client Code; NULL pointer dereference when processing a Delta CRL; possible NULL dereference when processing CMS KeyAgreeRecipientInfo; possible NULL dereference when processing CMS KeyTransportRecipientInfo; and heap buffer overflow in hexadecimal conversion. A remote attacker could exploit these vulnerabilities by sending specially crafted inputs.
+Successful exploitation of these vulnerabilities could allow an attacker to cause a denial of service condition or disclose sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://openssl-library.org/news/secadv/20260407.txt
+Vendor Information
+OpenSSL
+https://openssl-library.org/news/vulnerabilities/
+References
+OpenSSL
+https://openssl-library.org/news/secadv/20260407.txt
+CVE Name
+CVE-2026-31790
+CVE-2026-28386
+CVE-2026-28387
+CVE-2026-28388
+CVE-2026-28389
+CVE-2026-28390
+CVE-2026-31789
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-09 11:52:21
