@@ -4929,3 +4929,50 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-08 08:44:53
+d4a9f19ad0735b50,CERT-In Vulnerability Note  CIVN-2026-0176,"April 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0176,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0176
+Multiple Vulnerabilities in Progress ShareFile Storage Zones Controller (SZC)
+Original Issue Date:April     09, 2026
+Severity Rating: CRITICAL
+Software Affected
+Progress ShareFile Storage Zones Controller versions prior to 5.12.4 (v5)
+Overview
+Multiple vulnerabilities have been reported in Progress ShareFile Storage Zones Controller (SZC) which allow an unauthenticated attacker to access restricted configuration pages, execute arbitrary code on the targeted system.
+Target Audience:
+Large enterprises and organizations using Progress ShareFile Storage Zones Controller.
+Risk Assessment:
+High risk of unauthorized access to sensitive data.
+Impact Assessment:
+Potential for Remote code execution (RCE).
+Description
+Progress ShareFile Storage Zones Controller (SZC) is a server component that enables organizations to securely manage and control on-premises storage for ShareFile, allowing files to remain within their own data centers while integrating with the ShareFile cloud.
+Multiple vulnerabilities have been reported in Progress ShareFile Storage Zones Controller (SZC) due to Execution After Redirect (EAR) and arbitrary file upload issues.
+Successful exploitation of these vulnerabilities could allow an attacker to change system configuration and trigger remote code execution on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/
+Vendor Information
+ShareFile
+https://docs.sharefile.com/en-us/storage-zones-controller/5-0/security-vulnerability-feb26
+Security Week
+https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/
+References
+ShareFile
+https://docs.sharefile.com/en-us/storage-zones-controller/5-0/security-vulnerability-feb26
+Security Week
+https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/
+CVE Name
+CVE-2026-2699
+CVE-2026-2701
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-09 08:52:11
