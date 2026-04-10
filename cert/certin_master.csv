@@ -5078,3 +5078,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-10 08:55:31
+0dd36eec68010750,CERT-In Vulnerability Note  CIVN-2026-0179,"April 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0179,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0179
+Security Misconfiguration Vulnerability in Atom 3x Projector
+Original Issue Date:April     10, 2026
+Severity Rating: HIGH
+Systems Affected
+E-Gate Atom 3X, Model Number: E04i32
+Overview
+A vulnerability has been reported in Atom 3x Projector, which could allow an attacker to obtain root-level access, leading to complete compromise of the targeted device.
+Target Audience:
+End-users/ Administrators of Atom 3x Projector.
+Risk Assessment:
+High risk of Android Debug Bridge (ADB) service exposure, root-level access, and device compromise
+Impact Assessment:
+Potential impact on confidentiality, integrity and availability of the vulnerable device.
+Description
+The Atom 3x Projector is an Android-based projection device with Wi-Fi connectivity used for displaying multimedia content.
+This vulnerability exists in the Atom 3x Projector due to improper exposure of the ADB service over the local network without authentication or access controls. An unauthenticated attacker on the same network can exploit this vulnerability to obtain root-level access, leading to complete compromise of the targeted device.
+Credit
+This vulnerability is reported by Chetan Nimbulkar.
+Solution
+Upgrade Atom 3x Projector to latest version
+Vendor Information
+EGate
+https://egate-world.com/products/portable-android-projector-atom-3x
+References
+EGate
+https://egate-world.com/products/portable-android-projector-atom-3x
+CVE Name
+CVE-2026-5777
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-10 11:43:41
