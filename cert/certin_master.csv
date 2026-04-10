@@ -5031,3 +5031,50 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-09 11:52:21
+f3b37763466cd52a,CERT-In Vulnerability Note  CIVN-2026-0178,"April 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0178,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0178
+Authorization Bypass Vulnerability in Docker Engine
+Original Issue Date:April     10, 2026
+Severity Rating: HIGH
+Software Affected
+Docker Engine versions prior to 29.3.1
+Overview
+A vulnerability has been reported in Docker Engine which could allow an attacker to bypass authorization plugins (AuthZ) under specific circumstances and gain unauthorized privileged access to the host file system.
+Target Audience:
+All organizations and individuals using Docker Engine.
+Risk Assessment:
+Potential for compromise of system integrity on the targeted system.
+Impact Assessment:
+Potential for unauthorized access to sensitive files (such as cloud credentials, SSH keys and Kubernetes configurations), bypass security restrictions and unauthorized actions on the affected system.
+Description
+Docker Engine is the core open-source runtime and orchestration technology used to build, manage and run containerized applications.
+The vulnerability exists in Docker Engine due to improper handling of oversized HTTP request bodies in the fix for CVE-2024-41110. An attacker can exploit this vulnerability by sending a specially crafted API request that omits the request body when forwarded to an authorization plugin.
+Successful exploitation of this vulnerability could allow an attacker to bypass authorization plugins (AuthZ) under specific circumstances and gain unauthorized privileged access to the host file system.
+Solution
+Upgrade to the latest versions as mentioned in the advisory:
+https://github.com/moby/moby/security/advisories/GHSA-x744-4wpc-v9h2
+Workaround
+If unable to update immediately:
+Restrict local access to Docker daemon hosts to trusted users only.
+Implement additional access controls at the network and host level independent of AuthZ plugins.
+Vendor Information
+Docker
+https://github.com/moby/moby/security/advisories/GHSA-x744-4wpc-v9h2
+References
+https://github.com/moby/moby/security/advisories/GHSA-x744-4wpc-v9h2
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2024-0223
+CVE Name
+CVE-2026-34040
+CVE-2024-41110
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-10 08:55:31
