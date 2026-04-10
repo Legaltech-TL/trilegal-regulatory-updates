@@ -1,197 +1,37 @@
 {
-  "generated_at": "2026-04-10T07:36:30.728878",
-  "count": 24,
+  "generated_at": "2026-04-10T10:16:04.558096",
+  "count": 4,
   "items": [
     {
-      "id": "e7ac78fcb5f0b95c",
-      "title": "Allocation of additional Wireline Access Service Codes to M/s Reliance JIO Infocomm Ltd for 3 SDCAs of Bihar and Madhya Pradesh LSAs.",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5ae8be426a00e587532bd4316eef261b.pdf",
+      "id": "57c29c38a76f8495",
+      "title": "Order dated 07-04-2026 reg Transfer & Posting of Officers in JTS of ITS Gr A",
+      "publish_date": "04/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/635bf0a1f566fe7463224b1e2ef7f9dc.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/10/2026"
     },
     {
-      "id": "abc6809524311905",
-      "title": "CS COMM 81 of 2026 in the Honble High Court of Delhi: DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/8df58bf359eda3fc6c05b8aeef7e8bb0.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "204ef144a215c2bd",
-      "title": "CS COMM 1210 of 2025 in the Honble High Court of Delhi: DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/c3ed3fb897cd87207c70f613f1d14d02.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "d4d1a529e18d2c0b",
-      "title": "CS COMM 837 of 2024 in the Honble High Court of Delhi: DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/eecce0d6d7a374c1144eed1c3a2ca78d.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "ed2a3f256c765f84",
-      "title": "CS COMM 1184 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/c432f0327fc69c5d5269e00629b0baaf.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "27c36a38d55db510",
-      "title": "List of IP-I Registration as on 31.03.2026",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/3f33a7054c5cb484c8310f17f136733e.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "a1283134eb7254e9",
-      "title": "List of ILD Licensees as on 31.03.2026",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/71467e63664fecd9d494664cddbf9953.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "c9b14483b0c1d313",
-      "title": "List of NLD Licensees as on 31.03.2026",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/68f9a87d384bf8a9941d0b73b7758509.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "183eccae67d3da7f",
-      "title": "Nomination of Officers for drawing up the panel for appointment at the level of Secretary/Addl. Secretary in Government of India.",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5df5092aeb916aaca9e101b435b481fa.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "b04544025753efee",
-      "title": "Taken on strength of officer of TES Gr \u2018B\u2019 \u2013reg.",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/cc52a875456d684f7c02fe0a0521dcf0.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "e9e38a7ed17d7f16",
-      "title": "CS COMM 1116 of 2024 in the Honble High Court of Delhi: Additional list DoT instructions dated 02.04.2026 to ISPs",
-      "publish_date": "04/02/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/fe9198e61d3454f0a209200b9a69b878.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "e7ac78fcb5f0b95c",
-      "title": "Allocation of additional Wireline Access Service Codes to M/s Reliance JIO Infocomm Ltd for 3 SDCAs of Bihar and Madhya Pradesh LSAs.",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5ae8be426a00e587532bd4316eef261b.pdf",
+      "id": "57c29c38a76f8495",
+      "title": "Order dated 07-04-2026 reg Transfer & Posting of Officers in JTS of ITS Gr A",
+      "publish_date": "04/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/635bf0a1f566fe7463224b1e2ef7f9dc.pdf",
       "category": "REPORTS",
       "scraped_at": "04/10/2026"
     },
     {
-      "id": "abc6809524311905",
-      "title": "CS COMM 81 of 2026 in the Honble High Court of Delhi: DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/8df58bf359eda3fc6c05b8aeef7e8bb0.pdf",
+      "id": "0534b1d45e62c70a",
+      "title": "Annual Rotational Transfer Posting of Indian Posts & Telecommunications Accounts and Finance Service (IP&TAFS) Group \u2018A\u2019 Officers for the year 2026",
+      "publish_date": "04/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/2ffc516d1dc4d518d4be42590606da3b.pdf",
       "category": "REPORTS",
       "scraped_at": "04/10/2026"
     },
     {
-      "id": "204ef144a215c2bd",
-      "title": "CS COMM 1210 of 2025 in the Honble High Court of Delhi: DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/c3ed3fb897cd87207c70f613f1d14d02.pdf",
+      "id": "950f1ac5d9f2f8a1",
+      "title": "Provisional Seniority List of JTS of ITS Gr A of DoT as on 01-01-2026",
+      "publish_date": "04/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/7561a5a3441244b4b5009914ecdba61d.pdf",
       "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "d4d1a529e18d2c0b",
-      "title": "CS COMM 837 of 2024 in the Honble High Court of Delhi: DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/eecce0d6d7a374c1144eed1c3a2ca78d.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "ed2a3f256c765f84",
-      "title": "CS COMM 1184 of 2025 in the Honble High Court of Delhi: Additional list DoT instructions dated 09.04.2026 to ISPs",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/c432f0327fc69c5d5269e00629b0baaf.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "27c36a38d55db510",
-      "title": "List of IP-I Registration as on 31.03.2026",
-      "publish_date": "04/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/3f33a7054c5cb484c8310f17f136733e.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "a1283134eb7254e9",
-      "title": "List of ILD Licensees as on 31.03.2026",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/71467e63664fecd9d494664cddbf9953.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "c9b14483b0c1d313",
-      "title": "List of NLD Licensees as on 31.03.2026",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/68f9a87d384bf8a9941d0b73b7758509.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "183eccae67d3da7f",
-      "title": "Nomination of Officers for drawing up the panel for appointment at the level of Secretary/Addl. Secretary in Government of India.",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5df5092aeb916aaca9e101b435b481fa.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "b04544025753efee",
-      "title": "Taken on strength of officer of TES Gr \u2018B\u2019 \u2013reg.",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/cc52a875456d684f7c02fe0a0521dcf0.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "af6efef5e8f7a976",
-      "title": "TEC explores \u2018Connectivity for All\u2019 Vision through Deliberations on Direct-to-Device (D2D) Technologies",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/96521d0f8ae48502b5b08b1241c77034.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "7579555020515dfb",
-      "title": "PM-WANI Scheme Accelerates Public Wi-Fi Expansion across India with Over 4 Lakh Hotspots",
-      "publish_date": "04/02/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/32bddfeaf26b0921914c8191c588633d.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "a05e527253e27f9e",
-      "title": "All telecom service providers have met the prescribed benchmarks for network-related QoS parameters in all licensed service areas, including Andhra Pradesh: Union Minister Shri Jyotiraditya M. Scindia",
-      "publish_date": "04/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b882006fbf98cb4f4c5f12f9baf664dc.pdf",
-      "category": "PRESS_RELEASE",
       "scraped_at": "04/10/2026"
     }
   ]
