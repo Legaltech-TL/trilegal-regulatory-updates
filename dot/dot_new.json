@@ -1,38 +1,5 @@
 {
-  "generated_at": "2026-04-10T10:16:04.558096",
-  "count": 4,
-  "items": [
-    {
-      "id": "57c29c38a76f8495",
-      "title": "Order dated 07-04-2026 reg Transfer & Posting of Officers in JTS of ITS Gr A",
-      "publish_date": "04/07/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/635bf0a1f566fe7463224b1e2ef7f9dc.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "57c29c38a76f8495",
-      "title": "Order dated 07-04-2026 reg Transfer & Posting of Officers in JTS of ITS Gr A",
-      "publish_date": "04/07/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/635bf0a1f566fe7463224b1e2ef7f9dc.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "0534b1d45e62c70a",
-      "title": "Annual Rotational Transfer Posting of Indian Posts & Telecommunications Accounts and Finance Service (IP&TAFS) Group \u2018A\u2019 Officers for the year 2026",
-      "publish_date": "04/07/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/2ffc516d1dc4d518d4be42590606da3b.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    },
-    {
-      "id": "950f1ac5d9f2f8a1",
-      "title": "Provisional Seniority List of JTS of ITS Gr A of DoT as on 01-01-2026",
-      "publish_date": "04/07/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/7561a5a3441244b4b5009914ecdba61d.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/10/2026"
-    }
-  ]
+  "generated_at": "2026-04-11T04:56:27.091503",
+  "count": 0,
+  "items": []
 }
