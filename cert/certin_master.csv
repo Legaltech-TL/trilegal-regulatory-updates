@@ -5120,3 +5120,99 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-10 11:43:41
+e4a71ee8c73a4d90,CERT-In Vulnerability Note  CIVN-2026-0181,"April 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0181,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0181
+Security Bypass Vulnerability in Palo Alto Cortex XDR Agent
+Original Issue Date:April     13, 2026
+Severity Rating: HIGH
+Software Affected
+Cortex XSOAR versions prior to 1.5.52
+Cortex XSIAM versions prior to 1.5.52
+Overview
+A vulnerability has been reported in Palo Alto Networks that allows a remote attacker to bypass cryptographic signature verification in Microsoft Teams integration and gain unauthorized access to the system.
+Target Audience:
+Large enterprises, Managed Security Service Providers, SOC teams, Cloud Providers and organizations using Cortex XSOAR and XSIAM platforms.
+Risk Assessment:
+High risk of unauthorised access to sensitive information.
+Impact Assessment:
+Compromise of integrity and conﬁdentiality.
+Description
+Palo Alto Networks Cortex XSOAR and Cortex XSIAM are Integrated security platforms that automate and unify threat detection, investigation, and response across the enterprise.
+A vulnerability exists in Palo Alto Networks Cortex XSOAR and Cortex XSIAM due to improper verification of cryptographic signatures in Microsoft Teams integration.
+Successfully exploitation of this vulnerability could allow a remote attacker to bypass cryptographic signature verification in Microsoft Teams integration and gain unauthorized access to the system.
+Solution
+Apply appropriate security updates as mentioned in:
+https://security.paloaltonetworks.com/CVE-2026-0234
+Vendor Information
+Palo Alto Networks
+https://security.paloaltonetworks.com/CVE-2026-0234
+References
+Palo Alto Networks
+https://security.paloaltonetworks.com/CVE-2026-0234
+CVE Name
+CVE-2026-0234
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-13 06:26:37
+01c35b22375e5d38,CERT-In Vulnerability Note  CIVN-2026-0180,"April 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0180,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0180
+Multiple Vulnerabilities in Node.js
+Original Issue Date:April     13, 2026
+Severity Rating: HIGH
+Software Affected
+Node.js versions prior to v20.20.2
+Node.js versions prior to v22.22.2
+Node.js versions prior to v24.14.1
+Node.js versions prior to v25.8.2
+Overview
+Multiple vulnerabilities have been identified in Node.js that could be exploited by an attacker to bypass security controls, access sensitive information, or cause denial of service on the targeted system.
+Target Audience:
+All organizations and developers using Node.js.
+Risk Assessment:
+High risk of unauthorized access, security bypass, and service disruption.
+Impact Assessment:
+Potential for information disclosure, execution of unauthorized actions, or denial of service conditions affecting application availability.
+Description
+Node.js is an open-source, cross-platform JavaScript runtime environment used for building scalable network applications.
+These vulnerabilities exist due to improper error handling, memory leak issues and other flaws in Node.js. An attacker could exploit these by sending specially crafted requests.
+Successful exploitation of these vulnerabilities could enable bypass of security controls, unauthorized access to sensitive information, or cause denial of service conditions on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in:
+https://nodejs.org/en/blog/vulnerability/march-2026-security-releases
+Vendor Information
+Node.js
+https://nodejs.org/en
+References
+https://nodejs.org/en/blog/vulnerability/march-2026-security-releases
+CVE Name
+CVE-2026-21637
+CVE-2026-20953
+CVE-2026-21710
+CVE-2026-21711
+CVE-2026-21712
+CVE-2026-21713
+CVE-2026-21714
+CVE-2026-21715
+CVE-2026-21716
+CVE-2026-21717
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-13 06:26:37
