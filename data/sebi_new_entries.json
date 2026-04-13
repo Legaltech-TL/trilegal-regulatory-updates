@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "288d1a1506499c85dac34269a203a4b46eaa649a",
+    "date": "Apr 13, 2026",
+    "title": "NISM Certification for Social Impact Assessors",
+    "link": "https://www.sebi.gov.in/legal/circulars/apr-2026/nism-certification-for-social-impact-assessors_100911.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_NISM Certification for Social Impact Assessors.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-04-13T15:57:46.309090Z",
+    "source_commit": "dabecf8175425047b2d9b83112d07b7c1d119f7b",
+    "category": "Circular",
+    "error": ""
+  }
+]
