@@ -5268,3 +5268,105 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-13 09:21:47
+1fd8b430a1642a4d,CERT-In Vulnerability Note  CIVN-2026-0183,"April 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0183,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0183
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:April     13, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 147.0.7727.55/56 for Windows/Mac
+Google Chrome versions prior to 147.0.7727.55 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, bypass security restrictions, obtain sensitive information and cause denial of service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, memory corruption, and security bypass.
+Impact Assessment:
+Successful exploitation could lead to system compromise, data theft, or service disruption.
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on the world wide web. It is designed for use on desktop computers, such as those running on windows, macOS, or Linux operating system.
+Multiple vulnerabilities exist in Google Chrome due to Heap buffer overflow in WebML, WebAudio and ANGLE; Integer overflow in WebML, Skia, Media and WebRTC; Use after free in WebRTC, V8, Media, Blink, PrivateAI and Navigation; Type Confusion in V8 and CSS; Inappropriate implementation in V8, PDF and Navigation; Out of bounds read and write in V8, and Out of bounds read in WebAudio and Blink; Policy bypass in Blink, LocalNetworkAccess, Audio, Downloads, DevTools, IFrameSandbox and ServiceWorkers; Side-channel information leakage in Navigation; Incorrect security UI in Blink, browser UI, Fullscreen, Omnibox, Downloads, History Navigation and Permissions; Insufficient validation of untrusted input in ANGLE, Media, WebML, Downloads and WebSockets; Insufficient policy enforcement in browser UI and PWAs; Race condition in WebCodecs, V8 and Media; Uninitialized use in WebCodecs; Cryptographic flaw in PDFium; and Insufficient data validation in Media. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, bypass security restrictions, obtain sensitive information and cause denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor
+https://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop.html
+CVE Name
+CVE-2026-5858
+CVE-2026-5859
+CVE-2026-5860
+CVE-2026-5861
+CVE-2026-5862
+CVE-2026-5863
+CVE-2026-5864
+CVE-2026-5865
+CVE-2026-5866
+CVE-2026-5867
+CVE-2026-5868
+CVE-2026-5869
+CVE-2026-5870
+CVE-2026-5871
+CVE-2026-5872
+CVE-2026-5873
+CVE-2026-5874
+CVE-2026-5875
+CVE-2026-5876
+CVE-2026-5877
+CVE-2026-5878
+CVE-2026-5879
+CVE-2026-5880
+CVE-2026-5881
+CVE-2026-5882
+CVE-2026-5883
+CVE-2026-5884
+CVE-2026-5885
+CVE-2026-5886
+CVE-2026-5887
+CVE-2026-5888
+CVE-2026-5889
+CVE-2026-5890
+CVE-2026-5891
+CVE-2026-5892
+CVE-2026-5893
+CVE-2026-5894
+CVE-2026-5895
+CVE-2026-5896
+CVE-2026-5897
+CVE-2026-5898
+CVE-2026-5899
+CVE-2026-5900
+CVE-2026-5901
+CVE-2026-5902
+CVE-2026-5903
+CVE-2026-5904
+CVE-2026-5905
+CVE-2026-5906
+CVE-2026-5907
+CVE-2026-5908
+CVE-2026-5909
+CVE-2026-5910
+CVE-2026-5911
+CVE-2026-5912
+CVE-2026-5913
+CVE-2026-5914
+CVE-2026-5915
+CVE-2026-5918
+CVE-2026-5919
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-13 12:00:39
