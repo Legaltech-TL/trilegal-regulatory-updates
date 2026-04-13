@@ -5216,3 +5216,55 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-13 06:26:37
+16e1101036e159fe,CERT-In Vulnerability Note  CIVN-2026-0182,"April 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0182,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0182
+Multiple Vulnerabilities in GitLab
+Original Issue Date:April     13, 2026
+Severity Rating: HIGH
+Software Affected
+GitLab Versions prior to 18.10.3, 18.9.5 and 18.8.9 for GitLab Community Edition (CE) and Enterprise Edition (EE)
+Overview
+Multiple vulnerabilities have been reported in GitLab CE/EE that could allow a remote attacker to disclose sensitive information, cause denial-of-service conditions, perform cross-site scripting attacks, escalate privileges, or execute remote code on the targeted system.
+Target Audience:
+Organizations and individuals using GitLab CE/EE instances.
+Risk Assessment:
+Risk of unauthorized access, privilege escalation, information disclosure, cross-site scripting attacks and remote code execution.
+Impact Assessment:
+Potential for sensitive data theft, sensitive information disclosure, system compromise, loss of data integrity and denial-of-service impacting business operations.
+Description
+GitLab is a web-based DevOps platform that provides tools for software development, including source code management, continuous integration and continuous deployment. It is available in both open-source Community Edition (CE) and Enterprise Edition (EE) versions.
+These vulnerabilities exist in the GitLab CE/EE due to improper access control, input validation and sanitization flaws, and insufficient or incorrect authorization checks. An attacker could exploit these vulnerabilities by sending specially crafted requests to the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, cause denial-of-service conditions, perform cross-site scripting attacks, escalate privileges, or execute remote code on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://about.gitlab.com/releases/2026/04/08/patch-release-gitlab-18-10-3-released/
+Vendor Information
+Gitlab
+https://about.gitlab.com/releases/2026/04/08/patch-release-gitlab-18-10-3-released/
+References
+https://about.gitlab.com/releases/2026/04/08/patch-release-gitlab-18-10-3-released/
+CVE Name
+CVE-2026-5173
+CVE-2026-1092
+CVE-2026-12664
+CVE-2026-1403
+CVE-2026-1101
+CVE-2026-1516
+CVE-2026-4332
+CVE-2026-2619
+CVE-2026-9484
+CVE-2026-1752
+CVE-2026-2104
+CVE-2026-4916
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-13 09:21:47
