@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"2eb3ae87d8c75629",
+    "category":"gazette_notifications",
+    "sno":"1",
+    "title":"2026.04.10_ G.S.R. 270(E)_Draft Notification to amend certain provisions under Medical Devices Rules, 2017 EU",
+    "date":"2026-Apr-10",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQwNTM=",
+    "filename":"20260410_GSR_270EDraft_Notification_to_amend_certain",
+    "scraped_time":"2026-04-15T13:16:57.310505"
+  },
+  {
+    "id":"085c0897199eb059",
+    "category":"gazette_notifications",
+    "sno":"2",
+    "title":"2026.04.10_G.S.R.  269(E)_Draft Notification to amend certain provisions w.r.t. Medical Device Testing Fee under MDR, 2017",
+    "date":"2026-Apr-10",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQwNTI=",
+    "filename":"20260410GSR_269EDraft_Notification_to_amend_certain_provisions",
+    "scraped_time":"2026-04-15T13:16:57.310505"
+  }
 ]
