@@ -1,5 +1,38 @@
 {
-  "generated_at": "2026-04-15T05:34:40.484051",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-15T07:23:30.942996",
+  "count": 4,
+  "items": [
+    {
+      "id": "cd50a1c6f2e8906c",
+      "title": "List of Unified Licenses VNO issued by AS Wing",
+      "publish_date": "03/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/9727c9f2596fd5229b8b45ea6e7b740d.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/15/2026"
+    },
+    {
+      "id": "b3c1246bb1c65151",
+      "title": "List of Unified Licenses issued by AS Wing",
+      "publish_date": "03/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d7a493d5c2565833ae73e998bdf3672b.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/15/2026"
+    },
+    {
+      "id": "cd50a1c6f2e8906c",
+      "title": "List of Unified Licenses VNO issued by AS Wing",
+      "publish_date": "03/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/9727c9f2596fd5229b8b45ea6e7b740d.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/15/2026"
+    },
+    {
+      "id": "b3c1246bb1c65151",
+      "title": "List of Unified Licenses issued by AS Wing",
+      "publish_date": "03/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d7a493d5c2565833ae73e998bdf3672b.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/15/2026"
+    }
+  ]
 }
