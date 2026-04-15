@@ -5410,3 +5410,256 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-15 06:09:34
+ee361a500d0eec5e,CERT-In Vulnerability Note  CIVN-2026-0186,"April 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0186,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0186
+Multiple Vulnerabilities in NVIDIA
+Original Issue Date:April     15, 2026
+Severity Rating: HIGH
+Software Affected
+Triton inference server all versions prior to r26.02
+NVIDIA DALI all versions prior to 2.0
+Overview
+Multiple vulnerabilities have been reported in NVIDIA, which could allow an attacker to execute arbitrary code or cause denial of service (DoS) condition on the targeted system.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating NVIDIA products.
+Risk Assessment:
+Risk of Remote code execution, or Disruption of services.
+Impact Assessment:
+Potential compromise of system, service of disruption and unauthorized access to sensitive information.
+Description
+Multiple vulnerabilities exist in NVIDIA products due to improper input validation or deserialization of untrusted data. An attacker could exploit these vulnerabilities by sending a specially crafted request on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code or cause denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in NVIDIA advisory:
+https://www.nvidia.com/en-us/security/
+References
+NVIDIA
+https://nvidia.custhelp.com/app/answers/detail/a_id/5811
+https://nvidia.custhelp.com/app/answers/detail/a_id/5816
+CVE Name
+CVE-2026-24146
+CVE-2026-24147
+CVE-2026-24156
+CVE-2026-24173
+CVE-2026-24174
+CVE-2026-24175
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-15 11:54:10
+409270c228c08b1d,CERT-In Vulnerability Note  CIVN-2026-0185,"April 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0185,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0185
+Multiple Vulnerabilities in CISCO
+Original Issue Date:April     15, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco SSM On-Prem
+Cisco Integrated Management Controller
+5000 Series Enterprise Network Compute Systems (ENCS)
+Catalyst 8300 Series Edge uCPE
+UCS C-Series M5 and M6 Rack Servers in standalone mode
+UCS E-Series Servers M3 & M6
+UCS S-Series Storage Servers in standalone mode
+Cisco EPNM
+Overview
+Multiple vulnerabilities have been reported in CISCO, which could allow an attacker to execute remote code, command injection and gain elevated privileges on the targeted system.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating CISCO products
+Risk Assessment:
+Risk of Remote code execution, elevation of privileges, or system instability
+Impact Assessment:
+Potential impact on confidentiality, integrity and availability of the system.
+Description
+1. Arbitrary Command Execution Vulnerability
+(
+CVE-2026-20160
+)
+This vulnerability exists in Cisco Smart Software Manager On-Prem (SSM On-Prem) due to the unintentional exposure of an internal service. An attacker could exploit this vulnerability by sending a specially crafted request to the API of the exposed service.
+Successful exploitation of this vulnerability could allow an attacker to execute commands with root-level privileges on the targeted system.
+2. Authentication Bypass Vulnerability
+(
+CVE-2026-20093
+)
+This vulnerability exists in Cisco Integrated Management Controller due to incorrect handling of password change requests. An attacker could exploit this vulnerability by sending a specially crafted HTTP request on the targeted system.
+Successful exploitation of this vulnerability could allow an attacker to bypass authentication, alter the passwords of any user on the targeted system, including an Admin user, and gain access to the system as that user.
+3. Improper Authorization Vulnerability
+(
+CVE-2026-20155
+)
+This vulnerability exists in the web-based management interface of Cisco Evolved Programmable Network Manager (EPNM) due to improper authorization checks on a REST API endpoint of an affected device. An attacker could exploit this vulnerability by querying the affected endpoint.
+Successful exploitation of this vulnerability could allow the attacker to view session information of active Cisco EPNM users, including users with administrative privileges on the targeted system.
+4. Privilege Escalation Vulnerability
+(
+CVE-2026-20151
+)
+This vulnerability exists in web interface of Cisco Smart Software Manager On-Prem (SSM On-Prem) due to the improper transmission of sensitive user information. An attacker could exploit this vulnerability by sending a crafted message to an affected Cisco SSM On-Prem host and retrieving session credentials from subsequent status messages.
+Successful exploitation of this vulnerability could allow the attacker to elevate privileges on the targeted system.
+5. Command Injection and Remote Code Execution Vulnerabilities
+(
+CVE-2026-20094
+CVE-2026-20095
+CVE-2026-20096
+CVE-2026-20097
+)
+Multiple vulnerabilities exist in the web-based management interface of Cisco Integrated Management Controller (IMC) due to improper validation of user-supplied input. An attacker could exploit these vulnerabilities by sending a specially crafted request on the targeted system.
+Successful exploitation of these vulnerabilities could allow the attacker to execute arbitrary commands on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in CISCO advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ssm-cli-execution-cHUcWuNr
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-bypass-AgG2BxTn
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-epnm-improp-auth-mUwFWUU3
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cssm-priv-esc-xRAnOuO8
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-3hKN3bVt
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ssm-cli-execution-cHUcWuNr
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-bypass-AgG2BxTn
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-epnm-improp-auth-mUwFWUU3
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cssm-priv-esc-xRAnOuO8
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-3hKN3bVt
+CVE Name
+CVE-2026-20160
+CVE-2026-20093
+CVE-2026-20155
+CVE-2026-20151
+CVE-2026-20094
+CVE-2026-20095
+CVE-2026-20096
+CVE-2026-20097
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-15 11:54:10
+6f79634573a26a02,CERT-In Advisory   CIAD-2026-0017,"April 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0017,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0017
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: April     15, 2026
+Severity Rating: Critical
+Software Affected
+Microsoft Windows
+Microsoft Office
+Microsoft Dynamics
+Developer Tools
+SQL Server
+System Center
+Extended Security Updates (ESU) for legacy Microsoft products
+Azure
+Overview
+Multiple vulnerabilities have been reported in Microsoft products that could allow an attacker to gain elevated privileges, obtain sensitive information, execute arbitrary code remotely, bypass security restrictions, conduct spoofing attacks, perform tampering of data or system processes, or cause denial-of-service (DoS) conditions.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating Microsoft products.
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure.
+Impact Assessment:
+Potential compromise of system, exfiltration of data, ransomware attacks or system crashes.
+Description
+Multiple vulnerabilities have been reported in Microsoft products that could allow an attacker to gain elevated privileges, obtain sensitive information, execute arbitrary code remotely, bypass security restrictions, conduct spoofing attacks, perform tampering of data or system processes, or cause denial-of-service (DoS) conditions.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Microsoft security updates.
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Apr
+Solution
+Apply appropriate security updates as mentioned in
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Apr
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/
+References
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Apr
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-15 11:54:10
+1d017a485fd13704,CERT-In Advisory   CIAD-2026-0016,"April 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0016,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0016
+Multiple Vulnerabilities in SAP Products
+Original Issue Date: April     14, 2026
+Severity Rating: Critical
+Software Affected
+SAP S/4HANA (On-Premise and Private Cloud)
+Material Master Application
+SAP S4CORE (Manage Journal Entries)
+SAP S/4HANA OData Service
+SAP ERP
+SAP Business Planning and Consolidation (BPC) and SAP Business Warehouse (BW)
+SAP BusinessObjects Business Intelligence Platform
+SAP Human Capital Management (SAP S/4HANA)
+SAP Business Analytics and SAP Content Management
+SAP Supplier Relationship Management (SRM Server)
+SAP HANA Platform components (HANA Cockpit and HANA Database Explorer)
+SAP NetWeaver Application Server (ABAP and Java) including Web Dynpro
+SAP Landscape Transformation
+Overview
+Multiple vulnerabilities have been reported in SAP products which could allow an attacker to perform SQL injection, code injection, cross-site scripting (XSS), open redirect attacks, information disclosure, and bypass authorization checks, or execute arbitrary commands and cause denial of service (DoS) conditions on the targeted system.
+Target Audience:
+SAP administrators, SAP security and IT infrastructure teams, and application developers managing or supporting affected SAP systems.
+Risk Assessment:
+High risk of unauthorized access, data manipulation, service disruption, and redirection of users to malicious resources.
+Impact Assessment:
+Potential remote code execution, data compromise, and system takeover.
+Description
+Multiple vulnerabilities have been reported in SAP products; Details of which are provided below:
+Solution
+Apply appropriate fixes as mentioned in SAP Security Advisory:
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/april-2026.html
+Vendor Information
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/april-2026.html
+References
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/april-2026.html
+CVE Name
+CVE-2026-27681
+CVE-2026-34256
+CVE-2025-64775
+CVE-2026-34264
+CVE-2026-34261
+CVE-2026-27677
+CVE-2026-27678
+CVE-2026-27679
+CVE-2026-0512
+CVE-2026-27674
+CVE-2026-34257
+CVE-2026-34262
+CVE-2026-27673
+CVE-2026-27672
+CVE-2026-27676
+CVE-2025-42899
+CVE-2026-24318
+CVE-2026-27683
+CVE-2026-27680
+CVE-2026-27675
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-15 11:54:10
