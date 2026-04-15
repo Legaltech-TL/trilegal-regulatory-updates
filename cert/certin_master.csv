@@ -5370,3 +5370,43 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-13 12:00:39
+992e8821c41b548c,CERT-In Vulnerability Note  CIVN-2026-0184,"April 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0184,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0184
+Arbitrary File Upload Vulnerability in Ninja Forms - File Uploads plugin for WordPress
+Original Issue Date:April     15, 2026
+Severity Rating: CRITICAL
+Software Affected
+Ninja Forms - File Uploads plugin for WordPress prior to 3.3.27
+Overview
+A critical vulnerability has been identified in the Ninja Forms ¿ File Uploads plugin for WordPress. The flaw allows unauthenticated attackers to upload arbitrary files, potentially leading to remote code execution on the affected server.
+Target Audience:
+Website administrators, developers, and organizations using WordPress with the Ninja Forms - File Uploads plugin installed.
+Risk Assessment:
+Critical risk due to the possibility of unauthenticated remote code execution.
+Impact Assessment:
+Remote code execution, unauthorized access, and data manipulation.
+Description
+Ninja Forms is a widely used WordPress plugin for creating forms, with an extension for handling file uploads.
+The vulnerability (CVE-2026-0740) exists due to missing file type validation in the function:NF_FU_AJAX_Controllers_Uploads::handle_upload.
+This flaw affects all versions up to and including 3.3.26. Due to insufficient validation of uploaded files, an unauthenticated attacker can upload arbitrary files (including executable scripts) to the server.
+Solution
+Apply appropriate security updates as mentioned in ninja-forms-uploads Security Updates:
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/ninja-forms-uploads/ninja-forms-file-upload-3326-unauthenticated-arbitrary-file-upload
+Vendor Information
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/ninja-forms-uploads/ninja-forms-file-upload-3326-unauthenticated-arbitrary-file-upload
+References
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/ninja-forms-uploads/ninja-forms-file-upload-3326-unauthenticated-arbitrary-file-upload
+CVE Name
+CVE-2026-0740
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-15 06:09:34
