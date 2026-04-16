@@ -5663,3 +5663,55 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-15 11:54:10
+50ae416b272dfbd5,CERT-In Vulnerability Note  CIVN-2026-0187,"April 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0187,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0187
+Multiple Vulnerabilities in Juniper Junos OS
+Original Issue Date:April     16, 2026
+Severity Rating: HIGH
+Software Affected
+Junos OS Evolved on PTX Series:
+all versions before 22.4R3-S9-EVO
+23.2 versions before 23.2R2-S6-EVO
+23.4 versions before 23.4R2-S7-EVO
+24.2 versions before 24.2R2-S4-EVO
+24.4 versions before 24.4R2-S2-EVO
+25.2 versions before 25.2R1-S2-EVO, 25.2R2-EVO.
+Junos OS:
+all versions before 22.4R3-S1
+23.2 versions before 23.2R2
+23.4 versions before 23.4R2.
+Overview
+Multiple vulnerabilities have been reported in Juniper Junos OS which could allow an attacker to gain elevated privileges or cause denial-of-service (DoS) on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Juniper Junos OS.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+Juniper Junos OS is a network operating system used in Juniper Networks routers, switches, and security devices.
+These vulnerabilities exist in Juniper Junos OS due to an incorrect argument type handling in the sensor interface of Junos OS Evolved on PTX Series devices and improper memory management (failure to release memory after use) in the jdhcpd daemon on Junos OS (MX Series). A remote attacker could exploit these vulnerabilities by persuading a specially crafted request to gain elevated privileges on the targeted system.
+Successful exploitation of these vulnerabilities could allow an unauthenticated attacker to gain elevated privileges or cause denial-of-service (DoS) on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor
+Vendor Information
+Juniper Junos OS
+https://supportportal.juniper.net/s/article/2026-04-Security-Bulletin-Junos-OS-Evolved-PTX-Series-If-SRTE-tunnels-provisioned-via-PCEP-are-present-and-specific-gRPC-queries-are-received-evo-aftman-crashes-CVE-2026-33783
+References
+Juniper Junos OS
+https://supportportal.juniper.net/s/article/2026-04-Security-Bulletin-Junos-OS-Evolved-PTX-Series-If-SRTE-tunnels-provisioned-via-PCEP-are-present-and-specific-gRPC-queries-are-received-evo-aftman-crashes-CVE-2026-33783
+CVE Name
+CVE-2026-33782
+CVE-2026-33783
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-16 06:13:31
