@@ -3239,3 +3239,21 @@
 2026-04-15 10:11:46,845 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-04-15 10:11:49,907 | INFO | Total entries collected: 23
 2026-04-15 10:11:49,916 | INFO | No new entries found
+2026-04-16 05:32:48,103 | INFO | Opening NPCI page
+2026-04-16 05:33:12,861 | INFO | Attempting Press Releases scrape (2026)
+2026-04-16 05:33:12,880 | INFO | Press Releases 2026: 6 rows found
+2026-04-16 05:33:12,890 | INFO | [press_release] NBSL Press Release_BHIM Payments App Introduces Biometric Authentication for UPI Payments on Android and IOS
+2026-04-16 05:33:15,935 | INFO | [press_release] NBSL Press Release - BHIM Payments App Announces MS Dhoni as Brand Ambassador
+2026-04-16 05:33:18,977 | INFO | [press_release] NPCI Advances India’s Sovereign AI Infrastructure for Digital Payments With NVIDIA
+2026-04-16 05:33:22,010 | INFO | [press_release] NPCI Press Release - NPCI announces FiMI, a domain-specific AI language Model built for India’s payments ecosystem
+2026-04-16 05:33:25,044 | INFO | [press_release] NPCI Press Release - NPCI Extends ‘UPI One World’ Wallet Service to International Delegates at the India AI Impact Summit 2026
+2026-04-16 05:33:28,077 | INFO | [press_release] NBSL Press Release - NBSL and Canara Bank partner to power UPI payments
+2026-04-16 05:33:31,102 | INFO | Switching Press Releases year to 2025
+2026-04-16 05:34:03,643 | WARNING | Press Releases 2025 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("li.circulars-cell-container div.circulars-cell p") to be visible
+
+2026-04-16 05:34:03,643 | INFO | Switching to Media Coverage tab
+2026-04-16 05:34:33,645 | WARNING | Media Coverage tab not available
+2026-04-16 05:34:33,677 | INFO | Total entries collected: 6
+2026-04-16 05:34:33,685 | INFO | No new entries found
