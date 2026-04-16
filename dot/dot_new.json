@@ -1,22 +1,14 @@
 {
-  "generated_at": "2026-04-15T10:15:36.800163",
-  "count": 2,
+  "generated_at": "2026-04-16T05:30:22.660738",
+  "count": 1,
   "items": [
     {
-      "id": "c1c0b963fb671201",
-      "title": "Inviting applications form SAG officers of ITS Group A on secondment basis for Head, ITU Area office and Innovation Centre for South Asia, New Delhi",
+      "id": "894b33768b247542",
+      "title": "DoT and SEBI Sign MoU to Strengthen Fight Against Telecom-Linked Financial Frauds",
       "publish_date": "04/15/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e9662971635d8c92a0535ce8535123ca.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/15/2026"
-    },
-    {
-      "id": "c1c0b963fb671201",
-      "title": "Inviting applications form SAG officers of ITS Group A on secondment basis for Head, ITU Area office and Innovation Centre for South Asia, New Delhi",
-      "publish_date": "04/15/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e9662971635d8c92a0535ce8535123ca.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/15/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/44d0101276df3d4250b6fa9af509e5a9.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "04/16/2026"
     }
   ]
 }
