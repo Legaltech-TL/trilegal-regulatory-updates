@@ -3289,3 +3289,17 @@ Call log:
 2026-04-16 10:11:14,325 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-04-16 10:11:17,399 | INFO | Total entries collected: 23
 2026-04-16 10:11:17,409 | INFO | No new entries found
+2026-04-17 05:29:23,496 | INFO | Opening NPCI page
+2026-04-17 05:29:29,094 | INFO | Attempting Press Releases scrape (2026)
+2026-04-17 05:29:29,110 | INFO | Press Releases 2026: 1 rows found
+2026-04-17 05:29:29,119 | INFO | [press_release] NBSL Press Release - NBSL and Canara Bank partner to power UPI payments
+2026-04-17 05:29:32,158 | WARNING | No PDF or image asset captured
+2026-04-17 05:29:32,158 | INFO | Switching Press Releases year to 2025
+2026-04-17 05:30:04,698 | WARNING | Press Releases 2025 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("li.circulars-cell-container div.circulars-cell p") to be visible
+
+2026-04-17 05:30:04,698 | INFO | Switching to Media Coverage tab
+2026-04-17 05:30:34,700 | WARNING | Media Coverage tab not available
+2026-04-17 05:30:34,730 | INFO | Total entries collected: 0
+2026-04-17 05:30:34,740 | INFO | No new entries found
