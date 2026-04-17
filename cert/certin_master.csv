@@ -6079,3 +6079,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-17 09:04:52
+60aebddab0350253,CERT-In Vulnerability Note  CIVN-2026-0195,"April 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0195,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0195
+Remote Code Execution Vulnerability in ShowDoc
+Original Issue Date:April     17, 2026
+Severity Rating: CRITICAL
+Software Affected
+ShowDoc versions prior to 2.8.7
+Overview
+Remote Code Execution vulnerability has been identified in ShowDoc which could allow a remote attacker to upload arbitrary files on the targeted system.
+Target Audience:
+All end-user organizations and individuals using ShowDoc.
+Risk Assessment:
+High risk of remote code execution, unauthorized access and complete system compromise.
+Impact Assessment:
+Potential for full system takeover, unauthorized access, remote code execution.
+Description
+ShowDoc is an open-source web-based document management and collaboration service.
+Remote Code Execution vulnerability exists in ShowDoc due to unrestricted file upload that stems from improper validation of file extension, which could allow an attacker to upload arbitrary PHP files and achieve remote code execution on the server with specially crafted requests.
+Successful exploitation of this vulnerability could allow a remote attacker to gain unauthorized access and/or execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
+Vendor Information
+ShowDoc
+https://www.showdoc.com.cn/help-en/16882
+References
+ShowDoc
+https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
+CVE Name
+CVE-2025-0520
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-17 11:47:59
