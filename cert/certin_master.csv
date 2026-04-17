@@ -5978,3 +5978,104 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-17 06:13:58
+f1f9706464bf7476,CERT-In Vulnerability Note  CIVN-2026-0194,"April 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0194,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0194
+Multiple Vulnerabilities in Mozilla Products
+Original Issue Date:April     17, 2026
+Severity Rating: HIGH
+Software Affected
+Mozilla Firefox versions prior to 149.0.2
+Mozilla Firefox ESR versions prior to 140.9.1
+Mozilla Firefox ESR versions prior to 115.34.1
+Mozilla Thunderbird versions prior to 149.0.2
+Mozilla Thunderbird ESR versions prior to 140.9.1
+Overview
+Multiple vulnerabilities have been reported in Mozilla products which could allow a remote attacker to execute arbitrary code, cause a denial-of-service (DoS) condition, or gain unauthorized access to sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Mozilla Firefox and Thunderbird products.
+Risk Assessment:
+High risk of remote system compromise and unauthorized data access.
+Impact Assessment:
+Potential for remote code execution (RCE), system instability leading to denial-of-service, and the disclosure of sensitive user information.
+Description
+Multiple vulnerabilities exist in Mozilla products due to memory safety bugs; incorrect boundary conditions; integer overflows in the graphics: Text component. A remote attacker could exploit these vulnerabilities by enticing a victim to visit a specially crafted website.
+Successful exploitation could allow a remote attacker to execute arbitrary code, cause a denial-of-service (DoS) condition, or gain unauthorized access to sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-25/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-26/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-27/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-28/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-29/
+Vendor Information
+Mozilla
+https://www.mozilla.org/
+References
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-25/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-26/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-27/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-28/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-29/
+CVE Name
+CVE-2026-5731
+CVE-2026-5732
+CVE-2026-5733
+CVE-2026-5734
+CVE-2026-5735
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-17 09:04:52
+78b42344abdb52b5,CERT-In Vulnerability Note  CIVN-2026-0193,"April 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0193,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0193
+Arbitrary Code injection Vulnerability in Apache ActiveMQ Classic
+Original Issue Date:April     17, 2026
+Severity Rating: HIGH
+Software Affected
+Apache ActiveMQ Broker versions prior to 5.19.4
+Apache ActiveMQ Broker versions 6.0.0 to 6.2.3
+Apache ActiveMQ (activemq-all) versions prior to 5.19.4
+Apache ActiveMQ (activemq-all) versions 6.0.0 to 6.2.3
+Overview
+A vulnerability has been reported in Apache ActiveMQ Classic which could allow an authenticated attacker to execute arbitrary code on the targeted system.
+Target Audience:
+Individuals and end-user organizations using affected Apache ActiveMQ.
+Risk Assessment:
+High risk of arbitrary remote code execution, sensitive data disclosure, lateral movement and service disruptions.
+Impact Assessment:
+Potential for complete system compromise, unauthorized access, and execution of malicious commands.
+Description
+Apache ActiveMQ is an open-source message broker that supports messaging protocols such as JMS and is widely used in enterprise integration.
+This vulnerability exists in Apache ActiveMQ due to improper input validation and unsafe handling of code execution through the Jolokia endpoint exposed at /api/jolokia/. An authenticated attacker could exploit this vulnerability by invoking these methods with a specially crafted discovery URI.
+Successful exploitation of this vulnerability could allow an authenticated attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt
+Vendor Information
+Apache ActiveMQ
+https://activemq.apache.org/
+References
+Apache ActiveMQ
+https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt
+CVE Name
+CVE-2026-34197
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-17 09:04:52
