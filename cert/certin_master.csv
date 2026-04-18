@@ -6121,3 +6121,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-17 11:47:59
+b5aa2f380364db8f,CERT-In Vulnerability Note  CIVN-2026-0196,"April 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0196,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0196
+Privilege Escalation Vulnerability in Microsoft Defender
+Original Issue Date:April     17, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Defender Antimalware Platform version 4.18.26020.6 and below.
+Overview
+A vulnerability has been identified in Microsoft Defender which could allow an authenticated local attacker to gain elevated privileges on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Microsoft Defender.
+Risk Assessment:
+High risk of privilege escalation, unauthorized administrative access, and potential system compromise.
+Impact Assessment:
+Elevation of privileges, unauthorized administrative access, and potential full SYSTEM-level compromise.
+Description
+Microsoft Defender is a security component of Microsoft Windows that provides protection against malware and other threats.
+This vulnerability exists in Microsoft Defender due to insufficient granularity of access control. An authenticated local attacker could exploit this vulnerability by performing specially crafted operations on the targeted system.
+Successful exploitation of this vulnerability could allow an authenticated local attacker to gain elevated privileges on the targeted system.
+Solution
+Users are advised to apply appropriate updates as provided by the vendor:
+https://msrc.microsoft.com/update-guide
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33825
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33825
+https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/
+CVE Name
+CVE-2026-33825
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-18 05:50:12
