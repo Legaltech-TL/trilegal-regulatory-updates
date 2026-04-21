@@ -6297,3 +6297,75 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-21 06:13:45
+010d0aa2ca5a6b4a,CERT-In Vulnerability Note  CIVN-2026-0200,"April 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0200,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0200
+Multiple Vulnerabilities in Quantum Networks Router
+Original Issue Date:April     21, 2026
+Severity Rating: HIGH
+Systems Affected
+Quantum Networks Router QN-I-470 - Firmware version 6.1.1.B1
+Overview
+Multiple vulnerabilities have been reported in the Quantum Networks router, which could allow an attacker to execute arbitrary code, perform brute-force attacks, gain unauthorized administrative access or access sensitive information on the targeted device.
+Target Audience:
+End-users/ Administrators of Quantum Networks router
+Risk Assessment:
+Risk of remote code execution, brute-force attack, unauthorized administrative access and potential sensitive information.
+Impact Assessment:
+Potential for remote code execution, information disclosure and device compromise.
+Description
+The Quantum Networks Router QN-I-470 is a dual-band Wi-Fi 6 (802.11ax) indoor access point designed to provide wireless network connectivity.
+1. Command Injection Vulnerability
+(
+CVE-2026-41036
+)
+This vulnerability exists in Quantum Networks router due to inadequate sanitization of user-supplied input in the management CLI interface. An authenticated remote attacker could exploit this vulnerability by injecting arbitrary OS commands on the targeted device.
+Successful exploitation of this vulnerability could allow the attacker to perform remote code execution with root privileges on the targeted device.
+2. Missing Rate Limiting Vulnerability
+(
+CVE-2026-41037
+)
+This vulnerability exists in Quantum Networks router due missing rate limiting and captcha protection for failed login attempts in the web management interface. An attacker on the same network could exploit this vulnerability by performing brute force attacks against the administrative account on the targeted device to gain unauthorized access with root privileges.
+3. Weak Password Policy Vulnerability
+(
+CVE-2026-41038
+)
+This vulnerability exists in Quantum Networks router due to lack of enforcement of strong password policies in the web management interface. An attacker on the same network could exploit this vulnerability by performing password guessing or brute-force attacks against user accounts on the targeted device.
+Successful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the targeted device.
+4. Information Disclosure Vulnerability
+(
+CVE-2026-41039
+)
+This vulnerability exists in Quantum Networks router due to improper access control and insecure default configuration in the web management interface. An unauthenticated attacker could exploit this vulnerability by accessing exposed API endpoints on the targeted device.
+Successful exploitation of this vulnerability could allow the attacker to access sensitive information, including internal endpoints, scripts and directories on the targeted device.
+Credits
+These vulnerabilities are reported by the following team of security researchers:
+Rakesh Elamaran, Karthik D, Mir Mohammed Kaif, Joel William, Bajino Viju and Kalpana B N (CVE-2026-41036)
+Rakesh Elamaran, Stalin S, Janish Andrin J, Kali Vignesh SM, Arkino Robilin R and Kalpana B N (CVE-2026-41037)
+Rakesh Elamaran, Praveen S, Vignesh T, Shervin Bruce, Infant Raj R and Kalpana B N (CVE-2026-41038)
+Rakesh Elamaran, Joel William A, Bajino Viju, Stalin S, Janish Andrin J and Kalpana B N  (CVE-2026-41039)
+Solution
+Upgrade Quantum Networks Router QN-I-470 to latest firmware version 7.5.4.B9:
+https://www.qntmnet.com/wp-content/uploads/2026/04/QN-I-470-7.5.4.B9.qntm?ver=1775552129
+Vendor Information
+Quantum Networks
+https://www.qntmnet.com/wp-content/uploads/2026/04/QN-I-470-7.5.4.B9.qntm?ver=1775552129
+References
+Quantum Networks
+https://www.qntmnet.com/wp-content/uploads/2026/04/QN-I-470-7.5.4.B9.qntm?ver=1775552129
+CVE Name
+CVE-2026-41036
+CVE-2026-41037
+CVE-2026-41038
+CVE-2026-41039
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-21 11:57:39
