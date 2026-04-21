@@ -6257,3 +6257,43 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-20 06:27:04
+8b70a4e5e8818d52,CERT-In Vulnerability Note  CIVN-2026-0199,"April 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0199,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0199
+Certificate Validation Vulnerability in Cisco Webex Services
+Original Issue Date:April     21, 2026
+Severity Rating: CRITICAL
+Software Affected
+Cisco Webex Services configured with SSO integration via Control Hub
+Overview
+A vulnerability has been reported in the certificate validation mechanism of Cisco Webex Services which could allow an unauthenticated, remote attacker to impersonate legitimate users and gain unauthorized access to Webex services of the targeted user.
+Target Audience:
+All IT administrators and individuals responsible for managing Cisco Webex environments, particularly those using Single Sign-On (SSO) integration with Control Hub.
+Risk Assessment:
+High risk of unauthorized access and potential compromise of enterprise communication systems.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+This vulnerability exists due to improper certificate validation within the Single Sign-On (SSO) implementation of Cisco Webex Services. An attacker could exploit this vulnerability by supplying a forged or untrusted certificate during the authentication exchange, allowing them to bypass identity verification controls.
+Successful exploitation of this vulnerability could allow an attacker to impersonate legitimate users and gain unauthorized access to Webex services of the targeted user.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-cui-cert-8jSZYhWL
+Vendor Information
+CISCO
+https://www.cisco.com/
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-cui-cert-8jSZYhWL
+CVE Name
+CVE-2026-20184
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-21 06:13:45
