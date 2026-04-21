@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-04-21T05:27:23.339773",
-  "count": 2,
-  "items": [
-    {
-      "id": "14fc5c027a2e02dd",
-      "title": "CS COMM 319 of 2026 in the Honble High Court of Delhi: DoT instructions dated 20-04-2026 to ISPs",
-      "publish_date": "04/20/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b3dbf050dfd16359977e779dc77e9208.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/21/2026"
-    },
-    {
-      "id": "565bdc85f6980c84",
-      "title": "Allocation of Short Code '1076' as CM helpline, Chhattisgarh Statereg",
-      "publish_date": "04/20/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/133dc81852a7391e4c8f5d696465be95.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/21/2026"
-    }
-  ]
+  "generated_at": "2026-04-21T07:26:57.750978",
+  "count": 0,
+  "items": []
 }
