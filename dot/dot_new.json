@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-04-22T10:18:20.930447",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-23T05:30:53.233164",
+  "count": 3,
+  "items": [
+    {
+      "id": "c8d32076355d69e5",
+      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 21.04.2026 to ISPs",
+      "publish_date": "04/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b49e811860d04d1b093a34e2ef9e00ce.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/23/2026"
+    },
+    {
+      "id": "c8d32076355d69e5",
+      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 21.04.2026 to ISPs",
+      "publish_date": "04/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b49e811860d04d1b093a34e2ef9e00ce.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/23/2026"
+    },
+    {
+      "id": "cc5ba0e10a30dd90",
+      "title": "Union Minister Shri Jyotiraditya M. Scindia releases revised guidelines for Technology Development and Investment Promotion (TDIP) Scheme to strengthen India\u2019s global telecom footprint",
+      "publish_date": "04/22/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4e708c85c8a8b82b89c985fd663e6c52.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "04/23/2026"
+    }
+  ]
 }
