@@ -1,3 +1,16 @@
 {
-  "new_items": []
+  "new_items": [
+    {
+      "faq_id": "177",
+      "title_text": "Apr 23, 2026 FAQs on Authorisation Process",
+      "published_date": "2026-04-23",
+      "category": "Payment and Settlement System",
+      "url": "https://rbi.org.in/Scripts/FAQDisplay.aspx?Id=177",
+      "pdf_link": "https://rbidocs.rbi.org.in/rdocs/faqs/PDFs/AUTHORISATION23042026.PDF",
+      "last_updated": "2026-04-23T12:13:32.445968",
+      "full_text": "",
+      "pdf_filename": "177_apr_23_2026_faqs_on_authorisation_process.PDF",
+      "scraped_at": "2026-04-23T12:13:32.445968"
+    }
+  ]
 }
