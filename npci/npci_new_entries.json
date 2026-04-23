@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "aae0d4dc5fe28269913ff7ff6c0c5a46ea5153e0",
+    "section": "press_release",
+    "title": "NBSL Press release - BHIM Payments App, Bharat Ka Apna Payments App Collaborates with Sony Entertainment Television to launch an exclusive \u2018Golden Week\u2019 in Kaun Banega Crorepati",
+    "asset_link": "https://www.npci.org.in/uploads/NPCI_announces_Fi_MI_a_domain_specific_AI_language_Model_built_for_India_s_payments_ecosystem_fce0d71c70.pdf",
+    "filename": "NPCI_announces_Fi_MI_a_domain_specific_AI_language_Model_built_for_India_s_payments_ecosystem_fce0d71c70.pdf",
+    "scraped_at": "2026-04-23T05:33:13.119377"
+  },
+  {
+    "id": "0b583a6767863e519e0453dad25f74c93c20521f",
+    "section": "media_coverage",
+    "title": "26-11 UPI Circle to net new users BHIM chief",
+    "asset_link": "https://www.npci.org.in/uploads/NBSL_Press_Release_BHIM_goes_live_with_UPI_Circle_Full_Delegation_a95f4b40b5.pdf",
+    "filename": "NBSL_Press_Release_BHIM_goes_live_with_UPI_Circle_Full_Delegation_a95f4b40b5.pdf",
+    "scraped_at": "2026-04-23T05:33:26.086880"
+  }
+]
