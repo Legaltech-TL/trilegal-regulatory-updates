@@ -6369,3 +6369,165 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-21 11:57:39
+ec855b2f2dc3aa1d,CERT-In Vulnerability Note  CIVN-2026-0202,"April 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0202,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0202
+Multiple Vulnerabilities in Splunk Enterprise Products
+Original Issue Date:April     23, 2026
+Severity Rating: HIGH
+Software Affected
+Splunk Enterprise (Splunk Web) prior to version 10.2.1
+Splunk Enterprise (REST API) prior to version 10.2.2
+Splunk Enterprise (Splunk Web & REST API) prior to version 10.0.5
+Splunk Enterprise (Splunk Web & REST API) prior to version 9.4.10
+Splunk Enterprise (Splunk Web & REST API) prior to version 9.3.11
+Splunk Cloud Platform (Splunk Web) prior to version 10.3.2512.5
+Splunk Cloud Platform (REST API) prior to version 10.3.2512.6
+Splunk Cloud Platform (Splunk Web) prior to version 10.2.2510.9
+Splunk Cloud Platform (REST API) prior to version 10.2.2510.10
+Splunk Cloud Platform (Splunk Web) prior to version 10.1.2507.19
+Splunk Cloud Platform (REST API) prior to version 10.1.2507.20
+Splunk Cloud Platform (Splunk Web & REST API) prior to version 10.0.2503.13
+Splunk Cloud Platform (Splunk Web & REST API) prior to version 9.3.2411.127
+Splunk MCP Server prior to version 1.0.3
+Overview
+Multiple vulnerabilities have been reported in Splunk products which could be exploited by an attacker to execute arbitrary code, gain access to sensitive information, or perform unauthorized actions on the targeted system.
+Target Audience:
+Organizations and individuals using Splunk Enterprise, Splunk Cloud Platform, and Splunk MCP Server.
+Risk Assessment:
+Potential for complete system compromise.
+Impact Assessment:
+High risk of information disclosure, privilege misuse, and full system compromise.
+Description
+Splunk is a data analytics platform that collects, indexes, and analyzes machine-generated data to enable real-time monitoring, security insights, and operational intelligence.
+Multiple vulnerabilities have been reported in Splunk products due to improper access control, improper input validation, insecure handling of temporary files, and exposure of sensitive information in logs. An attacker could exploit these vulnerabilities by sending specially crafted requests to the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain access to sensitive information, or perform unauthorized actions on the targeted system.
+Solution
+Apply appropriate fixes issued by the vendor:
+https://advisory.splunk.com/advisories/SVD-2026-0401
+https://advisory.splunk.com/advisories/SVD-2026-0402
+https://advisory.splunk.com/advisories/SVD-2026-0403
+https://advisory.splunk.com/advisories/SVD-2026-0407
+Vendor Information
+Splunk
+https://advisory.splunk.com/
+References
+Splunk
+https://advisory.splunk.com/advisories/SVD-2026-0401
+https://advisory.splunk.com/advisories/SVD-2026-0402
+https://advisory.splunk.com/advisories/SVD-2026-0403
+https://advisory.splunk.com/advisories/SVD-2026-0407
+CVE Name
+CVE-2026-20202
+CVE-2026-20203
+CVE-2026-20204
+CVE-2026-20205
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-23 06:17:19
+d344522becaa9530,CERT-In Vulnerability Note  CIVN-2026-0201,"April 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0201,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0201
+Multiple Vulnerabilities in Drupal
+Original Issue Date:April     22, 2026
+Severity Rating: HIGH
+Software Affected
+Drupal Core versions from 8.0.0 to prior to 10.5.9
+Drupal Core versions from 10.6.0 to prior to 10.6.7
+Drupal Core versions from 11.0.0 to prior to 11.2.11
+Drupal Core versions from 11.3.0 to prior to 11.3.7
+Overview
+Multiple vulnerabilities have been reported in Drupal core which could allow an attacker to disclose sensitive information, escalate privileges, execute remote code and perform Cross-site Scripting (XSS) attacks on the targeted system.
+Target Audience:
+Individuals and end-user organizations using Drupal.
+Risk Assessment:
+High risk of unauthorized access, privilege escalation, persistent cross-site scripting (XSS), and account takeover.
+Impact Assessment:
+Potential for account compromise, data exposure, unauthorized access, execute remote code and gain elevated privileges.
+Description
+Drupal is an open-source, content management system (CMS) which allows individuals and organizations to create, manage and maintain websites and web applications.
+These vulnerabilities exist in a Drupal core due to insufficient sanitization of user-supplied data in jQuery integration for AJAX modal dialog boxes and gadget chain issue. An attacker could exploit these vulnerabilities by sending specially crafted inputs.
+Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, escalate privileges, execute remote code and perform Cross-site Scripting (XSS) attacks on the targeted system.
+Note: Drupal 11.1.x, Drupal 11.0.x, Drupal 10.4.x, and all prior releases have reached end-of-life and no longer receive security support. Drupal 8 and Drupal 9 have also reached end-of-life.
+Solution
+Upgrade to the latest versions as mentioned in the security advisories:
+https://www.drupal.org/sa-contrib-2026-001
+https://www.drupal.org/sa-core-2026-002
+https://www.drupal.org/sa-core-2026-003
+Vendor Information
+Drupal
+https://www.drupal.org
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-001
+https://www.drupal.org/sa-core-2026-002
+https://www.drupal.org/sa-core-2026-003
+CVE Name
+CVE-2026-6365
+CVE-2026-6366
+CVE-2026-6367
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-23 06:17:19
+173d165fd0abf88f,CERT-In Advisory   CIAD-2026-0019,"April 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0019,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0019
+Multiple Vulnerabilities in Oracle Products
+Original Issue Date: April     23, 2026
+Severity Rating: High
+Software Affected
+Oracle MySQL
+Java SE
+Oracle Database Server
+WebLogic Server
+VirtualBox
+For complete list of affected products refer to the oracle advisory:
+https://www.oracle.com/security-alerts/cpuapr2026.html
+Overview
+Multiple vulnerabilities have been reported in various Oracle products which could be exploited by a remote attacker to execute arbitrary code, gain elevated privileges, cause denial-of-service conditions, access sensitive information, manipulate data, or bypass security controls on the targeted system.
+Target Audience:
+Organizations and IT administrators using Oracle Corporation products.
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure.
+Impact Assessment:
+Potential unauthorized access to sensitive information, denial of service, data manipulation, and complete takeover of control of the target system.
+Description
+Oracle products are used for several applications including enterprise-level data management, cloud solutions, software development, and business applications. They are employed across a wide range of sectors, including finance, healthcare, manufacturing, government, and retail, among others.
+These vulnerabilities exist in various components of Oracle products due to improper input validation, insecure deserialization, access control weaknesses, and memory handling issues. Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain elevated privileges, cause denial-of-service conditions, access sensitive information, manipulate data, or bypass security controls on the targeted system.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the oracle advisory:
+https://www.oracle.com/security-alerts/cpuapr2026.html
+Solution
+Apply appropriate updates as mentioned in Oracle updates:
+https://www.oracle.com/security-alerts/cpujan2026.html
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/cpujan2026.html
+References
+https://www.oracle.com/security-alerts/cpujan2026.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-23 06:17:19
