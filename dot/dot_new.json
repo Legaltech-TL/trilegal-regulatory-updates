@@ -1,5 +1,182 @@
 {
-  "generated_at": "2026-04-23T07:29:07.075819",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-24T05:37:39.886577",
+  "count": 22,
+  "items": [
+    {
+      "id": "f08a7015a7c581f0",
+      "title": "Completion of APAR linked Mandatory Courses and Comprehensive Assessment on iGOT Karmayogi portal",
+      "publish_date": "04/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/d4c8e7069453cd0f0bc39d533a4a215b.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "b4be8b84c5dd4d77",
+      "title": "Press Releases",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/press-releases-YDMyATNtQWa?pageTitle=Press-Releases",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "95cff34d72054f1c",
+      "title": "List of Access Service Licences Issued",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/list-of-access-service-licences-issued-MDMyATNtQWa?pageTitle=List-of-Access-Service-Licences-Issued",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "eb476b0e09ba2f4e",
+      "title": "Public Notices",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/8f871464fad703d5d6e440c240f220c2.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "a01e31c3fecb2777",
+      "title": "Allotment of MSC Codes",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/allotment-of-msc-codes-ATOxATNtQWa?pageTitle=Allotment-of-MSC-Codes",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "35df48395b069bd8",
+      "title": "Allotment of Shortcodes",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/allotment-of-shortcodes-cDOxATNtQWa?pageTitle=Allotment-of-Shortcodes",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "ede93adf867553e0",
+      "title": "Instructions for Access Service Licences",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/instructions-for-access-service-licences-QDOxATNtQWa?pageTitle=Instructions-for-Access-Service-Licences",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "59b46f86a6e4891c",
+      "title": "Amendments to Access Service Licences",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/amendments-to-access-service-licences-EDOxATNtQWa?pageTitle=Amendments-to-Access-Service-Licences",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "865284bd587bc9ba",
+      "title": "Guidelines for Access Services Licences",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/10592b42b5d5b673ce6bd767b71abcad.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "7216ec48fd0c3876",
+      "title": "National Numbering Plan - 2003",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/64638bb7d6643bd27a863b1909280c21.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "2d7ebad42114e310",
+      "title": "EMF Radiation Unit",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/emf-radiation-unit-EjNxATNtQWa?pageTitle=EMF-Radiation-Unit",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "f08a7015a7c581f0",
+      "title": "Completion of APAR linked Mandatory Courses and Comprehensive Assessment on iGOT Karmayogi portal",
+      "publish_date": "04/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/d4c8e7069453cd0f0bc39d533a4a215b.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "80b5e456e809ae71",
+      "title": "Press Releases",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/press-releases-YDMyATNtQWa?pageTitle=Press-Releases",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "f2af9d9a2f739539",
+      "title": "List of Access Service Licences Issued",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/list-of-access-service-licences-issued-MDMyATNtQWa?pageTitle=List-of-Access-Service-Licences-Issued",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "eb476b0e09ba2f4e",
+      "title": "Public Notices",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/8f871464fad703d5d6e440c240f220c2.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "da07925a00937de8",
+      "title": "Allotment of MSC Codes",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/allotment-of-msc-codes-ATOxATNtQWa?pageTitle=Allotment-of-MSC-Codes",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "1873b87b0d99d7b0",
+      "title": "Allotment of Shortcodes",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/allotment-of-shortcodes-cDOxATNtQWa?pageTitle=Allotment-of-Shortcodes",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "63a0d94e35410bc3",
+      "title": "Instructions for Access Service Licences",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/instructions-for-access-service-licences-QDOxATNtQWa?pageTitle=Instructions-for-Access-Service-Licences",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "a6bdbdd98e05b3a9",
+      "title": "Amendments to Access Service Licences",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/amendments-to-access-service-licences-EDOxATNtQWa?pageTitle=Amendments-to-Access-Service-Licences",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "865284bd587bc9ba",
+      "title": "Guidelines for Access Services Licences",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/10592b42b5d5b673ce6bd767b71abcad.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "7216ec48fd0c3876",
+      "title": "National Numbering Plan - 2003",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/64638bb7d6643bd27a863b1909280c21.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "b2e8352e9b243ef1",
+      "title": "EMF Radiation Unit",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/emf-radiation-unit-EjNxATNtQWa?pageTitle=EMF-Radiation-Unit",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    }
+  ]
 }
