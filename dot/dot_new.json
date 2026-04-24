@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-04-24T07:34:18.668966",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-24T10:26:01.327042",
+  "count": 3,
+  "items": [
+    {
+      "id": "aa479ab51d60b80f",
+      "title": "Change in the mapping of Short Code 1916 allocated as a helpline to Bangalore Water Supply and Sewerage Board -reg.",
+      "publish_date": "04/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/86eff0d55a21f008033cd75e26c90351.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "036c3829efd4a0f3",
+      "title": "Allocation of M2M numbering series to M/s Bharti Airtel Limited for Uttar Pradesh (East) LSA.",
+      "publish_date": "04/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e57e9dd289026b7fabc3044c54753326.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    },
+    {
+      "id": "aa479ab51d60b80f",
+      "title": "Change in the mapping of Short Code 1916 allocated as a helpline to Bangalore Water Supply and Sewerage Board -reg.",
+      "publish_date": "04/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/86eff0d55a21f008033cd75e26c90351.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/24/2026"
+    }
+  ]
 }
