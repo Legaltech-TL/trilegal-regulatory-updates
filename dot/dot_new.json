@@ -1,30 +1,38 @@
 {
-  "generated_at": "2026-04-24T10:26:01.327042",
-  "count": 3,
+  "generated_at": "2026-04-25T07:09:08.165924",
+  "count": 4,
   "items": [
     {
-      "id": "aa479ab51d60b80f",
-      "title": "Change in the mapping of Short Code 1916 allocated as a helpline to Bangalore Water Supply and Sewerage Board -reg.",
-      "publish_date": "04/23/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/86eff0d55a21f008033cd75e26c90351.pdf",
+      "id": "d77ebbc894148f4f",
+      "title": "GPF Ledger Card and Annual Statement for the F.Y 2025-2026",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/6440e392bf740b354e3a221482c3347b.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/24/2026"
+      "scraped_at": "04/25/2026"
     },
     {
-      "id": "036c3829efd4a0f3",
-      "title": "Allocation of M2M numbering series to M/s Bharti Airtel Limited for Uttar Pradesh (East) LSA.",
-      "publish_date": "04/23/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e57e9dd289026b7fabc3044c54753326.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/24/2026"
+      "id": "d035e7526cb4c1d1",
+      "title": "VRS Order in Manish Nigam[Staff No. 20457], ITS presently PGM, ITPC Pune, BSNL",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/3c843de57841ccbd25f6d4529db4342f.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/25/2026"
     },
     {
-      "id": "aa479ab51d60b80f",
-      "title": "Change in the mapping of Short Code 1916 allocated as a helpline to Bangalore Water Supply and Sewerage Board -reg.",
-      "publish_date": "04/23/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/86eff0d55a21f008033cd75e26c90351.pdf",
+      "id": "d77ebbc894148f4f",
+      "title": "GPF Ledger Card and Annual Statement for the F.Y 2025-2026",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/6440e392bf740b354e3a221482c3347b.pdf",
       "category": "REPORTS",
-      "scraped_at": "04/24/2026"
+      "scraped_at": "04/25/2026"
+    },
+    {
+      "id": "d035e7526cb4c1d1",
+      "title": "VRS Order in Manish Nigam[Staff No. 20457], ITS presently PGM, ITPC Pune, BSNL",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/3c843de57841ccbd25f6d4529db4342f.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/25/2026"
     }
   ]
 }
