@@ -6531,3 +6531,132 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-23 06:17:19
+40fb3b54cca7bb93,CERT-In Advisory   CIAD-2026-0020,"April 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0020,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0020
+Defending Against Frontier AI Driven Cyber Risks
+Original Issue Date: April     26, 2026
+Severity Rating: High
+Description
+Recent developments in frontier Artificial Intelligence (AI) systems indicate a significant increase in cyber capability maturity. Reported capabilities include the ability to autonomously discover security vulnerabilities in widely used software, analyse source code, plan and chain together multi stage attacks, and carry out simulations of compromising enterprise networks from end to end. These activities can be performed at a speed and scale that previously required teams of skilled human experts.
+Emerging frontier AI models could demonstrate cyber capabilities such as:
+Large-scale software analysis for identification of known and zero-day vulnerabilities across extensive codebases.
+Accelerated exploit development, including proof-of-concept generation for newly disclosed vulnerabilities.
+Automated reconnaissance against internet-facing infrastructure, APIs, cloud services and enterprise attack surfaces.
+Credential harvesting and attack-path discovery through automated enumeration.
+AI-generated phishing and impersonation attacks, including highly convincing multilingual social engineering content.
+Autonomous multi-stage attack orchestration, including privilege escalation and lateral movement planning.
+Rapid weaponization of vulnerabilities and adaptive exploitation workflows.
+It is likely that AI systems with such advanced cyber capabilities will continue to emerge and mature in near future. While they hold promise for defensive applications, their dual-use nature means organizations face heightened risks. Such capabilities could lower the barrier to entry for malicious cyber actors and be leveraged to accelerate attack execution, automate exploitation workflows and scale cyber campaigns.
+Risk Assessment:
+Heightened risk of automated, multi-stage and low-cost reconnaissance, vulnerability exploitation, credential compromise and social engineering campaigns targeting inadequately secured systems, services and individuals.
+Impact Assessment:
+Potential impacts include unauthorised access, service disruption, data exfiltration, identity compromise, financial fraud, impersonation, persistent compromise of operational environments, and cascading compromise of interconnected systems and services.
+Recommendations
+Keeping pace with frontier AI-driven cyber developments is critical for maintaining cyber resilience. Baseline cybersecurity controls remain critical and should be rigorously enforced.
+For Organisations:
+1. Heightened Vigilance and Extra Caution
+Maintain a posture of elevated alert. Increase the frequency of monitoring, threat detection and review of system logs by your security operations teams.
+Review and reduce internet-exposed attack surfaces by removing unnecessary internet-facing services, disabling unnecessary ports and protocols, and hardening perimeter-facing systems.
+Adjust your security monitoring tools to look for unusual or unusually fast activity that may indicate an AI-driven attack. Examples include rapid automated scanning, abnormal patterns of access requests, abuse of user credentials and unfamiliar scripts or commands running on systems.
+Enable DDoS protection on all internet-facing assets and validate configuration effectiveness.
+Subscribe to and act upon threat intelligence feeds, alerts and advisories from CERT-In.
+Treat every newly disclosed critical vulnerability in widely deployed software as something that could be exploited within hours, not weeks.
+2. Zero Trust Network Architecture (ZTNA)
+Apply Zero Trust principles by treating every access request as untrusted by default, granting users and systems only the minimum access they need to do their jobs, and assuming that a breach may already have occurred.
+Enforce Multi-Factor Authentication (MFA) across Internet facing assets, critical services, remote access gateways, third party integrations, and cloud management consoles. Implement Geo/IP allow-listing and least-privilege based access restrictions.
+Implement advanced micro-segmentation; divide internal networks into smaller, isolated segments so that an attacker who compromises one part of the network cannot easily move to others. Avoid flat networks where systems can communicate freely with one another.
+Review and harden, or replace, legacy remote-access systems such as older VPN appliances. These have repeatedly been used as entry points by attackers and are particularly attractive to automated tools.
+Make sure no production system is exposed to the public internet unless strictly necessary. Maintain an up-to-date inventory of all systems that are exposed in this way.
+3. Patch and Vulnerability Management
+Sharply reduce the time taken to apply patches on internet-facing systems, web browsers and operating systems. Treat critical patches as urgent and aim to apply them within 24 hours of release. Enable patch automation on internet-facing systems where outage risk is acceptable.
+Consider some amount of automation in patch management since aspects like intake, triage, and remediation tracking need to keep pace with the increasing numbers of vulnerabilities being exposed.
+Maintain a current inventory of your IT assets and the software they run. Prioritise patching based on which flaws are most likely to be exploited and which systems are most exposed, rather than by severity score alone.
+Regularly review and patch open-source software components used in your applications, and stay subscribed to security advisories from the maintainers of those components.
+Automate continuous software updates across IT and production systems, using regression testing to ensure rapid, confident deployment.
+Continuously check cloud and container environments for misconfigurations, and address any issues promptly using suitable cloud security tools.
+Track Bill of Materials (BOM) for software, hardware, Artificial Intelligence, Quantum Computing & Cryptography requirements to manage software supply chain risks and require vendors to follow rigorous security practices.
+4. Cyber Hygiene
+Enforce strong password rules and account lockout policies. Change passwords periodically and remove all default or shared credentials.
+Disable any unused services, ports, protocols and outdated login mechanisms.
+Maintain secure, offline backups in line with the 3-2-1 rule (three copies of data, on two different types of storage, with at least one copy stored offline). Test restoration regularly to make sure backups can actually be recovered when needed.
+Deploy and keep updated modern endpoint protection software on all devices, including laptops, servers and developer workstations.
+On critical and management systems, allow only approved applications to run.
+Encrypt data both when stored and when being transmitted, and rotate encryption keys on a defined schedule.
+Monitor and restrict outbound network traffic to known AI service endpoints. This helps prevent unsanctioned use of external AI tools by employees and reduces the risk of sensitive data being shared with external AI services.
+5. Manpower Training and Capacity Building
+Train your security teams on how AI-augmented attackers operate, what to look for in logs and alerts, and how to detect such activity early.
+Conduct regular phishing and social engineering awareness training for all employees, including realistic simulations that account for AI-generated text, voice and video lures.
+Invest in ongoing skill development for staff through recognised industry certifications.
+Build an internal community of practice for AI security and designate AI security champions in each business unit.
+Run external AI red teaming against your perimeterno credentials, no source accessto simulate attackers. This catches what source scans miss: forgotten hosts, exposed consoles, default logins, misconfigured storage.
+6. Incident Response Plans
+Review and maintain Incident Response (IR) and Cyber Crisis Management plans to address large-scale, accelerated exploitation scenarios, including emergency patching, containment and coordinated response actions.
+Maintain an up-to-date contact list including CERT-In, sectoral regulators, security service providers, legal counsel, forensics partners and law enforcement.
+Organizations are requested to strictly monitor their ICT infrastructure. If any suspicious activity found, preserve all logs as per CERT-In Directions 2022, take containment measures and report with all relevant logs to CERT-In.
+Pre-arrange retainer agreements with digital forensics and incident response service providers so that expert help is available immediately when needed.
+Conduct a review after every incident, and apply the lessons learned to your detection rules, response playbooks and staff training.
+Conduct tabletop exercises for five simultaneous incidents instead of one, that explicitly model AI-driven scenarios.
+Strengthen Business Continuity and Disaster Recovery (BCP/DR) capabilities through regularly tested recovery procedures, backup validation and operational continuity planning to minimize disruption during large-scale cyber incidents.
+For MSMEs:
+Given the constrained resources, MSMEs must implement security measures that are both cost-effective and robust to safeguard their business operations.
+Maintain updated operating systems, browsers and applications by applying security updates regularly. Turn on automatic updates for your operating system, browser, and every application that offers it.
+Use managed security services for patching and monitoring.
+Consider using multi-factor authentication (MFA) to secure accounts.
+Avoid unverified AI tools in production environments.
+Remove or isolate unmaintained, old, or unused web applications and systems.
+Encrypt data during transmission and storage to safeguard against unauthor-ized access.
+Configure email filtering to block phishing attempts and malicious attach-ments effectively.
+Regularly test backup restoration procedures to ensure data recovery remains reliable.
+Continuously analyze log files and network activity for failed login attempts, configuration changes, new device connections or other suspicious behaviour.
+Establish a structured response plan to effectively address breaches and cyber incidents.
+MSMEs are requested to strictly monitor their ICT infrastructure. If any sus-picious activity found, preserve all logs as per CERT-In Directions 2022, take containment measures and report with all relevant logs to CERT-In.
+Conduct regular cybersecurity training to educate employees on risks of AI-generated content and scams.
+Organize routine cyber drills to simulate attacks and response measures.
+For Individuals:
+With advanced AI tools capable of discovering and exploiting vulnerabilities, individual users are now part of the frontline. Personal devices, accounts, and data can be targeted just as easily as corporate systems.
+Individual users are advised to maintain basic cyber hygiene and exercise heightened vigilance against AI-enabled phishing, impersonation, deepfake-based fraud and social engineering attempts.
+Maintain updated operating systems, browsers and applications by applying security updates regularly. Enable automatic updates and patch quickly when updates are released, as AI-driven exploits can spread fast.
+Avoid downloading apps or files from unverified sources.
+Use strong and unique passwords for all online accounts and enable Multi-Factor Authentication (MFA) wherever available.
+Exercise caution while responding to unsolicited emails, messages, links and attachments, especially those creating urgency or requesting sensitive information.
+Verify the authenticity of voice calls, video messages and urgent requests, particularly those involving financial transactions or sensitive information, as AI-generated deepfakes and impersonation attempts may be highly convincing.
+Be cautious of AI-generated phishing content, fake websites and social engineering attempts designed to mimic trusted individuals, organizations or services. AI can generate highly convincing phishing emails and fake websites. Always verify links before clicking.
+Be Sceptical of too good to be true offers: AI can generate realistic scams.
+Avoid sharing sensitive personal, financial or official information through unverified digital channels.
+Use a strong Wi Fi password and WPA3 encryption if available. Avoid public Wi Fi for sensitive transactions; use a VPN when necessary.
+Review privacy and security settings on email, social media and communication platforms to minimise exposure to impersonation and account compromise.
+Regularly back up important personal data and maintain secure copies to support recovery from cyber incidents.
+Stay Informed: Learn about emerging AI threats and advisories from trusted sources.
+References
+Anthropic:
+Project Glasswing and Claude Mythos Preview
+https://www.anthropic.com/glasswing
+https://red.anthropic.com/2026/mythos-preview/
+OpenAI:
+GPT-5.5 System Card and Trusted Access for Cyber
+https://openai.com/index/gpt-5-5-system-card/
+https://openai.com/index/scaling-trusted-access-for-cyber-defense/
+UK
+AI Security Institute: Cyber Evaluation of Claude Mythos Preview
+https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities
+NCSC
+https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027
+CERT-In
+Best Practices against vulnerabilities while using Generative AI solutions (CIAD-2025-0013)
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2025-0013
+Security implications of AI language based applications (CIAD-2023-0015)
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2023-0015
+Technical Guidelines on SBOM, QBOM, CBOM, AIBOM and HBOM version 2.0
+https://www.cert-in.org.in/PDF/TechnicalGuidelines-on-SBOM,QBOM&CBOM,AIBOM_and_HBOM_ver2.0.pdf
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-26 06:19:58
