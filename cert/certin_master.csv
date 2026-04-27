@@ -6660,3 +6660,120 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-26 06:19:58
+b1e5a66cbc210143,CERT-In Vulnerability Note  CIVN-2026-0205,"April 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0205,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0205
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date:April     27, 2026
+Severity Rating: HIGH
+Software Affected
+Windows 10: Versions 1607, 1809, 21H2, and 22H2.
+Windows 11: Versions 23H2, 24H2, and 25H2.
+Windows Server: 2012, 2012 R2, 2016, 2019, 2022, 2022 (23H2 Edition), and 2025.
+Microsoft Office (various supported versions).
+Microsoft Edge (Chromium-based)
+Overview
+Multiple vulnerabilities have been reported in Microsoft products which could allow an attacker to execute arbitrary code, elevate privileges, disclose sensitive information, or cause denial of service on the affected systems.
+Target Audience:
+All organizations and individuals using affected Microsoft products.
+Risk Assessment:
+High risk due to the potential for remote code execution, privilege escalation, information disclosure, and denial of service.
+Impact Assessment:
+Potential for remote code execution, privilege escalation, unauthorized disclosure of sensitive information, bypass of security protections, and disruption of system availability.
+Description
+These vulnerabilities exist in Microsoft products due to improper input validation, memory corruption, insufficient access control mechanisms and improper handling of objects in memory. An attacker could exploit these vulnerabilities remotely or locally depending on the attack vector, with some cases requiring user interaction (such as opening a crafted file or visiting a malicious webpage) while others may be exploited without authentication.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current user, escalate privileges, access sensitive information, or disrupt system availability.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21515
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35431
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24303
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26150
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33819
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33102
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32210
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32172
+Vendor Information
+Microsoft Corporation
+https://www.microsoft.com/en-in/
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21515
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35431
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24303
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26150
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33819
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33102
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32210
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32172
+CVE Name
+CVE-2026-21515
+CVE-2026-35431
+CVE-2026-24303
+CVE-2026-26150
+CVE-2026-33819
+CVE-2026-33102
+CVE-2026-32210
+CVE-2026-32172
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-27 09:58:43
+fc181585e063d1dd,CERT-In Vulnerability Note  CIVN-2026-0204,"April 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0204,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0204
+Multiple Vulnerabilities in GitLab
+Original Issue Date:April     27, 2026
+Severity Rating: HIGH
+Software Affected
+GitLab versions prior to 18.9.6, 18.10.4, and 18.11.1 for GitLab Community Edition (CE) and Enterprise Edition (EE)
+Overview
+Multiple vulnerabilities have been reported in GitLab CE/EE which could allow a remote attacker to cause Denial of Service (DoS), cross-site request forgery, unauthorized access or cross-site scripting on the targeted system.
+Target Audience:
+Organizations and individuals using GitLab CE/EE instances.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, disruption of services and compromise of system integrity.
+Impact Assessment:
+Potential for account takeover, stored cross-site scripting attacks, denial of service (DoS) conditions, bypass security restrictions, or gain access to sensitive information.
+Description
+GitLab is a web-based DevOps platform that provides tools for software developments, including source code management, continuous integration and continuous deployment. It is available in both open-source Community Edition (CE) and Enterprise Edition (EE) versions.
+These vulnerabilities exist in the GitLab Community Edition (CE) and Enterprise Edition (EE) due to insufficient input validation, improper access control, inadequate session management, and lack of resource limitation and CSRF protections.
+Successful exploitation of these vulnerabilities could allow a remote attacker to trigger denial of service condition, compromise user accounts, gain unauthorized access to sensitive information and gain elevated privileges on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/
+Vendor Information
+GitLab
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/
+References
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/
+CVE Name
+CVE-2026-4922
+CVE-2026-5816
+CVE-2026-5262
+CVE-2026-0186
+CVE-2026-1660
+CVE-2026-6016
+CVE-2026-3922
+CVE-2026-6515
+CVE-2026-5377
+CVE-2026-3254
+CVE-2026-9957
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-27 09:58:43
+ea3085e5d990a46c,CERT-In Vulnerability Note  CIVN-2026-0203,"April 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0203,Latest Security Alert,,2026-04-27 09:58:43
