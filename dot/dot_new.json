@@ -1,5 +1,70 @@
 {
-  "generated_at": "2026-04-27T10:48:03.193010",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-28T06:00:55.864273",
+  "count": 8,
+  "items": [
+    {
+      "id": "7d28a04e9cb579f5",
+      "title": "Northern Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/ec8f78bc046fe8cfac58aae9c4a703df.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "63df40514df011fa",
+      "title": "Western Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5c963bd2f3d11708fd134944ef950413.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "8ddd95905ae5917b",
+      "title": "Eastern Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/58156b27770ec780eab08dc0dcbeb9e4.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "1c95512ce7054731",
+      "title": "South Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4d744fb4ad29469c29abc7791102c688.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "7d28a04e9cb579f5",
+      "title": "Northern Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/ec8f78bc046fe8cfac58aae9c4a703df.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "63df40514df011fa",
+      "title": "Western Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5c963bd2f3d11708fd134944ef950413.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "8ddd95905ae5917b",
+      "title": "Eastern Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/58156b27770ec780eab08dc0dcbeb9e4.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "1c95512ce7054731",
+      "title": "South Region GMDSS (GOC) Result",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4d744fb4ad29469c29abc7791102c688.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    }
+  ]
 }
