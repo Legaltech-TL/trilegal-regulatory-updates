@@ -1,132 +1,100 @@
 {
-  "generated_at": "2026-04-28T08:09:23.846566",
-  "count": 16,
+  "generated_at": "2026-04-28T10:49:35.052501",
+  "count": 12,
   "items": [
     {
-      "id": "fcd523dfdddb514b",
-      "title": "Taken on Strength Order Shri Sanjay Sohni, ITS Gr A, Staff no 20098",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e4613896f3aab29067e6bc6b6b4fb9cf.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "de40d3521c0d5d01",
-      "title": "Appointment of Shri Avinash Agarwal, ITS, Staff No 20416, as DDG in UIDAI RO, New Delhi on deputation basis",
-      "publish_date": "04/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b4da3236244d8a0ea8f216b9ad5278e1.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "d2dab641c0e4f96b",
-      "title": "Mobile Number Portability(MNP)",
+      "id": "5fd29eac2aae88cb",
+      "title": "Test Schedule Test Procedure (TSTP) for Roll Out Obligation",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/mobile-number-portabilitymnp-YTM1ATNtQWa?pageTitle=Mobile-Number-Portability(MNP)",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/test-schedule-test-procedure-tstp-for-roll-out-obligation-gDN1ATNtQWa?pageTitle=Test-Schedule-Test-Procedure-(TSTP)-for-Roll-Out-Obligation",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "811d46daecbf18d3",
-      "title": "Subscriber Verification",
+      "id": "0d6b33960b98786b",
+      "title": "Improving Communication Network during Disasters.",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/subscriber-verification-QDM1ATNtQWa?pageTitle=Subscriber-Verification",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/improving-communication-network-during-disasters-UDN1ATNtQWa?pageTitle=Improving-Communication-Network-during-Disasters.",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "8aa53b499196e819",
-      "title": "BWA Auction Updates",
+      "id": "21014fde82ca646a",
+      "title": "Consolidated list of rural SDCAs for the purpose of 3G/BWA Roll out obligation",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/bwa-auction-updates-EDM1ATNtQWa?pageTitle=BWA-Auction-Updates",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/consolidated-list-of-rural-sdcas-for-the-purpose-of-3g-bwa-roll-out-obligation-IDN1ATNtQWa?pageTitle=Consolidated-list-of-rural-SDCAs-for-the-purpose-of-3G/BWA-Roll-out-obligation",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "1ae2b7479f055d89",
-      "title": "3G Auction Updates",
+      "id": "0149f149572b2efe",
+      "title": "Introduction to erstwhile Unified Access Services/Cellular Mobile Services",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/3g-auction-updates-gTO0ATNtQWa?pageTitle=3G-Auction-Updates",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/introduction-to-erstwhile-unified-access-services-cellular-mobile-services-QzM1ATNtQWa",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "0c0d6e06f92cf617",
-      "title": "3G & BWA Spectrum Auction",
+      "id": "b1bb9f68c4d45498",
+      "title": "Cellular Mobile Services",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/3g-bwa-spectrum-auction-MTO0ATNtQWa?pageTitle=3G-&-BWA-Spectrum-Auction",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d3e3563704ca840cb0942b53aed12cda.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "a87cb900cf1c015a",
-      "title": "Telemarketer Codes",
+      "id": "5d31c89f2f9c8da0",
+      "title": "Unified Access Services",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/telemarketer-codes-QDO0ATNtQWa?pageTitle=Telemarketer-Codes",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/unified-access-services-gjM1ATNtQWa?pageTitle=Unified-Access-Services",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "fcd523dfdddb514b",
-      "title": "Taken on Strength Order Shri Sanjay Sohni, ITS Gr A, Staff no 20098",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e4613896f3aab29067e6bc6b6b4fb9cf.pdf",
+      "id": "abfdc42dbe3ed5f2",
+      "title": "Test Schedule Test Procedure (TSTP) for Roll Out Obligation",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/test-schedule-test-procedure-tstp-for-roll-out-obligation-gDN1ATNtQWa?pageTitle=Test-Schedule-Test-Procedure-(TSTP)-for-Roll-Out-Obligation",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "de40d3521c0d5d01",
-      "title": "Appointment of Shri Avinash Agarwal, ITS, Staff No 20416, as DDG in UIDAI RO, New Delhi on deputation basis",
-      "publish_date": "04/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b4da3236244d8a0ea8f216b9ad5278e1.pdf",
+      "id": "1f13ac3ef4d2d7be",
+      "title": "Improving Communication Network during Disasters.",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/improving-communication-network-during-disasters-UDN1ATNtQWa?pageTitle=Improving-Communication-Network-during-Disasters.",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "fc8eaee5bd6a1e37",
-      "title": "Mobile Number Portability(MNP)",
+      "id": "080a3acd9abac452",
+      "title": "Consolidated list of rural SDCAs for the purpose of 3G/BWA Roll out obligation",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/mobile-number-portabilitymnp-YTM1ATNtQWa?pageTitle=Mobile-Number-Portability(MNP)",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/consolidated-list-of-rural-sdcas-for-the-purpose-of-3g-bwa-roll-out-obligation-IDN1ATNtQWa?pageTitle=Consolidated-list-of-rural-SDCAs-for-the-purpose-of-3G/BWA-Roll-out-obligation",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "70bd3f0d089501b9",
-      "title": "Subscriber Verification",
+      "id": "0149f149572b2efe",
+      "title": "Introduction to erstwhile Unified Access Services/Cellular Mobile Services",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/subscriber-verification-QDM1ATNtQWa?pageTitle=Subscriber-Verification",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/introduction-to-erstwhile-unified-access-services-cellular-mobile-services-QzM1ATNtQWa",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "8186df89854afff6",
-      "title": "BWA Auction Updates",
+      "id": "b1bb9f68c4d45498",
+      "title": "Cellular Mobile Services",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/bwa-auction-updates-EDM1ATNtQWa?pageTitle=BWA-Auction-Updates",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d3e3563704ca840cb0942b53aed12cda.pdf",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "d62696d1813be2ae",
-      "title": "3G Auction Updates",
+      "id": "87bb8b732ff2ad77",
+      "title": "Unified Access Services",
       "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/3g-auction-updates-gTO0ATNtQWa?pageTitle=3G-Auction-Updates",
-      "category": "REPORTS",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "29cff1fa49521816",
-      "title": "3G & BWA Spectrum Auction",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/3g-bwa-spectrum-auction-MTO0ATNtQWa?pageTitle=3G-&-BWA-Spectrum-Auction",
-      "category": "REPORTS",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "e06aa84f0447beb1",
-      "title": "Telemarketer Codes",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/telemarketer-codes-QDO0ATNtQWa?pageTitle=Telemarketer-Codes",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/unified-access-services-gjM1ATNtQWa?pageTitle=Unified-Access-Services",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     }
