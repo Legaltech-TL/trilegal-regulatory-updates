@@ -1,68 +1,132 @@
 {
-  "generated_at": "2026-04-28T06:00:55.864273",
-  "count": 8,
+  "generated_at": "2026-04-28T08:09:23.846566",
+  "count": 16,
   "items": [
     {
-      "id": "7d28a04e9cb579f5",
-      "title": "Northern Region GMDSS (GOC) Result",
+      "id": "fcd523dfdddb514b",
+      "title": "Taken on Strength Order Shri Sanjay Sohni, ITS Gr A, Staff no 20098",
       "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/ec8f78bc046fe8cfac58aae9c4a703df.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e4613896f3aab29067e6bc6b6b4fb9cf.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "63df40514df011fa",
-      "title": "Western Region GMDSS (GOC) Result",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5c963bd2f3d11708fd134944ef950413.pdf",
+      "id": "de40d3521c0d5d01",
+      "title": "Appointment of Shri Avinash Agarwal, ITS, Staff No 20416, as DDG in UIDAI RO, New Delhi on deputation basis",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b4da3236244d8a0ea8f216b9ad5278e1.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "8ddd95905ae5917b",
-      "title": "Eastern Region GMDSS (GOC) Result",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/58156b27770ec780eab08dc0dcbeb9e4.pdf",
+      "id": "d2dab641c0e4f96b",
+      "title": "Mobile Number Portability(MNP)",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/mobile-number-portabilitymnp-YTM1ATNtQWa?pageTitle=Mobile-Number-Portability(MNP)",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "1c95512ce7054731",
-      "title": "South Region GMDSS (GOC) Result",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4d744fb4ad29469c29abc7791102c688.pdf",
+      "id": "811d46daecbf18d3",
+      "title": "Subscriber Verification",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/subscriber-verification-QDM1ATNtQWa?pageTitle=Subscriber-Verification",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "7d28a04e9cb579f5",
-      "title": "Northern Region GMDSS (GOC) Result",
+      "id": "8aa53b499196e819",
+      "title": "BWA Auction Updates",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/bwa-auction-updates-EDM1ATNtQWa?pageTitle=BWA-Auction-Updates",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "1ae2b7479f055d89",
+      "title": "3G Auction Updates",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/3g-auction-updates-gTO0ATNtQWa?pageTitle=3G-Auction-Updates",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "0c0d6e06f92cf617",
+      "title": "3G & BWA Spectrum Auction",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/3g-bwa-spectrum-auction-MTO0ATNtQWa?pageTitle=3G-&-BWA-Spectrum-Auction",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "a87cb900cf1c015a",
+      "title": "Telemarketer Codes",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/telemarketer-codes-QDO0ATNtQWa?pageTitle=Telemarketer-Codes",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "fcd523dfdddb514b",
+      "title": "Taken on Strength Order Shri Sanjay Sohni, ITS Gr A, Staff no 20098",
       "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/ec8f78bc046fe8cfac58aae9c4a703df.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e4613896f3aab29067e6bc6b6b4fb9cf.pdf",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "63df40514df011fa",
-      "title": "Western Region GMDSS (GOC) Result",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/5c963bd2f3d11708fd134944ef950413.pdf",
+      "id": "de40d3521c0d5d01",
+      "title": "Appointment of Shri Avinash Agarwal, ITS, Staff No 20416, as DDG in UIDAI RO, New Delhi on deputation basis",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/b4da3236244d8a0ea8f216b9ad5278e1.pdf",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "8ddd95905ae5917b",
-      "title": "Eastern Region GMDSS (GOC) Result",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/58156b27770ec780eab08dc0dcbeb9e4.pdf",
+      "id": "fc8eaee5bd6a1e37",
+      "title": "Mobile Number Portability(MNP)",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/mobile-number-portabilitymnp-YTM1ATNtQWa?pageTitle=Mobile-Number-Portability(MNP)",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     },
     {
-      "id": "1c95512ce7054731",
-      "title": "South Region GMDSS (GOC) Result",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4d744fb4ad29469c29abc7791102c688.pdf",
+      "id": "70bd3f0d089501b9",
+      "title": "Subscriber Verification",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/subscriber-verification-QDM1ATNtQWa?pageTitle=Subscriber-Verification",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "8186df89854afff6",
+      "title": "BWA Auction Updates",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/bwa-auction-updates-EDM1ATNtQWa?pageTitle=BWA-Auction-Updates",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "d62696d1813be2ae",
+      "title": "3G Auction Updates",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/3g-auction-updates-gTO0ATNtQWa?pageTitle=3G-Auction-Updates",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "29cff1fa49521816",
+      "title": "3G & BWA Spectrum Auction",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/3g-bwa-spectrum-auction-MTO0ATNtQWa?pageTitle=3G-&-BWA-Spectrum-Auction",
+      "category": "REPORTS",
+      "scraped_at": "04/28/2026"
+    },
+    {
+      "id": "e06aa84f0447beb1",
+      "title": "Telemarketer Codes",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/telemarketer-codes-QDO0ATNtQWa?pageTitle=Telemarketer-Codes",
       "category": "REPORTS",
       "scraped_at": "04/28/2026"
     }
