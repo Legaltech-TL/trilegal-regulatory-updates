@@ -1,102 +1,54 @@
 {
-  "generated_at": "2026-04-28T10:49:35.052501",
-  "count": 12,
+  "generated_at": "2026-04-29T05:57:04.627039",
+  "count": 6,
   "items": [
     {
-      "id": "5fd29eac2aae88cb",
-      "title": "Test Schedule Test Procedure (TSTP) for Roll Out Obligation",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/test-schedule-test-procedure-tstp-for-roll-out-obligation-gDN1ATNtQWa?pageTitle=Test-Schedule-Test-Procedure-(TSTP)-for-Roll-Out-Obligation",
+      "id": "c5eb4813a805c320",
+      "title": "CS COMM 106 of 2026 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 28.04.2026 to ISPs",
+      "publish_date": "04/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/c5813e2757d3bda466d73c57e418bb64.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
+      "scraped_at": "04/29/2026"
     },
     {
-      "id": "0d6b33960b98786b",
-      "title": "Improving Communication Network during Disasters.",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/improving-communication-network-during-disasters-UDN1ATNtQWa?pageTitle=Improving-Communication-Network-during-Disasters.",
+      "id": "9af14b8e0e4675e3",
+      "title": "Circular No. 255 - Revision of rates of Dearness Allowance to the employees who are continuing to draw their pay in the pay scale/grade pay as per 5th Central Pay Commission",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/33fd74d7dc23e51c1f7d9b457f54c7be.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
+      "scraped_at": "04/29/2026"
     },
     {
-      "id": "21014fde82ca646a",
-      "title": "Consolidated list of rural SDCAs for the purpose of 3G/BWA Roll out obligation",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/consolidated-list-of-rural-sdcas-for-the-purpose-of-3g-bwa-roll-out-obligation-IDN1ATNtQWa?pageTitle=Consolidated-list-of-rural-SDCAs-for-the-purpose-of-3G/BWA-Roll-out-obligation",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "0149f149572b2efe",
-      "title": "Introduction to erstwhile Unified Access Services/Cellular Mobile Services",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/introduction-to-erstwhile-unified-access-services-cellular-mobile-services-QzM1ATNtQWa",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "b1bb9f68c4d45498",
-      "title": "Cellular Mobile Services",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d3e3563704ca840cb0942b53aed12cda.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "5d31c89f2f9c8da0",
-      "title": "Unified Access Services",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/unified-access-services-gjM1ATNtQWa?pageTitle=Unified-Access-Services",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "abfdc42dbe3ed5f2",
-      "title": "Test Schedule Test Procedure (TSTP) for Roll Out Obligation",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/test-schedule-test-procedure-tstp-for-roll-out-obligation-gDN1ATNtQWa?pageTitle=Test-Schedule-Test-Procedure-(TSTP)-for-Roll-Out-Obligation",
+      "id": "c5eb4813a805c320",
+      "title": "CS COMM 106 of 2026 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 28.04.2026 to ISPs",
+      "publish_date": "04/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/c5813e2757d3bda466d73c57e418bb64.pdf",
       "category": "REPORTS",
-      "scraped_at": "04/28/2026"
+      "scraped_at": "04/29/2026"
     },
     {
-      "id": "1f13ac3ef4d2d7be",
-      "title": "Improving Communication Network during Disasters.",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/improving-communication-network-during-disasters-UDN1ATNtQWa?pageTitle=Improving-Communication-Network-during-Disasters.",
+      "id": "9af14b8e0e4675e3",
+      "title": "Circular No. 255 - Revision of rates of Dearness Allowance to the employees who are continuing to draw their pay in the pay scale/grade pay as per 5th Central Pay Commission",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/33fd74d7dc23e51c1f7d9b457f54c7be.pdf",
       "category": "REPORTS",
-      "scraped_at": "04/28/2026"
+      "scraped_at": "04/29/2026"
     },
     {
-      "id": "080a3acd9abac452",
-      "title": "Consolidated list of rural SDCAs for the purpose of 3G/BWA Roll out obligation",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/consolidated-list-of-rural-sdcas-for-the-purpose-of-3g-bwa-roll-out-obligation-IDN1ATNtQWa?pageTitle=Consolidated-list-of-rural-SDCAs-for-the-purpose-of-3G/BWA-Roll-out-obligation",
+      "id": "7d6ff842be62c02e",
+      "title": "Circular No. 256 - Revision of rates of Dearness Allowance to the employees, who are continuing to draw their pay in the pay scale/grade pay as per 6th Central Pay Commission",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/e589f19f9ef07803d4f155c25a6dfbdd.pdf",
       "category": "REPORTS",
-      "scraped_at": "04/28/2026"
+      "scraped_at": "04/29/2026"
     },
     {
-      "id": "0149f149572b2efe",
-      "title": "Introduction to erstwhile Unified Access Services/Cellular Mobile Services",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/introduction-to-erstwhile-unified-access-services-cellular-mobile-services-QzM1ATNtQWa",
+      "id": "874783a5d635044e",
+      "title": "Circular No. 257 - Revision of rates of Dearness allowance to Central Government Employees effective from 01.01.2026",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/ab0b5f75684c4a1c9c28e4e11c9c2f4d.pdf",
       "category": "REPORTS",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "b1bb9f68c4d45498",
-      "title": "Cellular Mobile Services",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d3e3563704ca840cb0942b53aed12cda.pdf",
-      "category": "REPORTS",
-      "scraped_at": "04/28/2026"
-    },
-    {
-      "id": "87bb8b732ff2ad77",
-      "title": "Unified Access Services",
-      "publish_date": "02/04/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/order-and-notices/unified-access-services-gjM1ATNtQWa?pageTitle=Unified-Access-Services",
-      "category": "REPORTS",
-      "scraped_at": "04/28/2026"
+      "scraped_at": "04/29/2026"
     }
   ]
 }
