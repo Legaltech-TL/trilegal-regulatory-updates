@@ -6777,3 +6777,176 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-04-27 09:58:43
 ea3085e5d990a46c,CERT-In Vulnerability Note  CIVN-2026-0203,"April 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0203,Latest Security Alert,,2026-04-27 09:58:43
+11d4376368759c8a,CERT-In Vulnerability Note  CIVN-2026-0208,"April 29, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0208,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0208
+Identity Spoofing Vulnerability in IBM WebSphere Application Server Liberty
+Original Issue Date:April     29, 2026
+Severity Rating: HIGH
+Software Affected
+IBM WebSphere Application Server Liberty 17.0.0.3 and 26.0.0.4
+Overview
+A vulnerability has been reported in IBM WebSphere Application Server Liberty could allow a remote attacker to perform identity spoofing on the targeted system.
+Target Audience:
+All end-users and organisations using IBM WebSphere Application Server Liberty.
+Risk Assessment:
+High risk of unauthorised access.
+Impact Assessment:
+Potential impact on confidentiality, integrity, availability of the system and application outages.
+Description
+IBM WebSphere Application Server Liberty is a lightweight, modular application server designed for developing and running Java and Jakarta EE applications, enabling efficient execution of enterprise applications.
+A vulnerability exists in IBM WebSphere Application Server Liberty that leads to an identity spoofing issue when the appSecurity feature is not enabled and applications are deployed without proper authentication and authorization. This allows a remote attacker to impersonate a legitimate user and gain unauthorized access.
+Solution
+Apply appropriate updates as mentioned by the IBMs portal:
+https://www.ibm.com/support/pages/node/7270437
+Vendor Information
+IBM
+https://www.ibm.com/mysupport/s/?language=en_US
+References
+https://www.ibm.com/support/pages/node/7270437
+CVE Name
+CVE-2026-3621
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-29 09:37:34
+7f7595ceca39aeef,CERT-In Vulnerability Note  CIVN-2026-0207,"April 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0207,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0207
+Multiple Vulnerabilities in C-DAC e-Sushrut Solution
+Original Issue Date:April     28, 2026
+Severity Rating: CRITICAL
+Systems Affected
+e-Sushrut, Hospital Management Information System (HMIS)
+Overview
+Multiple vulnerabilities have been reported in the e-Sushrut, which could allow an attacker to perform authentication bypass, gain unauthorized access to user accounts or data on the targeted system.
+Target Audience:
+End-users/ Administrators of e-Sushrut, Healthcare organizations and Patients.
+Risk Assessment:
+Risk of authentication bypass, unauthorized user account access, exposure of sensitive medical records.
+Impact Assessment:
+Account takeover, unauthorized access to user account, disclosure of sensitive patient data.
+Description
+e-Sushrut is a Hospital Management Information System (HMIS) developed and deployed by C-DAC. It is used for managing patient information, hospital workflows, and administrative processes in healthcare organizations.
+1. Authentication Bypass Vulnerability
+(
+CVE-2026-42513
+)
+This vulnerability exists in e-Sushrut due to improper authentication logic that relies on client-side response parameters to determine authentication status. A remote attacker could exploit this vulnerability by intercepting and modifying the server response.
+Successful exploitation of this vulnerability could allow the attacker to bypass authentication and gain unauthorized access to user accounts on the targeted system.
+2. Sensitive Data Exposure Vulnerability
+(
+CVE-2026-42514
+)
+This vulnerability exists in e-Sushrut due to exposure of OTPs in plaintext within API responses. A remote attacker could exploit this vulnerability by intercepting API responses containing valid OTPs.
+Successful exploitation of this vulnerability could allow an attacker to impersonate the target user and gain unauthorized access to user accounts on the targeted system.
+3. Insecure Direct Object Reference (IDOR) Vulnerability
+(
+CVE-2026-42515
+)
+This vulnerability exists in e-Sushrut due to improper access control in resource access validation. An authenticated attacker could exploit this vulnerability by manipulating parameter in the API request URL to gain unauthorized access to sensitive information of patients on the targeted system.
+4. Broken Access Control Vulnerability
+(
+CVE-2026-42516
+)
+This vulnerability exists in e-Sushrut due to improper authorization checks during resource access. An authenticated attacker could exploit this vulnerability by manipulating encoded parameters in the request URL to gain unauthorized access to patient accounts on the targeted system.
+5. Cryptographic Failure Vulnerability
+(
+CVE-2026-42517
+)
+This vulnerability exists in e-Sushrut due to the use of reversible Base64 encoding for protecting sensitive data. An authenticated attacker could exploit this vulnerability by decoding and manipulating Base64-encoded parameters in the request URL to gain unauthorized access to sensitive information on the targeted system.
+6. Information Disclosure Vulnerability
+(
+CVE-2026-42518
+)
+This vulnerability exists in e-Sushrut due to disclosure of sensitive information and hardcoded AES encryption keys in client-side JavaScript. An unauthenticated remote attacker could exploit this vulnerability by accessing the client-side JavaScript to extract sensitive information and cryptographic keys.
+Successful exploitation of this vulnerability could lead to exposure of sensitive data and compromise of cryptographic protections on the targeted system.
+Credit
+These vulnerabilities are reported by Harsh Verma.
+Solution
+Contact C-DAC for upgrading e-Sushrut HMIS to latest version
+Vendor Information
+CDAC-Noida
+https://www.cdac.in/index.aspx?id=ps_health_info_products
+References
+CDAC-Noida
+https://www.cdac.in/index.aspx?id=ps_health_info_products
+CVE Name
+CVE-2026-42513
+CVE-2026-42514
+CVE-2026-42515
+CVE-2026-42516
+CVE-2026-42517
+CVE-2026-42518
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-29 09:37:34
+b8c51e02fb2807e8,CERT-In Vulnerability Note  CIVN-2026-0206,"April 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0206,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0206
+Arbitrary File Upload Vulnerability in Breeze Cache plugin for WordPress
+Original Issue Date:April     28, 2026
+Severity Rating: CRITICAL
+Software Affected
+Breeze Cache plugin for WordPress versions prior to 2.4.5
+Overview
+A critical vulnerability has been identified in the Breeze Cache plugin for WordPress which could allow an unauthenticated attacker to 
+
+execute arbitrary code on the targeted system.
+Target Audience:
+Website administrators, developers, and organizations operating WordPress sites that use the Breeze Cache plugin.
+Risk Assessment:
+High risk of remote code execution.
+Impact Assessment:
+Potential for system compromise, data theft, unauthorized access.
+Description
+Breeze Cache is a WordPress caching plugin developed by Cloudways that improves website performance through page caching, file optimization, 
+
+and CDN integration.
+A vulnerability exists in the Breeze Cache plugin for WordPress due to improper validation of user-supplied input in the 
+
+fetch_gravatar_from_remote functionality. This flaw allows unauthenticated users to upload arbitrary files to the server by abusing the 
+
+gravatar-fetching mechanism.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate security updates as mentioned
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/breeze/breeze-cache-244-unauthenticated-arbitrary-file-
+
+upload-via-fetch-gravatar-from-remote
+Vendor Information
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/breeze/breeze-cache-244-unauthenticated-arbitrary-file-
+
+upload-via-fetch-gravatar-from-remote
+References
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/breeze/breeze-cache-244-unauthenticated-arbitrary-file-
+
+upload-via-fetch-gravatar-from-remote
+CVE Name
+CVE-2026-3844
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-29 09:37:34
