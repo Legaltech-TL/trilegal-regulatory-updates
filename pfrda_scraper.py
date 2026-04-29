@@ -44,7 +44,7 @@ def normalize_date(s):
 
 
 def extract_year(s):
-    m = https://url.uk.m.mimecastprotect.com/s/RPOwC1jZyh8OBKKUGhnTVPb__?domain=re.search(r"(20\d{2})", s or "")
+    m = "https://url.uk.m.mimecastprotect.com/s/RPOwC1jZyh8OBKKUGhnTVPb__?domain=re.search(r"(20\d{2})", s or "")
     return int(m.group(1)) if m else None
 
 
