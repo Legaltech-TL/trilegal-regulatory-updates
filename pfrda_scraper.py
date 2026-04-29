@@ -13,7 +13,7 @@ DATA_DIR = Path("pfrda")
 CSV_FILE = DATA_DIR / "pfrda_master.csv"
 JSON_FILE = DATA_DIR / "pfrda_new.json"
 
-BASE_URL = "https://www.pfrda.org.in"
+BASE_URL = "https://url.uk.m.mimecastprotect.com/s/FYu5CZ4MLIzx8yyhzf8TBWmxs?domain=pfrda.org.in"
 YEAR_CUTOFF = 2026   # stop scraping items from years before this
 PAGE_DELTA = 60      # items per list page request
 
@@ -44,7 +44,7 @@ def normalize_date(s):
 
 
 def extract_year(s):
-    m = re.search(r"(20\d{2})", s or "")
+    m = https://url.uk.m.mimecastprotect.com/s/RPOwC1jZyh8OBKKUGhnTVPb__?domain=re.search(r"(20\d{2})", s or "")
     return int(m.group(1)) if m else None
 
 
@@ -93,7 +93,7 @@ def scrape_list_page(page, category):
                 "}"
             )
 
-            date_m = re.search(r"(\d{2}-\d{2}-20\d{2})", container_text or "")
+            date_m = https://url.uk.m.mimecastprotect.com/s/RPOwC1jZyh8OBKKUGhnTVPb__?domain=re.search(r"(\d{2}-\d{2}-20\d{2})", container_text or "")
             date_raw = date_m.group(1) if date_m else ""
 
             detail_url = (BASE_URL + href) if href.startswith("/") else href
@@ -116,8 +116,8 @@ def get_next_page_url(page):
     """Return the href of the pagination 'Next' link, or None if on the last page."""
     try:
         for selector in [
-            "a.next",
-            "li.next > a",
+            "https://url.uk.m.mimecastprotect.com/s/O2DgC2RZ0h76ZAAHBiPT5X1wa?domain=a.next",
+            "https://url.uk.m.mimecastprotect.com/s/XBSsC3l8ATZx9VVHDskTQwyp8?domain=li.next > a",
             "a[aria-label='Next']",
             "a[rel='next']",
             ".pagination-next a",
@@ -313,3 +313,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
