@@ -13,7 +13,7 @@ DATA_DIR = Path("pfrda")
 CSV_FILE = DATA_DIR / "pfrda_master.csv"
 JSON_FILE = DATA_DIR / "pfrda_new.json"
 
-BASE_URL = https://www.pfrda.org.in
+BASE_URL = "https://www.pfrda.org.in"
 YEAR_CUTOFF = 2026   # stop scraping items from years before this
 PAGE_DELTA = 60      # items per list page request
 
