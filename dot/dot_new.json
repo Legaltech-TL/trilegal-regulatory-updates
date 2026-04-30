@@ -1,5 +1,46 @@
 {
-  "generated_at": "2026-04-30T08:09:21.773764",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-30T10:44:24.593843",
+  "count": 5,
+  "items": [
+    {
+      "id": "c46af61bf0051580",
+      "title": "Retirement of officer of ITS Group \u2018A\u2019 of Mr. Rajendran C. on attaining the age of Superannuation as on 30.04.2026 (A/N) \u2013 Regarding",
+      "publish_date": "04/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/8c4eb701eb496ab363e37d4cd454982c.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "7bc90f38a2e12499",
+      "title": "Retirement of officers of ITS Group \u2018A\u2019 on attaining the age of Superannuation as on 30.04.2026 (A/N) \u2013 Regarding",
+      "publish_date": "04/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/12d91b4caf5c9f3dabf957b39eb7f71b.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c46af61bf0051580",
+      "title": "Retirement of officer of ITS Group \u2018A\u2019 of Mr. Rajendran C. on attaining the age of Superannuation as on 30.04.2026 (A/N) \u2013 Regarding",
+      "publish_date": "04/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/8c4eb701eb496ab363e37d4cd454982c.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "7bc90f38a2e12499",
+      "title": "Retirement of officers of ITS Group \u2018A\u2019 on attaining the age of Superannuation as on 30.04.2026 (A/N) \u2013 Regarding",
+      "publish_date": "04/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/12d91b4caf5c9f3dabf957b39eb7f71b.pdf",
+      "category": "REPORTS",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e744dcb184e48df2",
+      "title": "National Telecom Policy, 1994",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/publications/national-telecom-policy-1994-MzNxETMtQWa",
+      "category": "PUBLICATIONS",
+      "scraped_at": "04/30/2026"
+    }
+  ]
 }
