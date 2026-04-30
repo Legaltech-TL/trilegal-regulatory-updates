@@ -1,5 +1,2294 @@
 {
-  "generated_at": "2026-04-30T06:15:07.208418",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-04-30T06:42:07.026222",
+  "count": 286,
+  "items": [
+    {
+      "id": "dc4985fa48abfb42",
+      "title": "Clarification on Charge Structure of...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/151840/Circular+-+Clarification+on+Charge+Structure+of+CRAs.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "98b94b12c5135a42",
+      "title": "Atal Pension Yojana (APY) Crosses...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/86710/Final+PRESS+RELEASE-+APY+9+Cr+Enrolments.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "df4833e3d7eca6f3",
+      "title": "Financial Intelligence Unit-India and Pension...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/86710/Press+Release+Page+_+Press+Information+Bureau.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "95b4ba0e548401b4",
+      "title": "Declaration of Holiday on 14th...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/301830/Office+Order+Declaration+of+Holiday+on+14th+April+2026++Birthday+of+Dr+B+R+Ambedkar+reg..pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "deeff0d2596695ff",
+      "title": "NPS Swasthya Pension Scheme- Proof...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/151840/Circular+-+NPS+Swasthya+Pension+Scheme+POC+2.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1f1edc58a2c3d532",
+      "title": "Pension Bulletin Jan Feb 2026",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/145901/Pension+Bulletin+Jan+Feb+2026+Vol+XIV+Issue+XII.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "acaaff81021a7476",
+      "title": "Result - REQUEST FOR PROPOSAL...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "585ebf4a3cddeb75",
+      "title": "Result - REQUEST FOR PROPOSAL...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "9ae1db0f7db2d40e",
+      "title": "Result - REQUEST FOR PROPOSAL...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8454886ced16c916",
+      "title": "Pension Fund Regulatory and Development...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "469e68b9a913170c",
+      "title": "Permitting the Points of Presence...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1075bfcf09772eeb",
+      "title": "Notice - Request For Proposal...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "60fc0d42cb5b6e3a",
+      "title": "Implementation of Multiple NAVs framework...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f8868c1036e8c8a7",
+      "title": "CLARIFICATION TO THE PRE-BID QUERIES...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e7d7a8c557478e58",
+      "title": "CLARIFICATION TO THE PRE-BID QUERIES...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "100e7a7e3de91481",
+      "title": "CLARIFICATIONS TO THE PRE-BID QUERIES...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "92a7ef611c803b36",
+      "title": "Inviting bids from IRDAI registered...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "9db3b3781726fe07",
+      "title": "Tender Document: Inviting bids from...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "489a1ce48e03cc64",
+      "title": "Tender Document: Inviting bids from...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1b1e10af32ed1a90",
+      "title": "Investment Management Fee (IMF) and...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e9ea7bb8ed889df6",
+      "title": "Regulations",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f96122f38559adde",
+      "title": "Notifications",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e99c3e181ce4d86d",
+      "title": "Guidelines",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "19a17cf873e680b3",
+      "title": "Compendium",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2ad5b0e945ceaf4e",
+      "title": "General Orders",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "6a38b8ecd8538242",
+      "title": "Enforcement Orders",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4ee256b260a7a4bf",
+      "title": "Exposure Draft",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c1e8c20e4dfc5ac4",
+      "title": "Master Circulars",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a4b2348c73719734",
+      "title": "Past Hour   (0)",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "56656a7707823c2f",
+      "title": "Clarification on Charge Structure of CRAs under the pension schemes regulated / administered by the PFRDA\nCentral Recordkeeping Agency\nRef: PFRDA/2026/23/REG-CRA/01\nIssue Date: 29-04-2026",
+      "publish_date": "04/29/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "791c20aea7f3dec0",
+      "title": "NPS Swasthya Pension Scheme- Proof of Concept (PoC 2) under the Regulatory Sandbox Framework\nCentral Recordkeeping Agency\nRef: PFRDA/2026/22/SUP-CRA/03\nIssue Date: 07-04-2026",
+      "publish_date": "04/07/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "64af0354d90ec14f",
+      "title": "Permitting the Points of Presence for Engagement of Other Persons as Pension Agents dated 20.03.2026\nPoint of Presence\nRef: PFRDA/2026/18/REG-POP/03\nIssue Date: 25-03-2026",
+      "publish_date": "03/25/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Permitting+the+Points+of+Presence+for+engagement+of+other+persons+as+Pension+Agents+dated+20.03.2026.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8a276c65cd608322",
+      "title": "Investment Management Fee (IMF) and Annual Fee for Pension Funds w.e.f. 01 April 2026 (for a period of five years)\nPension Fund\nRef: PFRDA/2026/15/REG-PF/04\nIssue Date: 11-03-2026",
+      "publish_date": "03/11/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "70fd75a0e8c06db8",
+      "title": "Reclassification of existing Corporates under NPS into Government Entities and Legal Entities (other than Government)\nPoint of Presence\nRef: PFRDA/2026/18/REG-POP/03\nIssue Date: 10-03-2026",
+      "publish_date": "03/10/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f2cde164ecb01c60",
+      "title": "Charge structure of Point of Presence (PoP) for Common Schemes under NPS (All Citizen) including NPS Vatsalya and NPS Lite\nPoint of Presence\nRef: PFRDA/2026/16/REG-POP/01\nIssue Date: 10-03-2026",
+      "publish_date": "03/10/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2d25c6c04a81fadf",
+      "title": "Charge structure of Point of Presence (PoP) for Common Schemes under NPS for Legal Entities (other than Government)\nPoint of Presence\nRef: PFRDA/2026/17/REG-POP/02\nIssue Date: 10-03-2026",
+      "publish_date": "03/10/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f9930fd45bc353c5",
+      "title": "Notification of effective date of NPS Vatsalya Scheme Guidelines 2025\nPromotion and Development - NPS\nRef: PFRDA/2026/14/NPS-Vatsalya/02\nIssue Date: 27-02-2026",
+      "publish_date": "02/27/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "cb5edf7687c8b43e",
+      "title": "Sharing of Subscriber Information with Pension Funds under NPS Vatsalya Scheme & Asset Allocation Flexibility\nPromotion and Development - NPS\nRef: PFRDA/2026/09/REG-PF/03\nIssue Date: 23-02-2026",
+      "publish_date": "02/23/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8feed7428f19fa70",
+      "title": "Registration of all grievances received under the NPS Architecture raised at the level of Points of Presence (POP) in the respective CRA Centralized Grievance Management System (CGMS) portals\nPoint of Presence\nRef: PFRDA/2026/8/GC/01\nIssue Date: 02-02-2026",
+      "publish_date": "02/02/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c8ee993adbd1724e",
+      "title": "Introduction of \u2018NPS Swasthya Pension Scheme\u2019 as a Proof of Concept under the Regulatory Sandbox Framework\nCentral Recordkeeping Agency\nRef: PFRDA/2026/07/SUP-CRA/02\nIssue Date: 27-01-2026",
+      "publish_date": "01/27/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1dc8735da6e27975",
+      "title": "Expanded guidelines on reinvestment of returned & pending transaction amounts into the respective PRANs\nTrustee Bank\nRef: PFRDA/2026/06/SUP-TB/01\nIssue Date: 23-01-2026",
+      "publish_date": "01/23/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "49dd0ec94a9ca60b",
+      "title": "Reporting requirement under Information and Cyber Security Policy Guidelines issued by PFRDA\nPoint of Presence\nRef: PFRDA/2025/24/REG-POP/05\nIssue Date: 15-01-2026",
+      "publish_date": "01/15/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "accb522b6c946de7",
+      "title": "Sharing of Subscriber Information under Multiple Scheme Framework (MSF) with Pension Funds\nPension Fund\nRef: PFRDA/2026/04/REG-PF/02\nIssue Date: 12-01-2026",
+      "publish_date": "01/12/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d7547448dcf3013c",
+      "title": "Operational Guidelines on New Enrolment Incentive (NEI) under Multiple Scheme Framework (MSF)\nPension Fund\nRef: PFRDA/2026/03/REG-PF/01\nIssue Date: 07-01-2026",
+      "publish_date": "01/07/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d0ce441a266bf2d4",
+      "title": "NPS Vatsalya Scheme Guidelines 2025\nPromotion and Development - NPS\nRef: PFRDA/2026/02/NPS-Vatsalya/01\nIssue Date: 07-01-2026",
+      "publish_date": "01/07/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ce7dfb51f8e1df65",
+      "title": "OTP based authentication for paperless on-boarding-reg\nCentral Recordkeeping Agency\nRef: PFRDA/2026/01/SUP-CRA/01\nIssue Date: 02-01-2026",
+      "publish_date": "01/02/2026",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "104d5e21e5ee7a46",
+      "title": "Incentive structure to PoPs for NPS enrollment facilitated through Farmer Producer Organizations (FPOs)\nPoint of Presence\nRef: PFRDA/2025/22/REG-POP/04\nIssue Date: 15-12-2025",
+      "publish_date": "12/15/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a7366e914609b0af",
+      "title": "Amendment to Master Circular - Guidelines on Know Your Customer / Anti Money Laundering/Combating the Financing of Terrorism (KYC/AML/CFT) issued on 25.09.2025 with an emphasis on KYC requirements for Non-Resident Indian (NRI) and Overseas Citizen of India (OCI) onboarding to NPS.\nPoint of Presence\nRef: PFRDA/2025/22/REG-POP/04\nIssue Date: 02-12-2025",
+      "publish_date": "12/02/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ab26717821e7164d",
+      "title": "Enhancement of Investment Choice Options under NPS & UPS for Central Government Subscribers\nPension Fund\nRef: PFRDA/2025/21/Reg-PF/03\nIssue Date: 01-12-2025",
+      "publish_date": "12/01/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "05c065ccc26b354c",
+      "title": "Corporate Model NPS: Revision in the provisions for exercising choices of Pension Funds and Investment Choices\nPromotion and Development - NPS\nRef: PFRDA/2025/20/PDES/03\nIssue Date: 07-11-2025",
+      "publish_date": "11/07/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8bfbe89d74ea7d5e",
+      "title": "Inclusion of Platform Service Partner under the National Pension System (NPS) - \u201cNPS e-shramik (Platform Service Partner) Model\u201d\nCentral Recordkeeping Agency Pension Fund Point of Presence\nRef: PFRDA/2025/19/PDES/02\nIssue Date: 29-10-2025",
+      "publish_date": "10/29/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "02bf730341b15d46",
+      "title": "Guidelines on Subscriber Onboarding in National Pension System (NPS) and Revised Subscriber Registration Form (SRF)\nPoint of Presence\nRef: PFRDA/2025/17/REG-POP/02\nIssue Date: 17-10-2025",
+      "publish_date": "10/17/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b3f4b950c567c49e",
+      "title": "Rationalization of Nomenclature of Auto Choice / Life Cycle Funds under the NPS Multiple Choices of Investment under Common Schemes\nCentral Recordkeeping Agency NPS Trust Pension Fund Promotion and Development - NPS Point of Presence Trustee Bank\nRef: PFRDA/2025/16/Reg-PF/02\nIssue Date: 17-10-2025",
+      "publish_date": "10/17/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4f05ab530796c9c5",
+      "title": "Clarification on permitting the Points of Presence for engagement of Non-Individual Intermediaries registered with any financial sector regulator like RBI, IRDAI, SEBI, and PFRDA as Pension Agents for distribution of Pension Schemes\nPoint of Presence\nRef: PFRDA/2025/17/REG-POP/02\nIssue Date: 16-10-2025",
+      "publish_date": "10/16/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "137e52ec1ff6b758",
+      "title": "Mandatory Source Nodal Office Authorization for Inter-Sector Shifting (ISS) and Exit Requests for Government Sector Subscribers\nCentral Recordkeeping Agency Point of Presence\nRef: PFRDA/2025/15/SUP-CRA/1\nIssue Date: 10-10-2025",
+      "publish_date": "10/10/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8f508740ab9bb7d0",
+      "title": "Extension of cut-off date for exercising Option of Unified Pension Scheme (UPS) under NPS by two months i.e., upto 30th November 2025\nUnified Pension Scheme\nRef: PFRDA/2025/14/SUP-CG-SG/06\nIssue Date: 06-10-2025",
+      "publish_date": "10/06/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "7ffca687c0b33a7d",
+      "title": "Central Government employees on Deputation / Foreign service to submit Physical \u2018Form A2\u2019 to opt for UPS\nUnified Pension Scheme\nRef: PFRDA/2025/13/SUP-CG-SG/05\nIssue Date: 24-09-2025",
+      "publish_date": "09/24/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f2d1ffd3d3bae5e1",
+      "title": "Permitting the Points of Presence for engagement of 'other persons' as Pension Agents for distribution of Pension Schemes under Regulation 2(1)(j)(iv) of Pension Fund Regulatory and Development Authority (Point of Presence) Regulations, 2018, subject to approval by the Board of POPs\nPoint of Presence\nRef: PFRDA/2025/12/REG-POP/01\nIssue Date: 23-09-2025",
+      "publish_date": "09/23/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b6cd20b4d137ce2c",
+      "title": "Physical submission of \u2018Form A1\u2019 by New Joinees intending to opt for UPS by 30.09.2025 \u2013 reg.\nUnified Pension Scheme\nRef: PFRDA/2025/11/SUP-CG-SG/04\nIssue Date: 19-09-2025",
+      "publish_date": "09/19/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "dbee12df9d52cf1d",
+      "title": "Introduction of Multiple Scheme Framework (MSF) for Non-Government Sector Subscribers under NPS \u2013 Section 20(2) of PFRDA Act 2013\nCentral Recordkeeping Agency NPS Trust Pension Fund Promotion and Development - NPS Point of Presence Trustee Bank\nRef: PFRDA/2025/09/REG-PF/01\nIssue Date: 16-09-2025",
+      "publish_date": "09/16/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f502b8302f6f32e0",
+      "title": "Physical submission of UPS requests to nodal offices till 30.09.2025 \u2013 reg\nUnified Pension Scheme\nRef: PFRDA/2025/10/SUP-CG-SG/03\nIssue Date: 16-09-2025",
+      "publish_date": "09/16/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c2e87d7cbb848894",
+      "title": "Circular - Guidelines on Price Discovery Process for the charges of Central Recordkeeping Agencies (CRAs) for the services rendered by them to the subscribers\nCentral Recordkeeping Agency\nRef: PFRDA/2025/06/REG-CRA/01\nIssue Date: 15-09-2025",
+      "publish_date": "09/15/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e2e86dc3b8690fb3",
+      "title": "One-time option for Central Government employees who joined services on or after 01.04.2025 and up to 31.08.2025 to opt for Unified Pension Scheme (UPS) \u2013 Reg\nUnified Pension Scheme\nRef: PFRDA/2025/08/SUP-CG-SG/02\nIssue Date: 14-09-2025",
+      "publish_date": "09/14/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a6dbf4484a3fe53e",
+      "title": "Corporate Model NPS Revision in provisions for exercising PF and investment choices & Bulk Authorization of employees' NPS application by corporates\nPromotion and Development - NPS\nRef: PFRDA/2025/07/PDES/01\nIssue Date: 12-09-2025",
+      "publish_date": "09/12/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "21d8e47a966c1b1a",
+      "title": "Guidelines on Classification of Cybersecurity Incidents\nInformation and Cyber Security\nRef: PFRDA/2025/05/ICS/01\nIssue Date: 04-09-2025",
+      "publish_date": "09/04/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "6191c845e9589f66",
+      "title": "Extension of cut-off date for exercising Option of Unified Pension Scheme (UPS) under NPS by three months i.e. upto 30 September 2025\nUnified Pension Scheme\nRef: PFRDA/2025/04/SUP-CG-SG/01\nIssue Date: 26-06-2025",
+      "publish_date": "06/26/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "19c2fa8e260a47bb",
+      "title": "Settlement of Corpus & Closure of NPS account in case NPS subscriber renounces Indian citizenship and does not hold OCI card - reg.\nExit\nRef: PFRDA/2025/2/REG-EXIT/01\nIssue Date: 21-04-2025",
+      "publish_date": "04/21/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d6ade19e72bfdb71",
+      "title": "Discontinuation of the practice of waiver of Overdue Interest (ODI) on delayed upload of contributions under APY\nAtal Pension Yojna\nRef: PFRDA/03/05/1/0001/2019-PnD-APY\nIssue Date: 28-03-2025",
+      "publish_date": "03/28/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "fb231b6c08725fcb",
+      "title": "Regarding Timely and Quality Resolution of Grievances received under Centralized Public Grievance Redress and Monitoring System (CPGRAMS) Portal\nCPGRAMS\nRef: PFRDA/2025/01/CPGRAMS/01\nIssue Date: 24-02-2025",
+      "publish_date": "02/24/2025",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2f1f8e89bdc25f3c",
+      "title": "PFRDA (Framework for Prevention and Reporting of Fraud Under NPS Architecture) Guidelines, 2023\nCG - SG\nRef: PFRDA/2023/36/Sup-CGSG/01\nIssue Date: 19-12-2024",
+      "publish_date": "12/19/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b146b30117776e10",
+      "title": "Compliance with Regulation 10 (3) of the PFRDA (Exits and Withdrawals under the NPS) Regulations, 2015 for cancellation/surrender of annuity policies issued to NPS Subscribers by ASPs\nAnnuity Service Provider\nRef: PFRDA/2024/18/SUP-ASP/01\nIssue Date: 24-10-2024",
+      "publish_date": "10/24/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "fb0c03ef65c1657b",
+      "title": "Introduction of \"Balanced Life Cycle Fund\" (BLC) under National Pension System (NPS)\nPromotion and Development - NPS\nRef: PFRDA/2024/17/PDES/02\nIssue Date: 01-10-2024",
+      "publish_date": "10/01/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "9068d98910a20325",
+      "title": "Introduction of NPS Contributions through Bharat Bill Payment System (BBPS)\nCentral Recordkeeping Agency\nRef: PFRDA/2024/15/SUP-CRA/08\nIssue Date: 28-08-2024",
+      "publish_date": "08/28/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ee725d93371c578d",
+      "title": "Same Day Investment of NPS contributions (T+0) received by Trustee Bank effective from 1st July 2024\nCentral Recordkeeping Agency\nRef: PFRDA/2024/13/SUP-CRA/07\nIssue Date: 26-06-2024",
+      "publish_date": "06/26/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "da9bba7d1d5163e2",
+      "title": "Appeal with Ombudsman for Resolution of Grievances under NPS & APY\nOmbudsman\nRef: PFRDA/2024/11/OMBD/1\nIssue Date: 03-05-2024",
+      "publish_date": "05/03/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "59e769cd483eb432",
+      "title": "PFRDA (Digital Safety Practices for Government Nodal Offices Under NPS Architecture) Advisory, 2024\nCG - SG\nRef: PFRDA/2024/07/Sup-CGSG/01\nIssue Date: 27-03-2024",
+      "publish_date": "03/27/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4875802b6e6cbc65",
+      "title": "Mandatory Two - Factor Aadhaar Authentication for CRA System Access w.e.f. 1 st April 2024\nCentral Recordkeeping Agency\nRef: PFRDA 2024/06/Sup-CRA 03\nIssue Date: 15-03-2024",
+      "publish_date": "03/15/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4906b91afb8b4226",
+      "title": "Meeting eligibility criteria of minimum net-worth under sub-regulation (e) of regulation 5 of the PFRDA (Point of Presence) Regulations, 2018 and amendments thereof\nPoint of Presence\nRef: PFRDA/2024/02/REG-POP/02\nIssue Date: 11-03-2024",
+      "publish_date": "03/11/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "dabbc104ddf10380",
+      "title": "Surrender of existing CoR issued under Regulation 3(1)(iii) of the erstwhile PoP Regulations, 2018\nPoint of Presence\nRef: PFRDA/2024/03/REG-POP/03\nIssue Date: 11-03-2024",
+      "publish_date": "03/11/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "208b17771eb4ad1a",
+      "title": "Risk Management Framework for the Central Recordkeeping Agencies (CRAs) under NPS architecture\nCentral Recordkeeping Agency\nRef: PFRDA/2024/04/Sup-CRA/01\nIssue Date: 21-02-2024",
+      "publish_date": "02/21/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "867dee717856c455",
+      "title": "Securing NPS transactions through Aadhaar-based access of CRA system under the Government sector\nCentral Recordkeeping Agency\nRef: PFRDA/2024/05/Sup-CRA/02\nIssue Date: 20-02-2024",
+      "publish_date": "02/20/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "3a8c0f39d8ae5e83",
+      "title": "Information and Cyber Security Policy Guidelines - 2024 For Intermediaries / Regulated Entities\nInformation and Cyber Security\nRef: PFRDA/2024/14/ICS/01\nIssue Date: 08-01-2024",
+      "publish_date": "01/08/2024",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4edf20bca126b6c5",
+      "title": "Guidelines for Operational Activities-to be followed by Point of Presence (POPs-APY)\u00a0\nPoint of Presence\nRef: PFRDA/2021/31/SUP-POP/5\nIssue Date: 23-12-2023",
+      "publish_date": "12/23/2023",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ac4c070c5da5b915",
+      "title": "Convenience of NPS Contribution through Personalized QR Code of D Remit\nCentral Recordkeeping Agency\nRef: PFRDA/2023/35/Sup-CRA/11\nIssue Date: 06-12-2023",
+      "publish_date": "12/06/2023",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b9ba386305bd36f1",
+      "title": "Policy on adoption of cloud services by intermediaries regulated by PFRDA\nInformation and Cyber Security\nRef: PFRDA/2023/33/ICS/01\nIssue Date: 23-11-2023",
+      "publish_date": "11/23/2023",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "7ef786e49e98261c",
+      "title": "Option for subscribers under NPS All Citizen Model (Tier-I), NPS Corporate Model (Tier-I) and NPS Tier-II (all subscribers) of selection of multiple Pension Funds in accordance with the asset classes (except Alternate Asset Class or Scheme A)\nPension Fund\nRef: PFRDA/2023/33/REG-PF/03\nIssue Date: 22-11-2023",
+      "publish_date": "11/22/2023",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e1a379288aecc69b",
+      "title": "Financial Information User under Account Aggregator Framework - reg.\nPoint of Presence\nRef: PFRDA/2023/32/REG-POP/07\nIssue Date: 22-11-2023",
+      "publish_date": "11/22/2023",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "7603064f8303cc0b",
+      "title": "Addendum to the Valuation Guidelines for securities held under NPS issued vide circular no. PFRDA/2019/23/REG-PF/4 dt 21-Nov-2019\nPension Fund\nRef: PFRDA/2023/31/REG-PF/02\nIssue Date: 16-11-2023",
+      "publish_date": "11/16/2023",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "91c5c21af7261afa",
+      "title": "Facility of Systematic Lump sum Withdrawal (SLW) for NPS Subscribers\nCentral Recordkeeping Agency\nRef: PFRDA/2023/30/SUP-CRA/10\nIssue Date: 27-10-2023",
+      "publish_date": "10/27/2023",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d08116c1c9367f88",
+      "title": "Master Circulars",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0fe4d3ac7514f006",
+      "title": "Master Circular on Investment Guidelines under NPS in Non-Government Sector\nPension Fund\nRef: PFRDA/Master Circular/2025/06/PF-04\nIssue Date: 10-12-2025",
+      "publish_date": "12/10/2025",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "fb87869c1900af49",
+      "title": "Master Circular on Investment Guidelines for UPS/NPS/APY Schemes- Central/ State Government (default), Corporate CG, NPS Lite, Atal Pension Yojana and APY Fund Scheme\nPension Fund\nRef: PFRDA/Master Circular/2025/05/PF-03\nIssue Date: 10-12-2025",
+      "publish_date": "12/10/2025",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "51cc65d6642a33f6",
+      "title": "Master Circular - Guidelines on Know Your Customer / Anti Money Laundering/Combating the Financing of Terrorism (KYC/AML/CFT)\nPoint of Presence\nRef: PFRDA/Master Circular/2024/04/PoP-02\nIssue Date: 25-09-2025",
+      "publish_date": "09/25/2025",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "976756031a68be25",
+      "title": "Master Circular - Choice of Selection of CRA for NPS or any other pension scheme\nCentral Recordkeeping Agency\nRef: PFRDA/Master Circular/2025/01/CRA-01\nIssue Date: 15-09-2025",
+      "publish_date": "09/15/2025",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/147653/Master+Circular+-+Choice+of+Selection+of+CRA+for+NPS+or+any+other+pension+scheme.pdf",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "128094e7ba3339b7",
+      "title": "Master Circular - Advisories to be followed by Point of Presence (PoPs) under NPS (All Citizen and Corporate) / NPS-Lite / APY\nPoint of Presence National Pension System\nRef: PFRDA/Master Circular/2025/01/PoP-01\nIssue Date: 14-01-2025",
+      "publish_date": "01/14/2025",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c5743fe6891a2142",
+      "title": "Master Circular \u2013 Guidance to Retirement Advisers\u00a0\nRetirement Advisor\nRef: PFRDA/Master Circular/2024/06/RA-01\nIssue Date: 27-11-2024",
+      "publish_date": "11/27/2024",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "86e3aa502ef65a8e",
+      "title": "eAPY \u2013 Online facility to ease onboarding and seeding of Aadhaar for APY subscribers\nAtal Pension Yojna\nRef: PFRDA/MASTERCIRCULAR/2024/02/CRA-02\nIssue Date: 31-01-2024",
+      "publish_date": "01/31/2024",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4a3ff370dc02e8ed",
+      "title": "Partial Withdrawal of Accumulated Pension Wealth under the National Pension System (NPS)\nNational Pension System\nRef: PFRDA/MASTERCIRCULAR/2024/01/CRA-01\nIssue Date: 12-01-2024",
+      "publish_date": "01/12/2024",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4bbf24f6f56e3dff",
+      "title": "eNPS for Government Sector \u2013 A new on-boarding feature to ease the process of subscriber registration\nNational Pension System\nRef: PFRDA/MASTERCIRCULAR/2023/05/CRA-03\nIssue Date: 29-12-2023",
+      "publish_date": "12/29/2023",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "3e7f6bec1ae55f0a",
+      "title": "NPS On-boarding through Online PRAN Generation Module (OPGM)\nNational Pension System\nRef: PFRDA/MASTERCIRCULAR/2023/04/CRA-02\nIssue Date: 23-11-2023",
+      "publish_date": "11/23/2023",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "244b9e5bd3a946db",
+      "title": "Master Circular on Investment Guidelines for NPS Tier-I & Tier-II (Other than Central/State Government, Corporate CG, NPS Lite and APY)\nNational Pension System\nRef: PFRDA/MASTERCIRCULAR/2023/02/PF-02\nIssue Date: 22-09-2023",
+      "publish_date": "09/22/2023",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "24967cb132b4d50e",
+      "title": "Master Circular on Investment Guidelines for NPS/APY Schemes- Central Government, State Government, Corporate CG, NPS Lite, Atal Pension Yojana and APY Fund Scheme\nNational Pension System\nRef: PFRDA/MASTERCIRCULAR/2023/01/PF-01\nIssue Date: 18-08-2023",
+      "publish_date": "08/18/2023",
+      "pdf_url": "",
+      "category": "MASTER_CIRCULAR",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8c3266f61c53ac62",
+      "title": "Reconstitution of Pension Advisory Committee (PAC)\nPFRDA\nIssue Date: 30-01-2026",
+      "publish_date": "01/30/2026",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "68cdace883a76139",
+      "title": "Reconstitution of Pension Advisory Committee (PAC)\nPFRDA\nIssue Date: 08-01-2026",
+      "publish_date": "01/08/2026",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "785d3db8815d1c16",
+      "title": "The Central Civil Services (Implementation of the Unified Pension Scheme under the National Pension System) Rules, 2025\nCentral Government\nIssue Date: 02-09-2025",
+      "publish_date": "09/02/2025",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b706c23e96ad22c0",
+      "title": "Andhra Pradesh - Choice of Pension Fund and Investment pattern in NPS Tier - I\nState Government\nRef: GO.Ms.No.9\nIssue Date: 25-02-2025",
+      "publish_date": "02/25/2025",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8b9d111183bda284",
+      "title": "Gazette_Notification on UPS\nCentral Government\nRef: F. No. FX-1/3/2024-PR\nIssue Date: 25-01-2025",
+      "publish_date": "01/25/2025",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0781ce7ff62f7edb",
+      "title": "Gujarat-The Gujarat Civil Services (New Contributory Pension Scheme) Rules, 2024\nState Government\nRef: No. (GN-20)-NPY-102021-D-19-P (PENSION CELL)\nIssue Date: 15-03-2024",
+      "publish_date": "03/15/2024",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4c54a01351a91a31",
+      "title": "Arunachal Pradesh - Extension of Benefits under Rule 10 of CCS (Implementation of NPS), Rules 2021\nState Government\nRef: OM No. DA/X/16/2014\nIssue Date: 21-06-2023",
+      "publish_date": "06/21/2023",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "04a88eba1ba9af41",
+      "title": "Arunachal Pradesh - Choice of Pension Fund Manager and Investment Pattern\nState Government\nRef: Notification No. DA/X/17/2014-19 (Pt.-II)\nIssue Date: 11-06-2023",
+      "publish_date": "06/11/2023",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "64cb9f11b0f20647",
+      "title": "Gujarat-NPS contribution enhancement 10% to 14%\nState Government\nRef: No./102011/D/245/P(Pa.Fa.1)\nIssue Date: 29-10-2022",
+      "publish_date": "10/29/2022",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "85ea87b513c9597f",
+      "title": "Maharashtra-Choice of Pension Fund & Investment Pattern\nState Government\nRef: 2020/P.No.7/Services-4\nIssue Date: 30-09-2022",
+      "publish_date": "09/30/2022",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "27267ceb27564500",
+      "title": "Arunachal Pradesh-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.DA/X/14/12/2014-19 (Pt.-01)/477-78\nIssue Date: 28-05-2022",
+      "publish_date": "05/28/2022",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0fe9edc4c2843871",
+      "title": "Reconstitution of Pension Advisory Committtee(PAC)\nPFRDA\nRef: F. No. PFRDA/17/RES/25\nIssue Date: 19-05-2022",
+      "publish_date": "05/19/2022",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1f5c1f1c506c1294",
+      "title": "Tripura-Central Civil Services (Implementation of National Pension System) Rules, 2021 Adaptation Order, 2022\nState Government\nRef: No.F.9(1)(131)-FIN(E)/2013/PART-VI/288\nIssue Date: 16-04-2022",
+      "publish_date": "04/16/2022",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b9fc0ff9688b5d3b",
+      "title": "Chhattisgarh-NPS contribution enhancement 10% to 14%\nState Government\nRef: No. F-2019-04-04884\nIssue Date: 03-02-2022",
+      "publish_date": "02/03/2022",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f9c7a783b0d12345",
+      "title": "Haryana-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.2/47/2OO7-1 Pension (FD)\nIssue Date: 27-01-2022",
+      "publish_date": "01/27/2022",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "55919296a0bc2238",
+      "title": "Karnataka-Choice of Pension Fund & Investment Pattern\nState Government\nRef: AE 181 CEN 2021\nIssue Date: 06-12-2021",
+      "publish_date": "12/06/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "64ae1f7a8af1d07c",
+      "title": "Odisha-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.28746-FIN-NPS-SCHEME-0001-2019/F\nIssue Date: 11-10-2021",
+      "publish_date": "10/11/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b314066e6ab38783",
+      "title": "Goa-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.12/1/2021-Fin(R&C)/1716\nIssue Date: 11-08-2021",
+      "publish_date": "08/11/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2bdafab74868f8d8",
+      "title": "Jharkhand-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.G.P.F.-43-107/19/748\nIssue Date: 08-07-2021",
+      "publish_date": "07/08/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a0ccfa8065668c55",
+      "title": "West Bengal-Choice of Pension Fund & Investment Pattern for All India Services (AIS)\nState Government\nRef: No.1877-F(Y)\nIssue Date: 21-06-2021",
+      "publish_date": "06/21/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1e3349babab26ce4",
+      "title": "UT Ladakh -UT Notification\nState Government\nRef: 83-F of 2021\nIssue Date: 20-06-2021",
+      "publish_date": "06/20/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "48fa25d6e6d27232",
+      "title": "Odisha-Choice of Pension Fund & Investment Pattern\nState Government\nRef: No.15727-FIN-NPS-SCHEME-0003-2021/F\nIssue Date: 08-06-2021",
+      "publish_date": "06/08/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "25b59209d13d317d",
+      "title": "Madhya Pradesh-NPS contribution enhancement 10% to 14%\nState Government\nRef: AF:9-4/-/2021\nIssue Date: 28-05-2021",
+      "publish_date": "05/28/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e2925731b13cf9d4",
+      "title": "UT - Jammu & Kashmir-NPS contribution enhancement 10% to 14%\nState Government\nRef: S.O.178\nIssue Date: 20-05-2021",
+      "publish_date": "05/20/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4c033de85762be24",
+      "title": "Himachal Pradesh-Choice of Pension Fund & Investment Pattern\nState Government\nRef: No.Fin(TR)B(10)-7/2012\nIssue Date: 05-04-2021",
+      "publish_date": "04/05/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2ca866448f1da985",
+      "title": "The Central Civil Services (Implementation of National Pension System) Rules, 2021\nCentral Government\nIssue Date: 31-03-2021",
+      "publish_date": "03/31/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "89dfa5ac1f16c911",
+      "title": "UT - Ladakh-NPS contribution enhancement 10% to 14%\nState Government\nRef: 251-F of 2020\nIssue Date: 20-01-2021",
+      "publish_date": "01/20/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ea82a617cde7ac40",
+      "title": "Tripura - Choice of Pension fund and investment pattern for NPS subscribers\nState Government\nRef: No.F.9(1)(131)-FIN(E)/2020/15174-15303\nIssue Date: 15-01-2021",
+      "publish_date": "01/15/2021",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "78be1835934337ca",
+      "title": "Assam-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.BW.7/2008/Pt./357\nIssue Date: 04-11-2020",
+      "publish_date": "11/04/2020",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ab7dcfb80e45819b",
+      "title": "Assam-Choice of Pension Fund & Investment Pattern\nState Government\nRef: No.BW.7/2008/Pt./357\nIssue Date: 04-11-2020",
+      "publish_date": "11/04/2020",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ef1ab73aecbab37b",
+      "title": "Reconstitution of Pension Advisory Committtee(PAC)\nPFRDA\nRef: F. No. PFRDA/17/RES/25\nIssue Date: 16-09-2020",
+      "publish_date": "09/16/2020",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2483644534a498cc",
+      "title": "UT - Chandigarh-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.2/19/2016-2FPPC/199\nIssue Date: 05-02-2020",
+      "publish_date": "02/05/2020",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d663da37fde9d2a6",
+      "title": "Punjab-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.2/19/2016 2FPPC/198\nIssue Date: 05-02-2020",
+      "publish_date": "02/05/2020",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "55871279cc4b15a5",
+      "title": "Karnataka-NPS contribution enhancement 10% to 14%\nState Government\nRef: G.O.No.FD 37 PEN 2019\nIssue Date: 31-08-2019",
+      "publish_date": "08/31/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8a62952b6faa9135",
+      "title": "Maharashtra-NPS contribution enhancement 10% to 14%\nState Government\nRef: 2012/Pro.No.266/Services-4\nIssue Date: 19-08-2019",
+      "publish_date": "08/19/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ec01a71e3cd3d0e4",
+      "title": "UT - Puducherry-Choice of Pension Fund & Investment Pattern\nState Government\nRef: G.O.Ms.No.157/FD/F3/A2/2019\nIssue Date: 29-07-2019",
+      "publish_date": "07/29/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "837458701b631871",
+      "title": "Bihar-Choice of Pension Fund & Investment Pattern\nState Government\nRef: V.(27)Pay.Co.-10/2019/717\nIssue Date: 29-07-2019",
+      "publish_date": "07/29/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "91763f464dbda32d",
+      "title": "UT - Puducherry-NPS contribution enhancement 10% to 14%\nState Government\nRef: G.O.Ms.No.157/FD/F3/A2/2019\nIssue Date: 29-07-2019",
+      "publish_date": "07/29/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a0939af08e8f221e",
+      "title": "Bihar-NPS contribution enhancement 10% to 14%\nState Government\nRef: V.(27)Pay.Co.-10/2019/717\nIssue Date: 29-07-2019",
+      "publish_date": "07/29/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b9909444a2c0585b",
+      "title": "Kerala-NPS contribution enhancement 10% to 14%\nState Government\nRef: G.O(P)No.83/2019/FIN\nIssue Date: 10-07-2019",
+      "publish_date": "07/10/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "801e093a6298a4c3",
+      "title": "Uttarakhand-NPS contribution enhancement 10% to 14%\nState Government\nRef: 169/42/XXVII(10)/2016/2019\nIssue Date: 12-06-2019",
+      "publish_date": "06/12/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8a241670ec8f28bc",
+      "title": "West Bengal-NPS contribution enhancement 10% to 14% for All India Services (AIS)\nState Government\nRef: No.2522-F(Y)\nIssue Date: 26-04-2019",
+      "publish_date": "04/26/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f888de8a98498428",
+      "title": "Himachal Pradesh-NPS contribution enhancement 10% to 14%\nState Government\nRef: Fin (Pen)A(3)-1/96-Loose\nIssue Date: 22-04-2019",
+      "publish_date": "04/22/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0bb22c11b18824f4",
+      "title": "Nagaland-NPS contribution enhancement 10% to 14%\nState Government\nRef: No.FIN/ESTT-3/04(Pt)(Vol-I)\nIssue Date: 01-04-2019",
+      "publish_date": "04/01/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "063c60d0caaed78b",
+      "title": "Uttar Pradesh-Choice of Pension Fund & Investment Pattern\nState Government\nRef: \u0938\u0902 \udbc0\udcc9 \u092f\u093e - 05/2019/ \u0938\u093e - 3-91/ \u0926\u0938 - 2019-301(9)/2019\nIssue Date: 13-02-2019",
+      "publish_date": "02/13/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "9765ae3cbd32b317",
+      "title": "Uttar Pradesh-NPS contribution enhancement 10% to 14%\nState Government\nRef: \u0938\u0902 \u092f\u093e - 05/2019/ \u0938\u093e - 3-91/ \u0926\u0938 - 2019-301(9)/2019\nIssue Date: 13-02-2019",
+      "publish_date": "02/13/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ef0d3f7cf836f754",
+      "title": "Gazette notification Revision in NPS Government sector\nCentral Government\nIssue Date: 31-01-2019",
+      "publish_date": "01/31/2019",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2de8c294d5e88590",
+      "title": "Reconstitution of Pension Advisory Committtee(PAC)\nPFRDA\nRef: F. No. PFRDA/17/RES/25\nIssue Date: 24-12-2018",
+      "publish_date": "12/24/2018",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "7edf501565d43f6b",
+      "title": "Tripura-State Notification\nState Government\nRef: No.F.8(1)-FIN(G)/2004(P-I)-Finance Department Pension Cell\nIssue Date: 01-07-2018",
+      "publish_date": "07/01/2018",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/170173/78+No.F.8%281%29-FIN%28G%292004%28P-I%29-Finance+Department+Pension+Cell.pdf",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ce9048a7e4f54f0f",
+      "title": "Tripura-SAB Notification\nState Government\nRef: No.F.8(1)-FIN(G)/2004(P-I)-Finance Department Pension Cell\nIssue Date: 01-07-2018",
+      "publish_date": "07/01/2018",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "542e0aff12015f77",
+      "title": "Reconstitution of Pension Advisory Committtee(PAC)\nPFRDA\nRef: F.No. PFRDA/17/COM/30\nIssue Date: 02-03-2017",
+      "publish_date": "03/02/2017",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4e1f89c18061c2af",
+      "title": "Extension of benefits of Retirement Gratuity and Death Gratuity to Central Government employees covered by new Defined Contribution Pension System (NPS)\nCentral Government\nIssue Date: 26-08-2016",
+      "publish_date": "08/26/2016",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1ec6a3168258814e",
+      "title": "Reconstitution of Pension Advisory Committtee(PAC)\nPFRDA\nRef: F. No. PFRDA/17/RES/25\nIssue Date: 19-08-2016",
+      "publish_date": "08/19/2016",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "38e199e6ac863205",
+      "title": "Terms of Reference of the Seventh Central Pay Commission as contained in Ministry of Finance (DoE) Resolution No. 112013-EIII A dated 28022014\nCentral Government\nIssue Date: 04-08-2016",
+      "publish_date": "08/04/2016",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b1bb7d18f724b561",
+      "title": "Reconstitution of Pension Advisory Committtee(PAC)\nPFRDA\nRef: F. No. PFRDA/17/RES/25\nIssue Date: 31-08-2015",
+      "publish_date": "08/31/2015",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "abe39efe89ef59e6",
+      "title": "Reconstitution of Pension Advisory Committtee(PAC)\nPFRDA\nRef: F. No. PFRDA/17/RES/25\nIssue Date: 08-05-2015",
+      "publish_date": "05/08/2015",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "65c19ae8a9785d86",
+      "title": "Investment to be followed by Non-Government Provident Funds\nCentral Government\nIssue Date: 02-03-2015",
+      "publish_date": "03/02/2015",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "84217dbd20780d80",
+      "title": "Karnataka-SAB Notification\nState Government\nRef: FD(SPL) 209 PEN 2012 Of Finance Dept\nIssue Date: 21-02-2015",
+      "publish_date": "02/21/2015",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "9a184834974a24e0",
+      "title": "Appointment of members of Pension Advisory Committee\nPFRDA\nRef: F. No. PFRDA/17/RES/25\nIssue Date: 19-09-2014",
+      "publish_date": "09/19/2014",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "5cb381bb750e6816",
+      "title": "Telangana-State Notification\nState Government\nRef: G.O.MS.No. 28.FINANCE (HRM-V) DEPARTMENT\nIssue Date: 23-08-2014",
+      "publish_date": "08/23/2014",
+      "pdf_url": "",
+      "category": "NOTIFICATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f2be0917a7f2fcfb",
+      "title": "Guidelines for Operational activities \u2013 to be followed by Point of Presence (PoPs) performing activities of National Pension System (NPS) including NPS Vatsalya\nPoint of Presence\nIssue Date: 27-02-2026",
+      "publish_date": "02/27/2026",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "3838923ec405997f",
+      "title": "Guidelines for Operational Activities - to be followed by Point of Presence (PoPs) performing activities of Atal Pension Yojana (APY)\nPoint of Presence\nIssue Date: 27-02-2026",
+      "publish_date": "02/27/2026",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "68556d0711625ad5",
+      "title": "Guidelines for Operational Activities - to be followed by Point of Presence (PoPs) performing activities of NPS Lite\nPoint of Presence\nIssue Date: 27-02-2026",
+      "publish_date": "02/27/2026",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "58b7c07f0340ccc1",
+      "title": "Registration of Pension Funds - Guidelines, 2026\nPension Fund\nIssue Date: 12-01-2026",
+      "publish_date": "01/12/2026",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "aa0067d2e88cb166",
+      "title": "Registration of Pension Funds - Guidelines, 2025 (Archived)\nPension Fund\nIssue Date: 04-12-2025",
+      "publish_date": "12/04/2025",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a96abc79e18d63cd",
+      "title": "Accessibility Standards and Guidelines (for Creating Infrastructure for Persons with Disabilities) for PFRDA regulated intermediaries\nPension Fund\nIssue Date: 16-08-2024",
+      "publish_date": "08/16/2024",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "51dd3f876888ce78",
+      "title": "Information and Cyber Security Policy Guidelines - 2024 For Intermediaries/ Regulated Entities\nRetirement Advisor Central Recordkeeping Agency Custodian NPS Trust Pension Fund Point of Presence Trustee Bank\nRef: PFRDA/2024/14/ICS/01\nIssue Date: 01-08-2024",
+      "publish_date": "08/01/2024",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "519f1e3fc0715afd",
+      "title": "PFRDA (Framework for Prevention and Reporting of Fraud Under NPS Architecture) Guidelines, 2023\nNational Pension System\nRef: PFRDA/2023/36/Sup-CGSG/01\nIssue Date: 19-12-2023",
+      "publish_date": "12/19/2023",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ec7cb06e587863c7",
+      "title": "Addendum to the Valuation Guidelines for securities held under NPS issued vide circular no. PFRDA/2019/23/REG-PF/4 dt 21-Nov-2019\nNational Pension System\nRef: PFRDA/2023/31/REG-PF/02\nIssue Date: 16-11-2023",
+      "publish_date": "11/16/2023",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1d7dd7e98ab725e1",
+      "title": "Guidelines for Operational Activities - to be followed by Point of Presence (PoPs- NPS-lite)\nPoint of Presence National Pension System\nRef: PFRDA/2023/SUP-POP/05\nIssue Date: 18-07-2023",
+      "publish_date": "07/18/2023",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0e498dcf04ec5300",
+      "title": "Guidelines for Operational Activities - to be followed by Point of Presence (PoPs) performing activities of National Pension System (NPS)\nPoint of Presence\nRef: PFRDA/2023/21/SUP-POP/04\nIssue Date: 30-06-2023",
+      "publish_date": "06/30/2023",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "12794c27b9862358",
+      "title": "Audit of Points of Presence performing activities of Atal Pension Yojana (PoPs-APY)\nAtal Pension Yojna Point of Presence\nRef: PFRDA/2023/15/Sup-PoP/01\nIssue Date: 29-05-2023",
+      "publish_date": "05/29/2023",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "63e5411b851f85c4",
+      "title": "Registration of Pension Funds - Guidelines, 2021\nPension Fund\nIssue Date: 18-04-2022",
+      "publish_date": "04/18/2022",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a499eb1adc575dfd",
+      "title": "Guidelines for Operational Activities - to be followed by Point of Presence (PoPs-NPS-Lite)\nPoint of Presence National Pension System\nRef: PFRDA/2022/06/SUP-POP/01\nIssue Date: 16-03-2022",
+      "publish_date": "03/16/2022",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "48acc3e2dd435695",
+      "title": "Guidelines for Operational Activities-to be followed by Point of Presence (POPs-APY)\u00a0\nAtal Pension Yojna Point of Presence\nRef: PFRDA/2021/31/SUP-POP/5\nIssue Date: 23-12-2021",
+      "publish_date": "12/23/2021",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4351b7ef8ca36e03",
+      "title": "Broad Guidelines on Empanelment of Brokers by Pension Funds\nPension Fund\nRef: PFRDA/2021/43/REG-PF/7\nIssue Date: 07-10-2021",
+      "publish_date": "10/07/2021",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e54ada716b6b1667",
+      "title": "Change in Guidelines on aggregate holding of equity shares by a foreign company in Pension Funds as provided under Section 24 of the PFRDA Act ,2013 - Manner of calculation of such aggregate holding of equity shares by a foreign company in a Pension Fund under National Pension System\nPension Fund\nRef: PFRDA/2021/27/REG-PF/1\nIssue Date: 20-07-2021",
+      "publish_date": "07/20/2021",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f69da33502245a7a",
+      "title": "Operational Guidelines for National Pension Scheme Tier II - Tax Saver Scheme, 2020 (NPS - TTS)\nRef: PFRDA/10/01/1/0003/2018-PDES\nIssue Date: 17-08-2020",
+      "publish_date": "08/17/2020",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b6206c1f235cd395",
+      "title": "Guidelines on aggregate holding of equity shares by a foreign company in Pension Funds as provided under Section 24 of the PFRDA Act,2013 - Manner of calculation of such aggregate holding of equity shares by a foreign company in a Pension Fund under National Pension System\nRef: PFRDA/2020/34/REG-PF/4\nIssue Date: 13-08-2020",
+      "publish_date": "08/13/2020",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2d3ff1e453a0350e",
+      "title": "Revised Valuation Guidelines For Valuation Of Securities under NPS Schemes and other Pension Scheme(s) administered by PFRDA\nNational Pension System Unified Pension Scheme\nRef: PFRDA/2019/23/REG-PF/4\nIssue Date: 21-11-2019",
+      "publish_date": "11/21/2019",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d8f59c979710b127",
+      "title": "Guidelines for appointment of trustee under Pfrda (National Pension system Trust) Regulations, 2015\nTrustee Bank\nRef: PFRDA/2018/42/NPS-T/1\nIssue Date: 12-01-2018",
+      "publish_date": "01/12/2018",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "afa5c128362608c2",
+      "title": "Guidelines on deferment of lumpsum,annuity and continuation of Tier-II accounts under National Pension System\nNational Pension System\nRef: PFRDA/2017/32/Exit/2\nIssue Date: 09-10-2017",
+      "publish_date": "10/09/2017",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a03005c9557df450",
+      "title": "Guidelines for Operational Activities to be followed by Retirement Advisers\nRetirement Advisor\nRef: PFRDA/16/13/15/0011/2017-REG-RA\nIssue Date: 21-08-2017",
+      "publish_date": "08/21/2017",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "535cd7dfa1090e0b",
+      "title": "Revised Guidelines in respect of Contribution Collection and Service Charges for opening NPS Accounts for NRIs\nNational Pension System\nRef: PFRDA/2016/CORP/23/1\nIssue Date: 12-01-2016",
+      "publish_date": "01/12/2016",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "3058695926a512b5",
+      "title": "Guidelines for Appointment of Trustees under National Pension System Trust Regulations, 2015\nNPS Trust\nRef: PFRDA/2015/18/LGL/01\nIssue Date: 18-06-2015",
+      "publish_date": "06/18/2015",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "946f0dcf9e41489f",
+      "title": "Amendment to PFRDA(Preparation of financial statements and Auditor's Report of Schemes under NPS) Guidelines-2012\nNational Pension System\nRef: PFRDA/2015/01/PFM/01\nIssue Date: 05-01-2015",
+      "publish_date": "01/05/2015",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b95cba7b358d217e",
+      "title": "First Amendment to PFRDA(Preparation of Financial Statements and Auditor's Report of schemes under NPS) Guidelines-2012\nNational Pension System\nRef: PFRDA/2013/8/PFM/2\nIssue Date: 11-04-2013",
+      "publish_date": "04/11/2013",
+      "pdf_url": "",
+      "category": "GUIDELINE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "bbcceefba2710461",
+      "title": "Pension Fund Regulatory and Development Authority (Point Of Presence) (Amendment) Regulations, 2026\nPoint of Presence\nIssue Date: 27-03-2026",
+      "publish_date": "03/27/2026",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b9af6e20b3ad75dc",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals under the National Pension System) Regulations, 2015 [Last amended on 16 December 2025]\nExit Exits and Withdrawals\nIssue Date: 02-02-2026",
+      "publish_date": "02/02/2026",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4be8dd0b29bced0c",
+      "title": "Pension Fund Regulatory and Development Authority (Operationalisation of Unified Pension Scheme under National Pension System) (Amendment) Regulations, 2025\nUnified Pension Scheme\nIssue Date: 27-12-2025",
+      "publish_date": "12/27/2025",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "3ae559dd551ebfc1",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals under the National Pension System) (Amendment) Regulations, 2025\nExits and Withdrawals\nIssue Date: 16-12-2025",
+      "publish_date": "12/16/2025",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e4ea84e1c11bf56f",
+      "title": "Pension Fund Regulatory And Development Authority (Employees\u2019 Service) (Second Amendment) Regulations, 2025\nEmployees Service\nIssue Date: 13-10-2025",
+      "publish_date": "10/13/2025",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "973bc876c83a1702",
+      "title": "Pension Fund Regulatory and Development Authority (Employees Service) Amendment Regulations, 2025\nEmployees Service\nIssue Date: 29-05-2025",
+      "publish_date": "05/29/2025",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "3e6029b529a6024c",
+      "title": "Pension Fund Regulatory and Development Authority (Operationalisation of Unified Pension Scheme under National Pension System) Regulations, 2025\nUnified Pension Scheme\nIssue Date: 19-03-2025",
+      "publish_date": "03/19/2025",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "79b1054d20640419",
+      "title": "Pension Fund Regulatory and Development Authority (Mechanism for Making and Review of Regulations) Regulations, 2024\nMechanism for Making and Review of Regulations\nIssue Date: 26-04-2024",
+      "publish_date": "04/26/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d4802c997773011f",
+      "title": "Pension Fund Regulatory and Development Authority (Pension Fund) (Second Amendment) Regulations, 2023\nPension Fund\nIssue Date: 28-02-2024",
+      "publish_date": "02/28/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "6807270efb06bf67",
+      "title": "Pension Fund Regulatory and Development Authority (Custodian of Securities) (Amendment) Regulations, 2023\nCustodian\nIssue Date: 21-02-2024",
+      "publish_date": "02/21/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "61151b4785e860f0",
+      "title": "Pension Fund Regulatory and Development Authority (Retirement Adviser) (Amendment) Regulations 2023\nRetirement Advisor\nIssue Date: 21-02-2024",
+      "publish_date": "02/21/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c74ae1d43f27e927",
+      "title": "Pension Fund Regulatory and Development Authority (Redressal of Subscriber Grievance) (Second Amendment) Regulations, 2023\nRedressal of Subscriber Grievance\nIssue Date: 21-02-2024",
+      "publish_date": "02/21/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c1b92f07c3bb3598",
+      "title": "Pension Fund Regulatory and Development Authority (Central Recordkeeping Agency) (Amendment) Regulations, 2023\nCentral Recordkeeping Agency\nIssue Date: 09-02-2024",
+      "publish_date": "02/09/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "230142de9699415c",
+      "title": "Pension Fund Regulatory and Development Authority (Trustee Bank) (Amendment) Regulations, 2023\nTrustee Bank\nIssue Date: 09-02-2024",
+      "publish_date": "02/09/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "58ab39263bba3ce6",
+      "title": "Pension Fund Regulatory and Development Authority (Pension Fund) (Amendment) Regulations, 2023\nPension Fund\nIssue Date: 09-02-2024",
+      "publish_date": "02/09/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "318821358fcedfbc",
+      "title": "Pension Fund Regulatory and Development Authority (National Pension System Trust) (Second Amendment) Regulations 2023\nNPS Trust\nIssue Date: 07-02-2024",
+      "publish_date": "02/07/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "52c10fddd32f7bad",
+      "title": "Pension Fund Regulatory and Development Authority (Subscriber Education and Protection Fund) (Amendment) Regulations, 2023\nSubscriber Education and Protection Fund\nIssue Date: 29-01-2024",
+      "publish_date": "01/29/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "24d8c50c3ad69548",
+      "title": "Pension Fund Regulatory and Development Authority (Point Of Presence) (Amendment) Regulations 2023\nPoint of Presence\nIssue Date: 11-01-2024",
+      "publish_date": "01/11/2024",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e9cb8c66643e38cb",
+      "title": "Pension Fund Regulatory and Development Authority (National Pension System Trust) (Amendment) Regulations 2023\nNPS Trust\nIssue Date: 17-04-2023",
+      "publish_date": "04/17/2023",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "eb3418d315c484db",
+      "title": "Pension Fund Regulatory and Development Authority (Redressal of Subscriber Grievance) (Amendment) Regulations, 2023\nRedressal of Subscriber Grievance\nIssue Date: 27-03-2023",
+      "publish_date": "03/27/2023",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0f1517260dd07868",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under The National Pension System) (Amendment) Regulations, 2023\nExits and Withdrawals\nIssue Date: 23-03-2023",
+      "publish_date": "03/23/2023",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e088c15c8119c4d4",
+      "title": "Pension Fund Regulatory and Development Authority (Redressal of Subscriber Grievance) (Amendment) Regulations, 2022\nRedressal of Subscriber Grievance\nIssue Date: 25-05-2022",
+      "publish_date": "05/25/2022",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1da0eb317848c368",
+      "title": "PFRDA (Employee Service) (Amendment) Regulations, 2022\nEmployees Service\nIssue Date: 13-04-2022",
+      "publish_date": "04/13/2022",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4c93ed10d4697130",
+      "title": "PENSION FUND REGULATORY AND DEVELOPMENT AUTHORITY (EXITS AND WITHDRAWALS UNDER THE NATIONAL PENSION SYSTEM) (SECOND AMENDMENT) REGULATIONS, 2021\nExits and Withdrawals\nRef: No. PFRDA/12/RGL/139/8\nIssue Date: 28-12-2021",
+      "publish_date": "12/28/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "042938cd6b6cc87a",
+      "title": "PENSION FUND REGULATORY AND DEVELOPMENT AUTHORITY (CUSTODIAN OF SECURITIES) (AMENDMENT) REGULATIONS, 2021\nCustodian\nRef: F. No. PFRDA/12/RGL/139/10\nIssue Date: 22-09-2021",
+      "publish_date": "09/22/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "433b8e1cf40ec20e",
+      "title": "PENSION FUND REGULATORY AND DEVELOPMENT AUTHORITY (PENSION FUND) (SIXTH AMENDMENT) REGULATIONS, 2021\nPension Fund\nIssue Date: 15-07-2021",
+      "publish_date": "07/15/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8d5b8d6718d22976",
+      "title": "Pension Fund Regulatory And Development Authority (Employees Service) (Second Amendment) Regulations,2021\nEmployees Service\nIssue Date: 02-07-2021",
+      "publish_date": "07/02/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0b74a603aad420e4",
+      "title": "Pension Fund Regulatory and Development Authority (Central Recordkeeping Agency) (Amendment) Regulations, 2021\nCentral Recordkeeping Agency\nIssue Date: 14-06-2021",
+      "publish_date": "06/14/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "221c91f261b092fa",
+      "title": "PENSION FUND REGULATORY AND DEVELOPMENT AUTHORITY (NATIONAL PENSION SYSTEM TRUST) (AMENDMENT) REGULATIONS, 2021\nNPS Trust\nRef: No. PFRDA/12/RGL/139/5\nIssue Date: 14-06-2021",
+      "publish_date": "06/14/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c3bb59cd0732a80e",
+      "title": "Pension Fund Regulatory And Development Authority (Exits And Withdrawals Under The National Pension System) (Amendment) Regulations, 2021\nExits and Withdrawals\nIssue Date: 14-06-2021",
+      "publish_date": "06/14/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b8f5e06498b2bb65",
+      "title": "PENSION FUND REGULATORY AND DEVELOPMENT AUTHORITY (POINT OF PRESENCE) (AMENDMENT) REGULATIONS, 2021\nPoint of Presence\nRef: No. PFRDA/12/RGL/139/3\nIssue Date: 14-06-2021",
+      "publish_date": "06/14/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "ac67a10882c8a626",
+      "title": "Pension Fund Regulatory and Development Authority (Pension Fund) (Fifth Amendment) Regulations, 2021\nPension Fund\nIssue Date: 25-05-2021",
+      "publish_date": "05/25/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "2891623109193b77",
+      "title": "Pension Fund Regulatory and Development Authority (Pension Fund) (Fourth Amendment) Regulations, 2021\nPension Fund\nIssue Date: 01-04-2021",
+      "publish_date": "04/01/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "71525a1d106d35fb",
+      "title": "Pension Fund Regulatory and Development Authority (Employees Service) (Amendment) Regulations, 2021\nEmployees Service\nIssue Date: 24-03-2021",
+      "publish_date": "03/24/2021",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b0a905e1812e7bfb",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under the National Pension System) (Amendment) Regulations, 2020\nExits and Withdrawals\nIssue Date: 30-09-2020",
+      "publish_date": "09/30/2020",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "45988f536a31bbec",
+      "title": "Pension Fund Regulatory and Development Authority (Central Recordkeeping Agency) (Second Amendment) Regulations, 2020\nCentral Recordkeeping Agency\nIssue Date: 29-07-2020",
+      "publish_date": "07/29/2020",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8a86da51ddefe87c",
+      "title": "Pension Fund Regulatory and Development Authority (National Pension System Trust) (Second Amendment) Regulations 2020\nNPS Trust\nIssue Date: 29-07-2020",
+      "publish_date": "07/29/2020",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0dd51d018a8bc9f1",
+      "title": "Pension Fund Regulatory and Development Authority (Pension Fund) (Third Amendment) Regulations, 2020\nPension Fund\nIssue Date: 14-05-2020",
+      "publish_date": "05/14/2020",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b1e7131d3fdd43fc",
+      "title": "Pension Fund Regulatory And Development Authority (Employees Service) (Amendment) Regulations,2020\nEmployees Service\nIssue Date: 28-04-2020",
+      "publish_date": "04/28/2020",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "705240a07ebd052f",
+      "title": "Pension Fund Regulatory and Development Authority (Pension Fund) (Second Amendment) Regulations, 2020\nPension Fund\nIssue Date: 05-02-2020",
+      "publish_date": "02/05/2020",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e8f102b084ec664f",
+      "title": "Pension Fund Regulatory and Development Authority (Retirement Adviser) (Fifth Amendment) Regulations 2019\nRetirement Advisor\nIssue Date: 03-12-2019",
+      "publish_date": "12/03/2019",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "44f8680a11dc2a8d",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under the National Pension System)(Sixth Amendment) Regulations, 2019\nExits and Withdrawals\nIssue Date: 23-09-2019",
+      "publish_date": "09/23/2019",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b3faf3c017199bea",
+      "title": "Pension Fund Regulatory and Development Authority (National Pension System Trust) (First Amendment) Regulations 2019\nNPS Trust\nIssue Date: 29-07-2019",
+      "publish_date": "07/29/2019",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "aa8c3d56c59388d9",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under the National Pension System)(Fifth Amendment) Regulations, 2019\nExits and Withdrawals\nIssue Date: 19-02-2019",
+      "publish_date": "02/19/2019",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "51251ce3b418ac76",
+      "title": "Pension Fund Regulatory and Development Authority (Trustee Bank) (First Amendment) Regulations, 2019\nTrustee Bank\nIssue Date: 19-02-2019",
+      "publish_date": "02/19/2019",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "35f3075664492b64",
+      "title": "PFRDA (Central Recordkeeping Agency) Regulations - Compilation of Amendments till 16-11-2018\nCentral Recordkeeping Agency\nIssue Date: 16-11-2018",
+      "publish_date": "11/16/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d0b3a17c12b323c2",
+      "title": "PFRDA (Pension Funds) Regulations - Compilation of Amendments till 16-11-2018\nPension Fund\nIssue Date: 16-11-2018",
+      "publish_date": "11/16/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "963f1e634b704a39",
+      "title": "PFRDA (Retirement Adviser) Regulations - Compilation of Amendments till 16-11-2018\nRetirement Advisor\nIssue Date: 16-11-2018",
+      "publish_date": "11/16/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "f1377fe5c846d186",
+      "title": "Pension Fund Regulatory And Development Authority (Employees Service) (First Amendment) Regulations,2018\nEmployees Service\nIssue Date: 02-11-2018",
+      "publish_date": "11/02/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "92e6bb87d0a98755",
+      "title": "Pension Fund Regulatory and Development Authority (Central Recordkeeping Agency) (First Amendment) Regulations, 2018\nCentral Recordkeeping Agency\nIssue Date: 25-06-2018",
+      "publish_date": "06/25/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "159a99c62cf8c5d5",
+      "title": "Pension Fund Regulatory And Development Authority(Point Of Presence) Regulations,2018\nPoint of Presence\nIssue Date: 25-06-2018",
+      "publish_date": "06/25/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "edf8a57ea4ca79b3",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under the National Pension System)(Fourth Amendment) Regulations, 2018\nExits and Withdrawals\nIssue Date: 18-05-2018",
+      "publish_date": "05/18/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "5b0c1369cc4e386c",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under the National Pension System)(Third Amendment) Regulations, 2018\nExits and Withdrawals\nIssue Date: 02-02-2018",
+      "publish_date": "02/02/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a39b3286a1bd7aca",
+      "title": "Pension Fund Regulatory And Development Authority (Exits And Withdrawals Under The National Pension System) Regulations\nExits and Withdrawals\nIssue Date: 02-02-2018",
+      "publish_date": "02/02/2018",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4069af4aa0566e0f",
+      "title": "Pension Fund Regulatory and Development Authority (Retirement Adviser) (Fourth Amendment) Regulations 2017\nRetirement Advisor\nIssue Date: 28-12-2017",
+      "publish_date": "12/28/2017",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8909f514796b306d",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under the National Pension System)(Second Amendment) Regulations, 2017\nExits and Withdrawals\nIssue Date: 06-10-2017",
+      "publish_date": "10/06/2017",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "0e996e4afcb3537c",
+      "title": "Pension Fund Regulatory and Development Authority (Retirement Adviser) (Third Amendment) Regulations 2017\nNational Pension System\nIssue Date: 11-09-2017",
+      "publish_date": "09/11/2017",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "362b765742573afc",
+      "title": "Pension Fund Regulatory and Development Authority (Exits and Withdrawals Under the National Pension System)(First Amendment) Regulations, 2017\nNational Pension System\nIssue Date: 10-08-2017",
+      "publish_date": "08/10/2017",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "61a63b1879f32532",
+      "title": "Pension Fund Regulatory and Development Authority (Retirement Adviser) (Second Amendment) Regulations 2017\nRetirement Advisor\nIssue Date: 01-06-2017",
+      "publish_date": "06/01/2017",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "78c398a4ceba84da",
+      "title": "Pension Fund Regulatory and Development Authority (Point Of Presence) (Second Amendment) Regulations 2017\nPoint of Presence\nIssue Date: 05-05-2017",
+      "publish_date": "05/05/2017",
+      "pdf_url": "",
+      "category": "REGULATION",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e81b4d9f57f21aed",
+      "title": "Orders and Notices",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "GENERAL_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "6a91b143538a0574",
+      "title": "Public notice against \"NPS Services operated by Shri B. Vijay Kumar Reddy\" and \"Straddle Infotech Limited\"\nIssue Date: 01-08-2016",
+      "publish_date": "08/01/2016",
+      "pdf_url": "",
+      "category": "GENERAL_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "e38e3b9fdbbd4951",
+      "title": "CENTRAL KYC REGISTRY OPERATING GUIDELINES 2016",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4b59616b41c4409e",
+      "title": "List of Aggregators de-registered during the FY 2015-16 on the basis of having 'nil' subscriber base under NPS-Lite/Swavalamban",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "6256bb8651d8390a",
+      "title": "Public Notice regarding M/s Rehmat(Regd),Delhi",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "263b1bc79bca0afc",
+      "title": "Public Notice on Frauds in the name of PFRDA/NPS",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "98d70fd5bd672146",
+      "title": "Intimation of change in address of office of Pension Fund Regulatory and Development Authority (PFRDA)\nIssue Date: 04-04-2024",
+      "publish_date": "04/04/2024",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "183da38e097e2879",
+      "title": "Intimation of change in address of office of Pension Fund Regulatory and Development Authority (PFRDA) IN THE MATTER OF KARVY COMPUTERSHARE PRIVATE LIMITED (NOW K-FIN TECHNOLOGIES PVT. LTD.) (Case No. 2 of 2021)\nIssue Date: 02-05-2022",
+      "publish_date": "05/02/2022",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "8c3174715e9188be",
+      "title": "FINAL ORDER - IN THE MATTER OF ALANKIT ASSIGNMENTS LTD. & ORS.\nIssue Date: 02-05-2022",
+      "publish_date": "05/02/2022",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b37b829dd091424b",
+      "title": "Advisory for PoPs on submission of Funds and MIS by Corporates under NPS\nIssue Date: 17-11-2016",
+      "publish_date": "11/17/2016",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "000248b21631bc7c",
+      "title": "Warning Against Unauthorized Individuals Indulging in Fraudulent Activities using name of PFRDA & National Pension System (NPS)\nIssue Date: 28-10-2016",
+      "publish_date": "10/28/2016",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "aa46b3ec13deb843",
+      "title": "Advisory on providing KYC information to Central KYC (CKYC) Registry by PoP\nRef: PFRDA/08/PoP/122\nIssue Date: 14-07-2016",
+      "publish_date": "07/14/2016",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4bb563e901e7911d",
+      "title": "Regulatory Advice to PoPs regarding timely submission of required MIS to NPS Trust\nIssue Date: 06-04-2016",
+      "publish_date": "04/06/2016",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "b0efa337c70d9fab",
+      "title": "Regulatory Advice to PoPs regarding non response to queries of potential subscribers under NPS\nIssue Date: 15-03-2016",
+      "publish_date": "03/15/2016",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "db118f2a111618c4",
+      "title": "Public Notice regarding New/Fresh Enrollments under NPS Lite/Swavalamban\nIssue Date: 13-01-2016",
+      "publish_date": "01/13/2016",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1973da926c39e5b1",
+      "title": "Warning against Entities indulging in fraudulent activities under NPS Lite/Swavalamban\nIssue Date: 13-01-2016",
+      "publish_date": "01/13/2016",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "642096c64f781b60",
+      "title": "Public notice against - NPS Services operated by Shri B. Vijay Kumar Reddy and Straddle Infotech Limited\nIssue Date: 30-11-2015",
+      "publish_date": "11/30/2015",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "257e6cfde8bb5719",
+      "title": "Public Notice against \"The Great Life Marketing, Zirakpur, Punjab\"\nIssue Date: 30-11-2015",
+      "publish_date": "11/30/2015",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "c678527863f90835",
+      "title": "Public Notice against Saga Trip Marketing Solutions Pvt Ltd and DSR Electronics and Financial Services Pvt Ltd\nIssue Date: 18-09-2015",
+      "publish_date": "09/18/2015",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "5060575febc500cd",
+      "title": "Public Notice Regarding fraudulent collection of funds in the name of NPS\nIssue Date: 20-08-2015",
+      "publish_date": "08/20/2015",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a5cad9d41e8b5a90",
+      "title": "APY Notice- Benefits and Features\nIssue Date: 25-06-2015",
+      "publish_date": "06/25/2015",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "48ddafff68fef0c3",
+      "title": "Public Notice to all Swvalamban Subscribers between age group of 18-40 Years\nIssue Date: 25-06-2015",
+      "publish_date": "06/25/2015",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "373f8357ec8d5fc0",
+      "title": "List of Cancelled Aggregator as on 30.11.2014\nIssue Date: 30-11-2014",
+      "publish_date": "11/30/2014",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "4b0879b20cd7e873",
+      "title": "List of Cancelled Aggregators as on 10.10.2014\nIssue Date: 10-10-2014",
+      "publish_date": "10/10/2014",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "79485f9e734e2370",
+      "title": "Notice regarding Swavalamban benefit to NPS Subscribers\nIssue Date: 28-12-2010",
+      "publish_date": "12/28/2010",
+      "pdf_url": "",
+      "category": "ENFORCEMENT_ORDER",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "81f1c7f2f6dbe21e",
+      "title": "Past Hour   (0)",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "3bd1961f5388a893",
+      "title": "Implementation of Multiple NAVs framework w.e.f. 01st April 2026\nNotice\nIssue Date: 24-03-2026",
+      "publish_date": "03/24/2026",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "06bd91e919711888",
+      "title": "PUBLIC NOTICE Caution against dealing with SALAI Holdings Pvt. Ltd. and SMART Society\nNotice\nIssue Date: 09-03-2026",
+      "publish_date": "03/09/2026",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "93916b6d54f2d5b8",
+      "title": "PUBLIC NOTICE Against fraudulent website and mobile application viz. xpo-ru\nNotice\nIssue Date: 13-02-2026",
+      "publish_date": "02/13/2026",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "1f2c01b8ab0919d9",
+      "title": "Notice Inviting Applications/Proposals for Selection of Sponsors of PFs dated 28.01.2026\nNotice\nRef: PFRDA/16/3/01/0001/2021-REG-PF\nIssue Date: 28-01-2026",
+      "publish_date": "01/28/2026",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "9dfb6e19c5ec1ec5",
+      "title": "Important Update for NPS Subscribers \u2013 Scheme A (Tier I)\nNotice\nRef: PFRDA/16/3/29/0123/2017-REG-PF-CN:1818\nIssue Date: 13-12-2025",
+      "publish_date": "12/13/2025",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "850f9e6535efbcfe",
+      "title": "NOTICE INVITING APPLICATIONS / PROPOSALS FOR SELECTION OF SPONSORs OF PENSION FUNDs\nNotice\nIssue Date: 12-12-2025",
+      "publish_date": "12/12/2025",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a9a3b84d5e522df4",
+      "title": "Cancellation of Certificate of Registration of M/s A&A Dukaan Financial Services Private Limited as Point of Presence due to voluntary surrender request\nNotice\nIssue Date: 25-11-2025",
+      "publish_date": "11/25/2025",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "34e827dad0268994",
+      "title": "Extension of Deadline for Submission of Feedback and Inputs on the Consultation Paper on Enhancing the National Pension System\nNotice\nIssue Date: 31-10-2025",
+      "publish_date": "10/31/2025",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "870c9c51242d0af6",
+      "title": "Cancellation of Certificate of Registration \u2013 Max Life Pension Fund Management Ltd.\nNotice\nIssue Date: 06-10-2025",
+      "publish_date": "10/06/2025",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "a0ce39cecb62dba9",
+      "title": "Notice \u2013 Name change of Agency handling RPs\nNotice\nIssue Date: 31-07-2025",
+      "publish_date": "07/31/2025",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    },
+    {
+      "id": "d1fe42562b6edb97",
+      "title": "Notice \u2013 Name change of Training Agency\nNotice\nIssue Date: 31-07-2025",
+      "publish_date": "07/31/2025",
+      "pdf_url": "",
+      "category": "NOTICE",
+      "scraped_at": "04/30/2026"
+    }
+  ]
 }
