@@ -6950,3 +6950,164 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-04-29 09:37:34
+d15a54e353434762,CERT-In Vulnerability Note  CIVN-2026-0211,"April 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0211,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0211
+Authentication Bypass Vulnerability in cPanel & WHM (WP2)
+Original Issue Date:April     30, 2026
+Severity Rating: CRITICAL
+Systems Affected
+cPanel & WHM (including DNSOnly and WP2 components)
+Specific affected versions should be verified from the vendor advisory
+Overview
+A vulnerability has been reported in cPanel & WHM which could allow an unauthenticated remote attacker to bypass authentication mechanisms and gain administrative access to affected systems.
+Target Audience:
+Organizations and individuals using the affected cPanel & WHM-based hosting environments.
+Risk Assessment:
+High risk of unauthorized access and system compromise.
+Impact Assessment:
+Potential for unauthorized access, sensitive data exposure and system compromise.
+Description
+cPanel & WHM is a widely used web hosting control panel that provides administrative (WHM) and user-level (cPanel) interfaces for managing servers and websites.
+This vulnerability exists in cPanel and WHM due improper handling of authentication controls within the application. An attacker could exploit this vulnerability by bypassing authentication controls, allowing unauthorized access to the control panel.
+Successful exploitation of this vulnerability could allow an attacker to gain unauthorized administrative access to the affected system.
+Note: This vulnerability (
+CVE-2026-41940
+) is being actively exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate software updates as mentioned by the vendor:
+https://support.cpanel.net/hc/en-us/articles/40073787579671-Security-CVE-2026-41940-cPanel-WHM-WP2-Security-Update-04-28-2026
+Vendor Information
+cPanel
+https://support.cpanel.net/hc/en-us/articles/40073787579671-Security-CVE-2026-41940-cPanel-WHM-WP2-Security-Update-04-28-2026
+References
+cPanel
+https://support.cpanel.net/hc/en-us/articles/40073787579671-Security-CVE-2026-41940-cPanel-WHM-WP2-Security-Update-04-28-2026
+Bleeping Computer
+https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/
+CVE Name
+CVE-2026-41940
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-30 09:37:24
+d38eefa8259b15a8,CERT-In Vulnerability Note  CIVN-2026-0210,"April 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0210,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0210
+Information Disclosure Vulnerability in Apple products
+Original Issue Date:April     30, 2026
+Severity Rating: HIGH
+Software Affected
+Apple iOS versions prior to 18.7.8 & 26.4.2
+Apple iPadOS versions prior to 18.7.8 & 26.4.2
+Overview
+A vulnerability has been reported in Apple products, which could allow a remote attacker potentially view sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals, security teams responsible for maintaining and updating Apple products.
+Risk Assessment:
+High risk of unauthorized access of data and data manipulation.
+Impact Assessment:
+Information Disclosure.
+Description
+Apple Inc. is a technology company that develops devices like iPhones and iPads along with their operating systems. iOS (for iPhones) and iPadOS (for iPads) are the software platforms that run and manage these devices.
+A vulnerability has been reported in in Apple products due to logging issue in Notification Services. An attacker could exploit this vulnerability by accessing system logs or device storage to recover notification data that was not properly deleted on the targeted system.
+Successful exploitation of this vulnerability could allow an attacker potentially view sensitive information on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in the Apple security updates:
+https://support.apple.com/en-us/127002
+https://support.apple.com/en-us/127003
+References
+Apple
+https://support.apple.com/en-us/127002
+https://support.apple.com/en-us/127003
+CVE Name
+CVE-2026-28950
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-30 09:37:24
+2158446267bed6d0,CERT-In Vulnerability Note  CIVN-2026-0209,"April 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0209,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0209
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:April     30, 2026
+Severity Rating: CRITICAL
+Software Affected
+Google Chrome versions prior to 147.0.7727.137 for Linux
+Google Chrome versions prior to 147.0.7727.137/138 for Windows and Mac
+Overview
+Multiple vulnerabilities have been reported in Google Chrome could allow a remote attacker to execute arbitrary code, obtain sensitive information or cause denial of service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, memory corruption and security bypass.
+Impact Assessment:
+Successful exploitation could lead to system compromise, data theft or service disruption.
+Description
+Google Chrome is a popular internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.
+Multiple vulnerabilities exist in Google Chrome due to Use-after-free in Canvas, iOS, Accessibility, Views, GPU, ANGLE, Animation, Navigation, Media, WebMIDI, Cast, Codecs, WebRTC, Chromoting and WebView; Heap buffer overflow in Skia and WebRTC; Out-of-bounds read and write in ANGLE; Type confusion in V8; Integer overflow in ANGLE; Race in MHTML; Insufficient validation of untrusted input in Compositing and Feedback; and Inappropriate implementation in Tint. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, bypass security restrictions, obtain sensitive information and cause denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop_28.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop_28.html
+References
+https://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop_28.html
+CVE Name
+CVE-2026-7333
+CVE-2026-7334
+CVE-2026-7335
+CVE-2026-7336
+CVE-2026-7337
+CVE-2026-7338
+CVE-2026-7339
+CVE-2026-7340
+CVE-2026-7341
+CVE-2026-7342
+CVE-2026-7343
+CVE-2026-7344
+CVE-2026-7345
+CVE-2026-7346
+CVE-2026-7347
+CVE-2026-7348
+CVE-2026-7349
+CVE-2026-7350
+CVE-2026-7351
+CVE-2026-7352
+CVE-2026-7353
+CVE-2026-7354
+CVE-2026-7355
+CVE-2026-7356
+CVE-2026-7357
+CVE-2026-7358
+CVE-2026-7359
+CVE-2026-7360
+CVE-2026-7361
+CVE-2026-7363
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-04-30 09:37:24
