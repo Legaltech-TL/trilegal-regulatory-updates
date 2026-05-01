@@ -1,38 +1,5 @@
 {
-  "generated_at": "2026-05-01T06:11:28.904187",
-  "count": 4,
-  "items": [
-    {
-      "id": "02a1d7af283eb32d",
-      "title": "Taken on Strength Order dated 30-04-2026",
-      "publish_date": "04/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/d7e5783d957ae80c0c92a2ea944af848.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/01/2026"
-    },
-    {
-      "id": "1eea5dedfe5e6369",
-      "title": "Voluntary Retirement from Govt.Service - Shri Muneesh Gogia, Staff No 20337, ITS Presently GM, MTNL Delhi",
-      "publish_date": "04/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/427be6c1135ab2cc611e93738ce3b0ab.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/01/2026"
-    },
-    {
-      "id": "02a1d7af283eb32d",
-      "title": "Taken on Strength Order dated 30-04-2026",
-      "publish_date": "04/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/d7e5783d957ae80c0c92a2ea944af848.pdf",
-      "category": "REPORTS",
-      "scraped_at": "05/01/2026"
-    },
-    {
-      "id": "1eea5dedfe5e6369",
-      "title": "Voluntary Retirement from Govt.Service - Shri Muneesh Gogia, Staff No 20337, ITS Presently GM, MTNL Delhi",
-      "publish_date": "04/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/427be6c1135ab2cc611e93738ce3b0ab.pdf",
-      "category": "REPORTS",
-      "scraped_at": "05/01/2026"
-    }
-  ]
+  "generated_at": "2026-05-01T08:07:43.974244",
+  "count": 0,
+  "items": []
 }
