@@ -7224,3 +7224,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-04 07:23:31
+dc0c0214181e9901,CERT-In Vulnerability Note  CIVN-2026-0214,"May 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0214,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0214
+Remote Code Execution Vulnerability in GitHub Enterprise Server
+Original Issue Date:May       04, 2026
+Severity Rating: HIGH
+Software Affected
+GitHub Enterprise Server versions:
+Versions prior to 3.14.25, 3.15.20, 3.16.16, 3.17.13, 3.18.8, 3.19.4 and 3.20.0
+Overview
+A vulnerability has been reported in GitHub Enterprise Server which may allow an authenticated remote attacker to execute arbitrary code on the targeted system via a specially crafted git push request.
+Target Audience:
+Individuals and organizations that use the affected GitHub Enterprise Server.
+Risk Assessment:
+High risk of remote code execution, full system compromise, and sensitive data exposure in GitHub Enterprise Server.
+Impact Assessment:
+Remote Code Execution (RCE), unauthorized access, disclosure of sensitive information, and potential denial of service (DoS) in GitHub Enterprise Server.
+Description
+GitHub Enterprise Server is a self-hosted version of GitHub designed for enterprises to securely manage, develop, and collaborate on code within their own infrastructure.
+This vulnerability exists due to improper input validation in Git push options. A remote authenticated attacker can inject malicious data through a specially crafted git push request and execute arbitrary commands on the system.
+Successful exploitation of this vulnerability may allow a remote attacker to execute arbitrary code, gain administrative access, read and expose sensitive information, and launch a denial-of-service (DoS) attack on the targeted system.
+Solution
+Users are advised to apply appropriate updates as mentioned:
+https://thehackernews.com/2026/04/researchers-discover-critical-github.html
+https://github.com/advisories/GHSA-64fw-jx9p-5j24
+Vendor Information
+https://github.com/advisories
+References
+https://thehackernews.com/2026/04/researchers-discover-critical-github.html
+https://github.com/advisories/GHSA-64fw-jx9p-5j24
+CVE Name
+CVE-2026-3854
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-04 12:19:22
