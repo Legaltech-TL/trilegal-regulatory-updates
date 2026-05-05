@@ -1,52 +1,20 @@
 {
-  "generated_at": "2026-05-05T07:48:38.142066",
-  "count": 6,
+  "generated_at": "2026-05-05T10:39:46.271636",
+  "count": 2,
   "items": [
     {
-      "id": "8bd45cf9f7886c74",
-      "title": "Engagement of Internship in June-July at NCA-T",
-      "publish_date": "05/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/6fdd2a8debbff4ce298c428dac2cea60.pdf",
+      "id": "9bfbbc651b8c5270",
+      "title": "Seniority List of JTS of IP&TAFS as on 01.01.2026",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4801fd737805ec857605ad0e93c97a9a.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/05/2026"
     },
     {
-      "id": "ade4e6ff08f0ea46",
-      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 04.05.2026 to ISPs",
-      "publish_date": "05/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4f87190ecfb05dfd3a76a140225ef5c6.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/05/2026"
-    },
-    {
-      "id": "f59376345ad5aa33",
-      "title": "CS COMM 1023 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 30.04.2026 to ISPs",
-      "publish_date": "04/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/2c028a7b9f99b1bfc8f35c7d91e31293.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/05/2026"
-    },
-    {
-      "id": "8bd45cf9f7886c74",
-      "title": "Engagement of Internship in June-July at NCA-T",
-      "publish_date": "05/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/6fdd2a8debbff4ce298c428dac2cea60.pdf",
-      "category": "REPORTS",
-      "scraped_at": "05/05/2026"
-    },
-    {
-      "id": "ade4e6ff08f0ea46",
-      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 04.05.2026 to ISPs",
-      "publish_date": "05/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4f87190ecfb05dfd3a76a140225ef5c6.pdf",
-      "category": "REPORTS",
-      "scraped_at": "05/05/2026"
-    },
-    {
-      "id": "f59376345ad5aa33",
-      "title": "CS COMM 1023 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 30.04.2026 to ISPs",
-      "publish_date": "04/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/2c028a7b9f99b1bfc8f35c7d91e31293.pdf",
+      "id": "9bfbbc651b8c5270",
+      "title": "Seniority List of JTS of IP&TAFS as on 01.01.2026",
+      "publish_date": "04/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4801fd737805ec857605ad0e93c97a9a.pdf",
       "category": "REPORTS",
       "scraped_at": "05/05/2026"
     }
