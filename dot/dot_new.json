@@ -1,38 +1,54 @@
 {
-  "generated_at": "2026-05-04T10:50:58.403518",
-  "count": 4,
+  "generated_at": "2026-05-05T07:48:38.142066",
+  "count": 6,
   "items": [
     {
-      "id": "dba6d19a48058635",
-      "title": "Voluntary Retirement from Govt Service \u2013 Shri Ashok Maheshwari, Staff no 20553, presently PGM, Rajasthan Telecom Circle, Jaipur",
-      "publish_date": "05/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/3b72f0f30d95ed8d87de6e8b20b822f9.pdf",
+      "id": "8bd45cf9f7886c74",
+      "title": "Engagement of Internship in June-July at NCA-T",
+      "publish_date": "05/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/6fdd2a8debbff4ce298c428dac2cea60.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/04/2026"
+      "scraped_at": "05/05/2026"
     },
     {
-      "id": "246d131a3d05a150",
-      "title": "Allocation of Short Code '155253' as CM Kisan Helpline - Kisan Varsh 2026, Government of Madhya Pradesh.-reg.",
-      "publish_date": "04/28/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4aaece7c9be4fc086d93a2a5224665b5.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/04/2026"
-    },
-    {
-      "id": "dba6d19a48058635",
-      "title": "Voluntary Retirement from Govt Service \u2013 Shri Ashok Maheshwari, Staff no 20553, presently PGM, Rajasthan Telecom Circle, Jaipur",
+      "id": "ade4e6ff08f0ea46",
+      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 04.05.2026 to ISPs",
       "publish_date": "05/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/3b72f0f30d95ed8d87de6e8b20b822f9.pdf",
-      "category": "REPORTS",
-      "scraped_at": "05/04/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4f87190ecfb05dfd3a76a140225ef5c6.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/05/2026"
     },
     {
-      "id": "246d131a3d05a150",
-      "title": "Allocation of Short Code '155253' as CM Kisan Helpline - Kisan Varsh 2026, Government of Madhya Pradesh.-reg.",
-      "publish_date": "04/28/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/4aaece7c9be4fc086d93a2a5224665b5.pdf",
+      "id": "f59376345ad5aa33",
+      "title": "CS COMM 1023 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 30.04.2026 to ISPs",
+      "publish_date": "04/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/2c028a7b9f99b1bfc8f35c7d91e31293.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/05/2026"
+    },
+    {
+      "id": "8bd45cf9f7886c74",
+      "title": "Engagement of Internship in June-July at NCA-T",
+      "publish_date": "05/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/6fdd2a8debbff4ce298c428dac2cea60.pdf",
       "category": "REPORTS",
-      "scraped_at": "05/04/2026"
+      "scraped_at": "05/05/2026"
+    },
+    {
+      "id": "ade4e6ff08f0ea46",
+      "title": "CS COMM 1152 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 04.05.2026 to ISPs",
+      "publish_date": "05/04/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4f87190ecfb05dfd3a76a140225ef5c6.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/05/2026"
+    },
+    {
+      "id": "f59376345ad5aa33",
+      "title": "CS COMM 1023 of 2025 in the Hon\u2019ble High Court of Delhi: DoT instructions dated 30.04.2026 to ISPs",
+      "publish_date": "04/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/2c028a7b9f99b1bfc8f35c7d91e31293.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/05/2026"
     }
   ]
 }
