@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "ee108703d2f9338bff307952da65ccfc8eb84a33",
+    "date": "May 05, 2026",
+    "title": "‘Significant Indices’ under SEBI (Index Providers) Regulations, 2024",
+    "link": "https://www.sebi.gov.in/legal/circulars/may-2026/-significant-indices-under-sebi-index-providers-regulations-2024_101271.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_‘Significant Indices’ under SEBI (Index Providers) Regulations, 2024.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-05-05T16:15:09.140710Z",
+    "source_commit": "86e6c85049c61b5960cda7ec5e2d989c949905a4",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "2795055374283336157247a65c940687285bf5c6",
+    "date": "May 05, 2026",
+    "title": "Advisory on Emerging Advanced Artificial Intelligence (AI) Tools for Vulnerability Detection",
+    "link": "https://www.sebi.gov.in/legal/circulars/may-2026/advisory-on-emerging-advanced-artificial-intelligence-ai-tools-for-vulnerability-detection_101270.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Advisory on Emerging Advanced Artificial Intelligence (AI) Tools for Vulnerability Detection.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-05-05T16:15:14.115948Z",
+    "source_commit": "86e6c85049c61b5960cda7ec5e2d989c949905a4",
+    "category": "Circular",
+    "error": ""
+  }
+]
