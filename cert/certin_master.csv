@@ -7434,3 +7434,82 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-06 06:44:50
+f27c21e30a0161b8,CERT-In Vulnerability Note  CIVN-2026-0218,"May 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0218,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0218
+Spoofing Vulnerability in Windows Shell
+Original Issue Date:May       06, 2026
+Severity Rating: CRITICAL
+Software Affected
+Windows Shell from 10.0.14393.9060 after 10.0.14393.0
+Overview
+Windows Shell Spoofing is a vulnerability component of Microsoft Windows allows an attacker to perform spoofing on targeted system.
+Target Audience:
+All-end user organization and individuals using Microsoft Windows Shell.
+Risk Assessment:
+High risk of unauthorized attacker to perform spoofing.
+Impact Assessment:
+Potentially executing malicious code, leading to malware infection, data compromise, or unauthorized system access.
+Description
+The Microsoft Windows Shell is the primary graphical user interface subsystem of the Microsoft Windows responsible for managing and rendering core UI components such as desktop, taskbar and File Explorer. It exposes APIs and COM interfaces for extending shell functionality and integrating application system.
+The vulnerability exits in Microsoft Windows Shell manipulates and displays malicious files to appear as legitimate manipulating with the file extensions or icons are displayed. This allows an unauthorized attacker to execute malicious files leading to potential system compromise.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202
+CVE Name
+CVE-2026-32202
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-06 10:01:41
+76e5c666eac03bb2,CERT-In Vulnerability Note  CIVN-2026-0217,"May 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0217,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0217
+Privilege Escalation Vulnerability in Microsoft ASP.NET Core
+Original Issue Date:May       06, 2026
+Severity Rating: CRITICAL
+Software Affected
+ASP.NET Core versions prior to 10.0.7
+Overview
+A vulnerability has been reported in ASP.NET Core, which could allow a remote attacker to gain elevated privileges on the targeted system.
+Target Audience:
+All end user organizations and individuals using application built on ASP.NET Core.
+Risk Assessment:
+High risk of Privilege escalation.
+Impact Assessment:
+Potential for sensitive data exposure, forging of authentication cookies or tokens.
+Description
+ASP.NET Core is a modern, high-performance, open-source framework developed by Microsoft for building cloud-based, internet-connected applications.
+This vulnerability exists in Microsoft ASP.NET Core due to improper verification of cryptographic signatures in the data protection mechanism. A remote attacker could exploit this vulnerability by tampering with or forging ASP.NET Core Data Protection tokens.
+Successful exploitation of this vulnerability could allow the attacker to gain elevated privileges on the targeted system.
+Solution
+Apply appropriate fix/patches as mentioned:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40372
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40372
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40372
+CVE Name
+CVE-2026-40372
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-06 10:01:41
