@@ -7513,3 +7513,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-06 10:01:41
+0be72592a78d4bfe,CERT-In Vulnerability Note  CIVN-2026-0219,"May 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0219,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0219
+Remote Code Execution Vulnerability in Android OS
+Original Issue Date:May       06, 2026
+Severity Rating: HIGH
+Software Affected
+Android 14, 15, 16
+Android 16-QPR2
+Overview
+A vulnerability has been reported in Android OS, which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Android OS.
+Risk Assessment:
+Risk of remote code execution.
+Impact Assessment:
+High risk of unauthorized access of data and data manipulation.
+Description
+Android is an open-source operating system primarily designed for mobile devices, including smart phones, tablets, smart watches and other embedded system.
+A vulnerability has been reported in Android OS due to improper handling of authentication in the Android Debug Bridge daemon (adbd) component. An attacker on the same network could exploit this vulnerability by running code as the shell user without needing extra permissions, or any user interaction.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://source.android.com/docs/security/bulletin/2026/2026-05-01
+Vendor Information
+Android
+https://source.android.com/docs/security
+References
+https://source.android.com/docs/security/bulletin/2026/2026-05-01
+CVE Name
+CVE-2026-0073
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-06 12:25:32
