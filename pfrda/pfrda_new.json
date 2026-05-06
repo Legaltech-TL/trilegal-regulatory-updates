@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-05-06T08:31:52.215427",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-06T11:06:50.346361",
+  "count": 2,
+  "items": [
+    {
+      "id": "6eccf8810f65cc41",
+      "title": "Introduction of \u2018NPS Sanchay\u2019 (simplified...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/726954/Final+NPS+Sanchay+Circular+PDF+Signed.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "26fff6544fb9d985",
+      "title": "Introduction of \u2018NPS Sanchay\u2019 (simplified NPS Variant) under All Citizen Model and MSF Framework for Informal Sector\nPromotion and Development - NPS\nRef: PFRDA/2026/25/NPS-AGRI/01\nIssue Date: 06-05-2026",
+      "publish_date": "05/06/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/726954/Final+NPS+Sanchay+Circular+PDF+Signed.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/06/2026"
+    }
+  ]
 }
