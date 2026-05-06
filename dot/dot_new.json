@@ -1,60 +1,164 @@
 {
-  "generated_at": "2026-05-06T05:56:35.179378",
-  "count": 7,
+  "generated_at": "2026-05-06T08:08:39.236698",
+  "count": 20,
   "items": [
     {
-      "id": "7eea1bb94405e28f",
-      "title": "PM WANI",
+      "id": "2336cf639ed7a1a9",
+      "title": "Licensing & Policy Matters",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/pm-wani-cDO5ATNtQWa?pageTitle=PM-WANI",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/licensing-policy-matters-kzNwETNtQWa?pageTitle=Licensing-&-Policy-Matters",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/06/2026"
     },
     {
-      "id": "eb6de114e9b3bc12",
-      "title": "Telecom Statistics India \u2013 2025",
-      "publish_date": "05/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/038a71bdf5ba23941aa784d94113ac9a.pdf",
-      "category": "REPORTS",
+      "id": "484218f8363633db",
+      "title": "Other Services Providers(Including BPO)",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/other-services-providersincluding-bpo-UzNwETNtQWa?pageTitle=Other-Services-Providers(Including-BPO)",
+      "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/06/2026"
     },
     {
-      "id": "4ec84be6d79299e2",
-      "title": "5G BTS Status for update on DoT website as on 30.04.2026",
-      "publish_date": "05/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/9af2a8e7e0b068bb0d5b8dfbc2df7bc7.pdf",
-      "category": "REPORTS",
+      "id": "e3251a670100a7f6",
+      "title": "CMRTS",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/cmrts-IzNwETNtQWa?pageTitle=CMRTS",
+      "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/06/2026"
     },
     {
-      "id": "eef2a2c05619e132",
-      "title": "5G BTS Status for update on DoT website as on 31.03.2026",
-      "publish_date": "04/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/404239be29de5002288b2401e6e03345.pdf",
-      "category": "REPORTS",
+      "id": "e0fd4abb997eb755",
+      "title": "National Long Distance",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/national-long-distance-kjNwETNtQWa?pageTitle=National-Long-Distance",
+      "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/06/2026"
     },
     {
-      "id": "d3ca677b58245625",
-      "title": "Detailed Demands for Grants 2026-27 of Department of Telecommunications",
-      "publish_date": "04/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/63964401ca51aae835901d1157b1a48f.pdf",
-      "category": "REPORTS",
+      "id": "bdd086e2e10e677c",
+      "title": "International Long Distance",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/international-long-distance-YjNwETNtQWa?pageTitle=International-Long-Distance",
+      "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/06/2026"
     },
     {
-      "id": "e5c32ea194da4b08",
-      "title": "Statements of Monthly Account figures for the month\u00a0of\u00a0February- 2026",
-      "publish_date": "03/13/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/3b68f5dc638868b7e37494a7981152e5.pdf",
-      "category": "REPORTS",
+      "id": "4c266c9c257fc413",
+      "title": "Infrastructure Provider",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/infrastructure-provider-kTNwETNtQWa?pageTitle=Infrastructure-Provider",
+      "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/06/2026"
     },
     {
-      "id": "31b91369682eed14",
-      "title": "Output-Outcome Monitoring Framework 2026-27 for the scheme with outlay less than Rs.500 Crore relating to Department of Telecommunications",
-      "publish_date": "03/13/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/efb0e3d442bf140c55bfc3c34d715e07.pdf",
+      "id": "8523bdc0902aa597",
+      "title": "Resale OF IPLC",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/0871da195907aba052224ae7647b39b7.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "2953afed191046e4",
+      "title": "NOC for Reselling of International SIM Cards",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/noc-for-reselling-of-international-sim-cards-MTNwETNtQWa?pageTitle=NOC-for-Reselling-of-International-SIM-Cards",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "c4b245da04cb1008",
+      "title": "Voice Mail /Audiotext /UMS",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/voice-mail-audiotext-ums-ATNwETNtQWa?pageTitle=Voice-Mail-/Audiotext-/UMS",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "f8f1434eaff13ef2",
+      "title": "PMRTS",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/pmrts-cDNwETNtQWa?pageTitle=PMRTS",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "306268cee4ed0c25",
+      "title": "Internet Without Telephony",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/internet-without-telephony-QDNwETNtQWa?pageTitle=Internet-Without-Telephony",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "68f9bbbf93ebc8a3",
+      "title": "Instructions to Internet Service Licensees",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/instructions-to-internet-service-licensees-EDNwETNtQWa?pageTitle=Instructions-to-Internet-Service-Licensees",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "e7757ebae3e179ba",
+      "title": "Internet Services",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/internet-services-gzMwETNtQWa?pageTitle=Internet-Services",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "9351750f112437c8",
+      "title": "First Annual conference of ISPs - 12th and 13th June 2023",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/first-annual-conference-of-isps-12th-and-13th-june-2023-UzMwETNtQWa?pageTitle=First-Annual-conference-of-ISPs-12th-and-13th-June-2023",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "84be6b602a97240e",
+      "title": "Blocking Notifications/instructions to Internet Service Licensees under court orders",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/08/d9e406a4636416b3b629fc599593310e.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "84428665b80467d6",
+      "title": "Internet with Telephony",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/internet-with-telephony-kjMwETNtQWa?pageTitle=Internet-with-Telephony",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "2b9496ec954c201e",
+      "title": "Disaster Management",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/0484fb15ff3f823ec7301b720112129e.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "c36a0b18179d9422",
+      "title": "VSAT & Satellite Communication",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/vsat-satellite-communication-kTMwETNtQWa?pageTitle=VSAT-&-Satellite-Communication",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "b657c5af7d367084",
+      "title": "Surrender/Termination letters",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/10745a7ffe60010bbc375a1528eb6f63.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "60264a3f81882752",
+      "title": "5G BTS Status",
+      "publish_date": "05/06/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/reports/5g-bts-status-ETMwETNtQWa?pageTitle=5G-BTS-Status",
       "category": "REPORTS",
       "scraped_at": "05/06/2026"
     }
