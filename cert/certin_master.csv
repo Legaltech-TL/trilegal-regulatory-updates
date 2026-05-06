@@ -7389,3 +7389,48 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-05 11:57:44
+6537804ee224d0e4,CERT-In Vulnerability Note  CIVN-2026-0216,"May 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0216,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0216
+Multiple Vulnerabilities in WhatsApp
+Original Issue Date:May       06, 2026
+Severity Rating: MEDIUM
+Software Affected
+WhatsApp for iOS versions v2.25.8.0 to v2.26.15.72
+WhatsApp for Android versions v2.25.8.0 to v2.26.7.10
+WhatsApp for Windows versions prior to v2.3000.1032164386.258709
+Overview
+Multiple vulnerabilities have been reported in WhatsApp which could allow an attacker to spoof file types, execute arbitrary code, and bypass security restrictions on the targeted system.
+Target Audience:
+End-users using affected version of WhatsApp.
+Risk Assessment:
+Risk of arbitrary code execution, full system compromise and unauthorized access.
+Impact Assessment:
+Exploitation could allow load and process malicious content from attacker-controlled URLs.
+Description
+WhatsApp is a widely used messaging application that enables users to send messages, voice notes, make calls, and share media over the internet.
+Multiple vulnerabilities exist in WhatsApp due to improper handling of attachment filenames with embedded NUL bytes and incomplete validation of rich response messages containing external media URLs. An attacker could exploit these by sending specially crafted attachments.
+Successful exploitation of these vulnerabilities could allow an attacker to spoof file types, execute arbitrary code, and bypass security restrictions on the targeted system.
+Solution
+Users are advised to update to the latest available versions of WhatsApp:
+https://www.whatsapp.com/security/advisories/2026
+Vendor Information
+WhatsApp
+https://www.whatsapp.com/security/advisories/2026
+References
+WhatsApp
+https://www.whatsapp.com/security/advisories/2026
+CVE Name
+CVE-2026-23866
+CVE-2026-23863
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-06 06:44:50
