@@ -1,22 +1,62 @@
 {
-  "generated_at": "2026-05-05T10:39:46.271636",
-  "count": 2,
+  "generated_at": "2026-05-06T05:56:35.179378",
+  "count": 7,
   "items": [
     {
-      "id": "9bfbbc651b8c5270",
-      "title": "Seniority List of JTS of IP&TAFS as on 01.01.2026",
-      "publish_date": "04/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4801fd737805ec857605ad0e93c97a9a.pdf",
+      "id": "7eea1bb94405e28f",
+      "title": "PM WANI",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/pm-wani-cDO5ATNtQWa?pageTitle=PM-WANI",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/05/2026"
+      "scraped_at": "05/06/2026"
     },
     {
-      "id": "9bfbbc651b8c5270",
-      "title": "Seniority List of JTS of IP&TAFS as on 01.01.2026",
-      "publish_date": "04/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/4801fd737805ec857605ad0e93c97a9a.pdf",
+      "id": "eb6de114e9b3bc12",
+      "title": "Telecom Statistics India \u2013 2025",
+      "publish_date": "05/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/038a71bdf5ba23941aa784d94113ac9a.pdf",
       "category": "REPORTS",
-      "scraped_at": "05/05/2026"
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "4ec84be6d79299e2",
+      "title": "5G BTS Status for update on DoT website as on 30.04.2026",
+      "publish_date": "05/04/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/9af2a8e7e0b068bb0d5b8dfbc2df7bc7.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "eef2a2c05619e132",
+      "title": "5G BTS Status for update on DoT website as on 31.03.2026",
+      "publish_date": "04/10/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/404239be29de5002288b2401e6e03345.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "d3ca677b58245625",
+      "title": "Detailed Demands for Grants 2026-27 of Department of Telecommunications",
+      "publish_date": "04/08/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/63964401ca51aae835901d1157b1a48f.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "e5c32ea194da4b08",
+      "title": "Statements of Monthly Account figures for the month\u00a0of\u00a0February- 2026",
+      "publish_date": "03/13/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/3b68f5dc638868b7e37494a7981152e5.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/06/2026"
+    },
+    {
+      "id": "31b91369682eed14",
+      "title": "Output-Outcome Monitoring Framework 2026-27 for the scheme with outlay less than Rs.500 Crore relating to Department of Telecommunications",
+      "publish_date": "03/13/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/efb0e3d442bf140c55bfc3c34d715e07.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/06/2026"
     }
   ]
 }
