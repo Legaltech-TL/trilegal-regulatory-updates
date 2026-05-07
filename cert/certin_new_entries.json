@@ -1,11 +1,3 @@
 [
-  {
-    "id":"0be72592a78d4bfe",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0219",
-    "date":"May 06, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0219",
-    "category":"Latest Security Alert",
-    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0219\nRemote Code Execution Vulnerability in Android OS\nOriginal Issue Date:May       06, 2026\nSeverity Rating: HIGH\nSoftware Affected\nAndroid 14, 15, 16\nAndroid 16-QPR2\nOverview\nA vulnerability has been reported in Android OS, which could allow a remote attacker to execute arbitrary code on the targeted system.\nTarget Audience:\nAll end-user organizations and individuals using Android OS.\nRisk Assessment:\nRisk of remote code execution.\nImpact Assessment:\nHigh risk of unauthorized access of data and data manipulation.\nDescription\nAndroid is an open-source operating system primarily designed for mobile devices, including smart phones, tablets, smart watches and other embedded system.\nA vulnerability has been reported in Android OS due to improper handling of authentication in the Android Debug Bridge daemon (adbd) component. An attacker on the same network could exploit this vulnerability by running code as the shell user without needing extra permissions, or any user interaction.\nSuccessful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.\nSolution\nApply appropriate updates as mentioned by the vendor:\nhttps:\/\/source.android.com\/docs\/security\/bulletin\/2026\/2026-05-01\nVendor Information\nAndroid\nhttps:\/\/source.android.com\/docs\/security\nReferences\nhttps:\/\/source.android.com\/docs\/security\/bulletin\/2026\/2026-05-01\nCVE Name\nCVE-2026-0073\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
-    "scraped_at":"2026-05-06 12:25:32"
-  }
+
 ]
