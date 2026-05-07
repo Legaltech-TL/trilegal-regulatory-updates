@@ -7555,3 +7555,145 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-06 12:25:32
+b9ab425b191c9a8f,CERT-In Vulnerability Note  CIVN-2026-0222,"May 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0222,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0222
+Multiple Vulnerabilities in Notepad++
+Original Issue Date:May       07, 2026
+Severity Rating: MEDIUM
+Software Affected
+Notepad++ version prior to 8.9.4
+Overview
+Multiple vulnerabilities have been reported in Notepad++, which could be exploited by an attacker to obtain sensitive memory address information or cause the application to crash.
+Target Audience:
+All organizations and individuals using Notepad++.
+Risk Assessment:
+Critical risk due to the possibility of unauthenticated remote code execution.
+Impact Assessment:
+Remote code execution, unauthorized access, and data manipulation.
+Description
+Notepad++ is a free, open-source text and source code editor for Windows, widely used by developers and IT professionals.
+These vulnerabilities exist due to a format string injection flaw in the FindInFiles/Find Results functionality of Notepad++, caused by improper handling of ""%s"" format specifiers in the nativeLang.xml configuration file. An attacker could exploit these vulnerabilities by using a specially crafted nativeLang.xml language configuration file and triggering search operations in the affected application.
+Successful exploitation could allow an attacker to obtain sensitive memory address information or cause the application to crash.
+Solution
+Apply appropriate security updates as mentioned in Notepad++ Security Updates:
+https://notepad-plus-plus.org/news/v894-released/
+https://cybersecuritynews.com/notepad-vulnerability-crash/
+Vendor Information
+https://cybersecuritynews.com/notepad-vulnerability-crash/
+https://notepad-plus-plus.org/news/v894-released/
+References
+https://notepad-plus-plus.org/news/v894-released/
+https://cybersecuritynews.com/notepad-vulnerability-crash/
+CVE Name
+CVE-2026-3008
+CVE-2026-6539
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-07 12:27:19
+dd054c4e297cd81e,CERT-In Vulnerability Note  CIVN-2026-0221,"May 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0221,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0221
+Multiple Vulnerabilities in Apache HTTP Server
+Original Issue Date:May       07, 2026
+Severity Rating: HIGH
+Software Affected
+Apache HTTP Server versions prior to 2.4.67
+Overview
+Multiple vulnerabilities have been reported in Apache HTTP Server which could be exploited by an attacker to execute arbitrary code, bypass security restrictions, disclose sensitive information, escalate privileges, or cause denial of service (DoS) condition on the targeted system.
+Target Audience:
+System administrators, DevOps teams and organizations managing Apache HTTP Server.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, bypass of security controls, possible remote code execution, privilege escalation, or disruption of services.
+Impact Assessment:
+Potential for arbitrary code execution, sensitive information disclosure, privilege escalation, system compromise, or service disruption.
+Description
+Apache HTTP Server is an open-source web server platform widely used for hosting web applications and websites, known for its reliability, performance, and cross-platform support.
+Multiple vulnerabilities exist in Apache HTTP Server due to improper memory handling, insufficient access control, improper validation of HTTP/AJP responses, unrestricted resource allocation, and timing-based authentication weakness in various components.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, bypass security restrictions, disclose sensitive information, escalate privileges, or cause denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://httpd.apache.org/security/vulnerabilities_24.html
+Vendor Information
+Apache HTTP Server
+https://httpd.apache.org/security/vulnerabilities_24.html
+References
+Apache HTTP Server
+https://httpd.apache.org/security/vulnerabilities_24.html
+CVE Name
+CVE-2026-23918
+CVE-2026-24072
+CVE-2026-28780
+CVE-2026-29168
+CVE-2026-29169
+CVE-2026-33006
+CVE-2026-33007
+CVE-2026-33523
+CVE-2026-33857
+CVE-2026-34032
+CVE-2026-34059
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-07 12:27:19
+adba4398714db867,CERT-In Vulnerability Note  CIVN-2026-0220,"May 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0220,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0220
+Multiple Vulnerabilities in Cisco IoT Field Network Director
+Original Issue Date:May       07, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco IoT Field Network Director release 4 and earlier
+Cisco IoT Field Network Director 5.0.x versions prior to 5.0.0-117
+Overview
+Multiple vulnerabilities have been reported in the Cisco IoT Field Network Director, which could allow an attacker to execute commands, access unauthorized files, or cause a denial of service condition on the targeted system.
+Target Audience:
+All organizations and individuals using Cisco IoT Field Network Director.
+Risk Assessment:
+Risk of unauthorized file access, command execution, and denial of service.
+Impact Assessment:
+Potential for information disclosure, command execution, and denial of service.
+Description
+Cisco IoT Field Network Director is a network management solution designed to simplify the man-agement and monitoring of industrial and IoT network deployments.
+These vulnerabilities exist in the web-based management interface of Cisco IoT Field Network Director due to insufficient input validation, improper file access restrictions, and improper error handling. This could allow an authenticated remote attacker with low privileges to execute limited commands, retrieve unauthorized files, or cause a denial of service condition on a managed router.
+Successful exploitation of these vulnerabilities could allow an attacker to execute commands, access unauthorized files, or cause a denial of service condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iot-fnd-dos-n8N26Q4u#vp
+Vendor Information
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iot-fnd-dos-n8N26Q4u#vp
+References
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iot-fnd-dos-n8N26Q4u#vp
+CVE Name
+CVE-2026-20167
+CVE-2026-20168
+CVE-2026-20169
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-07 12:27:19
