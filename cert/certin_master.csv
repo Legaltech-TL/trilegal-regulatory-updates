@@ -7697,3 +7697,107 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-07 12:27:19
+0aae97c7ddaae679,CERT-In Vulnerability Note  CIVN-2026-0224,"May 08, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0224,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0224
+Multiple Vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM)
+Original Issue Date:May       08, 2026
+Severity Rating: HIGH
+Software Affected
+Ivanti EPMM versions prior to 12.6.1.1
+Ivanti EPMM versions prior to 12.7.1.1
+Ivanti EPMM versions prior to 12.8.1.1
+Overview
+Multiple vulnerabilities have been reported in Ivanti Endpoint Manager Mobile (EPMM) which could be exploited by a remote attacker to execute arbitrary code, gain unauthorized access, escalate privileges, impersonate trusted Sentry hosts, obtain valid client certificates, or compromise affected systems.
+Target Audience:
+IT administrators, cybersecurity teams, and organizations using Ivanti EPMM.
+Risk Assessment:
+High risk of remote compromise, unauthorized access, and enterprise mobile infrastructure takeover.
+Impact Assessment:
+Potential compromise of enterprise mobile device management infrastructure and sensitive corporate data.
+Description
+Ivanti Endpoint Manager Mobile (EPMM) is an enterprise mobile device management (MDM/UEM) solution used to secure, manage, and monitor mobile devices and applications across organizations.
+These vulnerabilities exist in Ivanti Endpoint Manager Mobile (EPMM) due to improper input validation, improper certificate validation, or access control issues. A remote attacker could exploit these vulnerabilities by sending specially crafted requests to the target system.
+Successful exploitation could allow the attacker to execute arbitrary code, gain unauthorized access, escalate privileges, impersonate trusted Sentry hosts, obtain valid client certificates, or compromise the enterprise mobile management infrastructure.
+Note: CVE-2026-6973 is an improper input validation vulnerability in Ivanti EPMM could allow an authenticated remote attacker to execute arbitrary code on the target system. This vulnerability is being exploited in the wild. Users are advised to apply the latest patches immediately.
+Solution
+Apply appropriate security updates as mentioned in
+https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US
+Vendor Information
+Ivanti
+https://hub.ivanti.com/s/?language=en_US
+References
+https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US
+CVE Name
+CVE-2026-5786
+CVE-2026-5787
+CVE-2026-5788
+CVE-2026-6973
+CVE-2026-7821
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-08 12:06:53
+379e069112577740,CERT-In Vulnerability Note  CIVN-2026-0223,"May 08, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0223,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0223
+Multiple Vulnerabilities in Qualcomm Products
+Original Issue Date:May       08, 2026
+Severity Rating: CRITICAL
+Software Affected
+Qualcomm Software Center (QSC) versions QSCv1.17.1, QSCv1.19.1, QSCv1.21.0
+Qualcomm Package Manager (QPM) versions QPMv3.0.125.4, QPMv3.0.126.7, QPMv3.0.127.2
+Qualcomm WLAN HAL and WLAN Firmware components across multiple Qualcomm chipsets
+Qualcomm Bootloader, DSP Service, Camera, PLC Firmware, Automotive GPU, Automotive Audio, and Windows WLAN Host components
+Multiple Qualcomm Snapdragon, FastConnect, QCA, QCN, SA-series, WCN-series, and related platforms
+Refer to the following security bulletin for the complete list of affected chipsets:
+https://docs.qualcomm.com/securitybulletin/may-2026-bulletin.html
+Overview
+Multiple vulnerabilities have been reported in Qualcomm products and software components, which could allow an attacker to perform remote code execution, privilege escalation, denial of service, memory corruption and information disclosure on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Qualcomm chipsets and software components.
+Risk Assessment:
+High risk of remote code execution, privilege escalation, denial of service, memory corruption, and information disclosure.
+Impact Assessment:
+Potential for remote code execution, privilege escalation, denial of service and/or disclosure of sensitive information.
+Description
+Qualcomm develops wireless technologies, mobile chipsets, connectivity solutions, automotive platforms, and embedded components used across smartphones, IoT devices, automotive systems, and networking products.
+These vulnerabilities have been reported in Qualcomm products due to improper authorization, buffer overflows, memory corruption, use-after-free conditions, exposed dangerous functions, and improper input validation in various software and firmware components.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain elevated privileges, crash affected services, disclose sensitive information, or compromise the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://docs.qualcomm.com/securitybulletin/may-2026-bulletin.html
+Vendor Information
+Qualcomm
+https://www.qualcomm.com/
+References
+https://docs.qualcomm.com/securitybulletin/may-2026-bulletin.html
+CVE Name
+CVE-2026-25266
+CVE-2026-25293
+CVE-2025-47401
+CVE-2025-47403
+CVE-2025-47404
+CVE-2025-47405
+CVE-2025-47406
+CVE-2026-47407
+CVE-2025-47408
+CVE-2026-24082
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-08 12:06:53
