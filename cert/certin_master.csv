@@ -7801,3 +7801,148 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-08 12:06:53
+6f525db0b6fdf973,CERT-In Vulnerability Note  CIVN-2026-0227,"May 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0227,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0227
+SNMP Denial of Service Vulnerability in Cisco
+Original Issue Date:May       09, 2026
+Severity Rating: HIGH
+Systems Affected
+Cisco SG350 and SG350X Series Managed Switch Firmware Releases 2.5.9.54 or 2.5.9.55
+SG350-28P Switches
+SG350-28MP Switches
+SG350-52P Switches
+SG350-52MP Switches
+SG350X Series Switches
+Overview
+A vulnerability has been reported in the Simple Network Management Protocol (SNMP) subsystem of Cisco 350 Series Managed Switches (SG350) and Cisco 350X Series Stackable Managed Switches (SG350X), which could allow an authenticated, remote attacker to cause a Denial of Service (DoS) condition on the affected system.
+Target Audience:
+All IT Administrator and individuals responsible for maintaining and updating software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity and availability of system.
+Description
+A Denial of Service (DoS) vulnerability exists in the SNMP subsystem due to improper error handling while parsing response data for a specific SNMP request. A remote attacker could exploit this vulnerability by sending a specially crafted SNMP request to the affected device.
+Successful exploitation of this vulnerability could allow an attacker to cause the device to reload unexpectedly, resulting in a denial-of-service condition.
+Note: This vulnerability affects SNMP versions 1, 2c, and 3. To exploit this vulnerability through SNMPv2c or earlier, the attacker must know a valid read-write or read-only SNMP community string for the affected system. To exploit this vulnerability through SNMPv3, the attacker must have valid SNMP user credentials for the affected system.
+Solution
+Apply appropriate fix/patches as mentioned in Cisco Advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sg350-snmp-dos-GEFZr2Tj
+Vendor Information
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sg350-snmp-dos-GEFZr2Tj
+References
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sg350-snmp-dos-GEFZr2Tj
+CVE Name
+CVE-2026-20185
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-09 11:46:08
+588db928f30dffca,CERT-In Vulnerability Note  CIVN-2026-0226,"May 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0226,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0226
+Remote Code Execution Vulnerability in Palo Alto Networks PAN-OS
+Original Issue Date:May       09, 2026
+Severity Rating: CRITICAL
+Software Affected
+PAN-OS 12.1 versions prior to 12.1.4-h5 and 12.1.7
+PAN-OS 11.2 versions prior to 11.2.4-h17, 11.2.7-h13, 11.2.10-h6 and 11.2.12
+PAN-OS 11.1 versions prior to 11.1.4-h33, 11.1.6-h32, 11.1.7-h6, 11.1.10-h25, 11.1.13-h5 and 11.1.15
+PAN-OS 10.2 versions prior to 10.2.7-h34, 10.2.10-h36, 10.2.13-h21, 10.2.16-h7 and 10.2.18-h6
+Overview
+A critical vulnerability has been reported in Palo Alto Networks PAN-OS that may allow a unauthenticated remote attacker to execute arbitrary code with root privileges on the targeted system
+Target Audience:
+Organizations using PAN-OS based PA-Series and VM-Series firewalls.
+Risk Assessment:
+Critical risk of compromise of system integrity.
+Impact Assessment:
+Potential for complete system compromise.
+Description
+Palo Alto Networks PAN-OS is a network security operating system designed for PA-Series and VM-Series firewalls, providing enterprise-grade network security and threat prevention capabilities.
+A vulnerability has been reported in the User-ID Authentication Portal (Captive Portal) service of Palo Alto Networks PAN-OS due to an out-of-bounds write condition leading to a buffer overflow. A remote attacker may exploit this vulnerability by sending specially crafted requests.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to execute arbitrary code with root privileges on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in:
+https://security.paloaltonetworks.com/CVE-2026-0300
+Vendor Information
+Palo Alto
+https://security.paloaltonetworks.com/
+References
+https://security.paloaltonetworks.com/CVE-2026-0300
+CVE Name
+CVE-2026-0300
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-09 11:46:08
+2b9416e155366d89,CERT-In Vulnerability Note  CIVN-2026-0225,"May 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0225,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0225
+Multiple Vulnerabilities in Mozilla Firefox and Firefox ESR
+Original Issue Date:May       09, 2026
+Severity Rating: HIGH
+Software Affected
+Mozilla Firefox ESR versions prior to 140.10.2
+Mozilla Firefox ESR versions prior to 115.35.2
+Mozilla Firefox versions prior to 150.0.2
+Overview
+Multiple vulnerabilities have been reported in Mozilla Firefox and Firefox ESR which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Mozilla Products.
+Risk Assessment:
+High risk of unauthorized system access, memory corruption, exposure of sensitive information or service disruption.
+Impact Assessment:
+Potential for data theft, system instability or complete compromise of system.
+Description
+Mozilla Firefox is a free and open-source web browser developed by Mozilla foundation, while Firefox ESR (Extended support Release) is a stable version tailored for organizations that re-quire long-term support with only security and maintenance updates.
+Multiple vulnerabilities exist in Mozilla Firefox and Firefox ESR due to Use after free in the DOM: Networking component; Incorrect boundary conditions in the Audio/Video: Play component and Memory safety bugs. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-40/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-41/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-42/
+Vendor Information
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-40/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-41/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-42/
+References
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-40/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-41/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-42/
+CVE Name
+CVE-2026-8090
+CVE-2026-8091
+CVE-2026-8092
+CVE-2026-8093
+CVE-2026-8094
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-09 11:46:08
