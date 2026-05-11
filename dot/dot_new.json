@@ -1,28 +1,60 @@
 {
-  "generated_at": "2026-05-11T08:57:14.673527",
-  "count": 3,
+  "generated_at": "2026-05-11T11:58:58.417838",
+  "count": 7,
   "items": [
     {
-      "id": "514293d530069c71",
-      "title": "Circulars Unified Licencing",
-      "publish_date": "03/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/904d5e1d1ff4fa068e5c1462af7875a6.pdf",
+      "id": "c938f594e0f495ee",
+      "title": "Engagement of Internship in June-July at NCA-T",
+      "publish_date": "05/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/3b23491c757323743cd99c2dc7690d91.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/11/2026"
     },
     {
-      "id": "965f0931a07c1f40",
-      "title": "Circulars Unified Licencing",
-      "publish_date": "03/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/a37bf5c8dc0a85873d0d1dc0c4a33ee3.pdf",
+      "id": "1bc8b59d14037535",
+      "title": "Opening the office on 15.02.2020 regarding REGD",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/e3e3c71ecd65ffa76e5e66a2b3fea617.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/11/2026"
     },
     {
-      "id": "7ac45bbfdb096857",
+      "id": "f4104f9c26fe5010",
+      "title": "Reference letter No 12-24/2019-LFP dated 23.01.2020",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d8f8cbaf341f9da36ba29009b71813ee.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "5f2a1db8809d1149",
+      "title": "Supreme Court Judgement dated 01.09.2020 in M.A. no. 9887 of 2020 in C.A. no. 6328-6399 OF 2015",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/b75a379c702bc760c03d3717d50a0ced.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "6af004b35c4ab213",
+      "title": "Procedure for rationalization of Bank Guarantees pursuant to the amendment in the License Agreements.",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/593b3478cc2feca953532ad46ca9b6c4.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "a6b57c4e9fa2b0a3",
+      "title": "Office Memorandom",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/office-memorandom-QDNxITNtQWa?pageTitle=Office-Memorandom",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "d0e09857c512dea1",
       "title": "Circulars Unified Licencing",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/21fc6bd74a02b660e6bb4e149da0e238.pdf",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/circulars-unified-licencing-YzMwITNtQWa?pageTitle=Circulars-Unified-Licencing",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/11/2026"
     }
