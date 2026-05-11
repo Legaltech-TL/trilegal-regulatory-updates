@@ -17,6 +17,7 @@ try:
 except ImportError:
     HAS_PDFPLUMBER = False
 
+
 # ================= CONFIG =================
 
 DATA_DIR   = Path("aptel")
@@ -26,25 +27,88 @@ JSON_FILE  = DATA_DIR / "aptel_new.json"
 BASE_URL   = "https://aptel.gov.in"
 ORDERS_URL = f"{BASE_URL}/en/old-judgement-data"
 
-MAX_PDF_CHARS = 12000   # ~3 000 words — plenty for Claude
-MAX_PDF_PAGES = 20
+HARD_CAP      = 80_000  # safety net for extremely long PDFs
+MAX_PDF_PAGES = 40      # page cap for extraction
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; TrilegalBot/1.0)",
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+SUMMARY_QUERIES = [
+    "What is the final order, decision, or direction issued by the tribunal?",
+    "What are the main legal issues and questions decided in this case?",
+    "What is the reasoning and legal basis for the decision?",
+    "Who are the parties and what is the nature of the dispute or petition?",
+]
 
-# ================= HELPERS =================
-
-def make_id(url: str) -> str:
-    return hashlib.sha1(url.encode()).hexdigest()[:16]
+# Lazy-loaded — one model instance per scraper run
+_st_model = None
 
 
-def clean(el) -> str:
-    """Strip tags and normalise whitespace from a BS4 element."""
-    return re.sub(r"\s+", " ", el.get_text(" ", strip=True))
+# ================= SEMANTIC EXTRACTION =================
 
+def _get_model():
+    global _st_model
+    if _st_model is None:
+        from sentence_transformers import SentenceTransformer
+        print("  Loading semantic model …")
+        _st_model = SentenceTransformer("all-MiniLM-L6-v2")
+        print("  Model ready.")
+    return _st_model
+
+
+def semantic_extract(full_text: str) -> str:
+    chunks = [c.strip() for c in re.split(r"\n{2,}", full_text) if len(c.strip()) > 80]
+
+    if not chunks:
+        return full_text[:HARD_CAP]
+
+    total = sum(len(c) for c in chunks)
+    if total <= HARD_CAP:
+        return full_text
+
+    try:
+        import numpy as np
+        model = _get_model()
+
+        chunk_embs = model.encode(chunks,          show_progress_bar=False, batch_size=64)
+        query_embs = model.encode(SUMMARY_QUERIES, show_progress_bar=False)
+
+        chunk_unit = chunk_embs / (np.linalg.norm(chunk_embs, axis=1, keepdims=True) + 1e-8)
+        scores     = np.zeros(len(chunks))
+
+        for q_emb in query_embs:
+            q_unit = q_emb / (np.linalg.norm(q_emb) + 1e-8)
+            scores = np.maximum(scores, chunk_unit @ q_unit)
+
+        # Keep every chunk scoring >= 35% of the top score.
+        # The document's own relevance distribution sets the cutoff — not a character budget.
+        threshold = 0.35 * scores.max()
+        selected  = []
+        used      = 0
+
+        for idx in range(len(chunks)):
+            if scores[idx] >= threshold and used + len(chunks[idx]) <= HARD_CAP:
+                selected.append(idx)
+                used += len(chunks[idx])
+
+        # Fallback: if threshold too aggressive, take top 10 chunks
+        if not selected:
+            selected = sorted(int(i) for i in np.argsort(scores)[::-1][:10])
+            used = sum(len(chunks[i]) for i in selected)
+
+        result = "\n\n".join(chunks[i] for i in selected)
+        print(f"  Semantic selection: {len(selected)}/{len(chunks)} chunks "
+              f"({used:,} chars from {total:,} total, threshold={threshold:.3f})")
+        return result
+
+    except Exception as e:
+        print(f"  [Semantic extract fallback] {e}")
+        return full_text[:HARD_CAP]
+
+
+# ================= PDF EXTRACTION =================
 
 def extract_pdf_text(pdf_url: str) -> str:
     if not HAS_PDFPLUMBER:
@@ -53,13 +117,14 @@ def extract_pdf_text(pdf_url: str) -> str:
         resp = requests.get(pdf_url, headers=HEADERS, timeout=40, verify=False)
         if resp.status_code != 200:
             return ""
-        text_parts = []
+        parts = []
         with pdfplumber.open(io.BytesIO(resp.content)) as pdf:
             for page in pdf.pages[:MAX_PDF_PAGES]:
                 t = page.extract_text()
                 if t:
-                    text_parts.append(t)
-        return "\n".join(text_parts).strip()[:MAX_PDF_CHARS]
+                    parts.append(t)
+        full_text = "\n\n".join(parts).strip()
+        return semantic_extract(full_text)
     except Exception as e:
         print(f"  [PDF extract error] {pdf_url}: {e}")
         return ""
@@ -73,11 +138,9 @@ def scrape_orders():
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Find the judgements table — it has "APPEAL/PETITION" in the header
     target_table = None
     for table in soup.find_all("table"):
-        header_text = table.get_text()
-        if "APPEAL/PETITION" in header_text or "CAUSE TITLE" in header_text:
+        if "APPEAL/PETITION" in table.get_text() or "CAUSE TITLE" in table.get_text():
             target_table = table
             break
 
@@ -89,9 +152,8 @@ def scrape_orders():
     for tr in target_table.find_all("tr"):
         cells = tr.find_all("td")
         if len(cells) < 5:
-            continue  # skip header rows and malformed rows
+            continue
 
-        # cell[1] — petition/appeal number, with PDF <a href>
         petition_cell = cells[1]
         pdf_tag = petition_cell.find("a", href=True)
         if not pdf_tag:
@@ -101,7 +163,6 @@ def scrape_orders():
         if not pdf_href.lower().endswith(".pdf"):
             continue
 
-        # Make absolute URL
         if pdf_href.startswith("http"):
             pdf_url = pdf_href
         elif pdf_href.startswith("/"):
@@ -109,22 +170,21 @@ def scrape_orders():
         else:
             pdf_url = BASE_URL + "/" + pdf_href.lstrip("/")
 
-        petition_no  = clean(petition_cell)
-        cause_title  = clean(cells[2])
-        bench        = clean(cells[3])
-        date_cell_txt = clean(cells[4])
+        def clean(el):
+            return re.sub(r"\s+", " ", el.get_text(" ", strip=True))
 
-        # Date of decision — first DD.MM.YYYY in the cell
-        dates = re.findall(r"\d{2}\.\d{2}\.\d{4}", date_cell_txt)
-        date_of_decision = dates[0] if dates else ""
-        date_uploaded    = dates[1] if len(dates) > 1 else date_of_decision
+        petition_no   = clean(petition_cell)
+        cause_title   = clean(cells[2])
+        bench         = clean(cells[3])
+        date_cell_txt = clean(cells[4])
+        dates         = re.findall(r"\d{2}\.\d{2}\.\d{4}", date_cell_txt)
 
         results.append({
             "petition_no":      petition_no,
             "cause_title":      cause_title,
             "bench":            bench,
-            "date_of_decision": date_of_decision,
-            "date_uploaded":    date_uploaded,
+            "date_of_decision": dates[0] if dates else "",
+            "date_uploaded":    dates[1] if len(dates) > 1 else (dates[0] if dates else ""),
             "pdf_url":          pdf_url,
         })
 
@@ -166,14 +226,13 @@ def main():
 
     new_rows = []
     for entry in scraped:
-        item_id = make_id(entry["pdf_url"])
+        item_id = hashlib.sha1(entry["pdf_url"].encode()).hexdigest()[:16]
         if item_id in existing_ids:
             continue
 
-        print(f"  NEW: {entry['petition_no'][:80]}")
-        print(f"       Extracting PDF text …")
+        print(f"\n  NEW: {entry['petition_no'][:80]}")
+        print(f"  Extracting + selecting PDF text …")
         pdf_text = extract_pdf_text(entry["pdf_url"])
-        print(f"       {len(pdf_text)} chars extracted")
 
         new_rows.append({
             "id":               item_id,
@@ -194,13 +253,10 @@ def main():
 
     JSON_FILE.write_text(
         json.dumps(
-            {
-                "generated_at": datetime.utcnow().isoformat(),
-                "count":        len(new_rows),
-                "items":        new_rows,
-            },
-            indent=2,
-            ensure_ascii=False,
+            {"generated_at": datetime.utcnow().isoformat(),
+             "count":        len(new_rows),
+             "items":        new_rows},
+            indent=2, ensure_ascii=False,
         ),
         encoding="utf-8",
     )
