@@ -1,5 +1,18 @@
-{
-  "generated_at": "2026-05-11T10:39:36.257893",
-  "count": 0,
-  "items": []
-}
+{                                                        
+    "generated_at": "2026-05-11T12:00:00",
+    "count": 1,                                            
+    "items": [                                             
+      {
+        "id": "test1234567890ab",                          
+        "petition_no": "Appeal No. TEST/2026",
+  Respondent",                                             
+        "bench": "Justice A, Justice B",                   
+        "date_of_decision": "11.05.2026",                  
+        "date_uploaded": "11.05.2026",                     
+        "pdf_url": "https://aptel.gov.in/test.pdf",
+        "pdf_text": "This is a test entry to verify the    
+  Power Automate flow is working correctly.",              
+        "scraped_at": "2026-05-11T12:00:00"                
+      }                                                    
+    ]                                                      
+  }
