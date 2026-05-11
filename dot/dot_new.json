@@ -1,5 +1,78 @@
 {
-  "generated_at": "2026-05-10T10:13:55.158267",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-11T06:35:37.245734",
+  "count": 9,
+  "items": [
+    {
+      "id": "fdd2e0cab0d4290c",
+      "title": "Circulars Unified Licencing",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/aa567fbc495553f168b2d25cd864c2e4.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "de0b6691e46f3ac9",
+      "title": "Circulars Unified Licencing",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/caa757aee1622983ed7bfdfa93ef6821.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "6c03b4e0065987fa",
+      "title": "List of Satellite Service Licenses",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/list-of-satellite-service-licenses-IzMwITNtQWa?pageTitle=List-of-Satellite-Service-Licenses",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "013e729b54124f0c",
+      "title": "Global Mobile Personal Communication by Satellite - GMPCS",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/global-mobile-personal-communication-by-satellite-gmpcs-kjMwITNtQWa?pageTitle=Global-Mobile-Personal-Communication-by-Satellite-GMPCS",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "a918b3be4a6af595",
+      "title": "Amended Unified License (VNO) Agreement including M2M service",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/7a5a6aa52ea6b6aa3ba35cb9b8c3b4b8.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "a10f7ecd8fe8c305",
+      "title": "Circulars related to Commercial VSAT/Captive VSAT/GMPCS license(s)",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/circulars-related-to-commercial-vsat-captive-vsat-gmpcs-licenses-kTMwITNtQWa?pageTitle=Circulars-related-to-Commercial-VSAT/Captive-VSAT/GMPCS-license(s)",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "35adb09cbde1c447",
+      "title": "Amended License Agreement for Unified License",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/0c5fb687a94fa7f9faec61626f3a3284.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "1237210773de22d8",
+      "title": "Amended Guidelines for grant of Unified License",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/f1ad3b30ba8b70c5d68ccddcded8c9bd.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    },
+    {
+      "id": "ce2ae85762c963f2",
+      "title": "Guidelines for establishing Satellite-based Communication Networks",
+      "publish_date": "02/05/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/f3015084f0f9f0149100d1780abff4f6.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/11/2026"
+    }
+  ]
 }
