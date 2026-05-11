@@ -7946,3 +7946,55 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-09 11:46:08
+9356bb8925458b87,CERT-In Vulnerability Note  CIVN-2026-0228,"May 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0228,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0228
+Multiple Vulnerabilities in vm2 Node.js Library
+Original Issue Date:May       11, 2026
+Severity Rating: CRITICAL
+Software Affected
+vm2 Node.js versions prior to 3.11.2
+Overview
+Multiple vulnerabilities have been reported in the vm2 Node.js library which could allow a remote attacker to bypass sandbox restrictions and execute arbitrary code on the targeted system.
+Target Audience:
+Organizations and individuals using the vm2 library in Node.js applications for sandboxed JavaScript execution.
+Risk Assessment:
+High risk of remote code execution, sandbox escape, data theft.
+Impact Assessment:
+Potential for system compromise, arbitrary code execution.
+Description
+vm2 is a popular sandbox library for Node.js that enables the execution of untrusted JavaScript code within isolated environments.
+Multiple vulnerabilities exist in the vm2 library due to sandbox escape flaws, code injection flaws and a flaw that allows bypassing of NodeVM protections.
+Successful exploitation of these vulnerabilities could allow a remote attacker to bypass sandbox restrictions and execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://www.npmjs.com/package/vm2
+Vendor Information
+https://www.npmjs.com/package/vm2
+References
+The Hacker News
+https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html
+CVE Name
+CVE-2026-24118
+CVE-2026-24120
+CVE-2026-24781
+CVE-2026-26332
+CVE-2026-26956
+CVE-2026-43997
+CVE-2026-43999
+CVE-2026-44005
+CVE-2026-44006
+CVE-2026-44007
+CVE-2026-44008
+CVE-2026-44009
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-11 07:54:02
