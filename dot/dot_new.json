@@ -1,36 +1,12 @@
 {
-  "generated_at": "2026-05-12T08:25:12.264975",
-  "count": 4,
+  "generated_at": "2026-05-12T11:16:58.402935",
+  "count": 1,
   "items": [
     {
-      "id": "45a949101d0876e2",
-      "title": "Regarding additional charge of the post of CMD, BSNL",
-      "publish_date": "05/12/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/e7493cc29e71c54a5004ff55f26728d4.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/12/2026"
-    },
-    {
-      "id": "83d44a99627931e1",
-      "title": "Quarterly statement showing the details of allocation/surrender of spectrum for CMTS/UASL service during the quarter ending on 30.09.2015",
-      "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/f007f46f2c2426e3b4667f86aa83bf32.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/12/2026"
-    },
-    {
-      "id": "a969c0e5eb526be7",
-      "title": "Quarterly statement showing the details of allocation/surrender of spectrum for CMTS/UASL service during the quarter ending on 31.12.2016",
-      "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/65a94e371eb7e7abb59c0d6b56dd22d2.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/12/2026"
-    },
-    {
-      "id": "4cd4aac11ebc4b54",
-      "title": "Payment schedule of Spectrum usage",
-      "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/69a85d1b8d811e95d852c12ff3e01647.pdf",
+      "id": "5084263eec871eb8",
+      "title": "Voice Mail /Audiotext /UMS",
+      "publish_date": "01/12/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/voice-mail-audiotext-ums-2-UzM2ITNtQWa?pageTitle=Voice-Mail-/Audiotext-/UMS",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/12/2026"
     }
