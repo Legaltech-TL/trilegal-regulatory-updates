@@ -1,52 +1,36 @@
 {
-  "generated_at": "2026-05-12T06:06:42.854527",
-  "count": 6,
+  "generated_at": "2026-05-12T08:25:12.264975",
+  "count": 4,
   "items": [
     {
-      "id": "bacb13b771b04437",
-      "title": "WPC & SACFA",
-      "publish_date": "04/27/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/wpc-sacfa-EDOxITNtQWa?pageTitle=WPC-&-SACFA",
+      "id": "45a949101d0876e2",
+      "title": "Regarding additional charge of the post of CMD, BSNL",
+      "publish_date": "05/12/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/e7493cc29e71c54a5004ff55f26728d4.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/12/2026"
     },
     {
-      "id": "e8032273a6d9f01d",
-      "title": "List of UL Licences as on 30.06.2023",
+      "id": "83d44a99627931e1",
+      "title": "Quarterly statement showing the details of allocation/surrender of spectrum for CMTS/UASL service during the quarter ending on 30.09.2015",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/c4f821acbad219441af1f0e7f9b5cc11.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/f007f46f2c2426e3b4667f86aa83bf32.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/12/2026"
     },
     {
-      "id": "0001221c7cde5ff2",
-      "title": "Cancellation of Letter of Intent LoI for award of Unified License Unified License Virtual Network Operator ISP Authorization",
+      "id": "a969c0e5eb526be7",
+      "title": "Quarterly statement showing the details of allocation/surrender of spectrum for CMTS/UASL service during the quarter ending on 31.12.2016",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/3f6345e491f42ad6239188fda8ae7fb8.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/65a94e371eb7e7abb59c0d6b56dd22d2.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/12/2026"
     },
     {
-      "id": "a518c64bcca80b3f",
-      "title": "Amendment to Unified License for restriction to enter in exclusive contract with any public entity or any person",
+      "id": "4cd4aac11ebc4b54",
+      "title": "Payment schedule of Spectrum usage",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/9df56d37e02a381034ea449c5cdc8482.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/12/2026"
-    },
-    {
-      "id": "b641c58ac094123c",
-      "title": "Amendment to UL- VNO License Agreement for restriction to enter in exclusive contract with any public entity or any person",
-      "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/3bb1199d41454324e5f8b9f2133b99a2.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/12/2026"
-    },
-    {
-      "id": "57b3e9867bc4ee7c",
-      "title": "Removal of requirement to obtain Wireless Operating License",
-      "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/fe3fc9fca26ce5dd8d1520bd41523ebb.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/69a85d1b8d811e95d852c12ff3e01647.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/12/2026"
     }
