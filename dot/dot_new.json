@@ -1,62 +1,54 @@
 {
-  "generated_at": "2026-05-11T11:58:58.417838",
-  "count": 7,
+  "generated_at": "2026-05-12T06:06:42.854527",
+  "count": 6,
   "items": [
     {
-      "id": "c938f594e0f495ee",
-      "title": "Engagement of Internship in June-July at NCA-T",
-      "publish_date": "05/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/3b23491c757323743cd99c2dc7690d91.pdf",
+      "id": "bacb13b771b04437",
+      "title": "WPC & SACFA",
+      "publish_date": "04/27/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/wpc-sacfa-EDOxITNtQWa?pageTitle=WPC-&-SACFA",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/11/2026"
+      "scraped_at": "05/12/2026"
     },
     {
-      "id": "1bc8b59d14037535",
-      "title": "Opening the office on 15.02.2020 regarding REGD",
+      "id": "e8032273a6d9f01d",
+      "title": "List of UL Licences as on 30.06.2023",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/e3e3c71ecd65ffa76e5e66a2b3fea617.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/c4f821acbad219441af1f0e7f9b5cc11.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/11/2026"
+      "scraped_at": "05/12/2026"
     },
     {
-      "id": "f4104f9c26fe5010",
-      "title": "Reference letter No 12-24/2019-LFP dated 23.01.2020",
+      "id": "0001221c7cde5ff2",
+      "title": "Cancellation of Letter of Intent LoI for award of Unified License Unified License Virtual Network Operator ISP Authorization",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/d8f8cbaf341f9da36ba29009b71813ee.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/3f6345e491f42ad6239188fda8ae7fb8.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/11/2026"
+      "scraped_at": "05/12/2026"
     },
     {
-      "id": "5f2a1db8809d1149",
-      "title": "Supreme Court Judgement dated 01.09.2020 in M.A. no. 9887 of 2020 in C.A. no. 6328-6399 OF 2015",
+      "id": "a518c64bcca80b3f",
+      "title": "Amendment to Unified License for restriction to enter in exclusive contract with any public entity or any person",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/b75a379c702bc760c03d3717d50a0ced.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/9df56d37e02a381034ea449c5cdc8482.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/11/2026"
+      "scraped_at": "05/12/2026"
     },
     {
-      "id": "6af004b35c4ab213",
-      "title": "Procedure for rationalization of Bank Guarantees pursuant to the amendment in the License Agreements.",
+      "id": "b641c58ac094123c",
+      "title": "Amendment to UL- VNO License Agreement for restriction to enter in exclusive contract with any public entity or any person",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/593b3478cc2feca953532ad46ca9b6c4.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/3bb1199d41454324e5f8b9f2133b99a2.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/11/2026"
+      "scraped_at": "05/12/2026"
     },
     {
-      "id": "a6b57c4e9fa2b0a3",
-      "title": "Office Memorandom",
+      "id": "57b3e9867bc4ee7c",
+      "title": "Removal of requirement to obtain Wireless Operating License",
       "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/office-memorandom-QDNxITNtQWa?pageTitle=Office-Memorandom",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/fe3fc9fca26ce5dd8d1520bd41523ebb.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/11/2026"
-    },
-    {
-      "id": "d0e09857c512dea1",
-      "title": "Circulars Unified Licencing",
-      "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/circulars-unified-licencing-YzMwITNtQWa?pageTitle=Circulars-Unified-Licencing",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/11/2026"
+      "scraped_at": "05/12/2026"
     }
   ]
 }
