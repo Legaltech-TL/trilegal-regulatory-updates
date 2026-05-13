@@ -7998,3 +7998,93 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-11 07:54:02
+5c90726b40a7ba3f,CERT-In Vulnerability Note  CIVN-2026-0230,"May 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0230,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0230
+Denial of Service Vulnerability in CISCO products
+Original Issue Date:May       13, 2026
+Severity Rating: HIGH
+Systems Affected
+Cisco Crosswork Network Controller (CNC) version prior to 7.2
+Cisco Network Services Orchestrator (NSO) versions prior to 6.5 and 6.4.1.3
+Overview
+A vulnerability has been reported in the connection-handling mechanism of Cisco Crosswork Network Controller (CNC) and Cisco Network Services Orchestrator (NSO) that could allow an unauthenticated remote attacker to cause a denial of service (DoS) condition on an affected system.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating Cisco products.
+Risk Assessment:
+High risk of service disruption and network management instability.
+Impact Assessment:
+Potential impact on availability of the affected systems and dependent network services.
+Description
+Cisco Crosswork Network Controller (CNC) and Network Services Orchestrator (NSO) are components of Ciscos Crosswork network automation portfolio, often working together to provide comprehensive, closed-loop automation.
+This vulnerability exists due to an inadequate implementation of rate-limiting on incoming network connections in Cisco CNC and Cisco NSO. An attacker could exploit this vulnerability by sending a large number of connection requests to the targeted system.
+Successful exploitation of this vulnerability could allow an attacker to exhaust available connection resources, causing Cisco CNC and Cisco NSO to become unresponsive and resulting in a denial of service (DoS) condition for legitimate users.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nso-dos-7Egqyc
+Vendor Information
+CISCO
+https://www.cisco.com/site/us/en/products/index.html
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nso-dos-7Egqyc
+CVE Name
+CVE-2026-20188
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-13 10:08:08
+ec97cab19d4a0d42,CERT-In Vulnerability Note  CIVN-2026-0229,"May 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0229,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0229
+Multiple Vulnerabilities in MongoDB Products
+Original Issue Date:May       13, 2026
+Severity Rating: HIGH
+Software Affected
+8.2.0 affects versions prior to 8.2.7
+8.1.0 affects 8.1.* and prior versions
+8.0.0 affects versions prior to 8.0.21
+7.0.0 affects versions prior to 7.0.32
+Overview
+Multiple vulnerabilities have been reported in MongoDB, which could allow an attacker to cause Denial of Service (DoS) conditions and perform limited unauthorized modifications to authentication related data on the targeted system.
+Target Audience:
+All end-user organizations and individuals using MongoDB.
+Risk Assessment:
+High risk of unauthorized access to sensitive information.
+Impact Assessment:
+Potential for denial of service and information disclosure.
+Description
+MongoDB is a document-based database that stores information in flexible, JSON-like documents rather than traditional tables and rows, making it well suited for handling large or evolving data structures.
+Multiple vulnerabilities exist in MongoDB due to improper handling while computing the MD5 checksum of a malformed BSON object under specific conditions and an authorization flaw in the user management command.
+Successful exploitation of these vulnerabilities could allow an attacker to cause Denial of Service (DoS) conditions and make limited unauthorized changes to authentication related data associated with another user account on the targeted system.
+Solution
+Apply appropriate fixes issued by the vendor:
+https://www.mongodb.com/resources/products/alerts#security
+Vendor Information
+MongoDB
+https://www.mongodb.com/resources/products/alerts#security
+References
+MongoDB
+https://jira.mongodb.org/browse/SERVER-119679
+https://jira.mongodb.org/browse/SERVER-119981
+CVE Name
+CVE-2026-6914
+CVE-2026-6915
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-13 10:08:08
