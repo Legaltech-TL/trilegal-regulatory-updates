@@ -8088,3 +8088,196 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-13 10:08:08
+1fc79911f6161864,CERT-In Vulnerability Note  CIVN-2026-0231,"May 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0231,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0231
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date:May       13, 2026
+Severity Rating: CRITICAL
+Software Affected
+Windows 10: Versions 21H2 and 22H2
+Windows 11Versions 23H2, 24H2, and 25H2
+Windows Server: 2016, 2019, 2022, 2022 (23H2 Edition), and 2025
+Microsoft Office / Microsoft 365 Apps
+Microsoft Edge (Chromium-based)
+ASP.NET Core
+Azure DevOps Server / Services
+SharePoint Server
+Microsoft Azure cloud components
+Overview
+Multiple vulnerabilities have been identified in Microsoft cloud and AI-integrated service, Azure, Microsoft 365, Teams, Copilot, and Edge. These vulnerabilities could allow attackers to execute arbitrary code, insufficient input validation, disclose sensitive information, or perform spoofing attacks, potentially leading to compromise system.
+Target Audience:
+All organizations and individuals using affected Microsoft products.
+Risk Assessment:
+High risk due to the potentially exploiting information disclosure, spoofing, remote code execution, and injection-based attacks due to improper input validation.
+Impact Assessment:
+Data exposure, service compromise, privilege escalation, remote code execution, and disruption of cloud and AI services.
+Description
+These vulnerabilities exists in Microsoft Azure and M365 services primarily caused by insufficient input validation this can result in unauthorized access to sensitive data, compromise of cloud and AI services, privilege escalation, remote code execution, and service disruption across affected environments.
+Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code privilege escalation, access sensitive data and service disruption.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42826
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35428
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35435
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34327
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33844
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33823
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32207
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40379
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33109
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33111
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41105
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26129
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26164
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42826
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35428
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35435
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34327
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33844
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33823
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32207
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40379
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33109
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33111
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41105
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26129
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26164
+CVE Name
+CVE-2026-42826
+CVE-2026-35428
+CVE-2026-35435
+CVE-2026-34327
+CVE-2026-33844
+CVE-2026-33823
+CVE-2026-32207
+CVE-2026-40379
+CVE-2026-33109
+CVE-2026-33111
+CVE-2026-41105
+CVE-2026-26129
+CVE-2026-26164
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-13 13:08:21
+e5f714e3df481e18,CERT-In Advisory   CIAD-2026-0022,"May 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0022,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0022
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: May       13, 2026
+Severity Rating: High
+Software Affected
+Microsoft Windows
+Microsoft Office
+Microsoft Dynamics
+Developer Tools
+SQL Server
+Extended Security Updates (ESU) for legacy Microsoft products
+Azure
+Apps
+Overview
+Multiple vulnerabilities have been reported in Microsoft products that could allow an attacker to gain elevated privileges, obtain sensitive information, execute arbitrary code remotely, bypass security restrictions, conduct spoofing attacks, perform tampering of data or system processes, or cause denial-of-service (DoS) conditions.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating Microsoft products.
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure.
+Impact Assessment:
+Potential compromise of system, exfiltration of data, ransomware attacks or system crashes.
+Description
+Multiple vulnerabilities have been reported in Microsoft products that could allow an attacker to gain elevated privileges, obtain sensitive information, execute arbitrary code remotely, bypass security restrictions, conduct spoofing attacks, perform tampering of data or system processes, or cause denial-of-service (DoS) conditions.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Microsoft security updates.
+https://msrc.microsoft.com/update-guide/releaseNote/2026-May
+Solution
+Apply appropriate security updates as mentioned in
+https://msrc.microsoft.com/update-guide/releaseNote/2026-May
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/
+References
+https://msrc.microsoft.com/update-guide/releaseNote/2026-May
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-13 13:08:21
+eb6253fdbe8ce142,CERT-In Advisory   CIAD-2026-0021,"May 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0021,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0021
+Multiple Vulnerabilities in Apple Products
+Original Issue Date: May       12, 2026
+Severity Rating: High
+Software Affected
+Apple iOS and iPadOS versions prior to 26.5
+Apple iOS and iPadOS versions prior to 18.7.9
+Apple iPadOS versions prior to 17.7.11
+Apple iOS and iPadOS versions prior to 16.7.16
+Apple iOS and iPadOS versions prior to 15.8.8
+Apple macOS Tahoe versions prior to 26.5
+Apple macOS Sequoia versions prior to 15.7.7
+Apple macOS Sonoma versions prior to 14.8.7
+Apple tvOS versions prior to 26.5
+Apple watchOS versions prior to 26.5
+Apple visionOS versions prior to 26.5
+Overview
+Multiple vulnerabilities have been reported in Apple Products which could allow an attacker to execute arbitrary code, gain elevated privileges, disclose sensitive information, bypass security restrictions or cause denial of service condition on the targeted system.
+Target Audience:
+All organizations and individuals using Apple Products.
+Risk Assessment:
+High risk of information disclosure, code execution and denial of service.
+Impact Assessment:
+Potential for data theft, propagation of malware, and system crash.
+Description
+Multiple vulnerabilities have been reported in Apple products:
+Solution
+Apply appropriate patches as mentioned in the Apple Security Updates:
+https://support.apple.com/en-us/127110
+https://support.apple.com/en-us/127111
+https://support.apple.com/en-us/127112
+https://support.apple.com/en-us/127113
+https://support.apple.com/en-us/127114
+https://support.apple.com/en-us/127115
+https://support.apple.com/en-us/127116
+https://support.apple.com/en-us/127117
+https://support.apple.com/en-us/127118
+https://support.apple.com/en-us/127119
+https://support.apple.com/en-us/127120
+Vendor Information
+Apple
+https://support.apple.com/en-us/127110
+https://support.apple.com/en-us/127111
+https://support.apple.com/en-us/127112
+https://support.apple.com/en-us/127113
+https://support.apple.com/en-us/127114
+https://support.apple.com/en-us/127115
+https://support.apple.com/en-us/127116
+https://support.apple.com/en-us/127117
+https://support.apple.com/en-us/127118
+https://support.apple.com/en-us/127119
+https://support.apple.com/en-us/127120
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-13 13:08:21
