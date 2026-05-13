@@ -4409,3 +4409,34 @@ Call log:
 2026-05-11 12:00:32,953 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-05-11 12:00:36,004 | INFO | Total entries collected: 23
 2026-05-11 12:00:36,012 | INFO | No new entries found
+2026-05-13 06:27:07,301 | INFO | Opening NPCI page
+2026-05-13 06:27:13,529 | INFO | Attempting Press Releases scrape (2026)
+2026-05-13 06:27:13,547 | INFO | Press Releases 2026: 6 rows found
+2026-05-13 06:27:13,557 | INFO | [press_release] NBSL Press Release_BHIM Payments App Introduces Biometric Authentication for UPI Payments on Android and IOS
+2026-05-13 06:27:16,602 | INFO | [press_release] NBSL Press Release - BHIM Payments App Announces MS Dhoni as Brand Ambassador
+2026-05-13 06:27:19,645 | INFO | [press_release] NPCI Advances India’s Sovereign AI Infrastructure for Digital Payments With NVIDIA
+2026-05-13 06:27:22,679 | INFO | [press_release] NPCI Press Release - NPCI announces FiMI, a domain-specific AI language Model built for India’s payments ecosystem
+2026-05-13 06:27:25,712 | INFO | [press_release] NPCI Press Release - NPCI Extends ‘UPI One World’ Wallet Service to International Delegates at the India AI Impact Summit 2026
+2026-05-13 06:27:28,745 | INFO | [press_release] NBSL Press Release - NBSL and Canara Bank partner to power UPI payments
+2026-05-13 06:27:31,771 | WARNING | No PDF or image asset captured
+2026-05-13 06:27:31,771 | INFO | Switching Press Releases year to 2025
+2026-05-13 06:27:34,329 | INFO | Press Releases 2025: 10 rows found
+2026-05-13 06:27:34,335 | INFO | [press_release] NBSL Press release - BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI Payments within set limits
+2026-05-13 06:27:37,371 | WARNING | No PDF or image asset captured
+2026-05-13 06:27:37,378 | INFO | [press_release] NPCI Press Release - Media Statement - Update Regarding Cheque Truncation System (CTS) – Continuous Clearing
+2026-05-13 06:27:40,413 | INFO | [press_release] NPCI Press Release - RuPay JCB cardholders can now avail 25% cashback for in-store purchases* in Indonesia, Malaysia, Singapore, Japan and Philippines
+2026-05-13 06:27:43,443 | INFO | [press_release] NPCI Press Release - Media Statement Regarding Cheque Clearance
+2026-05-13 06:27:46,475 | INFO | [press_release] NPCI Press Release - RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025
+2026-05-13 06:27:49,511 | INFO | [press_release] NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025
+2026-05-13 06:27:52,544 | INFO | [press_release] NPCI Press Release - DFS Secretary Launches Initiatives to Simplify Digital Payment Experience at GFF 2025
+2026-05-13 06:27:55,569 | WARNING | No PDF or image asset captured
+2026-05-13 06:27:55,576 | INFO | [press_release] NPCI Press release – NPCI and RBL Bank expand RuPay On-The-Go across All Bengaluru Metro Lines
+2026-05-13 06:27:55,594 | WARNING | Press Releases 2025 failed: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+2026-05-13 06:27:55,594 | INFO | Switching to Media Coverage tab
+2026-05-13 06:28:25,595 | WARNING | Media Coverage tab not available
+2026-05-13 06:28:25,627 | INFO | Total entries collected: 10
+2026-05-13 06:28:25,636 | INFO | Added 1 new entries
