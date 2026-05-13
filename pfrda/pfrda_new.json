@@ -1,5 +1,38 @@
 {
-  "generated_at": "2026-05-12T11:23:25.498238",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-13T06:17:33.275004",
+  "count": 4,
+  "items": [
+    {
+      "id": "10f42d50b9a49e52",
+      "title": "Extension of incentive framework to...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/726954/Extension+of+incentive+framework+to+grass-root+Pension+Agents+for+enrollments+facilitated+under+NPS+Sanchay.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/13/2026"
+    },
+    {
+      "id": "fdfdd98ccd967378",
+      "title": "Clarification on engagement of Pension...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Circular+-+Clarification+on+engagement+of+Pension+Agents+under+the+PFRDA+%28Point+of+Presence%29+Regulations+2018+and+amendments+thereof.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/13/2026"
+    },
+    {
+      "id": "f81c377f7dc45d02",
+      "title": "Extension of incentive framework to grass-root Pension Agents for enrollments facilitated under NPS Sanchay\nPromotion and Development - NPS\nRef: PFRDA/2026/27/NPS-AGRI/02\nIssue Date: 12-05-2026",
+      "publish_date": "05/12/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/726954/Extension+of+incentive+framework+to+grass-root+Pension+Agents+for+enrollments+facilitated+under+NPS+Sanchay.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/13/2026"
+    },
+    {
+      "id": "02af11d23fe7f1b0",
+      "title": "Clarification on engagement of Pension Agents under the PFRDA (Point of Presence) Regulations 2018 and amendments thereof\nCentral Recordkeeping Agency Point of Presence\nRef: PFRDA/2026/26/REG-POP/05\nIssue Date: 12-05-2026",
+      "publish_date": "05/12/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Circular+-+Clarification+on+engagement+of+Pension+Agents+under+the+PFRDA+%28Point+of+Presence%29+Regulations+2018+and+amendments+thereof.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/13/2026"
+    }
+  ]
 }
