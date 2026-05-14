@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-05-14T08:32:15.732313",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-14T11:16:10.890026",
+  "count": 2,
+  "items": [
+    {
+      "id": "3844e89ab263299d",
+      "title": "Satellite Communication and Navigation Technology - Technological Advancement, Applications and Opportunities",
+      "publish_date": "05/14/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/ea90bb1c6b960dfbaed8889d11df9860.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/14/2026"
+    },
+    {
+      "id": "e92f47feed72fd3c",
+      "title": "Inviting comments on proposed amendments to the Telecommunications Engineering Service (Group 'B' Posts) Recruitment Rules, 2019-regarding",
+      "publish_date": "05/14/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/0783258b36ba11ec85ed59aa27fd68de.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/14/2026"
+    }
+  ]
 }
