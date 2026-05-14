@@ -1,5 +1,17 @@
 {
-  "generated_at": "2026-05-14T08:03:17.396003",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-14T12:00:00",
+  "count": 1,
+  "items": [
+    {
+      "id": "testentry000002",
+      "petition_no": "Test Appeal 2 of 2026",
+      "cause_title": "Test Corp v Test Board",
+      "bench": "Justice A and Justice B",
+      "date_of_decision": "14-05-2026",
+      "date_uploaded": "14-05-2026",
+      "pdf_url": "https://aptel.gov.in/test.pdf",
+      "pdf_text": "This appeal was filed by Test Corp Limited challenging the tariff order dated 01.01.2026 issued by the Central Electricity Regulatory Commission in Petition No. 100/TT/2025. The appellant contended that the Commission erred in disallowing certain operation and maintenance expenses and in computing the return on equity at a rate lower than prescribed under the CERC Tariff Regulations 2019. The respondent Test Board argued that the Commission had correctly applied the normative parameters under the regulations and that no interference was warranted. APTEL examined whether the disallowance of O&M expenses was in accordance with Regulation 29 of the CERC Tariff Regulations 2019 and whether the return on equity computation was consistent with Regulation 24. The tribunal held that the Commission had incorrectly applied the escalation index under Regulation 29 and directed recomputation of O&M expenses accordingly. On the question of return on equity APTEL upheld the Commission's computation finding it consistent with the prescribed parameters. The appeal was therefore partly allowed. The Commission was directed to issue a revised tariff order within sixty days incorporating the corrected O&M expense figures. Costs were not awarded to either party.",
+      "scraped_at": "2026-05-14T12:00:00"
+    }
+  ]
 }
