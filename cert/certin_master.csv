@@ -8581,3 +8581,61 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-15 10:04:49
+292e449087300b2a,CERT-In Vulnerability Note  CIVN-2026-0238,"May 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0238,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0238
+Multiple Vulnerabilities in PAN-OS
+Original Issue Date:May       15, 2026
+Severity Rating: HIGH
+Software Affected
+PAN-OS 12.1 versions prior to 12.1.4-h5 and 12.1.7
+PAN-OS 11.2 versions prior to 11.2.4-h17, 11.2.7-h13, 11.2.10-h6 and 11.2.12
+PAN-OS 11.1 versions prior to 11.1.4-h33, 11.1.6-h32, 11.1.7-h6, 11.1.10-h25, 11.1.13-h5 and 11.1.15
+PAN-OS 10.2 versions prior to 10.2.7-h34, 10.2.10-h36, 10.2.13-h21, 10.2.16-h7 and 10.2.18-h6
+Prisma Access 11.2.0 versions prior to 11.2.7-h13*
+Prisma Access 10.2.0 versions prior to 10.2.10-h36*
+Overview
+Multiple vulnerabilities have been reported in Palo Alto Networks PAN-OS that could allow an authenticated or unauthenticated attacker to bypass security restrictions, cause denial-of-service (DoS) conditions, bypass authentication mechanisms, or execute arbitrary code with elevated privileges on the targeted system.
+Target Audience:
+Organizations, Enterprises, Managed Security Service Providers using PAN-OS based PA-Series and VM-Series firewalls.
+Risk Assessment:
+High risk of unauthorized access, remote code execution, system compromise, or service disruption.
+Impact Assessment:
+Potential for compromise of confidentiality, integrity and availability of affected systems and network infrastructure.
+Description
+Palo Alto Networks PAN-OS is a network security operating system designed for PA-Series and VM-Series firewalls, providing enterprise-grade network security and threat prevention capabilities.
+Multiple vulnerabilities have been identified in Palo Alto Networks PAN-OS due to improper input validation, insufficient authentication checks and memory handling issues.
+Successful exploitation of these vulnerabilities could allow an authenticated or unauthenticated attacker to bypass security restrictions, cause denial-of-service (DoS) conditions, bypass authentication mechanisms, or execute arbitrary code with elevated privileges on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in:
+https://security.paloaltonetworks.com/CVE-2026-0261
+https://security.paloaltonetworks.com/CVE-2026-0262
+https://security.paloaltonetworks.com/CVE-2026-0263
+https://security.paloaltonetworks.com/CVE-2026-0264
+https://security.paloaltonetworks.com/CVE-2026-0265
+Vendor Information
+Palo Alto
+https://security.paloaltonetworks.com/
+References
+https://security.paloaltonetworks.com/CVE-2026-0261
+https://security.paloaltonetworks.com/CVE-2026-0262
+https://security.paloaltonetworks.com/CVE-2026-0263
+https://security.paloaltonetworks.com/CVE-2026-0264
+https://security.paloaltonetworks.com/CVE-2026-0265
+CVE Name
+CVE-2026-0261
+CVE-2026-0262
+CVE-2026-0263
+CVE-2026-0264
+CVE-2026-0265
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-15 12:29:03
