@@ -8388,3 +8388,77 @@ New Delhi - 110 003
 India",2026-05-14 12:24:02
 43274d71caf1501b,CERT-In Vulnerability Note  CIVN-2026-0232,"May 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0232,Latest Security Alert,,2026-05-14 12:24:02
 33931dc9e71a2035,CERT-In Advisory   CIAD-2026-0023,"May 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0023,Latest Security Alert,,2026-05-14 12:24:02
+bb230722325c6faa,CERT-In Vulnerability Note  CIVN-2026-0235,"May 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0235,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0235
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:May       14, 2026
+Severity Rating: MEDIUM
+Software Affected
+Google Chrome versions prior to 148.0.7778.96 for Linux
+Google Chrome versions prior to 148.0.7778.96/97 for Windows and Mac
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restrictions or cause denial of service (DoS) conditions on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, privilege escalation or unauthorized access to sensitive data.
+Impact Assessment:
+Potential for system compromise, data theft or service disruption.
+Description
+Google Chrome is a popular internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.
+Multiple vulnerabilities exist in Google Chrome due to Integer overflow in Blink, ANGLE, Network, Dawn and GPU; Use after free in ANGLE, Audio, Aura, Blink, CSS, DevTools, GPU, MediaRecording, Navigation, Passwords, PresentationAPI, Printing, ReadingMode, ServiceWorker, Skia, SVG, TopChrome, UI, V8, Views, WebAudio, WebRTC, Mobile, Chromoting, Fullscreen, and DOM; Inappropriate implementation in ServiceWorker, Canvas, Cast, Chromoting, Companion, Media, MHTML, Navigation, ORB, Preload, SanitizerAPI, ServiceWorker, Speech, V8 and DevTools; Insufficient data validation in DataTransfer, DevTools and InterestGroups,  Insufficient policy enforcement in Autofill, DevTools, DirectSockets, Downloads, Extensions, Search, WebApp and WebUI;  Insufficient validation of untrusted input in ANGLE, Cast, ChromeDriver, Cookies, COOP, CORS, DevTools, Dialog, FedCM, FileSystem, iOS, Media, Mobile, Navigation, Network, Omnibox, Payments, Permissions, Persistent Cache, Popup Blocker, SiteIsolation, SSL, TabGroups, UI and Updater,  Object lifecycle issue in V8;  Out of bounds memory access in V8,   read in AdFilter, Codecs, Dawn, Fonts, Skia and WebCodecs,  read and write in GFX and V8, write in Media, Skia and WebRTC, Race in Chromoting, Shared Storage and Speech,  Script injection in UI, Side-channel information leakage in Media; Type Confusion in Accessibility, Runtime and WebRTC, Uninitialized Use in Dawn, GPU and WebCodecs.  A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restrictions or cause denial of service (DoS) conditions on the targeted system.
+Solution
+Apply appropriate as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop.html
+Vendor Information
+https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop.html
+References
+https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop.html
+CVE Name
+CVE-2026-7896
+CVE-2026-7898
+CVE-2026-7897
+CVE-2026-7900
+CVE-2026-7909
+CVE-2026-7915
+CVE-2026-7916
+CVE-2026-7913
+CVE-2026-7905
+CVE-2026-7903
+CVE-2026-7912
+CVE-2026-7902
+CVE-2026-7899
+CVE-2026-7904
+CVE-2026-7923
+CVE-2026-7914
+CVE-2026-7927
+CVE-2026-7924
+CVE-2026-7901
+CVE-2026-7911
+CVE-2026-7919
+CVE-2026-7925
+CVE-2026-7907
+CVE-2026-7908
+CVE-2026-7917
+CVE-2026-7918
+CVE-2026-7929
+CVE-2026-7921
+CVE-2026-7926
+CVE-2026-7922
+CVE-2026-7920
+CVE-2026-7906
+CVE-2026-7910
+CVE-2026-7928
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-15 07:33:23
