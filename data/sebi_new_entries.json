@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "857a2b2212c02860fed2a9a4df103aadcf5dc978",
+    "date": "May 15, 2026",
+    "title": "Status of SPVs post conclusion or termination of Concession Agreement",
+    "link": "https://www.sebi.gov.in/legal/circulars/may-2026/status-of-spvs-post-conclusion-or-termination-of-concession-agreement_101467.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Status of SPVs post conclusion or termination of Concession Agreement.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-05-15T12:18:26.478607Z",
+    "source_commit": "8faf2868b61e3cf53be9e3fd8539c9afd693ad0c",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "88394909a5ac4d3605deb3b545b668bb62f88387",
+    "date": "May 15, 2026",
+    "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
+    "link": "https://www.sebi.gov.in/legal/circulars/may-2026/permitted-use-of-fresh-borrowings-for-invits-where-net-borrowings-exceeds-forty-nine-percent-of-the-value-of-invit-assets_101465.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-05-15T12:18:31.463482Z",
+    "source_commit": "8faf2868b61e3cf53be9e3fd8539c9afd693ad0c",
+    "category": "Circular",
+    "error": ""
+  }
+]
