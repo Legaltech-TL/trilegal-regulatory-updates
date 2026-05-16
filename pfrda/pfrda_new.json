@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-05-15T11:23:32.603932",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-16T05:46:45.886793",
+  "count": 2,
+  "items": [
+    {
+      "id": "acae2a1ef88b54a6",
+      "title": "Introduction of Retirement Income Schemes...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/738956/Introduction+of+Retirement+Income+Schemes+%28RIS%29+and+Drawdown+options+under+the+National+Pension+System+%28NPS%29.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/16/2026"
+    },
+    {
+      "id": "559d00833edf2466",
+      "title": "Introduction of Retirement Income Schemes (RIS) and Drawdown options under the National Pension System (NPS)\nAnnuity Service Provider Central Recordkeeping Agency Custodian NPS Trust Pension Fund Point of Presence\nRef: PFRDA/2026/31/MWnR/01\nIssue Date: 15-05-2026",
+      "publish_date": "05/15/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/738956/Introduction+of+Retirement+Income+Schemes+%28RIS%29+and+Drawdown+options+under+the+National+Pension+System+%28NPS%29.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "05/16/2026"
+    }
+  ]
 }
