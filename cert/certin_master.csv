@@ -8789,3 +8789,134 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-18 11:32:45
+a570c18fbce3ae30,CERT-In Vulnerability Note  CIVN-2026-0243,"May 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0243,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0243
+Multiple Vulnerabilities in Cisco Unity Connection
+Original Issue Date:May       18, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco Unity Connection versions prior to 12.5 and 12.5
+Cisco Unity Connection versions 14.0 and 15.0
+Overview
+Multiple vulnerabilities have been reported in the Cisco Unity Connection's web-based management interface that could allow a remote attacker to conduct server-side request forgery (SSRF) attacks through an affected system and execute arbitrary code on the targeted system, potentially resulting in complete system compromise.
+Target Audience:
+All organizations and individuals using Cisco Unity Connection.
+Risk Assessment:
+High risk of remote code execution, SSRF exploitation, privilege escalation.
+Impact Assessment:
+Execution of unauthorized code or commands, unauthorized access and disclosure of sensitive information.
+Description
+Cisco Unity Connection (CUC) is a robust unified messaging and voicemail solution that provides users with flexible message access options and IT with management simplicity.
+These vulnerabilities exist due to insufficient and improper validation of user-supplied input within Cisco Unity Connection. An attacker could exploit these vulnerabilities by sending specially crafted API and HTTP requests to the targeted system.
+Successful exploitation of these vulnerabilities could allow a remote attacker to conduct server-side request forgery (SSRF) attacks through an affected system and execute arbitrary code on the targeted system, potentially resulting in complete system compromise.
+Solution
+Apply appropriate updates as mentioned in the vendor advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-unity-rce-ssrf-hENhuASy
+Vendor Information
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-unity-rce-ssrf-hENhuASy
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-unity-rce-ssrf-hENhuASy
+CVE Name
+CVE-2026-20034
+CVE-2026-20035
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-18 14:27:45
+2e98a8aad0682fb0,CERT-In Vulnerability Note  CIVN-2026-0242,"May 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0242,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0242
+Remote Code Execution Vulnerability in Exim
+Original Issue Date:May       18, 2026
+Severity Rating: CRITICAL
+Software Affected
+Exim versions 4.97 through 4.99.2
+Overview
+A vulnerability has been reported in Exim, which could allow an unauthenticated remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Exim.
+Risk Assessment:
+High risk of remote code execution.
+Impact Assessment:
+Potential for memory corruption.
+Description
+Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like operating systems that handles email reception, routing, and delivery.
+This vulnerability exists in Exim due use-after-free flaw in the BDAT body parsing path. An unauthenticated remote attacker could exploit this vulnerability by sending a TLS close_notify during an active BDAT transfer and subsequently sending an additional clear text byte over the same TCP connection.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned in:
+https://www.exim.org/static/doc/security/EXIM-Security-2026-05-01.1/EXIM-Security-2026-05-01.1.txt
+Vendor Information
+Exim
+https://www.exim.org/static/doc/security/EXIM-Security-2026-05-01.1/EXIM-Security-2026-05-01.1.txt
+References
+Exim
+https://www.exim.org/static/doc/security/EXIM-Security-2026-05-01.1/EXIM-Security-2026-05-01.1.txt
+The Hacker News
+https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html
+CVE Name
+CVE-2026-45185
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-18 14:27:45
+cffb9ea9b3189ade,CERT-In Vulnerability Note  CIVN-2026-0241,"May 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0241,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0241
+Spoofing Vulnerability in Microsoft Exchange Server
+Original Issue Date:May       18, 2026
+Severity Rating: CRITICAL
+Software Affected
+Microsoft Exchange Server 2019 Cumulative Update 14
+Microsoft Exchange Server 2016 Cumulative Update 23
+Microsoft Exchange Server 2019 Cumulative Update 15
+Microsoft Exchange Server Subscription Edition RTM
+Overview
+A vulnerability has been reported in Microsoft Exchange Server which could allow an unauthorized remote attacker to perform spoofing attacks on the targeted system.
+Target Audience:
+All end-user organizations and individuals using the Microsoft Exchange Server.
+Risk Assessment:
+Spoofing attacks, Information disclosure.
+Impact Assessment:
+Session hijacking, sensitive data exposure.
+Description
+This vulnerability exists in Microsoft Exchange Server due to improper neutralization of input during web page generation (¿Cross-site Scripting¿). An attacker could exploit this vulnerability by sending a specially-crafted request.
+Successful exploitation of this vulnerability could allow an unauthorized remote attacker to perform spoofing attacks on the targeted system.
+Solution
+Apply appropriate security updates as mentioned:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42897
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42897
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42897
+CVE Name
+CVE-2026-42897
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-18 14:27:45
