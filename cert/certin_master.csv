@@ -8719,3 +8719,73 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-17 06:51:11
+29248d6632720dd0,CERT-In Vulnerability Note  CIVN-2026-0240,"May 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0240,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0240
+Linux Kernel XFRM ESP-in-TCP Local Privilege Escalation Vulnerability
+Original Issue Date:May       18, 2026
+Severity Rating: HIGH
+Systems Affected
+Ubuntu
+Red Hat Enterprise Linux
+openSUSE
+CentOS Stream
+AlmaLinux
+Debian
+Gentoo
+Fedora
+Overview
+A privilege escalation vulnerability referred to as ""Fragnesia"" has been reported in the Linux Kernel XFRM ESP-in-TCP subsystem, which could allow a local authenticated attacker to gain root privileges by corrupting the kernel page cache.
+Target Audience:
+Organizations and individuals using the affected versions of Linux Kernel.
+Risk Assessment:
+High risk of privilege escalation and complete system compromise.
+Impact Assessment:
+Potential for unauthorized access to system resources, sensitive data exposure and system compromise.
+Description
+The Linux kernel is the core component of many operating system, responsible for managing hardware resources and providing essential system services, including cryptographic operations.
+The vulnerability exists due to improper handling of shared page fragments during skb coalescing within the Linux XFRM ESP-in-TCP implementation. An attacker with local access could exploit this flaw to modify read-only file contents stored in kernel memory and subsequently obtain root privileges.
+Successful exploitation of this vulnerability could allow a local attacker to gain elevated privileges on the affected system.
+Solution
+Apply appropriate updates as mentioned by the vendors:
+https://ubuntu.com/security/CVE-2026-46300
+https://access.redhat.com/security/cve/cve-2026-46300
+https://www.suse.com/security/cve/CVE-2026-46300
+https://almalinux.org/blog/2026-05-13-fragnesia-cve-2026-46300/
+https://security-tracker.debian.org/tracker/CVE-2026-46300
+https://bugs.gentoo.org/show_bug.cgi?id=CVE-2026-46300
+Vendor Information
+Almalinux
+https://almalinux.org/blog/2026-05-13-fragnesia-cve-2026-46300/
+RedHat
+https://access.redhat.com/security/cve/cve-2026-46300
+Ubuntu
+https://ubuntu.com/security/CVE-2026-46300
+Debain
+https://security-tracker.debian.org/tracker/CVE-2026-46300
+SUSE
+https://www.suse.com/security/cve/CVE-2026-46300.html
+Gentoo
+https://bugs.gentoo.org/show_bug.cgi?id=CVE-2026-46300
+References
+https://almalinux.org/blog/2026-05-13-fragnesia-cve-2026-46300/
+https://www.tenable.com/blog/fragnesia-cve-2026-46300-faq-about-new-linux-kernel-xfrm-esp-in-tcp-priv-esc
+https://access.redhat.com/security/cve/cve-2026-46300
+https://ubuntu.com/security/CVE-2026-46300
+https://security-tracker.debian.org/tracker/CVE-2026-46300
+https://www.suse.com/security/cve/CVE-2026-46300.html
+https://explore.alas.aws.amazon.com/CVE-2026-46300.html
+https://bugs.gentoo.org/show_bug.cgi?id=CVE-2026-46300
+CVE Name
+CVE-2026-46300
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-18 11:32:45
