@@ -8920,3 +8920,261 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-18 14:27:45
+dbfc8ccc20eedd17,CERT-In Vulnerability Note  CIVN-2026-0247,"May 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0247,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0247
+Multiple Vulnerabilities in Avada Builder WordPress Plugin
+Original Issue Date:May       19, 2026
+Severity Rating: HIGH
+Software Affected
+Avada Builder WordPress Plugin versions prior to 3.15.3.
+Overview
+Multiple vulnerabilities have been reported in Avada Builder WordPress Plugin which could allow an attacker to read arbitrary files, perform SQL Injection attacks, disclose sensitive information, and compromise the affected website.
+Target Audience:
+All organizations and individuals using affected Avada Builder WordPress Plugin installations.
+Risk Assessment:
+High risk due to the potential for arbitrary file read, SQL Injection, disclosure of sensitive information, and compromise of affected WordPress websites.
+Impact Assessment:
+Potential for arbitrary file read, SQL Injection, disclosure of sensitive information including credentials and password hashes, unauthorized database access, and compromise of affected systems.
+Description
+Multiple vulnerabilities exist in Avada Builder WordPress Plugin due to improper validation of user supplied input and insufficient sanitization of SQL queries.
+An attacker could exploit these vulnerabilities remotely depending on the attack vector. In certain cases, exploitation may require authenticated access with Subscriber-level privileges, while in other scenarios exploitation may occur without authentication.
+Successful exploitation of these vulnerabilities could allow an attacker to read arbitrary files, perform SQL Injection attacks, disclose sensitive information including credentials and password hashes, access backend database contents, and compromise the affected website.
+Solution
+Apply appropriate updates as mentioned by the Vendor:
+https://www.wordfence.com/blog/2026/05/1000000-wordpress-sites-affected-by-arbitrary-file-read-and-sql-injection-vulnerabilities-in-avada-builder-wordpress-plugin/
+Vendor Information
+ThemeFusion
+https://avada.com/
+References
+https://avada.com/
+https://www.wordfence.com/blog/2026/05/1000000-wordpress-sites-affected-by-arbitrary-file-read-and-sql-injection-vulnerabilities-in-avada-builder-wordpress-plugin/
+CVE Name
+CVE-2026-4782
+CVE-2026-4798
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-19 10:49:29
+c381932800d1269e,CERT-In Vulnerability Note  CIVN-2026-0246,"May 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0246,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0246
+Remote code execution vulnerability in Marimo
+Original Issue Date:May       19, 2026
+Severity Rating: CRITICAL
+Software Affected
+marimo (pip) versions prior to 0.23.0
+Overview
+A vulnerability has been reported in Marimo, which could allow an unauthenticated attacker to execute arbitrary commands on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected marimo package.
+Risk Assessment:
+High risk of remote code execution, unauthorized access, and full system compromise
+Impact Assessment:
+Potential for complete system takeover, execution of arbitrary commands, sensitive information disclosure, and service disruption.
+Description
+Marimo is a reactive Python notebook environment that automatically updates dependent cells when code or inputs change, ensuring consistent and reproducible execution. It stores notebooks as pure Python files, supports interactive data workflows, and can be run as scripts or deployed as web apps.
+This vulnerability exists in Marimo due to improper authentication handling in the terminal WebSocket endpoint (/terminal/ws). A remote attacker could exploit this by connecting to the vulnerable endpoint and gaining access to a full pseudo-terminal (PTY) shell.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary commands on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://github.com/marimo-team/marimo/security/advisories/GHSA-2679-6mx9-h9xc
+Vendor Information
+Marimo
+https://github.com/marimo-team/marimo/security/advisories/GHSA-2679-6mx9-h9xc
+References
+Marimo
+https://github.com/marimo-team/marimo/security/advisories/GHSA-2679-6mx9-h9xc
+CVE Name
+CVE-2026-39987
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-19 10:49:29
+2221eac4f752b21f,CERT-In Vulnerability Note  CIVN-2026-0245,"May 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0245,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0245
+Multiple Vulnerabilities in cPanel & WHM (WP2)
+Original Issue Date:May       19, 2026
+Severity Rating: HIGH
+Systems Affected
+cPanel & WHM (Web Host Manager) versions:
+prior to 11.136.0.10
+prior to 11.134.0.26
+prior to 11.132.0.32
+prior to 11.130.0.23
+prior to 11.126.0.59
+prior to 11.124.0.38
+prior to 11.118.0.67
+prior to 11.110.0.118
+prior to 11.102.0.42
+prior to 11.94.0.31
+prior to 11.86.0.44
+WP Squared version prior to 11.136.1.12
+Overview
+Multiple vulnerabilities have been reported in cPanel & WHM, which could allow an attacker to trigger elevation of privilege, conduct man-in-the-middle attacks, execute arbitrary code and gain unauthorized access to sensitive information on the targeted systems.
+Target Audience:
+Organizations and individuals using the affected cPanel & WHM-based hosting environments.
+Risk Assessment:
+High risk of privilege escalation, sensitive information disclosure, credential interception and compromise of affected systems.
+Impact Assessment:
+Potential unauthorized access to sensitive information or full system compromise.
+Description
+cPanel & WHM is a widely used web hosting control panel that provides administrative (WHM) and user-level (cPanel) interfaces for managing servers and websites.
+Multiple vulnerabilities exist in cPanel and WHM due to improper authorization checks in team management functionality, disabled SSL certificate verification in the DNS Cluster feature, improper sanitization of HTTP query parameters and insufficient input validation mechanisms.
+Successful exploitation of these vulnerabilities could allow an attacker to trigger elevation of privilege, conduct man-in-the-middle attacks, execute arbitrary code and gain unauthorized access to sensitive information on the targeted systems.
+Solution
+Apply appropriate software updates as mentioned by the vendor:
+https://support.cpanel.net/hc/en-us/articles/40437313190295-Security-CVE-2026-32993-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437241987607-Security-CVE-2026-32992-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437254183959-Security-CVE-2026-32991-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437213099159-Security-CVE-2026-29206-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437020299927-Security-CVE-2026-29205-cPanel-WHM-WP2-Security-Update-May-13-2026
+Vendor Information
+cPanel
+https://support.cpanel.net/hc/en-us/articles/40437313190295-Security-CVE-2026-32993-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437241987607-Security-CVE-2026-32992-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437254183959-Security-CVE-2026-32991-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437213099159-Security-CVE-2026-29206-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437020299927-Security-CVE-2026-29205-cPanel-WHM-WP2-Security-Update-May-13-2026
+References
+cPanel
+https://support.cpanel.net/hc/en-us/articles/40437313190295-Security-CVE-2026-32993-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437241987607-Security-CVE-2026-32992-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437254183959-Security-CVE-2026-32991-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437213099159-Security-CVE-2026-29206-cPanel-WHM-WP2-Security-Update-May-13-2026
+https://support.cpanel.net/hc/en-us/articles/40437020299927-Security-CVE-2026-29205-cPanel-WHM-WP2-Security-Update-May-13-2026
+CVE Name
+CVE-2026-32993
+CVE-2026-32992
+CVE-2026-32991
+CVE-2026-29206
+CVE-2026-29205
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-19 10:49:29
+99d3ee894f75f4f0,CERT-In Advisory   CIAD-2026-0024,"May 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0024,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0024
+Multiple Vulnerabilities in Intel Products
+Original Issue Date: May       19, 2026
+Severity Rating: High
+Software Affected
+Intel Vision software
+Intel® EMA software
+Display Virtualization for Windows OS driver software
+Intel® 800 Series Ethernet Linux kernel drivers
+Intel® Slim Bootloader
+Intel® Core Ultra Series 2
+12th Gen Intel® Core Processors
+13th Gen Intel® Core Processors
+11th Gen Intel® Core Processors
+10th Gen Intel® Core Processors
+Intel® Pentium® Gold Processors
+Intel® Celeron® Processors
+Intel® Celeron® 6305E/RE
+Intel Atom® E3900 Processors
+Intel® Xeon® E Family
+Intel® Xeon® D Family
+Intel® Xeon® W embedded SKUs
+Intel® Core i3 embedded SKUs
+Intel® Core i5 embedded SKUs
+Intel® Core i7 embedded SKUs
+Intel® NPU Driver for Linux
+Intel® NPU Driver for Windows
+Intel® Core Ultra 200S Series Processors (Arrow Lake)
+Intel® Core Ultra Processors Series 2 (Lunar Lake)
+Intel® Core Ultra Processors Series 3 Panther Lake H
+Intel® Data Center Graphics Driver for VMware ESXi software
+Intel® QAT software drivers for Windows
+Overview
+Multiple vulnerabilities have been identified in various Intel products that could allow an attacker to gain elevated privileges, obtain sensitive information and cause denial of service on the targeted system.
+Target Audience:
+Individuals and organizations using the above-mentioned Intel products.
+Risk Assessment:
+High risk of full System Compromise, System Instability or Sensitive Information Disclosure.
+Impact Assessment:
+Potential unauthorized access to sensitive information, privilege escalation or disruption of system operations.
+Description
+Intel Corporation products are processors, chipsets, firmware, and computing technologies used in PCs, servers, and enterprise systems.
+Multiple vulnerabilities have been reported in Intel Products due to Improper Input Validation, Improper buffer restrictions, Improper Check for Unusual or Exceptional Conditions, Use after free, Integer overflow, Classic Buffer Overflow, Incorrect Default Permissions, Shared Microarchitectural Predictor State that Influences Transient Execution, Out-of-bounds Write, Out-of-bounds Read, Untrusted Pointer Dereference, NULL Pointer Dereference, Divide By Zero, Unchecked Return Value.
+Successful exploitation of these vulnerabilities could allow attackers to gain elevated privileges, obtain sensitive information and cause denial of service on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in the Intel Security updates:
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01457.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01434.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01430.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01426.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01425.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01424.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01420.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01402.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01387.html
+Vendor Information
+Intel
+https://www.intel.com/content/www/us/en/security-center/default.html
+References
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01457.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01434.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01430.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01426.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01425.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01424.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01420.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01402.html
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01387.html
+CVE Name
+CVE-2026-20887
+CVE-2025-35990
+CVE-2025-36510
+CVE-2025-27723
+CVE-2026-20753
+CVE-2026-20754
+CVE-2026-20718
+CVE-2025-35979
+CVE-2026-20794
+CVE-2026-20879
+CVE-2026-20751
+CVE-2026-20767
+CVE-2026-20738
+CVE-2026-20714
+CVE-2026-20717
+CVE-2026-20782
+CVE-2026-20905
+CVE-2026-20771
+CVE-2026-20881
+CVE-2026-20914
+CVE-2026-20793
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-19 10:49:29
