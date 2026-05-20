@@ -9297,3 +9297,186 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-20 07:55:56
+4814dca9d671c6b0,CERT-In Vulnerability Note  CIVN-2026-0251,"May 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0251,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0251
+Improper Access Control Vulnerability in FortiAuthenticator
+Original Issue Date:May       20, 2026
+Severity Rating: CRITICAL
+Software Affected
+Forti Authenticator 8.0.0 through 8.0.2
+Forti Authenticator 6.6.0 through 6.6.8
+Forti Authenticator 6.5.0 through 6.5.6
+Overview
+A vulnerability has been reported in FortiAuthenticator which could allow an unauthenticated attacker to execute unauthorized code or commands via specially crafted requests on the affected system.
+Target Audience:
+All organizations and administrators using affected versions of FortiAuthenticator.
+Risk Assessment:
+High risk of unauthorized code or command execution and potential system compromise.
+Impact Assessment:
+Potential for unauthorized commands execution, system compromise.
+Description
+FortiAuthenticator is used for centralized authentication, identity management, and secure access services within enterprise environments.
+An Improper Access Control vulnerability exists in FortiAuthenticator API endpoints. An unauthenticated remote attacker could exploit this vulnerability by sending specially crafted requests.
+Successful exploitation of this vulnerability could allow a remote attacker to execute unauthorized code or commands on the targeted system.
+Solution
+Apply appropriate fix/patches as mentioned in the vendor advisory:
+https://fortiguard.fortinet.com/psirt/FG-IR-26-128
+Vendor Information
+Fortinet
+https://fortiguard.fortinet.com/psirt/FG-IR-26-128
+References
+Fortinet
+https://fortiguard.fortinet.com/psirt/FG-IR-26-128
+CVE Name
+CVE-2026-44277
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-20 13:36:51
+f9a11366600af7de,CERT-In Vulnerability Note  CIVN-2026-0250,"May 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0250,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0250
+Race Condition Vulnerability in Linux Kernel
+Original Issue Date:May       20, 2026
+Severity Rating: HIGH
+Software Affected
+Linux kernel version 4.10
+Overview
+A vulnerability has been reported in the Linux Kernel that could allow a local attacker to access sensitive information on the targeted system.
+Target Audience:
+All organizations and individuals running affected versions of the Linux kernel.
+Risk Assessment:
+High risk of unauthorized access to sensitive data.
+Impact Assessment:
+Potential for sensitive information disclosure, unauthorized access.
+Description
+The Linux kernel is the core component of many operating systems, responsible for managing hardware resources and providing essential system services, including cryptographic operations.
+This vulnerability exists in the Linux kernel due to a race condition in the __ptrace_may_access() function, where the kernel improperly skips the dumpable permission check when a process¿s memory descriptor (mm) becomes NULL during process exit.
+Successful exploitation of this vulnerability could allow a local attacker to access sensitive information on the targeted system.
+Solution
+Apply the latest kernel updates provided by your Linux distribution or upstream maintainers:
+https://git.kernel.org/stable/c/93d4ba49d18e3d7fb41a9927c2d0cca5e9dfefd6
+https://git.kernel.org/stable/c/15b828a46f305ae9f05a7c16914b3ce273474205
+https://git.kernel.org/stable/c/4709234fd1b95136ceb789f639b1e7ea5de1b181
+https://git.kernel.org/stable/c/8f907d345bae8f4b3f004c5abc56bf2dfb851ea7
+https://git.kernel.org/stable/c/6e5b51e74a40d377bcd3081dd33fbaa0e1aa7e3d
+https://git.kernel.org/stable/c/2a93a4fac7b6051d3be7cd1b015fe7320cd0404d
+https://git.kernel.org/stable/c/01363cb3fbd0238ffdeb09f53e9039c9edf8a730
+https://git.kernel.org/stable/c/31e62c2ebbfdc3fe3dbdf5e02c92a9dc67087a3a
+References
+https://gbhackers.com/linux-ssh-keysign-pwn-flaw/
+https://www.suse.com/security/cve/CVE-2026-46333.html
+https://access.redhat.com/security/cve/cve-2026-46333
+https://almalinux.org/blog/2026-05-15-ssh-keysign-pwn-cve-2026-46333/
+https://ubuntu.com/security/CVE-2026-46333
+https://security-tracker.debian.org/tracker/CVE-2026-46333
+CVE Name
+CVE-2026-46333
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-20 13:36:51
+baba85330e1d900c,CERT-In Vulnerability Note  CIVN-2026-0249,"May 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0249,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0249
+Information Disclosure Vulnerability in Microsoft Authenticator
+Original Issue Date:May       20, 2026
+Severity Rating: CRITICAL
+Software Affected
+Microsoft Authenticator for Android version 6.0.0 before 6.2605.2973
+Microsoft Authenticator for iOS version 6.0.0 before 6.8.47
+Overview
+A vulnerability has been identified in Microsoft Authenticator which could allow an unauthenticated remote attacker to disclose sensitive information over a network.
+Target Audience:
+All end-user organizations and individuals using Microsoft Authenticator.
+Risk Assessment:
+Critical risk of sensitive information disclosure and potential unauthorized access to authentication-related resources.
+Impact Assessment:
+Elevation of privileges, unauthorized access to protected resources, and potential compromise of user authentication data.
+Description
+Microsoft Authenticator is a multi-factor authentication application developed by Microsoft that enables secure sign-in and authentication for Microsoft and third-party services.
+This vulnerability exists in Microsoft Authenticator due to exposure of sensitive information to an unauthorized actor.
+An unauthenticated remote attacker could exploit this vulnerability over a network by persuading a user to interact with specially crafted content or an authentication-related request.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to disclose sensitive information over a network.
+Solution
+Users are advised to apply appropriate updates as provided by the vendor:
+https://msrc.microsoft.com/update-guide
+Vendor Information
+Microsoft
+https://msrc.microsoft.com
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41615
+CVE Name
+CVE-2026-41615
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-20 13:36:51
+1d8ce5b755d7be73,CERT-In Advisory   CIAD-2026-0025,"May 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0025,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0025
+Multiple Vulnerabilities in Drupal Core
+Original Issue Date: May       20, 2026
+Severity Rating: Critical
+Software Affected
+Drupal 11.3.x
+Drupal 11.2.x
+Drupal 10.6.x
+Drupal 10.5.x
+Unsupported, end-of-life and other Drupal versions may also be vulnerable.
+Overview
+Multiple critical security vulnerabilities have been identified in Drupal Core. The Drupal Security Team has announced that security updates will be released for supported Drupal versions and has warned that exploit code may become available within hours or days following public disclosure.
+Target Audience:
+Drupal administrators, web hosting teams, security teams, and developers managing Drupal-based applications.
+Risk Assessment:
+High risk of unauthorized access and rapid exploitation of vulnerable Drupal instances.
+Impact Assessment:
+May lead to website compromise, malicious code execution, data exposure, and full system compromise.
+Description
+Drupal has issued a public security advisory regarding undisclosed highly critical vulnerabilities affecting Drupal Core. Technical details of the vulnerabilities will be disclosed upon the release of security patches.
+The advisory indicates a high probability of rapid exploitation following public disclosure. Internet-facing Drupal installations are particularly at risk.
+Users and administrators are advised to update Drupal Core to the latest available security patch released by the Drupal Security Team and apply all recommended security updates immediately.
+Solution
+Apply appropriate fixes as mentioned in Drupal Security Advisory:
+https://www.drupal.org/psa-2026-05-18
+Vendor Information
+Drupal
+https://www.drupal.org/psa-2026-05-18
+References
+The Register
+https://www.theregister.com/security/2026/05/19/drupal-warns-admins-to-brace-for-highly-critical-core-patch/5242728
+CVE Name
+CVE identifiers were not available at the time of publication.
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-20 13:36:51
