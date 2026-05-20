@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-19T11:58:12.706696",
-  "count": 1,
+  "generated_at": "2026-05-20T06:54:51.598798",
+  "count": 2,
   "items": [
     {
-      "id": "c004859be6a1558c",
-      "title": "Final Seniority list of JTOs of TES Group B of Department of Telecommunications as on 01-01-2026",
-      "publish_date": "05/18/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/55d7b5c695c7705af301111bfdaf68b0.pdf",
+      "id": "7eb61b5e3a182c96",
+      "title": "Cadre Clearance for extension of deputation of Shri Pradeep Kumar, ITS (Staff No. 21179), CVO in IRCTC on deputation basis.",
+      "publish_date": "05/19/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/17353abf89d4c00755617b68a572d39f.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/19/2026"
+      "scraped_at": "05/20/2026"
+    },
+    {
+      "id": "1756387a0854c1ed",
+      "title": "Selection of Shri Ajay Kumar Nema, ITS (Staff No. 20574) as Joint Secretary in the Department of Justice under Central Staffing Scheme 2025 on deputation basis-reg",
+      "publish_date": "05/19/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/c619928eabfcdcf39d74c53491edd7fb.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/20/2026"
     }
   ]
 }
