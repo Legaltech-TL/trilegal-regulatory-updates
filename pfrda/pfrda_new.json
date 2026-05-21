@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-20T11:51:12.773498",
-  "count": 1,
+  "generated_at": "2026-05-21T06:42:13.687169",
+  "count": 2,
   "items": [
     {
-      "id": "5f71d324a8158d8f",
-      "title": "Advertisement for appointment of Ombudsman...",
+      "id": "117fe3c0a6b41676",
+      "title": "CORRIGENDUM - Request for Proposal...",
       "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/212847/Updatd+PFRDA+Ombudsman+Vacancy+Notification+Billingual+21.5.2026.pdf",
+      "pdf_url": "",
       "category": "CIRCULAR",
-      "scraped_at": "05/20/2026"
+      "scraped_at": "05/21/2026"
+    },
+    {
+      "id": "f3ff848894e6aca8",
+      "title": "Pre- Bid Query Reply -...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "05/21/2026"
     }
   ]
 }
