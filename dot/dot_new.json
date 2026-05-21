@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-05-20T06:54:51.598798",
-  "count": 2,
+  "generated_at": "2026-05-21T12:10:49.006677",
+  "count": 3,
   "items": [
     {
-      "id": "7eb61b5e3a182c96",
-      "title": "Cadre Clearance for extension of deputation of Shri Pradeep Kumar, ITS (Staff No. 21179), CVO in IRCTC on deputation basis.",
-      "publish_date": "05/19/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/17353abf89d4c00755617b68a572d39f.pdf",
+      "id": "3a41560bd80ca887",
+      "title": "Extension of deputation of Shri Brajesh Mishra, ITS (Staff No. 20466) presently working as General Manager (CCRP) in C-DoT on deputation basis.",
+      "publish_date": "05/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/48a771fb967ab7f122c31398e900c6e4.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/20/2026"
+      "scraped_at": "05/21/2026"
     },
     {
-      "id": "1756387a0854c1ed",
-      "title": "Selection of Shri Ajay Kumar Nema, ITS (Staff No. 20574) as Joint Secretary in the Department of Justice under Central Staffing Scheme 2025 on deputation basis-reg",
-      "publish_date": "05/19/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/c619928eabfcdcf39d74c53491edd7fb.pdf",
+      "id": "1fdafcdc0aebf513",
+      "title": "Refusal of promotion in SAG grade by Shri Rajkumar",
+      "publish_date": "05/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/8e6b9316eb6654b3406c530aa10214e6.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/20/2026"
+      "scraped_at": "05/21/2026"
+    },
+    {
+      "id": "fd9f5df0c50cdd35",
+      "title": "\u0926\u0942\u0930\u0938\u0902\u091a\u093e\u0930 \u0935\u093f\u092d\u093e\u0917 \u0938\u0947 \u0938\u0902\u092c\u0902\u0927\u093f\u0924 500 \u0915\u0930\u094b\u0921\u093c \u0930\u0941\u092a\u092f\u0947 \u0938\u0947 \u0915\u092e \u0915\u0947 \u092a\u0930\u093f\u0935\u094d\u092f\u092f \u0935\u093e\u0932\u0940 \u092f\u094b\u091c\u0928\u093e \u0915\u0947 \u0932\u093f\u090f \u0909\u0924\u094d\u092a\u093e\u0926\u0928-\u092a\u0930\u093f\u0923\u093e\u092e \u0928\u093f\u0917\u0930\u093e\u0928\u0940 \u0922\u093e\u0902\u091a\u093e 2026-27",
+      "publish_date": "03/13/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/03/e7037f85601f7f03356c7b2c35153bb8.pdf",
+      "category": "REPORTS",
+      "scraped_at": "05/21/2026"
     }
   ]
 }
