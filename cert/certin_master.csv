@@ -9637,3 +9637,249 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-21 08:04:21
+743d246f4f0e88b4,CERT-In Vulnerability Note  CIVN-2026-0257,"May 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0257,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0257
+SQL Injection Vulnerability in Drupal
+Original Issue Date:May       21, 2026
+Severity Rating: CRITICAL
+Software Affected
+Drupal core versions from 8.9.0 before 10.4.10
+Drupal core versions from 10.5.0 before 10.5.10
+Drupal core versions from 10.6.0 before 10.6.9
+Drupal core versions from 11.0.0 before 11.1.10
+Drupal core versions from 11.2.0 before 11.2.12
+Drupal core versions from 11.3.0 before 11.3.10
+Overview
+A vulnerability has been reported in Drupal which could allow an attacker to obtain sensitive information, execute arbitrary SQL queries, escalate privileges, or potentially compromise the affected system.
+Target Audience:
+Individuals and end-user organizations using Drupal.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, security bypass, and service unavailability.
+Impact Assessment:
+Potential for data theft, system crash and system compromise.
+Description
+Drupal is an open-source, content management system (CMS) which allows individuals and organizations to create, manage and maintain websites and web applications.
+This vulnerability exists in Drupal Core due to improper handling of database queries in the database abstraction API. An attacker could this vulnerability by sending specially crafted requests to conduct SQL injection attacks for sites using PostgreSQL databases. (This vulnerability only affects sites using PostgreSQL)
+Successful exploitation of this vulnerability to access sensitive information, escalate privileges, modify database contents, or potentially compromise the affected system.
+Please note that Drupal 11.1.x, Drupal 11.0.x, Drupal 10.4.x and all prior releases have reached end-of-life and no longer receive security support. Drupal 8 and Drupal 9 have also reached end-of-life.
+Solution
+Upgrade to the latest versions as mentioned in the security advisories:
+https://www.drupal.org/sa-core-2026-004
+Vendor Information
+Drupal
+https://www.drupal.org/
+References
+https://www.drupal.org/sa-core-2026-004
+CVE Name
+CVE-2026-9082
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-21 10:54:35
+75803ed3ad37d305,CERT-In Vulnerability Note  CIVN-2026-0256,"May 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0256,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0256
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date:May       21, 2026
+Severity Rating: HIGH
+Software Affected
+Windows 10: Versions 1607, 1809, 21H2, and 22H2.
+Windows 11: Versions 23H2, 24H2, and 25H2.
+Windows Server: 2012, 2012 R2, 2016, 2019, 2022, 2022 (23H2 Edition), and 2025.
+Microsoft Office (various supported versions).
+Microsoft SharePoint Server.
+Microsoft Edge (Chromium-based).
+Overview
+Multiple vulnerabilities have been reported in Microsoft products which could allow an attacker to execute arbitrary code, elevate privileges, disclose sensitive information, bypass security features, or cause denial of service on the affected systems.
+Target Audience:
+All organizations and individuals using affected Microsoft products.
+Risk Assessment:
+High risk due to the potential for remote code execution, privilege escalation, information disclosure, security feature bypass, and denial of service.
+Impact Assessment:
+Potential for arbitrary code execution, elevation of privileges, unauthorized access to sensitive information, bypass of security protections, and disruption of system availability.
+Description
+Multiple vulnerabilities exist in Microsoft products due to improper input validation, memory corruption issues, and insufficient restriction of operations within the bounds of a memory buffer, improper access control mechanisms, and improper handling of objects in memory.
+An attacker could exploit these vulnerabilities either remotely or locally depending on the attack vector. In some cases, exploitation may require user interaction such as opening a specially crafted file, accessing a malicious webpage, or interacting with crafted content, while other vulnerabilities may be exploited without authentication.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current user, elevate privileges, disclose sensitive information, bypass security protections, or cause denial of service conditions on the affected systems.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42834
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45584
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41091
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45498
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585
+Vendor Information
+Microsoft
+https://www.microsoft.com/en-in/
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42834
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45584
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41091
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45498
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585
+CVE Name
+CVE-2026-42834
+CVE-2026-45584
+CVE-2026-41091
+CVE-2026-45498
+CVE-2026-45585
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-21 10:54:35
+a697c965c37ed19c,CERT-In Vulnerability Note  CIVN-2026-0255,"May 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0255,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0255
+Privilege Elevation Vulnerability in Microsoft Azure Local Disconnected Operations (ALDO)
+Original Issue Date:May       21, 2026
+Severity Rating: CRITICAL
+Software Affected
+Microsoft Azure Local Disconnected Operations.
+Overview
+A critical vulnerability has been reported in Microsoft Azure Local Disconnected Operations that could allow an unauthorized remote attacker to elevate privileges on the targeted system.
+Target Audience:
+Organizations, enterprises, cloud administrators, and users utilizing Microsoft Azure Local Disconnected Operations.
+Risk Assessment:
+Very high risk of privilege escalation, unauthorized administrative access, and compromise of affected systems and services.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the affected system.
+Description
+Azure Local Disconnected Operations is a Microsoft solution designed to enable Azure services and management capabilities in disconnected or limited-connectivity environments.
+The vulnerability exists due to improper authentication handling within Azure Local Disconnected Operations. The affected component fails to adequately validate authentication requests, which could allow an unauthorized remote attacker to bypass authentication controls and obtaining elevated privileges.
+Successful exploitation of this vulnerability could allow the attacker to gain unauthorized elevated access, perform privileged actions, access sensitive information and compromise the confidentiality, integrity, and overall security of the affected system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42822
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42822
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42822
+CVE Name
+CVE-2026-42822
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-21 10:54:35
+63e199dd9179e514,CERT-In Advisory   CIAD-2026-0026,"May 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0026,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0026
+""Mini Shai-Hulud"" Supply Chain Attack Campaign Targeting Open-Source
+Original Issue Date: May       21, 2026
+Severity Rating: Critical
+Overview
+It has been observed that an active software supply chain attack campaign, publicly referred to as ""Mini Shai-Hulud"", is targeting npm and PyPI package registries, with broader impact across enterprise CI/CD environments and open-source software ecosystems. This campaign, observed across multiple discrete waves is compromising software packages, build and release pipelines, automated publishing workflows, and cloud-native development infrastructures leveraged in modern application delivery.
+Threat actors have reportedly compromised several hundred packages across npm and PyPI, resulting in the publication of a significantly larger number of malicious versions. The compromises have been carried out through a combination of compromised maintainer accounts, hijacked CI/CD pipeline tokens, and abuse of trusted publishing workflows.
+Notable Affected Ecosystems / Packages
+The affected packages, with specific malicious versions reported within each, include:
+TanStack packages (@tanstack namespace)
+SAP CAP / MTA npm packages
+AntV ecosystem packages (@antv namespace)
+UiPath packages (@uipath namespace)
+Mistral AI packages (@mistralai namespace)
+OpenSearch packages (@opensearch-project namespace)
+Guardrails AI packages
+Squawk packages
+Other widely-used packages including echarts-for-react, timeago.js, size-sensor, canvas-nest.js, jest-canvas-mock
+Note: The set of affected packages and versions is expanding. Organizations are advised to refer to advisories published by the relevant registry operators, the GitHub  Advisory Database and other official channels for the most current information.
+Description
+Analysis from multiple security researchers indicates that the attackers are leveraging compromised npm maintainer accounts, GitHub Actions workflow abuse, and CI/CD pipeline compromise to distribute malicious packages. The campaign uses malicious preinstall hooks, obfuscated Bun/JavaScript payloads, credential harvesting mechanisms, and worm-like propagation capabilities to spread across development and enterprise environments.
+Initial access has been observed through:
+hijacking of GitHub Actions OIDC tokens via the ""pull_request_target"" trigger in combination with Actions cache poisoning, followed by exchange with npm trusted publishing workflows for valid publish credentials;
+compromise of npm maintainer accounts; and
+targeting of long-dormant packages with weaker security controls but continued transitive usage.
+The malware is designed to harvest sensitive credentials, including GitHub Personal Access Tokens (PATs), npm authentication tokens, cloud credentials (AWS/Azure/GCP), SSH keys, Kubernetes service account tokens, Vault secrets, database credentials, and CI/CD environment variables. It may also attempt to access cloud metadata services, extract secrets from CI/CD runner environments, and exfiltrate collected data to attacker-controlled infrastructure, while enabling further propagation by validating stolen npm tokens, enumerating accessible packages, injecting malicious payloads, and republishing under compromised maintainer identities.
+Persistence mechanisms have been observed on development environments through modification of local tooling configurations (e.g., editor task hooks), potentially allowing execution across sessions.
+Malicious packages have also been observed abusing trusted build and provenance mechanisms to appear legitimate, complicating detection and trust validation efforts.
+Indicators of Compromise
+The following Indicators of Compromise (IoCs) are associated with this campaign:
+Malicious files and artefacts:
+router_init.js
+router_runtime.js
+tanstack_runner.js
+index.js (root-level, ~498 KB obfuscated Bun bundle)
+setup.mjs
+transformers.pyz (also observed at /tmp/transformers.pyz)
+pgmonitor.py
+pgsql-monitor.service gh-token-monitor.sh
+kitty-monitor (Installed as a systemd user service on Linux or LaunchAgent on macOS)
+cat.py (Often located in ~/.local/share/kitty/)
+Injections into .claude/settings.json (SessionStart hook executing node
+.claude/setup.mjs) and .vscode/tasks.json (task with ""runOn"": ""folderOpen"").
+Suspicious preinstall / postinstall / prepare script execution during npm install
+Network indicators:
+filev2.getsession[.]org
+git-tanstack[.]com
+t.m-kosche[.]com
+api.masscan[.]cloud
+83[.]142[.]209[.]194
+Suspicious access attempts to cloud metadata endpoints: 169[.]254[.]169[.]254 (AWS/Azure/GCP IMDS) and 169[.]254[.]170[.]2 (ECS task metadata)
+File hashes (SHA-256):
+ab4fcadaec49c03278063dd269ea5eef82d24f2124a8e15d7b90f2fa8601266c (router_init.js, @tanstack)
+2ec78d556d696e208927cc503d48e4b5eb56b31abc2870c2ed2e98d6be27fc96 (tanstack_runner.js)
+GitHub repository markers:
+Repositories suddenly created under organisation identities with the description ""A
+Mini Shai-Hulud has Appeared"" or the reversed marker ""niagA oG eW ereH :duluH-iahS""
+Unauthorized dead-drop commits authored by the alias: claude@users.noreply.github.com
+Anomalous branch creation or pushes mimicking dependabot (e.g., dependabout/github_actions/format/setup-formatter)
+package.json modifications containing the malicious optional dependency pointer:
+""@tanstack/setup"": ""github:tanstack/router#79ac49eedf774dd4b0cfa308722bc463cfe5885c""
+Successful exploitation may allow attackers to steal developer and cloud credentials, compromise CI/CD pipelines, publish additional malicious packages, gain unauthorized access to enterprise repositories, establish persistence in developer environments, compromise downstream software supply chains, and exfiltrate sensitive organizational data. Organizations using automated dependency updates or unrestricted package version ranges may face increased exposure to such attacks.
+Recommendations
+Review all npm, PyPI, Composer/Packagist, and related dependencies for suspicious or unauthorized package versions.
+If an affected package version is identified, promptly isolate the host from the network and ensure relevant system artifacts are preserved to support incident investigation, prior to proceeding with further remediation.
+Identify and disable local persistence mechanisms (e.g., systemd services or LaunchAgents) PRIOR to revoking any tokens. Revoking tokens while the malware's monitoring daemon is active may trigger retaliatory destructive actions on the compromised host.
+Rotate all developer credentials and tokens, including npm/PyPI publish tokens, GitHub PATs and Actions secrets, AWS/Azure/GCP credentials, HashiCorp Vault and Kubernetes service-account tokens, SSH keys, and other CI/CD secrets.
+Enforce Multi-Factor Authentication (MFA) across GitHub, npm, PyPI, cloud, and CI/CD environments.
+Audit GitHub Actions workflows for insecure configurations, excessive permissions, and untrusted third-party actions.
+Restrict unnecessary preinstall, postinstall, and prepare lifecycle scripts in development and CI/CD environments.
+Monitor systems and network traffic for known indicators of compromise associated with the campaign.
+Inspect repositories for unauthorized workflow changes, suspicious commits, malicious releases, or unexpected package publishing activity.
+Validate package provenance, maintainers, and software attestations before approving dependency updates.
+Implement least-privilege access controls and dependency pinning to reduce supply chain risk.
+Continuously monitor software supply chain activity using SBOM and dependency monitoring solutions.
+Conduct threat hunting for credential theft, malicious workflows, and unauthorized publishing activity.
+Note: ""Mini Shai-Hulud"" is considered an evolved variant of the earlier ""Shai-Hulud"" campaign, expanding beyond the npm ecosystem to target multiple package ecosystems and enterprise CI/CD environments. For CERT-In advisory related to ""ShaiHulud"" campaign, you may refer CIAD-2025-0034
+References
+https://www.stepsecurity.io/blog/mini-shai-hulud-is-back-a-self-spreading-supply-chain-attack-hits-the-npm-ecosystem
+https://www.aikido.dev/blog/mini-shai-hulud-is-back-tanstack-compromised
+https://www.sophos.com/en-us/blog/-mini-shai-hulud-supply-chain-attack-targets-sap-npm-packages
+https://www.endorlabs.com/learn/shai-hulud-compromises-the-tanstack-ecosystem-80-packages-compromised
+https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack
+https://snyk.io/blog/tanstack-npm-packages-compromised
+https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/
+https://socket.dev/blog/antv-packages-compromised
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-21 10:54:35
