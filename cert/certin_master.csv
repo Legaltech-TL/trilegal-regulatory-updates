@@ -9883,3 +9883,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-21 10:54:35
+1614a99e3f754d27,CERT-In Vulnerability Note  CIVN-2026-0258,"May 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0258,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0258
+Denial of Service Vulnerability in Wireshark
+Original Issue Date:May       21, 2026
+Severity Rating: MEDIUM
+Software Affected
+Wireshark versions 4.6.0 to 4.6.5 and 4.4.0 to 4.4.15
+Overview
+A vulnerability has been reported in Wireshark, which could allow an attacker to cause Denial of Service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Wireshark.
+Risk Assessment:
+High risk of service disruption.
+Impact Assessment:
+Potential for service unavailability.
+Description
+Wireshark is a network protocol analyzer used to capture and inspect data packets in real time for troubleshooting, analysis, and security purposes.
+A Denial of Service (DoS) vulnerability exists in Wireshark due to NULL Pointer Dereference (NPD).
+Successful exploitation of this vulnerability leads to Wireshark dissector crash, resulting in a denial-of-service condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.wireshark.org/security/wnpa-sec-2026-51.html
+Vendor Information
+Wireshark
+https://www.wireshark.org/security/wnpa-sec-2026-51.html
+References
+Wireshark
+https://www.wireshark.org/security/wnpa-sec-2026-51.html
+CVE Name
+CVE-2026-6526
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-22 07:53:48
