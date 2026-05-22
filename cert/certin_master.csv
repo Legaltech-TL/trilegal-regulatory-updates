@@ -9925,3 +9925,107 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-22 07:53:48
+60f0275a66749f73,CERT-In Vulnerability Note  CIVN-2026-0260,"May 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0260,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0260
+Multiple Vulnerabilities in PostgreSQL
+Original Issue Date:May       22, 2026
+Severity Rating: HIGH
+Software Affected
+PostgreSQL 14 versions prior to 14.23
+PostgreSQL 15 versions prior to 15.18
+PostgreSQL 16 versions prior to 16.14
+PostgreSQL 17 versions prior to 17.10
+PostgreSQL 18 versions prior to 18.4
+Overview
+Multiple vulnerabilities have been reported in PostgreSQL, which could allow an attacker to execute arbitrary SQL commands, disclose sensitive information, overwrite files, escalate privileges, cause denial of service, or execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using PostgreSQL applications.
+Risk Assessment:
+High risk of remote code execution, privilege escalation, denial of service, sensitive information disclosure.
+Impact Assessment:
+Potential for remote code execution, privilege escalation, denial of service and/or disclosure of sensitive information.
+Description
+PostgreSQL is an open-source, object-relational database management system (ORDBMS) that is widely used for managing and storing structured data.
+Multiple vulnerabilities have been reported in PostgreSQL due to missing authorization checks, integer wraparound, externally controlled format string handling, symlink following, SQL injection flaws, unsafe memory handling, uncontrolled recursion, buffer over-read, stack buffer overflow, and timing-channel issues in PostgreSQL server components, client library functions, utilities, authentication handling, and replication-related functionality.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary SQL commands, disclose sensitive information, overwrite files, escalate privileges, cause denial of service, or execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.postgresql.org/about/news/postgresql-184-1710-1614-1518-and-1423-released-3297/
+Vendor Information
+PostgreSQL
+https://www.postgresql.org/support/security/
+References
+https://www.postgresql.org/about/news/postgresql-184-1710-1614-1518-and-1423-released-3297/
+CVE Name
+CVE-2026-6472
+CVE-2026-6473
+CVE-2026-6474
+CVE-2026-6475
+CVE-2026-6476
+CVE-2026-6477
+CVE-2026-6478
+CVE-2026-6479
+CVE-2026-6575
+CVE-2026-6637
+CVE-2026-6638
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-22 10:36:35
+669b706519450d9e,CERT-In Vulnerability Note  CIVN-2026-0259,"May 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0259,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0259
+Multiple Vulnerabilities in NVIDIA Triton Inference Server
+Original Issue Date:May       22, 2026
+Severity Rating: CRITICAL
+Software Affected
+NVIDIA Triton Inference Server versions prior to r26.03 for Linux and DALI Backend
+Overview
+Multiple vulnerabilities have been reported in NVIDIA Triton Inference Server that could allow an attacker to execute arbitrary code, escalate privileges, bypass authentication mechanisms, cause denial of service, disclose sensitive information, or tamper with data on the targeted system.
+Target Audience:
+All organizations and individuals using NVIDIA Triton Inference Server.
+Risk Assessment:
+Critical risk of authentication bypass, privilege escalation, unauthorized access, sensitive information disclosure, data tampering, and denial of service.
+Impact Assessment:
+Potential for unauthorized elevated access and modification, arbitrary code execution, sensitive data exposure, and system disruption.
+Description
+NVIDIA Triton Inference Server is an open-source, cloud-ready AI inference platform that simplifies the deployment, execution, and scaling of models trained across multiple frameworks, including PyTorch, TensorFlow, ONNX, and TensorRT, on both CPU and GPU infrastructure.
+Multiple vulnerabilities exist in NVIDIA Triton Inference Server due to improper authentication handling, insufficient path validation, integer overflow conditions, out-of-bounds read issues, and uncontrolled resource consumption vulnerabilities within core components and the DALI backend.
+Successful exploitation of these vulnerabilities could allow an attacker to perform arbitrary code execution, escalate privileges, bypass authentication mechanisms, launch denial of service attacks, and disclose sensitive information on the targeted system.
+Solution
+Apply appropriate security recommendation as mentioned in NVIDIA advisory:
+https://nvidia.custhelp.com/app/answers/detail/a_id/5828
+Vendor Information
+NVIDIA
+http://nvidia.com/en-us/security/
+References
+https://nvidia.custhelp.com/app/answers/detail/a_id/5828
+http://nvidia.com/en-us/security/
+CVE Name
+CVE-2026-24206
+CVE-2026-24207
+CVE-2026-24208
+CVE-2026-24209
+CVE-2026-24210
+CVE-2026-24213
+CVE-2026-24214
+CVE-2026-24215
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-22 10:36:35
