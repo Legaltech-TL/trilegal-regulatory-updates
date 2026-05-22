@@ -340,7 +340,7 @@ def main():
     print(f"\n  New orders: {len(new_orders)}")
     if new_orders:
         append_to_csv(ORDERS_CSV, new_orders, orders_fields)
-    write_json(ORDERS_JSON, new_orders)
+        write_json(ORDERS_JSON, new_orders)
 
     # ---- REGULATIONS ----
     regs_fields = ["id", "sl_no", "reg_name", "noti_pdf_url", "scraped_at"]
@@ -375,7 +375,7 @@ def main():
     print(f"\n  New regulations: {len(new_regs)}")
     if new_regs:
         append_to_csv(REGS_CSV, new_regs, regs_fields)
-    write_json(REGS_JSON, new_regs)
+        write_json(REGS_JSON, new_regs)
 
     print("\nAll done.")
 
