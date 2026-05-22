@@ -10029,3 +10029,91 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-22 10:36:35
+9dc3595f507df5ba,CERT-In Vulnerability Note  CIVN-2026-0261,"May 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0261,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0261
+Multiple Vulnerabilities in Mozilla Products
+Original Issue Date:May       22, 2026
+Severity Rating: HIGH
+Software Affected
+Mozilla Firefox versions prior to 151
+Mozilla Firefox ESR versions prior to 115.36
+Mozilla Firefox ESR versions prior to 140.11
+Mozilla Firefox for iOS versions prior to 151.0
+Mozilla Thunderbird versions prior to 140.11
+Mozilla Thunderbird versions prior to 151
+Overview
+Multiple vulnerabilities have been reported in Mozilla products which could be exploited by a remote attacker to execute arbitrary code, obtain sensitive information, perform spoofing attack, bypass security restriction or cause Denial of service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Mozilla Products.
+Risk Assessment:
+High risk of unauthorized access to sensitive information.
+Impact Assessment:
+Potential for data theft, sensitive information disclosure and complete compromise of system.
+Description
+Mozilla Firefox is a free and open-source web browser developed by Mozilla foundation, while Firefox ESR (Extended support Release) is a stable version tailored for organizations that require long-term support with only security and maintenance updates.
+Multiple vulnerabilities exist in Mozilla products due to invalid pointer in the Audio/Video: Web Codecs component; Incorrect boundary conditions in the Audio/Video: Web Codecs component JavaScript Engine: JIT component, Integer overflow in the Audio/Video component; Information disclosure in the DOM: Security component, Graphics: WebGPU component, IP Protection component; Sandbox escape in the Security: Process Sandboxing component; Integer overflow in the Networking: JAR component, Widget: Win32 component; Issue in JavaScript Engine component; Memory safety bugs, Mitigation bypass in the DOM: Security component, Privilege escalation in the Application Update component, DOM: Workers component, Enterprise Policies component, Security component, WebRTC: Audio/Video component; Same-origin policy bypass in the DOM: Networking component, Networking: HTTP component, Networking: JAR component; Incorrect boundary conditions in the Widget: Win32 component; Use-after-free in the Dis-ability Access APIs component; Sandbox escape in Profile Backup component; Spoofing issue in the Form Autofill component, Popup Blocker component, Toolbar component in Firefox for Android, Web Speech component, WebExtensions; Use-after-free in the DOM: Bindings (WebIDL) component. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, perform spoofing attack, bypass security restriction or cause Denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-51/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-50/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-49/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-48/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-47/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-46/
+References
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-51/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-50/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-49/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-48/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-47/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-46/
+CVE Name
+CVE-2026-8388
+CVE-2026-8391
+CVE-2026-8401
+CVE-2026-8706
+CVE-2026-8945
+CVE-2026-8946
+CVE-2026-8947
+CVE-2026-8948
+CVE-2026-8949
+CVE-2026-8950
+CVE-2026-8951
+CVE-2026-8952
+CVE-2026-8953
+CVE-2026-8954
+CVE-2026-8955
+CVE-2026-8956
+CVE-2026-8957
+CVE-2026-8958
+CVE-2026-8959
+CVE-2026-8960
+CVE-2026-8961
+CVE-2026-8962
+CVE-2026-8963
+CVE-2026-8964
+CVE-2026-8965
+CVE-2026-8966
+CVE-2026-8967
+CVE-2026-8968
+CVE-2026-8969
+CVE-2026-8970
+CVE-2026-8971
+CVE-2026-8972
+CVE-2026-8973
+CVE-2026-8974
+CVE-2026-8975
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-22 13:28:24
