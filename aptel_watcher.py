@@ -250,16 +250,15 @@ def main():
 
     if new_rows:
         append_csv(new_rows)
-
-    JSON_FILE.write_text(
-        json.dumps(
-            {"generated_at": datetime.utcnow().isoformat(),
-             "count":        len(new_rows),
-             "items":        new_rows},
-            indent=2, ensure_ascii=False,
-        ),
-        encoding="utf-8",
-    )
+        JSON_FILE.write_text(
+            json.dumps(
+                {"generated_at": datetime.utcnow().isoformat(),
+                 "count":        len(new_rows),
+                 "items":        new_rows},
+                indent=2, ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
     print("Done.")
 
 
