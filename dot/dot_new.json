@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-05-22T08:58:36.229907",
-  "count": 1,
+  "generated_at": "2026-05-22T11:50:40.865784",
+  "count": 4,
   "items": [
     {
-      "id": "78198ede93d22a38",
-      "title": "Order dated 21-05-26 reg Transfer and Posting in STS Grade of ITS Gr A",
+      "id": "28735399a33e5219",
+      "title": "Appointment of Shri Harshvardhan Singh Khangarot, IP&TAFS: 2012 as Director in Ministry of Steel, New Delhi under Central Staffing Scheme (CSS)",
       "publish_date": "05/21/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/fe71a23a9b64fcc7a59f956f5c247d67.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/87bc5b4b7a4a1d5d16f9b9e2f5724830.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/22/2026"
+    },
+    {
+      "id": "8aab054dc4ca097c",
+      "title": "Fee and other charges for assignment of spectrum for Public Mobile Radio Trunking Service and its terms of payment",
+      "publish_date": "05/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/3193d87feb4e3b4b53bbdfbf607d2409.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/22/2026"
+    },
+    {
+      "id": "5dd55fccfc984d31",
+      "title": "Order dated 21-05-26 reg Promotion and Posting of ITS Gr A Officers from JTS to STS for the vacancy year 2026",
+      "publish_date": "05/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/62101e5ab562dd3083f8418d64da6370.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/22/2026"
+    },
+    {
+      "id": "63d05fd0f4ee8d20",
+      "title": "Order dated 21-05-26 reg Transfer and Posting of Officers in JAG of ITS Gr A",
+      "publish_date": "05/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/541ac0b468cff6b794b04fd6b8d731f3.pdf",
       "category": "ORDERS_AND_NOTICES",
       "scraped_at": "05/22/2026"
     }
