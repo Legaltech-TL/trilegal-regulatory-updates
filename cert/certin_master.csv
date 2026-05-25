@@ -10182,3 +10182,150 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-23 06:45:02
+7b79403c15753069,CERT-In Vulnerability Note  CIVN-2026-0267,"May 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0267,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0267
+Multiple Vulnerabilities in Apache Tomcat
+Original Issue Date:May       25, 2026
+Severity Rating: HIGH
+Software Affected
+Apache Tomcat version 11.0.0-M1 to 11.0.21
+Apache Tomcat version 10.1.0-M1 to 10.1.54
+Apache Tomcat version 9.0.0.M1 to 9.0.117
+Apache Tomcat version 8.5.0 to 8.5.100
+Apache Tomcat version 7.0.0 to 7.0.109
+Apache Tomcat version before 7.0.0\
+Apache Tomcat version 9.0.2 to 9.0.117
+Apache Tomcat version 10.0.0-M1 to 10.0.27
+Overview
+Multiple vulnerabilities have been reported in Apache Tomcat, which could allow an attacker to bypass security restrictions, gain unauthorized access, disclose sensitive information, or cause denial-of-service conditions on the targeted system.
+Target Audience:
+All end-user organizations and individuals responsible for maintaining and updating Apache Tomcat.
+Risk Assessment:
+High risk of authentication bypass, unauthorized access, sensitive information disclosure, and denial-of-service conditions.
+Impact Assessment:
+Potential for sensitive information disclosure, bypass security controls or system compromise.
+Description
+Apache Tomcat is an open-source web server and servlet container that runs Java-based web applications.
+Multiple vulnerabilities have been identified in Apache Tomcat due to improper authorization, authentication bypass, improper input validation, observable timing discrepancies, improper handling of case sensitivity, exposure of HTTP authentication headers to unexpected hosts during WebSocket authentication, and allocation of resources without limits or throttling.
+Successful exploitation of these vulnerabilities could allow an attacker to bypass security restrictions, gain unauthorized access, disclose sensitive information, conduct denial-of-service attacks, or compromise the confidentiality and integrity of the targeted system.
+Solution
+Apply appropriate fixes as mentioned in the Apache Tomcat Security Updates:
+https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.22
+Vendor Information
+Apache Tomcat
+https://tomcat.apache.org
+References
+Apache Tomcat
+https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.22
+CVE Name
+CVE-2026-43512
+CVE-2026-43513
+CVE-2026-43514
+CVE-2026-43515
+CVE-2026-41284
+CVE-2026-41293
+CVE-2026-42498
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-25 08:39:52
+1d927b7517294977,CERT-In Vulnerability Note  CIVN-2026-0266,"May 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0266,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0266
+Information Exposure Vulnerability in CP-Plus Wi-Fi Camera
+Original Issue Date:May       25, 2026
+Severity Rating: MEDIUM
+Systems Affected
+CP Plus Wi-Fi Camera CP-E38Q, CP-E48Q, CP-E25Q, CP-E35Q, CP-E45Q, CP-E28Q, CP-E21Q, CP-E31Q, CP-E41Q, CP-E24Q, CP-Z43Q, CP-E34Q, CP-E44Q, CP-T31Q, CP-V48Q, CP-V41Q, CP-Z45Q : Firmware version v02.21.031 or below
+Overview
+A vulnerability has been reported in CP-Plus Wi-Fi Camera, which could allow an attacker to gain unauthorized access to encrypted communications and connected wireless network of the targeted device.
+Target Audience:
+End-users/ Administrators of CP Plus Wi-Fi Camera
+Risk Assessment:
+Risk of exposure of cryptographic private keys, Wi-Fi credentials and configuration data
+Impact Assessment:
+Device impersonation, data decryption and Man-in-the-Middle (MITM) attacks.
+Description
+CP Plus Wi-Fi Camera is a wireless IP surveillance device used for remote video monitoring and network-based access.
+This vulnerability exists in CP Plus Wi-Fi Camera due to improper protection of sensitive information in runtime memory. An attacker with physical access could exploit this vulnerability by accessing the UART interface and performing memory extraction to obtain sensitive information, including cryptographic private keys, Wi-Fi credentials and configuration data stored in RAM of the targeted device.
+Successful exploitation of this vulnerability could allow unauthorized access to encrypted communications and connected wireless network of the targeted device.
+Credit
+This vulnerability is reported by Mohsin Quresh.
+Solution
+Wi-Fi Camera to the latest firmware version v02.21.041 through OTA using the Ezykam+ mobile application.
+https://cpplusworld.com/products/ezyhome/ezykam
+Vendor Information
+CP Plus
+https://cpplusworld.com/products/ezyhome/ezykam
+References
+CP Plus
+https://cpplusworld.com/products/ezyhome/ezykam
+CVE Name
+CVE-2026-9274
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-25 08:39:52
+d0fc585316d2a642,CERT-In Vulnerability Note  CIVN-2026-0265,"May 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0265,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0265
+Remote Code Execution Vulnerability in Fortinet FortiSandbox Products
+Original Issue Date:May       25, 2026
+Severity Rating: CRITICAL
+Software Affected
+FortiSandbox versions 5.0.0 through 5.0.1
+FortiSandbox versions 4.4.0 through 4.4.8
+FortiSandbox Cloud all versions of 23 and 24
+FortiSandbox Cloud versions 5.0.2 through 5.0.5
+FortiSandbox PaaS versions all version of 23.4, 23.3, 23.1, 22.2, 22.1, 21.4 and 21.3
+FortiSandbox PaaS versions 5.0.0 through 5.0.1
+FortiSandbox PaaS versions 4.4.5 through 4.4.8
+Overview
+A vulnerability has been reported in Fortinet FortiSandbox products, which could allow an unauthenticated attacker to execute unauthorized code or commands on the targeted system.
+Target Audience:
+All organizations and individuals using Fortinet FortiSandbox products.
+Risk Assessment:
+High risk of remote unauthorized code execution on affected systems.
+Impact Assessment:
+High risk of information disclosure, privilege misuse, and full system compromise.
+Description
+Fortinet FortiSandbox is an advanced threat detection solution that isolates and analyzes suspicious files and URLs in a secure sandbox environment to identify zero-day and targeted attacks.
+The vulnerability exists in Fortinet FortiSandbox products due to improper authorization controls. An unauthenticated remote attacker could exploit this vulnerability by sending specially crafted HTTP requests to the targeted system.
+Successful exploitation of this vulnerability could allow remote code execution on the affected system without authentication.
+Solution
+Apply appropriate updates as mentioned in the vendor advisory:
+https://www.fortiguard.com/psirt/FG-IR-26-136
+Vendor Information
+Fortinet
+https://www.fortiguard.com/psirt
+References
+Fortinet
+https://www.fortiguard.com/psirt/FG-IR-26-136
+CVE Name
+CVE-2026-26083
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-25 08:39:52
