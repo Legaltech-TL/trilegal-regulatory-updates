@@ -10329,3 +10329,96 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-25 08:39:52
+c45e460681515af7,CERT-In Vulnerability Note  CIVN-2026-0268,"May 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0268,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0268
+API Access Vulnerability in Cisco Secure Workload
+Original Issue Date:May       25, 2026
+Severity Rating: CRITICAL
+Software Affected
+Cisco Secure Workload release 3.9 and earlier
+Cisco Secure Workload 3.10.x versions prior to 3.10.8.3
+Cisco Secure Workload 4.0.x versions prior to 4.0.3.17
+Overview
+A vulnerability has been reported in the Cisco Secure Workload that could allow an unauthenticated, remote attacker to gain elevated privileges, make configuration changes and access sensitive information on the targeted system.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating software.
+Risk Assessment:
+Critical risk of unauthorized access, privilege escalation, unauthorized configuration modification, and sensitive information disclosure.
+Impact Assessment:
+Potential for unauthorized elevated access, modification of configurations across tenant boundaries, and sensitive data exposure.
+Description
+Cisco Secure Workload is an advanced workload security and micro-segmentation platform that provides visibility and Zero Trust protection across hybrid and multi-cloud environments.
+This vulnerability exists in the access validation of internal REST APIs of Cisco Secure Workload due to insufficient validation and authentication when accessing these endpoints. An attacker could exploit this vulnerability by sending specially crafted API requests to the vulnerable endpoint.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to gain elevated privileges, make configuration changes and access sensitive information on the targeted system.
+Solution
+Apply appropriate security as mentioned in CISCO advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csw-pnbsa-g8WEnuy
+Vendor Information
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csw-pnbsa-g8WEnuy
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csw-pnbsa-g8WEnuy
+CVE Name
+CVE-2026-20223
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-25 13:57:29
+1d7a25c52dd6a4f4,CERT-In Advisory   CIAD-2026-0027,"May 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0027,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0027
+Multiple Vulnerabilities in Atlassian Products
+Original Issue Date: May       25, 2026
+Severity Rating: High
+Software Affected
+Bamboo Data Center and Server prior to 12.1.7 (LTS) recommended Data Center Only
+Bamboo Data Center and Server prior to 10.2.19 (LTS) recommended Data Center Only
+Bamboo Data Center and Server prior to 9.6.26 (LTS) recommended Data Center Only
+Bitbucket Data Center and Server prior to 10.2.2¿10.2.3 (LTS) recommended Data Center Only
+Bitbucket Data Center and Server prior to 9.4.19¿9.4.20 (LTS) Data Center Only
+Confluence Data Center and Server prior to 10.2.11 recommended Data Center Only
+Confluence Data Center and Server prior to 9.2.20 (LTS)  recommended Data Center Only
+Fisheye/Crucible prior to 4.9.10
+Jira Data Center and Server prior to 11.3.6 (LTS) recommended Data Center Only
+Jira Data Center and Server prior to 10.3.21 (LTS) Data Center Only
+Jira Data Center and Server prior to 9.12.35 (LTS) recommended Data Center Only
+Jira Service Management Data Center and Server prior to 11.3.6 (LTS) Data Center Only
+Jira Service Management Data Center and Server prior to 10.3.21 (LTS) Data Center Only
+Overview
+Multiple vulnerabilities have been reported in Atlassian products which could be exploited by an attacker to perform remote code execution, disclose sensitive information, conduct directory traversal, inject malicious code, perform HTTP request/response smuggling, include unauthorized files, perform cross-site scripting (XSS), exploit security misconfigurations, bypass authentication/session protections, or cause denial of service (DoS) conditions on the targeted system.
+Target Audience:
+All end-users of organizations using Atlassian products.
+Risk Assessment:
+High risk unauthorized access to sensitive data and system instability.
+Impact Assessment:
+Potential for access to sensitive data and system instability.
+Description
+Multiple Vulnerabilities existed in Atlassian products details of which are given below:
+Solution
+Apply appropriate updates as mentioned in the Atlassian Security Bulletin
+https://confluence.atlassian.com/security/security-bulletin-may-19-2026-1786839142.html
+Vendor Information
+Atlassian
+https://confluence.atlassian.com/security/security-bulletin-may-19-2026-1786839142.html
+References
+Atlassian
+https://confluence.atlassian.com/security/security-bulletin-may-19-2026-1786839142.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-25 13:57:29
