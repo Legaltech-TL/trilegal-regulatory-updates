@@ -10471,3 +10471,183 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-27 08:12:38
+a08a75da7cc4d3a7,CERT-In Vulnerability Note  CIVN-2026-0273,"May 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0273,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0273
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date:May       27, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Global Secure Access (GSA)
+Microsoft Entra ID
+Microsoft Planetary Computer Pro (GeoCatalog)
+Azure Stack HCI
+Microsoft 365 Copilot for iOS
+Microsoft 365 Copilot
+Azure Resource Manager
+Azure Virtual Network Gateway
+Azure Privileged Identity Management (PIM)
+Microsoft Power Pages
+Azure Orbital Spatio
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products which could allow attacker to execute arbitrary code, input validation, elevate privileges, disclose sensitive information or cause denial of services on the affected systems.
+Target Audience:
+All organizations and individuals using affected Microsoft products.
+Risk Assessment:
+High risk due to the potential for remote code execution and command injection and disruption of cloud services.
+Impact Assessment:
+Data exposure, service compromise, unauthorized privilege escalation, remote code execution and system compromise.
+Description
+These vulnerability exist Microsoft Products and identity services due to improper input validation, authentication weaknesses, authorization issues, and command handling flaws.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, elevate privileges, disclose sensitive information or cause denial of services on the affected systems.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23663
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42901
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41104
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33843
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26147
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41090
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42827
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47280
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40411
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35430
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23652
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40412
+Vendor Information
+https://www.microsoft.com/en-in/
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23663
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42901
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41104
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33843
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26147
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41090
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42827
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47280
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40411
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35430
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23652
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40412
+CVE Name
+CVE-2026-23663
+CVE-2026-42901
+CVE-2026-41104
+CVE-2026-33843
+CVE-2026-26147
+CVE-2026-41090
+CVE-2026-42901
+CVE-2026-47280
+CVE-2026-40411
+CVE-2026-35430
+CVE-2026-23652
+CVE-2026-40412
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-27 14:24:47
+dfa5ad695a094217,CERT-In Vulnerability Note  CIVN-2026-0272,"May 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0272,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0272
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:May       27, 2026
+Severity Rating: CRITICAL
+Software Affected
+Google Chrome versions prior to 148.0.7778.178 for Linux
+Google Chrome versions prior to 148.0.7778.178/179 for Windows and Mac
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, bypass security restrictions, obtain sensitive information, heap-based buffer overflow or cause Denial of Service (DoS) conditions on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, unauthorized access to sensitive data, disruption of services, privilege escalation.
+Impact Assessment:
+Potential for system compromise, service disruption, sensitive Information disclosure.
+Description
+Google Chrome is a popular internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.
+Multiple vulnerabilities exist in Google Chrome due to Use-after-free in WebRTC, GPU, QUIC, XR and DOM; Out-of-bounds read in GPU; Heap buffer overflow in WebRTC and Chromecast; Type confusion in GFX; Insufficient policy enforcement in Service Worker; Insufficient validation of untrusted input in Input; and Inappropriate implementation in UI. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, bypass security restrictions, obtain sensitive information, heap-based buffer overflow or cause Denial of Service (DoS) conditions on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the Vendor:
+https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0841193308.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0841193308.html
+References
+https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0841193308.html
+CVE Name
+CVE-2026-9111
+CVE-2026-9112
+CVE-2026-9110
+CVE-2026-9113
+CVE-2026-9114
+CVE-2026-9115
+CVE-2026-9116
+CVE-2026-9117
+CVE-2026-9118
+CVE-2026-9119
+CVE-2026-9120
+CVE-2026-9121
+CVE-2026-9122
+CVE-2026-9123
+CVE-2026-9124
+CVE-2026-9126
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-27 14:24:47
+9a0789e193ec23e0,CERT-In Vulnerability Note  CIVN-2026-0271,"May 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0271,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0271
+Privilege Escalation Vulnerability in LiteSpeed  cPanel Plugin
+Original Issue Date:May       27, 2026
+Severity Rating: CRITICAL
+Software Affected
+LiteSpeed User-End cPanel Plugin versions prior to 2.4.5
+Overview
+A vulnerability has been reported in LiteSpeed cPanel Plugin which could allow an attacker to gain elevated privileges on the targeted system.
+Target Audience:
+Web hosting providers, server administrators, and cPanel users managing LiteSpeed-powered shared hosting environments.
+Risk Assessment:
+High risk of privilege escalation, full server compromise.
+Impact Assessment:
+Potential for root-level access, server compromise, disruption of hosted services.
+Description
+LiteSpeed User-End cPanel Plugin is a management plugin that allows users to manage LiteSpeed Web Server features directly through the cPanel interface.
+A vulnerability exists in the LiteSpeed cPanel Plugin due to an error in the lsws.redisAble function.
+Successful exploitation of this vulnerability could allow an attacker to gain elevated privileges on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/
+Vendor Information
+https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/
+References
+https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/
+CVE Name
+CVE-2026-48172
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-27 14:24:47
