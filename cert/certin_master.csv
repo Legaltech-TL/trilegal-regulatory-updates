@@ -10422,3 +10422,52 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-25 13:57:29
+45e8bf593db81fee,CERT-In Vulnerability Note  CIVN-2026-0269,"May 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0269,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0269
+Multiple Vulnerabilities in NGINX
+Original Issue Date:May       27, 2026
+Severity Rating: CRITICAL
+Software Affected
+NGINX UI versions 2.3.5 and prior.
+NGINX JavaScript (njs) versions 0.9.4 to 0.9.8.
+Overview
+Multiple vulnerabilities have been reported in NGINX products which could allow an unauthenticated attacker to bypass the security restrictions, execute arbitrary code and cause denial of service condition in the targeted system.
+Target Audience:
+Organizations and individuals running affected versions of NGINX JavaScript (njs) and NGINX UI products.
+Risk Assessment:
+High risk of complete system compromise.
+Impact Assessment:
+Potential for service disruption and unauthorized access.
+Description
+NGINX is a high-performance web server, reverse proxy, load balancer, and HTTP cache designed to handle massive, simultaneous connections with low resource usage.
+Multiple vulnerabilities have been identified in NGINX components due to missing authentication and heap-based buffer overflow issues. An unauthenticated actor could exploit these vulnerabilities by sending specially crafted HTTP requests.
+Successful exploitation of these vulnerabilities could allow an unauthenticated attacker to bypass the security restrictions, execute arbitrary code and cause denial of service condition in the targeted system.
+Solution
+There are no available patches for CVE-2026-33032 at the time of publication.
+Apply appropriate security updates for CVE-2026-8711 as mentioned in the NGINX Security Updates:
+https://my.f5.com/manage/s/article/K000161327
+https://my.f5.com/manage/s/article/K000161307
+Vendor Information
+NGINX
+https://github.com/0xJacky/nginx-ui/security
+https://nginx.org/en/docs/njs/security.html
+References
+https://my.f5.com/manage/s/article/K000161327
+https://my.f5.com/manage/s/article/K000161307
+https://github.com/0xJacky/nginx-ui/security/advisories/GHSA-h6c2-x2m2-mwhf
+https://nginx.org/en/docs/njs/security.html
+CVE Name
+CVE-2026-8711
+CVE-2026-33032
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-27 08:12:38
