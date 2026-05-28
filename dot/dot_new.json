@@ -1,54 +1,14 @@
 {
-  "generated_at": "2026-05-27T09:13:09.577458",
-  "count": 6,
+  "generated_at": "2026-05-28T09:20:59.186850",
+  "count": 1,
   "items": [
     {
-      "id": "d3f3faaf71434bdd",
-      "title": "Amended Guidelines for grant of Unified License",
+      "id": "bef2bd1c179b6c2a",
+      "title": "Webinar on \u201cAI in Mobile Radio Access Networks\u201d",
       "publish_date": "05/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/8c2028a633cd6b5e98fb580c94ccb9b3.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/a3909085544cd115bc09665339165da9.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/27/2026"
-    },
-    {
-      "id": "b7f7331ee59c3b01",
-      "title": "Guidelines for obtaining Captive VSAT CUG License \u2013 2022",
-      "publish_date": "05/27/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/2ebf0015e2c5914e72c83c63f92fe244.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/27/2026"
-    },
-    {
-      "id": "fdee8038212acc17",
-      "title": "Second cadre review of Indian Posts and Telecommunications Accounts and Finance Service, Group \u2018A\u2019 \u2013 Distribution of posts",
-      "publish_date": "05/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/9b163d5a54ae937f8f0c194b8ab37f76.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/27/2026"
-    },
-    {
-      "id": "545997c1a34f40e6",
-      "title": "Filling up the post of Registrar in the National Commission for Protection of Child Rights, New Delhi by deputation on Foreign Service Terms-regarding",
-      "publish_date": "05/26/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/49373f7d0bec9049151f1e790e63b872.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/27/2026"
-    },
-    {
-      "id": "aab8c26680214bf2",
-      "title": "Intimation regarding demise of Shri Balwant Rai, ITS, Staff no 111043, Ex-DGM, Haryana Telecom Circle",
-      "publish_date": "05/25/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/8e45cea4311c921cc8523e71a4ff1f8b.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/27/2026"
-    },
-    {
-      "id": "a6221e5096d2629f",
-      "title": "Meeting notice for the National Working Group-3 scheduled on 29.5.2026-regarding",
-      "publish_date": "05/22/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/0a9d1d51c6840e71e2758ccf1dd47607.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "05/27/2026"
+      "scraped_at": "05/28/2026"
     }
   ]
 }
