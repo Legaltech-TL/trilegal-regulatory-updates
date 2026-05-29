@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-05-28T12:23:35.329491",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-29T07:00:04.111024",
+  "count": 2,
+  "items": [
+    {
+      "id": "cda1088e3d57d9f8",
+      "title": "Promotion to and posting in the Higher Administrative Grade of the Indian Posts and Telecommunications Accounts and Finance Service, Group \u2018A\u2019",
+      "publish_date": "05/29/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/0d4a6fdf8a2c62b9ad8ab251d10536f9.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/29/2026"
+    },
+    {
+      "id": "24158023e5d080f2",
+      "title": "Department of Telecommunications organized Second Meeting of the BRICS Working Group for Cooperation in ICTs under India\u2019s BRICS Presidency 2026",
+      "publish_date": "05/22/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/5a44f852fe410cbd3b90581a9be7b2b2.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "05/29/2026"
+    }
+  ]
 }
