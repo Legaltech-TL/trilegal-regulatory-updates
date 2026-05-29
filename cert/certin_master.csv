@@ -10651,3 +10651,109 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-27 14:24:47
+8906d8974e502f44,CERT-In Vulnerability Note  CIVN-2026-0275,"May 29, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0275,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0275
+Multiple Vulnerabilities in Check Point Products
+Original Issue Date:May       29, 2026
+Severity Rating: CRITICAL
+Software Affected
+Security Gateways and Cloud Guard
+R82.10 with Jumbo Hotfix Take 6 or below
+R82 with Jumbo Hotfix Take 91 or below
+R81.20 with Jumbo Hotfix Take 127 or below
+R81.10, R81, R80.40, R80.30, R80.20, R80.10, R77.30 and R77.20
+Spark Firewall Appliances:
+Versions prior to R81.10.17
+Versions prior to R82.00.10
+Multi-Domain Security Management:
+R82.10 with Jumbo Hotfix Take 6 or below
+R82 with Jumbo Hotfix Take 91 or below
+R81.20 with Jumbo Hotfix Take 127 or below
+R81.10, R81, R80.40, R80.30, R80.20, R80.10 and R80
+Overview
+Multiple vulnerabilities have been reported in Check Point products which could allow a remote attacker to execute arbitrary code, disclose sensitive information or cause denial of service (DoS) on the targeted system.
+Target Audience:
+Organizations and individuals using affected Check Point Security Gateways, CloudGuard, Spark Firewall Appliances and Multi-Domain Security Management products.
+Risk Assessment:
+High risk of remote code execution, information disclosure and service disruption.
+Impact Assessment:
+Potential of arbitrary code execution, unauthorized access to sensitive information, manipulation of compliance-related data or disruption of VPN-related services.
+Description
+Check Point provides network security, cloud security and management solutions for enterprise environments.
+Multiple vulnerabilities exist in Check Point products due to heap out-of-bounds write, local file inclusion, SQL injection, improper input handling, and metadata manipulation issues in various components of the affected products.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, access sensitive information, perform unauthorized file access, manipulate compliance-related data, or disrupt VPN-related services on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the Vendor:
+https://blog.checkpoint.com/security/check-point-frontier-ai-models-readiness-program-security-update/
+Vendor Information
+Check Point
+https://blog.checkpoint.com/security/
+References
+https://blog.checkpoint.com/security/check-point-frontier-ai-models-readiness-program-security-update/
+CVE Name
+CVE-2026-48131
+CVE-2026-48132
+CVE-2026-48133
+CVE-2026-48134
+CVE-2026-48135
+CVE-2026-48136
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-29 13:56:29
+8d0d26a7eff0849d,CERT-In Vulnerability Note  CIVN-2026-0274,"May 29, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0274,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0274
+Multiple Vulnerabilities in 7-Zip
+Original Issue Date:May       29, 2026
+Severity Rating: HIGH
+Software Affected
+7-Zip versions prior to 26.01
+Overview
+Multiple vulnerabilities have been reported in 7-Zip, which could be exploited by an attacker to disclose sensitive information, cause denial of service conditions, perform arbitrary file write operations, and execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected versions of 7-Zip.
+Risk Assessment:
+High risk of sensitive information disclosure, arbitrary file write, arbitrary code execution, denial of service, and application crashes.
+Impact Assessment:
+Potential for unauthorized access to sensitive information, arbitrary file modification, arbitrary code execution, full system compromise and service disruption.
+Description
+7-Zip is an open-source file archiver utility used for creating, managing, and extracting compressed archives across various formats.
+These vulnerabilities exist in 7-Zip due to improper handling of memory operations, insufficient bounds validation, use of uninitialized memory, integer overflow conditions, and inadequate path validation in multiple archive handlers and extraction routines.
+Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information, cause denial of service conditions, perform arbitrary file write operations, and execute arbitrary code on the targeted system.
+Solution
+Update to version 26.01 or later of 7-Zip
+Vendor Information
+7-Zip
+https://7-zip.org/
+References
+https://securitylab.github.com/advisories/GHSL-2026-115_GHSL-2026-122_7-zip/
+https://securitylab.github.com/advisories/GHSL-2026-140_7-Zip/
+CVE Name
+CVE-2026-48092
+CVE-2026-48101
+CVE-2026-48102
+CVE-2026-48103
+CVE-2026-48104
+CVE-2026-48111
+CVE-2026-48112
+CVE-2026-48095
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-05-29 13:56:29
