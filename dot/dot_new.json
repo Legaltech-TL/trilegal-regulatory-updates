@@ -1,5 +1,46 @@
 {
-  "generated_at": "2026-05-29T09:21:59.069882",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-05-30T06:24:35.852686",
+  "count": 5,
+  "items": [
+    {
+      "id": "b007e4389765049a",
+      "title": "Retirement of officer of ITS Gr A on attaining the age of Superannuation as on 31-05-2026, AN- Shri D M Ezhil Buddhan, Staff no 9686",
+      "publish_date": "05/29/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/944ac16642a5722731ecea44256f609a.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/30/2026"
+    },
+    {
+      "id": "916a1d918052c1e0",
+      "title": "Retirement on Superannuation of officer of IP&TAFS Group 'A' - Smt Anita M",
+      "publish_date": "05/29/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/e421c682ce8ab5ffb2eee895cf5c95ab.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/30/2026"
+    },
+    {
+      "id": "57f6e8e44fafc788",
+      "title": "Retirement on Superannuation of officer of IP&TAFS Group 'A' - Shri Sanjeev Kumar Singh",
+      "publish_date": "05/29/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/c1d15558de878af69a29c1be929303f2.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/30/2026"
+    },
+    {
+      "id": "20ef96d6bd05d98c",
+      "title": "Inviting nomination of DoT officers for 19th 12 months Hybrid Programme on \u201cPublic Policy and Management\u201d (PPM) during 2026-27 at Management Development Institute (MDI) Gurugram",
+      "publish_date": "05/29/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/cd5cf5fd2d25df1dbe7dd87fe0ec3af3.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/30/2026"
+    },
+    {
+      "id": "f7054b954a2bdce3",
+      "title": "Retirement of officers of ITS Gr A on attaining the age of superannuation as on 31-05-2026",
+      "publish_date": "05/29/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/1bebe2eed3bb5e00990063e9d1921753.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "05/30/2026"
+    }
+  ]
 }
