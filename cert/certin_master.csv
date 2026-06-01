@@ -10798,3 +10798,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-01 09:35:29
+519f2b584b4d0dff,CERT-In Vulnerability Note  CIVN-2026-0277,"June 01, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0277,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0277
+Remote Code Execution Vulnerability in NGINX
+Original Issue Date:June      01, 2026
+Severity Rating: HIGH
+Software Affected
+NGINX JavaScript module (njs) versions 0.9.4 to 0.9.8
+Overview
+A vulnerability has been reported in the JavaScript module (njs) of NGINX, which could allow an unauthenticated attacker to execute arbitrary code, trigger denial of service (DoS) condition or a heap buffer overflow on the targeted system.
+Target Audience:
+All end user organizations and individuals using NGINX
+Risk Assessment:
+High risk of unauthorized access, system compromise.
+Impact Assessment:
+Potential for remote code execution, denial of service (DoS) condition, sensitive data exposure.
+Description
+NGINX is a high-performance web server, reverse proxy, load balancer and HTTP cache designed to handle massive, simultaneous connections with low resources usage. It acts as a fast, secure intermediary between clients and backend servers, serving static content, managing SSL/TLS encryption and distributing traffic to optimize speed.
+A vulnerability exists in NGINX due to improper handling of client-controlled NGINX variables in the js_fetch_proxy directive when used with the ngx.fetch() operation in NGINX JavaScript. An attacker could exploit this by sending specially crafted HTTP requests.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary code, trigger denial of service (DoS) condition or a heap buffer overflow on the targeted system.
+Solution
+Apply appropriate fix/patches as mentioned:
+https://my.f5.com/manage/s/article/K000161307
+Vendor Information
+NGINX
+https://my.f5.com/manage/s/article/K000161307
+References
+NGINX
+https://my.f5.com/manage/s/article/K000161307
+CVE Name
+CVE-2026-8711
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-01 13:17:17
