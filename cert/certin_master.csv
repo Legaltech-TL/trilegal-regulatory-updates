@@ -10757,3 +10757,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-05-29 13:56:29
+bd2503bf2503db1c,CERT-In Vulnerability Note  CIVN-2026-0276,"June 01, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0276,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0276
+Remote Code Execution Vulnerability in DAEMON Tools Lite
+Original Issue Date:June      01, 2026
+Severity Rating: CRITICAL
+Software Affected
+DAEMON Tools Lite version prior to 12.6
+Overview
+A vulnerability has been reported in DAEMON Tools Lite which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+End users and IT administrators responsible for maintaining and updating DAEMON Tools Lite installations.
+Risk Assessment:
+High risk of remote code execution, information disclosure.
+Impact Assessment:
+Potential for arbitrary code execution, unauthorized access to sensitive information.
+Description
+DAEMON Tools Lite is a Windows application that enables users to mount and manage disc image files as virtual CD/DVD/Blu-ray drives, allowing access to software, games, and media without physical optical discs.
+A vulnerability exists in DAEMON Tools Lite due to a supply chain attack that compromised its official installation packages. The affected installer packages contained malicious code embedded within legitimate application binaries.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://blog.daemon-tools.cc/post/security-incident
+Vendor Information
+DAEMON Tools Lite
+https://www.daemon-tools.cc/
+References
+https://blog.daemon-tools.cc/post/security-incident
+CVE Name
+CVE-2026-8398
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-01 09:35:29
