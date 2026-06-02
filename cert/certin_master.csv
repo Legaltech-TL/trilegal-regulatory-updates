@@ -10970,3 +10970,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-02 11:52:22
+09ef97326f4cc579,CERT-In Vulnerability Note  CIVN-2026-0283,"June 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0283,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0283
+Remote Code Execution Vulnerability in Microsoft Office
+Original Issue Date:June      02, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Office
+Overview
+A vulnerabilities has been reported in Microsoft Office which could allow an attacker to execute arbitrary code in the context of the current user on the affected system.
+Target Audience:
+All end-user organizations and individuals using Microsoft Office product.
+Risk Assessment:
+High risk of remote code execution, unauthorized access, and potential system compromise.
+Impact Assessment:
+Potential for data theft, execution of malicious code in the context of the current user, and unauthorized actions on the affected system.
+Description
+Microsoft Office is a widely used productivity suite that includes applications for document creation, data analysis, presentations, and collaboration. It is commonly deployed across enterprise and individual environments.
+A remote code execution vulnerability exists in Microsoft Office components due to the deserialization of untrusted data. An authorized attacker could exploit this vulnerability over a network by sending specially crafted data to a vulnerable server.
+Successful exploitation could allow the attacker to execute arbitrary code on the affected system, potentially leading to unauthorized access, data manipulation, and compromise of the affected environment.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659
+CVE Name
+CVE-2026-45659
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-02 14:48:40
