@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-06-02T12:42:25.437111",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-06-03T07:30:41.751013",
+  "count": 2,
+  "items": [
+    {
+      "id": "b3deb2d60fd3d2d6",
+      "title": "Framework for Regulatory Sandbox for...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/151840/Framework+for+Regulatory+Sandbox+for+Facilitating+Responsible+Innovation+in+the.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "06/03/2026"
+    },
+    {
+      "id": "bef3c5b21796c474",
+      "title": "Framework for Regulatory Sandbox for Facilitating Responsible Innovation in the Pension Sector\nCentral Recordkeeping Agency\nRef: PFRDA/2026/31/REG-CRA/02\nIssue Date: 02-06-2026",
+      "publish_date": "06/02/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/151840/Framework+for+Regulatory+Sandbox+for+Facilitating+Responsible+Innovation+in+the.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "06/03/2026"
+    }
+  ]
 }
