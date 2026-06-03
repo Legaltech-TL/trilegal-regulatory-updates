@@ -11011,3 +11011,96 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-02 14:48:40
+427cab133ea36747,CERT-In Vulnerability Note  CIVN-2026-0285,"June 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0285,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0285
+Authentication Bypass Vulnerability in PAN-OS GlobalProtect
+Original Issue Date:June      03, 2026
+Severity Rating: HIGH
+Software Affected
+PAN-OS 12.1 versions prior to 12.1.4-h6 and 12.1.7
+PAN-OS 11.2 versions prior to 11.2.4-h17, 11.2.7-h14, 11.2.10-h7 and 11.2.12
+PAN-OS 11.1 versions prior to 11.1.4-h33, 11.1.6-h32, 11.1.7-h6, 11.1.10-h25, 11.1.13-h5 and 11.1.15
+PAN-OS 10.2 versions prior to 10.2.7-h34, 10.2.10-h36, 10.2.13-h21, 10.2.16-h7 and 10.2.18-h6
+Prisma Access 11.2.0 versions prior to 11.2.7-h13
+Prisma Access 10.2.0 versions prior to 10.2.10-h36
+Overview
+A vulnerability has been reported in PAN-OS GlobalProtect that could allow a remote attacker to bypass security restrictions and establish an unauthorized VPN connection on the targeted system.
+Target Audience:
+Organizations, Enterprises, Managed Security Service Providers using PAN-OS based PA-Series and VM-Series firewalls.
+Risk Assessment:
+High risk of unauthorized access, data exposure.
+Impact Assessment:
+Potential for privilege escalation.
+Description
+PAN-OS GlobalProtect is Palo Alto Networks secure remote-access and Zero Trust Network Access (ZTNA) solution that enables authenticated users to securely connect to enterprise resources from any location while enforcing security policies.
+A vulnerability has been reported in PAN-OS GlobalProtect due to authentication bypass flaw in the GlobalProtect portal and gateway.
+Successful exploitation of this vulnerability could allow a remote attacker to bypass security restrictions on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://security.paloaltonetworks.com/CVE-2026-0257
+Vendor Information
+Palo Alto
+https://security.paloaltonetworks.com/
+References
+https://security.paloaltonetworks.com/CVE-2026-0257
+CVE Name
+CVE-2026-0257
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-03 09:04:02
+0b7708404fb203b7,CERT-In Vulnerability Note  CIVN-2026-0284,"June 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0284,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0284
+Multiple Vulnerabilities in GitLab
+Original Issue Date:June      03, 2026
+Severity Rating: HIGH
+Software Affected
+Gitlab Community Edition (CE) and Enterprise Edition (EE) versions prior to 19.0.1, 18.11.4, and 18.10.7
+Overview
+Multiple vulnerabilities have been reported in GitLab CE/EE that could allow an attacker to cause Denial of Services (Dos), bypass authorization and steal sensitive information on targeted system.
+Target Audience:
+Organizations and individuals using GitLab CE/EE instances.
+Risk Assessment:
+Risk of unauthorized access, information disclosure, and denial-of-service conditions.
+Impact Assessment:
+Potential for unauthorized data access, data manipulation, and service disruption.
+Description
+GitLab is a web-based DevOps platform that provides tools for software development, including source code management, continuous integration and continuous deployment. It is available in both open-source Community Edition (CE) and Enterprise Edition (EE) versions.
+These vulnerabilities exist in Gitlab Community Edition (CE) and Enterprise Edition (EE) due to improper access control in Duo AI workflow runners, incorrect name resolution, and improper authorization in Duo workflow API.
+Successful exploitation of these vulnerabilities could allow an attacker to unauthorized access to sensitive information, bypass of authorization controls, denial-of-service conditions on targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-1-released/
+Vendor Information
+Gitlab
+https://docs.gitlab.com/releases/patches/
+References
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-1-released/
+CVE Name
+CVE-2026-4868
+CVE-2026-1402
+CVE-2026-6713
+CVE-2026-5296
+CVE-2026-2601
+CVE-2026-8716
+CVE-2026-2710
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-03 09:04:02
