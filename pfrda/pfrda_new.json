@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-06-04T10:01:19.805604",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-06-04T11:53:06.347158",
+  "count": 2,
+  "items": [
+    {
+      "id": "3be7325409772c94",
+      "title": "Introduction of StAR NPS platform...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Introduction+of+StAR+NPS+platform+developed+by+BSE+Technologies+Pvt+Ltd+%28BTPL%29+for+onboarding+of+subscribers+under+NPS+reg.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "06/04/2026"
+    },
+    {
+      "id": "d8f1f619d1398068",
+      "title": "Introduction of StAR NPS platform developed by BSE Technologies Pvt Ltd (BTPL) for onboarding of subscribers under NPS reg\nCentral Recordkeeping Agency Point of Presence\nRef: PFRDA/2026/32/REG-POP/06\nIssue Date: 03-06-2026",
+      "publish_date": "06/03/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Introduction+of+StAR+NPS+platform+developed+by+BSE+Technologies+Pvt+Ltd+%28BTPL%29+for+onboarding+of+subscribers+under+NPS+reg.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "06/04/2026"
+    }
+  ]
 }
