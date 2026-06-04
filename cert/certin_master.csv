@@ -11147,3 +11147,106 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-04 08:34:21
+ec7a1d4c1bcd5c21,CERT-In Vulnerability Note  CIVN-2026-0288,"June 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0288,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0288
+Multiple Vulnerabilities in GX Earth ONT Models
+Original Issue Date:June      04, 2026
+Severity Rating: HIGH
+Systems Affected
+GX Earth 2022 - version E2022 - 3.1.2A, 3.1.5AV, E2022 1.1ASL
+GX Earth 1010 - version E1010-1.1ASL
+Overview
+Multiple vulnerabilities have been reported in GX Earth ONT models, which could allow an attacker to execute arbitrary code, obtain sensitive information and gain unauthorized access to the targeted device.
+Target Audience:
+End-users/Administrators of GX Earth 2022 and Earth 1010
+Risk Assessment:
+Risk of OS Command Injections, Man-in-the-Middle (MITM) attacks and exposure of sensitive information.
+Impact Assessment:
+Potential for remote code execution, information disclosure and device compromise.
+Description
+The GX Earth 2022 and Earth 1010 are dual-band Wi-Fi enabled GPON optical network terminal (ONTs) used for broadband fiber connectivity and web-based network management.
+1. Command Injection Vulnerability
+(
+CVE-2026-45431
+)
+This vulnerability exists in GX Earth ONT models due to improper handling of user-supplied input in multiple diagnostic functions in its web management interface. An authenticated remote attacker could exploit this vulnerability by injecting arbitrary and executing OS commands on the targeted device.
+Successful exploitation of this vulnerability could allow the attacker to perform remote code execution with root privileges on the targeted device.
+2. Cleartext Transmission of Credentials Vulnerability
+(
+CVE-2026-45432
+)
+This vulnerability exists in GX Earth ONT models due to the transmission of user credentials in plaintext over HTTP in its web management interface. A remote attacker could exploit this vulnerability by intercepting network traffic to obtain sensitive authentication information, which could lead to unauthorized access to the targeted device.
+3. Hardcoded Cryptographic Key Vulnerability
+(
+CVE-2026-45433
+)
+This vulnerability exists in GX Earth 2022 ONT models due to the presence of hardcoded RSA private key within the device firmware. A remote attacker could exploit this vulnerability by extracting the cryptographic private key from the firmware, which could lead to decryption of HTTPS traffic and Man-in-the-Middle (MITM) attacks on the targeted device.
+Credit
+These vulnerabilities are reported by Anmol Bakshi.
+Solution
+Upgrade GX Earth 2022 to latest firmware version E2022-3.1.5A, E2022-3.1.8AV or E2022-1.2ASL.
+Upgrade GX Earth 1010 to latest firmware version E1010-1.2ASL
+Vendor Information
+GX INDIA
+https://www.gxgroup.eu/solutions
+References
+GX INDIA
+https://www.gxgroup.eu/solutions
+CVE Name
+CVE-2026-45431
+CVE-2026-45432
+CVE-2026-45433
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-04 13:56:15
+13026df955ecd366,CERT-In Vulnerability Note  CIVN-2026-0287,"June 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0287,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0287
+Access Control Vulnerability in Ivanti Neurons for ITSM
+Original Issue Date:June      04, 2026
+Severity Rating: HIGH
+Software Affected
+Ivanti Neurons for ITSM (On-Premises) versions 2025.4 and prior
+Ivanti Neurons for ITSM (Cloud) versions 2026.1 and prior
+Overview
+A vulnerability has been reported in Ivanti Neurons for ITSM, which could allow a remote authenticated attacker to gain administrative access on the targeted system.
+Target Audience:
+IT administrators, IT operations teams and security personnel using Ivanti Neurons for ITSM.
+Risk Assessment:
+High risk of unauthorized access to sensitive data.
+Impact Assessment:
+Potential for privilege escalation, data exposure.
+Description
+Ivanti Neurons for ITSM is an AI-powered IT service management platform that automates workflows, accelerates service delivery, and enhances employee experiences across the enterprise.
+A vulnerability has been reported in Ivanti Neurons for ITSM due to improper access control in both cloud and on-premises deployments. An attacker could exploit this vulnerability to gain administrative access by circumventing intended authorization mechanisms.
+Successful exploitation of this vulnerability could allow a remote authenticated attacker to gain elevated privileges on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-CVE-2026-9614?language=en_US
+Vendor Information
+Ivanti
+https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-CVE-2026-9614?language=en_US
+References
+https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-CVE-2026-9614?language=en_US
+CVE Name
+CVE-2026-9614
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-04 13:56:15
