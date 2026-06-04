@@ -11104,3 +11104,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-03 09:04:02
+6ca93ff629fc4541,CERT-In Vulnerability Note  CIVN-2026-0286,"June 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0286,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0286
+Privilege Escalation Vulnerability in Kirki Plugin of Wordpress
+Original Issue Date:June      03, 2026
+Severity Rating: CRITICAL
+Software Affected
+Wordpress Plugin - Kirki versions 6.0.0 through 6.0.6
+Overview
+A critical vulnerability has been reported in the Kirki plugin for WordPress that could allow an unauthenticated remote attacker to take over user accounts, including administrator accounts, on the targeted system.
+Target Audience:
+WordPress website owners, administrators, developers, and hosting providers using the Kirki plugin.
+Risk Assessment:
+Very high risk of account takeover, privilege escalation, unauthorized administrative access, and complete website compromise.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+Kirki is an open-source framework for WordPress that provides Theme Customizer functionality and website-building capabilities.
+A critical vulnerability exists in the Kirki plugin due to improper privilege management in its password reset functionality. The vulnerability arises because the plugin accepts an arbitrary email address when a username is supplied in a password reset request. As a result, an unauthenticated attacker can cause password reset links for legitimate users to be sent to attacker-controlled email addresses instead of the registered account owners email address.
+Successful exploitation of this vulnerability could allow an attacker to gain elevated privileges on the targeted system.
+Note: The vulnerability is being exploited in the wild.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/kirki/kirki-600-606-unauthenticated-privilege-escalation-via-handle-forgot-password
+Vendor Information
+Kirki
+https://wordpress.org/plugins/kirki/
+References
+Kirki
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/kirki/kirki-600-606-unauthenticated-privilege-escalation-via-handle-forgot-password
+CVE Name
+CVE-2026-8206
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-04 08:34:21
