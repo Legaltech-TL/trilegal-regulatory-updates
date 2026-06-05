@@ -11297,3 +11297,96 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-05 08:16:30
+59aa8345f80d64af,CERT-In Vulnerability Note  CIVN-2026-0291,"June 05, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0291,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0291
+Multiple Vulnerabilities in UniFi OS
+Original Issue Date:June      05, 2026
+Severity Rating: CRITICAL
+Software Affected
+UniFi OS Server Version 5.0.6 and earlier
+UCG-Industrial Version 5.0.13 and earlier
+UDM, UDM-Pro, UDM-SE, UDM-Pro-Max, EFG, UDW, UDR, UDR7, Express 7, UNVR, UNVR-Pro, UNVR-Instant, ENVR, UCG-Ultra, UCG-Max and UCG-Fiber Version 5.0.16 and earlier
+UDR-5G, ENVR-Core, UCKP, UCK and UCK-Enterprise Version 5.0.17 and earlier
+UNVR-G2 and UNVR-G2-Pro Version 5.1.11 and earlier
+UDM-Beast, UNAS-2, UNAS-4, UNAS-Pro, UNAS-Pro-4 and UNAS-Pro-8 Version 5.1.8 and earlier
+Express Version 4.0.13 and earlier
+Overview
+Multiple vulnerabilities have been reported in UniFi OS which could allow an attacker to execute arbitrary commands, access sensitive information, modify system configurations, compromise user accounts, or perform unauthorized actions on the targeted system.
+Target Audience:
+All end-user organizations and individuals using UniFi OS.
+Risk Assessment:
+Risk of arbitrary command execution, unauthorized access, disclosure of sensitive information, account compromise, and modification of system settings.
+Impact Assessment:
+Potential for arbitrary command execution, unauthorized modification of system configurations, disclosure of sensitive information, account compromise, and complete compromise of the affected system.
+Description
+UniFi OS is the unified operating system developed by Ubiquiti that runs on UniFi hardware to centrally manage networking, security, and related applications. It provides a common platform for services such as UniFi Network and UniFi Protect.
+Multiple vulnerabilities exist in UniFi OS due to improper access control, path traversal, and improper input validation flaws. An attacker could exploit these vulnerabilities by sending specially crafted requests to the affected system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary commands, access sensitive information, modify system configurations, compromise user accounts, or perform unauthorized actions on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in UniFi OS advisory:
+https://community.ui.com/releases/Security-Advisory-Bulletin-064-064/84811c09-4cf4-42ab-bd61-cc994445963b
+References
+UniFi
+https://community.ui.com/releases/Security-Advisory-Bulletin-064-064/84811c09-4cf4-42ab-bd61-cc994445963b
+CVE Name
+CVE-2026-33000
+CVE-2026-34908
+CVE-2026-34909
+CVE-2026-34910
+CVE-2026-34911
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-05 13:50:57
+531c05eb43554296,CERT-In Vulnerability Note  CIVN-2026-0290,"June 05, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0290,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0290
+Remote Code Execution Vulnerability in Mirasvit Full Page Cache Warmer for Magento
+Original Issue Date:June      05, 2026
+Severity Rating: CRITICAL
+Software Affected
+Mirasvit Cache Warmer for Magento 2 versions prior to 1.11.12
+Overview
+A vulnerability has been reported in Mirasvit Cache Warmer for Magento 2 which could be exploited by an attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected versions of Mirasvit Full Page Cache Warmer.
+Risk Assessment:
+High risk of remote code execution, unauthorized access, and potential data manipulation.
+Impact Assessment:
+Potential for service unavailability, sensitive information disclosure, and data manipulation.
+Description
+Mirasvit Full Page Cache Warmer for Magento 2 is a cache preloading and optimization extension designed to improve website performance by automatically warming and refreshing cached pages.
+This vulnerability exists in the Mirasvit Full Page Cache Warmer due to the deserialization of untrusted data. An attacker could exploit this by sending especially crafted serialized PHP object in the CacheWarmer cookie.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.
+Note: This vulnerability is being actively exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://mirasvit.com/package/changelog/?package=mirasvit/module-cache-warmer
+Vendor Information
+Mirasvit
+https://mirasvit.com/package/changelog/?package=mirasvit/module-cache-warmer
+References
+Mirasvit
+https://mirasvit.com/package/changelog/?package=mirasvit/module-cache-warmer
+CVE Name
+CVE-2026-45247
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-05 13:50:57
