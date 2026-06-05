@@ -11250,3 +11250,50 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-04 13:56:15
+38a891f85192547f,CERT-In Vulnerability Note  CIVN-2026-0289,"June 05, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0289,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0289
+Multiple Vulnerabilities in IBM WebSphere Application Server
+Original Issue Date:June      05, 2026
+Severity Rating: CRITICAL
+Software Affected
+IBM WebSphere Application Server 8.5 and 9.0
+Overview
+Multiple vulnerabilities have been reported in IBM WebSphere Application which could be exploited by an attacker for identify spoofing and remote code execution on the targeted system.
+Target Audience:
+All end-users and organisations using IBM WebSphere Application Server.
+Risk Assessment:
+High risk of unauthorised access.
+Impact Assessment:
+Potential impact on confidentiality, integrity, availability of the system and application outages.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.ibm.com/support/pages/node/7274733
+https://www.ibm.com/support/pages/node/7274738
+https://www.ibm.com/support/pages/node/7274740
+Vendor Information
+IBM
+https://www.ibm.com/support/pages/node/7274733
+https://www.ibm.com/support/pages/node/7274738
+https://www.ibm.com/support/pages/node/7274740
+References
+IBM
+https://www.ibm.com/support/pages/node/7274733
+https://www.ibm.com/support/pages/node/7274738
+https://www.ibm.com/support/pages/node/7274740
+CVE Name
+CVE-2026-9311
+CVE-2026-9319
+CVE-2026-8644
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-05 08:16:30
