@@ -1,11 +1,3 @@
 [
-  {
-    "id":"38a891f85192547f",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0289",
-    "date":"June 05, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0289",
-    "category":"Latest Security Alert",
-    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0289\nMultiple Vulnerabilities in IBM WebSphere Application Server\nOriginal Issue Date:June      05, 2026\nSeverity Rating: CRITICAL\nSoftware Affected\nIBM WebSphere Application Server 8.5 and 9.0\nOverview\nMultiple vulnerabilities have been reported in IBM WebSphere Application which could be exploited by an attacker for identify spoofing and remote code execution on the targeted system.\nTarget Audience:\nAll end-users and organisations using IBM WebSphere Application Server.\nRisk Assessment:\nHigh risk of unauthorised access.\nImpact Assessment:\nPotential impact on confidentiality, integrity, availability of the system and application outages.\nSolution\nApply appropriate updates as mentioned by the vendor:\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274733\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274738\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274740\nVendor Information\nIBM\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274733\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274738\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274740\nReferences\nIBM\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274733\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274738\nhttps:\/\/www.ibm.com\/support\/pages\/node\/7274740\nCVE Name\nCVE-2026-9311\nCVE-2026-9319\nCVE-2026-8644\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in\nPhone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
-    "scraped_at":"2026-06-05 08:16:30"
-  }
+
 ]
