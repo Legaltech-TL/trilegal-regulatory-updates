@@ -1,5 +1,54 @@
 {
-  "generated_at": "2026-06-04T11:56:58.157095",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-06-06T08:31:37.139333",
+  "count": 6,
+  "items": [
+    {
+      "id": "990b84956d5a8e29",
+      "title": "Amendments in Commercial VSAT License Agreement",
+      "publish_date": "06/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/amendments-in-commercial-vsat-license-agreement-gjNzIjNtQWa?pageTitle=Amendments-in-Commercial-VSAT-License-Agreement",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/06/2026"
+    },
+    {
+      "id": "50177a98c8ecc0db",
+      "title": "NOCC Circulars",
+      "publish_date": "06/05/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/nocc-circulars-AjNzIjNtQWa?pageTitle=NOCC-Circulars",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/06/2026"
+    },
+    {
+      "id": "f3b7534500592869",
+      "title": "Amendments in Captive VSAT License Agreement",
+      "publish_date": "05/27/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/amendments-in-captive-vsat-license-agreement-UjNzIjNtQWa?pageTitle=Amendments-in-Captive-VSAT-License-Agreement",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/06/2026"
+    },
+    {
+      "id": "b8f14f468e61cc0a",
+      "title": "Amendments in Sui Generis category License Agreement",
+      "publish_date": "05/01/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/amendments-in-sui-generis-category-license-agreement-gzNzIjNtQWa?pageTitle=Amendments-in-Sui-Generis-category-License-Agreement",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/06/2026"
+    },
+    {
+      "id": "e6ad42c0c841eb3c",
+      "title": "Amendments in INSAT MSSR License Agreement",
+      "publish_date": "05/01/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/amendments-in-insat-mssr-license-agreement-UzNzIjNtQWa?pageTitle=Amendments-in-INSAT-MSSR-License-Agreement",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/06/2026"
+    },
+    {
+      "id": "f5a6cc224371c9b5",
+      "title": "Cellular Mobile Services",
+      "publish_date": "02/04/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/cellular-mobile-services-EzM1ATNtQWa?pageTitle=Cellular-Mobile-Services",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/06/2026"
+    }
+  ]
 }
