@@ -1,11 +1,11 @@
 [
   {
-    "id":"dcf0a2c718dc0379",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0292",
+    "id":"fd03c29da97c4b24",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0293",
     "date":"June 08, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0292",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0293",
     "category":"Latest Security Alert",
-    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0292\nPath Traversal Vulnerability in Bagisto\nOriginal Issue Date:June      08, 2026\nSeverity Rating: CRITICAL\nSystems Affected\nBagisto version v2.4.1\nOverview\nA vulnerability has been reported in Bagisto, which could allow an unauthenticated remote attacker to read arbitrary sensitive files on the targeted system.\nTarget Audience:\nOrganizations\/ System Administrators\/ Application developers and maintainers using Bagisto\nRisk Assessment:\nHigh risk of unauthorized access to sensitive files stored on the targeted system.\nImpact Assessment:\nPotential disclosure of application configuration files, database credentials, API keys and other sensitive information on the targeted system.\nDescription\nBagisto is an open-source eCommerce platform developed using the Laravel PHP framework. It is used for developing and managing web-based online shopping applications and eCommerce websites.\nThis vulnerability exists in Bagisto due to improper validation of user-supplied input in the ImageCacheController component. An unauthenticated remote attacker could exploit this vulnerability by sending crafted path traversal sequences through the filename parameter to access arbitrary files outside the intended directory on the targeted system.\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary sensitive files on the targeted system.\nCredit\nThis vulnerability is reported by Stalin S.\nSolution\nUpgrade Bagisto to the patched version v2.4.2 or later.\nhttps:\/\/github.com\/bagisto\/bagisto\/tree\/v2.4.2\nVendor Information\nWebkul\nhttps:\/\/github.com\/bagisto\/bagisto\/tree\/v2.4.2\nReferences\nWebkul\nhttps:\/\/github.com\/bagisto\/bagisto\/tree\/v2.4.2\nCVE Name\nCVE-2026-9506\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
-    "scraped_at":"2026-06-08 09:03:03"
+    "content":"",
+    "scraped_at":"2026-06-08 12:16:47"
   }
 ]
