@@ -1,24 +1,13 @@
 [
   {
-    "id": "204739608255db73f419da9bfb6c0cfefcb18cd8",
+    "id": "ca7c2b1b68c6d41ca8f9daa432df4e53e991a84f",
     "source": "Bharat Connect",
     "category": "Circulars",
-    "title": "Non-Compliance with the Advisory concerning BPCL Gas Booking Transactions",
-    "date": "22 May, 2026",
-    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/Non_Compliance_with_the_Advisory_concerning_BPCL_Gas_Booking_Transactions_52157290fc.pdf",
-    "pdf_filename": "Non_Compliance_with_the_Advisory_concerning_BPCL_Gas_Booking_Transactions_52157290fc.pdf",
+    "title": "Addendum to Introduction of Ninth and Tenth Settlement Cycle",
+    "date": "30 May, 2026",
+    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/Addendum_to_Introduction_of_Ninth_and_Tenth_Settlement_Cycle_fc67b30880.pdf",
+    "pdf_filename": "Addendum_to_Introduction_of_Ninth_and_Tenth_Settlement_Cycle_fc67b30880.pdf",
     "source_page": "https://www.bharat-connect.com/circulars/",
-    "scraped_at": "2026-05-26T08:38:05.907969+00:00"
-  },
-  {
-    "id": "e75270e8a0ce19a0a9dae60284ae177731fa1196",
-    "source": "Bharat Connect",
-    "category": "Circulars",
-    "title": "Introduction of Ninth and Tenth Settlement Cycle",
-    "date": "15 May, 2026",
-    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/Introduction_of_Ninth_and_Tenth_Settlement_Cycle_b52ca2c04f.pdf",
-    "pdf_filename": "Introduction_of_Ninth_and_Tenth_Settlement_Cycle_b52ca2c04f.pdf",
-    "source_page": "https://www.bharat-connect.com/circulars/",
-    "scraped_at": "2026-05-26T08:38:05.908137+00:00"
+    "scraped_at": "2026-06-09T15:53:02.136011+00:00"
   }
 ]
