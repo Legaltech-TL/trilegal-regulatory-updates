@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-06-08T13:07:40.732625",
-  "count": 2,
-  "items": [
-    {
-      "id": "c0df3a4301db392f",
-      "title": "AIS (Implementation of National Pension...",
-      "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/170175/AIS+%28Implementation+of+NPS%29+Rules+2026.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "06/08/2026"
-    },
-    {
-      "id": "56fcee12af0dadce",
-      "title": "AIS (Implementation of National Pension System) Rules 2026\nCentral Government\nIssue Date: 08-06-2026",
-      "publish_date": "06/08/2026",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/170175/AIS+%28Implementation+of+NPS%29+Rules+2026.pdf",
-      "category": "NOTIFICATION",
-      "scraped_at": "06/08/2026"
-    }
-  ]
+  "generated_at": "2026-06-09T06:40:33.279833",
+  "count": 0,
+  "items": []
 }
