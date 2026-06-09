@@ -1,5 +1,14 @@
 {
-  "generated_at": "2026-06-09T09:11:23.103259",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-06-09T12:05:04.430103",
+  "count": 1,
+  "items": [
+    {
+      "id": "1f1d35ec75d043d9",
+      "title": "09.06.2026",
+      "publish_date": "06/09/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/4d74135cdb1725218db42365ef70a2ae.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/09/2026"
+    }
+  ]
 }
