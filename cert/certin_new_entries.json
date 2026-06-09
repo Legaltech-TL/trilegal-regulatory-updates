@@ -1,3 +1,11 @@
 [
-
+  {
+    "id":"121e5fdaa51a8a60",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0297",
+    "date":"June 09, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0297",
+    "category":"Latest Security Alert",
+    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0297\nDenial of Service Vulnerability in SolarWinds Serv-U\nOriginal Issue Date:June      09, 2026\nSeverity Rating: HIGH\nSoftware Affected\nSolarWinds Serv-U 15.5.4\nOverview\nA vulnerability has been reported in SolarWinds Serv-U which could be exploited by an attacker to cause denial of service attack on the targeted system.\nTarget Audience:\nAll organizations and individuals using SolarWinds products.\nRisk Assessment:\nCritical risks of service disruption.\nImpact Assessment:\nPotential for disruption of service, system compromise.\nDescription\nSolarWinds Serv-U is an FTP server solution for secure, automated, and centralized file transfers, supporting FTP, FTPS, SFTP, and HTTP\/S, as well as remote management and optional web-based file transfer access in the Managed File Transfer (MFT) edition.\nThis vulnerability exists in SolarWinds Serv-U due to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate.\nSuccessful exploitation of this vulnerability could allow an attacker to cause denial of service attack on the targeted system.\nSolution\nApply appropriate updates as mentioned by the vendor:\nhttp:\/\/documentation.solarwinds.com\/en\/success_center\/servu\/content\/release_notes\/servu_15-5-4-hotfix-1_release_notes.htm\nVendor Information\nSolarWinds\nhttp:\/\/documentation.solarwinds.com\/en\/success_center\/servu\/content\/release_notes\/servu_15-5-4-hotfix-1_release_notes.htm\nReferences\nSolarWinds\nhttp:\/\/documentation.solarwinds.com\/en\/success_center\/servu\/content\/release_notes\/servu_15-5-4-hotfix-1_release_notes.htm\nCVE Name\nCVE-2026-28318\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
+    "scraped_at":"2026-06-09 13:41:57"
+  }
 ]
