@@ -11772,3 +11772,109 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-09 13:41:57
+a317ace3756ca11e,CERT-In Vulnerability Note  CIVN-2026-0298,"June 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0298,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0298
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:June      10, 2026
+Severity Rating: CRITICAL
+Software Affected
+Google Chrome version prior to 149.0.7827.53/54 for Windows and Mac
+Google Chrome version prior to 149.0.7827.53 for Linux.
+For complete list of affected products refer to the Chrome advisory:
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restriction, or cause Denial-of-Service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, unauthorized access to sensitive data, disruption of services, privilege escalation.
+Impact Assessment:
+Potential for system compromise, sensitive information disclosure, service disruption.
+Description
+Google Chrome is a popular internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.
+Multiple vulnerabilities exist in Google Chrome due to Out-of-Bounds read and write, use-after-free (UAF), Heap and Stack Buffer Overflow, Inappropriate implementation, Type Confusion, Insufficient validation of untrusted input, Integer overflow, Script injection, Insufficient policy enforcement, Uninitialized Use, Policy bypass, Object lifecycle issue, Side-channel information leakage, Incorrect security UI and Race issues across multiple components including ANGLE, V8, GPU, Chromecast, Network, WebRTC, FileSystem, Password Manager, Ozone, GFX, Chromoting, Cast Streaming and more. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restriction, or cause Denial-of-Service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-10 11:26:05
+dbd7f8acbd7bb8f1,CERT-In Advisory   CIAD-2026-0029,"June 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0029,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0029
+Multiple Vulnerabilities in SAP Products
+Original Issue Date: June      10, 2026
+Severity Rating: Critical
+Software Affected
+SAP NetWeaver AS ABAP and ABAP Platform
+SAP Commerce Cloud and SAP Data Hub
+SAP NetWeaver Application Server Java (Web Container)
+SAP Commerce Cloud
+ODP Data Replication APIs
+SAP S/4HANA
+SAP NetWeaver AS Java (JDBC Test Servlet)
+SAP Wily Introscope Enterprise Manager
+SAP MDG (Review Match Groups Application)
+SAP Business Objects Business Intelligence Platform
+SAP Fiori (launchpad)
+SAP Business Objects
+SAP NetWeaver AS Java
+Overview
+Multiple vulnerabilities have been reported in SAP products which could allow an attacker to perform Cross-Site Scripting (XSS), Bypass security restrictions, Directory traversal, Email spoofing and perform Sql injection attacks or cause Denial of service (DoS) condition on the targeted system.
+Target Audience:
+SAP system administrators, SAP security teams, IT infrastructure teams managing SAP landscape and Application developers using affected SAP.
+Risk Assessment:
+Code execution, data manipulation or disclosure, service disruption, redirection of users to malicious resources
+Impact Assessment:
+Execution of malicious code, potential for system compromise, unauthorized access, data exposure, high risk of data breach.
+Description
+Multiple vulnerabilities have been reported in SAP products; Details of which are provided below:
+Solution
+Apply appropriate fixes as mentioned in SAP Security Advisory:
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/june-2026.html
+References
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/june-2026.html
+CVE Name
+CVE-2026-22732
+CVE-2026-24315
+CVE-2026-27671
+CVE-2026-29145
+CVE-2026-40128
+CVE-2026-44743
+CVE-2026-44744
+CVE-2026-44746
+CVE-2026-44748
+CVE-2026-44750
+CVE-2026-44751
+CVE-2026-44754
+CVE-2026-44755
+CVE-2026-44757
+CVE-2026-68161
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-10 11:26:05
