@@ -11878,3 +11878,168 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-10 11:26:05
+0bd83ef2892136a4,CERT-In Vulnerability Note  CIVN-2026-0300,"June 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0300,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0300
+Multiple Vulnerabilities in Drupal Plugins
+Original Issue Date:June      10, 2026
+Severity Rating: HIGH
+Software Affected
+LocalGov Workflows versions prior to 1.6.0
+Tacjs versions prior to 6.8
+Commerce Core 3.3.0 versions prior to 3.3.6
+Anti-Spam by CleanTalk versions prior to 9.7.1
+Overview
+Multiple vulnerabilities have been reported in Drupal modules, which could allow an attacker to disclose sensitive information, being able to delete arbitrary cookies and perform cross site scripting attacks on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Drupal modules.
+Risk Assessment:
+Risk of cross site scripting attacks, unauthorized access.
+Impact Assessment:
+Potential for data theft, unauthorized access to sensitive information and potential compromise of system.
+Description
+Drupal is an open-source Content Management System (CMS) which allows individuals and organizations to create, manage and maintain websites and web applications.
+Multiple vulnerabilities exist in Drupal module due to improper access control and improper sanitization of user supplied input.
+Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, being able to delete arbitrary cookies and perform cross site scripting attacks on the targeted system.
+Solution
+Apply appropriate security updates as mentioned:
+https://www.drupal.org/sa-contrib-2026-039
+https://www.drupal.org/sa-contrib-2026-040
+https://www.drupal.org/sa-contrib-2026-041
+https://www.drupal.org/sa-contrib-2026-042
+Vendor Information
+Drupal
+https://www.drupal.org/sa-contrib-2026-039
+https://www.drupal.org/sa-contrib-2026-040
+https://www.drupal.org/sa-contrib-2026-041
+https://www.drupal.org/sa-contrib-2026-042
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-039
+https://www.drupal.org/sa-contrib-2026-040
+https://www.drupal.org/sa-contrib-2026-041
+https://www.drupal.org/sa-contrib-2026-042
+CVE Name
+CVE-2026-10768
+CVE-2026-10769
+CVE-2026-10770
+CVE-2026-49977
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-10 14:20:33
+d4d58896b65dd4a3,CERT-In Vulnerability Note  CIVN-2026-0299,"June 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0299,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0299
+Privilege Escalation Vulnerability in WP Maps Pro plugin for WordPress
+Original Issue Date:June      10, 2026
+Severity Rating: CRITICAL
+Software Affected
+WP Maps Pro plugin for WordPress versions prior to 6.1.1.
+Overview
+A vulnerability has been reported in WP Maps Pro plugin for WordPress, which could allow a remote attacker to gain elevated privileges on the targeted system.
+Target Audience:
+All end-user organizations and individuals using WP Maps Pro plugin for WordPress.
+Risk Assessment:
+High risk of Privilege escalation.
+Impact Assessment:
+Potential for full site compromise via unauthorized administrator access and Authentication bypass.
+Description
+WP Maps Pro is a WordPress plugin used for creating interactive maps and location-based services.
+The vulnerability exists in WP Maps Pro plugin is due to improper access control in the wpgmp_temp_access_ajax AJAX action, which is exposed to unauthenticated users via wp_ajax_nopriv_ and relies only on a publicly accessible nonce (fc-call-nonce). This weak protection allows attackers to bypass authentication and invoke the wpgmp_temp_access_support function, leading to unauthorized administrator account creation and full site compromise.
+Successful exploitation of this vulnerability could allow the attacker to gain elevated privileges on the targeted system.
+Solution
+Apply appropriate fix/patches as mentioned:
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wp-google-map-gold/wp-maps-pro-610-unauthenticated-privilege-escalation-via-administrator-account-creation-to-wpgmp-temp-access-ajax-ajax-action
+Vendor Information
+WordPress
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wp-google-map-gold/wp-maps-pro-610-unauthenticated-privilege-escalation-via-administrator-account-creation-to-wpgmp-temp-access-ajax-ajax-action
+References
+WordPress
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wp-google-map-gold/wp-maps-pro-610-unauthenticated-privilege-escalation-via-administrator-account-creation-to-wpgmp-temp-access-ajax-ajax-action
+CVE Name
+CVE-2026-8732
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-10 14:20:33
+766fce2889370093,CERT-In Advisory   CIAD-2026-0030,"June 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0030,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0030
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: June      10, 2026
+Severity Rating: Critical
+Software Affected
+Microsoft Apps
+Extended Security Updates (ESU)
+Windows
+Developer Tools
+Microsoft Office
+Azure
+System Center
+Server Software
+Microsoft Dynamics
+Browser
+Linux kernel - Microsoft MANA Network Driver
+Nuance PowerScribe One
+Nuance PowerScribe 360
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products which could allow an attacker to gain elevated privileges, obtain or modify information, conduct remote code execution attacks, perform spoofing attacks, bypass security features or cause denial of service conditions on the targeted system.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating Microsoft products.
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure.
+Impact Assessment:
+Potential compromise of system, exfiltration of data, ransomware attacks or system crashes.
+Description
+Multiple vulnerabilities have been reported in Microsoft Products which could allow an attacker to gain elevated privileges, obtain or modify information, conduct remote code execution attacks, perform spoofing attacks, bypass security features or cause denial of service conditions on the targeted system.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Microsoft security updates.
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Jun
+Solution
+Apply the security updates released by Microsoft:
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Jun
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Jun
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-10 14:20:33
+ffdde986bb7ad7b3,"Guidelines regarding AI-Accelerated Vulnerability Protection and Response Requirements for Original Equipment Manufacturers (OEMs), and Technology Providers","June 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3529,Current Activities,"CURRENT ACTIVITIES
+Guidelines regarding AI-Accelerated Vulnerability Protection and Response Requirements for Original Equipment Manufacturers (OEMs), and Technology Providers
+Original Issue Date:June      10, 2026
+""Guidelines regarding AI-Accelerated Vulnerability Protection and Response Requirements for Original Equipment Manufacturers (OEMs), and Technology Providers""
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-10 14:20:33
