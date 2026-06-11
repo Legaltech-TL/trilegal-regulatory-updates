@@ -12254,3 +12254,116 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-11 11:59:12
+5d8574fd55b1bee1,CERT-In Vulnerability Note  CIVN-2026-0303,"June 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0303,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0303
+Remote Code Execution vulnerability in Everest Forms Pro plugin of WordPress
+Original Issue Date:June      11, 2026
+Severity Rating: CRITICAL
+Software Affected
+Everest Forms Pro WordPress plugin versions prior to 1.9.13
+Overview
+A vulnerability has been reported in the Everest Forms Pro plugin for WordPress which could allow an unauthenticated attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end user organizations and individuals using Everest Forms Pro plugin for WordPress.
+Risk Assessment:
+High risk of unauthenticated arbitrary code execution, unauthorized administrative access, and service disruption.
+Impact Assessment:
+Potential for complete compromise of website.
+Description
+Everest Forms Pro is a WordPress plugin used to create contact forms, registration forms, payment forms, surveys, and other custom forms.
+A critical vulnerability exists in the Everest Forms Pro plugin due to improper input sanitization. An attacker could exploit this vulnerability by sending crafted form inputs when the Complex Calculation feature is enabled.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary PHP code on the targeted system.
+Note: The vulnerability (CVE-2026-3300) is being actively exploited in the wild.
+Solution
+Apply appropriate fix/patches as mentioned:
+https://www.wordfence.com/blog/2026/06/attackers-actively-exploiting-critical-vulnerability-in-everest-forms-pro-plugin/
+Vendor Information
+Everest Forms
+https://everestforms.net/
+References
+https://www.wordfence.com/blog/2026/06/attackers-actively-exploiting-critical-vulnerability-in-everest-forms-pro-plugin/
+CVE Name
+CVE-2026-3300
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-11 14:34:03
+8023127bf7e95d0b,CERT-In Vulnerability Note  CIVN-2026-0302,"June 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0302,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0302
+Multiple vulnerabilities in Palo Alto Networks
+Original Issue Date:June      11, 2026
+Severity Rating: HIGH
+Systems Affected
+Cortex XSIAM and XSOAR CommvaultSecurityIQ Marketplace versions 1.1.0 through 1.1.9
+PAN-OS 12.1, 11.2, 11.1 and 10.2 versions prior to the applicable fixed releases
+GlobalProtect App 6.3 versions prior to 6.3.3-h1 on macOS
+GlobalProtect App 6.2 versions prior to 6.2.8-h2 on macOS
+Prisma Access Agent versions 25.7 through 26.2.0 on Linux
+Cortex XSOAR 8.13 versions prior to 8.13.0.11 on Linux
+Cortex XSOAR 8.12, 8.11 and 8.10 all versions
+Overview
+Multiple vulnerabilities exist in Palo Alto Networks products that could allow an attacker to bypass security controls, gain elevated privileges, execute arbitrary commands or code, access sensitive information, manipulate protected resources or files, perform cross-site scripting (XSS) attacks, disrupt system availability through reboot conditions, or route network traffic outside the intended VPN tunnel.
+Target Audience:
+All organizations and administrators using affected Palo Alto Networks products.
+Risk Assessment:
+High risk of unauthorized access, privilege escalation, arbitrary command or code execution, information disclosure, security control bypass, unauthorized file manipulation, cross-site scripting (XSS), VPN traffic bypass, and service disruption.
+Impact Assessment:
+Unauthorized access to sensitive information, arbitrary code execution, manipulation of protected resources and files, disruption of service, bypass of VPN security controls, exposure of confidential data, and full system compromise.
+Description
+These vulnerabilities exist in Palo Alto Networks products due to improper input validation, insufficient credential validation, inadequate access controls, memory corruption, path traversal, command injection, privilege management flaws, information exposure, and security control bypass issues.
+Successful exploitation of these vulnerabilities could allow the attacker to bypass security controls, gain elevated privileges, execute arbitrary commands or code, access sensitive information, manipulate protected resources or files, perform cross-site scripting (XSS) attacks, disrupt system availability through reboot conditions, or route network traffic outside the intended VPN tunnel.
+Solution
+Apply appropriate security updates as mentioned in:
+https://security.paloaltonetworks.com/CVE-2026-0274
+https://security.paloaltonetworks.com/CVE-2026-0273
+https://security.paloaltonetworks.com/CVE-2026-0272
+https://security.paloaltonetworks.com/CVE-2026-0271
+https://security.paloaltonetworks.com/CVE-2026-0270
+https://security.paloaltonetworks.com/CVE-2026-0269
+https://security.paloaltonetworks.com/CVE-2026-0268
+https://security.paloaltonetworks.com/CVE-2026-0267
+https://security.paloaltonetworks.com/CVE-2026-0266
+Vendor Information
+Palo Alto Networks
+https://www.paloaltonetworks.com/
+References
+Palo Alto Networks
+https://security.paloaltonetworks.com/CVE-2026-0274
+https://security.paloaltonetworks.com/CVE-2026-0273
+https://security.paloaltonetworks.com/CVE-2026-0272
+https://security.paloaltonetworks.com/CVE-2026-0271
+https://security.paloaltonetworks.com/CVE-2026-0270
+https://security.paloaltonetworks.com/CVE-2026-0269
+https://security.paloaltonetworks.com/CVE-2026-0268
+https://security.paloaltonetworks.com/CVE-2026-0267
+https://security.paloaltonetworks.com/CVE-2026-0266
+CVE Name
+CVE-2026-0266
+CVE-2026-0267
+CVE-2026-0268
+CVE-2026-0269
+CVE-2026-0270
+CVE-2026-0271
+CVE-2026-0272
+CVE-2026-0273
+CVE-2026-0274
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-11 14:34:03
