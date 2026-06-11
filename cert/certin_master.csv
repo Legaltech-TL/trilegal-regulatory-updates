@@ -12103,3 +12103,154 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-11 08:55:05
+176fc36d62502425,CERT-In Vulnerability Note  CIVN-2026-0306,"June 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0306,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0306
+Multiple vulnerabilities in Palo Alto Networks
+Original Issue Date:June      11, 2026
+Severity Rating: HIGH
+Systems Affected
+Cortex XSIAM and XSOAR CommvaultSecurityIQ Marketplace versions 1.1.0 through 1.1.9
+PAN-OS 12.1, 11.2, 11.1 and 10.2 versions prior to the applicable fixed releases
+GlobalProtect App 6.3 versions prior to 6.3.3-h1 on macOS
+GlobalProtect App 6.2 versions prior to 6.2.8-h2 on macOS
+Prisma Access Agent versions 25.7 through 26.2.0 on Linux
+Cortex XSOAR 8.13 versions prior to 8.13.0.11 on Linux
+Cortex XSOAR 8.12, 8.11 and 8.10 all versions
+Overview
+Multiple vulnerabilities exist in Palo Alto Networks products that could allow an attacker to bypass security controls, gain elevated privileges, execute arbitrary commands or code, access sensitive information, manipulate protected resources or files, perform cross-site scripting (XSS) attacks, disrupt system availability through reboot conditions, or route network traffic outside the intended VPN tunnel.
+Target Audience:
+All organizations and administrators using affected Palo Alto Networks products.
+Risk Assessment:
+High risk of unauthorized access, privilege escalation, arbitrary command or code execution, information disclosure, security control bypass, unauthorized file manipulation, cross-site scripting (XSS), VPN traffic bypass, and service disruption.
+Impact Assessment:
+Unauthorized access to sensitive information, arbitrary code execution, manipulation of protected resources and files, disruption of service, bypass of VPN security controls, exposure of confidential data, and full system compromise.
+Description
+These vulnerabilities exist in Palo Alto Networks products due to improper input validation, insufficient credential validation, inadequate access controls, memory corruption, path traversal, command injection, privilege management flaws, information exposure, and security control bypass issues.
+Successful exploitation of these vulnerabilities could allow the attacker to bypass security controls, gain elevated privileges, execute arbitrary commands or code, access sensitive information, manipulate protected resources or files, perform cross-site scripting (XSS) attacks, disrupt system availability through reboot conditions, or route network traffic outside the intended VPN tunnel.
+Solution
+Apply appropriate security updates as mentioned in:
+https://security.paloaltonetworks.com/CVE-2026-0274
+https://security.paloaltonetworks.com/CVE-2026-0273
+https://security.paloaltonetworks.com/CVE-2026-0272
+https://security.paloaltonetworks.com/CVE-2026-0271
+https://security.paloaltonetworks.com/CVE-2026-0270
+https://security.paloaltonetworks.com/CVE-2026-0269
+https://security.paloaltonetworks.com/CVE-2026-0268
+https://security.paloaltonetworks.com/CVE-2026-0267
+https://security.paloaltonetworks.com/CVE-2026-0266
+Vendor Information
+Palo Alto Networks
+https://www.paloaltonetworks.com/
+References
+Palo Alto Networks
+https://security.paloaltonetworks.com/CVE-2026-0274
+https://security.paloaltonetworks.com/CVE-2026-0273
+https://security.paloaltonetworks.com/CVE-2026-0272
+https://security.paloaltonetworks.com/CVE-2026-0271
+https://security.paloaltonetworks.com/CVE-2026-0270
+https://security.paloaltonetworks.com/CVE-2026-0269
+https://security.paloaltonetworks.com/CVE-2026-0268
+https://security.paloaltonetworks.com/CVE-2026-0267
+https://security.paloaltonetworks.com/CVE-2026-0266
+CVE Name
+CVE-2026-0266
+CVE-2026-0267
+CVE-2026-0268
+CVE-2026-0269
+CVE-2026-0270
+CVE-2026-0271
+CVE-2026-0272
+CVE-2026-0273
+CVE-2026-0274
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-11 11:59:12
+a244f86600973c56,CERT-In Advisory   CIAD-2026-0031,"June 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0031,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0031
+Multiple Vulnerabilities in Adobe Products
+Original Issue Date: June      11, 2026
+Severity Rating: High
+Software Affected
+Adobe Experience Manager (AEM) Cloud Service (CS) prior to release 2026.05, 6.5 LTS SP1 and earlier, SP24 and earlier
+Adobe Experience Manager Forms AEM 6.5.24.0 and earlier
+Adobe InDesign ID21.3 and earlier versions, ID20.5.3 and earlier versions
+Adobe InCopy 21.3 and earlier versions, 20.5.3 and earlier versions
+Adobe Substance 3D Sampler 6.0.0 and earlier versions
+Adobe Content Credentials SDK @contentauth/c2pa-web@0.7.1 and earlier, c2pa-v0.80.1 and earlier
+Adobe Dreamweaver 21.7 and earlier versions
+Adobe Acrobat Reader in Adobe Acrobat and Acrobat Reader 26.001.21651 and earlier, and in Acrobat 2024 Classic 2024 24.001.30365 and earlier
+Adobe ColdFusion Update 8 and earlier versions, Update 19 and earlier versions
+Adobe Format Plugins 1.1.2 and earlier versions
+Adobe Campaign Classic ACC v7: 7.4.3 build 9394 and earlier
+Overview
+Multiple vulnerabilities have been reported in Adobe products, which could be exploited by an attacker to execute arbitrary code, gain elevated privileges, bypass security restrictions, gain access to sensitive information, manipulate application functionality, or cause denial of service (DoS) conditions on the targeted system.
+Target Audience:
+Individuals, organizations, IT administrators, developers, end users, and security teams responsible for maintaining and securing Adobe products.
+Risk Assessment:
+High risk of complete system compromise, unauthorized access to sensitive information, privilege escalation, and disruption of services.
+Impact Assessment:
+Potential for complete system compromise.
+Description
+Multiple vulnerabilities have been reported in various Adobe products. These vulnerabilities exist due to improper input validation, cross-site scripting (DOM-based, reflected and stored XSS) issues, memory corruption issues, incorrect authorization, and supply chain related issues.
+An attacker could exploit these vulnerabilities by convincing a user to open a specially crafted file. Successful exploitation could allow and attacker to execute arbitrary code, gain elevated privileges, bypass security restrictions, gain access to sensitive information, manipulate application functionality, or cause denial of service (DoS) conditions on the targeted system.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Adobe security updates:
+https://helpx.adobe.com/security/products/experience-manager/apsb26-56.html
+https://helpx.adobe.com/security/products/aem-forms/apsb26-57.html
+https://helpx.adobe.com/security/products/indesign/apsb26-58.html
+https://helpx.adobe.com/security/products/incopy/apsb26-59.html
+https://helpx.adobe.com/security/products/substance3d-sampler/apsb26-60.html
+https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-61.html
+https://helpx.adobe.com/security/products/dreamweaver/apsb26-62.html
+https://helpx.adobe.com/security/products/acrobat/apsb26-63.html
+https://helpx.adobe.com/security/products/coldfusion/apsb26-64.html
+https://helpx.adobe.com/security/products/formatplugins/apsb26-65.html
+https://helpx.adobe.com/security/products/campaign/apsb26-66.html
+Solution
+Apply appropriate security updates as mentioned in Adobe Security Bulletin:
+https://helpx.adobe.com/security/products/experience-manager/apsb26-56.html
+https://helpx.adobe.com/security/products/aem-forms/apsb26-57.html
+https://helpx.adobe.com/security/products/indesign/apsb26-58.html
+https://helpx.adobe.com/security/products/incopy/apsb26-59.html
+https://helpx.adobe.com/security/products/substance3d-sampler/apsb26-60.html
+https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-61.html
+https://helpx.adobe.com/security/products/dreamweaver/apsb26-62.html
+https://helpx.adobe.com/security/products/acrobat/apsb26-63.html
+https://helpx.adobe.com/security/products/coldfusion/apsb26-64.html
+https://helpx.adobe.com/security/products/formatplugins/apsb26-65.html
+https://helpx.adobe.com/security/products/campaign/apsb26-66.html
+Vendor Information
+Adobe
+https://helpx.adobe.com/security.html
+References
+https://helpx.adobe.com/security/products/experience-manager/apsb26-56.html
+https://helpx.adobe.com/security/products/aem-forms/apsb26-57.html
+https://helpx.adobe.com/security/products/indesign/apsb26-58.html
+https://helpx.adobe.com/security/products/incopy/apsb26-59.html
+https://helpx.adobe.com/security/products/substance3d-sampler/apsb26-60.html
+https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-61.html
+https://helpx.adobe.com/security/products/dreamweaver/apsb26-62.html
+https://helpx.adobe.com/security/products/acrobat/apsb26-63.html
+https://helpx.adobe.com/security/products/coldfusion/apsb26-64.html
+https://helpx.adobe.com/security/products/formatplugins/apsb26-65.html
+https://helpx.adobe.com/security/products/campaign/apsb26-66.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-11 11:59:12
