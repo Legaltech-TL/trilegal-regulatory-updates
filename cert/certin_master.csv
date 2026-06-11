@@ -12043,3 +12043,63 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-10 14:20:33
+3bd3e7193fa42fb8,CERT-In Vulnerability Note  CIVN-2026-0301,"June 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0301,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0301
+Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability
+Original Issue Date:June      11, 2026
+Severity Rating: MEDIUM
+Systems Affected
+Arista EOS-based products:
+7020R Series
+7280R/R2Series
+7500R/R2 Series
+Limited exposure (IP-in-IPv6 and GUEv6) on:
+7280R3 Series
+7500R3 Series
+7800R3 Series
+Software Affected
+All releases in the 4.36.x train
+All releases in the 4.35.x train
+All releases in the 4.34.x train
+All releases in the 4.33.x train
+All releases in the 4.32.x train
+All releases in the 4.31.x train
+All releases in the 4.30.x train
+All releases in trains older than 4.30.x
+All releases in trains newer than 4.36.x
+Overview
+A vulnerability has been reported in Arista Extensible Operating System (EOS), which could be exploited to cause unexpected tunnel protocol decapsulation and forwarding bypass.
+Target Audience:
+All end-user organizations and individuals using Arista EOS.
+Risk Assessment:
+Critical risks for unauthorized traffic injection, integrity of the systems.
+Impact Assessment:
+Potential impact on integrity of the system.
+Description
+Arista Extensible Operating System (EOS) is a network operating system used on Arista switches and routers, providing advanced networking, automation, and virtualization capabilities for enterprise and data centre environments.
+An Incomplete Comparison with Missing Factors vulnerability exists in Arista EOS because affected platforms do not verify the tunnel protocol type during tunnel decapsulation, potentially leading to unexpected processing of non-configured tunnel traffic.
+Successful exploitation of this vulnerability could allow an unintended user to cause the switch with a tunnel decapsulation configuration¿such as VXLAN (Virtual Extensible LAN), decap-groups, or a GRE (Generic Routing Encapsulation) tunnel interface-to incorrectly decapsulate and forward unexpected tunnelled packets with a destination IP matching its configured decapsulation IP.
+Note: CVE-2026-7473 is being exploited in the wild.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137
+Vendor Information
+Arista
+https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137
+References
+Arista
+https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137
+CVE Name
+CVE-2026-7473
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-11 08:55:05
