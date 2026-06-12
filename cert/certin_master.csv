@@ -12367,3 +12367,105 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-11 14:34:03
+1a2aa39a883b33c6,CERT-In Vulnerability Note  CIVN-2026-0305,"June 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0305,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0305
+Multiple Vulnerabilities in Check Point VPN Products
+Original Issue Date:June      12, 2026
+Severity Rating: CRITICAL
+Software Affected
+Security Gateways
+R82.10 Jumbo Hotfix Take 19 or below
+R82 Jumbo Hotfix Take 103 or below
+R81.20 Jumbo Hotfix Take 141 or below
+R81.10 (EOS)
+R81 (EOS)
+R80.40 (EOS)
+Spark Firewalls
+R80.20.X (EOS)
+R81.10.X
+R82.00.X
+Overview
+Multiple vulnerabilities have been reported in Check Point VPN products which could allow an attacker to bypass user authentication or compromise the integrity of VPN communications through a Man in the Middle (MitM) attack.
+Target Audience:
+Organizations and individuals using affected Check Point Security Gateways and Spark Firewall products.
+Risk Assessment:
+High risk of unauthorized access and compromise of VPN trust relationships.
+Impact Assessment:
+Potential for establishment of unauthorized VPN connections or Man in the Middle (MitM) attacks on site-to-site VPN communications.
+Description
+Check Point provides network security, cloud security and management solutions for enterprise environments.
+Multiple vulnerabilities exist in Check Point VPN products due to weaknesses in certificate validation logic associated with the deprecated IKEv1 key exchange mechanism and logic flow weaknesses in VPN authentication process.
+Successful exploitation of these vulnerabilities could allow an attacker to bypass user authentication and establish unauthorized VPN connections or perform Man in the Middle (MitM) attacks against communications between VPN gateways.
+Note: The vulnerability is being exploited in the wild.
+Solution
+Apply appropriate updates as mentioned by the Vendor:
+https://support.checkpoint.com/results/sk/sk185033
+https://support.checkpoint.com/results/sk/sk185035
+Vendor Information
+Check Point
+https://blog.checkpoint.com/security/
+References
+https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/
+CVE Name
+CVE-2026-50751
+CVE-2026-50752
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-12 08:41:42
+c7a7dd1be1f0f776,CERT-In Vulnerability Note  CIVN-2026-0304,"June 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0304,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0304
+Use after free vulnerability in OpenSSL
+Original Issue Date:June      12, 2026
+Severity Rating: CRITICAL
+Software Affected
+OpenSSL versions 3.0.x prior to 3.0.21.
+OpenSSL versions 3.4.x prior to 3.4.6.
+OpenSSL versions 3.5.x prior to 3.5.7.
+OpenSSL versions 3.6.x prior to 3.6.3.
+OpenSSL versions 4.0.x prior to 4.0.1
+OpenSSL versions 1.1.x prior to 1.1.1zh
+OpenSSL versions 1.0.x prior to 1.0.2zq
+Overview
+A vulnerability has been reported in OpenSSL, which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using OpenSSL.
+Risk Assessment:
+High risk of system compromise and service disruptions.
+Impact Assessment:
+Potential for process crashes, heap corruption, or potentially remote code execution.
+Description
+OpenSSL is a free and open-source software for general-purpose cryptography and secure communication. It provides a robust, full-featured toolkit for implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols.
+The vulnerability exists in OpenSSL due to a use-after-free condition during PKCS#7 signature verification. A remote attacker could exploit this vulnerability by sending a specially crafted PKCS#7 or S/MIME signed message.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://openssl-library.org/news/secadv/20260609.txt
+Vendor Information
+OpenSSL
+https://openssl-library.org/news/secadv/20260609.txt
+References
+SecurityWeek
+https://www.securityweek.com/openssl-patches-high-severity-vulnerability-found-with-ai/
+CVE Name
+CVE-2026-45447
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-12 08:41:42
