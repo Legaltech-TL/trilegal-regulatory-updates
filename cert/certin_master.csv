@@ -12512,3 +12512,52 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-12 11:29:23
+601bdc3f6d26228e,CERT-In Vulnerability Note  CIVN-2026-0308,"June 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0308,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0308
+Multiple Vulnerabilities in Trend Micro Apex One
+Original Issue Date:June      12, 2026
+Severity Rating: HIGH
+Software Affected
+Apex One 2019 (On-prem) Server and Agent builds prior to 17079
+Apex One as a Service, TrendAI Vision One Endpoint Security - Standard Endpoint Pro-tection (SEP) Agent builds prior to 14.0.20731
+Overview
+Multiple vulnerabilities have been reported in Trend Micro Apex One products, which could allow an attacker to escalate privileges, and execute malicious code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Trend Micro Apex One products.
+Risk Assessment:
+High risk of privilege escalation, arbitrary code execution.
+Impact Assessment:
+Potential for remote code execution, privilege escalation and/or compromise of system.
+Description
+Trend Micro Apex One is an endpoint security solution designed to provide threat detection, malware protection, and centralized security management for enterprise environments.
+Multiple vulnerabilities have been reported in Trend Micro Apex One products due to improper origin validation, directory traversal flaws, and time-of-check time-of-use (TOCTOU) issues in the Apex One server and security agent components.
+Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges, and execute malicious code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://success.trendmicro.com/en-US/solution/KA-0023430
+Vendor Information
+Trend Micro
+http://success.trendmicro.com/
+References
+https://success.trendmicro.com/en-US/solution/KA-0023430
+CVE Name
+CVE-2026-34927
+CVE-2026-34928
+CVE-2026-34929
+CVE-2026-34930
+CVE-2026-45206
+CVE-2026-45207
+CVE-2026-45208
+CVE-2026-34926
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-12 14:07:40
