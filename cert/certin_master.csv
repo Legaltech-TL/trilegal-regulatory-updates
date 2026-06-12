@@ -12469,3 +12469,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-12 08:41:42
+56249551dd1e4265,CERT-In Vulnerability Note  CIVN-2026-0307,"June 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0307,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0307
+Remote Code Execution Vulnerability in Oracle PeopleSoft Enterprise PeopleTools
+Original Issue Date:June      12, 2026
+Severity Rating: CRITICAL
+Software Affected
+Oracle PeopleSoft Enterprise PeopleTools versions 8.61 and 8.62
+Overview
+A vulnerability has been reported in Oracle PeopleSoft Enterprise PeopleTools, which may allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Oracle PeopleSoft Enterprise PeopleTools.
+Risk Assessment:
+High risk of unauthorized access, remote system takeover, and compromise of affected PeopleSoft environments.
+Impact Assessment:
+Potential for complete system takeover, unauthorized access to sensitive information, data theft, and disruption of services.
+Description
+Oracle PeopleSoft Enterprise PeopleTools is a framework used by Oracle PeopleSoft applications for application development, system administration and runtime services.
+This vulnerability exists in the Updates Environment Management component of Oracle PeopleSoft Enterprise PeopleTools. An unauthenticated attacker with network access via HTTP can compromise affected PeopleSoft Enterprise PeopleTools instances.
+Successful exploitation of this vulnerability may allow a remote attacker to execute arbitrary code on the targeted system.
+Note: This vulnerability is being actively exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate security updates and mitigations as mentioned in
+https://www.oracle.com/security-alerts/alert-cve-2026-35273.html
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/alert-cve-2026-35273.html
+References
+https://www.oracle.com/security-alerts/alert-cve-2026-35273.html
+https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/
+CVE Name
+CVE-2026-35273
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-12 11:29:23
