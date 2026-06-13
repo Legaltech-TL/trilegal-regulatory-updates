@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:46:25.981377",
-  "count": 2,
-  "items": [
-    {
-      "id": "e447e4293f797145",
-      "title": "Tender Document: ENGAGEMENT OF TRAINING...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "06/13/2026"
-    },
-    {
-      "id": "a82e1d897873c9d5",
-      "title": "Bid document for Manpower Services...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "06/13/2026"
-    }
-  ]
+  "generated_at": "2026-06-13T09:21:43.369123",
+  "count": 0,
+  "items": []
 }
