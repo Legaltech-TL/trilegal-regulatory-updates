@@ -12677,3 +12677,52 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-15 10:32:54
+504d7569a4e6b7cb,CERT-In Vulnerability Note  CIVN-2026-0311,"June 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0311,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0311
+Multiple Vulnerabilities in Zoom Products
+Original Issue Date:June      15, 2026
+Severity Rating: HIGH
+Software Affected
+Zoom Workplace for Android before version 7.0.4
+Zoom Workplace for iOS before version 7.0.3
+Zoom Meeting SDK for Android before version 7.0.4
+Zoom Meeting SDK for iOS before version 7.0.3
+Remote Control for Zoom Contact Center for Windows before version 7.0.0
+Overview
+Multiple vulnerabilities have been reported in Zoom products which could be exploited by an attacker to gain elevated privileges or perform unauthorized actions on the targeted system.
+Target Audience:
+All organizations and individuals using affected versions of Zoom products.
+Risk Assessment:
+High risk of privilege escalation, unauthorized access and compromise of affected systems.
+Impact Assessment:
+Potential for unauthorized access, elevated privileges and compromise of sensitive information on affected systems.
+Description
+Zoom provides video conferencing, collaboration, communication and contact center solutions for enterprise and individual users.
+Multiple vulnerabilities have been reported in Zoom products due to improper authorization in the handler for a custom URL scheme in Zoom Workplace and Zoom Meeting SDK for Android and iOS, and insufficient verification of data authenticity in Remote Control for Zoom Contact Center for Windows.  An attacker could exploit these vulnerabilities through network or local access to the affected system.
+Successful exploitation of these vulnerabilities could allow by an attacker to gain elevated privileges or perform unauthorized actions on the targeted system.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://www.zoom.com/en/trust/security-bulletin/zsb-26009/
+https://www.zoom.com/en/trust/security-bulletin/zsb-26010/
+Vendor Information
+Zoom Products
+https://www.zoom.com/en/trust/security-bulletin/
+References
+https://www.zoom.com/en/trust/security-bulletin/zsb-26009/
+https://www.zoom.com/en/trust/security-bulletin/zsb-26010/
+CVE Name
+CVE-2026-53406
+CVE-2026-53407
+CVE-2026-53408
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-15 13:38:14
