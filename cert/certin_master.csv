@@ -12561,3 +12561,119 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-12 14:07:40
+097a52c96404e24d,CERT-In Vulnerability Note  CIVN-2026-0310,"June 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0310,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0310
+Multiple Vulnerabilities in OpenSSL
+Original Issue Date:June      15, 2026
+Severity Rating: MEDIUM
+Software Affected
+OpenSSL version 4.0
+OpenSSL version 3.6
+OpenSSL version 3.5
+OpenSSL version 3.4
+OpenSSL version 3.0
+OpenSSL version 1.1.1
+OpenSSL version 1.0.2
+Overview
+Multiple vulnerabilities have been reported in OpenSSL, which could allow an attacker to execute malicious code, execute arbitrary code, cause denial of service and bypass integrity protections on the targeted system.
+Target Audience:
+All end-user organizations and individuals using OpenSSL.
+Risk Assessment:
+High risk of system compromise and service disruptions.
+Impact Assessment:
+Potential for remote code execution, integrity bypass and/or denial of service.
+Description
+OpenSSL is a free and open-source software for general-purpose cryptography and secure communication. It provides a robust, full-featured toolkit for implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols.
+Multiple vulnerabilities exist in OpenSSL due to improper memory management, insufficient input validation, cryptographic implementation flaws, authentication bypass conditions, certificate validation errors, denial-of-service weaknesses, and protocol processing issues in components such as PKCS#7, CMS, QUIC, OCSP, ASN.1, CMP, PKCS#12, and various cryptographic APIs. An attacker could exploit these vulnerabilities to trigger double-free errors, heap buffer overflows, heap buffer over-reads, NULL pointer dereferences, authentication bypasses, message forgery, cryptographic key recovery attacks, certificate forgery, trust-anchor substitution, Bleichenbacher-style oracle attacks, memory exhaustion, and denial-of-service conditions on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute malicious code, execute arbitrary code, cause denial of service and bypass integrity protections on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://openssl-library.org/news/secadv/20260609.txt
+Vendor Information
+OpenSSL
+https://openssl-library.org/news/vulnerabilities/
+References
+https://openssl-library.org/news/secadv/20260609.txt
+CVE Name
+CVE-2026-34182
+CVE-2026-34183
+CVE-2026-35188
+CVE-2026-42764
+CVE-2026-45445
+CVE-2026-7383
+CVE-2026-9076
+CVE-2026-34180
+CVE-2026-34181
+CVE-2026-42765
+CVE-2026-42766
+CVE-2026-42767
+CVE-2026-42768
+CVE-2026-42769
+CVE-2026-42770
+CVE-2026-42771
+CVE-2026-45446
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-15 10:32:54
+4767d8aebf5e8637,CERT-In Vulnerability Note  CIVN-2026-0309,"June 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0309,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0309
+Multiple Vulnerabilities in GitLab Community Edition (CE) and Enterprise Edition (EE)
+Original Issue Date:June      15, 2026
+Severity Rating: HIGH
+Software Affected
+Gitlab Community Edition (CE) and Enterprise Edition (EE) versions prior to 19.0.2, 18.11.5, and 18.10.8
+Overview
+Multiple vulnerabilities have been reported in GitLab Community Edition (CE) and Enterprise Edition (EE) that could allow an attacker to bypass authorization controls, execute arbitrary client-side code, read arbitrary local files, add unauthorized emails, or cause a Denial of Service (DoS) on the targeted system.
+Target Audience:
+Organizations and individuals using affected GitLab Community Edition (CE) and Enterprise Edition (EE) instances.
+Risk Assessment:
+Potential risk of unauthorized access, information disclosure, privilege misuse and denial of service.
+Impact Assessment:
+Risk of account compromise, unauthorized information disclosure and service disruption.
+Description
+GitLab is a web-based DevOps platform that provides tools for software development, including source code management, continuous integration and continuous deployment. It is available in both open-source Community Edition (CE) and Enterprise Edition (EE) versions.
+These vulnerabilities exist in GitLab due to multiple flaws including improper authorization enforcement, improper input sanitization and uncontrolled resource consumption across various components.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to targeted accounts, execute malicious code, read confidential internal network files and cause denial-of-service conditions on targeted systems.
+Solution
+Apply appropriate updates as mentioned:
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-2-released/
+Vendor Information
+GitLab
+https://docs.gitlab.com/releases/patches/
+References
+GitLab
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-2-released/
+CVE Name
+CVE-2026-6552
+CVE-2026-10087
+CVE-2026-7250
+CVE-2026-8589
+CVE-2026-1500
+CVE-2026-6269
+CVE-2026-9204
+CVE-2026-10733
+CVE-2026-6277
+CVE-2026-6976
+CVE-2026-3553
+CVE-2026-9694
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-15 10:32:54
