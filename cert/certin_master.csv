@@ -12773,3 +12773,205 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-16 09:35:24
+533a9d85d4ebdd2f,CERT-In Vulnerability Note  CIVN-2026-0316,"June 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0316,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0316
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:June      16, 2026
+Severity Rating: CRITICAL
+Software Affected
+Google Chrome versions prior to 149.0.7827.102/103 for Windows and Mac
+Google Chrome versions prior to 149.0.7827.102 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restriction, or cause Denial-of-Service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, unauthorized access to sensitive data, disruption of services, privilege escalation.
+Impact Assessment:
+Potential for system compromise or service disruption.
+Description
+Google Chrome is a popular internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.
+Multiple vulnerabilities exist in Google Chrome due to use-after-free (UAF) vulnerabilities, out-of-bounds read and write, integer overflow, type confusion, insufficient validation of untrusted input, race conditions, uninitialized memory usage, Out of bounds memory access, inappropriate implementation, object lifecycle issues, and insufficient policy enforcement across multiple components including Ozone, File Input, Aura, TabStrip, Bluetooth, Gamepad, Autofill, Views, Printing, Compositing, V8, GPU, Network, Extensions, CameraCapture, ServiceWorker, Payments, Skia, Dawn, WebRTC, Media, Codecs, PDF, Navigation, Guest View, SVG, Passwords, Plugins, and others. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restriction, or cause Denial-of-Service (DoS) condition on the targeted system.
+Note: This vulnerability (CVE-2026-11645) is being actively exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0153744567.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0153744567.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0153744567.html
+CVE Name
+CVE-2026-11628
+CVE-2026-11629
+CVE-2026-11630
+CVE-2026-11631
+CVE-2026-11632
+CVE-2026-11633
+CVE-2026-11634
+CVE-2026-11635
+CVE-2026-11636
+CVE-2026-11637
+CVE-2026-11638
+CVE-2026-11639
+CVE-2026-11640
+CVE-2026-11641
+CVE-2026-11642
+CVE-2026-11643
+CVE-2026-11644
+CVE-2026-11645
+CVE-2026-11646
+CVE-2026-11647
+CVE-2026-11648
+CVE-2026-11649
+CVE-2026-11650
+CVE-2026-11651
+CVE-2026-11652
+CVE-2026-11653
+CVE-2026-11654
+CVE-2026-11655
+CVE-2026-11656
+CVE-2026-11657
+CVE-2026-11658
+CVE-2026-11659
+CVE-2026-11660
+CVE-2026-11661
+CVE-2026-11662
+CVE-2026-11663
+CVE-2026-11664
+CVE-2026-11665
+CVE-2026-11666
+CVE-2026-11667
+CVE-2026-11668
+CVE-2026-11669
+CVE-2026-11670
+CVE-2026-11671
+CVE-2026-11672
+CVE-2026-11673
+CVE-2026-11674
+CVE-2026-11675
+CVE-2026-11676
+CVE-2026-11677
+CVE-2026-11678
+CVE-2026-11679
+CVE-2026-11680
+CVE-2026-11681
+CVE-2026-11682
+CVE-2026-11683
+CVE-2026-11684
+CVE-2026-11685
+CVE-2026-11686
+CVE-2026-11687
+CVE-2026-11688
+CVE-2026-11689
+CVE-2026-11690
+CVE-2026-11691
+CVE-2026-11692
+CVE-2026-11693
+CVE-2026-11694
+CVE-2026-11695
+CVE-2026-11696
+CVE-2026-11697
+CVE-2026-11698
+CVE-2026-11699
+CVE-2026-11700
+CVE-2026-11701
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-16 12:28:47
+516a8b001d2b409c,CERT-In Vulnerability Note  CIVN-2026-0315,"June 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0315,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0315
+Remote Code Execution Vulnerability in Veeam Backup & Replication
+Original Issue Date:June      16, 2026
+Severity Rating: CRITICAL
+Software Affected
+Veeam Backup & Replication 12.3.2.4465 and all earlier Version 12 builds.
+Overview
+A vulnerability has been reported in Veeam Backup & Replication which could be exploited by an authenticated domain user to execute arbitrary code on the targeted system.
+Target Audience:
+Enterprises and large Organizations, cloud service providers (CSPs), and backup administrators utilizing domain-joined Veeam Backup & Replication systems.
+Risk Assessment:
+Critical risk of remote code execution (RCE) resulting in potential compromise of backup infrastructure.
+Impact Assessment:
+Unauthorized code execution, backup data deletion or modification, and potential domain lateral movement.
+Description
+Veeam Backup & Replication is a data protection solution that provides backup, recovery, and replication capabilities.
+This vulnerability exists in Veeam Backup & Replication and can be exploited by an authenticated domain user to achieve Remote Code Execution (RCE) on the targeted backup server.
+Successful exploitation of this vulnerability could allow an authenticated attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate software updates as mentioned:
+https://www.veeam.com/kb4869
+Vendor Information
+Veeam
+https://www.veeam.com/kb4869
+References
+https://www.veeam.com/kb4869
+CVE Name
+CVE-2026-44963
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-16 12:28:47
+824ae763be6df9f1,CERT-In Vulnerability Note  CIVN-2026-0314,"June 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0314,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0314
+OS command injection vulnerability in Fortinet's sandbox products
+Original Issue Date:June      16, 2026
+Severity Rating: CRITICAL
+Software Affected
+FortiSandbox versions 5.0.0 through 5.0.5
+FortiSandbox versions 4.4.0 through 4.4.8
+FortiSandbox Cloud versions 5.0.4 through 5.0.5
+FortiSandbox PaaS versions 5.0.4 through 5.0.5
+Overview
+A vulnerability has been reported in FortiSandbox products that could allow a remote attacker to perform OS command injection on the targeted systems.
+Target Audience:
+All end-user Individuals using Fortinet Products.
+Risk Assessment:
+High risk of remote code execution on affected systems.
+Impact Assessment:
+High risk of unauthorized code or commands to access sensitive information, escalation of privilege and disruption of services.
+Description
+Fortinet FortiSandbox is an advanced threat detection solution that isolates and analyses suspicious files and URLs in a secure sandbox environment to identify zero-day and targeted attacks.
+This vulnerability exists in Fortinet sandbox products cause unauthenticated OS command injection vulnerability due to improper input validation. A remote attacker can exploit these using specially crafted HTTP requests to execute arbitrary commands on the targeted system.
+Successful exploitation of this vulnerability could allow remote code execution, system compromise, data exposure, and service disruption.
+Solution
+Apply appropriate Updates as mentioned in the Vendor advisory:
+https://www.fortiguard.com/psirt/FG-IR-26-141
+Vendor Information
+Fortinet
+https://www.fortiguard.com/psirt
+References
+https://www.fortiguard.com/psirt/FG-IR-26-141
+CVE Name
+CVE-2026-25089
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-16 12:28:47
