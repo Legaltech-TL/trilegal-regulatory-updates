@@ -12975,3 +12975,111 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-16 12:28:47
+15d73ff16efc97d3,CERT-In Vulnerability Note  CIVN-2026-0318,"June 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0318,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0318
+Arbitrary File Write Vulnerability in Cisco Catalyst SD-WAN Manager
+Original Issue Date:June      17, 2026
+Severity Rating: MEDIUM
+Software Affected
+Cisco Catalyst SD-WAN release prior to 20.9.9.2
+Cisco Catalyst SD-WAN release prior to 20.12.7.2
+Cisco Catalyst SD-WAN release prior to 20.15.4.5
+Cisco Catalyst SD-WAN release prior to 20.15.5.3
+Cisco Catalyst SD-WAN release prior to 20.18.3.1
+Cisco Catalyst SD-WAN release prior to 26.1.1.2
+Overview
+A vulnerability has been reported in Cisco Catalyst SD-WAN Manager, which may allow an authenticated remote attacker to create or overwrite arbitrary files on the affected system.
+Target Audience:
+All end-user organizations and individuals using Cisco Catalyst SD-WAN Manager.
+Risk Assessment:
+Risk of unauthorized file creation or modification and disruption of services.
+Impact Assessment:
+Potential for privilege escalation and compromise of system integrity.
+Description
+Cisco Catalyst SD-WAN Manager (formerly Cisco SD-WAN vManage) is a centralized network management platform used to provision, monitor, and manage Cisco SD-WAN deployments.
+A vulnerability exists in the web-based management interface of Cisco Catalyst SD-WAN Manager due to improper validation of user-supplied input. An authenticated remote attacker could exploit this vulnerability by sending crafted HTTP requests to an affected API endpoint of the affected system.
+Successful exploitation of this vulnerability could allow authenticated remote attacker to create or overwrite arbitrary files on the underlying file system of the affected device, resulting in privilege escalation including root.
+Solution
+Apply appropriate security updates and mitigations as mentioned in the vendor advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ
+Vendor Information
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ
+CVE Name
+CVE-2026-20262
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-17 12:07:23
+cf116701b5f541b9,CERT-In Vulnerability Note  CIVN-2026-0317,"June 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0317,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0317
+Multiple Vulnerabilities in Drupal
+Original Issue Date:June      17, 2026
+Severity Rating: HIGH
+Software Affected
+Tagify module versions prior to 1.2.52
+Examples for Developers versions prior to 4.0.6
+Mother May I module (all versions)
+Composer module for Drupal (all versions)
+Brute force attack protection module (all versions)
+Overview
+Multiple vulnerabilities have been reported in Drupal modules. which could allow attackers to bypass security restrictions, access sensitive files, disclose sensitive information and perform cross site scripting attacks on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Drupal modules.
+Risk Assessment:
+Risk of cross site scripting attacks, unauthorized access.
+Impact Assessment:
+Potential for data theft, unauthorized access to sensitive information and potential compromise of system.
+Description
+Drupal is an open-source Content Management System (CMS) which allows individuals and organizations to create, manage and maintain websites and web applications.
+Multiple vulnerabilities exist in Drupal module due to improper sanitization of user-supplied input, inadequate access controls, and unresolved security issues in unsupported projects.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, disclose sensitive information, and perform cross site scripting attacks on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.drupal.org/sa-contrib-2026-043
+https://www.drupal.org/sa-contrib-2026-044
+https://www.drupal.org/sa-contrib-2026-045
+https://www.drupal.org/sa-contrib-2026-046
+https://www.drupal.org/sa-contrib-2026-047
+Vendor Information
+Drupal
+https://www.drupal.org/sa-contrib-2026-043
+https://www.drupal.org/sa-contrib-2026-044
+https://www.drupal.org/sa-contrib-2026-045
+https://www.drupal.org/sa-contrib-2026-046
+https://www.drupal.org/sa-contrib-2026-047
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-043
+https://www.drupal.org/sa-contrib-2026-044
+https://www.drupal.org/sa-contrib-2026-045
+https://www.drupal.org/sa-contrib-2026-046
+https://www.drupal.org/sa-contrib-2026-047
+CVE Name
+CVE-2026-11908
+CVE-2026-11909
+CVE-2026-11913
+CVE-2026-11914
+CVE-2026-11915
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-17 12:07:23
