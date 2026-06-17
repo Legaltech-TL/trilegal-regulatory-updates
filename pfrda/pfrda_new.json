@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-17T11:02:40.038325",
+  "generated_at": "2026-06-17T12:52:25.751610",
   "count": 2,
   "items": [
     {
-      "id": "1bb14482e3de5d43",
-      "title": "Compliance towards Government Entity Criteria...",
+      "id": "6531965bc8d39f22",
+      "title": "Introduction of StAR NPS platform...",
       "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/153574/Charge+structure+of+Points+of+Presence+%28PoP%29+for+Govt+Entity+availing+PoP+services.pdf",
-      "category": "CIRCULAR",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Audit+of+Points+of+Presence+performing+activities+of+NPS-Lite+%28PoPs-NPS-Lite%29.pdf",
+      "category": "NOTIFICATION",
       "scraped_at": "06/17/2026"
     },
     {
-      "id": "5b3bb549aa08469d",
-      "title": "Compliance towards Government Entity Criteria and applicability of Flat charge structure for availing PoP services by such entity(s)\nAnnuity Service Provider Central Recordkeeping Agency Custodian NPS Trust Pension Fund Point of Presence\nRef: PFRDA/2026/35/P&DCORP/01\nIssue Date: 17-06-2026",
-      "publish_date": "06/17/2026",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/153574/Charge+structure+of+Points+of+Presence+%28PoP%29+for+Govt+Entity+availing+PoP+services.pdf",
-      "category": "CIRCULAR",
+      "id": "cd08dcd87aec55b0",
+      "title": "Audit of Points of Presence...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Audit+of+Points+of+Presence+performing+activities+of+NPS-Lite+%28PoPs-NPS-Lite%29.pdf",
+      "category": "ENFORCEMENT_ORDER",
       "scraped_at": "06/17/2026"
     }
   ]
