@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-06-17T08:20:25.805836",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-06-17T11:02:40.038325",
+  "count": 2,
+  "items": [
+    {
+      "id": "1bb14482e3de5d43",
+      "title": "Compliance towards Government Entity Criteria...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/153574/Charge+structure+of+Points+of+Presence+%28PoP%29+for+Govt+Entity+availing+PoP+services.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "06/17/2026"
+    },
+    {
+      "id": "5b3bb549aa08469d",
+      "title": "Compliance towards Government Entity Criteria and applicability of Flat charge structure for availing PoP services by such entity(s)\nAnnuity Service Provider Central Recordkeeping Agency Custodian NPS Trust Pension Fund Point of Presence\nRef: PFRDA/2026/35/P&DCORP/01\nIssue Date: 17-06-2026",
+      "publish_date": "06/17/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/153574/Charge+structure+of+Points+of+Presence+%28PoP%29+for+Govt+Entity+availing+PoP+services.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "06/17/2026"
+    }
+  ]
 }
