@@ -13083,3 +13083,57 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-17 12:07:23
+9f21fe398fe59a68,CERT-In Advisory   CIAD-2026-0032,"June 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0032,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0032
+Multiple Vulnerabilities in Oracle Products
+Original Issue Date: June      18, 2026
+Severity Rating: Critical
+Software Affected
+Oracle Communications
+Oracle E-Business Suite
+Oracle Enterprise Manager
+Oracle Fusion Middleware
+Oracle JD Edwards EnterpriseOne
+Oracle MySQL
+Oracle PeopleSoft
+Oracle Siebel CRM
+Oracle Supply Chain Products
+Oracle Solaris
+Oracle VM VirtualBox
+For complete list of affected products refer to the oracle advisory:
+https://www.oracle.com/security-alerts/cspujun2026.html
+Overview
+Multiple vulnerabilities have been reported in various Oracle products which could allow a remote attacker to execute arbitrary code, gain elevated access, trigger denial of service condition, gain unauthorized access to sensitive information, manipulate data and bypass security restriction on the targeted system.
+Target Audience:
+Individuals and organisational users of the above-mentioned Oracle products.
+Risk Assessment:
+High risk of arbitrary code execution, unauthorized access, denial of service, data manipulation, information disclosure and privilege escalation.
+Impact Assessment:
+Potential for unauthorized access to sensitive information, denial of service, data manipulation, privilege escalation and full system compromise.
+Description
+Oracle products are used for several applications including enterprise-level data management, cloud solutions, software development, and business applications. They are employed across a wide range of sectors, including finance, healthcare, manufacturing, government, and retail, among others.
+Multiple vulnerabilities have been reported in various components of Oracle products.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain elevated access, trigger denial of service condition, gain unauthorized access to sensitive information, manipulate data and bypass security restrictions on the targeted system.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the oracle advisory:
+https://www.oracle.com/security-alerts/cspujun2026.html
+Solution
+Apply the security updates released by Microsoft:
+https://www.oracle.com/security-alerts/cspujun2026.html
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/cspujun2026.html
+References
+Oracle
+https://www.oracle.com/security-alerts/cspujun2026.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-18 11:39:11
