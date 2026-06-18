@@ -1,44 +1,12 @@
 {
-  "generated_at": "2026-06-18T08:19:39.514264",
-  "count": 5,
+  "generated_at": "2026-06-18T10:25:59.112736",
+  "count": 1,
   "items": [
     {
-      "id": "d21a3bd3db2990fb",
-      "title": "Audit of Points of Presence...",
+      "id": "9b018962ea017899",
+      "title": "Tender Document (Hindi) : ENGAGEMENT...",
       "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Circular-Audit+of+PoPs-APY+-17.06.2026.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "06/18/2026"
-    },
-    {
-      "id": "cb4e9bccd069b6ce",
-      "title": "Audit of Points of Presence...",
-      "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Circular-Audit+of+PoPs-NPS-17.06.2026.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "06/18/2026"
-    },
-    {
-      "id": "42c0f9aff51780d3",
-      "title": "Audit of Points of Presence performing activities of NPS-Lite (PoPs-NPS-Lite)\nCentral Recordkeeping Agency Point of Presence\nRef: PFRDA/2026/38/SUP-POP/07\nIssue Date: 17-06-2026",
-      "publish_date": "06/17/2026",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Circular-Audit+of+PoPs-+NPS+lite-17.06.2026.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "06/18/2026"
-    },
-    {
-      "id": "4d55200c19fa910e",
-      "title": "Audit of Points of Presence performing activities of Atal Pension Yojana (PoPs-APY)\nCentral Recordkeeping Agency Point of Presence\nRef: PFRDA/2026/37/SUP-POP/06\nIssue Date: 17-06-2026",
-      "publish_date": "06/17/2026",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Circular-Audit+of+PoPs-APY+-17.06.2026.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "06/18/2026"
-    },
-    {
-      "id": "c1f1e6c06f2ff213",
-      "title": "Audit of Points of Presence (PoPs) performing activities of National Pension System (NPS) including NPS Vatsalya (PoPs \u2013 NPS)\nCentral Recordkeeping Agency Point of Presence\nRef: PFRDA/2026/36/SUP-POP/05\nIssue Date: 17-06-2026",
-      "publish_date": "06/17/2026",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Circular-Audit+of+PoPs-NPS-17.06.2026.pdf",
+      "pdf_url": "",
       "category": "CIRCULAR",
       "scraped_at": "06/18/2026"
     }
