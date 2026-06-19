@@ -13279,3 +13279,52 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-18 14:07:38
+40247c84979927ce,CERT-In Vulnerability Note  CIVN-2026-0320,"June 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0320,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0320
+Multiple Vulnerabilities in Jenkins
+Original Issue Date:June      19, 2026
+Severity Rating: HIGH
+Software Affected
+Jenkins weekly versions 2.567 and prior
+Jenkins LTS versions 2.555.2 and prior
+Overview
+Multiple vulnerabilities have been reported in Jenkins, which could allow an attacker to achieve remote code execution, impersonate users, conduct phishing attacks via open redirects, bypass security restrictions, disclose sensitive information, and perform cross-site scripting attacks on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Jenkins.
+Risk Assessment:
+High risk of remote code execution, security restriction bypass, information disclosure, and cross-site scripting.
+Impact Assessment:
+Potential for remote code execution, security restriction bypass, information disclosure, and cross-site scripting.
+Description
+Jenkins is an open-source automation server that helps teams automatically build, test, and deploy software as part of a CI/CD pipeline.
+Multiple vulnerabilities exist in Jenkins due to improper deserialization restrictions, insufficient input validation in URL redirection logic, missing permission checks in various HTTP endpoints, improper handling of user-supplied offline cause descriptions, and insecure processing of config.xml submissions containing secrets. An attacker could exploit these vulnerabilities to deserialize arbitrary objects, impersonate users, perform unauthorized actions, read sensitive files, conduct phishing attacks through open redirects, inject malicious scripts, access restricted information, cancel queue items without proper authorization, and expose plaintext secrets on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to achieve remote code execution, impersonate users, conduct phishing attacks via open redirects, bypass security restrictions, disclose sensitive information, and perform cross-site scripting attacks on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.jenkins.io/security/advisory/2026-06-10/
+Vendor Information
+Jenkins
+https://www.jenkins.io/
+References
+https://www.jenkins.io/security/advisory/2026-06-10/
+CVE Name
+CVE-2026-53435
+CVE-2026-53436
+CVE-2026-53437
+CVE-2026-53438
+CVE-2026-53439
+CVE-2026-53440
+CVE-2026-53441
+CVE-2026-53442
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-19 11:53:38
