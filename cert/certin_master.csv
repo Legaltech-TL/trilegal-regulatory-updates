@@ -13328,3 +13328,57 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-19 11:53:38
+8dc1fc87c03e0be1,CERT-In Vulnerability Note  CIVN-2026-0321,"June 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0321,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0321
+Multiple Vulnerabilities in Schneider Electric
+Original Issue Date:June      19, 2026
+Severity Rating: HIGH
+Software Affected
+Schneider Electric EcoStruxure¿ IT Data Center Expert (Formerly known as StruxureWare Data Center Expert) Version 9.1.1 and prior
+Schneider Electric EasyLogic T150 (formerly Saitel DR) Remote Terminal Unit & Controller Version 11.06.31 and prior
+Schneider Electric Saitel DP Remote Terminal Unit & Controller Version 11.06.37 and prior
+Schneider Electric PowerLogic¿ P7 Version V02.003.001.000 and prior
+Overview
+Multiple vulnerabilities have been reported in Schneider Electric products, which could be exploited by an attacker to obtain sensitive information, gain unauthorized access, execute arbitrary OS commands, or cause Denial of Service (DoS) conditions on the targeted system.
+Target Audience:
+All organizations and individuals using the affected Schneider Electric products.
+Risk Assessment:
+High risk of unauthorized access, exposure of sensitive information, service unavailability.
+Impact Assessment:
+Potential for sensitive information disclosure, disruption of services, system compromise.
+Description
+Schneider Electric develops products and solutions for energy management and industrial automation, used across various sectors including residential, commercial, and industrial applications.
+Multiple vulnerabilities have been reported in Schneider Electric products due to improper restriction of XML external entity reference, insufficiently protected credentials, incorrect permission assignment for critical resource, NULL pointer dereference, OS command injection, and reachable assertion issues.
+Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive information, gain unauthorized access, execute arbitrary OS commands, or cause Denial of Service (DoS) conditions on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in:
+https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-160-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-160-01.pdf
+https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-160-02&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-160-02.pdf
+https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-160-03&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-160-03.pdf
+Vendor Information
+Schneider Electric
+https://www.se.com/ww/en/work/support/cybersecurity/security-notifications/
+References
+Schneider Electric
+https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-160-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-160-01.pdf
+https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-160-02&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-160-02.pdf
+https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-160-03&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-160-03.pdf
+CVE Name
+CVE-2026-8045
+CVE-2026-9650
+CVE-2026-9651
+CVE-2026-9716
+CVE-2026-9717
+CVE-2026-9718
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-19 13:59:42
