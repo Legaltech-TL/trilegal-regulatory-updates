@@ -1,22 +1,3 @@
 [
-  {
-    "id":"66f76bdf188e77dc",
-    "category":"public_notices",
-    "sno":"1",
-    "title":"List of Debarment of Principal Investigators by CLA",
-    "date":"2026-Jun-12",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQzOTM=",
-    "filename":"List_of_Debarment_of_Principal_Investigators_by",
-    "scraped_time":"2026-06-18T15:00:47.122970"
-  },
-  {
-    "id":"2774f4c16eaddf47",
-    "category":"public_notices",
-    "sno":"2",
-    "title":"List of Suspended Ethics Committee by CLA",
-    "date":"2026-Jun-12",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQzOTI=",
-    "filename":"List_of_Suspended_Ethics_Committee_by_CLA",
-    "scraped_time":"2026-06-18T15:00:47.122970"
-  }
+
 ]
