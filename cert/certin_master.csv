@@ -13382,3 +13382,85 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-19 13:59:42
+114896f4906d3eb0,CERT-In Vulnerability Note  CIVN-2026-0323,"June 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0323,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0323
+Privilege Escalation Vulnerability in LiteSpeed cPanel Plugin
+Original Issue Date:June      22, 2026
+Severity Rating: CRITICAL
+Software Affected
+LiteSpeed cPanel Plugin versions prior to 2.4.8.
+Overview
+A vulnerability has been reported in LiteSpeed cPanel Plugin which could allow an attacker to gain elevated privileges on the targeted system.
+Target Audience:
+Web hosting providers, server administrators, and cPanel users managing LiteSpeed-powered shared hosting environments.
+Risk Assessment:
+High risk of privilege escalation, full server compromise.
+Impact Assessment:
+Potential for root-level access, server compromise, disruption of hosted services.
+Description
+LiteSpeed User-End cPanel Plugin is a management plugin that allows users to manage LiteSpeed Web Server features directly through the cPanel interface.
+A vulnerability exists in the LiteSpeed cPanel Plugin due to improper handling of user-supplied symlinks links. An attacker with FTP access or web shell access on a shared hosting server running CloudLinux/CageFS could exploit this vulnerability to bypass intended security restrictions.
+Successful exploitation of this vulnerability could allow an attacker to gain elevated privileges on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://blog.litespeedtech.com/2026/06/01/security-update-for-litespeed-cpanel-plugin-2/
+Vendor Information
+LiteSpeed
+https://blog.litespeedtech.com/2026/06/01/security-update-for-litespeed-cpanel-plugin-2/
+References
+BleepingComputer
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/
+CVE Name
+CVE-2026-54420
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-22 10:14:50
+e853a5517e9ddd3d,CERT-In Vulnerability Note  CIVN-2026-0322,"June 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0322,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0322
+Remote Code Execution Vulnerability in Joomla Content Editor (JCE) extension
+Original Issue Date:June      22, 2026
+Severity Rating: HIGH
+Software Affected
+Joomla Content Editor extension versions prior to 2.9.99.5
+Overview
+A vulnerability has been reported in Joomla Content Editor Extension, which could allow an attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Joomla Content Editor (JCE) extension.
+Risk Assessment:
+Risk of remote code execution.
+Impact Assessment:
+Unauthorized access of sensitive data, data manipulation and complete system compromise.
+Description
+Joomla Content Editor (JCE) Extension is a popular editor extension for Joomla that provides advanced tools for creating and managing website content. It enhances the default Joomla editor with features such as media management, file handling, and rich text editing.
+A vulnerability has been reported in Joomla Content Editor Extension due to improper access control within the editor profile management functionality. An unauthenticated attacker could exploit this vulnerability by uploading editor profiles and execute arbitrary PHP code on the targeted system.
+Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code on the targeted system, potentially resulting in complete system compromise.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.joomlacontenteditor.net/support/changelog/editor
+https://www.joomlacontenteditor.net/news/jce-security-update-and-a-free-patch-for-older-sites
+References
+Joomla
+https://www.joomlacontenteditor.net/support/changelog/editor
+CVE Name
+CVE-2026-48907
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-22 10:14:50
