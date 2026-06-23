@@ -13464,3 +13464,127 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-22 10:14:50
+1d7f68ed83601820,CERT-In Vulnerability Note  CIVN-2026-0331,"June 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0331,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0331
+Information Disclosure Vulnerability in M365 Copilot
+Original Issue Date:June      23, 2026
+Severity Rating: CRITICAL
+Software Affected
+Microsoft 365 Copilot
+Overview
+A vulnerability has been reported in Microsoft 365 Copilot (M365 Copilot) which could allow an unauthorized attacker to disclose sensitive information over a network.
+Target Audience:
+Organizations and individuals using Microsoft 365 Copilot.
+Risk Assessment:
+High risk of unauthorized access of data and data manipulation.
+Impact Assessment:
+Exposure of sensitive information, unauthorized access to data, and compromise of confidentiality.
+Description
+Microsoft 365 Copilot (M365 Copilot) is an AI assistant integrated into Microsoft 365 apps like Word, Excel, PowerPoint, Outlook, and Teams to help users generate content, analyze data, and summarize information.
+A vulnerability exists in Microsoft 365 Copilot (M365 Copilot) due to missing authentication for a critical function. An unauthorized attacker could exploit this vulnerability over a network.
+Successful exploitation of the vulnerability could allow an unauthorized attacker to disclose sensitive information over a network.
+Solution
+Apply appropriate software updates as mentioned:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54130
+Vendor Information
+Microsoft
+https://www.microsoft.com/en-in/
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54130
+CVE Name
+CVE-2026-54130
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-23 10:49:25
+89c4703100fde573,CERT-In Vulnerability Note  CIVN-2026-0330,"June 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0330,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0330
+Elevation of Privilege Vulnerability in Microsoft Entra ID (Microsoft Azure Active Directory)
+Original Issue Date:June      23, 2026
+Severity Rating: CRITICAL
+Software Affected
+Azure Active Directory
+Overview
+A vulnerability has been reported in Microsoft Entra ID (Microsoft Azure Active Directory) which could allow an unauthorized attacker to gain elevate privileges over a network.
+Target Audience:
+All organizations and individuals using affected Microsoft Azure Active Directory.
+Risk Assessment:
+High risk to unauthorized access, information disclosure and system compromise.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the affected system.
+Description
+Microsoft Azure Active Directory (Azure AD), now known as Microsoft Entra ID, is a cloud-based identity and access management service that helps organizations securely manage user authentication and access to applications and resources.
+A vulnerability exists in the Microsoft Entra ID (Microsoft Azure Active Directory) due to Improper authentication.
+Successful exploitation of the vulnerability could allow an unauthorized attacker to gain elevate privileges over a network.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45480
+Vendor Information
+Microsoft
+https://www.microsoft.com/en-in/
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45480
+CVE Name
+CVE-2026-45480
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-23 10:49:25
+bacaefcffaa8223f,CERT-In Vulnerability Note  CIVN-2026-0329,"June 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0329,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0329
+Denial of Service Vulnerability in Zimbra Collaboration Suite
+Original Issue Date:June      23, 2026
+Severity Rating: HIGH
+Software Affected
+Zimbra Collaboration Suite (ZCS) versions prior to 10.1.18.
+Overview
+A vulnerability has been reported in Zimbra Collaboration Suite (ZCS) which could allow an unauthenticated remote attacker to cause a denial-of-service (DoS) condition on the targeted system.
+Target Audience:
+Individuals and organizations using Zimbra Collaboration Suite (ZCS) for enterprise email and communication systems.
+Risk Assessment:
+High risk of unauthenticated remote Denial of Service (DoS) attacks.
+Impact Assessment:
+Service disruption, resource exhaustion, web proxy crash, and temporary unavailability of the enterprise communication stack.
+Description
+Zimbra Collaboration Suite (ZCS) is an enterprise email and collaboration platform that provides email, calendaring, contacts, file sharing and messaging services.
+This vulnerability exists in Zimbra due to flawed resource handling mechanisms. An unauthenticated remote attacker can exploit this vulnerability by sending specially crafted malicious HTTP requests to the affected system.
+Successful exploitation of this vulnerability could allow a remote attacker to cause a Denial of Service (DoS) condition on the targeted system.
+Solution
+Apply appropriate software updates as mentioned:
+https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.18#Security_Fixes
+Vendor Information
+Zimbra
+https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.18#Security_Fixes
+References
+https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.18#Security_Fixes
+CVE Name
+CVE-2026-49975
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-23 10:49:25
