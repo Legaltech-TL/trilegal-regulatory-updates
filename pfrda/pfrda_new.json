@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-06-23T06:39:10.529787",
-  "count": 2,
-  "items": [
-    {
-      "id": "2e873b8978b29654",
-      "title": "Corrigendum (English): ENGAGEMENT OF TRAINING...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "06/23/2026"
-    },
-    {
-      "id": "01fa94353efcdd6d",
-      "title": "Corrigendum (Hindi): ENGAGEMENT OF TRAINING...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "06/23/2026"
-    }
-  ]
+  "generated_at": "2026-06-23T09:44:54.772136",
+  "count": 0,
+  "items": []
 }
