@@ -1,3 +1,16 @@
 {
-  "new_items": []
+  "new_items": [
+    {
+      "faq_id": "178",
+      "title_text": "Jun 23, 2026 Swap Facility for FCNR (B) deposits, External Commercial Borrowings and Overseas Foreign Currency Borrowings",
+      "published_date": "2026-06-23",
+      "category": "Foreign Exchange Management",
+      "url": "https://rbi.org.in/Scripts/FAQDisplay.aspx?Id=178",
+      "pdf_link": "https://rbidocs.rbi.org.in/rdocs/faqs/PDFs/SWAP23062026.PDF",
+      "last_updated": "2026-06-23T13:57:51.576162",
+      "full_text": "",
+      "pdf_filename": "178_jun_23_2026_swap_facility_for_fcnr_b_deposits_external_commercial_borrowings_and_overseas_foreign_currency_borrowings.PDF",
+      "scraped_at": "2026-06-23T13:57:51.576162"
+    }
+  ]
 }
