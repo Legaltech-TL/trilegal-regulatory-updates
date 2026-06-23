@@ -13588,3 +13588,151 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-23 10:49:25
+97ff0d15e1d6c2dc,CERT-In Vulnerability Note  CIVN-2026-0333,"June 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0333,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0333
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:June      23, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 149.0.7827.155 for Linux
+Google Chrome versions prior to 149.0.7827.155/156 for Windows and Mac
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restrictions, perform spoofing attacks or cause denial of service (DoS) conditions on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution, unauthorized access to sensitive data, memory corruption and security bypass.
+Impact Assessment:
+Potential for system compromise, sensitive information disclosure, privilege escalation or service disruption.
+Description
+Google Chrome is a popular internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.
+Multiple vulnerabilities exist in Google Chrome due to Use after free in WebShare, Digital Credentials, File Input, Passwords, Web Authentication, Extensions, Chromoting, Downloads, Tab Strip, Media and Browser; Heap buffer overflow in WebRTC; Out of bounds read in Chromoting and WebRTC; Insufficient data validation in Passwords and Extensions; Insufficient validation of untrusted input in Input, Extensions and Metrics; Insufficient policy enforcement in File System Access; Inappropriate implementation in WebView, Media, Serial, Views and Updater; Incorrect security UI in Passwords; Race condition in Safe Browsing; and Uninitialized Use in GPU. A remote attacker could exploit these vulnerabilities by convincing a victim to open a specially crafted web request.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, obtain sensitive information, bypass security restrictions or cause denial of service (DoS) conditions on the targeted system.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/
+References
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html
+CVE Name
+CVE-2026-12437
+CVE-2026-12438
+CVE-2026-12439
+CVE-2026-12440
+CVE-2026-12441
+CVE-2026-12442
+CVE-2026-12443
+CVE-2026-12444
+CVE-2026-12445
+CVE-2026-12446
+CVE-2026-12447
+CVE-2026-12448
+CVE-2026-12449
+CVE-2026-12450
+CVE-2026-12451
+CVE-2026-12452
+CVE-2026-12453
+CVE-2026-12454
+CVE-2026-12455
+CVE-2026-12456
+CVE-2026-12457
+CVE-2026-12458
+CVE-2026-12459
+CVE-2026-12460
+CVE-2026-12461
+CVE-2026-12462
+CVE-2026-12463
+CVE-2026-12464
+CVE-2026-12465
+CVE-2026-12466
+CVE-2026-12467
+CVE-2026-12468
+CVE-2026-12469
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-23 13:41:56
+b00d5b847d0d8eb5,CERT-In Vulnerability Note  CIVN-2026-0332,"June 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0332,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0332
+Multiple Vulnerabilities in Splunk Products
+Original Issue Date:June      23, 2026
+Severity Rating: CRITICAL
+Software Affected
+Splunk Enterprise
+Versions prior to 10.0.7
+Versions prior to 10.2.4
+Versions prior to 9.3.13
+Versions prior to 9.4.12
+Splunk Cloud Platform
+Versions prior to 9.3.2411.132
+Versions prior to 10.0.2503.14
+Versions prior to 10.1.2507.23
+Versions prior to 10.2.2510.15
+Versions prior to 10.3.2512.13
+Versions prior to 10.4.2604.3
+Overview
+Multiple vulnerabilities have been reported in Splunk products, which could allow an unauthenticated or low privileged attacker to create or truncate arbitrary files, perform server-side request forgery (SSRF), execute malicious scripts in a victim¿s browser, disclose sensitive information, bypass access controls, and exfiltrate sensitive data from the targeted system.
+Target Audience:
+All organizations and individuals using Splunk products.
+Risk Assessment:
+Critical risk of unauthorized system access, remote code execution, data exfiltration, privilege escalation, information disclosure, and compromise of the confidentiality, integrity, and availability of affected Splunk environments.
+Impact Assessment:
+Potential for arbitrary file creation and truncation, server-side request forgery, information disclosure, unauthorized ownership reassignment, execution of malicious scripts, and sensitive data exfiltration.
+Description
+Splunk is a platform used for searching, monitoring, and analyzing machine generated data in real time. It collects, indexes, and correlates large volumes of data generated by applications, servers, networks, and other infrastructure components.
+These vulnerabilities exist in Splunk products due to improper access control, insufficient authentication mechanisms, improper input validation and sanitization, inadequate URL and CSS validation, stored cross-site scripting (XSS) weaknesses, server-side request forgery (SSRF) conditions, and information disclosure flaws within affected components. An attacker could exploit these vulnerabilities by leveraging unauthenticated or low-privileged access, creating malicious dashboard content, manipulating saved search objects, or sending specially crafted requests to vulnerable components of the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to create or truncate arbitrary files, perform server-side requests to internal systems, execute malicious scripts in victim browsers, disclose sensitive information, bypass access controls, exfiltrate sensitive data, and compromise the confidentiality, integrity, and availability of affected systems.
+Solution
+Apply appropriate fixes issued by the vendor.
+https://advisory.splunk.com/advisories/SVD-2026-0603
+https://advisory.splunk.com/advisories/SVD-2026-0602
+https://advisory.splunk.com/advisories/SVD-2026-0604
+https://advisory.splunk.com/advisories/SVD-2026-0605
+https://advisory.splunk.com/advisories/SVD-2026-0606
+https://advisory.splunk.com/advisories/SVD-2026-0607
+https://advisory.splunk.com/advisories/SVD-2026-0608
+https://advisory.splunk.com/advisories/SVD-2026-0609
+Vendor Information
+Splunk
+https://www.splunk.com
+References
+Splunk
+https://advisory.splunk.com/advisories/SVD-2026-0603
+https://advisory.splunk.com/advisories/SVD-2026-0602
+https://advisory.splunk.com/advisories/SVD-2026-0604
+https://advisory.splunk.com/advisories/SVD-2026-0605
+https://advisory.splunk.com/advisories/SVD-2026-0606
+https://advisory.splunk.com/advisories/SVD-2026-0607
+https://advisory.splunk.com/advisories/SVD-2026-0608
+https://advisory.splunk.com/advisories/SVD-2026-0609
+CVE Name
+CVE-2026-20252
+CVE-2026-20253
+CVE-2026-20254
+CVE-2026-20255
+CVE-2026-20256
+CVE-2026-20257
+CVE-2026-20258
+CVE-2026-20259
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-23 13:41:56
