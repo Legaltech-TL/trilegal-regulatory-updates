@@ -13736,3 +13736,135 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-23 13:41:56
+c69881e02d36a6e7,CERT-In Vulnerability Note  CIVN-2026-0336,"June 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0336,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0336
+Use after free vulnerability in Samsung's KNOX security framework
+Original Issue Date:June      24, 2026
+Severity Rating: HIGH
+Software Affected
+Samsung Mobile Devices running software versions prior to SMR Jan-2026 Release 1 in Android 13, 14, 15, 16
+Overview
+A vulnerability has been reported in Samsung¿s KNOX security framework, which could allow a local attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Samsung devices with affected KNOX security framework.
+Risk Assessment:
+High risk of device compromise, unauthorized access, and security bypass.
+Impact Assessment:
+Potential for arbitrary code execution, device compromise, data theft, or unauthorized access.
+Description
+Samsung Knox is a security framework integrated into Samsung Galaxy devices that provides device protection and security management capabilities.
+This vulnerability exists due to a Use-After-Free condition in PROCA driver.
+Successful exploitation of this vulnerability could allow a local attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://security.samsungmobile.com/securityUpdate.smsb?year=2026&month=01
+Vendor Information
+Samsung
+https://security.samsungmobile.com/
+References
+SecurityWeek
+https://www.securityweek.com/eight-year-old-samsung-knox-flaw-exposed-millions-of-galaxy-devices-to-kernel-attacks/
+CVE Name
+CVE-2026-20971
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-24 10:35:41
+e3f3f19a559f2311,CERT-In Vulnerability Note  CIVN-2026-0335,"June 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0335,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0335
+Multiple Vulnerabilities in Shaped Plugin Products
+Original Issue Date:June      24, 2026
+Severity Rating: CRITICAL
+Software Affected
+Product Slider Pro for WooCommerce versions prior to 3.5.4
+Smart Post Show Pro versions prior to 4.0.2
+Real Testimonials Pro version 3.2.5
+Overview
+Multiple vulnerabilities have been reported in ShapedPlugin products which could allow an unauthenticated attacker to gain unauthorized access to the targeted system and grants full control of affected sites.
+Target Audience:
+All organizations and individuals using Shaped Plugin products.
+Risk Assessment:
+High risk of unauthorized access.
+Impact Assessment:
+Unauthorized data access and data exfiltration and compromise its confidentiality, integrity, and availability.
+Description
+Shaped Plugin develops WordPress and WooCommerce plugins that enhance website functionality, content presentation, product showcases, testimonials, and overall user experience.
+Multiple vulnerabilities exist in Shaped Plugin products due to an Improper Validation of Specified Quantity in Input vulnerability in Product Slider Pro for WooCommerce, which could allow the implantation of malicious software. An unauthenticated attacker could exploit these vulnerabilities by distributing compromised plugin updates containing malicious code through trusted update mechanisms.
+Successful exploitation of these vulnerabilities could allow an unauthenticated attacker to gain unauthorized access and deployment of a second-stage payload that exfiltrates credentials and other sensitive data and grants full control of affected sites.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://www.wordfence.com/blog/2026/06/psa-supply-chain-compromise-targets-shapedplugin-backdoored-pro-plugins-distributed-via-official-channels/
+Vendor Information
+Shaped Plugin
+https://shapedplugin.com/blog/
+References
+https://www.wordfence.com/blog/2026/06/psa-supply-chain-compromise-targets-shapedplugin-backdoored-pro-plugins-distributed-via-official-channels/
+CVE Name
+CVE-2026-10736
+CVE-2026-49777
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-24 10:35:41
+44f6741674507e10,CERT-In Vulnerability Note  CIVN-2026-0334,"June 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0334,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0334
+Multiple Vulnerabilities in Splunk Products
+Original Issue Date:June      24, 2026
+Severity Rating: CRITICAL
+Software Affected
+Splunk AI Toolkit versions prior to 5.7.4
+Overview
+Multiple vulnerabilities have been reported in Splunk products, which could allow a remote attacker to execute arbitrary OS commands and make outbounds requests over HTTP to an attacker-controlled server.
+Target Audience:
+All organizations and individuals using Splunk products.
+Risk Assessment:
+Potential for unauthorized access to sensitive information and data exfiltration.
+Impact Assessment:
+High risk of information disclosure, privilege misuse, and compromise of confidentiality and integrity.
+Description
+Splunk is a platform used for searching, monitoring, and analyzing machine-generated data in real time. It collects, indexes, and correlates large volumes of data generated by applications, servers, networks, and other infrastructure components.
+These vulnerabilities exist in Splunk products due to unsafe shell execution pattern in the btool configuration helper, which constructs operating system command strings from dynamic parameters without disabling shell interpretation and insecure default domain allowlist in the Splunk AI Toolkit, which does not restrict outbound AI agent requests to approved external domains.
+Successful exploitation of these vulnerabilities could allow a user with the Splunk ""admin"" role to execute arbitrary commands and a low-privileged user that does not hold the Splunk ""admin"" or ""power"" roles could make outbound request to attacker-controlled servers, which could allow for data exfiltration from the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://advisory.splunk.com/advisories/SVD-2026-0613
+https://advisory.splunk.com/advisories/SVD-2026-0614
+Vendor Information
+Splunk
+https://advisory.splunk.com/advisories/SVD-2026-0613
+https://advisory.splunk.com/advisories/SVD-2026-0614
+References
+Splunk
+https://advisory.splunk.com/advisories/SVD-2026-0613
+https://advisory.splunk.com/advisories/SVD-2026-0614
+CVE Name
+CVE-2026-20265
+CVE-2026-20266
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-24 10:35:41
