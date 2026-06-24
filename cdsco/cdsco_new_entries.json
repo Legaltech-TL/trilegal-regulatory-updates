@@ -1,3 +1,52 @@
 [
-
+  {
+    "id":"a158e16dab56de97",
+    "category":"public_notices",
+    "sno":"1",
+    "title":"Submission of Post Approval Changes Applications of Registration Certificate and Import Licence of Human Vaccines and Anti-sera through SUGAM Portal",
+    "date":"2026-Jun-24",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ0MDQ=",
+    "filename":"Submission_of_Post_Approval_Changes_Applications_of",
+    "scraped_time":"2026-06-24T14:22:12.029164"
+  },
+  {
+    "id":"410d8c7144bd2a0f",
+    "category":"public_notices",
+    "sno":"2",
+    "title":"Sale of In-Vitro Fertilization media, reagents and related consumables used in Assisted Reproductive Technology procedures",
+    "date":"2026-Jun-24",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ0MDE=",
+    "filename":"Sale_of_InVitro_Fertilization_media_reagents_and",
+    "scraped_time":"2026-06-24T14:22:12.029164"
+  },
+  {
+    "id":"c6fb4c65b6773fac",
+    "category":"circulars",
+    "sno":"1",
+    "title":"Regulation of Formulation intermediates such as Directly Compressible granules, Taste masked granules, Modified release granules \/ Pellets",
+    "date":"2026-Jun-24",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ0MDM=",
+    "filename":"Regulation_of_Formulation_intermediates_such_as_Directly",
+    "scraped_time":"2026-06-24T14:22:27.857091"
+  },
+  {
+    "id":"f4bd4d08f7290ee1",
+    "category":"circulars",
+    "sno":"2",
+    "title":"Submission of Post Approval Changes Applications of Registration Certificate and Import Licence of Human Vaccines and Anti-sera through SUGAM Portal",
+    "date":"2026-Jun-24",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ0MDI=",
+    "filename":"Submission_of_Post_Approval_Changes_Applications_of",
+    "scraped_time":"2026-06-24T14:22:27.857091"
+  },
+  {
+    "id":"940fb26c115b47dc",
+    "category":"circulars",
+    "sno":"3",
+    "title":"Sale of In-Vitro Fertilization media, reagents and related consumables used in Assisted Reproductive Technology procedures",
+    "date":"2026-Jun-24",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ0MDA=",
+    "filename":"Sale_of_InVitro_Fertilization_media_reagents_and",
+    "scraped_time":"2026-06-24T14:22:27.857091"
+  }
 ]
