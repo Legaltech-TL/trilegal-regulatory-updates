@@ -13868,3 +13868,179 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-24 10:35:41
+378acab0f69e25f5,CERT-In Vulnerability Note  CIVN-2026-0338,"June 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0338,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0338
+Multiple Vulnerabilities in Microsoft Edge
+Original Issue Date:June      24, 2026
+Severity Rating: CRITICAL
+Software Affected
+Microsoft Edge versions prior to 149.0.4022.53
+Overview
+Multiple vulnerabilities have been reported in Microsoft Edge which could allow a remote attacker to execute arbitrary code, gain elevated privileges, obtain sensitive information, bypass security restriction, or cause denial-of-service (DoS) condition on the targeted system.
+Target Audience:
+All end user organizations and individuals using Microsoft Edge.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, system compromise, service unavailability.
+Impact Assessment:
+Potential for remote code execution, sensitive data exposure, service disruption.
+Description
+Microsoft Edge is a web browser developed by Microsoft using the chromium engine, offering fast performance, enhanced security and compatibility with modern web standards while integrating with Microsoft services.
+These vulnerabilities exists in Microsoft Edge due to Out of bounds write in ANGLE, GPU ; Use after free in ANGLE, WebAppInstalls, Autofill, Core, Input, SurfaceCapture, WebView, GPU, WebShare, Serial, USB, Messages ; Heap buffer overflow in ANGLE ; Inappropriate implementation in Accessibility, Payments, WebView, NFC, WebAPKs, Payments, Cronet, UI, CustomTabs ; Insufficient validation of untrusted input in Drag and Drop, Tab Group Sync, Custom Tabs, GPU, Navigation, Reader Mode, WebView ; Uninitialized Use in GPU ; Out of bounds read in Dawn ; Race in Geolocation ; Incorrect security UI in Contact Picker, Messages ; Policy bypass in WebView, Android Autofill ; Insufficient policy enforcement in PreviewTab, CustomTabs, WebAuthentication and Integer overflow in WebView. A remote attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted webpage.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, gain elevated privileges, obtain sensitive information, bypass security restriction, or cause denial-of-service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#june-8-2026
+References
+Microsoft Edge
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10883
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10892
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10923
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10929
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10934
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10953
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10959
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10967
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10984
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11007
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11010
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11012
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11019
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11029
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11034
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11035
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11045
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11064
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11065
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11072
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11077
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11080
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11082
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11097
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11108
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11119
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11127
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11131
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11145
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11148
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11163
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11167
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11172
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11175
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11178
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11188
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11215
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11226
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11247
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11263
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11270
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11278
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11287
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11290
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11291
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11295
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11297
+CVE Name
+CVE-2026-10883
+CVE-2026-10892
+CVE-2026-10923
+CVE-2026-10929
+CVE-2026-10934
+CVE-2026-10953
+CVE-2026-10959
+CVE-2026-10967
+CVE-2026-10984
+CVE-2026-11007
+CVE-2026-11010
+CVE-2026-11012
+CVE-2026-11019
+CVE-2026-11029
+CVE-2026-11034
+CVE-2026-11035
+CVE-2026-11045
+CVE-2026-11064
+CVE-2026-11065
+CVE-2026-11072
+CVE-2026-11077
+CVE-2026-11080
+CVE-2026-11082
+CVE-2026-11097
+CVE-2026-11108
+CVE-2026-11119
+CVE-2026-11127
+CVE-2026-11131
+CVE-2026-11145
+CVE-2026-11148
+CVE-2026-11163
+CVE-2026-11167
+CVE-2026-11172
+CVE-2026-11175
+CVE-2026-11178
+CVE-2026-11188
+CVE-2026-11215
+CVE-2026-11226
+CVE-2026-11247
+CVE-2026-11263
+CVE-2026-11270
+CVE-2026-11278
+CVE-2026-11287
+CVE-2026-11290
+CVE-2026-11291
+CVE-2026-11295
+CVE-2026-11297
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-24 13:17:42
+3f08d748e6e7b580,CERT-In Vulnerability Note  CIVN-2026-0337,"June 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0337,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0337
+Information Disclosure Vulnerability in Squid Proxy
+Original Issue Date:June      24, 2026
+Severity Rating: HIGH
+Software Affected
+Squid versions older than 3.5.28
+All Squid 4.x versions
+All Squid 5.x versions
+All Squid 6.x versions
+All Squid 7.x versions up to and including 7.5
+Overview
+A vulnerability has been reported in Squid Proxy which could allow a trusted client to disclose sensitive information from unrelated transactions processed by the affected proxy.
+Target Audience:
+All organizations and individuals using affected versions of Squid Proxy.
+Risk Assessment:
+High risk of sensitive information disclosure and unauthorized access to user data.
+Impact Assessment:
+Potential for disclosure of sensitive information, including authentication credentials, session tokens and other HTTP request data.
+Description
+Squid Proxy is a widely used open-source web proxy and caching server that supports protocols such as HTTP, HTTPS and FTP to improve network performance and reduce bandwidth usage.
+This vulnerability has been reported in Squid Proxy due to improper validation of syntactic correctness of input, resulting in an out-of-bounds read vulnerability in the FTP gateway feature. A trusted client could exploit this vulnerability by accessing a specially crafted or misbehaving FTP server through Squids FTP gateway.
+Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information from unrelated transactions processed by the affected proxy.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://github.com/squid-cache/squid/security/advisories/GHSA-8c37-pxjq-qwrg
+Vendor Information
+Squid Proxy
+http://www.squid-cache.org/Advisories/
+References
+https://github.com/squid-cache/squid/security/advisories/GHSA-8c37-pxjq-qwrg
+CVE Name
+CVE-2026-47729
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-24 13:17:42
