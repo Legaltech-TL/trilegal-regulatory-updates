@@ -14275,3 +14275,56 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-25 10:29:20
+c842fcd04386bc72,CERT-In Vulnerability Note  CIVN-2026-0342,"June 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0342,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0342
+Multiple Vulnerabilities in GitLab
+Original Issue Date:June      25, 2026
+Severity Rating: HIGH
+Software Affected
+GitLab Community Edition (CE) and Enterprise Edition (EE) versions prior to 19.1.1, 19.0.3, and 18.11.6.
+Overview
+Multiple vulnerabilities have been reported in GitLab CE/EE that could allow an attacker to execute arbitrary code, bypass security restrictions and gain unauthorized access to sensitive information on the targeted system.
+Target Audience:
+Organizations and individuals using GitLab CE/EE instances.
+Risk Assessment:
+Risk of unauthorized access, information disclosure, privilege escalation.
+Impact Assessment:
+Potential for unauthorized data access, data manipulation and authentication bypass.
+Description
+GitLab is a web-based DevOps platform that provides tools for software development, including source code management, continuous integration, and continuous deployment. It is available in both open-source Community Edition (CE) and Enterprise Edition (EE) versions.
+These vulnerabilities exist in GitLab Community Edition (CE) and Enterprise Edition (EE) due to improper sanitization of user-supplied input, improper path validation under certain conditions, insufficient output filtering in Duo Workflows, authorization bypass through user-controlled keys, incorrect authorization, insufficient filtering in a CI/CD API endpoint, improper input validation, missing authorization, and improper URL validation.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, bypass security restrictions, and gain unauthorized access to sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-1-1-released/
+Vendor Information
+Gitlab
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-1-1-released/
+References
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-1-1-released/
+CVE Name
+CVE-2026-10086
+CVE-2026-10712
+CVE-2026-12053
+CVE-2026-5309
+CVE-2026-2238
+CVE-2026-11379
+CVE-2026-8330
+CVE-2026-1606
+CVE-2026-5952
+CVE-2026-5796
+CVE-2026-0934
+CVE-2026-3176
+CVE-2026-12635
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-25 13:13:56
