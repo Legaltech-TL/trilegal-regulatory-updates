@@ -14044,3 +14044,146 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-24 13:17:42
+9cb2d82d296e9688,CERT-In Vulnerability Note  CIVN-2026-0341,"June 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0341,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0341
+Multiple Vulnerabilities in Apache HTTP Server
+Original Issue Date:June      25, 2026
+Severity Rating: CRITICAL
+Software Affected
+Apache HTTP Server versions prior to 2.4.68
+Overview
+Multiple vulnerabilities have been reported in Apache HTTP Server which could be exploited by an attacker to bypass security restrictions, disclose sensitive information, escalate privileges, execute arbitrary code, perform cross-site scripting attacks, or cause denial of service (DoS) condition on the targeted system.
+Target Audience:
+System administrators, DevOps teams and organizations managing Apache HTTP Server.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, bypass of security controls, possible remote code execution, privilege escalation, or disruption of services.
+Impact Assessment:
+Potential for arbitrary code execution, sensitive information disclosure, privilege escalation, system compromise, or service disruption.
+Description
+Apache HTTP Server is an open-source web server platform widely used for hosting web applications and websites, known for its reliability, performance, and cross-platform support.
+Multiple vulnerabilities exist in Apache HTTP Server due to improper memory handling, insufficient access control, improper path validation, improper input validation, cross-site scripting issues, resource management flaws, and improper handling of backend responses in various components including mod_ldap, mod_proxy_ftp, mod_proxy_html, mod_dav_fs, mod_xml2enc, mod_headers, mod_mime, mod_ssl, and mod_http2.
+Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, perform cross-site scripting attacks, bypass security restrictions, escalate privileges, execute arbitrary code, corrupt memory, or cause denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://httpd.apache.org/security/vulnerabilities_24.html#2.4.68
+Vendor Information
+Apache HTTP Server
+https://httpd.apache.org/security/vulnerabilities_24.html#2.4.68
+References
+Apache HTTP Server
+https://httpd.apache.org/security/vulnerabilities_24.html#2.4.68
+CVE Name
+CVE-2026-29167
+CVE-2026-29170
+CVE-2026-34355
+CVE-2026-34356
+CVE-2026-42535
+CVE-2026-42536
+CVE-2026-43951
+CVE-2026-44119
+CVE-2026-44185
+CVE-2026-44186
+CVE-2026-44631
+CVE-2026-48913
+CVE-2026-49975
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-25 07:54:47
+f835fb96d4143679,CERT-In Vulnerability Note  CIVN-2026-0340,"June 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0340,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0340
+Multiple Vulnerabilities in NGINX
+Original Issue Date:June      24, 2026
+Severity Rating: HIGH
+Software Affected
+NGINX Open Source versions from 1.13.10 before 1.31.2, and from 1.31.0 before 1.31.2
+NGINX Plus versions from 37.0 before 37.0.2.1, and from R36 before R36 P6
+Overview
+Multiple vulnerabilities have been reported in NGINX products that could allow a remote attacker to execute arbitrary code, disclose sensitive information, or cause denial-of-service conditions on affected systems.
+Target Audience:
+Organizations and individuals using affected NGINX products.
+Risk Assessment:
+High risk of remote code execution, denial of service, and sensitive information disclosure.
+Impact Assessment:
+Potential for arbitrary code execution, service disruption, information disclosure, and compromise of the affected NGINX server.
+Description
+NGINX is a high-performance web server, reverse proxy, load balancer, and HTTP cache designed to handle massive, simultaneous connections with low resource usage.
+Multiple vulnerabilities have been reported in NGINX products due to use-after-free conditions, heap-based buffer overflows and out-of-bounds read. An unauthenticated attacker could exploit these vulnerabilities by sending specially crafted HTTP requests.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, disclose sensitive information, or cause denial-of-service conditions on affected systems.
+Solution
+Apply appropriate updates as mentioned:
+https://nginx.org/en/download.html
+Vendor Information
+NGINX
+https://nginx.org/2026.html
+References
+https://nginx.org/en/download.html
+https://nginx.org/2026.html
+CVE Name
+CVE-2026-42530
+CVE-2026-48142
+CVE-2026-42055
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-25 07:54:47
+c1c1e15c365cdda4,CERT-In Vulnerability Note  CIVN-2026-0339,"June 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0339,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0339
+Privilege Escalation Vulnerability in Cisco Unified Communications Manager
+Original Issue Date:June      24, 2026
+Severity Rating: CRITICAL
+Software Affected
+Cisco Unified Communications Manager and Cisco Unified Communications Manager SME Release 14 prior to 14SU6
+Cisco Unified Communications Manager and Cisco Unified Communications Manager SME Release 15 prior to 15SU5 (Sep 2026) or COP
+Note: Vulnerability is only exploitable on systems with WebDialer service enabled (disabled by default)
+Overview
+A vulnerability has been reported in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) that could allow an unauthenticated, remote attacker to conduct Server-Side Request Forgery (SSRF) attacks and potentially gain root-level privileges on the affected system.
+Target Audience:
+All IT administrators, network administrators, VoIP administrators, and individuals responsible for maintaining Cisco Unified Communications infrastructure.
+Risk Assessment:
+Critical risk of unauthenticated remote exploitation leading to privilege escalation.
+Impact Assessment:
+Potential for unauthorised root privilege access.
+Description
+Cisco Unified Communications Manager (Unified CM) is a centralized enterprise communications platform that provides call control and management for voice, video, messaging, mobility, and conferencing services.
+The vulnerability exists due to improper input validation for specific HTTP requests in affected products. An attacker could exploit this vulnerability by sending a specially crafted HTTP request to an affected device.
+Successful exploitation could allow an unauthenticated, remote attacker to conduct Server-Side Request Forgery (SSRF) attacks and potentially gain root-level privileges on the affected system.
+Note: It has been reported that this vulnerability is actively being exploited.
+Solution
+Apply appropriate security updates/workarounds as mentioned in the Cisco advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW
+Vendor Information
+Cisco
+https://sec.cloudapps.cisco.com/security/center/publicationListing.x
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW
+CVE Name
+CVE-2026-20230
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-25 07:54:47
