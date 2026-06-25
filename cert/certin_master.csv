@@ -14187,3 +14187,91 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-25 07:54:47
+4990a7421e6b0dd0,Malware Campaign spreading through WhatsApp Attachments,"June 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3534,Current Activities,"CURRENT ACTIVITIES
+Malware Campaign spreading through WhatsApp Attachments
+Original Issue Date:June      25, 2026
+It has been observed that a large-scale malware distribution campaign is targeting WhatsApp Desktop and WhatsApp Web users. The campaign distributes malicious Visual Basic Script (VBScript) files through direct messages on the platform. Threat actors leverage compromised WhatsApp accounts to send malicious attachments directly to victims, making the messages appear legitimate and significantly increasing the likelihood of successful compromise.
+WhatsApp is a cross-platform instant messaging application that enables users to exchange messages, files, images, videos and other content across desktop and web platforms.
+Attackers use previously compromised WhatsApp accounts to send malicious VBScript (.vbs) files to existing contacts. Because the messages originate from trusted contacts, recipients may be more inclined to open the attachment.
+The malicious files are disguised as routine business documents, such as:
+Invoices
+Bank statements
+Payment records
+Account statements
+Debt notices
+The filenames are localized in several languages, including English, Portuguese, French, German, and Malay, indicating a broad targeting strategy. In addition, the VBScript samples contain extensive comments and metadata intended to mimic legitimate Microsoft Windows Update components.
+Once a victim opens the malicious attachment the following events will occur:
+The VBScript executes on the system.
+A working directory is created under the public documents folder.
+Additional scripts are downloaded from attacker-controlled infrastructure.
+The scripts execute via Windows Script Host.
+A compressed archive is downloaded and extracted.
+A Remote Monitoring and Management (RMM) package is installed.
+Attackers gain remote access capabilities on the compromised device.
+The malware also includes comments and metadata designed to imitate legitimate Microsoft Windows Update components, helping it evade suspicion.
+Impact
+Successful exploitation may result in:
+Unauthorized remote access to endpoints
+Credential theft
+Deployment of additional malware
+Data exfiltration
+Lateral movement within organizational networks
+Business disruption and financial losses
+Best practices
+To protect against the ongoing WhatsApp malware campaign and similar threats, users should follow these security practices:
+1.  Be Cautious with Unexpected Attachments
+Do not open attachments you were not expecting, even if they come from a friend, colleague, or family member.
+Be suspicious of files claiming to be invoices, payment receipts, account statements, or financial documents.
+2.  Verify with the Sender
+Contact the sender through a phone call or separate message to confirm they intentionally sent the file.
+If the sender's message seems unusual or out of character, treat it as suspicious.
+3.  Avoid Clicking on Suspicious Links
+Do not click on links from unknown or unexpected messages.
+Verify shortened or unfamiliar URLs before opening them.
+4.  Check the File Extension
+Avoid opening files with extensions such as:
+.vbs
+.vbe
+.exe
+.bat
+.cmd
+.js
+.ps1
+These file types can execute commands on your device and may install malware.
+5.  Keep Your Device Updated
+Install security updates for your operating system as soon as they become available.
+Keep browsers, messaging applications, and antivirus software updated.
+6.  Use Security Software
+Install reputable antivirus or endpoint protection software.
+Enable real-time protection and automatic updates.
+7.  Enable Two-Factor Authentication (2FA)
+Enable two-step verification on WhatsApp and other online accounts.
+Use a strong, unique PIN or password.
+8.  Review Linked Devices Regularly
+Periodically check the devices linked to your WhatsApp account.
+Log out of any device you do not recognize.
+9.  Download Software Only from Trusted Sources
+Install applications only from official app stores or vendor websites.
+Avoid downloading software shared through messaging platforms.
+10.  Protect Personal and Financial Information
+Never share passwords, OTPs, banking credentials, or sensitive personal information through messaging apps.
+Be cautious of messages creating urgency or requesting immediate action.
+11.  Report Suspicious Messages
+Report suspicious messages to your organization's IT/security team, if applicable.
+Use WhatsApp's reporting and blocking features for suspected malicious accounts.
+References
+https://www.kaspersky.com/about/press-releases/kaspersky-uncovers-a-new-massive-campaign-spreading-malware-via-whatsapp
+https://securelist.com/whatsapp-vbs-rmm-campaign/120290/
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-25 10:29:20
