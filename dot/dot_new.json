@@ -1,94 +1,22 @@
 {
-  "generated_at": "2026-06-24T11:54:16.238503",
-  "count": 11,
+  "generated_at": "2026-06-26T12:00:05.383816",
+  "count": 2,
   "items": [
     {
-      "id": "b34f04e97665b879",
-      "title": "Draft Telecommunications (Spectrum Assignment by Administrative Process) Rules, 2026",
-      "publish_date": "06/18/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/3acc4e7aeb2bdff7c3ae6a9429150734.pdf",
+      "id": "ef92c7af25e6e537",
+      "title": "Appointment to the post of Chairman & Managing Director (CMD),Bharat Sanchar Nigam Limited",
+      "publish_date": "06/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/5db86357f974a43f3a4144afb6890f6a.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "06/24/2026"
+      "scraped_at": "06/26/2026"
     },
     {
-      "id": "321cd0aa906e542d",
-      "title": "VSAT and Satellite Communication",
-      "publish_date": "02/05/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/vsat-satellite-communication-kTMwETNtQWa?pageTitle=VSAT-and-Satellite-Communication",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "46d181ffa884b60e",
-      "title": "Gazette Notification of Telecommunications (Authorisation for Provision of Principal Telecommunication Services) Rules, 2026",
-      "publish_date": "06/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/b981573e59f32264e099912a9154dacb.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "073007222d31e107",
-      "title": "Gazette Notification of Telecommunications (Authorisation for Provision of Miscellaneous Telecommunication Services) Rules, 2026",
-      "publish_date": "06/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/f06c1fc225a6a1a86ec91d869548eb63.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "b010c4f31bac291c",
-      "title": "Gazette Notification of Telecommunications (Authorisation for Captive Telecommunication Services) Rules, 2026",
-      "publish_date": "06/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/3216d9068eb1f7ca3d18e26b3ef9fe54.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "85e23a50c2383c85",
-      "title": "Gazette Notification of Telecommunications (Terms and Condition for Migration) Rules, 2026",
-      "publish_date": "06/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/a8f1f0b9f1443700def0e6ef5e2549e5.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "41b1eb770e609313",
-      "title": "Gazette Notification for Enforcement of Rule 3(1) and 3(6) under Telecommunications Act, 2023",
-      "publish_date": "06/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/35e1d307f3cbb6396b4c48802ed4b044.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "04618b3eeadbc9fa",
-      "title": "Gazette Notification of Telecom eServices portal under Section 3(1) and 3(6) rules",
-      "publish_date": "06/24/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/ba5e9c32d2e5b23010481f9a3d6e4ad3.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "0a40cbff27731e65",
-      "title": "Department of Telecommunications (DoT) Celebrates 12th International Day of Yoga (IDY) - 2026",
-      "publish_date": "06/21/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/42932ed8d34fdf2ae6e49efc3d23a0fc.pdf",
+      "id": "001e0119149e0894",
+      "title": "Department of Telecommunications (DoT) Opens Online Portal for Telecommunication Service Authorisations and License Migration under Telecommunications Act, 2023",
+      "publish_date": "06/25/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/d3e5ac6a965d27b215b5aad8a8d0e34c.pdf",
       "category": "PRESS_RELEASE",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "baeacd5f42872028",
-      "title": "Telecommunication Engineering Centre, the technical arm of Department of Telecommunications (DoT), Organizes Workshop on Advanced Satellite Communication Technologies and Service Quality Benchmarking",
-      "publish_date": "06/18/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/4b56ec7b8b7792a7c78e683a57cff324.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "06/24/2026"
-    },
-    {
-      "id": "b34f04e97665b879",
-      "title": "Draft Telecommunications (Spectrum Assignment by Administrative Process) Rules, 2026",
-      "publish_date": "06/18/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/3acc4e7aeb2bdff7c3ae6a9429150734.pdf",
-      "category": "GAZETTES_NOTIFICATIONS",
-      "scraped_at": "06/24/2026"
+      "scraped_at": "06/26/2026"
     }
   ]
 }
