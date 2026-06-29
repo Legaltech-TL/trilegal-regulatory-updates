@@ -14385,3 +14385,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-29 12:18:03
+dbd7ed52140339bc,CERT-In Vulnerability Note  CIVN-2026-0344,"June 29, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0344,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0344
+Privilege escalation vulnerability in Linux kernel (DirtyClone)
+Original Issue Date:June      29, 2026
+Severity Rating: HIGH
+Software Affected
+Linux Kernel versions 5.x.x to 7.x.x
+Overview
+A vulnerability commonly referred to as ""DirtyClone"" has been reported in the Linux Kernel that could allow an authenticated local attacker to escalate privileges on the affected system.
+Target Audience:
+All organizations and individuals running affected versions of Linux Kernel.
+Risk Assessment:
+High risk of local privilege escalation and unauthorized access to sensitive kernel memory.
+Impact Assessment:
+Potential for privilege escalation, unauthorized modification of protected files, system compromise and disruption of affected systems.
+Description
+The Linux kernel is the core component of many operating systems, responsible for managing hardware resources and providing essential system services and memory management functionality.
+This vulnerability exists in the Linux Kernel due to improper propagation of the SKBFL_SHARED_FRAG flag during packet processing in the networking subsystem. An authenticated local attacker could exploit this flaw to manipulate kernel memory, leading to privilege escalation and root access.
+Successful exploitation of this vulnerability could allow an authenticated local attacker to gain elevated privileges, potentially resulting in the complete compromise of the affected system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.kernel.org/
+Vendor Information
+Linux Kernel
+https://www.kernel.org/
+References
+https://www.kernel.org/
+CVE Name
+CVE-2026-43503
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-29 14:44:39
