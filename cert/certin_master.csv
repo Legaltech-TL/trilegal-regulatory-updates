@@ -14328,3 +14328,60 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-25 13:13:56
+4525757c49cdf9b1,CERT-In Vulnerability Note  CIVN-2026-0343,"June 29, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0343,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0343
+Multiple Vulnerabilities in QNAP Products
+Original Issue Date:June      29, 2026
+Severity Rating: CRITICAL
+Software Affected
+QVP version 2.7.1
+QuTS cloud version c5.2.8
+QTS version 5.2.7
+QuTS hero version h5.2.8
+Overview
+Multiple vulnerabilities have been reported in QNAP  products, which could allow an attacker to execute arbitrary system commands, access sensitive files, steal user credentials, perform unauthorized actions, or cause a denial-of-service condition on the targeted system.
+Target Audience:
+All organizations and individuals using affected QNAP products.
+Risk Assessment:
+High risk of command execution, credential theft, sensitive information disclosure, unauthorized access and denial of service.
+Impact Assessment:
+Potential for remote code execution, sensitive information disclosure and/or denial of service.
+Description
+QNAP QTS, QuTS hero and QuTS cloud are operating systems used in QNAP storage environments, while QVP is used in QVR Pro appliances..
+Multiple vulnerabilities exist in affected QNAP products due to URL injection, command injection, stack overflow, stack manipulation, stack-based buffer overflow, broken access control, NULL pointer dereference and uncontrolled resource consumption issues. An attacker could exploit these vulnerabilities to modify password reset URLs and redirect users to attacker-controlled pages, execute arbitrary system commands, access sensitive files, perform unauthorized actions, trigger memory corruption, crash affected services, or consume excessive system resources.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary system commands, access sensitive files, steal user credentials, perform unauthorized actions, or cause a denial-of-service condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.qnap.com/en/security-advisory/qsa-26-10
+Vendor Information
+QNAP NAS
+https://www.qnap.com/
+References
+https://www.qnap.com/en/security-advisory/qsa-26-10
+CVE Name
+CVE-2025-59382
+CVE-2025-66273
+CVE-2025-66279
+CVE-2026-22893
+CVE-2025-62858
+CVE-2025-66280
+CVE-2025-68405
+CVE-2026-26239
+CVE-2026-26240
+CVE-2026-26241
+CVE-2026-24724
+CVE-2026-22899
+CVE-2026-24720
+CVE-2025-66281
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-29 12:18:03
