@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"3e94207f98878a3d",
+    "category":"gazette_notifications",
+    "sno":"1",
+    "title":"2026.06.23 G.S.R. 515(E)_Draft notification regarding amendments under Medical Devices Rules 2017",
+    "date":"2026-Jun-23",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ0MTU=",
+    "filename":"20260623_GSR_515EDraft_notification_regarding_amendments_under",
+    "scraped_time":"2026-06-30T14:10:07.881986"
+  },
+  {
+    "id":"0034b5eaa4045ce1",
+    "category":"gazette_notifications",
+    "sno":"5",
+    "title":"2026.06.22 G.S.R. 505(E)_Draft notification regarding rationalization of shelf life under Rule 31 of Drugs Rules, 1945",
+    "date":"2026-Jun-22",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ0MTY=",
+    "filename":"20260622_GSR_505EDraft_notification_regarding_rationalization_of",
+    "scraped_time":"2026-06-30T14:10:07.881986"
+  }
 ]
