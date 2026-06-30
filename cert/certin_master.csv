@@ -14426,3 +14426,110 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-29 14:44:39
+f293b0d70264c0a8,CERT-In Vulnerability Note  CIVN-2026-0346,"June 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0346,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0346
+Multiple Vulnerabilities in IBM WebSphere Application Server
+Original Issue Date:June      30, 2026
+Severity Rating: HIGH
+Software Affected
+IBM WebSphere Application Server versions 9.0
+IBM WebSphere Application Server versions 8.5
+IBM WebSphere Application Server - Liberty versions 17.0.0.3 - 26.0.0.6
+Overview
+Multiple vulnerabilities have been reported in IBM WebSphere Application Server which could allow an attacker to execute arbitrary code, conduct cross-site scripting attacks or manipulate HTTP requests.
+Target Audience:
+Organizations using IBM WebSphere Application Server and WebSphere Liberty products.
+Risk Assessment:
+High risk of remote code execution, cross-site scripting, unauthorized access, and compromise of sensitive information.
+Impact Assessment:
+Potential impact on the confidentiality, integrity, and availability of affected systems and data.
+Description
+IBM WebSphere Application Server and WebSphere Liberty are enterprise Java application server platforms used to host, manage, and run business-critical web applications and services.
+These vulnerabilities exist in IBM WebSphere Application Server and WebSphere Liberty products due to improper input validation or insecure handling of HTTP requests and administrative functions. A remote attacker could exploit these vulnerabilities by executing specially crafted requests on the target system.
+Successful exploitation could result in remote code execution, cross-site scripting attacks, unauthorized access, data compromise, and service disruption.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.ibm.com/support/pages/node/7277544
+https://www.ibm.com/support/pages/node/7277546
+https://www.ibm.com/support/pages/node/7277550
+Vendor Information
+IBM
+https://www.ibm.com/support/pages/node/7277544
+https://www.ibm.com/support/pages/node/7277546
+https://www.ibm.com/support/pages/node/7277550
+References
+https://www.ibm.com/support/pages/node/7277544
+https://www.ibm.com/support/pages/node/7277546
+https://www.ibm.com/support/pages/node/7277550
+CVE Name
+CVE-2026-11536
+CVE-2026-11594
+CVE-2026-11707
+CVE-2026-11383
+CVE-2026-11541
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-30 08:02:16
+8a425f6737a060ec,CERT-In Vulnerability Note  CIVN-2026-0345,"June 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0345,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0345
+Multiple Vulnerabilities in Node.js
+Original Issue Date:June      30, 2026
+Severity Rating: HIGH
+Software Affected
+Node.js 22.x prior to 22.23.0
+Node.js 24.x prior to 24.17.0
+Node.js 26.x prior to 26.3.1
+Overview
+Multiple vulnerabilities have been reported in Node.js, which could allow an attacker to cause denial-of-service conditions, bypass security controls, disclose sensitive information, and perform unauthorized actions on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Node.js.
+Risk Assessment:
+High risk of denial-of-service, bypass security restrictions, sensitive information disclosure.
+Impact Assessment:
+Potential for denial-of-service, bypass security restrictions, sensitive information disclosure and/or compromise of system.
+Description
+Node.js is an open-source, cross-platform JavaScript runtime environment that enables developers to build scalable server-side and network applications using JavaScript.
+Multiple vulnerabilities have been reported in Node.js due to improper input validation, integer overflow conditions, hostname normalization inconsistencies, TLS certificate verification flaws, HTTP/2 protocol handling weaknesses, information disclosure issues, race conditions, and insufficient enforcement of the Permission Model. An attacker could exploit these vulnerabilities to crash Node.js processes, bypass authentication and authorization mechanisms, leak sensitive credentials, exhaust system resources, circumvent security restrictions, or manipulate network communications on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized actions, gain access to protected resources, disclose sensitive information, cause denial-of-service conditions, or bypass intended security boundaries on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://nodejs.org/en/blog/vulnerability/june-2026-security-releases
+Vendor Information
+Node.js
+https://nodejs.org/
+References
+https://nodejs.org/en/blog/vulnerability/june-2026-security-releases
+CVE Name
+CVE-2026-48933
+CVE-2026-48618
+CVE-2026-48615
+CVE-2026-48617
+CVE-2026-48619
+CVE-2026-48937
+CVE-2026-48928
+CVE-2026-48930
+CVE-2026-48934
+CVE-2026-48935
+CVE-2026-48936
+CVE-2026-48931
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-06-30 08:02:16
