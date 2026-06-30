@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-06-28T11:22:35.012506",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-06-30T06:58:10.916398",
+  "count": 2,
+  "items": [
+    {
+      "id": "21235bbf52ae78cf",
+      "title": "Grant of NFSG to Shri Ratish Vishwakarma Senior Architect Staff No 20101 of P and T BWS",
+      "publish_date": "06/25/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/949f0066400ded3de013218eda9945ca.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "06/30/2026"
+    },
+    {
+      "id": "d7bab34fefdbae8d",
+      "title": "Department of Telecommunications Activates Intra Circle Roaming in Four Districts of Arunachal Pradesh amid Heavy Rainfall, Cloudburst and Landslides",
+      "publish_date": "06/25/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/14565360e9613fa07dcafce248a7e9f8.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "06/30/2026"
+    }
+  ]
 }
