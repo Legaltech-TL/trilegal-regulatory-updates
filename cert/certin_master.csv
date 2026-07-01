@@ -14533,3 +14533,186 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-06-30 08:02:16
+795bfd69b82e9d5a,CERT-In Vulnerability Note  CIVN-2026-0349,"June 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0349,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0349
+PHP Object Injection vulnerability in Tealium iQ Tag Management module for Drupal
+Original Issue Date:June      30, 2026
+Severity Rating: CRITICAL
+Software Affected
+Drupal Tealium iQ Tag Management module versions prior to 2.4.0.
+Overview
+A critical vulnerability has been reported in the Drupal Tealium iQ Tag Management module that could allow an attacker to perform PHP Object Injection, potentially resulting in arbitrary PHP code execution on the affected system.
+Target Audience:
+All end-user organizations and individuals using affected Drupal module.
+Risk Assessment:
+High risk of arbitrary code execution, unauthorized access and modification, and full system compromise.
+Impact Assessment:
+Potential for data exposure and theft, unauthorized access, and disruption of services.
+Description
+Drupal is an open-source Content Management System (CMS) which allows individuals and organizations to create, manage and maintain websites and web applications.
+A vulnerability exists in the Drupal Tealium iQ Tag Management module due to insufficient validation of user-supplied serialized data before it is passed to PHPs unserialize() function. An attacker with permission to edit a content entity containing an attached tealiumiq field could exploit this vulnerability by injecting specially crafted serialized objects, leading to PHP Object Injection.
+Successful exploitation of this vulnerability could allow an attacker to perform PHP Object Injection, potentially resulting in arbitrary PHP code execution on the affected system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.drupal.org/sa-contrib-2026-064
+Vendor Information
+Drupal
+https://new.drupal.org/home
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-064
+CVE Name
+CVE-2026-13244
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-01 08:21:23
+ae8ec7e1a0b418ae,CERT-In Vulnerability Note  CIVN-2026-0348,"June 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0348,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0348
+Multiple Vulnerabilities in Drupal
+Original Issue Date:June      30, 2026
+Severity Rating: CRITICAL
+Software Affected
+Formatter Field module versions prior to 2.0.0
+Flag attendance field module versions prior to 1.2
+Plotly.js Graphing module versions prior to 3.0.2
+Overview
+Multiple vulnerabilities have been reported in Drupal modules, which could allow attackers to perform PHP object injection on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Drupal modules.
+Risk Assessment:
+Risk of PHP object injection, unauthorized access and system compromise.
+Impact Assessment:
+Potential for unauthorized access, execution of arbitrary code, sensitive information disclosure and potential compromise of system.
+Description
+Drupal is an open-source Content Management System (CMS) which allows individuals and organizations to create, manage and maintain websites and web applications.
+Multiple vulnerabilities exist in Drupal modules due to insecure deserialization of PHP-serialized data. The affected modules Formatter Field, Flag attendance field, and Plotly.js Graphing store certain field data as PHP-serialized strings, which may allow malicious serialized data to be processed during deserialization, resulting in PHP object injection.
+Successful exploitation of these vulnerabilities could allow an attacker to perform PHP object injection on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.drupal.org/sa-contrib-2026-048
+https://www.drupal.org/sa-contrib-2026-049
+https://www.drupal.org/sa-contrib-2026-050
+Vendor Information
+Drupal
+https://www.drupal.org/sa-contrib-2026-048
+https://www.drupal.org/sa-contrib-2026-049
+https://www.drupal.org/sa-contrib-2026-050
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-048
+https://www.drupal.org/sa-contrib-2026-049
+https://www.drupal.org/sa-contrib-2026-050
+CVE Name
+CVE-2026-12535
+CVE-2026-55809
+CVE-2026-55810
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-01 08:21:23
+08b0650e68075d8c,CERT-In Vulnerability Note  CIVN-2026-0347,"June 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0347,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0347
+Remote Code Execution Vulnerability in Microsoft Edge (Chromium-based)
+Original Issue Date:June      30, 2026
+Severity Rating: HIGH
+Software Affected
+Microsoft Edge versions prior to 149.0.4022.68
+Overview
+A vulnerability has been reported in Microsoft Edge, which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end user organizations and individuals using Microsoft Edge.
+Risk Assessment:
+High risk of unauthorized access, data manipulation.
+Impact Assessment:
+Potential for remote code execution, complete system compromise.
+Description
+Microsoft Edge is a web browser developed by Microsoft using the chromium engine, offering fast performance, enhanced Security and compatibility with modern web standards while integrating with Microsoft services.
+A remote code execution vulnerability exists in Microsoft Edge due to Use After Free. A remote attacker could exploit this vulnerability by persuading a victim to visit a specially crafted web page.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate fix/patches as mentioned:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50521
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50521
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50521
+CVE Name
+CVE-2026-50521
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-01 08:21:23
+f4f2b7e7ddf6506c,CERT-In Advisory   CIAD-2026-0033,"June 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0033,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0033
+Multiple vulnerabilities in Apple Products
+Original Issue Date: June      30, 2026
+Severity Rating: Critical
+Software Affected
+Apple iOS versions prior to 26.5.2
+Apple iPadOS versions prior to 26.5.2
+Apple macOS Tahoe versions prior to 26.5.2
+Apple Safari versions prior to 26.5.2
+Overview
+Multiple vulnerabilities have been reported in Apple products which could allow an attacker to disclose sensitive information, gain elevated privileges, bypass security restrictions, execute arbitrary code, perform cross-origin data exfiltration, and cause denial-of-service (DoS) condition on the targeted system.
+Target Audience:
+All individual and organizations using Apple Products.
+Risk Assessment:
+High risk of sensitive information disclosure, privilege escalation, disruption of services.
+Impact Assessment:
+Potential for full system compromise, remote code execution, service unavailability.
+Description
+Multiple vulnerabilities have been reported in Apple products:
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.apple.com/en-us/127594
+https://support.apple.com/en-us/127595
+https://support.apple.com/en-us/127685
+Vendor Information
+Apple
+https://support.apple.com/en-us/127594
+https://support.apple.com/en-us/127595
+https://support.apple.com/en-us/127685
+References
+Apple
+https://support.apple.com/en-us/127594
+https://support.apple.com/en-us/127595
+https://support.apple.com/en-us/127685
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-01 08:21:23
