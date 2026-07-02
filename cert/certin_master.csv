@@ -14716,3 +14716,150 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-01 08:21:23
+2a1db1727b1860f6,CERT-In Vulnerability Note  CIVN-2026-0352,"July 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0352,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0352
+Vulnerability in the Oracle Payments product of Oracle E-Business Suite
+Original Issue Date:July      02, 2026
+Severity Rating: CRITICAL
+Software Affected
+Oracle E-Business Suite versions 12.2.3-12.2.15.
+Overview
+A vulnerability has been reported in Oracle E-Business Suite, which may allow an unauthenticated attacker with network access via HTTP to compromise the Oracle Payments component on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected Oracle E-Business Suite.
+Risk Assessment:
+High risk of unauthorized access and disruption of business operations.
+Impact Assessment:
+Potential for complete system takeover, unauthorized access to sensitive information, and disruption of services.
+Description
+Oracle E-Business Suite (EBS) is an integrated set of enterprise applications designed to help organisations automate and manage core business functions such as finance, human resources, supply chain, and more. It supports global operations and can be deployed on-premises or in the cloud.
+This vulnerability exists in Oracle Payments product of Oracle E-Business Suite due to security flaw in the File Transmission component.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access via HTTP to compromise the Oracle Payments component on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/cspumay2026.html
+References
+https://www.oracle.com/security-alerts/cspumay2026.html
+https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/
+CVE Name
+CVE-2026-46817
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-02 10:20:46
+34d485a9e8c7eb54,CERT-In Vulnerability Note  CIVN-2026-0351,"July 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0351,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0351
+Multiple vulnerabilities in Google Chrome for Desktop
+Original Issue Date:July      02, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 149.0.7827.200/201 for Windows/Mac
+Google Chrome versions prior to 149.0.7827.200 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome, which could allow a remote attacker to cause denial of service (DoS) condition and execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected Google Chrome for Desktop.
+Risk Assessment:
+Potential for unauthorized access and system compromise.
+Impact Assessment:
+High risk of system compromise, data theft and service disruptions.
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on the World Wide Web. It is designed for use on desktop computers, such as those running on Windows, macOS, or Linux operating systems.
+Multiple vulnerabilities exist in Google Chrome due to Integer overflow in Mojo; Use after free in Payments and AdFilter. A remote attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted web page.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html
+Vendor Information
+Google
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html
+References
+Google
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html
+CVE Name
+CVE-2026-13281
+CVE-2026-13282
+CVE-2026-13283
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-02 10:20:46
+1edb48293d4cb1ee,CERT-In Vulnerability Note  CIVN-2026-0350,"July 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0350,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0350
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:July      02, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 149.0.7827.196/197 for Windows
+Google Chrome versions prior to 149.0.7827.196/197 for Mac
+Google Chrome versions prior to 149.0.7827.196 for Linux
+Overview
+Multiple Vulnerabilities have been reported in Google Chrome for Desktop, which could be exploited by a remote attacker to execute arbitrary code, cause denial of service conditions, bypass security restrictions and sensitive information disclosure on the targeted system.
+Target Audience:
+All end user organizations and individuals using Google Chrome for Desktop (Windows, macOS and Linux platforms).
+Risk Assessment:
+High risk of Remote Code Execution (RCE), Denial of Service (DoS), and bypass security restriction.
+Impact Assessment:
+Potential for Information disclosure, data manipulation and security restriction bypass.
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on the World Wide Web. It is designed for use on Desktop computers such as those running on Windows, macOS or Linux operating systems.
+Multiple Vulnerabilities exist in Google Chrome due to Use after free in WebGL, Autofill, Digital Credentials, FileSystem, Web Authentication, Blink, Bluetooth, and WebView; Out of bounds read in Blink; Uninitialized memory usage in GPU; Insufficient validation of untrusted input in Navigation and DevTools; Inappropriate implementation in Device Bound Session Credentials, Autofill, and Passwords. A remote attacker could exploit these vulnerabilities by persuading a victim to visit specially crafted web page.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, cause denial of service conditions, bypass security restrictions and sensitive information disclosure on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0482630350.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0482630350.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0482630350.html
+CVE Name
+CVE-2026-13021
+CVE-2026-13022
+CVE-2026-13023
+CVE-2026-13024
+CVE-2026-13025
+CVE-2026-13026
+CVE-2026-13027
+CVE-2026-13028
+CVE-2026-13029
+CVE-2026-13030
+CVE-2026-13031
+CVE-2026-13032
+CVE-2026-13033
+CVE-2026-13034
+CVE-2026-13035
+CVE-2026-13036
+CVE-2026-13037
+CVE-2026-13038
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-02 10:20:46
