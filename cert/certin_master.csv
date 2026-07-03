@@ -14863,3 +14863,100 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-02 10:20:46
+e69939995c894460,CERT-In Vulnerability Note  CIVN-2026-0354,"July 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0354,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0354
+Multiple Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway
+Original Issue Date:July      03, 2026
+Severity Rating: HIGH
+Software Affected
+NetScaler ADC and NetScaler Gateway releases prior to 14.1-72.61
+NetScaler ADC and NetScaler Gateway releases prior to 13.1-63.18
+NetScaler ADC FIPS releases prior to 14.1-72.61-FIPS
+NetScaler ADC FIPS and NDcPP releases prior to 13.1-37.272-FIPS/NDcPP
+Overview
+Multiple vulnerabilities have been reported in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway), which could allow an unauthenticated remote attacker to disclose sensitive information, read arbitrary files, or cause denial of service on the affected systems.
+Target Audience:
+All end-user organizations and individuals using Citrix NetScaler ADC and NetScaler Gateway.
+Risk Assessment:
+Risk of information disclosure, arbitrary file read, and denial of service on the affected systems.
+Impact Assessment:
+Disclosure of sensitive information, arbitrary file read, denial of service, and compromise of system availability.
+Description
+NetScaler ADC and NetScaler Gateway are application delivery controller (ADC) and secure remote access solutions used to provide load balancing, application delivery, and VPN services for enterprise environments.
+Multiple vulnerabilities have been identified in NetScaler ADC and NetScaler Gateway due to memory handling issues, insufficient input validation, improper access control, and implementation flaws in various service components. Depending on the appliance configuration, these vulnerabilities may lead to memory over-read, memory overflow, arbitrary file read, or denial of service.
+Successful exploitation of these vulnerabilities could allow an unauthenticated remote attacker to disclose sensitive information from memory, read arbitrary files, or cause denial of service and unpredictable behavior on the affected appliance.
+Solution
+Apply appropriate security updates and mitigations as mentioned in the vendor advisory:
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696604
+Vendor Information
+Citrix
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696604
+References
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696604
+CVE Name
+CVE-2026-8451
+CVE-2026-8452
+CVE-2026-8655
+CVE-2026-10816
+CVE-2026-10817
+CVE-2026-13474
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-03 12:54:16
+bad489eb6b577ba3,CERT-In Vulnerability Note  CIVN-2026-0353,"July 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0353,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0353
+Multiple Vulnerabilities in RedHat JBoss Enterprise Application
+Original Issue Date:July      03, 2026
+Severity Rating: CRITICAL
+Software Affected
+Red Hat JBoss Enterprise Application Platform 7.3 EUS 7.3 x86_64
+Red Hat JBoss Enterprise Application Platform 7.1 EUS 7.1 x86_64
+Overview
+Multiple vulnerabilities have been reported in Red Hat JBoss Enterprise Application Platform which could allow a remote attacker to cause denial-of-service (DoS), perform server-side request forgery (SSRF), poison web caches, or potentially expose sensitive information on the targeted system.
+Target Audience:
+Large scale enterprises and organizations using Red Hat JBoss Products.
+Risk Assessment:
+High risk of service disruption, unauthorized access to internal resources, cache manipulation, and potential exposure of sensitive information.
+Impact Assessment:
+Potential for sensitive data exposure, unauthorized access to internal resources, cache poisoning, and disruption of service.
+Description
+Red Hat JBoss is a Java-based server that provides a secure, scalable, and high-performance environment for developing, deploying, and managing enterprise applications.
+These vulnerabilities exist in Red Hat JBoss Enterprise Application due to improper validation of HTTP Host headers, insufficient handling of malformed HTTP/2 requests, insecure processing of temporary files, and improper handling of malicious JSON Web Encryption (JWE) tokens. A remote attacker could exploit these weaknesses by sending specially crafted requests or malicious input.
+Successful exploitation of these vulnerabilities could allow an attacker to cause denial-of-service (DoS), perform server-side request forgery (SSRF), poison web caches, or potentially expose sensitive information on the targeted system.
+Solution
+Apply appropriate Updates as mentioned:
+https://access.redhat.com/errata/RHSA-2026:33371
+https://access.redhat.com/errata/RHSA-2026:33372
+Vendor Information
+RedHat
+https://access.redhat.com/errata/RHSA-2026:33371
+https://access.redhat.com/errata/RHSA-2026:33372
+References
+https://access.redhat.com/errata/RHSA-2026:33371
+https://access.redhat.com/errata/RHSA-2026:33372
+CVE Name
+CVE-2025-9784
+CVE-2025-12543
+CVE-2025-23184
+CVE-2024-29371
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-03 12:54:16
