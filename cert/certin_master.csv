@@ -15013,3 +15013,59 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-06 11:50:48
+acc981e836bbf417,CERT-In Vulnerability Note  CIVN-2026-0356,"July 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0356,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0356
+Multiple Vulnerabilities in Adobe Products
+Original Issue Date:July      06, 2026
+Severity Rating: CRITICAL
+Software Affected
+Adobe ColdFusion 2025 Update 9 and earlier versions
+Adobe ColdFusion 2023 Update 20 and earlier versions
+Adobe Campaign Classic v7.4.3 Build 9396 and earlier (Windows and Linux, on-premises deployments)
+Overview
+Multiple vulnerabilities have been reported in Adobe ColdFusion and Adobe Campaign Classic that could allow a remote attacker to execute arbitrary code, gain elevated privileges, bypass security restrictions or access sensitive information on the targeted system.
+Target Audience:
+Individuals and organizations using the affected Adobe products.
+Risk Assessment:
+High risk of unauthorized access, and sensitive information disclosure.
+Impact Assessment:
+Potential for complete system compromise.
+Description
+Adobe products are widely used software applications for multimedia editing, digital content creation, collaboration, and enterprise e-commerce services.
+These vulnerabilities exist due to improper input validation, unrestricted file upload, path traversal, server-side request forgery (SSRF) and incorrect authorization flaws. An attacker could exploit these vulnerabilities by sending specially crafted requests or interacting with vulnerable application components.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, gain elevated privileges, bypass security restrictions or access sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned in:
+https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html
+https://helpx.adobe.com/security/products/campaign/apsb26-69.html
+Vendor Information
+Adobe
+https://helpx.adobe.com/security/security-bulletin.html
+References
+https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html
+https://helpx.adobe.com/security/products/campaign/apsb26-69.html
+CVE Name
+CVE-2026-48276
+CVE-2026-48277
+CVE-2026-48281
+CVE-2026-48282
+CVE-2026-48283
+CVE-2026-48285
+CVE-2026-48307
+CVE-2026-48313
+CVE-2026-48314
+CVE-2026-48315
+CVE-2026-48316
+CVE-2026-48286
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-06 14:23:01
