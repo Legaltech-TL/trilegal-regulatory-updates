@@ -14960,3 +14960,56 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-03 12:54:16
+ff53f118ff572ee1,CERT-In Vulnerability Note  CIVN-2026-0355,"July 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0355,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0355
+Multiple Vulnerabilities in Apache Tomcat
+Original Issue Date:July      06, 2026
+Severity Rating: HIGH
+Software Affected
+Apache Tomcat 9 versions prior to 9.0.119
+Apache Tomcat 10.1 versions prior to 10.1.56
+Apache Tomcat 11 versions prior to 11.0.23
+Overview
+Multiple vulnerabilities have been reported in Apache Tomcat, which could allow a remote attacker to perform cross-site scripting, bypass security restrictions, elevate privileges, or gain unauthorized access to protected resources on the affected system.
+Target Audience:
+All end-user organizations and individuals responsible for maintaining and updating Apache Tomcat.
+Risk Assessment:
+Risk of cross-site scripting, authentication bypass, privilege escalation, security restriction bypass, and unauthorized access to protected resources.
+Impact Assessment:
+Potential for sensitive information disclosure and system compromise.
+Description
+Apache Tomcat is an open-source web server and servlet container that runs Java-based web applications.
+Multiple vulnerabilities have been identified in Apache Tomcat due to improper input validation, improper authorization, improper authentication, insufficient enforcement of security constraints, and Incorrect Control Flow Implementation in various components.
+Successful exploitation of these vulnerabilities could allow a remote attacker to perform cross-site scripting, bypass security restrictions, elevate privileges, or gain unauthorized access to protected resources on the affected system.
+Solution
+Apply appropriate security updates as mentioned in the Apache Tomcat Security Updates:
+https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.119
+https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.56
+https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.23
+Vendor Information
+Apache Tomcat
+https://tomcat.apache.org/
+References
+Apache Tomcat
+https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.119
+https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.56
+https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.23
+CVE Name
+CVE-2026-50229
+CVE-2026-53404
+CVE-2026-53434
+CVE-2026-55276
+CVE-2026-55955
+CVE-2026-55956
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-06 11:50:48
