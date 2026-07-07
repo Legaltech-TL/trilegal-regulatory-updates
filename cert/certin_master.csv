@@ -15069,3 +15069,47 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-06 14:23:01
+40b7197fbd7249a7,CERT-In Vulnerability Note  CIVN-2026-0357,"July 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0357,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0357
+Privilege escalation vulnerability in Linux kernel's Eventpoll subsystem (Bad Epoll)
+Original Issue Date:July      07, 2026
+Severity Rating: HIGH
+Software Affected
+Linux Kernel versions 5.15.209 to 5.15.x
+Linux Kernel versions 6.1.175 to 6.1.x
+Linux Kernel versions 6.4 to 6.18.32
+Linux Kernel versions 6.19 to 7.0.9
+Overview
+A vulnerability commonly referred to as ""Bad Epoll"" has been reported in the Linux Kernel's Eventpoll (epoll) subsystem that could allow a local authenticated attacker to escalate privileges on the targeted system.
+Target Audience:
+All organizations and individuals running affected versions of Linux Kernel.
+Risk Assessment:
+High risk of local privilege escalation, race condition, execute arbitrary code and memory corruption.
+Impact Assessment:
+Potential for privilege escalation, execute arbitrary code with kernel privileges, memory corruption, system compromise and disruption of affected systems.
+Description
+The Linux kernel is the core component of many operating systems, responsible for managing hardware resources and providing essential system services and memory management functionality.
+The vulnerability exists in the Linux kernel Eventpoll (epoll) subsystem due to a use-after-free (UAF) condition in the ep_remove() function. An authenticated local attacker could exploit this race condition by triggering concurrent operations on affected kernel objects, causing memory corruption and obtaining elevated privileges.
+Successful exploitation of this vulnerability could allow an authenticated local attacker to gain elevated privileges, potentially resulting in the complete compromise of the affected system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.kernel.org/
+Vendor Information
+Linux Kernel
+https://www.kernel.org/
+References
+https://www.kernel.org/
+CVE Name
+CVE-2026-46242
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-07 10:40:41
