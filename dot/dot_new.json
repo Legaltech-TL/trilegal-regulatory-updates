@@ -1,86 +1,518 @@
 {
-  "generated_at": "2026-07-05T06:50:33.205933",
-  "count": 10,
+  "generated_at": "2026-07-08T05:53:02.559436",
+  "count": 64,
   "items": [
     {
-      "id": "942596e709711c07",
-      "title": "Corrigendum dated 02.07.2026 on Spectrum Fee and Radio Station Fee for assignment of spectrum for Public Mobile Radio Trunking Service (PMRTS) -reg",
-      "publish_date": "07/02/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/457ebd8f78d59bddb6ca3f2b3b39c8ae.pdf",
+      "id": "08d9751c8a12732d",
+      "title": "Transfers / Postings in the Junior Administrative Grade and below level of Indian Posts and Telecommunications Accounts and Finance Service, Group \u2018A\u2019",
+      "publish_date": "07/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/e5dea0a1c8d38e77fcda36e0b9236918.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
+      "scraped_at": "07/08/2026"
     },
     {
-      "id": "12e759f005da0cd9",
+      "id": "4e3e8bba9fb6fc5b",
+      "title": "Transfer & Posting of officers of ITS Gr A- Shri Sunil Bhadu, Staff no 21216",
+      "publish_date": "07/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/71c79dd6f0b42d974f450ca29f4bed9b.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "22255f882e5bb3ca",
+      "title": "Order dated 07-07-2026 reg Transfer & Posting of officers of ITS Gr A",
+      "publish_date": "07/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/045392be61e83f560aece6cc2dc9e177.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "16113cba4d410d57",
+      "title": "Requirement of AI Compute (GPU/TPU) and cloud services at affordable rates with subsidy from IndiaAI",
+      "publish_date": "07/07/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/271b549a7850c103c908aaa379c0cd6e.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "0473766a158b7940",
+      "title": "Leveraging IndiaAI Mission and IndiaAI Impact for AI Solution Mapping Summit by DoT",
+      "publish_date": "07/07/2026",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/leveraging-indiaai-mission-and-indiaai-impact-for-ai-solution-mapping-summit-by-dot-UjN2YzNtQWa?pageTitle=Leveraging-IndiaAI-Mission-and-IndiaAI-Impact-for-AI-Solution-Mapping-Summit-by-DoT",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "ac8a7446c704cb70",
+      "title": "Two Days Training Programme on 'MoDSI' and 'Guidelines on Information Security Practices for Government Entities' by NCA-T from 16.07.2026 to 17.07.2026",
+      "publish_date": "07/06/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/a2483483abfa23af8a1dce23df72a439.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "f04b38fbbef85287",
+      "title": "OM regarding \"Completion of FRAC (Framework for Roles, Activities and Competencies) Exercise on the Competency Portal and enhancement of learning consumption on the iGOT Karmayogi Portal\" -reg.",
+      "publish_date": "07/03/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/9ff7d98c08abd811742b8e6eaffc909f.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "772471a181e9df42",
       "title": "Blocking Notifications/instructions to Internet Service Licensees under court orders (Jul - Sept 2026)",
       "publish_date": "07/02/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/f07aca0b31dff7ac3f441b5479ae0977.pdf",
+      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/blocking-notifications-instructions-to-internet-service-licensees-under-court-orders-july-sept-2026-cTO2UzNtQWa?pageTitle=Blocking-Notifications/instructions-to-Internet-Service-Licensees-under-court-orders-(Jul-Sept-2026)",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
+      "scraped_at": "07/08/2026"
     },
     {
-      "id": "6a42e82a05b2d306",
-      "title": "Transfer/Posting in the Senior Administrative Grade of IP&TAFS, Group A",
-      "publish_date": "07/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/a6cf53812ab7662ccd155207afb58af9.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
-    },
-    {
-      "id": "4e6d010cc5688b92",
-      "title": "Promotion to and posting in the Senior Administrative Grade of IP&TAFS, Group A",
-      "publish_date": "07/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/d2a68645400d798f52495080ae932dbc.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
-    },
-    {
-      "id": "cf8eac34148daabd",
-      "title": "Regular promotion in Junior Administrative Grade (Director) of Indian Telecommunication Service Group 'A' dated 01.07.2026",
-      "publish_date": "07/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/67b774f675da9c22541896c6cd54595d.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
-    },
-    {
-      "id": "79a7f9fc457ed797",
-      "title": "Transfer/posting of officers in JAG and STS of ITS Group A regarding",
-      "publish_date": "07/01/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/3f768a6393bb7b3912bc7610e0cca37e.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
-    },
-    {
-      "id": "3aa363e25ae9e891",
-      "title": "OM dated 30-06-2026 regarding Nomination of officers for mandatory Mid-Career Training Program (MCTP) of ITS Gr. \u201cA\u201d Officers (MCTP Technical Component Phase-III/ Batch-09)- Reg.",
+      "id": "be5b14d5b228f799",
+      "title": "Retirement of Shri Rajendra Mathur Executive Engineer Civil P and T Building Works Civil Group A Service on attaining the age of superannuation as on 30 June 2026",
       "publish_date": "06/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/143796ee951bf7c03fbe5b05034ce3ec.pdf",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/ee8e62166abe00794ae73746d22f8813.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
+      "scraped_at": "07/08/2026"
     },
     {
-      "id": "75fb0ef105347b42",
-      "title": "Spectrum Fee and Radio Station Fee for assignment of spectrum for Public Mobile Radio Trunking Service (PMRTS) -reg",
-      "publish_date": "06/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/3aef99e2bde4b3bbdccebb986e6f44e3.pdf",
+      "id": "b250cebeb86db0fb",
+      "title": "Additional charge of the post of Director (Planning), BBNL",
+      "publish_date": "06/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/3fb376b175289c21d67301ad696c0634.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
+      "scraped_at": "07/08/2026"
     },
     {
-      "id": "97303b6b45947964",
-      "title": "Appointment of Shri M Ravi Shankar, ITS, Staff No 20679 as Advisor, TRAI RO, Bengaluru on deputation basis",
-      "publish_date": "06/30/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/61477c1b8a8c6a399304430d6f6c132d.pdf",
+      "id": "d170c450abc09e9d",
+      "title": "Office Order dt 22-06-2026- Taken on Strength in respect of officer of ITS Gr A, Shri Atul Kumar Chaudhary, Staff no 20130",
+      "publish_date": "06/22/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/2b5ae479ed1f1822f5545df9c7196d1f.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
+      "scraped_at": "07/08/2026"
     },
     {
-      "id": "1772f0baf92fca12",
-      "title": "Termination Letters (June 2026)",
-      "publish_date": "06/12/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/termination-letters-june-2026-AzN5kjNtQWa?pageTitle=Termination-Letters-(June-2026)",
+      "id": "f17b951e97a05d1c",
+      "title": "Retirement on superannuation of officers of India posts & Telecommunications, Accounts and Finance Group A",
+      "publish_date": "06/19/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/5132bed516514caa61b1389d0c208f1c.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "07/05/2026"
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "1363da506390b156",
+      "title": "Relieving of Shri Dindayal Tosniwal, Staff No 20198, DDG (NT), DoT HQs",
+      "publish_date": "06/19/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/1ce7cbd42952e6818e11535c3c75e044.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "4ce66edaf8b147df",
+      "title": "Retirement on Superannuation of officer of P & T BWS Group 'A' Service - Mr. K.G. Garg",
+      "publish_date": "02/27/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/07238f5cf600dd0ad570172a80ad1e63.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "a437665fe93ed40e",
+      "title": "Gazette Notification of Draft Telecommunications User Identification Rules, 2025",
+      "publish_date": "09/22/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/ebd7cfdd702bf1ef7e9201e7ac59e1f4.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "b672b5985a402e24",
+      "title": "Gazette Notification of Draft Telecommunications Migration Rules, 2025",
+      "publish_date": "09/22/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/02/c1eb299c7a81d203cd7956cee96e9ae1.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "17eed558b1af262f",
+      "title": "Draft Telecommunications Authorisation for Captive Telecommunication Services Rules, 2025",
+      "publish_date": "09/15/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/12/7b0c6ccdfe81ed82a416b6e647d50c70.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "aa81b52d407f170f",
+      "title": "Draft Telecommunications Authorisation for Provision of Main Telecommunication Services Rules, 2025",
+      "publish_date": "09/06/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/03ada4fcd5181f9bb03bf8cc7ad6f87a.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "14a66f65005572ed",
+      "title": "Draft Telecommunications Procedures and Safeguards for Lawful Interception of Messages Ammendment Rules, 2024",
+      "publish_date": "07/02/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/976da65df50d3a25f47aee2d48441d6c.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "c932ed83fc507255",
+      "title": "Gazette Notification of Draft Telecommunications-Telecom Cyber Security Amendment Rules, 2025",
+      "publish_date": "06/25/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/49d81e806639989342ba0df62c517bcc.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "5e0b5cdb8d057146",
+      "title": "Draft Use of Low Power and Very Low Power Wireless Access System including Radio Local Area Network in Lower 6 GHz band Rules, 2025",
+      "publish_date": "05/19/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/a942aacccf4d71efe5490938dacbb088.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "d2673188772b5373",
+      "title": "Gazette Notification of Draft Telecommunications Radio Equipment Possession Authorisation Rules, 2025",
+      "publish_date": "03/03/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/0b62d57f07abc843db70e25090d75f78.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "02cfba7d75939ab2",
+      "title": "Draft Telecommunications Assignment of Spectrum through Auction Rules, 2025",
+      "publish_date": "02/04/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/06334e868bbf6adb0f444a7ba707ac2a.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "cb7e190af6c11191",
+      "title": "Draft Telecommunications - Standards, Conformity Assessment and Certification Rules 2025",
+      "publish_date": "01/29/2025",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/9bc389af17025220c082755f36ea7587.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "5fd461620e8c814c",
+      "title": "G-Telecommunications Procedures and Safeguards for Lawful Interception of Messages Rules, 2024",
+      "publish_date": "12/26/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/7040101c61c8ca25140bdbfe5f6a9c23.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "62fdce01c263d472",
+      "title": "Draft Temporary suspension of Telecommunication Services Rules, 2024",
+      "publish_date": "08/30/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/6c79d333ef329b201116a5e5151beb16.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "b2680b4d47de3b68",
+      "title": "Draft Telecommunications of Telecom Cyber Security Rules, 2024",
+      "publish_date": "08/30/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/7922e64b2a1ea70363e1b66970df52f5.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "b99e1d9ffeef5b07",
+      "title": "Telecommunications - Administration of Digital Bharat Nidhi Rules, 2024",
+      "publish_date": "08/30/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/4d5de28ac5c07258e0da0d30b1c8d1e7.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "09ecb3e1b7cefdd5",
+      "title": "Draft Telecommunications of Critical Telecommunication Infrastructure Rules, 2024",
+      "publish_date": "08/30/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/cb09cb6c3cc53f27a4d37397067e18bf.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "62fdce01c263d472",
+      "title": "Draft Temporary suspension of Telecommunication Services Rules, 2024",
+      "publish_date": "08/30/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/6c79d333ef329b201116a5e5151beb16.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "b21449129d18df49",
+      "title": "Draft Telecommunication of Procedure and Safeguard for lawful interception of Messages Rules, 2024",
+      "publish_date": "08/30/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/b6f3de268aeb893272e41ece1607b1dc.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "65322db6e1330e25",
+      "title": "Gazette Notification of Draft Telecommunications Amateur Station Operator Rules, 2024",
+      "publish_date": "07/29/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/2053309d9df739ece9197170f79d5f20.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "956ec41c1729ef9f",
+      "title": "Draft Telecommunications Rules - Commercial Radio Operators Certificate of proficiency to operate Global Maritime Distress and Safety System , 2024",
+      "publish_date": "07/26/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/047b477be754be7e7c8b388b67185bcb.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "30d64a0a3f9e9cc0",
+      "title": "Gazette Notification of Draft Telecommunications Adjudication and Appeal Rules, 2024",
+      "publish_date": "07/18/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/c91e1731aeb9423ff060bbf3f2a6c2e8.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "92b0dd9b079195ed",
+      "title": "Draft Telecommunications Right of Way Rules, 2024",
+      "publish_date": "07/09/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/a1fac5156ac7755c340a46d7be698a79.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "bee6df56fc8c7c08",
+      "title": "Draft Telecommunications Digital Bharat Nidhi Rules, 2024",
+      "publish_date": "07/04/2024",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/8ba7ce5452ec49d50202998190606bb6.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "d766b4f495131cd6",
+      "title": "Indian Telegraph-Infrastructure Safety Rules, 2022",
+      "publish_date": "01/03/2023",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2025/07/a003a544173b6fb436eef06b238a1871.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "011147eee86b8997",
+      "title": "Request for removing export requirements and extension in timelines for registering IMEIs of locally manufactured phones",
+      "publish_date": "12/02/2022",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/fd53a2a2c522fe4189efd208f12f13ec.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "0b2ec084d6f25fad",
+      "title": "Request for clarification on the prevention of tempering of the Mobile Device Equipment Identification Number-Amendment Rules, 2022",
+      "publish_date": "10/27/2022",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/04/13b429869a060abc8995d0289f9b12a4.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "2159f97a879d09ef",
+      "title": "Flight and Maritime Connectivity Amendment Rules, 2022",
+      "publish_date": "02/24/2022",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/40bb9ed4553474d56898a9010a30083f.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "0c4a0e53220e6a42",
+      "title": "Indian Telegraph Right of Way [Amendment] Rules, 2021",
+      "publish_date": "10/21/2021",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/9a037c559e64f4680be9bab13fb13d6f.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "d5fb1ff3a2e0a988",
+      "title": "Amendment regarding list of designated dispute resolution officers",
+      "publish_date": "01/08/2021",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/983320b0519a7029d6e578f746080bc6.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "c4cd454b0f40ecd8",
+      "title": "Gazette Notification on Temporary Suspension of Telecom Services Amendment Rules, 2020",
+      "publish_date": "11/10/2020",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/c5c2b8afd52c86c517a3bf06d5b0f0a6.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "3e9908994b1cae9f",
+      "title": "Indian Telecommunications Service Group-A Rules, 2020",
+      "publish_date": "10/14/2020",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/0bbd643bee74cc97dcd6178928466b27.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "f2b43a8357b1ddf5",
+      "title": "Clarification regarding IFMC Service Providers",
+      "publish_date": "05/21/2019",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/f6cb326a4c192f59080e82bc79669fd2.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "65bfb5ce0a59e3aa",
+      "title": "Declaration of Sr DDG (National Centre for Communication Security) as Head of Department",
+      "publish_date": "04/12/2019",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/ceaaba53f499bebe1e0507d904ce163b.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "b606eaa39eeb798c",
+      "title": "Gazette notification of Telecommunications Engineering Service (Group B Posts) Recruitment Rules, 2019",
+      "publish_date": "02/25/2019",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/103d23bfeb932e93e59c6715e80a43fe.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "80e3a331898b1fc5",
+      "title": "Gazette notification on 'Flight and Maritime Connectivity Rules-2018",
+      "publish_date": "12/17/2018",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/f10ba412954df2b0fdda606459c14db8.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "1eec46cdb2c658eb",
+      "title": "Gazette notification for National Digital Communications Policy 2018",
+      "publish_date": "10/22/2018",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/30b75a18b645f6e6334459c387345c9c.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "82e269fadf2132a6",
+      "title": "Gazette notification for Re-designation of 'Telecom Commission' as 'Digital Communications Commission'",
+      "publish_date": "10/22/2018",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/5ddff3cb7723a942052f43687db26b31.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "e9369c733ee89126",
+      "title": "Gazette Notification of Declaration of Head of Department in the Field Units of Department of Telecommunications-Amendment",
+      "publish_date": "06/08/2018",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/920b28bab311fe092a7d1eb71a3bf7ef.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "6d3cf512e8985678",
+      "title": "Gazette Notification of Declaration of Head of Department in the Field Units of Department of Telecommunications",
+      "publish_date": "11/06/2017",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/be600a91e19215bd1a9959c27d84d660.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "3e6ef6d1adecca22",
+      "title": "Prevention of tampering of the Mobile Device Equipment Identification Number Rules, 2017",
+      "publish_date": "08/28/2017",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/60ddae5078c1ce37688ee4da4866a8f3.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "2059eaebcd7976e6",
+      "title": "Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017",
+      "publish_date": "08/08/2017",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/05/cff6f3852f4f1ba9ac924db92aa31596.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "197df106525830b1",
+      "title": "Gazette notification of the list of Designated Dispute Resolution Officers",
+      "publish_date": "06/19/2017",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/75174cb5c45780211a3c1a7e056c5e8d.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "60fec8a55136156c",
+      "title": "Gazette notification of Indian Telegraph Right of Way (Amendment) Rules 2017",
+      "publish_date": "04/21/2017",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/186adb420d994ee11b01dd3a20fb25d8.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "babd01a02360be61",
+      "title": "Gazette Notification of Cadre Review of Indian Telecommunications Services(ITS) Group 'A': Distribution of sanctioned posts",
+      "publish_date": "02/23/2017",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/c7573221e51bb9e61eb933cc3a714303.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "64b0ed41e20cfa9c",
+      "title": "Gazette Notification of Cadre Review of Indian Telecommunications Services(ITS) Group 'A'",
+      "publish_date": "12/29/2016",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/24c63542ea290ab77ca46fa5a6e5586b.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "df13d87ab8a830b8",
+      "title": "Gazette Notification of Indian Telegraph Right of Way Rules, 2016",
+      "publish_date": "11/16/2016",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/2ab492cf17ddbddff1a432c04c026122.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "d966129183a80173",
+      "title": "Recruitment Rules for the post of Member (F)",
+      "publish_date": "08/20/2015",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/e786b216a09f51a790f10a63443ea58a.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "b5660c87a3e1f1b0",
+      "title": "The Telecom Regulatory Authority of India Amendment,Ordiance, 2014",
+      "publish_date": "05/28/2014",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/8c419cfc93dfdb5d091c757209a41e90.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "8494519814bb20fe",
+      "title": "Gazette notification for definition of Broadband",
+      "publish_date": "09/10/2013",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/e7668eb62efeacf2ad59a7d972e903f0.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "3ba39f03d9ffd9e1",
+      "title": "Rules of Business For The Telecom Commission",
+      "publish_date": "07/16/2013",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/363ac46574bf30af91a22a994106477a.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "5f580263c3822e0b",
+      "title": "The Gazette of India dated 16.07.2013",
+      "publish_date": "07/16/2013",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/06/ca327bf035c95580f323f485e76bd8f9.pdf",
+      "category": "GAZETTES_NOTIFICATIONS",
+      "scraped_at": "07/08/2026"
     }
   ]
 }
