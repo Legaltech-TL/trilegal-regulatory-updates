@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-07-07T11:48:27.793369",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-07-08T05:42:51.148286",
+  "count": 2,
+  "items": [
+    {
+      "id": "51dc56eeac2c3198",
+      "title": "Pre-Bid Responses: ENGAGEMENT OF TRAINING...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "07/08/2026"
+    },
+    {
+      "id": "1f2e3ee53176d973",
+      "title": "Additional Investment Choices extended to...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/86710/PRESS+RELEASE.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "07/08/2026"
+    }
+  ]
 }
