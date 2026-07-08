@@ -15113,3 +15113,54 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-07 10:40:41
+67533938b3cdccd3,CERT-In Vulnerability Note  CIVN-2026-0358,"July 08, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0358,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0358
+Multiple Vulnerabilities in Mozilla Products
+Original Issue Date:July      08, 2026
+Severity Rating: HIGH
+Software Affected
+Mozilla Firefox versions prior to 152.0.4.
+Mozilla Thunderbird versions prior to 152.0.1
+Mozilla Thunderbird versions prior to 140.12.1
+Overview
+Multiple vulnerabilities have been reported in Mozilla products which could be exploited by a remote attacker to execute arbitrary code, sensitive information disclosure, or cause a Denial of Service (DoS) condition on the targeted system.
+Target Audience:
+All end user organizations and individuals using Mozilla products.
+Risk Assessment:
+High risk of remote code execution (RCE) and Denial of Service (DoS).
+Impact Assessment:
+Potential for sensitive information disclosure, denial of Service conditions and complete compromise of system.
+Description
+Mozilla Firefox is a free and open-source web browser developed by Mozilla Foundation, while Firefox ESR (Extended Support Release) is a stable version tailored for organizations that require long-term support with only security and maintenance updates.
+Multiple vulnerabilities exist in Mozilla products due to memory safety issues, improper handling of LDAP responses, and insufficient sanitization of HTML chat messages. A remote attacker could exploit these vulnerabilities by persuading a victim to visit specially crafted web page.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, inject phishing content, disclose sensitive information, or cause a Denial of Service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-62/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-63/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-64/
+Vendor Information
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-62/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-63/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-64/
+References
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-62/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-63/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-64/
+CVE Name
+CVE-2026-14241
+CVE-2026-57962
+CVE-2026-57963
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-08 09:58:58
