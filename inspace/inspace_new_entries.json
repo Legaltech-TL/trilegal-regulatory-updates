@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "210cc3c6e4643ba17ffb4854bdd270db8b62e116",
+    "section": "Publications",
+    "category": "Brochure & Newsletter",
+    "title": "",
+    "date": "",
+    "meta": "PDF - 3.2 MB",
+    "pdf_link": "https://www.inspace.gov.in/sys_attachment.do?sys_id=48f6bc5087f8de50d66165350cbb353e",
+    "pdf_filename": "48f6bc5087f8de50d66165350cbb353e.pdf",
+    "source_page": "https://www.inspace.gov.in/inspace?id=inspace_publications",
+    "scraped_at": "2026-07-08T06:11:29.170210"
+  },
+  {
+    "id": "ca5493d23b08cbbdb51bd5c1e2016b69f2e9a8d5",
+    "section": "Publications",
+    "category": "IIC Presentations",
+    "title": "IN-SPACe Industry Connect 10",
+    "date": "",
+    "meta": "Synopsis Report",
+    "pdf_link": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=91bc19002bc60710e95ef17b6e91bfc8",
+    "pdf_filename": "91bc19002bc60710e95ef17b6e91bfc8.pdf",
+    "source_page": "https://www.inspace.gov.in/inspace?id=inspace_publications",
+    "scraped_at": "2026-07-08T06:11:29.767121"
+  }
+]
