@@ -15164,3 +15164,72 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-08 09:58:58
+1c03c969b3244000,CERT-In Vulnerability Note  CIVN-2026-0359,"July 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0359,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0359
+Multiple vulnerabilities in Google Chrome for Desktop
+Original Issue Date:July      10, 2026
+Severity Rating: CRITICAL
+Software Affected
+Google Chrome versions prior to 150.0.7871.114/.115 for Windows and Mac
+Google Chrome versions prior to 150.0.7871.114 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome which could allow a remote attacker to execute arbitrary code, bypass security restrictions, disclose sensitive information and cause denial of service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Impact Assessment:
+Potential for full system compromise, service unavailability and information disclosure.
+Risk Assessment:
+High risk of security policy bypass, data loss and service disruptions.
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on worldwide web. It is designed for use on desktop computers, such as those running on Windows, macOS or Linux operating system.
+Multiple vulnerabilities exist in Google Chrome due to Use after free in Ozone, Views, InterestGroups, Extensions, Autofill, Actor, Payments, Input, Core, WebRTC, Forms and IndexedDB; Uninitialized use in V8 and ANGLE; Integer overflow in Extensions API; Out-of-bounds read and write in Codecs; Insufficient input validation of WebAppInstalls and Codecs; Insufficient data validation in DOM and Navigation; Insufficient policy enforcement in Passwords and Navigation; and Inappropriate implementation in GetUserMedia, Forms and WebGL. A remote attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted web page.
+Successful exploitation of these vulnerabilities could allow remote attacker to execute arbitrary code, bypass security restrictions, disclose sensitive information and cause denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor
+https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01162222768.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01162222768.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01162222768.html
+CVE Name
+CVE-2026-15107
+CVE-2026-15108
+CVE-2026-15109
+CVE-2026-15110
+CVE-2026-15111
+CVE-2026-15112
+CVE-2026-15113
+CVE-2026-15114
+CVE-2026-15115
+CVE-2026-15116
+CVE-2026-15117
+CVE-2026-15118
+CVE-2026-15119
+CVE-2026-15120
+CVE-2026-15121
+CVE-2026-15122
+CVE-2026-15123
+CVE-2026-15124
+CVE-2026-15125
+CVE-2026-15126
+CVE-2026-15127
+CVE-2026-15128
+CVE-2026-15129
+CVE-2026-15130
+CVE-2026-15131
+CVE-2026-15132
+CVE-2026-15133
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-10 07:51:57
