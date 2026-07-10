@@ -15233,3 +15233,173 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-10 07:51:57
+263fa346aadd9cfe,CERT-In Vulnerability Note  CIVN-2026-0361,"July 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0361,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0361
+Multiple Vulnerabilities in Wireshark
+Original Issue Date:July      10, 2026
+Severity Rating: HIGH
+Software Affected
+Wireshark versions 4.6.0 to 4.6.6, 4.4.0 to 4.4.16.
+Overview
+Multiple vulnerabilities have been reported in Wireshark that could allow an attacker to obtain sensitive information or cause denial of service (DoS) condition on the targeted system.
+Target Audience:
+All end-users organisations and individual using Wireshark.
+Risk Assessment:
+High risk of service unavailability.
+Impact Assessment:
+Potential for sensitive data exposure, disruption of services.
+Description
+Wireshark is a network protocol analyzer used to capture and inspect data packets in real time for troubleshooting, analysis, and security purposes.
+Multiple vulnerabilities have been reported in Wireshark due to improper input validation. An attacker could exploit these vulnerabilities by sending a specially crafted request.
+Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive information or trigger denial of service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned:
+https://www.wireshark.org/security/wnpa-sec-2026-52.html
+https://www.wireshark.org/security/wnpa-sec-2026-53.html
+https://www.wireshark.org/security/wnpa-sec-2026-54.html
+https://www.wireshark.org/security/wnpa-sec-2026-55.html
+https://www.wireshark.org/security/wnpa-sec-2026-56.html
+https://www.wireshark.org/security/wnpa-sec-2026-57.html
+https://www.wireshark.org/security/wnpa-sec-2026-58.html
+https://www.wireshark.org/security/wnpa-sec-2026-59.html
+https://www.wireshark.org/security/wnpa-sec-2026-60.html
+https://www.wireshark.org/security/wnpa-sec-2026-61.html
+https://www.wireshark.org/security/wnpa-sec-2026-62.html
+https://www.wireshark.org/security/wnpa-sec-2026-63.html
+Vendor Information
+Wireshark
+https://www.wireshark.org/security/wnpa-sec-2026-52.html
+https://www.wireshark.org/security/wnpa-sec-2026-53.html
+https://www.wireshark.org/security/wnpa-sec-2026-54.html
+https://www.wireshark.org/security/wnpa-sec-2026-55.html
+https://www.wireshark.org/security/wnpa-sec-2026-56.html
+https://www.wireshark.org/security/wnpa-sec-2026-57.html
+https://www.wireshark.org/security/wnpa-sec-2026-58.html
+https://www.wireshark.org/security/wnpa-sec-2026-59.html
+https://www.wireshark.org/security/wnpa-sec-2026-60.html
+https://www.wireshark.org/security/wnpa-sec-2026-61.html
+https://www.wireshark.org/security/wnpa-sec-2026-62.html
+https://www.wireshark.org/security/wnpa-sec-2026-63.html
+References
+https://www.wireshark.org/security/wnpa-sec-2026-52.html
+https://www.wireshark.org/security/wnpa-sec-2026-53.html
+https://www.wireshark.org/security/wnpa-sec-2026-54.html
+https://www.wireshark.org/security/wnpa-sec-2026-55.html
+https://www.wireshark.org/security/wnpa-sec-2026-56.html
+https://www.wireshark.org/security/wnpa-sec-2026-57.html
+https://www.wireshark.org/security/wnpa-sec-2026-58.html
+https://www.wireshark.org/security/wnpa-sec-2026-59.html
+https://www.wireshark.org/security/wnpa-sec-2026-60.html
+https://www.wireshark.org/security/wnpa-sec-2026-61.html
+https://www.wireshark.org/security/wnpa-sec-2026-62.html
+https://www.wireshark.org/security/wnpa-sec-2026-63.html
+CVE Name
+CVE-2026-15164
+CVE-2026-15167
+CVE-2026-15163
+CVE-2026-15168
+CVE-2026-15169
+CVE-2026-15170
+CVE-2026-15166
+CVE-2026-15165
+CVE-2026-15171
+CVE-2026-15172
+CVE-2026-15173
+CVE-2026-15174
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-10 10:38:20
+5ab7ec46bd64efd5,CERT-In Vulnerability Note  CIVN-2026-0360,"July 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0360,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0360
+Multiple Vulnerabilities in PAN-OS
+Original Issue Date:July      10, 2026
+Severity Rating: HIGH
+Software Affected
+PAN-OS 12.1 versions prior to 12.1.8
+PAN-OS 11.2 versions prior to 11.2.13
+PAN-OS 11.1 versions prior to 11.1.16
+PAN-OS 10.2 all versions
+Prisma Access Agent versions 24.0 through 26.2.0 on Windows
+Prisma Access Agent versions prior to the applicable fixed release on iOS
+Cortex XDR Broker VM versions prior to the applicable fixed releases
+Prisma Browser versions prior to the applicable fixed releases
+User-ID Terminal Server Agent versions prior to the applicable fixed releases
+Overview
+Multiple vulnerabilities exist in PAN-OS that could allow an attacker to bypass authentication and security controls, execute arbitrary commands, access sensitive information, perform cross-site scripting (XSS) attacks, manipulate protected resources, disrupt system availability or compromise affected systems.
+Target Audience:
+All organizations and administrators using affected PAN-OS deployments and associated Palo Alto Networks products.
+Risk Assessment:
+High risk of unauthorized access, arbitrary command execution, security control bypass, and compromise of affected PAN-OS deployments.
+Impact Assessment:
+Potential for arbitrary command execution, unauthorized access to sensitive information, security control bypass, privilege escalation, and compromise of affected systems.
+Description
+PAN-OS is the operating system that powers Palo Alto Networks next-generation firewalls and provides advanced network security and threat prevention capabilities.
+These vulnerabilities exist in PAN-OS due to improper input validation, missing authentication, command injection, XML injection, server-side request forgery (SSRF), improper access control, information disclosure, and improper neutralization of user-supplied input.
+Successful exploitation could allow a remote attacker to execute arbitrary commands, bypass authentication or security controls, obtain sensitive information, perform cross-site scripting (XSS), delete files, cause denial of service, or otherwise compromise the confidentiality, integrity and availability of the affected systems.
+Solution
+Apply appropriate security updates and mitigations as mentioned in
+https://security.paloaltonetworks.com/CVE-2026-0276
+https://security.paloaltonetworks.com/CVE-2026-0277
+https://security.paloaltonetworks.com/CVE-2026-0278
+https://security.paloaltonetworks.com/CVE-2026-0279
+https://security.paloaltonetworks.com/CVE-2026-0280
+https://security.paloaltonetworks.com/CVE-2026-0281
+https://security.paloaltonetworks.com/CVE-2026-0282
+https://security.paloaltonetworks.com/CVE-2026-0283
+https://security.paloaltonetworks.com/CVE-2026-0284
+https://security.paloaltonetworks.com/CVE-2026-0285
+https://security.paloaltonetworks.com/CVE-2026-0286
+https://security.paloaltonetworks.com/CVE-2026-0287
+https://security.paloaltonetworks.com/CVE-2026-0288
+Vendor Information
+Palo Alto Networks
+https://www.paloaltonetworks.com/
+References
+https://security.paloaltonetworks.com/CVE-2026-0276
+https://security.paloaltonetworks.com/CVE-2026-0277
+https://security.paloaltonetworks.com/CVE-2026-0278
+https://security.paloaltonetworks.com/CVE-2026-0279
+https://security.paloaltonetworks.com/CVE-2026-0280
+https://security.paloaltonetworks.com/CVE-2026-0281
+https://security.paloaltonetworks.com/CVE-2026-0282
+https://security.paloaltonetworks.com/CVE-2026-0283
+https://security.paloaltonetworks.com/CVE-2026-0284
+https://security.paloaltonetworks.com/CVE-2026-0285
+https://security.paloaltonetworks.com/CVE-2026-0286
+https://security.paloaltonetworks.com/CVE-2026-0287
+https://security.paloaltonetworks.com/CVE-2026-0288
+CVE Name
+CVE-2026-0276
+CVE-2026-0277
+CVE-2026-0278
+CVE-2026-0279
+CVE-2026-0280
+CVE-2026-0281
+CVE-2026-0282
+CVE-2026-0283
+CVE-2026-0284
+CVE-2026-0285
+CVE-2026-0286
+CVE-2026-0287
+CVE-2026-0288
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-10 10:38:20
