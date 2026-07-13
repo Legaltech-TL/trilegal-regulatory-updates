@@ -15403,3 +15403,79 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-10 10:38:20
+48b9adad71c93346,CERT-In Vulnerability Note  CIVN-2026-0362,"July 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0362,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0362
+Multiple Vulnerabilities in Drupal
+Original Issue Date:July      13, 2026
+Severity Rating: HIGH
+Software Affected
+Commerce guest registration.
+Clean RESTful.
+Raw Formatter [Meta Tag Formatter].
+AI SEO/GEO Analyzer versions prior to 1.1.3
+UI Patterns (SDC in Drupal UI) versions prior to 2.0.17, starting from 2.0.0
+Siteimprove Analytics versions prior to 2.0.1
+Location Selector versions prior to 1.3.0
+Ray Enterprise Translation versions prior to 4.0.4
+Ray Enterprise Translation versions prior to 4.1.4, starting from 4.1.0
+Ray Enterprise Translation versions prior to 11.0.4, starting from 11.0.0
+Login Disable versions prior to 2.1.4
+Overview
+Multiple vulnerabilities have been reported in Drupal modules, which could allow an attacker to execute SQL injection, cross-site scripting (XSS) attacks, bypass security restrictions or otherwise compromise the targeted system.
+Target Audience:
+All end-user organizations and individuals using the affected Drupal modules.
+Risk Assessment:
+High risk of SQL injection, cross-site scripting, and potential compromise of affected Drupal websites.
+Impact Assessment:
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary SQL queries, perform cross-site scripting (XSS) attacks, bypass security restrictions, gain unauthorized access, and compromise the integrity of the affected system.
+Description
+Drupal is an open-source Content Management System (CMS) used to build, manage, and maintain websites and web applications.
+Multiple vulnerabilities have been identified in several Drupal contributed modules due to improper input sanitization, SQL injection flaws, and other security weaknesses.
+Successful exploitation of these vulnerabilities could allow an attacker to perform SQL injection and cross-site scripting (XSS) attacks, bypass security restrictions, or otherwise compromise the targeted system.
+Solution
+Apply appropriate security updates as mentioned:
+https://www.drupal.org/sa-contrib-2026-070
+https://www.drupal.org/sa-contrib-2026-071
+https://www.drupal.org/sa-contrib-2026-072
+https://www.drupal.org/sa-contrib-2026-073
+https://www.drupal.org/sa-contrib-2026-075
+https://www.drupal.org/sa-contrib-2026-076
+https://www.drupal.org/sa-contrib-2026-077
+https://www.drupal.org/sa-contrib-2026-078
+https://www.drupal.org/sa-contrib-2026-079
+Vendor Information
+Drupal
+https://new.drupal.org/home
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-070
+https://www.drupal.org/sa-contrib-2026-071
+https://www.drupal.org/sa-contrib-2026-072
+https://www.drupal.org/sa-contrib-2026-073
+https://www.drupal.org/sa-contrib-2026-075
+https://www.drupal.org/sa-contrib-2026-076
+https://www.drupal.org/sa-contrib-2026-077
+https://www.drupal.org/sa-contrib-2026-078
+https://www.drupal.org/sa-contrib-2026-079
+CVE Name
+CVE-2026-15079
+CVE-2026-15080
+CVE-2026-15081
+CVE-2026-15082
+CVE-2026-15084
+CVE-2026-15085
+CVE-2026-15086
+CVE-2026-15087
+CVE-2026-15089
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-13 07:36:25
