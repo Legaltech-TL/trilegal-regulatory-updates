@@ -15479,3 +15479,67 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-13 07:36:25
+419f3fcf84f632d4,CERT-In Vulnerability Note  CIVN-2026-0363,"July 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0363,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0363
+Multiple Vulnerabilities in Ivanti Sentry
+Original Issue Date:July      13, 2026
+Severity Rating: CRITICAL
+Software Affected
+Ivanti Sentry 10.5.x versions prior to 10.5.2
+Ivanti Sentry 10.6.x versions prior to 10.6.2
+Ivanti Sentry 10.7.x versions prior to 10.7.1
+Overview
+Multiple vulnerabilities have been reported in Ivanti Sentry, which could allow a remote unauthenticated attacker to execute arbitrary code with root privileges, bypass authentication, create arbitrary administrative accounts, and gain full administrative access on the targeted system.
+Target Audience:
+IT administrators, security administrators, network administrators, and organizations using Ivanti Sentry.
+Risk Assessment:
+Critical risk of complete system compromise, unauthorized administrative access, and execution of arbitrary commands.
+Impact Assessment:
+Potential for complete system compromise, unauthorized administrative access, and arbitrary code execution with root privileges.
+Description
+Ivanti Sentry, formerly known as MobileIron Sentry, is an in-line gateway that manages, encrypts, and secures traffic between mobile devices and backend enterprise systems.
+Multiple critical vulnerabilities have been reported in Ivanti Sentry due to improper neutralization of special elements used in an operating system command and authentication bypass using an alternate path or channel.
+Successful exploitation of these vulnerabilities could allow a remote unauthenticated attacker to execute arbitrary code with root privileges, bypass authentication, create arbitrary administrative accounts, and gain full administrative access on the targeted system.
+Note: CVE-2026-10520 is being actively exploited in the wild.
+Solution
+Upgrade to Ivanti Sentry versions 10.5.2, 10.6.2 or 10.7.1, as applicable, by applying the security updates provided by Ivanti immediately:
+https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Sentry-CVE-2026-10520-CVE-2026-10523?language=en_US
+Vendor Information
+Ivanti
+https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Sentry-CVE-2026-10520-CVE-2026-10523?language=en_US
+References
+https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Sentry-CVE-2026-10520-CVE-2026-10523?language=en_US
+CVE Name
+CVE-2026-10520
+CVE-2026-10523
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-13 10:42:34
+5e17e652ca92d79b,Digital Threat Report 2025-26,"July 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3536,Current Activities,"CURRENT ACTIVITIES
+Digital Threat Report 2025-26
+Original Issue Date:July      13, 2026
+CERT-IN, CSIRT-Fin and SISA have collaborated to launch the second edition of the Digital Threat Report 202526, as part of their continuous efforts to strengthen cybersecurity resilience across the Banking, Financial Services and Insurance (BFSI) sector. The report presents a comprehensive analysis of current and emerging cyber threats, along with relevant defense strategies and mitigation measures to help institutions enhance their preparedness, response capabilities and overall resilience.
+The report is available at:
+Digital Threat Report 2025-26
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email:info@cert-in.org.in
+Phone: +91-11-22902657
+Postal Address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-13 10:42:34
