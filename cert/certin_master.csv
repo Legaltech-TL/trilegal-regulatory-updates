@@ -15544,3 +15544,120 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-07-13 10:42:34
 66fdb92bc494ae38,CERT-In Vulnerability Note  CIVN-2026-0364,"July 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0364,Latest Security Alert,,2026-07-15 09:33:02
+0c420dde83af187a,CERT-In Vulnerability Note  CIVN-2026-0365,"July 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0365,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0365
+Multiple Vulnerabilities in Mozilla Firefox
+Original Issue Date:July      16, 2026
+Severity Rating: CRITICAL
+Software Affected
+Mozilla Firefox versions prior to 152.0.6.
+Overview
+Multiple vulnerabilities have been reported in Mozilla Firefox which could allow a remote attacker to execute arbitrary code, bypass security restrictions, denial of service, and data manipulation on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Mozilla Firefox.
+Risk Assessment:
+High risk of denial of service (DoS), and data manipulation on the targeted system.
+Impact Assessment:
+Potential for remote code execution and bypass security restrictions.
+Description
+Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation.
+Multiple vulnerabilities exist in Mozilla Firefox due to an Invalid pointer in the JavaScript of WebAssembly component and Improper site isolation in the DOM of Navigation component.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, bypass security restrictions, denial of service, and data manipulation on the targeted system.
+Solution
+Apply the appropriate security update provided by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-67/
+Vendor Information
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-67/
+References
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-67/
+CVE Name
+CVE-2026-15718
+CVE-2026-15719
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-16 09:39:14
+ceeaef7dd5d10a6a,CERT-In Advisory   CIAD-2026-0034,"July 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0034,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0034
+Multiple Vulnerabilities in SAP Products
+Original Issue Date: July      16, 2026
+Severity Rating: High
+Software Affected
+SAP S/4HANA including Project Management (PPM-PRO), Draft Operation, and Create Single Payment
+SAP NetWeaver Application Server (ABAP and Java) including Business Server Pages, Web Container, and Configuration Wizard
+SAP NetWeaver Enterprise Portal
+SAP Commerce Cloud
+SAP Approuter Library
+SAP Integration Suite (Edge Integration Cell)
+SAProuter (Microsoft Windows)
+SAP Change and Transport System (CTS) Attach Tool (ctsattach)
+SAP Fiori (Launchpad)
+SAP CRM (WebClient UI)
+SAP HANA Extended Application Services (XS Classic Model ¿ User Self Service)
+UI5 Web Components Base (ui5/webcomponents-base)
+Overview
+Multiple vulnerabilities have been reported in SAP products which could allow an attacker to execute arbitrary code, perform HTTP request smuggling, SQL injection, cross-site scripting (XSS), open redirect, directory traversal, and DLL hijacking attacks, disclose sensitive information, bypass authorization checks, exploit security misconfigurations, or cause denial-of-service (DoS) conditions on the targeted system.
+Target Audience:
+SAP Basis administrators, SAP system administrators, SAP security teams, IT infrastructure teams, SAP application administrators, and developers managing or supporting affected SAP products and components.
+Risk Assessment:
+High risk of unauthorized access, execution of arbitrary code or commands, disclosure of sensitive information, authentication and authorization bypass, and compromise of affected SAP systems.
+Impact Assessment:
+Potential remote code execution, unauthorized access, information disclosure, data compromise, and disruption of affected SAP systems.
+Description
+Multiple vulnerabilities have been reported in SAP products; Details of which are provided below:
+Solution
+Apply appropriate fixes as mentioned in SAP Security Advisory:
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/july-2026.html
+Vendor Information
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/july-2026.html
+References
+SAP
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/july-2026.html
+CVE Name
+CVE-2026-44747
+CVE-2026-27690
+CVE-2026-44761
+CVE-2026-40128
+CVE-2026-40860
+CVE-2026-40453
+CVE-2026-33454
+CVE-2026-0487
+CVE-2026-44752
+CVE-2026-44745
+CVE-2026-43512
+CVE-2026-41293
+CVE-2026-43515
+CVE-2026-58233
+CVE-2026-44759
+CVE-2026-44767
+CVE-2026-44769
+CVE-2026-44760
+CVE-2026-44771
+CVE-2026-44770
+CVE-2026-24315
+CVE-2026-44768
+CVE-2026-44753
+CVE-2025-68161
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-16 09:39:14
