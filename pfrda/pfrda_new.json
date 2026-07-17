@@ -1,5 +1,54 @@
 {
-  "generated_at": "2026-07-16T10:58:37.632649",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-07-17T05:34:13.233243",
+  "count": 6,
+  "items": [
+    {
+      "id": "0e898703af741b67",
+      "title": "NOTICE INVITING PROPOSALS FOR SELECTION...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/312101/NOTICE+INVITING+PROPOSALS+FOR+SELECTION+OF+SPONSORS+OF+PENSION+FUNDS+-+On+Tap+basis.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "07/17/2026"
+    },
+    {
+      "id": "b37e6af1f6148ecb",
+      "title": "PFRDA (REGISTRATION OF PENSION FUNDS)...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/198544/PFRDA+%28REGISTRATION+OF+PENSION+FUNDS%29+GUIDELINES%2C+2026+%28amended+on+13.07.2026%29.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "07/17/2026"
+    },
+    {
+      "id": "88b176523ff4a1fd",
+      "title": "Circular - Strengthening of accessibility...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/151380/Circular+-+Strengthening+of+accessibility+standards+under+the+Rights+of+Persons+with+Disability+Act%2C+2016.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "07/17/2026"
+    },
+    {
+      "id": "a336d33fef8dfe28",
+      "title": "Circular - Strengthening of accessibility standards under the Rights of Persons with Disability Act, 2016\nPoint of Presence\nRef: PFRDA/17/05/16/0003/2018-SUP-POP\nIssue Date: 15-07-2026",
+      "publish_date": "07/15/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/151380/Circular+-+Strengthening+of+accessibility+standards+under+the+Rights+of+Persons+with+Disability+Act%2C+2016.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "07/17/2026"
+    },
+    {
+      "id": "bfb243e8eabbd245",
+      "title": "PFRDA (REGISTRATION OF PENSION FUNDS) GUIDELINES, 2026 (amended on 13.07.2026)\nPoint of Presence\nIssue Date: 16-07-2026",
+      "publish_date": "07/16/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/198544/PFRDA+%28REGISTRATION+OF+PENSION+FUNDS%29+GUIDELINES%2C+2026+%28amended+on+13.07.2026%29.pdf",
+      "category": "GUIDELINE",
+      "scraped_at": "07/17/2026"
+    },
+    {
+      "id": "f3321e37a3f1fe50",
+      "title": "NOTICE INVITING PROPOSALS FOR SELECTION OF SPONSORS OF PENSION FUNDS - On Tap basis\nNotice\nIssue Date: 16-07-2026",
+      "publish_date": "07/16/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/312101/NOTICE+INVITING+PROPOSALS+FOR+SELECTION+OF+SPONSORS+OF+PENSION+FUNDS+-+On+Tap+basis.pdf",
+      "category": "NOTICE",
+      "scraped_at": "07/17/2026"
+    }
+  ]
 }
