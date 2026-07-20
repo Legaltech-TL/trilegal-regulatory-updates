@@ -15824,3 +15824,57 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-07-17 12:05:18
 7914cad1058ea855,CERT-In Advisory   CIAD-2026-0035,"July 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0035,Latest Security Alert,,2026-07-17 12:05:18
+d8895c6efce27bae,CERT-In Vulnerability Note  CIVN-2026-0369,"July 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0369,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0369
+Multiple Vulnerabilities in Apache Tomcat
+Original Issue Date:July      20, 2026
+Severity Rating: CRITICAL
+Software Affected
+Apache Tomcat 11 versions prior to 11.0.24
+Apache Tomcat 10.1 versions prior to 10.1.57
+Apache Tomcat 9 versions prior to 9.0.120
+Apache Tomcat versions 8.5.38 through 8.5.100
+Apache Tomcat versions 7.0.100 through 7.0.109
+Overview
+Multiple vulnerabilities have been reported in Apache Tomcat that could allow an attacker to bypass security restrictions or gain unauthorized access to protected resources on the affected system.
+Target Audience:
+All end user organizations and individuals responsible for maintaining and updating Apache Tomcat.
+Risk Assessment:
+Risk of security constraint bypass, unauthorized access, and insecure cluster communication configuration.
+Impact Assessment:
+Potential for unauthorized access to protected resources and weakened security of encrypted Tomcat cluster communications.
+Description
+Apache Tomcat is an open-source web server and servlet container used to deploy Java-based web applications.
+Multiple vulnerabilities have been identified in Apache Tomcat due to improper handling of URL encoding (hex encoding) in the RewriteValve component and insufficient technical documentation for securely configuring the EncryptInterceptor component.
+Successful exploitation of these vulnerabilities could allow an attacker to bypass security restrictions or gain unauthorized access to protected resources on the affected system.
+Solution
+Apply appropriate fixes as mentioned in the Apache Tomcat Security Updates:
+https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.24
+https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.57
+https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.120
+https://tomcat.apache.org/security-8.html
+https://tomcat.apache.org/security-7.html
+Vendor Information
+Apache Tomcat
+https://tomcat.apache.org/
+References
+https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.24
+https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.57
+https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.120
+https://tomcat.apache.org/security-8.html
+https://tomcat.apache.org/security-7.html
+CVE Name
+CVE-2026-59083
+CVE-2026-59084
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-20 10:29:53
