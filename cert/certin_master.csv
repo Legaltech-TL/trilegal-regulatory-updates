@@ -15930,3 +15930,91 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-07-21 06:41:20
 a69bf6ffe3d0fc44,CERT-In Vulnerability Note  CIVN-2026-0371,"July 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0371,Latest Security Alert,,2026-07-21 10:07:32
+b131257bede43814,CERT-In Vulnerability Note  CIVN-2026-0373,"July 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0373,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0373
+Multiple Vulnerabilities in WordPress
+Original Issue Date:July      21, 2026
+Severity Rating: CRITICAL
+Software Affected
+WordPress versions prior to 7.0.2
+Overview
+Multiple vulnerabilities have been reported in WordPress, which could allow an attacker to perform SQL injection attack, or execute arbitrary code on the targeted system.
+Target Audience:
+Users of affected WordPress versions.
+Risk Assessment:
+Risk of SQL injection attacks and remote code execution (RCE).
+Impact Assessment:
+Potential for unauthorized access, execution of arbitrary code, privilege escalation, and full compromise.
+Description
+WordPress is an open-source content management system (CMS) used to build websites and blogs.
+Multiple vulnerabilities exist in WordPress due to a REST API batch endpoint route interpretation conflict (route confusion) and improper sanitization of the author__not_in parameter in WP_Query.
+Successful exploitation of these vulnerabilities could allow an attacker to perform SQL injection attack, or execute arbitrary code on the targeted system.
+Solution
+Apply the necessary patches and updates as provided by vendor:
+https://wordpress.org/news/2026/07/wordpress-7-0-2-release/
+Vendor Information
+WordPress
+https://wordpress.org/
+References
+WordPress
+https://wordpress.org/news/2026/07/wordpress-7-0-2-release/
+CVE Name
+CVE-2026-60137
+CVE-2026-63030
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-21 12:21:57
+d14cf1593c42107e,CERT-In Vulnerability Note  CIVN-2026-0372,"July 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0372,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0372
+Multiple Vulnerabilities in TP-Link Products
+Original Issue Date:July      21, 2026
+Severity Rating: HIGH
+Software Affected
+TP-Link Kasa EC70 V4 firmware versions prior to 2.4.0 Build 20260520 rel. 4191
+TP-Link Kasa EC71 V4 firmware versions prior to 2.4.0 Build 20260520 rel. 4191
+TP-Link Kasa EC70 V4 firmware versions prior to 2.4.1 Build 20260621 rel. 76536
+TP-Link Kasa EC71 V4 firmware versions prior to 2.4.1 Build 20260621 rel. 76536
+Overview
+Multiple vulnerabilities have been reported in TP-Link products, which could allow an attacker on the same local network to disclose sensitive information, intercept encrypted communications through a Man-in-the-Middle (MITM) attack, expose geolocation information, and compromise the confidentiality of the affected devices.
+Target Audience:
+All organizations and individuals using the affected TP-Link products.
+Risk Assessment:
+High risk of sensitive information disclosure, compromise of encrypted communications through Man-in-the-Middle (MITM) attacks, and exposure of geolocation information.
+Impact Assessment:
+Potential for disclosure of sensitive information, interception of encrypted communications, exposure of geolocation information, and compromise of the confidentiality of affected devices.
+Description
+TP-Link Kasa EC70 and EC71 are smart security cameras that provide remote monitoring and surveillance capabilities for residential and enterprise environments.
+These vulnerabilities exist in TP-Link products due to the use of a hard-coded cryptographic private key within the firmware and exposure of sensitive geolocation information through the local discovery mechanism.
+Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, intercept encrypted communications through a Man-in-the-Middle (MITM) attack, expose geolocation information, and compromise the confidentiality of the affected devices.
+Solution
+Apply appropriate firmware updates as recommended by the vendor.
+https://www.tp-link.com/us/support/faq/5192/
+Vendor Information
+TP-Link
+https://www.tp-link.com/us/support/faq/5192/
+References
+https://www.tp-link.com/us/support/faq/5192/
+CVE Name
+CVE-2026-9770
+CVE-2026-13230
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-21 12:21:57
