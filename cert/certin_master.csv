@@ -15878,3 +15878,54 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-20 10:29:53
+43564f618af91b75,CERT-In Vulnerability Note  CIVN-2026-0370,"July 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0370,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0370
+Multiple Vulnerabilities in VMware Avi Load Balancer
+Original Issue Date:July      21, 2026
+Severity Rating: CRITICAL
+Software Affected
+VMware Avi Load Balancer version 31.1.1 - 31.2.2
+VMware Avi Load Balancer version 30.1.1 - 30.2.6
+VMware Avi Load Balancer version 22.1.1 - 22.1.7
+VMware Avi Load Balancer version 32.1.1
+Overview
+Multiple vulnerabilities have been reported in VMware Avi Load Balancer, which could allow an attacker to gain unauthorised access, escalate privileges, execute arbitrary code, and gain access to sensitive information on the targeted system.
+Target Audience:
+Enterprises and large organisations, cloud service providers and industries with IT environments utilizing VMware Avi Load Balancer.
+Risk Assessment:
+Risk of full system compromise, sensitive information disclosure and lateral movement.
+Impact Assessment:
+Potential for local privilege escalation, disclosure of sensitive information and unauthorised access.
+Description
+VMware Avi Load Balancer is a software-defined, multi-cloud application delivery controller that provides elastic load balancing, application security (WAF), and observability for containerized, virtualised, and bare-metal workloads.
+Multiple vulnerabilities exist in VMware Avi Load Balancer due to improper authentication, insufficient input validation, improper privilege management and file path validation issues. An attacker may exploit these vulnerabilities by sending specially crafted requests.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorised access, escalate privileges, execute arbitrary code, and gain access to sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/37926
+Vendor Information
+VMware
+https://support.broadcom.com/web/ecx/security-advisory
+References
+VMware
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/37926
+CVE Name
+CVE-2026-47865
+CVE-2026-47866
+CVE-2026-47867
+CVE-2026-47868
+CVE-2026-47869
+CVE-2026-47870
+CVE-2026-47871
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-21 06:41:20
