@@ -1,32 +1,12 @@
 [
   {
-    "id":"39f6d51ea2145c47",
-    "category":"public_notices",
-    "sno":"2",
-    "title":"Surrender of Cosmetic Registration Certificate No RC\/COS-002497 daled 08-Jul- 2021",
-    "date":"2026-Jul-21",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1MjA=",
-    "filename":"Surrender_of_Cosmetic_Registration_Certificate_No_RCCOS002497",
-    "scraped_time":"2026-07-22T06:03:56.978163"
-  },
-  {
-    "id":"7ca9c1ae26d5e313",
-    "category":"public_notices",
-    "sno":"3",
-    "title":"Surrender of Cosmetic Registration Certificate No RC\/COS-002707 dated 06-Oct. 2021 and RC\/COS-002885 dated 3-Jan-2022",
-    "date":"2026-Jul-21",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1MjE=",
-    "filename":"Surrender_of_Cosmetic_Registration_Certificate_No_RCCOS002707",
-    "scraped_time":"2026-07-22T06:03:56.978163"
-  },
-  {
-    "id":"bc5f8e83eb1f8686",
-    "category":"gazette_notifications",
+    "id":"83c2864e71103d3c",
+    "category":"circulars",
     "sno":"1",
-    "title":"2026.06.11 S.O. 3068(E) to S.O. 3083(E)_ Prohibition of 16 FDCs",
-    "date":"2026-Jul-21",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1MTk=",
-    "filename":"20260611_SO_3068E_to_SO_3083E_Prohibition",
-    "scraped_time":"2026-07-22T06:04:04.428903"
+    "title":"Clarification regarding submission of applications under Rule 4 of the Drugs and Cosmetics (Compounding of Offences) Rules, 2025.",
+    "date":"2026-Jul-22",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1Mjk=",
+    "filename":"Clarification_regarding_submission_of_applications_under_Rule",
+    "scraped_time":"2026-07-22T09:36:52.991112"
   }
 ]
