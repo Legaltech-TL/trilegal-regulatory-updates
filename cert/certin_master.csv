@@ -16170,3 +16170,74 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-23 06:40:17
+0d73f0ac3193f7f1,CERT-In Vulnerability Note  CIVN-2026-0376,"July 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0376,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0376
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date:July      23, 2026
+Severity Rating: CRITICAL
+Software Affected
+Dynamics 365 Customer Voice
+Microsoft 365 Copilot
+Microsoft Exchange Online
+Azure Synapse
+Microsoft Dynamics 365
+Azure AI Bot Service
+Microsoft Edge (Chromium-based)
+Microsoft Cost Management
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to perform spoofing, elevate privilege, perform tampering and disclose sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Microsoft Products.
+Risk Assessment:
+High risk of privilege escalation, spoofing, sensitive information disclosure.
+Impact Assessment:
+Potential for privilege escalation, spoofing, sensitive information disclosure and/or compromise of system.
+Description
+Multiple vulnerabilities have been reported in Microsoft Products due to improper neutralization of input during web page generation, URL redirection to untrusted site, missing authorization, execution with unnecessary privileges, improper access control, improper authentication, exposure of sensitive information, and improper neutralization of special elements in command. An attacker could exploit these vulnerabilities to perform spoofing, elevate privileges, perform tampering or disclose information over a network on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, access sensitive information, elevate privileges, perform tampering over a network and/or perform spoofing on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47646
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47645
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48582
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48584
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47647
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42895
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32174
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32208
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47633
+Vendor Information
+Microsoft
+https://www.microsoft.com/
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47646
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47645
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48582
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48584
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47647
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42895
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32174
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32208
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47633
+CVE Name
+CVE-2026-47646
+CVE-2026-47645
+CVE-2026-48582
+CVE-2026-48584
+CVE-2026-47647
+CVE-2026-42895
+CVE-2026-32174
+CVE-2026-32208
+CVE-2026-47633
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-23 12:21:30
