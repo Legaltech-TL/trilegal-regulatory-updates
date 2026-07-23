@@ -16073,3 +16073,100 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-22 06:42:30
+f02fca609c36e810,CERT-In Vulnerability Note  CIVN-2026-0375,"July 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0375,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0375
+Multiple Vulnerabilities in BeyondTrust
+Original Issue Date:July      22, 2026
+Severity Rating: CRITICAL
+Software Affected
+BeyondTrust Remote Support versions RS 25.3.2 or lower
+BeyondTrust Privileged Remote Access versions PRA 25.3.2 or lower
+Overview
+Multiple vulnerabilities have been reported in BeyondTrust Remote Support (RS) and Privilege Remote Access (PRA), which could allow an attacker to bypass authentication, gain unauthorized access, cause denial-of-service conditions, access unintended resources on the targeted system.
+Target Audience:
+All end-user organizations and individuals using BeyondTrust.
+Risk Assessment:
+High risk of denial-of-service, bypass security restrictions, sensitive information disclosure.
+Impact Assessment:
+Potential for denial-of-service, bypass security restrictions, sensitive information disclosure and/or compromise of system.
+Description
+BeyondTrust Remote Support (RS) and Privilege Remote Access (PRA) are secure remote access and privileged access management solutions used to provide and manage remote administrative access.
+Multiple vulnerabilities have been reported in BeyondTrust due to improper authentication, uncontrolled resource consumption, and improper neutralization of special elements in data query logic. An attacker could exploit these vulnerabilities to bypass authentication, trigger denial-of-service conditions, or access resources beyond their authorization scope on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, access sensitive information, elevate privileges under specific configurations, disrupt service availability, and potentially compromise the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.beyondtrust.com/trust-center/security-advisories/bt26-03
+Vendor Information
+BeyondTrust
+https://www.beyondtrust.com/
+References
+https://www.beyondtrust.com/trust-center/security-advisories/bt26-03
+CVE Name
+CVE-2026-40138
+CVE-2026-40139
+CVE-2026-40140
+CVE-2026-40141
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-23 06:40:17
+f9380b277bf59440,CERT-In Advisory   CIAD-2026-0036,"July 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0036,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0036
+Multiple Vulnerabilities in Oracle Products
+Original Issue Date: July      22, 2026
+Severity Rating: High
+Software Affected
+Oracle MySQL
+Java SE
+Oracle Database Server
+WebLogic Server
+Oracle Communications
+Oracle Construction and Engineering
+Oracle Enterprise Manager
+Oracle Financial Services Applications
+Oracle Fusion Middleware
+Oracle E-Business Suite
+For complete list of affected products refer to the oracle advisory:
+https://www.oracle.com/security-alerts/cpujul2026.html
+Overview
+Multiple vulnerabilities have been reported in various Oracle products which could be exploited by a remote attacker to execute arbitrary code, gain elevated privileges, cause denial-of-service conditions, access sensitive information, manipulate data, or bypass security controls on the targeted system.
+Target Audience:
+Organizations and IT administrators using Oracle Corporation products.
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure.
+Impact Assessment:
+Potential unauthorized access to sensitive information, denial of service, data manipulation, and complete takeover of control of the target system.
+Description
+Oracle products are used for several applications including enterprise-level data management, cloud solutions, software development, and business applications. They are employed across a wide range of sectors, including finance, healthcare, manufacturing, government, and retail, among others.
+These vulnerabilities exist in various components of Oracle products due to improper input validation, deserialization issues, memory corruption errors, access control weaknesses, insufficient authentication, SQL injection, XML parsing errors, or vulnerable third-party libraries.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain elevated privileges, cause denial-of-service conditions, access sensitive information, manipulate data, or bypass security controls on the targeted system.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the oracle advisory:
+https://www.oracle.com/security-alerts/cpujul2026.html
+Solution
+Apply appropriate updates as mentioned in Oracle updates:
+https://www.oracle.com/security-alerts/cpujul2026.html
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/cpujul2026.html
+References
+https://www.oracle.com/security-alerts/cpujul2026.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-23 06:40:17
