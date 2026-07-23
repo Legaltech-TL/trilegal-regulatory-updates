@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"d7acff8e2d3fbdbb",
+    "category":"public_notices",
+    "sno":"1",
+    "title":"Surrender of cosmetic Registration Certificate No. RC\/COS-003938 dated 23.08.2023",
+    "date":"2026-Jul-23",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1MzM=",
+    "filename":"Surrender_of_cosmetic_Registration_Certificate_No_RCCOS003938",
+    "scraped_time":"2026-07-23T13:47:32.099246"
+  },
+  {
+    "id":"ea46448b91abfa00",
+    "category":"circulars",
+    "sno":"1",
+    "title":"Vigilance on imported cosmetics products sold in the domestic market without valid lmport Registration certificate",
+    "date":"2026-Jul-23",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1MzQ=",
+    "filename":"Vigilance_on_imported_cosmetics_products_sold_in",
+    "scraped_time":"2026-07-23T13:47:47.810480"
+  }
 ]
