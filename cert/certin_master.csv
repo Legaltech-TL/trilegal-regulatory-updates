@@ -16293,3 +16293,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-24 06:39:34
+2fac98ca91321a05,CERT-In Vulnerability Note  CIVN-2026-0378,"July 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0378,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0378
+Multiple vulnerabilities in Citrix Products
+Original Issue Date:July      24, 2026
+Severity Rating: HIGH
+Software Affected
+Citrix Secure Access Client for Windows versions prior to 26.6.1.20
+Citrix Endpoint Analysis Client for Windows versions prior to 26.5.1.7
+Overview
+Multiple vulnerabilities have been reported in Citrix products, which could allow a local, low-privileged attacker to escalate privileges to SYSTEM level or disclose sensitive information from process memory on the affected system.
+Target Audience:
+All end-user organizations and individuals using affected Citrix products.
+Risk Assessment:
+Risk of local privilege escalation and sensitive information disclosure.
+Impact Assessment:
+Potential for elevation of privileges to SYSTEM level resulting in full compromise and disclosure of sensitive information from memory.
+Description
+Citrix Secure Access Client for Windows and Citrix Endpoint Analysis Client for Windows are endpoint software components that facilitate secure remote connectivity and endpoint security validation for enterprise environments by verifying device compliance before granting access to organizational resources.
+Multiple vulnerabilities exist in these Citrix products due to improper privilege management and an out-of-bounds memory read flaw.
+Successful exploitation of these vulnerabilities could allow a local, low-privileged attacker to escalate privileges to SYSTEM level or disclose sensitive information from process memory on the affected system.
+Solution
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696734
+Vendor Information
+Citrix
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696734
+References
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696734
+CVE Name
+CVE-2026-53565
+CVE-2026-53566
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-24 12:17:18
