@@ -1,5 +1,38 @@
 {
-  "generated_at": "2026-07-24T05:41:35.241060",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-07-24T08:34:02.523386",
+  "count": 4,
+  "items": [
+    {
+      "id": "4e6cb8aa5d87833d",
+      "title": "Pension Fund Regulatory And Development...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/184762/PFRDA+%28Exits+and+Withdrawals+under+the+National+Pension+System%29+%28Amendment%29+Regulations%2C+2026.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "07/24/2026"
+    },
+    {
+      "id": "543fd267c39be449",
+      "title": "Pension Fund Regulatory And Development...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/184762/PFRDA+%28Regulatory+Sandbox%29+Regulations+2026.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "07/24/2026"
+    },
+    {
+      "id": "cf55c579366a154c",
+      "title": "Pension Fund Regulatory And Development Authority (Exits and Withdrawals under the National Pension System) (Amendment) Regulations, 2026\nExits and Withdrawals\nIssue Date: 20-07-2026",
+      "publish_date": "07/20/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/184762/PFRDA+%28Exits+and+Withdrawals+under+the+National+Pension+System%29+%28Amendment%29+Regulations%2C+2026.pdf",
+      "category": "REGULATION",
+      "scraped_at": "07/24/2026"
+    },
+    {
+      "id": "8ab812625386523c",
+      "title": "Pension Fund Regulatory And Development Authority (Regulatory Sandbox) Regulations 2026\nCentral Recordkeeping Agency\nIssue Date: 20-07-2026",
+      "publish_date": "07/20/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/184762/PFRDA+%28Regulatory+Sandbox%29+Regulations+2026.pdf",
+      "category": "REGULATION",
+      "scraped_at": "07/24/2026"
+    }
+  ]
 }
