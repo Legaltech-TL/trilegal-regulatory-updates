@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"149db195fa9402df",
+    "category":"public_notices",
+    "sno":"1",
+    "title":"Regulatory Alert regarding Cancellation of Registration Certificates of Ethics Committees under the New Drugs and Clinical Trials Rules, 2019",
+    "date":"2026-Jul-24",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1NjA=",
+    "filename":"Regulatory_Alert_regarding_Cancellation_of_Registration_Certificates",
+    "scraped_time":"2026-07-24T13:27:26.059560"
+  },
+  {
+    "id":"82cd19e686bbe66e",
+    "category":"public_notices",
+    "sno":"4",
+    "title":"Guidance document on Medical Device Software under MDR-2017",
+    "date":"2026-Jul-21",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1MTI=",
+    "filename":"Guidance_document_on_Medical_Device_Software_under",
+    "scraped_time":"2026-07-24T13:27:26.059560"
+  }
 ]
