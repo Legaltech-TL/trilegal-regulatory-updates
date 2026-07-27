@@ -16335,3 +16335,108 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-24 12:17:18
+11d3e213b7e778bf,CERT-In Vulnerability Note  CIVN-2026-0380,"July 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0380,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0380
+Multiple Vulnerabilities in CP PLUS EZ-P21 IP Camera
+Original Issue Date:July      27, 2026
+Severity Rating: CRITICAL
+Systems Affected
+CP PLUS EZ-P21 IP Camera - version v4.8.8.1 and prior
+Overview
+Multiple vulnerabilities have been reported in CP PLUS EZ-P21 IP Camera, which could allow an attacker to execute arbitrary code and gain unauthorized access to live video snapshots from the targeted device.
+Target Audience:
+End-users/ Administrators using CP PLUS EZ-P21 IP Camera
+Risk Assessment:
+Risk of arbitrary code execution and improper authentication
+Impact Assessment:
+Potential for arbitrary code execution with elevated privileges and unauthorized access.
+Description
+The CP PLUS EZ-P21 IP Camera is an Internet Protocol (IP) based surveillance camera used for video monitoring and network based access to camera functions and video snapshots.
+1. Arbitrary Code Execution Vulnerability
+(
+CVE-2026-65893
+)
+This vulnerability exists in CP PLUS EZ-P21 IP Camera due to an insecure debug feature enabled in the firmware.
+An attacker with physical access could exploit this vulnerability by placing arbitrary code on removable media and triggering their execution through the debug mechanism.
+Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with elevated privileges on the targeted device.
+2. Improper Authentication Vulnerability
+(
+CVE-2026-65894
+)
+This vulnerability exists in CP PLUS EZ-P21 IP Camera due to improper authentication of HTTP endpoints. A remote attacker could exploit this vulnerability by conducting brute-force attacks against HTTP endpoint on the targeted device.
+Successful exploitation of this vulnerability could allow an attacker to gain unauthorized access to live video snapshots from the targeted device.
+Credit
+These vulnerabilities are reported by the following team of security researchers:
+CVE-2026-65893: Isukapalli Venkata Mythreya Kumara Sarma, Tiyyagura Venkata Shesha Shaina Reddy and Naga Venkatesh Durga Sai Krishna from Vignan University. Vishwa V and Sathya Priya S from SRMIST Ramapuram. Deven Lunkad and S. Venkatesan from IIIT Allahabad
+CVE-2026-65894: Vishwa V and Sathya Priya S from SRMIST Ramapuram. Tiyyagura Venkata Shesha Shaina Reddy and Isukapalli Venkata Mythreya Kumara Sarma from Vignan University. Deven Lunkad and S. Venkatesan from IIIT Allahabad
+Solution
+Upgrade CP PLUS EZ-P21 IP Camera to latest firmware version 4.8.16.1 through OTA.
+Vendor Information
+CP Plus
+https://cpplusworld.com/products
+References
+CP Plus
+https://cpplusworld.com/products
+CVE Name
+CVE-2026-65893
+CVE-2026-65894
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-27 07:49:42
+05622bf002830f1b,CERT-In Vulnerability Note  CIVN-2026-0379,"July 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0379,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0379
+Authentication Bypass Vulnerability in Check Point Products
+Original Issue Date:July      27, 2026
+Severity Rating: CRITICAL
+Software Affected
+Check Point Quantum Security Management R82.10 with Jumbo Hotfix Take 36 or below
+Check Point Quantum Security Management R82 with Jumbo Hotfix Take 118 or below
+Check Point Quantum Security Management R81.20 with Jumbo Hotfix Take 158 or below
+Check Point Quantum Security Management R81.10, R81, R80.30, R80.20, R80.10, R80 and R77.30
+Check Point Multi-Domain Security Management R82.10 with Jumbo Hotfix Take 36 or below
+Check Point Multi-Domain Security Management R82 with Jumbo Hotfix Take 118 or below
+Check Point Multi-Domain Security Management R81.20 with Jumbo Hotfix Take 158 or below
+Check Point Multi-Domain Security Management R81.10, R81, R80.30, R80.20, R80.10, R80 and R77.30
+Overview
+An authentication bypass vulnerability has been reported in Check Point Quantum Security Management and Multi-Domain Security Management products, which could allow an unauthenticated remote attacker to obtain administrative access to the affected management server and modify security policies and configurations.
+Target Audience:
+All organizations and individuals using the affected Check Point products.
+Risk Assessment:
+Critical risk of unauthorized administrative access to the affected management server.
+Impact Assessment:
+Potential for authentication bypass, unauthorized administrative access, modification of security policies and security configurations, and compromise of the integrity and security of the affected management server.
+Description
+Check Point Quantum Security Management and Multi-Domain Security Management provide centralized management capabilities for Check Point security deployments.
+An authentication bypass vulnerability exists in Check Point Quantum Security Management and Multi-Domain Security Management products due to improper authentication in the SmartConsole login process.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to obtain an application login token and authenticate to the affected management server with full administrative privileges. The attacker may subsequently modify security policies and security configurations.
+Solution
+Apply appropriate security updates and mitigations as recommended by the vendor.
+https://support.checkpoint.com/results/sk/sk185169/
+Vendor Information
+Check Point
+https://support.checkpoint.com/results/sk/sk185169/
+References
+https://support.checkpoint.com/results/sk/sk185169/
+CVE Name
+CVE-2026-16232
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-27 07:49:42
