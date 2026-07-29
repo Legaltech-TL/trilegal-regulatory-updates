@@ -16440,3 +16440,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-27 07:49:42
+2b0a45b39d11b38f,CERT-In Vulnerability Note  CIVN-2026-0381,"July 29, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0381,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0381
+Buffer Overflow Vulnerability in DD-WRT Router Firmware
+Original Issue Date:July      29, 2026
+Severity Rating: HIGH
+Software Affected
+DD-WRT Router Firmware versions prior to 45724
+Overview
+A vulnerability has been reported in DD-WRT Router Firmware, which could allow a remote attacker to send a request that would overflow an internal fixed buffer.
+Target Audience:
+All organizations and individuals using DD-WRT Router Firmware.
+Risk Assessment:
+Potential for unauthorized access to sensitive information, unauthorized execution of code, modification of router configuration or network traffic, and service unavailability.
+Impact Assessment:
+High risk of information disclosure, denial of service, and compromise of the affected router.
+Description
+DD-WRT is an open-source, Linux-based router firmware that replaces the default firmware to provide advanced networking features and greater control. It enhances router functionality with capabilities such as VPN support, QoS, VLANs, and improved wireless performance and security.
+A vulnerability exists in DD-WRT Router Firmware due to an unsafe strcpy in the UPnP handling functionality.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to send a request that would overflow an internal fixed buffer. This exploitation requires the DD-WRT user to enable UPnP (which is off by default, and only listens on internal interfaces by default).
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://dd-wrt.com/
+https://nvd.nist.gov/vuln/detail/CVE-2021-2713
+Vendor Information
+DD-WRT
+https://dd-wrt.com/
+References
+https://nvd.nist.gov/vuln/detail/CVE-2021-2713
+CVE Name
+CVE-2021-27137
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-29 12:58:11
