@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-07-30T08:14:19.424430",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-07-31T06:09:08.749694",
+  "count": 3,
+  "items": [
+    {
+      "id": "b888816f35e8ca6f",
+      "title": "Retirement of officers of ITS Group \u2018A\u2019 on attaining the age of Superannuation as on 31.07.2026 (A/N) \u2013 Regarding.",
+      "publish_date": "07/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/ef4213d4a807bd6ec03530394e6c1cff.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/31/2026"
+    },
+    {
+      "id": "606a1dbf6688a106",
+      "title": "Appointment of Shri Ajai Kumar Srivastava as Director (Production), ITI Limited",
+      "publish_date": "07/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/7bde01310add6278ac6d5ad2d8fcd1cb.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "07/31/2026"
+    },
+    {
+      "id": "5092aa46a9ca5515",
+      "title": "Department of Telecommunications Signs MoU with Government of Madhya Pradesh for Establishment of Telecom Manufacturing Zone (TMZ) in Gwalior",
+      "publish_date": "07/30/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/07/bdb46fb00632bc7e42b5fa1438c75c72.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "07/31/2026"
+    }
+  ]
 }
