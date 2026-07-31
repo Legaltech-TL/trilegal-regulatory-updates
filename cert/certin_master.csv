@@ -16526,3 +16526,88 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-30 06:40:56
+3bc34f21f0310655,CERT-In Vulnerability Note  CIVN-2026-0384,"July 31, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0384,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0384
+Command Injection Vulnerability in Arista
+Original Issue Date:July      31, 2026
+Severity Rating: CRITICAL
+Software Affected
+Arista VeloCloud Orchestrator (VCO) On-Prem 5.2.x releases prior to 5.2.3.14
+Arista VeloCloud Orchestrator (VCO) On-Prem 6.1.x releases prior to 6.1.3.4
+Arista VeloCloud Orchestrator (VCO) On-Prem 6.4.x releases prior to 6.4.2.4
+Arista VeloCloud Orchestrator (VCO) On-Prem 7.0.x releases prior to 7.0.0.1
+Overview
+A vulnerability has been reported in Arista VeloCloud Orchestrator (VCO) On-Prem which could allow a remote, unauthenticated attacker to execute arbitrary commands, leading to unauthorized access and complete compromise of the targeted system.
+Target Audience:
+All organizations and individuals using affected versions of Arista products.
+Risk Assessment:
+Critical risk of remote code execution, unauthorized access and complete system compromise.
+Impact Assessment:
+Potential for complete compromise of the affected system, unauthorized access, and loss of confidentiality, integrity and availability.
+Description
+Arista VeloCloud Orchestrator (VCO) On-Prem is a centralized management platform used to configure, monitor and manage VeloCloud SD-WAN deployments.
+A command injection vulnerability has been reported in Arista VCO On-Prem due to improper neutralization of special elements used in an operating system command. The vulnerability exposes privileged internal functionality intended only for internal use, which is remotely accessible through the VCO web interface. A remote attacker could exploit this vulnerability by sending crafted requests.
+Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary commands, leading to unauthorized access and complete compromise of the targeted system.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor:
+https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144
+Vendor Information
+Arista Networks
+https://www.arista.com/en/support/advisories-notices
+References
+https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144
+CVE Name
+CVE-2026-16812
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-31 12:53:12
+ba887240db1a0c1c,CERT-In Vulnerability Note  CIVN-2026-0383,"July 31, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0383,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0383
+Multiple Vulnerabilities in Google Chrome for Desktop
+Original Issue Date:July      31, 2026
+Severity Rating: HIGH
+Software Affected
+Google Chrome versions prior to 151.0.7922.71/.72 for Windows and Mac
+Google Chrome versions prior to 151.0.7922.71 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome for Desktop, which could allow a remote attacker to execute arbitrary code, bypass security restrictions, and data manipulation on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Google Chrome for Desktop.
+Risk Assessment:
+High risk of remote code execution and bypass security restrictions.
+Impact Assessment:
+Potential for data theft, data manipulation and browser crashes.
+Description
+Google Chrome is an internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.
+Multiple vulnerabilities have been reported in Google Chrome for Desktop, which could allow a remote attacker to execute arbitrary code, bypass security restrictions, denial of service, and data manipulation on the targeted system.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Google Chrome for Desktop security updates.
+https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0887107924.html
+Solution
+Apply appropriate as mentioned by the vendor:
+https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0887107924.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0887107924.html
+References
+https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0887107924.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-07-31 12:53:12
