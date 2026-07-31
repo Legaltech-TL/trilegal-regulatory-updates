@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "0959075e3b1060dbe0e409517804ab012d7dff6d",
+    "section": "press_release",
+    "title": "NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025",
+    "asset_link": "https://www.npci.org.in/uploads/Press_Release_NBSL_appoints_Gaurav_Kochhar_as_Chief_of_Business_5b2ab9ceff.pdf",
+    "filename": "Press_Release_NBSL_appoints_Gaurav_Kochhar_as_Chief_of_Business_5b2ab9ceff.pdf",
+    "scraped_at": "2026-07-31T06:15:35.970027"
+  },
+  {
+    "id": "26c67fe304b58a5b995ec269ba883c21f013195f",
+    "section": "media_coverage",
+    "title": "26-11 UPI Circle to net new users BHIM chief",
+    "asset_link": "https://www.npci.org.in/uploads/RBI_Deputy_Governor_Launches_New_Digital_Payment_Innovations_at_GFF_2025_b16c9cb4b1.pdf",
+    "filename": "RBI_Deputy_Governor_Launches_New_Digital_Payment_Innovations_at_GFF_2025_b16c9cb4b1.pdf",
+    "scraped_at": "2026-07-31T06:16:16.151818"
+  },
+  {
+    "id": "bb3ab2124c4c58fc53352050ea088c78250476e3",
+    "section": "media_coverage",
+    "title": "27-11 ETBFSI - NPCI\u2019s Bharat Billpay aims to cover half of India\u2019s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi",
+    "asset_link": "https://www.npci.org.in/uploads/DFS_Secretary_Launches_Initiatives_to_Simplify_Digital_Payment_Experience_at_GFF_2025_e28fd42a4f.pdf",
+    "filename": "DFS_Secretary_Launches_Initiatives_to_Simplify_Digital_Payment_Experience_at_GFF_2025_e28fd42a4f.pdf",
+    "scraped_at": "2026-07-31T06:16:19.185423"
+  },
+  {
+    "id": "01e09f2a7b62bf219d27bde834a39188e2bc0407",
+    "section": "media_coverage",
+    "title": "28-11 Netbanking switch to provide better visibility into transactions:\u2008NBBL\u2008CEO",
+    "asset_link": "https://www.npci.org.in/uploads/NPCI_Press_release_NPCI_and_RBL_Bank_expand_Ru_Pay_On_The_Go_across_All_Bengaluru_Metro_Lines_86a90a9ce5.pdf",
+    "filename": "NPCI_Press_release_NPCI_and_RBL_Bank_expand_Ru_Pay_On_The_Go_across_All_Bengaluru_Metro_Lines_86a90a9ce5.pdf",
+    "scraped_at": "2026-07-31T06:16:22.218109"
+  },
+  {
+    "id": "29e9cf5468aa34b4322f7a2f69be8bfed3d2b57d",
+    "section": "media_coverage",
+    "title": "28-11 NBBL targets 1 billion monthly transactions",
+    "asset_link": "https://www.npci.org.in/uploads/NBSL_Press_release_BHIM_Bharat_Ka_Apna_Payments_App_Lights_Up_Diwali_with_a_Touch_Of_Goodness_Empowering_Indias_Women_Artisans_910694a9c9.pdf",
+    "filename": "NBSL_Press_release_BHIM_Bharat_Ka_Apna_Payments_App_Lights_Up_Diwali_with_a_Touch_Of_Goodness_Empowering_Indias_Women_Artisans_910694a9c9.pdf",
+    "scraped_at": "2026-07-31T06:16:25.249579"
+  }
+]
