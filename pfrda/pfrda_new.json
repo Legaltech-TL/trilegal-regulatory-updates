@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-08-01T05:46:43.977234",
-  "count": 2,
-  "items": [
-    {
-      "id": "a9e80b6526d6baf0",
-      "title": "Tender Document: \u0939\u093f\u0928\u094d\u0926\u0940 REQUEST FOR...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "08/01/2026"
-    },
-    {
-      "id": "0435b3d9d38b95c3",
-      "title": "Tender Document: REQUEST FOR PROPOSAL...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "08/01/2026"
-    }
-  ]
+  "generated_at": "2026-08-01T08:25:52.388808",
+  "count": 0,
+  "items": []
 }
