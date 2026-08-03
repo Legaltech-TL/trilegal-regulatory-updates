@@ -16611,3 +16611,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-07-31 12:53:12
+2f0ee3d10005f2e6,CERT-In Vulnerability Note  CIVN-2026-0385,"August 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0385,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0385
+Information Disclosure Vulnerability in Cisco Product
+Original Issue Date:August    03, 2026
+Severity Rating: MEDIUM
+Software Affected
+Cisco Secure Firewall Management Center (FMC) Software
+Overview
+A vulnerability has been reported in Cisco Secure FMC Software which could allow an unauthenticated remote attacker to log in to the affected system using the static credentials and access sensitive information.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of unauthorized access to sensitive information.
+Impact Assessment:
+Information disclosure and unauthorized access.
+Description
+The vulnerability exists in Cisco Secure FMC Software due to the presence of hard-coded (static) credentials for a low-privileged user account in the web interface. An unauthenticated, remote attacker could exploit this vulnerability by authenticating with the static credentials.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to log in to the affected system using the static credentials and access sensitive information.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh
+CVE Name
+CVE-2026-20316
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-03 13:36:58
