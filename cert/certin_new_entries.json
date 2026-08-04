@@ -1,11 +1,3 @@
 [
-  {
-    "id":"2f0ee3d10005f2e6",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0385",
-    "date":"August 03, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0385",
-    "category":"Latest Security Alert",
-    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0385\nInformation Disclosure Vulnerability in Cisco Product\nOriginal Issue Date:August    03, 2026\nSeverity Rating: MEDIUM\nSoftware Affected\nCisco Secure Firewall Management Center (FMC) Software\nOverview\nA vulnerability has been reported in Cisco Secure FMC Software which could allow an unauthenticated remote attacker to log in to the affected system using the static credentials and access sensitive information.\nTarget Audience:\nAll IT administrators and individuals responsible for maintaining and updating in Software.\nRisk Assessment:\nHigh risk of unauthorized access to sensitive information.\nImpact Assessment:\nInformation disclosure and unauthorized access.\nDescription\nThe vulnerability exists in Cisco Secure FMC Software due to the presence of hard-coded (static) credentials for a low-privileged user account in the web interface. An unauthenticated, remote attacker could exploit this vulnerability by authenticating with the static credentials.\nSuccessful exploitation of this vulnerability could allow an unauthenticated remote attacker to log in to the affected system using the static credentials and access sensitive information.\nSolution\nApply appropriate updates as mentioned in Cisco Advisory\nhttps:\/\/sec.cloudapps.cisco.com\/security\/center\/content\/CiscoSecurityAdvisory\/cisco-sa-fmc-static-cred-BET3Cjh\nVendor Information\nCISCO\nhttps:\/\/sec.cloudapps.cisco.com\/security\/center\/content\/CiscoSecurityAdvisory\/cisco-sa-fmc-static-cred-BET3Cjh\nReferences\nCISCO\nhttps:\/\/sec.cloudapps.cisco.com\/security\/center\/content\/CiscoSecurityAdvisory\/cisco-sa-fmc-static-cred-BET3Cjh\nCVE Name\nCVE-2026-20316\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
-    "scraped_at":"2026-08-03 13:36:58"
-  }
+
 ]
