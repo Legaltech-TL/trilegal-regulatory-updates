@@ -16704,3 +16704,168 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-04 10:18:03
+dea32dce450d4fa3,CERT-In Vulnerability Note  CIVN-2026-0388,"August 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0388,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0388
+Multiple Vulnerabilities in PHP
+Original Issue Date:August    04, 2026
+Severity Rating: HIGH
+Software Affected
+PHP version prior to 8.5.9
+PHP version prior to 8.4.24
+PHP version prior to 8.3.33
+PHP version prior to 8.2.33
+Overview
+Multiple vulnerabilities have been reported in PHP that could be exploited by an attacker to cause memory corruption, execute SQL injection attacks, trigger denial-of-service (DoS) conditions, and potentially compromise application integrity.
+Target Audience:
+Enterprises, Government Organizations, Cloud Service Providers, Hosting Providers and Web Developers using PHP.
+Risk Assessment:
+High risk of denial of service, memory corruption, SQL injection, application crashes and information disclosure.
+Impact Assessment:
+Successful exploitation of these vulnerabilities could allow a potential attacker to cause for denial of service, information disclosure and possible arbitrary code execution depending on application usage.
+Description
+PHP is an open-source scripting language designed for server-side web development, enabling the creation of dynamic web pages.
+Multiple vulnerabilities have been identified in PHP affecting several core components and extensions. These vulnerabilities arise due to improper bounds checking, out-of-bounds write operations, SQL injection caused by improper handling of PostgreSQL escaped strings, recursive symbolic link processing, and vulnerabilities inherited from third-party libraries.
+An attacker could exploit these vulnerabilities by supplying specially crafted application input, malicious PostgreSQL queries, specially crafted Phar archives, or malformed image files depending on the affected component.
+Successful exploitation of these vulnerabilities could result in memory corruption, SQL injection, denial-of-service, application crashes, information disclosure and potential arbitrary code execution.
+Solution
+Apply appropriate updates as mentioned in the PHP Security Bulletin:
+https://www.php.net/ChangeLog-8.php
+Vendor Information
+PHP
+https://www.php.net
+References
+https://www.php.net/ChangeLog-8.php
+CVE Name
+CVE-2026-17544
+CVE-2026-17543
+CVE-2026-7260
+CVE-2026-9672
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-04 12:57:18
+72fd05e4004e4817,CERT-In Vulnerability Note  CIVN-2026-0387,"August 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0387,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0387
+Multiple Vulnerabilities in Mozilla Products
+Original Issue Date:August    04, 2026
+Severity Rating: CRITICAL
+Software Affected
+Mozilla Firefox versions prior to 153
+Mozilla Firefox ESR versions prior to 115.38 and Firefox ESR versions prior to 140.13
+Mozilla Thunderbird ESR versions prior to 140.13 and Thunderbird versions prior to 153
+Overview
+Multiple vulnerabilities have been reported in Mozilla products which could be exploited by a remote attacker to execute arbitrary code, obtain sensitive information, perform spoofing attacks, bypass security restrictions, escalate privileges, escape browser sandbox protections, or cause a Denial of Service (DoS) condition on the targeted system.
+Target Audience:
+Individuals and organizations using the affected products.
+Risk Assessment:
+High risk of unauthorized access to sensitive information.
+Impact Assessment:
+Potential for data theft, sensitive information disclosure and complete compromise of system.
+Description
+Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation, while Firefox ESR (Extended Support Release) is a stable version designed for organizations requiring long-term support with security and maintenance updates. Mozilla Thunderbird is an open-source email client developed by the Mozilla Foundation.
+Multiple vulnerabilities exist in the affected Mozilla products due to invalid pointer dereference, incorrect boundary conditions, integer overflow, information disclosure, memory safety flaws, use-after-free, sandbox escape, mitigation bypass, privilege escalation, same-origin policy bypass, and spoofing issues in various components including Audio/Video, JavaScript Engine, DOM, Networking, Graphics, Security, Widget, WebRTC, Enterprise Policies, Profile Backup, Form Autofill, Popup Blocker, Toolbar, Web Speech, WebExtensions, Application Update, and Accessibility APIs. A remote attacker could exploit these vulnerabilities by convincing a user to visit a specially crafted web page or process malicious web content.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, disclose sensitive information, perform spoofing attacks, bypass security restrictions, escalate privileges, or cause a Denial of Service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned in:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-68/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-69/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-70/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-71/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-72/
+Vendor Information
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/
+References
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-68/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-69/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-70/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-71/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-72/
+CVE Name
+CVE-2026-15718
+CVE-2026-15719
+CVE-2026-16349
+CVE-2026-16350
+CVE-2026-16362
+CVE-2026-16351
+CVE-2026-16352
+CVE-2026-16363
+CVE-2026-16353
+CVE-2026-16354
+CVE-2026-16368
+CVE-2026-16369
+CVE-2026-16355
+CVE-2026-16356
+CVE-2026-16357
+CVE-2026-16371
+CVE-2026-16374
+CVE-2026-16375
+CVE-2026-16377
+CVE-2026-16379
+CVE-2026-16358
+CVE-2026-16381
+CVE-2026-16383
+CVE-2026-16387
+CVE-2026-16390
+CVE-2026-16391
+CVE-2026-16359
+CVE-2026-16396
+CVE-2026-16405
+CVE-2026-16412
+CVE-2026-16360
+CVE-2026-16361
+CVE-2026-16364
+CVE-2026-16365
+CVE-2026-16366
+CVE-2026-16367
+CVE-2026-16370
+CVE-2026-16372
+CVE-2026-16373
+CVE-2026-16376
+CVE-2026-16378
+CVE-2026-16380
+CVE-2026-16382
+CVE-2026-16384
+CVE-2026-16385
+CVE-2026-16386
+CVE-2026-16388
+CVE-2026-16389
+CVE-2026-16392
+CVE-2026-16393
+CVE-2026-16394
+CVE-2026-16395
+CVE-2026-16397
+CVE-2026-16398
+CVE-2026-16399
+CVE-2026-16400
+CVE-2026-16401
+CVE-2026-16402
+CVE-2026-16403
+CVE-2026-16404
+CVE-2026-16406
+CVE-2026-16407
+CVE-2026-16408
+CVE-2026-16409
+CVE-2026-16410
+CVE-2026-16411
+CVE-2026-14899
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-04 12:57:18
