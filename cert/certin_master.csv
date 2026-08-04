@@ -16652,3 +16652,55 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-03 13:36:58
+1a103d45ec72c7c1,CERT-In Vulnerability Note  CIVN-2026-0386,"August 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0386,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0386
+Multiple Vulnerabilities in VMware Products
+Original Issue Date:August    04, 2026
+Severity Rating: HIGH
+Software Affected
+VMware vCenter Server 8.0 versions prior to 8.0 U3e
+VMware vCenter Server 7.0 versions prior to 7.0 U3v
+VMware ESXi 8.0 versions prior to ESXi80U3e
+VMware ESXi 7.0 versions prior to ESXi70U3v
+VMware Workstation Pro 17.x versions prior to 17.6.4
+VMware Fusion 13.x versions prior to 13.6.4
+VMware Cloud Foundation deployments containing the affected versions of VMware ESXi and VMware vCenter Server
+VMware Telco Cloud Platform deployments containing the affected versions of VMware ESXi and VMware vCenter Server
+VMware Telco Cloud Infrastructure deployments containing the affected versions of VMware ESXi and VMware vCenter Server
+Overview
+Multiple vulnerabilities have been reported in VMware products, which could allow an authenticated or local attacker to execute arbitrary code, escalate privileges, perform unauthorized file operations, disclose sensitive information, or cause denial of service on the affected systems.
+Target Audience:
+All organizations and individuals using the affected VMware products.
+Risk Assessment:
+High risk of arbitrary code execution, privilege escalation, unauthorized file operations, sensitive information disclosure, and denial of service.
+Impact Assessment:
+Successful exploitation of these vulnerabilities could allow an authenticated or local attacker to execute arbitrary code, escalate privileges, perform unauthorized file operations, disclose sensitive information, cause denial of service, and compromise the confidentiality, integrity, and availability of the affected systems.
+Description
+VMware ESXi, VMware vCenter Server, VMware Workstation Pro, VMware Fusion, VMware Cloud Foundation, VMware Telco Cloud Platform, and VMware Telco Cloud Infrastructure are virtualization and cloud infrastructure products used to deploy and manage enterprise virtual environments.
+These vulnerabilities exist in VMware products due to improper input validation, insufficient validation of user-supplied input, authorization issues, and other implementation flaws in various product components.
+Successful exploitation of these vulnerabilities could allow an authenticated or local attacker to execute arbitrary code, escalate privileges, perform unauthorized file operations, disclose sensitive information, cause denial of service, and compromise the confidentiality, integrity, and availability of the affected systems.
+Solution
+Apply the appropriate security updates as recommended by the vendor.
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017
+Vendor Information
+Broadcom (VMware)
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017
+References
+https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017
+CVE Name
+CVE-2025-41225
+CVE-2025-41226
+CVE-2025-41227
+CVE-2025-41228
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-04 10:18:03
