@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-08-04T11:23:52.132896",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-08-05T05:37:17.519573",
+  "count": 2,
+  "items": [
+    {
+      "id": "1ba2fedf0118ab72",
+      "title": "Same-Day Investment of NPS Contributions...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154008/Circular+Same-Day+Investment+of+NPS+Contributions+Received+by+Trustee+Bank+up+to+130+PM.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/05/2026"
+    },
+    {
+      "id": "4928efea70ddd9f0",
+      "title": "Same-Day Investment of NPS Contributions Received by Trustee Bank up to 1:30 PM\nPension Fund\nRef: PFRDA/2026/42/REG-PF/08\nIssue Date: 04-08-2026",
+      "publish_date": "08/04/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154008/Circular+Same-Day+Investment+of+NPS+Contributions+Received+by+Trustee+Bank+up+to+130+PM.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/05/2026"
+    }
+  ]
 }
