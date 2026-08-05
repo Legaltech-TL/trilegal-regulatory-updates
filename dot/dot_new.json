@@ -1,5 +1,14 @@
 {
-  "generated_at": "2026-08-04T11:27:34.153345",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-08-05T05:53:29.598872",
+  "count": 1,
+  "items": [
+    {
+      "id": "e2e129be7dd41905",
+      "title": "Order dated 04-08-2026 reg. Taken on Strength in respect of officer of ITS Gr. A",
+      "publish_date": "08/04/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/2dee16a1e4717c88a50d9cc7ed2006cb.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/05/2026"
+    }
+  ]
 }
