@@ -16994,3 +16994,85 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-05 10:15:52
+a52450f8e392d485,CERT-In Vulnerability Note  CIVN-2026-0395,"August 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0395,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0395
+Authentication Bypass Vulnerability in Check Point
+Original Issue Date:August    06, 2026
+Severity Rating: HIGH
+Software Affected
+Security Management Server, Multi-Domain Security Management Server versions R80, R80.10, R80.20, R80.30, R80.40, R81, R81.10 (All End of Support), R81.20, R82, R82.10
+Overview
+A vulnerability has been reported in Check Point Security Management Server and Multi-Domain Security Management Server (MDS) which may allow a remote unauthenticated attacker to bypass the Management authentication mechanism and execute arbitrary commands on the Security Management Server.
+Target Audience:
+Organizations and administrators using the affected Check Point Security Management Server and Multi-Domain Security Management Server (MDS).
+Risk Assessment:
+High risk of authentication bypass, arbitrary command execution, and complete compromise of the server.
+Impact Assessment:
+Authentication bypass, arbitrary command execution, unauthorized administrative access, and complete compromise of the Server.
+Description
+Check Point Security Management Server and Multi-Domain Security Management Server (MDS) are centralized management platforms used for administering and enforcing security policies across Check Point security gateways.
+This vulnerability exists due to an authentication bypass flaw in the Management Server. An unauthenticated attacker with network access to the Management Server may exploit this vulnerability to bypass the authentication mechanism and execute arbitrary commands on the affected system.
+Successful exploitation of this vulnerability could allow an attacker to gain unauthorized administrative access, execute arbitrary commands, and completely compromise the affected Check Point Security Management Server.
+Solution
+Users are advised to apply appropriate updates as mentioned:
+https://support.checkpoint.com/results/sk/sk185222
+Vendor Information
+https://support.checkpoint.com/
+References
+https://support.checkpoint.com/results/sk/sk185222
+CVE Name
+CVE-2026-18574
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-06 10:17:22
+11d687e79e058ec3,CERT-In Vulnerability Note  CIVN-2026-0394,"August 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0394,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0394
+Server-Side Request Forgery (SSRF) Vulnerability in Next.js
+Original Issue Date:August    06, 2026
+Severity Rating: HIGH
+Software Affected
+Next.js version 12.0.0 or higher and prior to 15.5.21
+Next.js version 16.0.0 or higher and prior to 16.2.11
+Overview
+A Server-Side Request Forgery (SSRF) vulnerability exists in the Next.js framework. An unauthenticated remote attacker may exploit this vulnerability to cause the server to issue requests to arbitrary internal or external hosts or perform Open Redirect attacks.
+Target Audience:
+Organizations developing or hosting web applications using the Next.js framework.
+Risk Assessment:
+High risk of unauthorized access to internal network resources and disclosure of sensitive information.
+Impact Assessment:
+Potential High impact on Confidentiality of the System.
+Description
+Next.js is a React-based web application framework used for building server-rendered and full-stack web applications. Next.js framework is affected by the Server-Side Request Forgery (SSRF) vulnerability.
+This vulnerability exists due to improper validation of request-controlled inputs during the processing of rewrites() and redirects() configuration rules where destination hostname is dynamically generated from request-controlled inputs.
+An unauthenticated remote attacker could exploit this vulnerability by sending specially crafted requests that manipulate the destination hostname to an arbitrary host instead of the intended destination.
+Successful exploitation could allow the attacker to perform Server-Side Request Forgery (SSRF), resulting in unauthorized access to internal or external network resources in applications using the affected rewrites() configurations, or perform Open Redirect attacks in applications using the affected redirects() configurations.
+Solution
+Apply appropriate Updates and steps as mentioned by the vendor:
+https://github.com/vercel/next.js/security/advisories/GHSA-p9j2-gv94-2wf4
+Vendor Information
+https://github.com/vercel/next.js/security/advisories/GHSA-p9j2-gv94-2wf4
+References
+https://github.com/vercel/next.js/security/advisories/GHSA-p9j2-gv94-2wf4
+CVE Name
+CVE-2026-64645
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-06 10:17:22
