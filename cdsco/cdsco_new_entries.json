@@ -1,12 +1,22 @@
 [
   {
-    "id":"42bd6d65d0b09fcc",
-    "category":"gazette_notifications",
+    "id":"a9859c7b6fbf5ba6",
+    "category":"public_notices",
     "sno":"1",
-    "title":"2026.07.30 G.S.R. 706(E)_Notification regarding Debarment of applicant for submitting misleading, or fake, or Fabricated Documents, information",
-    "date":"2026-Jul-30",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1NzU=",
-    "filename":"20260730_GSR_706ENotification_regarding_Debarment_of_applicant",
-    "scraped_time":"2026-08-06T09:48:18.388252"
+    "title":"Stakeholder Consultation on Operational Guidelines for Single Ethics Committee Review of Multi-Centre Research in India",
+    "date":"2026-Aug-06",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1Nzg=",
+    "filename":"Stakeholder_Consultation_on_Operational_Guidelines_for_Single",
+    "scraped_time":"2026-08-06T13:55:51.439429"
+  },
+  {
+    "id":"a19a38a689b72f36",
+    "category":"public_notices",
+    "sno":"3",
+    "title":"Regulatory Alert regarding Cancellation of Registration Certificates of Ethics Committees under the New Drugs and Clinical Trials Rules, 2019",
+    "date":"2026-Jul-24",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1NjE=",
+    "filename":"Regulatory_Alert_regarding_Cancellation_of_Registration_Certificates",
+    "scraped_time":"2026-08-06T13:55:51.439429"
   }
 ]
