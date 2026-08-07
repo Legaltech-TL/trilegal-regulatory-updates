@@ -1,38 +1,14 @@
 {
-  "generated_at": "2026-08-06T08:22:55.228968",
-  "count": 4,
+  "generated_at": "2026-08-07T05:01:05.135758",
+  "count": 1,
   "items": [
     {
-      "id": "773a3f10e9c2479a",
-      "title": "Order dated 05-08-2026 reg. Taken on Strength in respect of officers of ITS Gr. A",
-      "publish_date": "08/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/49bd083394168d4549c1dc745446394f.pdf",
+      "id": "afbf5ff6dd9e6045",
+      "title": "\"List of Licensees as on 31.7.2026\"",
+      "publish_date": "07/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/91203d0c2ad29b02a3f139a875d62334.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "08/06/2026"
-    },
-    {
-      "id": "18f191293052a2e9",
-      "title": "Order dated 05-08-2026 reg. Transfer and posting of officers of TES Gr. \u2018B\u2019",
-      "publish_date": "08/05/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/154c780a27a614ae08b2458216af103a.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "08/06/2026"
-    },
-    {
-      "id": "796627cf5793afd3",
-      "title": "Completion of probation and confirmation of probationers of Junior Time Scale (JTS) of ITS Group \u2018A\u2019 selected through ESE-2022-reg.",
-      "publish_date": "08/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/fd70b7de8682307323cc79f009170c2b.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "08/06/2026"
-    },
-    {
-      "id": "2568e1343e887826",
-      "title": "Union Minister of Communications, Shri Jyotiraditya M. Scindia along with Chief Minister of Madhya Pradesh, Dr. Mohan Yadav jointly chair investor and strategic roundtables in Mumbai",
-      "publish_date": "08/04/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/f2159adb831a5f256f63a8feb26e108e.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "08/06/2026"
+      "scraped_at": "08/07/2026"
     }
   ]
 }
