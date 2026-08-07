@@ -1,13 +1,24 @@
 [
   {
-    "id": "88b86e7782ff280f166cba49c8823fa745a2319b",
+    "id": "8a3d09754260ad58ac4c33b54494264795707296",
+    "source": "Bharat Connect",
+    "category": "Circulars",
+    "title": "008 - Generation of ‘Transaction Reference Id’ for all bill payment transactions",
+    "date": "16 Jul, 2026",
+    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/008_Generation_of_Transaction_Reference_Id_for_all_bill_payment_transactions_3eb095caee.pdf",
+    "pdf_filename": "008_Generation_of_Transaction_Reference_Id_for_all_bill_payment_transactions_3eb095caee.pdf",
+    "source_page": "https://www.bharat-connect.com/circulars/",
+    "scraped_at": "2026-08-07T21:40:51.427683+00:00"
+  },
+  {
+    "id": "d47cfe10b9414589397f83f4a7691e71e9c30a16",
     "source": "Bharat Connect",
     "category": "Circulars",
     "title": "Implementation of CCF 1 (Biller Fee) in BBPS Ecosystem",
     "date": "25 Jun, 2026",
-    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/Implementation_of_CCF_1_(Biller_Fee)_in_BBPS_Ecosystem.pdf",
-    "pdf_filename": "Implementation_of_CCF_1_(Biller_Fee)_in_BBPS_Ecosystem.pdf",
+    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/Implementation_of_CCF_1_Biller_Fee_in_BBPS_Ecosystem_5bab24c364.pdf",
+    "pdf_filename": "Implementation_of_CCF_1_Biller_Fee_in_BBPS_Ecosystem_5bab24c364.pdf",
     "source_page": "https://www.bharat-connect.com/circulars/",
-    "scraped_at": "2026-07-10T15:30:09.051227+00:00"
+    "scraped_at": "2026-08-07T21:40:51.427856+00:00"
   }
 ]
