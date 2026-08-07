@@ -17076,3 +17076,248 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-06 10:17:22
+585f73e088d2bcbe,CERT-In Vulnerability Note  CIVN-2026-0397,"August 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0397,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0397
+Multiple Vulnerabilities in Cisco IOS XE Software
+Original Issue Date:August    07, 2026
+Severity Rating: CRITICAL
+Software Affected
+Cisco IOS XE Software (multiple releases as identified by Cisco Software Checker)
+Cisco IOS Software (for the XMCP advisory)
+Overview
+Multiple vulnerabilities have been identified in Cisco IOS XE Software that could allow an attacker to execute arbitrary code, cause denial of service (DoS), bypass security restrictions, or compromise the confidentiality, integrity, and availability of the affected devices.
+Target Audience:
+Individuals and organizations using Cisco IOS XE Software and Cisco IOS Software.
+Risk Assessment:
+High risk of remote code execution, denial of service, security restriction bypass, and compromise of critical network infrastructure.
+Impact Assessment:
+Potential remote code execution, denial of service, security restriction bypass, and disruption of network operations.
+Description
+Cisco IOS XE Software is a network operating system used on Cisco enterprise routers, switches, wireless controllers, and other networking devices.
+Multiple vulnerabilities have been reported in Cisco IOS XE Software due to Unchecked Input for Loop Condition, Error Handling, Missing Release of Resource after Effective Lifetime, Improper Access Control, Improper Restriction of Operations within the Bounds of a Memory Buffer, Improper Control of a Resource Through its Lifetime, Incorrect Calculation, Insufficient Control Flow Management, Improper Neutralization of Special Elements in Output Used by a Downstream Component (""Injection""), and Improper Input Validation.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause denial of service (DoS), bypass security restrictions, inject malicious input, access unauthorized resources, or compromise the confidentiality, integrity, and availability of the affected devices.
+Solution
+Apply appropriate updates as mentioned by the vendor
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-snmp-dos-ZAqNm4MD
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-bing-MGHrFAkd
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-xmcp-thbAr34t
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/home.x
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-snmp-dos-ZAqNm4MD
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-bing-MGHrFAkd
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-xmcp-thbAr34t
+CVE Name
+CVE-2026-20301
+CVE-2026-20263
+CVE-2026-20124
+CVE-2026-20267
+CVE-2026-20268
+CVE-2026-20269
+CVE-2026-20270
+CVE-2026-20271
+CVE-2026-20272
+CVE-2026-20273
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-07 11:42:08
+fee352f881d0687c,CERT-In Vulnerability Note  CIVN-2026-0396,"August 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0396,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0396
+Multiple Vulnerabilities in Omada ZTP
+Original Issue Date:August    07, 2026
+Severity Rating: HIGH
+Software Affected
+Omada Controllers
+Omada Gateways
+Omada Switches
+Omada Access Points
+Omada OLT platforms
+Omada Cloud services
+TP Link mobile applications
+Overview
+Multiple vulnerabilities have been reported in Omada ZTP, which could allow an attacker to perform remote code execution, device hijacking and spoofing, client-side code execution, gain unauthorized access, disclose sensitive information, or otherwise compromise the targeted system.
+Target Audience:
+All end-user organizations and individuals using the affected TP-LinkOmadaproducts.
+Risk Assessment:
+High risk of unauthorized access, execution of arbitrary code or commands, disclosure of sensitive information, authentication and authorization bypass, and compromise of affected systems.
+Impact Assessment:
+Potential remote code execution, unauthorized access, information disclosure, data compromise, and disruption of affected systems.
+Description
+Multiple vulnerabilities exist in Omada ZTP due to improper input validation, insufficient access controls, hard-coded cryptographic keys, inadequate certificate validation, weaknesses in device-to-controller communication, insecure cloud management interfaces, and other security flaws.
+Successful exploitation of these vulnerabilities could allow an attacker to perform remote code execution, device hijacking and spoofing, client-side code execution, gain unauthorized access, disclose sensitive information, or otherwise compromise the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.omadanetworks.com/us/document/130627/
+Vendor Information
+Omadanetworks
+https://support.omadanetworks.com/
+References
+Omadanetworks
+https://support.omadanetworks.com/us/document/130627/
+CVE Name
+CVE-2025-7850
+CVE-2025-7851
+CVE-2025-9289
+CVE-2025-9290
+CVE-2025-9291
+CVE-2025-9292
+CVE-2025-9293
+CVE-2025-15544
+CVE-2025-15627
+CVE-2025-15628
+CVE-2025-15629
+CVE-2025-15630
+CVE-2025-15631
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-07 11:42:08
+d0071c5ab6bc59b1,CERT-In Advisory   CIAD-2026-0037,"August 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0037,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0037
+Advisory on Emerging Threats Targeting Microsoft 365 (M365)
+Original Issue Date: August    07, 2026
+Severity Rating: Critical
+Overview
+CERT-In has observed a significant increase in targeted cyber-attacks against Microsoft 365 (M365) environments by malicious actors. These attacks employ a combination of sophisticated techniques, including large-scale password spraying, device-code phishing through Phishing-as-a-Service (PhaaS) platforms, abuse of the Resource Owner Password Credentials (ROPC) OAuth flow, session token compromise, and Business Email Compromise (BEC) to bypass Multi-Factor Authentication (MFA) and obtain persistent unauthorized access to organizational resources such as Exchange Online, Microsoft Teams, OneDrive, and SharePoint.
+Malicious actors are actively targeting organizations through credential-stuffing using previously compromised credentials, password-spraying attacks, and device-code phishing campaigns delivered via PhaaS platforms. Compromised accounts are subsequently exploited to conduct Business Email Compromise (BEC), exfiltrate sensitive data from Microsoft 365 services, establish persistent access, and facilitate data theft, financial fraud, and extortion.
+This advisory consolidates current threat intelligence, Indicators of Compromise (IoCs), and Tactics, Techniques, and Procedures (TTPs) linked to these campaigns, and provides recommended security measures and mitigation strategies to help organizations fortify Microsoft 365 environments and minimize the risk of compromise.
+Description
+The observed campaigns employ diverse initial access techniques to compromise user accounts, evade Multi-Factor Authentication (MFA), establish persistence, and gain unauthorized access to organizational cloud resources.
+Pattern 1: Large-Scale Password Spraying through ROPC OAuth Abuse
+Threat actors conducted large-scale password-spraying attacks against Microsoft 365 environments by abusing the Azure Resource Owner Password Credentials (ROPC) OAuth flow and leveraging previously compromised credentials. The activity generated millions of authentication attempts, resulting in successful account compromises across multiple organizations. The attackers rotate their command-and-control infrastructure and continued the campaign using newly identified hosting providers.
+Pattern 2: Device-Code Phishing using Phishing-as-a-Service (PhaaS)
+Threat actors have been observed leveraging Phishing-as-a-Service (PhaaS) platforms to conduct device-code phishing attacks that abuse Microsoft OAuth authentication workflows. Victims are tricked into authorizing attacker-controlled device codes, enabling adversaries to obtain OAuth tokens and hijack authenticated sessions without directly stealing user credentials. AI-generated phishing lures and subscription-based infrastructure have been used to increase the effectiveness and scalability of these campaigns and is spreading across the globe.
+Pattern 3: Session Token Theft, Business Email Compromise (BEC) and Data Extortion
+In another observed attack pattern, threat actors obtained valid session tokens to bypass authentication controls and gain unauthorized access to Microsoft 365 accounts. The compromised accounts were subsequently used to conduct BEC, send trusted internal communications, facilitate lateral movement, and exfiltrate sensitive organizational data from cloud collaboration services. Stolen information was later leveraged for financial fraud, extortion, or publication on underground forums.
+Pattern 4: Trusted Supplier Compromise Leading to Device-Code Phishing
+Threat actors have also been observed abusing compromised trusted supplier accounts to distribute phishing emails containing malicious PDF attachments or embedded QR codes. Victims are redirected through a chain of legitimate web services before reaching a fraudulent Microsoft device-code authentication workflow. Since the authentication occurs on Microsoft's legitimate sign-in page, users unknowingly authorize attacker-controlled sessions rather than bypassing MFA.
+Following successful authentication, attackers rapidly capture OAuth access tokens, register persistent rogue devices, and maintain long-term access to compromised tenants. The compromised accounts, including privileged administrative accounts in some cases, are subsequently abused to send phishing emails to suppliers, partners, customers, and other trusted contacts. Hidden mailbox rules are often created to conceal malicious activity, intercept responses, and prolong unauthorized access while evading detection.
+Tactics, Techniques, and Procedures (TTPs)
+1. Initial Access
+Password spraying and credential-stuffing attacks using previously compromised credentials against Microsoft 365 authentication endpoints.
+Abuse of Azure Resource Owner Password Credentials (ROPC) OAuth flow for automated authentication attempts.
+Device-code phishing through emails impersonating Microsoft services (e.g., SharePoint, OneDrive, Teams) or trusted vendors.
+Compromise of trusted supplier or vendor accounts to distribute phishing emails and malicious documents.
+Theft of authenticated session tokens or cookies through infostealer malware, malicious browser extensions, or other token-stealing techniques.
+Exploitation of legacy authentication methods and Conditional Access policy gaps.
+2. Credential Access and Unauthorized Access
+Authentication using compromised credentials and abuse of OAuth authentication workflows.
+Acquisition and misuse of OAuth access and refresh tokens through device-code phishing.
+Replay of stolen session tokens to bypass Multi-Factor Authentication (MFA).
+Exploitation of Conditional Access policy misconfigurations to obtain unauthorized access.
+Registration of unauthorized or rogue devices in Microsoft Entra ID to establish trusted access.
+Use of automated tools and scripts to manage compromised sessions and maintain authenticated access.
+3. Persistence
+Abuse of long-lived OAuth refresh tokens to maintain persistent access.
+Automated renewal of authenticated sessions using scripted requests.
+Creation of hidden or obfuscated mailbox rules to conceal malicious email activity.
+Registration of rogue devices in Microsoft Entra ID to retain access even after password resets.
+Acquisition of persistent device-based authentication tokens.
+4. Collection and Exfiltration
+Unauthorized access to Microsoft 365 resources, including SharePoint, OneDrive, Exchange Online, and Teams.
+Data exfiltration through browsing, preview, search, or download operations to reduce detection.
+Targeting of sensitive organizational information, customer records, financial documents, audit reports, and other confidential data.
+Reconnaissance of Microsoft 365 administrative interfaces and cloud resources.
+Harvesting organizational contact information to facilitate further phishing campaigns.
+5. Business Email Compromise (BEC) and Impact
+Abuse of compromised email accounts to send trusted internal and external communications.
+Distribution of phishing emails to employees, customers, suppliers, partners, and other trusted contacts.
+Use of authenticated email accounts that successfully pass SPF, DKIM, and DMARC validation.
+Exfiltration of sensitive data for financial fraud, extortion, or public disclosure.
+Propagation of attacks by leveraging compromised accounts to target additional victims.
+6. Defense Evasion
+Use of hidden mailbox rules to conceal malicious activity and suppress notifications.
+Low-volume, distributed attack patterns designed to evade detection.
+Abuse of legitimate authentication workflows, resulting in sign-in events that appear valid.
+Limited monitoring of anomalous device registrations, mailbox rule creation, OAuth token usage, and session persistence.
+Multi-stage redirection through trusted cloud services to evade reputation-based security controls.
+Indicators of Compromise (IoCs)
+IP Addresses
+103[.]175[.]2[.]136
+43[.]131[.]17[.]95
+43[.]162[.]111[.]16
+74[.]207[.]198[.]135
+15[.]220[.]152[.]93
+92[.]62[.]121[.]150
+198[.]163[.]193[.]188
+188[.]72[.]57[.]108
+109[.]204[.]52[.]69
+146[.]70[.]186[.]124
+109[.]204[.]52[.]72
+Domains
+quicktrustdesign[.]de
+URLs / Paths
+16tk83yw5r[.]quicktrustdesign[.]de/l/grKqBn91WrY
+File Hashes (SHA-256)
+77adc307f5eb745b5da1d641e573a2eedcdb091c3534fdd3871d2f023cee1a25
+ee8c5315e473bf2d969b56484f60f5c0487218487c9fae08b630afd330d0b9c6
+Email Indicators
+Subject: Remittance
+Attachment names: ""[Name of targeted organization]WireTransfer..pdf""
+Recommended Actions
+Threat Detection and Hunting
+Block identified IoCs (malicious IPs, domains, URLs) across all security layers.
+Perform immediate threat hunting in Microsoft Entra, Exchange Online, SharePoint, OneDrive, and Teams logs for anomalies, unauthorized sign-ins, suspicious mailbox rules, and OAuth abuse.
+Consider deploying User and Entity Behaviour Analytics (UEBA) to detect anomalous authentication, device registrations, and file access.
+Enhance threat intelligence monitoring for leaked credentials, data exposure, and adversary activity.
+Access Control
+Enforce strong password policies and deploy Microsoft Entra Password Protection.
+Enforce Multi-Factor Authentication (MFA) for all users, applications, and client types; remove unnecessary exclusions.
+Implement Privileged Access Management (PAM) and rotate privileged/service account credentials regularly.
+Disable legacy authentication protocols (e.g., ROPC, unsupported methods).
+Restrict device-code authentication, allowing only approved emergency accounts.
+Limit Azure CLI access to authorized administrators.
+Adopt phishing-resistant authentication (FIDO2, Windows Hello for Business, certificate-based methods).
+Data and Resource Protection
+Secure SharePoint and OneDrive with least privilege access, restricted external sharing, and comprehensive audit logging.
+Strengthen Conditional Access policies based on trusted IPs, geolocation, compliant devices, and risk signals.
+Protect user sessions with Continuous Access Evaluation (CAE), session lifetime controls, and device compliance requirements.
+Implement Data Loss Prevention (DLP) policies across Microsoft 365 services to detect anomalous data access and exfiltration.
+Audit and remove suspicious mailbox rules that redirect, delete, or suppress notifications.
+Governance and Preparedness
+Review Microsoft 365 security configurations (Conditional Access, OAuth permissions, sharing settings, audit coverage).
+Strengthen incident response preparedness with defined procedures and periodic tabletop exercises.
+Conduct security awareness training for users on credential theft, phishing, BEC, suspicious attachments, and safe authentication practices.
+Conclusion
+CERT-In advises all organizations using Microsoft 365 to treat any suspected account compromise as a potential security incident requiring immediate investigation and response. Early detection of anomalous authentication activity, phishing attempts, unauthorized device registrations, suspicious OAuth usage, and unusual access to Microsoft 365 services is critical to preventing unauthorized access, data exfiltration, Business Email Compromise (BEC), and other malicious activities.
+Organizations are advised to review and strengthen Microsoft Entra Conditional Access policies, enforce Multi-Factor Authentication (MFA) for all users and applications, disable or restrict legacy and device-code authentication where operationally feasible, implement robust monitoring and audit logging, and regularly review privileged access, mailbox rules, and device registrations.
+If any indicators of compromise or suspicious activity associated with these attack techniques are detected, organizations should immediately initiate incident response procedures, preserve all relevant logs and forensic evidence, implement appropriate containment measures, and report the incident, along with all relevant artifacts and logs, to CERT-In at
+incident@cert-in.org.in
+.
+References
+https://www.ic3.gov/PSA/2026/PSA260521
+https://www.huntress.com/blog/lshiy-password-spray-attack
+https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-07 11:42:08
