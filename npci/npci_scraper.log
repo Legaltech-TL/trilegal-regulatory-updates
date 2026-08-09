@@ -8942,3 +8942,46 @@ Call log:
 2026-08-09 04:19:10,978 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-08-09 04:19:14,042 | INFO | Total entries collected: 19
 2026-08-09 04:19:14,053 | INFO | No new entries found
+2026-08-09 09:30:27,381 | INFO | Opening NPCI page
+2026-08-09 09:30:30,122 | INFO | Attempting Press Releases scrape (2026)
+2026-08-09 09:30:30,142 | INFO | Press Releases 2026: 8 rows found
+2026-08-09 09:30:30,151 | INFO | [press_release] Biometric Authentication-Based UPI Transactions, Including RuPay Credit Card on UPI, Cross 600 Million in June 2026
+2026-08-09 09:30:33,190 | WARNING | No PDF or image asset captured
+2026-08-09 09:30:33,197 | INFO | [press_release] Press Release - NBSL appoints Gaurav Kochhar as Chief of Business
+2026-08-09 09:30:36,231 | WARNING | No PDF or image asset captured
+2026-08-09 09:30:36,238 | INFO | [press_release] NBSL Press Release_BHIM Payments App Introduces Biometric Authentication for UPI Payments on Android and IOS
+2026-08-09 09:30:39,273 | INFO | [press_release] NBSL Press Release - BHIM Payments App Announces MS Dhoni as Brand Ambassador
+2026-08-09 09:30:42,299 | WARNING | No PDF or image asset captured
+2026-08-09 09:30:42,307 | INFO | [press_release] NPCI Advances India’s Sovereign AI Infrastructure for Digital Payments With NVIDIA
+2026-08-09 09:30:45,339 | INFO | [press_release] NPCI Press Release - NPCI announces FiMI, a domain-specific AI language Model built for India’s payments ecosystem
+2026-08-09 09:30:48,371 | INFO | [press_release] NPCI Press Release - NPCI Extends ‘UPI One World’ Wallet Service to International Delegates at the India AI Impact Summit 2026
+2026-08-09 09:30:51,405 | INFO | [press_release] NBSL Press Release - NBSL and Canara Bank partner to power UPI payments
+2026-08-09 09:30:54,432 | INFO | Switching Press Releases year to 2025
+2026-08-09 09:30:56,989 | INFO | Press Releases 2025: 10 rows found
+2026-08-09 09:30:56,995 | INFO | [press_release] NBSL Press release - BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI Payments within set limits
+2026-08-09 09:31:00,013 | WARNING | No PDF or image asset captured
+2026-08-09 09:31:00,020 | INFO | [press_release] NPCI Press Release - Media Statement - Update Regarding Cheque Truncation System (CTS) – Continuous Clearing
+2026-08-09 09:31:03,055 | INFO | [press_release] NPCI Press Release - RuPay JCB cardholders can now avail 25% cashback for in-store purchases* in Indonesia, Malaysia, Singapore, Japan and Philippines
+2026-08-09 09:31:06,087 | INFO | [press_release] NPCI Press Release - Media Statement Regarding Cheque Clearance
+2026-08-09 09:31:09,112 | WARNING | No PDF or image asset captured
+2026-08-09 09:31:09,119 | INFO | [press_release] NPCI Press Release - RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025
+2026-08-09 09:31:12,151 | INFO | [press_release] NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025
+2026-08-09 09:31:15,186 | INFO | [press_release] NPCI Press Release - DFS Secretary Launches Initiatives to Simplify Digital Payment Experience at GFF 2025
+2026-08-09 09:31:18,213 | WARNING | No PDF or image asset captured
+2026-08-09 09:31:18,220 | INFO | [press_release] NPCI Press release – NPCI and RBL Bank expand RuPay On-The-Go across All Bengaluru Metro Lines
+2026-08-09 09:31:21,252 | INFO | [press_release] NBSL Press release - BHIM, Bharat Ka Apna Payments App, Lights Up Diwali with a Touch Of Goodness, Empowering India’s Women Artisans
+2026-08-09 09:31:24,285 | INFO | [press_release] NBSL Press release - BHIM Payments App, Bharat Ka Apna Payments App Collaborates with Sony Entertainment Television to launch an exclusive ‘Golden Week’ in Kaun Banega Crorepati
+2026-08-09 09:31:27,314 | WARNING | No PDF or image asset captured
+2026-08-09 09:31:27,315 | INFO | Switching to Media Coverage tab
+2026-08-09 09:31:28,137 | INFO | Media Coverage: 7 rows found
+2026-08-09 09:31:28,143 | INFO | [media_coverage] 26-03 New Bhim 3.0 launched, allows users to split bills, track payments
+2026-08-09 09:31:31,163 | WARNING | No PDF or image asset captured
+2026-08-09 09:31:31,170 | INFO | [media_coverage] 15-10 BHIM's monthly transactions triple between January and September
+2026-08-09 09:31:34,203 | INFO | [media_coverage] 18-11 CNBC TV18 - Bharat Connect for Business boosts digital payments among MSMEs, says NBBL’s CEO
+2026-08-09 09:31:37,230 | WARNING | No PDF or image asset captured
+2026-08-09 09:31:37,237 | INFO | [media_coverage] 26-11 UPI Circle to net new users BHIM chief
+2026-08-09 09:31:40,266 | INFO | [media_coverage] 27-11 ETBFSI - NPCI’s Bharat Billpay aims to cover half of India’s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi
+2026-08-09 09:31:43,302 | INFO | [media_coverage] 28-11 Netbanking switch to provide better visibility into transactions: NBBL CEO
+2026-08-09 09:31:46,336 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
+2026-08-09 09:31:49,394 | INFO | Total entries collected: 16
+2026-08-09 09:31:49,405 | INFO | Added 1 new entries
