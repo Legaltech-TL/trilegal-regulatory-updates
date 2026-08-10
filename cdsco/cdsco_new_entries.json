@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"7eb3ebaf6f1949e9",
+    "category":"public_notices",
+    "sno":"1",
+    "title":"Inviting comments on standard IVD evaluation protocols drafted by ICMR and CDSCO",
+    "date":"2026-Aug-10",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1OTM=",
+    "filename":"Inviting_comments_on_standard_IVD_evaluation_protocols",
+    "scraped_time":"2026-08-10T08:49:13.905653"
+  },
+  {
+    "id":"03aef7b10b47b577",
+    "category":"gazette_notifications",
+    "sno":"1",
+    "title":"2026.08.06 G.S.R. 713(E)_Notification for amendment under Rule 89 of Drugs Rules 1945, for obtaining licence under Form 29 for different categories falling under Form 25A, 25F, 28A, 28B, 28D, 28DA, 28E, 28F",
+    "date":"2026-Aug-06",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1OTQ=",
+    "filename":"20260806_GSR_713ENotification_for_amendment_under_Rule",
+    "scraped_time":"2026-08-10T08:49:23.531796"
+  }
 ]
