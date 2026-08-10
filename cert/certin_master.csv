@@ -17321,3 +17321,136 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-07 11:42:08
+c20268e540ff1830,CERT-In Vulnerability Note  CIVN-2026-0401,"August 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0401,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0401
+Remote Code Execution Vulnerability in JetBrains TeamCity
+Original Issue Date:August    10, 2026
+Severity Rating: CRITICAL
+Software Affected
+JetBrains TeamCity On-Premises versions prior to 2026.1.3 and 2025.11.7
+Overview
+A vulnerability has been reported in JetBrains TeamCity, which could allow an unauthenticated attacker to execute remote code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using JetBrains TeamCity On-Premises.
+Risk Assessment:
+Risk of unauthorized remote code execution and system compromise.
+Impact Assessment:
+Unauthorized access to sensitive data, data manipulation, and complete system compromise.
+Description
+JetBrains TeamCity is a continuous integration and continuous delivery (CI/CD) server that provides tools for automating software development, testing, and deployment processes. It enables organizations to build, test, and deploy software applications through automated workflows.
+A vulnerability has been reported in JetBrains TeamCity On-Premises due to a flaw in the agent polling protocol.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute remote code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.jetbrains.com/privacy-security/issues-fixed/
+Vendor Information
+JetBrains
+https://www.jetbrains.com/privacy-security/issues-fixed/
+References
+JetBrains
+https://www.jetbrains.com/privacy-security/issues-fixed/
+CVE Name
+CVE-2026-63077
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-10 09:01:46
+78f572b710a4152e,CERT-In Vulnerability Note  CIVN-2026-0400,"August 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0400,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0400
+Privilege Escalation Vulnerability in cPanel & WHM
+Original Issue Date:August    10, 2026
+Severity Rating: CRITICAL
+Software Affected
+cPanel & WHM (Web Host Manager) versions
+prior to 11.136.0.32
+prior to 11.134.0.48
+prior to 11.126.0.78
+prior to 11.110.0.137
+WP Squared version prior to 138.1.6
+Overview
+A vulnerability has been reported in in cPanel & WHM, which could allow a remote attacker to gain elevated privileges and execute arbitrary database commands with full administrative privileges on the targeted system.
+Target Audience:
+Organizations and individuals using affected cPanel & WHM-based hosting environments.
+Risk Assessment:
+High risk of Privilege escalation and operating-system level compromise.
+Impact Assessment:
+Potential for execution of arbitrary database commands with full administrative privileges.
+Description
+cPanel & WHM is a widely used web hosting control panel that provides administrative (WHM) and user-level (cPanel) interfaces for managing servers and websites.
+This vulnerability exists in cPanel & WHM due to improper preservation of SQL mode during database renaming in cPanel. A remote authenticated attacker could exploit this vulnerability to execute arbitrary database commands with full administrative privileges.
+Successful exploitation of this vulnerability could allow the attacker to gain elevated privileges and execute arbitrary database commands with full administrative privileges on the targeted system.
+Solution
+Apply appropriate fix/patches as mentioned:
+https://support.cpanel.net/hc/en-us/articles/42285745783703-Security-CVE-2026-58048-Database-Privilege-Escalation
+Vendor Information
+cPanel
+https://support.cpanel.net/hc/en-us/articles/42285745783703-Security-CVE-2026-58048-Database-Privilege-Escalation
+References
+cPanel
+https://support.cpanel.net/hc/en-us/articles/42285745783703-Security-CVE-2026-58048-Database-Privilege-Escalation
+CVE Name
+CVE-2026-58048
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-10 09:01:46
+cb10da2820af7d20,CERT-In Vulnerability Note  CIVN-2026-0399,"August 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0399,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0399
+Multiple Vulnerabilities in Veeam Service Provider Console
+Original Issue Date:August    10, 2026
+Severity Rating: CRITICAL
+Software Affected
+Veeam Service Provider Console 9.2.1.33875 and all earlier version 9 builds.
+Overview
+Multiple vulnerabilities have been reported in Veeam Service Provider Console, which could allow an unauthenticated remote attacker to bypass authentication, arbitrary file write on the management server, cause denial of service (DoS) and gain administrative access on the targeted system.
+Target Audience:
+All organizations and individuals using the affected Veeam Service Provider Console.
+Risk Assessment:
+High risk of complete system compromise, execution of arbitrary commands, and denial of service (DoS) condition.
+Impact Assessment:
+Potential for Authentication bypass, arbitrary command execution, and unauthorized administrative access.
+Description
+Veeam Service Provider Console is a centralized management platform that enables service providers to monitor, manage, and deliver Veeam-powered backup, disaster recovery, and data protection services to multiple customers from a single console.
+Multiple vulnerabilities have been reported in Veeam Service Provider Console due to missing authentication for critical function, exhaust host memory, authentication bypass using an alternate path or channel, and Improper limitation of a pathname to a restricted directory.
+Successful exploitation of these vulnerabilities could allow an unauthenticated remote attacker to bypass authentication, arbitrary file write on the management server, cause denial of service (DoS) and gain administrative access on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.veeam.com/kb4893
+Vendor Information
+Veeam
+https://www.veeam.com/kb4893
+References
+https://www.veeam.com/kb4893
+CVE Name
+CVE-2026-58073
+CVE-2026-58072
+CVE-2026-58067
+CVE-2026-58071
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-10 09:01:46
