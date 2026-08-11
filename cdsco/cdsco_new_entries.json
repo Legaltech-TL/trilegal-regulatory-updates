@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"87a313ede5499fb1",
+    "category":"public_notices",
+    "sno":"1",
+    "title":"Manufacturing and marketing of un-approved drug products containing Enclomiphene and its combinations",
+    "date":"2026-Aug-11",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2MDI=",
+    "filename":"Manufacturing_and_marketing_of_unapproved_drug_products",
+    "scraped_time":"2026-08-11T08:14:39.720445"
+  },
+  {
+    "id":"9b37d1d41a368ed4",
+    "category":"circulars",
+    "sno":"1",
+    "title":"larification on the submission of applications for grant of Permission to Import and Market New Drugs not approved anywhere in the world, wherein phase III Global Clinical Trials (GCT) are ongoing or completed with participation of Indian subjects under the New Drugs and Clinical Trials Rules, 2019",
+    "date":"2026-Aug-10",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ1OTg=",
+    "filename":"larification_on_the_submission_of_applications_for",
+    "scraped_time":"2026-08-11T08:14:54.730207"
+  }
 ]
