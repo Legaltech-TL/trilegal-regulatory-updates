@@ -17455,3 +17455,153 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-08-10 09:01:46
 c9669849f31fad01,CERT-In Vulnerability Note  CIVN-2026-0402,"August 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0402,Latest Security Alert,,2026-08-10 11:43:49
+b25ecd9f555674ac,CERT-In Vulnerability Note  CIVN-2026-0404,"August 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0404,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0404
+Multiple Vulnerabilities in Drupal Plugins
+Original Issue Date:August    11, 2026
+Severity Rating: HIGH
+Software Affected
+Drupal Entity Browser module versions prior to 8.x-2.16
+Drupal Edit in-place field module versions prior to 2.1.1
+Overview
+Multiple vulnerabilities have been reported in Drupal contributed modules which may allow an attacker to bypass access controls and modify unauthorized content or execute stored cross-site scripting (XSS) attacks through insufficient input sanitization.
+Target Audience:
+Individuals and end-user organizations using Drupal Modules.
+Risk Assessment:
+High risk of unauthorized modification of Drupal entities and fields, access control bypass, and stored cross-site scripting attacks.
+Impact Assessment:
+Potential for unauthorized modification of content and fields, bypass of security restrictions, execution of malicious scripts in the context of affected users, and compromise of sensitive website functionality.
+Description
+Drupal is an open-source content management system (CMS) which allows individuals and organizations to create, manage and maintain websites and web applications.
+These vulnerabilities exist in the Drupal modules due to insufficient access control checks when editing entities and improper sanitization of tab titles, resulting in unauthorized modification of entity fields and stored cross-site scripting (XSS).
+Successful exploitation of these vulnerabilities could allow an attacker to bypass security restrictions, modify unauthorized Drupal content or fields, and perform stored cross-site scripting attacks against users of the affected system.
+Solution
+Apply appropriate updates as mentioned:
+https://www.drupal.org/sa-contrib-2026-093
+https://www.drupal.org/sa-contrib-2026-094
+Vendor Information
+Drupal
+https://www.drupal.org/sa-contrib-2026-093
+https://www.drupal.org/sa-contrib-2026-094
+References
+Drupal
+https://www.drupal.org/sa-contrib-2026-093
+https://www.drupal.org/sa-contrib-2026-094
+CVE Name
+CVE-2026-18985
+CVE-2026-18986
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-12 05:45:43
+0f54a5c4e4d7a6b0,CERT-In Vulnerability Note  CIVN-2026-0403,"August 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0403,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0403
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date:August    11, 2026
+Severity Rating: CRITICAL
+Software Affected
+Azure SQL Managed Instance
+Microsoft Teams
+Microsoft Purview eDiscovery
+Microsoft Power Apps
+Azure Active Directory
+Microsoft Entra Provisioning Service
+Microsoft Application Insights Profiler
+Azure Confidential Ledger
+Azure Logic Apps
+Azure SRE Agent
+Azure SQL Database
+Azure Service Bus
+Microsoft Planetary Computer Pro
+Microsoft 365 Admin Center
+Microsoft Office SharePoint
+Overview
+Multiple vulnerabilities have been reported in Microsoft Products, which could allow an attacker to perform spoofing, elevate privilege, perform tampering and disclose sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using the Microsoft Products.
+Risk Assessment:
+High risk of privilege escalation, spoofing, sensitive information disclosure.
+Impact Assessment:
+High impact on Confidentiality, Integrity and Availability of the affected systems.
+Description
+Multiple vulnerabilities have been reported in Microsoft Products due to broken authorization/authentication controls, improper access control, modification of data assumed to be immutable, unsafe exposure of privileged functionality, or inadequate path handling.
+An attacker could exploit these vulnerabilities by sending crafted network requests, abusing authentication or authorization weaknesses, manipulating paths or resource handling and invoking exposed privileged functionality.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to protected information, privilege escalation and remote code execution.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62836
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62896
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65668
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59118
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50481
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62918
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59115
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49163
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68823
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56161
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62830
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65667
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56162
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50515
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63508
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62873
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70332
+Vendor Information
+Micosoft
+https://www.microsoft.com/
+References
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62836
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62896
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65668
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59118
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50481
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62918
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59115
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49163
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68823
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56161
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62830
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65667
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56162
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50515
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63508
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62873
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70332
+CVE Name
+CVE-2026-62836
+CVE-2026-62896
+CVE-2026-65668
+CVE-2026-59118
+CVE-2026-50481
+CVE-2026-62918
+CVE-2026-59115
+CVE-2026-49163
+CVE-2026-68823
+CVE-2026-56161
+CVE-2026-62830
+CVE-2026-65667
+CVE-2026-56162
+CVE-2026-50515
+CVE-2026-63508
+CVE-2026-62873
+CVE-2026-70332
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-12 05:45:43
