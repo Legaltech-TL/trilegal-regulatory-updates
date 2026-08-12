@@ -17648,3 +17648,146 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-12 08:51:33
+178de26024779385,CERT-In Vulnerability Note  CIVN-2026-0407,"August 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0407,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0407
+Remote Code Execution Vulnerability in Langflow OSS
+Original Issue Date:August    12, 2026
+Severity Rating: CRITICAL
+Software Affected
+Langflow OSS 1.0.0 through 1.10.0
+Overview
+A remote code execution vulnerability has been reported in Langflow OSS, which could allow an unauthenticated remote attacker to execute arbitrary code on the affected system.
+Target Audience:
+All organizations and individuals using Langflow OSS.
+Risk Assessment:
+Critical risk of arbitrary code execution, which could lead to complete compromise of the affected Langflow instance and the underlying system.
+Impact Assessment:
+Remote unauthenticated exploitation may lead to complete system compromise.
+Description
+Langflow OSS is an open-source platform for building and deploying AI-powered workflows and applications.
+An unauthenticated remote code execution vulnerability exists in Langflow OSS due to improper authentication and unsafe handling of user-supplied Python code. Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to obtain a SUPERUSER bearer token through the auto-login endpoint and subsequently execute arbitrary Python code on the affected Langflow server through the code validation endpoint. The attacker may thereby execute arbitrary commands with the privileges of the Langflow process.
+According to the vendor, the vulnerability affects default deployments where the auto-login feature is enabled and the validation endpoint is network-accessible. Successful exploitation could allow an attacker to compromise the confidentiality, integrity, and availability of the affected system.
+Solution
+Apply appropriate security updates and mitigations as recommended by the vendor.
+https://www.ibm.com/support/pages/node/7278927
+Vendor Information
+IBM Corporation
+https://www.ibm.com/
+References
+https://www.ibm.com/support/pages/node/7278927
+CVE Name
+CVE-2026-9198
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-12 11:42:55
+f9ed23e803b8145b,CERT-In Vulnerability Note  CIVN-2026-0406,"August 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0406,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0406
+Multiple vulnerabilities in ClamAV
+Original Issue Date:August    12, 2026
+Severity Rating: HIGH
+Software Affected
+Secure Endpoint Connector for Linux.
+Secure Endpoint Connector for Mac.
+Secure Endpoint Connector for Windows.
+Overview
+Multiple vulnerabilities have been reported in ClamAV, which could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations on the affected system.
+Target Audience:
+All end-user organizations and individuals using the affected Secure Endpoint Connector products.
+Risk Assessment:
+High risk of denial-of-service, interruption of malware-scanning operations, and memory corruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+ClamAV is an open-source cross-platform antivirus software toolkit owned and maintained by Cisco.
+Multiple vulnerabilities exist in ClamAV, due to improper boundary checking, memory handling, integer overflow, and improper processing of specially crafted file formats.
+Successful exploitation of these vulnerabilities could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations on an affected system.
+Solution
+Apply appropriate updates as mentioned by the vendor as and when available:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26
+Vendor Information
+CISCO
+https://www.cisco.com/
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26
+CVE Name
+CVE-2026-20337
+CVE-2026-20338
+CVE-2026-20339
+CVE-2026-20345
+CVE-2026-20346
+CVE-2026-20347
+CVE-2026-20348
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-12 11:42:55
+a60143e20770057e,CERT-In Advisory   CIAD-2026-0038,"August 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0038,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0038
+Multiple Vulnerabilities in Microsoft Products
+Original Issue Date: August    12, 2026
+Severity Rating: High
+Software Affected
+Microsoft Windows
+Microsoft Office
+Microsoft Dynamics
+Developer Tools
+SQL Server
+Extended Security Updates (ESU) for legacy Microsoft products
+Azure
+Apps
+Developer Tools
+Open Source Software
+Server Software
+System Center
+Overview
+Multiple vulnerabilities have been reported in Microsoft products that could allow an attacker to gain elevated privileges, obtain sensitive information, execute arbitrary code remotely, bypass security restrictions, conduct spoofing attacks, perform tampering of data or system processes, or cause denial-of-service (DoS) conditions.
+Target Audience:
+Individuals and IT administrators, security teams responsible for maintaining and updating Microsoft products.
+Risk Assessment:
+Risk of remote code execution, system instability or sensitive information disclosure.
+Impact Assessment:
+Potential compromise of system, exfiltration of data, ransomware attacks or system crashes.
+Description
+Multiple vulnerabilities have been reported in Microsoft products that could allow an attacker to gain elevated privileges, obtain sensitive information, execute arbitrary code remotely, bypass security restrictions, conduct spoofing attacks, perform tampering of data or system processes, or cause denial-of-service (DoS) conditions.
+CVE-2026-68820
+: This vulnerability exists in the Microsoft Windows Ancillary Function Driver for WinSock due to a use-after-free condition. A locally authenticated attacker could exploit this vulnerability to elevate privileges and execute code with SYSTEM-level privileges on the affected system.
+Note: This vulnerability is being exploited in the wild. Users are advised to apply patches immediately.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Microsoft security updates.
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Aug
+Solution
+Apply appropriate security updates as mentioned in
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Aug
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/
+References
+https://msrc.microsoft.com/update-guide/releaseNote/2026-Aug
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-12 11:42:55
