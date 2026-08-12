@@ -17605,3 +17605,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-12 05:45:43
+422893b61cf787a8,CERT-In Vulnerability Note  CIVN-2026-0405,"August 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0405,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0405
+Multiple Vulnerabilities in Progress Kemp LoadMaster
+Original Issue Date:August    12, 2026
+Severity Rating: CRITICAL
+Software Affected
+Progress Kemp LoadMaster version GA v7.2.63.1 and older
+Progress Kemp LoadMaster version LTSF v7.2.54.17 and older
+Overview
+Multiple vulnerabilities have been reported in Progress Kemp LoadMaster that could allow an unauthenticated attacker to execute arbitrary commands or bypass file upload security controls on the targeted system.
+Target Audience:
+All organizations and individuals using affected versions of Progress Kemp LoadMaster.
+Risk Assessment:
+High risk of remote code execution, unauthorized access and security control bypass.
+Impact Assessment:
+Potential for arbitrary command execution and bypass of security controls.
+Description
+Progress Kemp LoadMaster is an application delivery controller and load balancing platform used to manage and distribute network traffic across applications and services.
+Multiple vulnerabilities have been reported in Progress Kemp LoadMaster due to improper neutralization of special elements used in commands and improper validation of filenames during file upload processing.
+Successful exploitation of these vulnerabilities could allow an unauthenticated attacker to execute arbitrary commands or bypass file upload security controls on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the Vendor:
+https://community.progress.com/s/article/LoadMaster-Critical-Security-Bulletin-June-2026-CVE-2026-8037-CVE-2026-33691
+Vendor Information
+Progress Kemp LoadMaster
+https://community.progress.com/s/article/LoadMaster-Critical-Security-Bulletin-June-2026-CVE-2026-8037-CVE-2026-33691
+References
+https://community.progress.com/s/article/LoadMaster-Critical-Security-Bulletin-June-2026-CVE-2026-8037-CVE-2026-33691
+CVE Name
+CVE-2026-8037
+CVE-2026-33691
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-12 08:51:33
