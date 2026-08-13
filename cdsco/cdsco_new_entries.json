@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"e207e589cfd67dff",
+    "category":"public_notices",
+    "sno":"8",
+    "title":"Inviting comments on standard IVD evaluation draft protocols Scrub Typhus drafted by ICMR and CDSCO",
+    "date":"2026-Jul-13",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2MzQ=",
+    "filename":"Inviting_comments_on_standard_IVD_evaluation_draft",
+    "scraped_time":"2026-08-13T12:59:32.721008"
+  },
+  {
+    "id":"a0c63ee0235ce45d",
+    "category":"public_notices",
+    "sno":"32",
+    "title":"Testing Laboratories approved by Statas & UT in Form 37 of Drugs Rule 1945 and Cos 23 of Cosmetics Rule 2020",
+    "date":"2026-Mar-10",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2Mjg=",
+    "filename":"Testing_Laboratories_approved_by_Statas_UT_in",
+    "scraped_time":"2026-08-13T12:59:32.721008"
+  }
 ]
