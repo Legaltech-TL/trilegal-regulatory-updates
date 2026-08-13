@@ -17832,3 +17832,49 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-13 05:48:55
+83a2acad54871f4a,CERT-In Vulnerability Note  CIVN-2026-0409,"August 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0409,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0409
+SQL Injection vulnerability in Metabase
+Original Issue Date:August    13, 2026
+Severity Rating: CRITICAL
+Systems Affected
+Metabase versions
+from x.58.0 before x.58.24
+from x.59.0 before x.59.21
+from x.60.0 before x.60.17
+from x.61.0 before x.61.11
+from x.62.0 before x.62.9
+from x.63.0 before x.63.5
+Overview
+A vulnerability exists in Metabase which could allow an unauthenticated remote attacker to perform SQL injection in the Metabase application.
+Target Audience:
+All organizations and individuals using and maintaining Metabase application.
+Risk Assessment:
+High risk of unauthorized access to the Metabase instance.
+Impact Assessment:
+High impact on Confidentiality, Integrity and Availability of the system.
+Description
+Metabase is a business intelligence and data analytics application allowing users to connect to databases for preparing charts, dashboards, reports from the data.
+A SQL Injection vulnerability exists in Metabase due to improper validation of user input used for SQL commands. An unauthenticated remote attacker could exploit this vulnerability by injecting arbitrary SQL through the ""/reset_password"" database endpoint.
+Successful exploitation of these vulnerabilities could allow the attacker to gain unauthorized administrator access to the Metabase instance, change the application configuration, read and export data.
+Solution
+Apply appropriate security updates as mentioned by the vendor:
+https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf
+Vendor Information
+https://www.metabase.com/
+References
+https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf
+CVE Name
+CVE-2026-72898
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-13 11:42:36

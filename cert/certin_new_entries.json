@@ -1,3 +1,11 @@
 [
-
+  {
+    "id":"83a2acad54871f4a",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0409",
+    "date":"August 13, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0409",
+    "category":"Latest Security Alert",
+    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0409\nSQL Injection vulnerability in Metabase\nOriginal Issue Date:August    13, 2026\nSeverity Rating: CRITICAL\nSystems Affected\nMetabase versions\nfrom x.58.0 before x.58.24\nfrom x.59.0 before x.59.21\nfrom x.60.0 before x.60.17\nfrom x.61.0 before x.61.11\nfrom x.62.0 before x.62.9\nfrom x.63.0 before x.63.5\nOverview\nA vulnerability exists in Metabase which could allow an unauthenticated remote attacker to perform SQL injection in the Metabase application.\nTarget Audience:\nAll organizations and individuals using and maintaining Metabase application.\nRisk Assessment:\nHigh risk of unauthorized access to the Metabase instance.\nImpact Assessment:\nHigh impact on Confidentiality, Integrity and Availability of the system.\nDescription\nMetabase is a business intelligence and data analytics application allowing users to connect to databases for preparing charts, dashboards, reports from the data.\nA SQL Injection vulnerability exists in Metabase due to improper validation of user input used for SQL commands. An unauthenticated remote attacker could exploit this vulnerability by injecting arbitrary SQL through the \"\/reset_password\" database endpoint.\nSuccessful exploitation of these vulnerabilities could allow the attacker to gain unauthorized administrator access to the Metabase instance, change the application configuration, read and export data.\nSolution\nApply appropriate security updates as mentioned by the vendor:\nhttps:\/\/github.com\/metabase\/metabase\/security\/advisories\/GHSA-vwf4-m7j8-wcjf\nVendor Information\nhttps:\/\/www.metabase.com\/\nReferences\nhttps:\/\/github.com\/metabase\/metabase\/security\/advisories\/GHSA-vwf4-m7j8-wcjf\nCVE Name\nCVE-2026-72898\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
+    "scraped_at":"2026-08-13 11:42:36"
+  }
 ]
