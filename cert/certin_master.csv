@@ -17791,3 +17791,44 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-12 11:42:55
+a488c594f90036c3,CERT-In Vulnerability Note  CIVN-2026-0408,"August 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0408,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0408
+Cross-Site Scripting (XSS) Vulnerability in WordPress
+Original Issue Date:August    12, 2026
+Severity Rating: HIGH
+Software Affected
+WordPress versions prior to 7.0.3
+Overview
+A Cross-Site Scripting (XSS) vulnerability has been reported in WordPress, which could allow an attacker to execute arbitrary JavaScript on the targeted system.
+Target Audience:
+All end-user organizations and individuals using WordPress.
+Risk Assessment:
+High risk of unauthenticated XSS exploitation.
+Impact Assessment:
+Potential for remote code execution and/or compromise of system.
+Description
+WordPress is an open-source content management system (CMS) used to create, manage, and publish websites and web applications.
+A Cross-Site Scripting (XSS) vulnerability exist in WordPress due to improper handling and sanitization of input on the login screen. An unauthenticated attacker could exploit this vulnerability to execute arbitrary JavaScript on the targeted system.
+Successful exploitation of this vulnerability could allow an attacker to execute arbitrary JavaScript and, under specific conditions, potentially execute PHP code, leading to further compromise of the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://wordpress.org/news/2026/08/wordpress-7-0-3-release/
+Vendor Information
+WordPress
+https://wordpress.org/
+References
+https://wordpress.org/news/2026/08/wordpress-7-0-3-release/
+CVE Name
+CVE-2026-64638
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-13 05:48:55
