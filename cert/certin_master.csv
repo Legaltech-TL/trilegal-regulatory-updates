@@ -17878,3 +17878,96 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-13 11:42:36
+f898375fd494696f,CERT-In Advisory   CIAD-2026-0039,"August 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0039,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0039
+Reports on Apple Threat Notifications
+Original Issue Date: August    14, 2026
+Description
+Apple has issued threat notifications to users worldwide, including India, warning of sophisticated attempts by mercenary spyware operators to compromise Apple devices. These attacks are typically state-sponsored or carried out by highly resourced adversaries.
+The notification advises users to adopt additional safeguards to secure data on their devices. Recommended measures include updating the iPhone to the latest available version (iOS 26.6) and ensuring that all other Apple devices in use are upgraded to their respective latest software releases. Users should also update messaging and cloud applications to the most recent versions and enable Lockdown Mode for enhanced protection against spyware threats.
+Users are strongly urged to follow Apple's guidance and keep their devices updated. In addition, they are recommended to regularly consult CERT-In Vulnerability Notes and Advisories and apply the appropriate security patches to their devices to mitigate potential risks.
+Any user who has received such a notification and wishes to have their Apple devices examined or avail technical assistance is requested to contact CERT-In via email at:
+submitmobile@cert-in.org.in.
+Note: Do not make any changes to the phone (resetting, deleting applications, updating, restarting etc.) as these actions could tamper evidence.
+References
+Apple
+https://support.apple.com/en-us/102174
+CERT-In
+Authentication Bypass Vulnerability in Apple macOS
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0398
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0033
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0021
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0015
+Information Disclosure Vulnerability in Apple products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0210
+Multiple Vulnerabilities in Apple iOS and iPadOS
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0150
+Security Bypass Vulnerability in Apple products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0149
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0007
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2025-0054
+Remote Code Execution Vulnerability in Apple Product
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0329
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2025-0041
+Denial of Service Vulnerability in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0234
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2025-0031
+Out-of-Bounds Write Vulnerability in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0184
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0163
+Denial of Service (DoS) Vulnerability in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0094
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0085
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0071
+WebKit Vulnerability in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0044
+Security Bypass Vulnerability in Apple iOS and iPadOS
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2025-0019
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2025-0006
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2024-0058
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2024-0052
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2024-0046
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2024-0038
+Multiple Vulnerabilities in Apple VisionOS
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2024-0188
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2024-0027
+Remote Code Execution Vulnerability in Apple iTunes
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2024-0159
+Remote Code Execution Vulnerability in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2024-0100
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2024-0018
+Multiple Vulnerabilities in Apple Safari
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2024-0091
+Multiple Vulnerabilities in Apple iOS and iPadOS
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01VLCODE=CIVN-2024-0090
+Multiple Vulnerabilities in Apple Products
+https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02VLCODE=CIAD-2024-0007
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-14 05:46:03
