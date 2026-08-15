@@ -1,11 +1,83 @@
 [
   {
-    "id": "2299725",
+    "id": "2299805",
     "ministry": "Prime Minister's Office",
-    "title": "Prime Minister greets everyone on the occasion of Independence Day",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299725",
+    "title": "12 Years of Transformation: PM Modi Highlights India’s Progress in Independence Day Address",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299805",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-15T03:31:56.155417"
+    "scraped_at": "2026-08-15T09:17:54.792948"
+  },
+  {
+    "id": "2299801",
+    "ministry": "Prime Minister's Office",
+    "title": "PM announces AI skilling of 1 crore youth in one year",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299801",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:17:57.231188"
+  },
+  {
+    "id": "2299798",
+    "ministry": "Prime Minister's Office",
+    "title": "Prime Minister Shri Narendra Modi Gives Clarion Calls for India’s Next Leap Towards Viksit Bharat in 80th Independence Day Address",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299798",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:18:00.010817"
+  },
+  {
+    "id": "2299775",
+    "ministry": "Prime Minister's Office",
+    "title": "English rendering of Prime Minister Shri Narendra Modi's address from the ramparts of Red Fort on the occasion of 80th Independence Day",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299775",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:18:02.842449"
+  },
+  {
+    "id": "2299749",
+    "ministry": "Prime Minister's Office",
+    "title": "Prime Minister extends greetings on the start of the Parsi New Year",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299749",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:18:05.413575"
+  },
+  {
+    "id": "2299748",
+    "ministry": "Prime Minister's Office",
+    "title": "Prime Minister pays homage to Mahatma Gandhi at Rajghat",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299748",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:18:08.504468"
+  },
+  {
+    "id": "2299747",
+    "ministry": "Prime Minister's Office",
+    "title": "Prime Minister Narendra Modi pays tribute to Sri Aurobindo on his birth anniversary",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299747",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:18:12.743512"
+  },
+  {
+    "id": "2299822",
+    "ministry": "Ministry of Culture",
+    "title": "SURYAPATH TIRANGA Global Relay Goes Live, following the path of the Rising Sun",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299822",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:18:15.831576"
+  },
+  {
+    "id": "2299824",
+    "ministry": "Ministry of Home Affairs",
+    "title": "Prime Minister Shri Narendra Modi's address on the occasion of the 80th Independence Day, imbued with the resolve for Swadeshi, prosperity, and self-reliance, will prove to be a milestone in the journey towards becoming ...",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299824",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-15T09:18:18.585873"
   }
 ]
