@@ -1,11 +1,47 @@
 [
   {
-    "id": "2300084",
+    "id": "2300111",
     "ministry": "Prime Minister's Office",
-    "title": "Prime Minister pays homage to former Prime Minister, Shri Atal Bihari Vajpayee on his Punya Tithi",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300084",
+    "title": "Prime Minister pays homage to former Prime Minister, Shri Atal Bihari Vajpayee at Sadaiv Atal",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300111",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-16T03:40:40.930832"
+    "scraped_at": "2026-08-16T09:19:23.203659"
+  },
+  {
+    "id": "2300136",
+    "ministry": "Ministry of Civil Aviation",
+    "title": "Accidental Discharge of Licensed Weapon at Varanasi Airport",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300136",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T09:19:27.208743"
+  },
+  {
+    "id": "2300120",
+    "ministry": "Ministry of Electronics & IT",
+    "title": "NIELIT Launches CYBER KUSHTI 2026: National Cybersecurity & AI Hackathon scores judgment rather than detection speed",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300120",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T09:19:31.220043"
+  },
+  {
+    "id": "2300088",
+    "ministry": "Ministry of Environment, Forest and Climate Change",
+    "title": "India to Host BRICS Environment Working Group Meetings at Bharat Mandapam, New Delhi (17-18 August 2026)",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300088",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T09:19:35.241591"
+  },
+  {
+    "id": "2300102",
+    "ministry": "Ministry of Finance",
+    "title": "DRI uncovers large-scale illegal use of SAFTA agreement in areca imports",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300102",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T09:19:38.939278"
   }
 ]
