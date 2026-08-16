@@ -1,47 +1,83 @@
 [
   {
-    "id": "2300111",
-    "ministry": "Prime Minister's Office",
-    "title": "Prime Minister pays homage to former Prime Minister, Shri Atal Bihari Vajpayee at Sadaiv Atal",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300111",
+    "id": "2300158",
+    "ministry": "Vice President's Secretariat",
+    "title": "Vice President Shri C. P. Radhakrishnan graces 22nd Convocation of SRM Institute of Science and Technology, Chennai",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300158",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-16T09:19:23.203659"
+    "scraped_at": "2026-08-16T13:24:46.690745"
   },
   {
-    "id": "2300136",
-    "ministry": "Ministry of Civil Aviation",
-    "title": "Accidental Discharge of Licensed Weapon at Varanasi Airport",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300136",
+    "id": "2300155",
+    "ministry": "Ministry of Defence",
+    "title": "GENERAL DHIRAJ SETH, CHIEF OF THE ARMY STAFF EMBARKS ON AN OFFICIAL VISIT TO NEPAL",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300155",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-16T09:19:27.208743"
+    "scraped_at": "2026-08-16T13:24:49.544296"
   },
   {
-    "id": "2300120",
-    "ministry": "Ministry of Electronics & IT",
-    "title": "NIELIT Launches CYBER KUSHTI 2026: National Cybersecurity & AI Hackathon scores judgment rather than detection speed",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300120",
+    "id": "2300191",
+    "ministry": "Ministry of Home Affairs",
+    "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates and lays foundation stones for 944 development projects worth ₹5,755 crore, covering 15 districts of Rajasthan, in Chittorgarh",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300191",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-16T09:19:31.220043"
+    "scraped_at": "2026-08-16T13:24:52.126219"
   },
   {
-    "id": "2300088",
-    "ministry": "Ministry of Environment, Forest and Climate Change",
-    "title": "India to Host BRICS Environment Working Group Meetings at Bharat Mandapam, New Delhi (17-18 August 2026)",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300088",
+    "id": "2300175",
+    "ministry": "Ministry of Mines",
+    "title": "Ministry of Mines to Organise Roadshow on 8th Tranche of Critical and Strategic Mineral Block Auctions and NMEDT Workshop in Patna",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300175",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-16T09:19:35.241591"
+    "scraped_at": "2026-08-16T13:24:54.741786"
   },
   {
-    "id": "2300102",
-    "ministry": "Ministry of Finance",
-    "title": "DRI uncovers large-scale illegal use of SAFTA agreement in areca imports",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300102",
+    "id": "2300195",
+    "ministry": "Ministry of Personnel, Public Grievances & Pensions",
+    "title": "Dr. Jitendra Singh to confer National Anubhav Awards 2026 at Vigyan Bhawan",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300195",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-16T09:19:38.939278"
+    "scraped_at": "2026-08-16T13:24:57.723773"
+  },
+  {
+    "id": "2300189",
+    "ministry": "Ministry of Science & Technology",
+    "title": "Union Minister Dr. Jitendra Singh Emphasises early diagnosis, timely medical intervention and avoidance of unnecessary investigations as the basis of responsible patient care",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300189",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T13:25:00.547888"
+  },
+  {
+    "id": "2300188",
+    "ministry": "Ministry of Science & Technology",
+    "title": "Union Minister Dr Jitendra Singh Calls for Making Diabetes Prevention a National Priority, Says Rural India No Longer Untouched by Diabetes",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300188",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T13:25:03.872210"
+  },
+  {
+    "id": "2300194",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "title": "From Daily-Wage Struggle to a Sustainable Grocery Business: How SJY and PM-AJAY Support Helped Ruby Devi Build a Better Future",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300194",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T13:25:08.210181"
+  },
+  {
+    "id": "2300193",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "title": "From Financial Pressure to Global Research Exposure: How National Fellowship for Scheduled Caste Scheme Helped PRIYANGA G Pursue Her Ph.D.",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2300193",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-16T13:25:11.699798"
   }
 ]
