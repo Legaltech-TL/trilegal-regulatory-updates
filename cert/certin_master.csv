@@ -18016,3 +18016,170 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-15 04:47:25
+0ec5bdd4632b5d81,CERT-In Vulnerability Note  CIVN-2026-0412,"August 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0412,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0412
+Multiple Vulnerabilities in Adobe Products
+Original Issue Date:August    17, 2026
+Severity Rating: CRITICAL
+Software Affected
+Adobe ColdFusion 2025 versions prior to 2025.0.12
+Adobe ColdFusion 2023 versions prior to 2023.0.23
+Adobe Commerce 2.4.9 versions prior to 2.4.9-2026-aug
+Adobe Commerce 2.4.8 versions prior to 2.4.8-2026-aug
+Adobe Commerce 2.4.7 versions prior to 2.4.7-2026-aug
+Adobe Commerce 2.4.6 versions prior to 2.4.6-2026-aug
+Adobe Commerce 2.4.5 versions prior to 2.4.5-2026-aug
+Adobe Commerce 2.4.4 versions prior to 2.4.4-2026-aug
+Adobe Commerce B2B 1.5.3 versions prior to 1.5.3-2026-aug
+Adobe Commerce B2B 1.5.2 versions prior to 1.5.2-2026-aug
+Adobe Commerce B2B 1.4.2 versions prior to 1.4.2-2026-aug
+Adobe Commerce B2B 1.3.4 versions prior to 1.3.4-2026-aug
+Adobe Commerce B2B 1.3.3 versions prior to 1.3.3-2026-aug
+Magento Open Source 2.4.9 versions prior to 2.4.9-2026-aug
+Magento Open Source 2.4.8 versions prior to 2.4.8-2026-aug
+Magento Open Source 2.4.7 versions prior to 2.4.7-2026-aug
+Magento Open Source 2.4.6 versions prior to 2.4.6-2026-aug
+Adobe Lightroom Classic versions prior to 15.5
+Content Credentials Rust SDK c2pa-v0.90.5 versions prior to c2pa-v0.90.6
+C2PA Tool c2patool-v0.27.5 versions prior to c2patool-v0.27.6
+Content Credentials JS SDK @contentauth/
+c2pa-web@0.12.0
+versions prior to @contentauth/
+c2pa-web@0.12.1
+Adobe Campaign Classic ACC v7 versions prior to ACC v7 7.4.4 build 9400
+Overview
+Multiple Vulnerabilities have been reported in Adobe products which could be exploited by an attacker to execute arbitrary code, gain access to sensitive information, or can cause denial-of-service condition on the targeted system.
+Target Audience:
+Individuals and organizations using affected Adobe products.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, system compromise.
+Impact Assessment:
+Potential for data theft, remote code execution or service disruption.
+Description
+Multiple vulnerabilities exist in the affected products due to OS Command Injection, Eval Injection, Incorrect Authorization, Cross-site Scripting (XSS), Improper Input Validation, Use of Hard-coded Cryptographic Keys, Heap-based Buffer Overflow, Use of a Broken or Risky Cryptographic Algorithm, Path Traversal, Deserialization of Untrusted Data, Integer Overflow/Underflow, NULL Pointer Dereference, Uncontrolled Resource Consumption, Improper Certificate Validation, Server-Side Request Forgery (SSRF), and SQL Injection.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain access to sensitive information, or can cause denial-of-service condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned in the Adobe Security Bulletins:
+https://helpx.adobe.com/security/products/coldfusion/apsb26-90.html
+https://helpx.adobe.com/security/products/magento/apsb26-92.html
+https://helpx.adobe.com/security/products/lightroom/apsb26-94.html
+https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-111.html
+https://helpx.adobe.com/security/products/campaign/apsb26-123.html
+Vendor Information
+Adobe
+https://helpx.adobe.com/security.html
+References
+Adobe
+https://helpx.adobe.com/security/products/coldfusion/apsb26-90.html
+https://helpx.adobe.com/security/products/magento/apsb26-92.html
+https://helpx.adobe.com/security/products/lightroom/apsb26-94.html
+https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-111.html
+https://helpx.adobe.com/security/products/campaign/apsb26-123.html
+CVE Name
+CVE-2026-48273
+CVE-2026-71384
+CVE-2026-48362
+CVE-2026-71386
+CVE-2026-21273
+CVE-2026-71387
+CVE-2026-71385
+CVE-2026-34635
+CVE-2026-48440
+CVE-2026-21279
+CVE-2026-25652
+CVE-2026-48386
+CVE-2026-71383
+CVE-2026-48375
+CVE-2026-48376
+CVE-2026-48384
+CVE-2026-71362
+CVE-2026-48414
+CVE-2026-48413
+CVE-2026-48415
+CVE-2026-48416
+CVE-2026-48411
+CVE-2026-48412
+CVE-2026-48441
+CVE-2026-48397
+CVE-2026-47940
+CVE-2026-48404
+CVE-2026-48405
+CVE-2026-48406
+CVE-2026-48407
+CVE-2026-48408
+CVE-2026-48409
+CVE-2026-48410
+CVE-2026-48447
+CVE-2026-48439
+CVE-2026-48438
+CVE-2026-48442
+CVE-2026-48436
+CVE-2026-48387
+CVE-2026-48435
+CVE-2026-48445
+CVE-2026-48434
+CVE-2026-48444
+CVE-2026-48443
+CVE-2026-71389
+CVE-2026-48437
+CVE-2026-48446
+CVE-2026-47922
+CVE-2026-71390
+CVE-2026-71398
+CVE-2026-27302
+CVE-2026-48381
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-17 08:24:35
+ce01a8017c81ade1,CERT-In Vulnerability Note  CIVN-2026-0411,"August 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0411,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0411
+Remote Access SSL VPN Denial-of-Service Vulnerability in Cisco Product
+Original Issue Date:August    17, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco Secure Firewall Adaptive Security Appliance (ASA) Software
+Cisco Secure Firewall Threat Defense (FTD) Software
+Overview
+A Remote Access SSL VPN denial-of-service vulnerability has been reported in Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Software which could allow an unauthenticated remote attacker to cause the affected device to reload unexpectedly.
+Target Audience:
+All organizations and individuals using the affected versions of Cisco Secure Firewall ASA or FTD Software.
+Risk Assessment:
+High risk of unauthenticated remote Denial of Service (DoS) attacks.
+Impact Assessment
+:
+Potential for service disruption, including unexpected device reloads.
+Description
+Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Software are security platforms that provide firewall, VPN, and network security capabilities.
+A Remote Access SSL VPN denial-of-service vulnerability has been reported in Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Software due to insufficient error checking when processing HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to the Remote Access SSL VPN service on an affected device.
+Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to cause the affected device to reload unexpectedly, resulting in a denial-of-service condition.
+Solution
+Apply appropriate security updates as recommended by the vendor.
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF
+Vendor Information
+Cisco
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF
+CVE Name
+CVE-2026-20349
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-17 08:24:35
