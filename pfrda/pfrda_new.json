@@ -1,5 +1,14 @@
 {
-  "generated_at": "2026-08-17T09:40:33.457118",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-08-18T03:36:08.751687",
+  "count": 1,
+  "items": [
+    {
+      "id": "c85238146a379b99",
+      "title": "Pension Bulletin April-June 2026",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/145901/Pension_Bulletin_Final_Apr_June.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/18/2026"
+    }
+  ]
 }
