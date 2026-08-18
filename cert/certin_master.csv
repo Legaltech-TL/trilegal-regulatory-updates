@@ -18184,3 +18184,83 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-08-17 08:24:35
 f6b6731da0cd67f9,CERT-In Vulnerability Note  CIVN-2026-0413,"August 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0413,Latest Security Alert,,2026-08-18 04:52:01
+1bbbc72e1f8cddb8,CERT-In Advisory   CIAD-2026-0040,"August 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0040,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0040
+Multiple Vulnerabilities in SAP Products
+Original Issue Date: August    18, 2026
+Severity Rating: Critical
+Software Affected
+SAP Commerce Cloud (Data Hub Adapter)
+SAP Manufacturing Integration and Intelligence (MII)
+SAP NetWeaver and ABAP Platform
+SAP ABAP Developer Tools
+SAP BusinessObjects Business Intelligence Platform
+SAP Commerce Cloud
+SAP Business AI Platform (Approuter)
+SAPUI5
+SAP Social Intelligence
+SAP NetWeaver AS Java / Adobe Document Services
+SAPSPrint Service
+SAP FICA ODN Framework
+SAP S/4HANA
+SAP Advanced Planning and Optimization (Model Mix Planning)
+SAP Data Services Management Console
+SAP BusinessObjects Business Intelligence Platform (Admin Tools)
+Overview
+Multiple vulnerabilities have been reported in SAP products, which could allow an attacker to execute arbitrary code, escalate privileges, bypass authorization controls, access sensitive information, and compromise the integrity and availability of affected systems.
+Target Audience:
+All end-user organizations and individuals using the SAP Products.
+Risk Assessment:
+High risk of privilege escalation, spoofing, sensitive information disclosure.
+Impact Assessment:
+High impact on Confidentiality, Integrity and Availability of the affected systems.
+Description
+Multiple vulnerabilities have been reported in SAP products, details of which are provided below:
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/august-2026.html
+Vendor Information
+SAP
+https://www.sap.com/
+References
+https://support.sap.com/en/my-support/knowledge-base/security-notes-news/august-2026.html
+CVE Name
+CVE-2026-58231
+CVE-2026-44772
+CVE-2026-34265
+CVE-2026-44758
+CVE-2026-58243
+CVE-2026-42945
+CVE-2026-66763
+CVE-2026-44763
+CVE-2026-44765
+CVE-2026-44764
+CVE-2026-58230
+CVE-2026-58248
+CVE-2026-34480
+CVE-2026-5598
+CVE-2026-66779
+CVE-2026-66770
+CVE-2026-58235
+CVE-2026-66771
+CVE-2026-58236
+CVE-2026-40130
+CVE-2026-58247
+CVE-2026-66764
+CVE-2026-66772
+CVE-2026-58244
+CVE-2026-58241
+CVE-2026-58245
+CVE-2026-44762
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-18 11:22:01
