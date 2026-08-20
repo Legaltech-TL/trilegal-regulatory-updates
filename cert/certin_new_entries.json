@@ -1,3 +1,11 @@
 [
-
+  {
+    "id":"b6222b91ca262995",
+    "title":"CERT-In Advisory   CIAD-2026-0042",
+    "date":"August 20, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0042",
+    "category":"Latest Security Alert",
+    "content":"CERT-In Advisory  \n                                                                      CIAD-2026-0042\nA End of Mainstream for Windows Server 2022\nOriginal Issue Date:\u00a0August    20, 2026\nSoftware Affected\nWindows Server 2022\nDescription\nMicrosoft has announced that Windows Server 2022 is approaching the end of its mainstream support lifecycle. On October 13, 2026, Windows Server 2022 will reach the end of mainstream support. The October 2026 security update will be the last mainstream support update available for this version.\nUpon reaching the end of mainstream support, Windows Server 2022 will transition to extended support. This transition includes security updates at no additional cost, and the system will continue to receive monthly security updates through October 14, 2031.\nTo ensure environments remain fully supported under mainstream support, Microsoft recommends planning an upgrade to Windows Server 2025, which is the latest Long-Term Servicing Channel (LTSC) release.\nVendor Information\nMicrosoft\nhttp:\/\/learn.microsoft.com\/en-us\/windows\/release-health\/windows-message-center#4933\nhttps:\/\/learn.microsoft.com\/en-us\/lifecycle\/products\/windows-server-2022\nReferences\nMicrosoft\nhttp:\/\/learn.microsoft.com\/en-us\/windows\/release-health\/windows-message-center#4933\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
+    "scraped_at":"2026-08-20 11:22:04"
+  }
 ]

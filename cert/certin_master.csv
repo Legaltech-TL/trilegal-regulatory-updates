@@ -18450,3 +18450,32 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-20 04:52:42
+b6222b91ca262995,CERT-In Advisory   CIAD-2026-0042,"August 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0042,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0042
+A End of Mainstream for Windows Server 2022
+Original Issue Date: August    20, 2026
+Software Affected
+Windows Server 2022
+Description
+Microsoft has announced that Windows Server 2022 is approaching the end of its mainstream support lifecycle. On October 13, 2026, Windows Server 2022 will reach the end of mainstream support. The October 2026 security update will be the last mainstream support update available for this version.
+Upon reaching the end of mainstream support, Windows Server 2022 will transition to extended support. This transition includes security updates at no additional cost, and the system will continue to receive monthly security updates through October 14, 2031.
+To ensure environments remain fully supported under mainstream support, Microsoft recommends planning an upgrade to Windows Server 2025, which is the latest Long-Term Servicing Channel (LTSC) release.
+Vendor Information
+Microsoft
+http://learn.microsoft.com/en-us/windows/release-health/windows-message-center#4933
+https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2022
+References
+Microsoft
+http://learn.microsoft.com/en-us/windows/release-health/windows-message-center#4933
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-20 11:22:04
