@@ -18264,3 +18264,189 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-18 11:22:01
+4fe6473d8465f494,CERT-In Vulnerability Note  CIVN-2026-0415,"August 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0415,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0415
+Multiple Vulnerabilities in Wireshark
+Original Issue Date:August    19, 2026
+Severity Rating: HIGH
+Software Affected
+Wireshark versions 4.6.0 to 4.6.7,
+Wireshark versions 4.4.0 to 4.4.17
+Overview
+Multiple vulnerabilities have been reported in Wireshark that could allow an attacker to cause the application to crash, consume excessive system resources, disclose sensitive information, or potentially execute arbitrary code on the targeted system.
+Target Audience:
+All end-users organisations and individuals using Wireshark.
+Risk Assessment:
+High risk of service unavailability.
+Impact Assessment:
+Potential for sensitive data exposure, disruption of services.
+Description
+Wireshark is a network protocol analyzer used to capture and inspect data packets in real time for troubleshooting, analysis, and security purposes.
+These vulnerabilities have been reported in Wireshark due to various protocol dissectors crash, file parsers crash and the sharkd utility crash. An attacker could exploit these vulnerabilities by sending a specially crafted request.
+Successful exploitation of these vulnerabilities could allow an attacker to crash wireshark, consume excessive system resources, disclose sensitive information or potentially execute arbitrary code.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.wireshark.org/security/wnpa-sec-2026-91.html
+https://www.wireshark.org/security/wnpa-sec-2026-90.html
+https://www.wireshark.org/security/wnpa-sec-2026-89.html
+https://www.wireshark.org/security/wnpa-sec-2026-88.html
+https://www.wireshark.org/security/wnpa-sec-2026-87.html
+https://www.wireshark.org/security/wnpa-sec-2026-86.html
+https://www.wireshark.org/security/wnpa-sec-2026-85.html
+https://www.wireshark.org/security/wnpa-sec-2026-84.html
+https://www.wireshark.org/security/wnpa-sec-2026-83.html
+https://www.wireshark.org/security/wnpa-sec-2026-82.html
+https://www.wireshark.org/security/wnpa-sec-2026-81.html
+https://www.wireshark.org/security/wnpa-sec-2026-80.html
+https://www.wireshark.org/security/wnpa-sec-2026-79.html
+https://www.wireshark.org/security/wnpa-sec-2026-78.html
+https://www.wireshark.org/security/wnpa-sec-2026-77.html
+https://www.wireshark.org/security/wnpa-sec-2026-76.html
+https://www.wireshark.org/security/wnpa-sec-2026-75.html
+https://www.wireshark.org/security/wnpa-sec-2026-74.html
+https://www.wireshark.org/security/wnpa-sec-2026-73.html
+https://www.wireshark.org/security/wnpa-sec-2026-72.html
+https://www.wireshark.org/security/wnpa-sec-2026-71.html
+https://www.wireshark.org/security/wnpa-sec-2026-70.html
+https://www.wireshark.org/security/wnpa-sec-2026-69.html
+https://www.wireshark.org/security/wnpa-sec-2026-68.html
+https://www.wireshark.org/security/wnpa-sec-2026-67.html
+https://www.wireshark.org/security/wnpa-sec-2026-66.html
+https://www.wireshark.org/security/wnpa-sec-2026-65.html
+https://www.wireshark.org/security/wnpa-sec-2026-64.html
+Vendor Information
+Wireshark
+https://www.wireshark.org/security/wnpa-sec-2026-91.html
+https://www.wireshark.org/security/wnpa-sec-2026-90.html
+https://www.wireshark.org/security/wnpa-sec-2026-89.html
+https://www.wireshark.org/security/wnpa-sec-2026-88.html
+https://www.wireshark.org/security/wnpa-sec-2026-87.html
+https://www.wireshark.org/security/wnpa-sec-2026-86.html
+https://www.wireshark.org/security/wnpa-sec-2026-85.html
+https://www.wireshark.org/security/wnpa-sec-2026-84.html
+https://www.wireshark.org/security/wnpa-sec-2026-83.html
+https://www.wireshark.org/security/wnpa-sec-2026-82.html
+https://www.wireshark.org/security/wnpa-sec-2026-81.html
+https://www.wireshark.org/security/wnpa-sec-2026-80.html
+https://www.wireshark.org/security/wnpa-sec-2026-79.html
+https://www.wireshark.org/security/wnpa-sec-2026-78.html
+https://www.wireshark.org/security/wnpa-sec-2026-77.html
+https://www.wireshark.org/security/wnpa-sec-2026-76.html
+https://www.wireshark.org/security/wnpa-sec-2026-75.html
+https://www.wireshark.org/security/wnpa-sec-2026-74.html
+https://www.wireshark.org/security/wnpa-sec-2026-73.html
+https://www.wireshark.org/security/wnpa-sec-2026-72.html
+https://www.wireshark.org/security/wnpa-sec-2026-71.html
+https://www.wireshark.org/security/wnpa-sec-2026-70.html
+https://www.wireshark.org/security/wnpa-sec-2026-69.html
+https://www.wireshark.org/security/wnpa-sec-2026-68.html
+https://www.wireshark.org/security/wnpa-sec-2026-67.html
+https://www.wireshark.org/security/wnpa-sec-2026-66.html
+https://www.wireshark.org/security/wnpa-sec-2026-65.html
+https://www.wireshark.org/security/wnpa-sec-2026-64.html
+CVE Name
+CVE-2026-19694
+CVE-2026-19695
+CVE-2026-19696
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-20 04:52:42
+d5f8e838083ecdb0,CERT-In Vulnerability Note  CIVN-2026-0414,"August 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0414,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0414
+Arbitrary Code Execution in Forminator Forms plugin of WordPress
+Original Issue Date:August    19, 2026
+Severity Rating: CRITICAL
+Software Affected
+Forminator Forms plugin versions prior to 1.56.2
+Overview
+A vulnerability has been reported in Forminator Forms plugin of WordPress, which could allow a remote unauthenticated attacker to upload arbitrary files through a publicly accessible submission handler on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Forminator Forms plugin of WordPress.
+Risk Assessment:
+High risk of complete website compromise.
+Impact Assessment:
+Potential for remote code execution.
+Description
+WordPress is an open-source content management system (CMS) used to create, manage, and publish websites and web applications.
+A vulnerability has been reported in Forminator Forms plugin of WordPress due to insufficient file type validation in handle_file_upload function.
+Successful exploitation of this vulnerability could allow a remote unauthenticated attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/forminator/forminator-forms-1561-unauthenticated-arbitrary-file-upload-via-forged-upload-field-configuration
+Vendor Information
+Forminator Forms
+https://wordpress.org/plugins/forminator/
+References
+https://www.wordfence.com/blog/2026/08/600000-wordpress-sites-affected-by-arbitrary-file-upload-vulnerability-in-forminator-forms-wordpress-plugin/
+CVE Name
+CVE-2026-15748
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-20 04:52:42
+5cf4633a4f5d1fd7,CERT-In Advisory   CIAD-2026-0041,"August 19, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0041,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0041
+Multiple Vulnerabilities in Apple Products
+Original Issue Date: August    19, 2026
+Severity Rating: Critical
+Software Affected
+Apple iOS versions prior to 26.6.1
+Apple iPadOS versions prior to 26.6.1
+Apple iOS versions prior to 18.7.10
+Apple iPadOS versions prior to 18.7.10
+Apple macOS Tahoe versions prior to 26.6.2
+Overview
+Multiple vulnerabilities have been reported in Apple products which could allow an attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using the Apple iOS, ipadOS and macOS devices.
+Risk Assessment:
+Very High risk of extremely sophisticated attack or arbitrary code execution.
+Impact Assessment:
+Potential for sophisticated targeted attacks.
+Description
+Description:Multiple vulnerabilities exist in Apple products due to memory corruption, use-after-free, out-of-bounds read/write, buffer overflow, integer overflow, type confusion, authentication, authorization, permission, and logic issues across various Apple components, including CoreAudio, ImageIO, Kernel, WebKit, IOGPUFamily, AVEVideoEncoder, SceneKit, Model I/O, and other system frameworks.
+Successful exploitation of these vulnerabilities could enable targeted attacks, potentially allowing attackers to execute arbitrary code with elevated privileges, access sensitive information, compromise application or system security boundaries, or cause denial-of-service conditions on affected Apple devices.
+For complete list of affected products, CVEs, workarounds and solutions, refer to the Apple security updates.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.apple.com/en-us/148282
+https://support.apple.com/en-us/148287
+https://support.apple.com/en-us/148281
+https://support.apple.com/en-us/148286
+Vendor Information
+Apple
+https://www.apple.com/
+References
+https://support.apple.com/en-us/148282
+https://support.apple.com/en-us/148287
+https://support.apple.com/en-us/148281
+https://support.apple.com/en-us/148286
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-20 04:52:42
