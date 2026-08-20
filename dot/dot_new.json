@@ -1,22 +1,14 @@
 {
-  "generated_at": "2026-08-19T09:43:34.663170",
-  "count": 2,
+  "generated_at": "2026-08-20T06:28:53.089160",
+  "count": 1,
   "items": [
     {
-      "id": "1c7a5cff0fef2fc2",
-      "title": "7th BRICS ICT Working Group Meeting Continues in Pune with Strategic Focus on Digital Public Infrastructure and Digital Governance",
-      "publish_date": "08/18/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/39bcd066642685aac6db916d18e5e4b1.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "08/19/2026"
-    },
-    {
-      "id": "e51561e730429f9b",
-      "title": "Agreement Signed between Digital Bharat Nidhi (DBN) - Department of Telecommunications; Government of Chhattisgarh; CSBIL; BSNL & CHiPS for Implementation of Amended BharatNet Program in Chhattisgarh",
-      "publish_date": "08/18/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/9791e184a8aa6a99c5f1c59b5eb7aad9.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "08/19/2026"
+      "id": "0eadd4964a4933bc",
+      "title": "Order dated 14-08-2026 reg Transfer & Posting of officer in STS of ITS Gr A",
+      "publish_date": "08/14/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/2068c933f7425de6f5cc87527763ee91.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/20/2026"
     }
   ]
 }
