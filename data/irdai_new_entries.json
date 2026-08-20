@@ -1,80 +1,15 @@
 [
   {
-    "id": "9697862",
+    "id": "9743563",
     "category": "Regulations",
-    "short_description": "IRDAI (Manner and Procedure for imposing penalties) Regulations, 2026",
-    "reference_no": "IRDAI (Manner and Procedure for imposing penalties) Regulations, 2026",
+    "short_description": "Consolidated IRDAI (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) Regulations, 2024 incorporating amendments upto 30.07.2026",
+    "reference_no": "Consolidated IRDAI (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) Regulations, 2024 incorporating amendments upto 30.07.2026",
     "last_updated": "31-07-2026",
-    "detail_page": "https://irdai.gov.in/document-detail?documentId=9697862",
-    "pdf_link": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Manner+and+Procedure+for+imposing+penalties%29+Regulations%2C+2026.pdf/04bdaf52-bcdc-c7d3-ee78-f407401f62df?version=1.1&t=1785736374877&download=true",
-    "pdf_filename": "IRDAI (Manner and Procedure for imposing penalties) Regulations, 2026.pdf",
-    "file_size": "918 KB",
+    "detail_page": "https://irdai.gov.in/document-detail?documentId=9743563",
+    "pdf_link": "https://irdai.gov.in/documents/37343/366405/Consolidated+IRDAI+%28Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%29+Regulations%2C+2024+incorporating+amendments+upto+30.07.2026.pdf/6a83119a-42e3-5421-c6cb-cf14acbe57dc?version=1.1&t=1787140222095&download=true",
+    "pdf_filename": "Consolidated IRDAI (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) Regulations, 2024 incorporating amendments upto 30.07.2026.pdf",
+    "file_size": "718 KB",
     "source_page": "https://irdai.gov.in/consolidated-gazette-notified-regulations",
-    "scraped_at": "2026-08-03T08:46:47.878092+00:00"
-  },
-  {
-    "id": "9698497",
-    "category": "Regulations",
-    "short_description": "Insurance Regulatory and Development Authority of India (Policyholders’ Education and Protection Fund) Regulations, 2026",
-    "reference_no": "Insurance Regulatory and Development Authority of India (Policyholders’ Education and Protection Fund) Regulations, 2026",
-    "last_updated": "31-07-2026",
-    "detail_page": "https://irdai.gov.in/document-detail?documentId=9698497",
-    "pdf_link": "https://irdai.gov.in/documents/37343/366405/Insurance+Regulatory+and+Development+Authority+of+India+%28Policyholders%E2%80%99+Education+and+Protection+Fund%29+Regulations%2C+2026.pdf/c6663b2c-d6c7-01d8-7629-d0b5c81b718f?version=2.0&t=1785735947710&download=true",
-    "pdf_filename": "Insurance Regulatory and Development Authority of India (Policyholders’ Education and Protection Fund) Regulations, 2026.pdf",
-    "file_size": "3.8 MB",
-    "source_page": "https://irdai.gov.in/consolidated-gazette-notified-regulations",
-    "scraped_at": "2026-08-03T08:46:47.878485+00:00"
-  },
-  {
-    "id": "9697675",
-    "category": "Regulations",
-    "short_description": "IRDAI (Insurance Intermediaries) (Amendment) Regulations, 2026",
-    "reference_no": "IRDAI (Insurance Intermediaries) (Amendment) Regulations, 2026",
-    "last_updated": "31-07-2026",
-    "detail_page": "https://irdai.gov.in/document-detail?documentId=9697675",
-    "pdf_link": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Insurance+Intermediaries%29+%28Amendment%29+Regulations%2C+2026.pdf/4961106d-b7f4-c117-a302-4bf3ef9356c5?version=1.0&t=1785736027526&download=true",
-    "pdf_filename": "IRDAI (Insurance Intermediaries) (Amendment) Regulations, 2026.pdf",
-    "file_size": "3.2 MB",
-    "source_page": "https://irdai.gov.in/consolidated-gazette-notified-regulations",
-    "scraped_at": "2026-08-03T08:46:47.878655+00:00"
-  },
-  {
-    "id": "9703888",
-    "category": "Regulations",
-    "short_description": "IRDAI (Third Party Administrators – Health Services) (Amendment) Regulations, 2026",
-    "reference_no": "IRDAI (Third Party Administrators – Health Services) (Amendment) Regulations, 2026",
-    "last_updated": "31-07-2026",
-    "detail_page": "https://irdai.gov.in/document-detail?documentId=9703888",
-    "pdf_link": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Third+Party+Administrators+%E2%80%93+Health+Services%29+%28Amendment%29+Regulations%2C+2026.pdf/74ec2d16-6d9d-cb31-4780-2eb74169c58e?version=1.0&t=1785737695021&download=true",
-    "pdf_filename": "IRDAI (Third Party Administrators – Health Services) (Amendment) Regulations, 2026.pdf",
-    "file_size": "905 KB",
-    "source_page": "https://irdai.gov.in/consolidated-gazette-notified-regulations",
-    "scraped_at": "2026-08-03T08:46:47.878822+00:00"
-  },
-  {
-    "id": "9698013",
-    "category": "Regulations",
-    "short_description": "IRDAI (Insurance Surveyors and Loss Assessors) (Amendment) Regulations, 2026",
-    "reference_no": "IRDAI (Insurance Surveyors and Loss Assessors) (Amendment) Regulations, 2026",
-    "last_updated": "31-07-2026",
-    "detail_page": "https://irdai.gov.in/document-detail?documentId=9698013",
-    "pdf_link": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Insurance+Surveyors+and+Loss+Assessors%29+%28Amendment%29+Regulations%2C+2026.pdf/6cf83cf3-4686-11f3-d556-07b645a15603?version=2.1&t=1785738356968&download=true",
-    "pdf_filename": "IRDAI (Insurance Surveyors and Loss Assessors) (Amendment) Regulations, 2026.pdf",
-    "file_size": "4.1 MB",
-    "source_page": "https://irdai.gov.in/consolidated-gazette-notified-regulations",
-    "scraped_at": "2026-08-03T08:46:47.878990+00:00"
-  },
-  {
-    "id": "9696173",
-    "category": "Regulations",
-    "short_description": "IRDAI (Actuarial, Finance and Investment Functions of Insurers) (Second Amendment) Regulations, 2026",
-    "reference_no": "",
-    "last_updated": "31-07-2026",
-    "detail_page": "https://irdai.gov.in/document-detail?documentId=9696173",
-    "pdf_link": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Actuarial%2C+Finance+and+Investment+Functions+of+Insurers%29+%28Second+Amendment%29+Regulations%2C+2026.pdf/3e1a85b8-ee26-8405-bc6b-c97a6a3250aa?version=1.1&t=1785735756920&download=true",
-    "pdf_filename": "IRDAI (Actuarial, Finance and Investment Functions of Insurers) (Second Amendment) Regulations, 2026.pdf",
-    "file_size": "4 MB",
-    "source_page": "https://irdai.gov.in/consolidated-gazette-notified-regulations",
-    "scraped_at": "2026-08-03T08:46:47.879160+00:00"
+    "scraped_at": "2026-08-20T05:55:50.533119+00:00"
   }
 ]
