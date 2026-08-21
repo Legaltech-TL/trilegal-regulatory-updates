@@ -18479,3 +18479,45 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-20 11:22:04
+6defbe21607eb592,CERT-In Vulnerability Note  CIVN-2026-0416,"August 20, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0416,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0416
+Server-Side Request Forgery Vulnerability in MLflow
+Original Issue Date:August    20, 2026
+Severity Rating: CRITICAL
+Software Affected
+MLflow versions prior to 3.15.0
+Overview
+A vulnerability has been reported in MLflow that could allow an unauthenticated attacker to conduct Server-Side Request Forgery (SSRF) attacks and gain sensitive information on the targeted server.
+Target Audience:
+All organisations and individuals using affected MLflow.
+Risk Assessment:
+High risk of compromise of the cloud or enterprise environment.
+Impact Assessment:
+Potential for unauthorized access to internal services, exfiltrate sensitive metadata/credentials, and conduct internal reconnaissance.
+Description
+MLflow is an open-source platform designed to manage the machine learning lifecycle, providing capabilities for experiment tracking, model management, and deployment.
+A vulnerability exists in MLflow due to improper input validation of user-supplied URIs/URLs within the MLflow application. An attacker can exploit this by submitting a specially crafted URL that points to internal resources rather than legitimate external storage or endpoints.
+Successful exploitation of this vulnerability could allow an unauthenticated attacker to conduct Server-Side Request Forgery (SSRF) attacks and gain sensitive information on the targeted server
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://github.com/advisories/GHSA-7gwp-5pfp-969j
+Vendor Information
+MLflow
+https://mlflow.org/
+References
+https://github.com/advisories/GHSA-7gwp-5pfp-969j
+https://github.com/mlflow/mlflow/security/advisories/GHSA-7gwp-5pfp-969j
+CVE Name
+CVE-2026-64849
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-21 04:54:26
