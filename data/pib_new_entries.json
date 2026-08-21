@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "2301901",
+    "ministry": "Prime Minister's Office",
+    "title": "PM interacts with CEOs and Founders of Space Startups",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301901",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:13.079884"
+  },
+  {
+    "id": "2301820",
+    "ministry": "Prime Minister's Office",
+    "title": "Prime Minister shares Sanskrit Subhashitam highlighting the spirit of selfless service and dedication",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301820",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:16.133664"
+  },
+  {
+    "id": "2301829",
+    "ministry": "Ministry of Defence",
+    "title": "INDIAN ARMY’S TERRITORIAL ARMY LAUNCHES ‘TERRIER CYBER QUEST 2026’",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301829",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:19.074225"
+  },
+  {
+    "id": "2301883",
+    "ministry": "Ministry of Finance",
+    "title": "India and ADB sign $230 million loan to modernise water supply and sanitation in Chennai",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301883",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:22.953707"
+  },
+  {
+    "id": "2301875",
+    "ministry": "Ministry of Finance",
+    "title": "DGGI unearths clandestine pan masala and tobacco manufacturing network in Uttar Pradesh; 27 undeclared pouch-packing machines seized, evasion of about ₹185 crore detected",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301875",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:28.167139"
+  },
+  {
+    "id": "2301900",
+    "ministry": "Ministry of Science & Technology",
+    "title": "Union Minister Dr. Jitendra Singh delivers inaugural address at BRICS Science Ministerial Meet at Chennai",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301900",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:32.780239"
+  },
+  {
+    "id": "2301860",
+    "ministry": "Ministry of Youth Affairs and Sports",
+    "title": "BRICS Youth and Sports Ministers’ Meeting to take place in Visakhapatnam on August 22 & 23, 2026",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301860",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:36.777350"
+  },
+  {
+    "id": "2301814",
+    "ministry": "PIB Backgrounder",
+    "title": "Pradhan Mantri Annadata Aay Sanrakshan Abhiyan (PM-AASHA)",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301814",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-21T09:28:40.738071"
+  }
+]
