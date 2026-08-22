@@ -18521,3 +18521,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-21 04:54:26
+aeec496209ff76fa,CERT-In Vulnerability Note  CIVN-2026-0417,"August 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0417,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0417
+Out-of-Band Blind XML External Entity Injection Vulnerability in Cisco BroadWorks
+Original Issue Date:August    21, 2026
+Severity Rating: HIGH
+Software Affected
+BroadWorks Application Delivery Platform: Earlier than RI.2026.07
+BroadWorks Application Server: Earlier than RI.2026.07
+BroadWorks Profile Server: Earlier than RI.2026.07
+BroadWorks Xtended Services Platform: Earlier than RI.2026.07
+Overview
+A vulnerability has been reported in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks which could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.
+Target Audience:
+All organizations and individuals using Cisco BroadWorks.
+Risk Assessment:
+High risk of unauthorized disclosure of sensitive configuration information.
+Impact Assessment:
+Potential for an attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks user.
+Description
+Cisco BroadWorks is a platform that provides various telecommunications services through components such as the Application Delivery Platform, Application Server, Profile Server, and Xtended Services Platform.
+These vulnerabilities exist in the Open Client Interface (OCI) XML Parser due to improper parsing of XML entries, as external entity resolution is allowed by default.
+A successful exploit could allow an unauthenticated, remote attacker to send a crafted XML message to the Open Client Interface - Provisioning (OCI-P) service to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks user.
+Solution
+Apply appropriate updates as mentioned:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt#fs
+Vendor Information
+https://www.cisco.com/c/en/us/products/unified-communications/broadworks/index.html
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt#fs
+CVE Name
+CVE-2026-20320
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-22 04:49:07
