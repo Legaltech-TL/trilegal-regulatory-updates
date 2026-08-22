@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:34:10.414061",
-  "count": 2,
-  "items": [
-    {
-      "id": "817205e48b6b2a9b",
-      "title": "FINAL ORDER - IN THE...",
-      "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/145099/Final+Order+Alankit_sd_Copy+21.08.2026.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "08/22/2026"
-    },
-    {
-      "id": "31ee0667234f6e35",
-      "title": "FINAL ORDER - IN THE MATTER OF ALANKIT ASSIGNMENTS LTD. & ORS.\nIssue Date: 21-08-2026",
-      "publish_date": "08/21/2026",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/145099/Final+Order+Alankit_sd_Copy+21.08.2026.pdf",
-      "category": "ENFORCEMENT_ORDER",
-      "scraped_at": "08/22/2026"
-    }
-  ]
+  "generated_at": "2026-08-22T06:44:12.984060",
+  "count": 0,
+  "items": []
 }
