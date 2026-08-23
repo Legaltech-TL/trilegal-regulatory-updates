@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "2302434",
+    "ministry": "Prime Minister's Office",
+    "title": "English rendering of PM’s interaction with Space Startup CEOs",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302434",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-23T09:19:50.373361"
+  },
+  {
+    "id": "2302430",
+    "ministry": "Prime Minister's Office",
+    "title": "Prime Minister extends greetings on National Space Day",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302430",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-23T09:19:53.985991"
+  },
+  {
+    "id": "2302445",
+    "ministry": "Ministry of Commerce & Industry",
+    "title": "Commerce and Industry Minister Shri Piyush Goyal Leads A 200-Member Business Delegation to Japan",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302445",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-23T09:19:58.638515"
+  },
+  {
+    "id": "2302441",
+    "ministry": "Ministry of Defence",
+    "title": "LOKAYAN 2026 – INS SUDARSHINI ARRIVES IN LISBON, PORTUGAL",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302441",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-23T09:20:04.628387"
+  },
+  {
+    "id": "2302428",
+    "ministry": "PIB Backgrounder",
+    "title": "Rebuilding Farming Systems: Regenerative Agriculture for a Resilient India",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302428",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-23T09:20:09.378669"
+  }
+]
