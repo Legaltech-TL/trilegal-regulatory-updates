@@ -1,14 +1,14 @@
 [
   {
-    "id": "f8faa4e8914d0deaf98c6585f7eeb3222f01dc55",
+    "id": "26c5dabd26af7de4fbadcf38e6b126b5e0f2a714",
     "date": "Aug 24, 2026",
-    "title": "IT Resilience Index for Market Infrastructure Institutions (MIIs)",
-    "link": "https://www.sebi.gov.in/legal/circulars/aug-2026/it-resilience-index-for-market-infrastructure-institutions-miis-_103913.html",
+    "title": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
+    "link": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
     "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
-    "pdf_filename": "Circular_IT Resilience Index for Market Infrastructure Institutions (MIIs).pdf",
+    "pdf_filename": "Circular_Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format.pdf",
     "pdf_downloaded": "no",
-    "created_at": "2026-08-24T11:04:23.904958Z",
-    "source_commit": "01a2c51582f9e877e77217213bf2f36faf30a8fb",
+    "created_at": "2026-08-24T15:12:02.100512Z",
+    "source_commit": "f2e70a1ad1c5eceb4f429725d1aa042cb4241272",
     "category": "Circular",
     "error": ""
   }
