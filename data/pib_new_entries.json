@@ -1,11 +1,128 @@
 [
   {
-    "id": "2302573",
-    "ministry": "Prime Minister's Office",
-    "title": "Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and contentment",
-    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302573",
+    "id": "2302659",
+    "ministry": "Vice President's Secretariat",
+    "title": "Vice-President launches India’s first non-GMO high-expansion popcorn maize hybrid seed in Andhra Pradesh",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302659",
     "date": null,
     "content": "",
-    "scraped_at": "2026-08-24T03:46:39.235001"
+    "scraped_at": "2026-08-24T09:37:52.320461"
+  },
+  {
+    "id": "2302658",
+    "ministry": "AYUSH",
+    "title": "AIIA Launches “GARBHINI MITRA” Course to Strengthen Ayurveda-Based Maternal Wellness Support",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302658",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:37:55.524860"
+  },
+  {
+    "id": "2302594",
+    "ministry": "Ministry of Coal",
+    "title": "NA-Allocated Talabira II & III Coal Mines Mark Record Production in FY 2025-26",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302594",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:37:57.226256"
+  },
+  {
+    "id": "2302626",
+    "ministry": "Ministry of Commerce & Industry",
+    "title": "Minister of State for Commerce and Industry and Electronics & Information Technology Shri Jitin Prasada on Official Visit to Morocco",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302626",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:37:58.917154"
+  },
+  {
+    "id": "2302610",
+    "ministry": "Ministry of Commerce & Industry",
+    "title": "PROVISIONAL ESTIMATES OF SERVICE PRODUCER PRICE INDICES (BASE YEAR 2022-23) FOR Q1 OF FY 2026-27 AND FINAL INDICES FOR Q4 OF FY 2025-26",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302610",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:00.619055"
+  },
+  {
+    "id": "2302611",
+    "ministry": "Ministry of Electronics & IT",
+    "title": "GENESIS Entrepreneur-in-Residence (EIR) Cohort-3 Launched at GENESIS NextGen Startup Summit - Coimbatore Edition",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302611",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:02.423097"
+  },
+  {
+    "id": "2302676",
+    "ministry": "Ministry of Environment, Forest and Climate Change",
+    "title": "India restored 21.76 mn ha Land during 2011–2020, generating 1.22 bn person-days of Employment: Shri Bhupender Yadav at UNCCD COP17 in Ulaanbaatar, Mongolia",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302676",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:05.555117"
+  },
+  {
+    "id": "2302615",
+    "ministry": "Ministry of Environment, Forest and Climate Change",
+    "title": "India calls for Diversified, Adequate, Predictable and Sustained International Finance for Land Restoration and Drought Resilience at UNCCD CoP17, at Ulaanbaatar, Mongolia",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302615",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:07.293519"
+  },
+  {
+    "id": "2302657",
+    "ministry": "Ministry of Finance",
+    "title": "UPI Completes 10 Years of Digital Payments Revolution- Globally Recognised as World’s Largest Real‑Time Payment System",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302657",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:08.987507"
+  },
+  {
+    "id": "2302577",
+    "ministry": "Ministry of Finance",
+    "title": "CBN busts inter-state heroin syndicate in ‘Op Black Hawk’; seizes over 18.6 kg crude heroin",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302577",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:10.695529"
+  },
+  {
+    "id": "2302665",
+    "ministry": "Ministry of Health and Family Welfare",
+    "title": "Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Rules, 2017 to Promote Ease of Doing Business",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302665",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:18.098062"
+  },
+  {
+    "id": "2302631",
+    "ministry": "Ministry of Parliamentary Affairs",
+    "title": "Prize Distribution Function of the 58th Youth Parliament Competition, 2025-26 for schools under the Directorate of Education, Government of NCT of Delhi, and the Department of Education, NDMC",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302631",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:20.731150"
+  },
+  {
+    "id": "2302601",
+    "ministry": "Ministry of Railways",
+    "title": "Indian Railways Launches a Special Drive for Cleaning and Disinfection of Drinking Water Tanks and Filters",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302601",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:23.428975"
+  },
+  {
+    "id": "2302664",
+    "ministry": "PIB Backgrounder",
+    "title": "UPI: Transforming India's Payment Landscape",
+    "detail_page": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2302664",
+    "date": null,
+    "content": "",
+    "scraped_at": "2026-08-24T09:38:25.641294"
   }
 ]
