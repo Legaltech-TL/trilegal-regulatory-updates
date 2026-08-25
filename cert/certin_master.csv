@@ -18715,3 +18715,52 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-24 08:25:29
+e31511dab8ea9e2c,CERT-In Vulnerability Note  CIVN-2026-0420,"August 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0420,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0420
+Multiple vulnerabilities in Google Chrome for Desktop
+Original Issue Date:August    24, 2026
+Severity Rating: CRITICAL
+Software Affected
+Google Chrome versions prior to 151.0.7922.173/.174 for Windows and Mac
+Google Chrome versions prior to 151.0.7922.173 for Linux
+Overview
+Multiple vulnerabilities have been reported in Google Chrome, which could allow a remote attacker to execute arbitrary code, elevate privileges, bypass security restrictions, or cause Denial of Service (DoS) condition on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected Google Chrome for Desktop.
+Risk Assessment:
+Potential for unauthorized access to data, remote code execution, disruption of services.
+Impact Assessment:
+High risk of system compromise, data theft, service disruption.
+Description
+Google Chrome is a popular internet browser that is used for accessing the information available on the World Wide Web. It is designed for use on desktop computers, such as those running on Windows, macOS, or Linux operating systems.
+These vulnerabilities exist in Google Chrome due to use after free in Chromoting, privilege elevation in Import, incorrect authorization in Workers, race condition in V8, use after free in DOM, buffer overflow in Network, and improper resource control in Linux Toolkit Theming. A remote attacker could exploit these vulnerabilities by persuading a victim to visit a specially crafted webpage.
+Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, elevate privileges, bypass security restrictions, or cause Denial of Service (DoS) condition on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor.
+https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0404570826.html
+Vendor Information
+Google Chrome
+https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0404570826.html
+References
+Google Chrome
+https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0404570826.html
+CVE Name
+CVE-2026-76017
+CVE-2026-76018
+CVE-2026-76019
+CVE-2026-76020
+CVE-2026-76021
+CVE-2026-76022
+CVE-2026-76023
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-25 04:53:52
