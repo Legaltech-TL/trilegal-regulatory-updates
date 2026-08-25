@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-08-25T03:59:01.820228",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-08-25T09:47:51.975578",
+  "count": 3,
+  "items": [
+    {
+      "id": "cf352ba999ca45d0",
+      "title": "Taken on Strength in respect of officer of ITS Gr. A - Shri Atul Kumar Singh, Staff no. 20962",
+      "publish_date": "08/19/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/57811f0906cda6d32af2ca08613fe465.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/25/2026"
+    },
+    {
+      "id": "a496dbb02c8eda87",
+      "title": "Union Minister of Communications, Sh. Jyotiraditya M. Scindia Leads 12th BRICS Communications Ministers Meeting in Pune, Emphasizes Sustainable ICT Infrastructure and Digital Inclusivity",
+      "publish_date": "08/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/c2514f2a5b148cb7b58f7c998dd44d33.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "08/25/2026"
+    },
+    {
+      "id": "27d3957d0c533fec",
+      "title": "India and Brazil sign Memorandum of Understanding (MoU) to Strengthen Bilateral Cooperation in Telecommunications and ICTs",
+      "publish_date": "08/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/d72ccebffd1da07749d9b18b07381672.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "08/25/2026"
+    }
+  ]
 }
