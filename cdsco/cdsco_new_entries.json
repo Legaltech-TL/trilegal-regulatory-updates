@@ -1,3 +1,42 @@
 [
-
+  {
+    "id":"ed4f3dd11930cb3d",
+    "category":"gazette_notifications",
+    "sno":"1",
+    "title":"2026.08.19 G.S.R 745(E)_Draft notification for inclusion of additional four drugs in Schedule H1",
+    "date":"2026-Aug-19",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2NTc=",
+    "filename":"20260819_GSR_745EDraft_notification_for_inclusion_of",
+    "scraped_time":"2026-08-25T07:55:05.061623"
+  },
+  {
+    "id":"5905cbef4994ca1b",
+    "category":"gazette_notifications",
+    "sno":"2",
+    "title":"2026.08.18 S.O. 4595(E)_Prohibition of all formulations of FDC containing Chlorpheniramine Maleate and Phenylephrine HCl in children below four years of age",
+    "date":"2026-Aug-18",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2NTY=",
+    "filename":"20260818_SO_4595EProhibition_of_all_formulations_of",
+    "scraped_time":"2026-08-25T07:55:05.061623"
+  },
+  {
+    "id":"f2ea73fac1991b1e",
+    "category":"gazette_notifications",
+    "sno":"3",
+    "title":"2026.08.14 G.S.R. 744(E)_Amendment in MD Rules, 2017 for inclusion of EU countries in Rule 63 & QMS requirements for Class A NSNM",
+    "date":"2026-Aug-14",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2NTU=",
+    "filename":"20260814_GSR_744EAmendment_in_MD_Rules_2017",
+    "scraped_time":"2026-08-25T07:55:05.061623"
+  },
+  {
+    "id":"2330eaddcd52b49c",
+    "category":"gazette_notifications",
+    "sno":"4",
+    "title":"2026.08.14 G.S.R. 743(E)_Amendment in MD Rules, 2017 for introduction of Ninth Schedule and labelling requirements for sterilization activities",
+    "date":"2026-Aug-14",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2NTQ=",
+    "filename":"20260814_GSR_743EAmendment_in_MD_Rules_2017",
+    "scraped_time":"2026-08-25T07:55:05.061623"
+  }
 ]
