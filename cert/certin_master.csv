@@ -18916,3 +18916,92 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-26 04:55:33
+d8cce8f3a6de02b4,CERT-In Vulnerability Note  CIVN-2026-0427,"August 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0427,Latest Security Alert,,2026-08-27 15:15:24
+b2e9c2fd5ccbc575,CERT-In Vulnerability Note  CIVN-2026-0426,"August 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0426,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0426
+Remote Code Execution Vulnerability in Gitea
+Original Issue Date:August    27, 2026
+Severity Rating: CRITICAL
+Software Affected
+Gitea versions from 1.17 to 1.27.0
+Overview
+A critical vulnerability has been reported in Gitea which may allow an attacker to execute remote code on the targeted system.
+Target Audience:
+All organizations and individuals using Gitea.
+Risk Assessment:
+Critical risks of unauthorized access to source code and repositories.
+Impact Assessment:
+Potential for sensitive information disclosure, unauthorized modification of repositories, credential compromise, and complete system/server compromise.
+Description
+Gitea is an open-source, self-hosted Git repository management platform, similar to GitHub or GitLab. It provides code hosting, pull requests, issue tracking, and access management.
+This vulnerability exists in the Giteas diffpatch endpoint and can be exploited to install and execute a Git hook from repository-controlled content.
+Successful exploitation of this vulnerability could allow an attacker with repository write access to a repository to execute arbitrary shell commands as the Gitea service account.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://github.com/go-gitea/gitea/security/advisories/GHSA-rcr6-4jqh-j84m
+Vendor Information
+Gitea
+https://gitea.com/
+References
+Github
+https://github.com/go-gitea/gitea/security/advisories/GHSA-rcr6-4jqh-j84m
+CVE Name
+CVE-2026-60004
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-27 15:15:24
+7d0b1649dac45bf2,CERT-In Vulnerability Note  CIVN-2026-0425,"August 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0425,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0425
+Multiple vulnerabilities in NetScaler ADC and NetScaler Gateway
+Original Issue Date:August    27, 2026
+Severity Rating: CRITICAL
+Software Affected
+NetScaler ADC and NetScaler Gateway 14.1 before 14.1-73.32
+NetScaler ADC and NetScaler Gateway 13.1 before 13.1-63.21
+NetScaler ADC FIPS before 14.1-73.32 FIPS
+NetScaler ADC FIPS and NDcPP before 13.1-37.277
+Overview
+Multiple vulnerabilities have been reported in NetScaler ADC and NetScaler Gateway, which could allow an attacker to cause denial of service, bypass authentication and gain unauthorized access to the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected versions of NetScaler ADC and NetScaler Gateway.
+Risk Assessment:
+High risk of denial of service and authentication bypass.
+Impact Assessment:
+Potential for denial of service, authentication bypass, unauthorized access, and compromise of affected systems.
+Description
+NetScaler ADC is a network appliance used for application delivery and security, while NetScaler Gateway provides secure remote access to enterprise resources.
+Multiple vulnerabilities have been reported in NetScaler ADC and NetScaler Gateway due to a memory overflow vulnerability associated with SIP ALG enabled on a Large Scale NAT (LSN) group and an authentication bypass vulnerability using an alternate authentication path in appliance configured as Gateway/AAA virtual server.
+Successful exploitation of these vulnerabilities could allow an attacker to cause denial of service, bypass authentication and gain unauthorized access to the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696939
+Vendor Information
+NetScaler
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696939
+References
+https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696939
+CVE Name
+CVE-2026-19489
+CVE-2026-19490
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-27 15:15:24
+5df19d3592210ae8,"CERT-IN PARTICIPATED IN APCERT CYBER DRILL 2026 ON ""INCIDENT RESPONSE: RMM-RELATED COMPROMISE"" 26th August 2026","CertIn August 27, 2026",https://www.cert-in.org.in/PDF/APCERT_Drill_2026_Press_Release.pdf,ITNews,,2026-08-27 15:15:24
