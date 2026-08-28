@@ -19005,3 +19005,99 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-08-27 15:15:24
 5df19d3592210ae8,"CERT-IN PARTICIPATED IN APCERT CYBER DRILL 2026 ON ""INCIDENT RESPONSE: RMM-RELATED COMPROMISE"" 26th August 2026","CertIn August 27, 2026",https://www.cert-in.org.in/PDF/APCERT_Drill_2026_Press_Release.pdf,ITNews,,2026-08-27 15:15:24
+53f114a359195dd4,CERT-In Vulnerability Note  CIVN-2026-0428,"August 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0428,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0428
+Hardcoded Credentials Vulnerability in CP Plus Router
+Original Issue Date:August    28, 2026
+Severity Rating: HIGH
+Systems Affected
+CP Plus CP-XR-DE21-S Router - firmware version 1.057.043_0027 or below
+Overview
+A vulnerability has been reported in CP Plus Router, which could allow an attacker on the local network to gain unauthorized administrative access to the targeted device.
+Target Audience:
+End-users/ Administrators of CP Plus CP-XR-DE21-S Router.
+Risk Assessment:
+Unauthorized administrative access to the targeted device.
+Impact Assessment:
+Gain full administrative control of the targeted device.
+Description
+The CP Plus CP-XR-DE21-S is a 4G LTE router designed for high-speed internet connectivity, suitable for home and small-office use.
+This vulnerability exists in the CP Plus Router due to the presence of hardcoded HTTP Digest authentication credentials in the firmware that are identical across all devices running the affected firmware. An attacker with access to the local network could exploit this vulnerability by obtaining the hardcoded authentication information from the firmware.
+Successful exploitation of this vulnerability could allow the attacker to gain unauthorized administrative access and perform privileged operations on the targeted device.
+Credit
+This vulnerability is reported by Stalin S, Harini M, Rohit Surya A T and Reginald Alfret V.
+Solution
+Upgrade CP Plus CP-XR-DE21-S Router to patched firmware version 1.057.043_0034
+https://cpplusworld.com/prodassets/firmware/02a50613-6182-41dc-8b7f-cd58f1e6cba5.bin
+Vendor Information
+CP-Plus
+https://cpplusworld.com/prodassets/firmware/02a50613-6182-41dc-8b7f-cd58f1e6cba5.bin
+References
+CP-Plus
+https://cpplusworld.com/prodassets/firmware/02a50613-6182-41dc-8b7f-cd58f1e6cba5.bin
+CVE Name
+CVE-2026-19412
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-28 16:38:36
+4d9a71a4a1e3888f,CERT-In Advisory   CIAD-2026-0043,"August 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0043,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0043
+Multiple Vulnerabilities in Oracle Products
+Original Issue Date: August    28, 2026
+Severity Rating: High
+Software Affected
+Oracle MySQL
+Oracle Access Manager
+Oracle Supply Chain Products
+Oracle Analytics
+Oracle Commerce
+Oracle Communications
+Oracle Database Server
+Oracle E-Business Suite
+Oracle Enterprise Manager
+Oracle Financial Services Applications
+For complete list of affected products and versions refer to the Oracle advisory:
+https://www.oracle.com/security-alerts/cspuaug2026.html
+Overview
+Multiple vulnerabilities have been reported in various Oracle products which could be exploited by a remote attacker to gain unauthorized access, execute arbitrary code, disclose sensitive information, manipulate data, bypass security controls, or cause denial-of-service conditions on the targeted system.
+Target Audience:
+Organizations and IT administrators using Oracle Corporation products.
+Risk Assessment:
+Risk of remote code execution, unauthorized access, sensitive information disclosure, data manipulation, or denial-of-service conditions.
+Impact Assessment:
+Potential unauthorized access to sensitive information, data manipulation, and security control bypass, and disruption of affected systems.
+Description
+Oracle products are used for several applications including enterprise-level data management, cloud solutions, software development, communications, financial services, hospitality, retail, and business applications. They are employed across a wide range of sectors, including finance, healthcare, manufacturing, government, and retail, among others.
+These vulnerabilities exist in various components of Oracle products due to weaknesses affecting different product functionalities and third-party components. Several of the vulnerabilities may be exploited remotely without authentication over a network without requiring valid user credentials.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, execute arbitrary code, access sensitive information, manipulate data, bypass security controls, or cause denial-of-service conditions on the targeted system.
+For complete list of affected products and versions refer to the Oracle advisory:
+https://www.oracle.com/security-alerts/cspuaug2026.html
+Solution
+Apply appropriate updates as mentioned by the Vendor:
+https://www.oracle.com/security-alerts/cspuaug2026.html
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/
+References
+https://www.oracle.com/security-alerts/cspuaug2026.html
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-28 16:38:36
