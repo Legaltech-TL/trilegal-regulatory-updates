@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-08-27T19:45:51.036866",
-  "count": 1,
+  "generated_at": "2026-08-28T15:04:23.683584",
+  "count": 3,
   "items": [
     {
-      "id": "c805e6738a95e928",
-      "title": "Blocking Notifications/instructions to Internet Service Licensees under court orders (July - Sept 2026)",
+      "id": "8176b18526c978d3",
+      "title": "Union Minister of Communications Shri Jyotiraditya M. Scindia Hails Sanchar Saathi\u2019s Record Recovery of Over 75,000 Lost and Stolen Mobile Handsets in a Single Month Across India",
+      "publish_date": "08/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/506571bfaaa7c27068d05d921ed3513a.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "08/28/2026"
+    },
+    {
+      "id": "87264de89bd2f262",
+      "title": "DoT and C-DOT Sign Agreement to Establish End-to-End Optical Network Testbed for Indigenous Optical Communication Technologies",
+      "publish_date": "08/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/770d99d8ea56c082a15f012b1b020cd2.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "08/28/2026"
+    },
+    {
+      "id": "fab59d3bca189c41",
+      "title": "Union Minister of Communications and Development of North Eastern Region Shri Jyotiraditya M. Scindia Graces the 43rd Foundation Day Celebrations of C-DOT along with Minister of State for Communications and Rural Development Dr. Chandra Sekhar Pemmasani",
       "publish_date": "08/25/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/blocking-notifications-instructions-to-internet-service-licensees-under-court-orders-july-sept-2026-cTO2UzNtQWa?pageTitle=Blocking-Notifications/instructions-to-Internet-Service-Licensees-under-court-orders-(July-Sept-2026)",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "08/27/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/55ba6aef029671912cecf606e77979e9.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "08/28/2026"
     }
   ]
 }
