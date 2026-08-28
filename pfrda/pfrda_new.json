@@ -1,5 +1,54 @@
 {
-  "generated_at": "2026-08-27T19:28:00.230182",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-08-28T14:40:43.289567",
+  "count": 6,
+  "items": [
+    {
+      "id": "6806a685cb133f27",
+      "title": "Standardised framework for classification and...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154008/Standardised+framework+for+classification+and+presentation+of+Schemes+under+the+NPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/28/2026"
+    },
+    {
+      "id": "a026a210bf7da7e8",
+      "title": "Operationalising the framework for classification...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154008/Operationalising+the+framework+for+classification+and+presentation+of+Schemes+under+the+NPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/28/2026"
+    },
+    {
+      "id": "41ccd88fe230dbd3",
+      "title": "Charge structure applicable to PoPs...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Charge+structure+applicable+to+PoPs+for+All+Schemes+under+NPS+and+NPS+Lite.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/28/2026"
+    },
+    {
+      "id": "c525e40e3bbea84b",
+      "title": "Standardised framework for classification and presentation of Schemes under the NPS\nPension Fund\nRef: PFRDA/2026/47/REG-PF/10\nIssue Date: 28-08-2026",
+      "publish_date": "08/28/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154008/Standardised+framework+for+classification+and+presentation+of+Schemes+under+the+NPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/28/2026"
+    },
+    {
+      "id": "fd96584b8af73b65",
+      "title": "Operationalising the framework for classification and presentation of Schemes under the NPS\nPension Fund\nRef: PFRDA/2026/48/REG-PF/11\nIssue Date: 28-08-2026",
+      "publish_date": "08/28/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154008/Operationalising+the+framework+for+classification+and+presentation+of+Schemes+under+the+NPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/28/2026"
+    },
+    {
+      "id": "bd70e55576230986",
+      "title": "Charge structure applicable to PoPs for All Schemes under NPS and NPS Lite\nPoint of Presence\nRef: PFRDA/2026/46/REG-POP/08\nIssue Date: 28-08-2026",
+      "publish_date": "08/28/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Charge+structure+applicable+to+PoPs+for+All+Schemes+under+NPS+and+NPS+Lite.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "08/28/2026"
+    }
+  ]
 }
