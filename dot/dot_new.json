@@ -1,5 +1,46 @@
 {
-  "generated_at": "2026-08-30T08:48:34.808465",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-08-31T16:52:31.524956",
+  "count": 5,
+  "items": [
+    {
+      "id": "cc5d107f80acde25",
+      "title": "Allocation of Post to the candidates recommended by UPSC for Engineering Services Examination (ESE)-2025",
+      "publish_date": "08/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/dff9b3ffc955e08a1049ec666b0de336.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/31/2026"
+    },
+    {
+      "id": "18c87874e29cb4f6",
+      "title": "Retirement of officers of ITS Group \u2018A\u2019 on attaining the age of Superannuation as on 31-08-2026",
+      "publish_date": "08/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/de7050231617076f01bf2129346653b2.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/31/2026"
+    },
+    {
+      "id": "8a63c48925d69257",
+      "title": "Retirement of Shri Anand Khare ITS Group \u2018A\u2019 officer on attaining the age of Superannuation as on 31-08-2026",
+      "publish_date": "08/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/1f25f6923d85b71f75c949c67c386768.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/31/2026"
+    },
+    {
+      "id": "cec7e2f2e8fd950a",
+      "title": "Retirement of Shri Anil N Dhanorkar ITS Group \u2018A\u2019 officer on attaining the age of Superannuation as on 31-08-2026",
+      "publish_date": "08/31/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/228eebc7167edbb317647f7eab696e90.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/31/2026"
+    },
+    {
+      "id": "9b53b9230ff6eddc",
+      "title": "Additional charge of the post of Director General (Telecom)",
+      "publish_date": "08/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/6b2780d9c19c95b70b4cfd3e5809b644.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "08/31/2026"
+    }
+  ]
 }
