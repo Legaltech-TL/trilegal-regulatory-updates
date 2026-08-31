@@ -19101,3 +19101,50 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-28 16:38:36
+389dbdfe88e844f4,CERT-In Vulnerability Note  CIVN-2026-0429,"August 31, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0429,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0429
+Multiple vulnerabilities in Cisco Crosswork
+Original Issue Date:August    31, 2026
+Severity Rating: CRITICAL
+Software Affected
+Cisco Crosswork Data Gateway version 7.2.1 and earlier
+Cisco Crosswork Network Controller version 7.2.1 and earlier
+Cisco Crosswork Planning version 7.2.1 and earlier
+Cisco Crosswork Workflow Manager version 2.1.1 and earlier
+Overview
+Multiple vulnerabilities have been reported in Cisco Crosswork products that could allow a remote attacker to execute unauthorized SQL queries, bypass authentication, manipulate file paths, or access inadequately protected credentials on an affected system.
+Target Audience:
+IT administrators and individuals responsible for maintaining and updating Cisco Crosswork products.
+Risk Assessment:
+Critical risk of unauthorized access, information disclosure or modification, compromise of system resources, and disruption of affected network management services.
+Impact Assessment:
+Potential for unauthorized access, sensitive information disclosure or modification, file manipulation, credential compromise, and disruption of affected systems and services.
+Description
+Cisco Crosswork Data Gateway, Crosswork Network Controller, Crosswork Planning and Crosswork Workflow Manager are components of Ciscos Crosswork network automation and management portfolio.
+These vulnerabilities exist due to improper neutralization of SQL commands, missing authentication for critical functions, inadequate validation of file names or paths, and insufficient protection of credentials in the affected products. An attacker could exploit these vulnerabilities by sending specially crafted requests or accessing affected functions and resources, depending on the specific vulnerability.
+Successful exploitation could allow an attacker to execute unauthorized database operations, bypass authentication, manipulate files or paths, access sensitive credentials, and compromise affected Cisco Crosswork systems.
+Solution
+Apply appropriate updates as mentioned in the Cisco Advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh
+CVE Name
+CVE-2026-20030
+CVE-2026-20357
+CVE-2026-20358
+CVE-2026-20359
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-08-31 15:26:53
