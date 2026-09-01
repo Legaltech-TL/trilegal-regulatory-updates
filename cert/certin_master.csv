@@ -19148,3 +19148,62 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-08-31 15:26:53
+48d5b329345bca1b,CERT-In Vulnerability Note  CIVN-2026-0430,"September 01, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0430,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0430
+Multiple Vulnerabilities in Manacle Technologies ERP System
+Original Issue Date:September 01, 2026
+Severity Rating: HIGH
+Systems Affected
+Manacle Technologies Multi-tenant ERP System
+Overview
+Multiple vulnerabilities have been reported in Manacle Technologies ERP system, which could allow a remote attacker to execute arbitrary code and gain unauthorized access to sensitive information on the targeted system.
+Target Audience:
+Organizations, system administrators and maintainers of the affected application.
+Risk Assessment:
+Risk of remote code execution, unauthorized access to sensitive information and application source code.
+Impact Assessment:
+Potential for arbitrary code execution, enumerate user records and .git directory exposure.
+Description
+Manacle Technologies Multi-tenant Enterprise Resource Planning (ERP) system is a centralized enterprise resource planning platform that supports multiple organizations within a shared system environment to manage core business processes, while keeping each tenant¿s data and configurations separate.
+1. Remote Code Execution Vulnerability
+(
+CVE-2026-84147
+)
+This vulnerability exists in the ERP system due to improper authentication controls and inadequate file type validation at the API endpoint. An unauthenticated remote attacker could exploit this vulnerability by uploading arbitrary files to a web accessible directory on the targeted system.
+Successful exploitation of this vulnerability could allow the attacker to execute arbitrary code and compromise the targeted system.
+2. Insecure Direct Object Reference Vulnerability
+(
+CVE-2026-84148
+)
+This vulnerability exists in the ERP system due to improper authentication and authorization controls in the API endpoint. An unauthenticated remote attacker could exploit this vulnerability by manipulating parameter which could lead to exposure of sensitive information belonging to other users on the targeted system.
+3. Information Disclosure Vulnerability
+(
+CVE-2026-84149
+)
+This vulnerability exists in the ERP system due to exposure of repository information through a publicly accessible .git directory. An unauthenticated remote attacker could exploit this vulnerability by accessing the exposed .git directory and retrieving repository metadata and associated files, which could allow reconstruction of the applications source code.
+Credit
+These vulnerabilities are reported by Nisarga Adhikary.
+Solution
+Contact the vendor for the patched version.
+Vendor Information
+Manacle Technologies
+https://www.manacle.in/erp
+References
+Manacle Technologies
+https://www.manacle.in/erp
+CVE Name
+CVE-2026-84147
+CVE-2026-84148
+CVE-2026-84149
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-01 12:45:15
