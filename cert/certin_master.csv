@@ -19207,3 +19207,48 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-09-01 12:45:15
+2fe51a81973659c9,CERT-In Vulnerability Note  CIVN-2026-0431,"September 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0431,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0431
+Remote Code Execution Vulnerability in cPanel
+Original Issue Date:September 02, 2026
+Severity Rating: HIGH
+Software Affected
+cPanel & WHM (Web Host Manager) Versions:
+prior to 11.110.0.141
+prior to 11.134.0.53
+prior to 11.136.0.37
+prior to 11.138.0.2
+WP2 Versions prior to 11.138.1.7
+Overview
+A vulnerability has been reported in cPanel's Domain Parking functionality which could allow a remote authenticated users to execute arbitrary code as root giving an attacker full control of the server.
+Target Audience:
+Individuals and organizations using affected cPanel hosting environment.
+Risk Assessment:
+High risk of remote code execution and sensitive data exposure.
+Impact Assessment:
+Unauthorized access and full server compromise.
+Description
+cPanel & WHM is a web hosting control panel that provides administrative (WHM) and user-level (cPanel) interfaces for managing servers and websites.
+This vulnerability exists in cPanels Domain Parking functionality due to insufficient restrictions on file creation.
+Successful exploitation of this vulnerability could allow a remote authenticated users to execute arbitrary code as root giving an attacker full control of the server.
+Solution
+Apply appropriate updates as mentioned:
+https://support.cpanel.net/hc/en-us/articles/42959571221527-Security-CVE-2026-65643-Vulnerability-in-cPanel-s-Domain-Parking-Functionality-August-27-2026
+Vendor Information
+https://www.cpanel.net/
+References
+https://support.cpanel.net/hc/en-us/articles/42959571221527-Security-CVE-2026-65643-Vulnerability-in-cPanel-s-Domain-Parking-Functionality-August-27-2026
+CVE Name
+CVE-2026-65643
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-02 12:17:34
