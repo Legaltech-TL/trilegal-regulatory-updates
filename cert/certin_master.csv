@@ -19252,3 +19252,103 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-09-02 12:17:34
+339c14796e751982,CERT-In Vulnerability Note  CIVN-2026-0432,"September 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0432,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0432
+Multiple vulnerabilities in Adobe products
+Original Issue Date:September 02, 2026
+Severity Rating: CRITICAL
+Software Affected
+Adobe Content Credentials Rust SDK versions c2pa-v0.89.0 and earlier
+Adobe C2PA Tool versions c2patool-v0.26.70 and earlier
+Adobe Substance 3D Designer versions 16.0.4 and earlier
+Adobe Substance 3D Sampler versions 6.0.1 and earlier
+Adobe Substance 3D Painter versions 12.1.2 and earlier
+Adobe Illustrator 2025 versions 29.8.9 and earlier for Windows
+Adobe Illustrator 2026 versions 30.6 and earlier for Windows
+Adobe XD versions 60 and earlier for Windows and macOS
+Adobe Campaign Classic ACC v7 versions 7.4.4 build 9400 and earlier for Windows and Linux
+Overview
+Multiple vulnerabilities have been reported in Adobe products, which could allow an attacker to execute arbitrary code, trigger denial of service conditions, disclose sensitive information, expose memory contents, or read arbitrary files from the targeted system.
+Target Audience:
+All end-user organisations and individuals using affected Adobe products.
+Impact Assessment:
+Potential for arbitrary code execution, denial of service, arbitrary file-system read, memory exposure, and compromise of the affected system.
+Risk Assessment:
+Critical risk of arbitrary code execution, unauthorized access, information disclosure, service disruption, and system compromise.
+Description
+Adobe provides a range of software products for digital content creation, 3D design and content creation, graphic design, user experience design, content authenticity, and marketing campaign management.
+Multiple vulnerabilities exist in Adobe products due to uncontrolled resource consumption, improper input validation, heap-based buffer overflow, stack-based buffer overflow, out-of-bounds read, out-of-bounds write, NULL pointer dereference, improper neutralization of special elements used in OS commands, and server-side request forgery.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, trigger denial of service conditions, disclose sensitive information, expose memory contents, or read arbitrary files from the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor given below:
+https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-110.html
+https://helpx.adobe.com/security/products/substance3d_designer/apsb26-115.html
+https://helpx.adobe.com/security/products/substance3d-sampler/apsb26-121.html
+https://helpx.adobe.com/security/products/illustrator/apsb26-124.html
+https://helpx.adobe.com/security/products/xd/apsb26-125.html
+https://helpx.adobe.com/security/products/substance3d_painter/apsb26-129.html
+https://helpx.adobe.com/security/products/campaign/apsb26-134.html
+Vendor Information
+Adobe
+https://www.adobe.com
+References
+Adobe
+https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-110.html
+https://helpx.adobe.com/security/products/substance3d_designer/apsb26-115.html
+https://helpx.adobe.com/security/products/substance3d-sampler/apsb26-121.html
+https://helpx.adobe.com/security/products/illustrator/apsb26-124.html
+https://helpx.adobe.com/security/products/xd/apsb26-125.html
+https://helpx.adobe.com/security/products/substance3d_painter/apsb26-129.html
+https://helpx.adobe.com/security/products/campaign/apsb26-134.html
+CVE Name
+CVE-2026-71360
+CVE-2026-71443
+CVE-2026-71442
+CVE-2026-71444
+CVE-2026-76189
+CVE-2026-76198
+CVE-2026-48433
+CVE-2026-48432
+CVE-2026-48431
+CVE-2026-48430
+CVE-2026-48428
+CVE-2026-48427
+CVE-2026-71564
+CVE-2026-48426
+CVE-2026-48429
+CVE-2026-48424
+CVE-2026-48425
+CVE-2026-48423
+CVE-2026-48422
+CVE-2026-48421
+CVE-2026-48420
+CVE-2026-48420
+CVE-2026-48419
+CVE-2026-48418
+CVE-2026-48417
+CVE-2026-71382
+CVE-2026-71441
+CVE-2026-71399
+CVE-2026-75770
+CVE-2026-75769
+CVE-2026-75768
+CVE-2026-75767
+CVE-2026-75766
+CVE-2026-75750
+CVE-2026-75749
+CVE-2026-75752
+CVE-2026-76197
+CVE-2026-76195
+CVE-2026-76193
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-02 14:55:35
