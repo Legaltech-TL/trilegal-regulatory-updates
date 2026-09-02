@@ -1,54 +1,22 @@
 {
-  "generated_at": "2026-09-01T14:01:08.188993",
-  "count": 6,
+  "generated_at": "2026-09-02T07:49:11.016258",
+  "count": 2,
   "items": [
     {
-      "id": "67bcca6f21f3cfbd",
-      "title": "Entrustment of look after Charge of Director General (Telecom)-Shri Anil Kumar Gupta [Staff No. 20001], reg.",
-      "publish_date": "08/28/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/2911f9d1c4e7fe9af8fbcbcc60c74791.pdf",
+      "id": "38de3c69f18c1923",
+      "title": "Webinar on\u00a0\u201cSmart Telecom- Role of AI/ML in Network Management and Future Transmission\u201d\u00a0on\u00a08th\u00a0September 2026,\u00a0Tuesday\u00a0during\u00a011:00 \u2013 13:00 Hrs",
+      "publish_date": "09/02/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/c865aac0ae982d101c7b7a27982f2019.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "09/01/2026"
+      "scraped_at": "09/02/2026"
     },
     {
-      "id": "d2cfcd43ee4e0839",
-      "title": "Order regarding the grant of HAG NFU to Shri Sanjay Gupta an officer of P and T BWS Grp A cadre Electrical Sub cadre wef 01 january 2026",
-      "publish_date": "08/25/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/027199d46208a5c151907aa3b2696b79.pdf",
+      "id": "400aba20ef95a1c2",
+      "title": "Final Seniority List of officers in Electrical sub cadre of the P and T Building Works Group A Service as on 01 January 2026",
+      "publish_date": "08/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/8093809836b33dd61221f6cb75f39463.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "09/01/2026"
-    },
-    {
-      "id": "45d774e870a93cb9",
-      "title": "Gazette Notification of Telecommunications (User Identification) Rules, 2026",
-      "publish_date": "08/21/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/52b9cffe3f6840beb9b35eff3106078b.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "09/01/2026"
-    },
-    {
-      "id": "03508e8935c0a6a1",
-      "title": "Gazette Notification of Enforcement of Section 3(7) of Telecommunication Act 2023",
-      "publish_date": "08/21/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/405da0fdb2b55c2b80bbaacd9f9005b1.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "09/01/2026"
-    },
-    {
-      "id": "e0f3d21a679bc0c3",
-      "title": "Gazette Notification of Telecommunications services under section 3(7) of Telecommunication Act 2003",
-      "publish_date": "08/21/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/f6377a4207a1f7f840a3588d518d3184.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "09/01/2026"
-    },
-    {
-      "id": "b4b260c463481486",
-      "title": "Notification of Portal under rule 11 of Telecommunication (User Identification) Rules, 2026",
-      "publish_date": "08/21/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/08/7e6f08990b082f5e3fe82243dfde4f4d.pdf",
-      "category": "ACTS_AND_POLICIES",
-      "scraped_at": "09/01/2026"
+      "scraped_at": "09/02/2026"
     }
   ]
 }
