@@ -19492,3 +19492,48 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-09-03 12:16:00
 9c8a3ea5995f6629,CERT-In Vulnerability Note  CIVN-2026-0435,"September 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0435,Latest Security Alert,,2026-09-03 12:16:00
+991fd4bf5a11ec5f,CERT-In Vulnerability Note  CIVN-2026-0438,"September 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0438,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0438
+Multiple Vulnerabilities in Zimbra
+Original Issue Date:September 03, 2026
+Severity Rating: HIGH
+Software Affected
+Zimbra Collaboration Suite (ZCS) version prior to 10.1.20.
+Overview
+Multiple vulnerabilities have been reported in Zimbra Collaboration Suite (ZCS) which could allow an attacker to bypass mail forwarding restrictions, bypass access-control or authorization restrictions, or execute arbitrary operating system commands on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Zimbra.
+Risk Assessment:
+High risk of mail forwarding restriction bypass, access-control or authorization bypass and arbitrary command execution.
+Impact Assessment:
+Potential for email exfiltration, access-control or authorization bypass and arbitrary command execution.
+Description
+Zimbra is an open-source email and collaboration platform that provides services such as email, calendaring, contacts, and file sharing.
+Multiple vulnerabilities have been reported in Zimbra due to improper access controls, authorization weaknesses, and improper input validation in the SNMP monitoring component. An attacker could exploit these vulnerabilities to bypass mail forwarding restrictions, bypass access-control or authorization restrictions, or exfiltrate emails. An unauthenticated attacker could also exploit the SNMP monitoring vulnerability, when the optional zimbra-snmp package is installed and SNMP notifications are enabled, to execute arbitrary operating system commands on the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate emails, bypass access-control or authorization restrictions, or execute arbitrary operating system commands on the targeted system.
+Note - CVE-2026-73570 is being actively exploited in the wild.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories
+Vendor Information
+Zimbra
+https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories
+References
+https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories
+CVE Name
+CVE-2026-73570
+CVE-2026-50055
+CVE-2026-10631
+CVE-2026-50054
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-03 14:51:33
