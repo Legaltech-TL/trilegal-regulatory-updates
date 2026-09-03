@@ -19395,3 +19395,100 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-09-03 08:56:21
+17b687cb0073d7b8,CERT-In Vulnerability Note  CIVN-2026-0437,"September 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0437,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0437
+Multiple Vulnerabilities in Sonicwall SMA1000
+Original Issue Date:September 03, 2026
+Severity Rating: CRITICAL
+Systems Affected
+SMA1000 Models ¿ 6210, 7210 and 8200v (all hypervisors)
+Software Affected
+12.4.3-03453 (platform-hotfix) and earlier versions
+12.5.0-02835 (platform-hotfix) and earlier versions
+Overview
+Multiple vulnerabilities have been reported in SonicWall Secure Mobile Access (SMA) 1000 Series appliances, which could allow a remote unauthenticated attacker to perform Server-Side Request Forgery (SSRF) or a remote authenticated administrator to execute arbitrary operating system commands.
+Target Audience:
+All end-user organizations and individuals using SonicWall Secure Mobile Access (SMA) 1000 Series appliances.
+Risk Assessment:
+Risk of arbitrary operating system command execution, Server-Side Request Forgery (SSRF), Remote Code Execution (RCE), and compromise of affected systems.
+Impact Assessment:
+Potential for unauthorized access to sensitive functionality, unauthorized requests to internal or unintended locations, arbitrary operating system command execution, Remote Code Execution, and compromise of affected appliances.
+Description
+SonicWall Secure Mobile Access (SMA) 1000 Series appliances are secure remote access solutions used to provide secure access to enterprise networks and applications.
+Multiple vulnerabilities have been identified in SonicWall Secure Mobile Access (SMA) 1000 Series appliances. These vulnerabilities include a pre-authentication Server-Side Request Forgery (SSRF) vulnerability and a post-authentication OS Command Injection vulnerability.
+Successful exploitation of these vulnerabilities could allow an attacker to access internal or unintended network locations, execute arbitrary operating system commands and compromise the affected appliance.
+Note - These vulnerabilities are being actively exploited in the wild.
+Solution
+Apply appropriate security updates and mitigations as recommended by the vendor.
+https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016
+Vendor Information
+SonicWall
+https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016
+References
+https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016
+CVE Name
+CVE-2026-83548
+CVE-2026-83549
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-03 12:16:00
+cfb3101f8173ba59,CERT-In Vulnerability Note  CIVN-2026-0436,"September 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0436,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0436
+Cisco Nexus 9000 Series Switches Silicon One Remote Code Execution Vulnerability
+Original Issue Date:September 03, 2026
+Severity Rating: CRITICAL
+Systems Affected
+N9324C-SE1U
+N9348Y2C6D-SE1U
+N9364E-SG2-O
+N9364E-SG2-Q
+N9396T12C-SE1
+N9348Y12C-SE1
+N9396Y12C-SE1
+N9336C-SE1
+N9K-C9804
+N9K-C9808
+Overview
+A vulnerability has been reported in the Silicon One integration for Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to remote attacker to execute code with root privileges.
+Target Audience:
+All IT administrators and individuals responsible for maintaining and updating in Software.
+Risk Assessment:
+High risk of data manipulation and service disruption.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+This vulnerability exists due to TCP ports 43210 and 43211 are accessible in the default Layer 3 (L3) virtual routing and forwarding (VRF). An attacker could exploit this vulnerability by sending crafted input that could be executed as code with root privileges.
+Successful exploitation of this vulnerability could allow the attacker the S1HAL process to crash, which could cause the device to reload.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9k-s1-rce-EH8dEtr
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9k-s1-rce-EH8dEtr
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9k-s1-rce-EH8dEtr
+CVE Name
+CVE-2026-20212
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-03 12:16:00
+9c8a3ea5995f6629,CERT-In Vulnerability Note  CIVN-2026-0435,"September 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0435,Latest Security Alert,,2026-09-03 12:16:00
