@@ -19352,3 +19352,46 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-09-02 14:55:35
+55922e07b369499b,CERT-In Vulnerability Note  CIVN-2026-0433,"September 03, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0433,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0433
+Remote Code Execution Vulnerability in Next.js
+Original Issue Date:September 03, 2026
+Severity Rating: CRITICAL
+Software Affected
+Next.js version 13.4 or higher and prior to 15.5.24
+Next.js version 16.0 or higher and prior to 16.3.3
+Overview
+A critical vulnerability has been reported in Next.js, which may allow an unauthenticated remote attacker to execute arbitrary code on a targeted windows hosted system under specific application and runtime conditions.
+Target Audience:
+Organizations developing or hosting web applications using the Next.js framework.
+Risk Assessment:
+Risk of unauthorized remote code execution and system compromise
+Impact Assessment:
+Unauthorized access to sensitive data, data manipulation, and complete system compromise.
+Description
+Next.js is an open source React framework developed by Vercel for building full-stack web applications with features like server-side rendering, static site generation, API routes, and optimized performance.
+This vulnerability exists in Next.js due to improper limitation of a pathname to a restricted directory (Path Traversal). Under specific application configurations, an unauthenticated remote attacker may exploit path traversal to access or manipulate files outside the intended cache directory. The vulnerability specifically affects applications using both the Pages Router and App Router without Cache Components when the application is hosted on a Windows file system.
+Successful exploitation may allow an unauthenticated remote attacker to execute arbitrary code on a targeted windows hosted system under specific application and runtime conditions.
+Solution
+Apply appropriate updates as mentioned in:
+https://github.com/vercel/next.js/security/advisories/GHSA-p293-qw3h-jr36
+Vendor Information
+Next.js
+https://github.com/vercel/next.js/security/advisories/GHSA-p293-qw3h-jr36
+References
+Next.js
+https://github.com/vercel/next.js/security/advisories/GHSA-p293-qw3h-jr36
+CVE Name
+CVE-2026-75604
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-03 08:56:21
