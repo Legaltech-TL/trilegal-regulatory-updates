@@ -19537,3 +19537,150 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-09-03 14:51:33
+d4903f8bd7b22f5c,CERT-In Vulnerability Note  CIVN-2026-0440,"September 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0440,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0440
+Multiple Vulnerabilities in Apache Tomcat
+Original Issue Date:September 04, 2026
+Severity Rating: CRITICAL
+Software Affected
+Apache Tomcat 9.0.x versions 9.0.120 and prior
+Apache Tomcat 10.1.x versions 10.1.57 and prior
+Overview
+Multiple vulnerabilities have been reported in Apache Tomcat that could allow an attacker to bypass authentication or security constraints, cause denial-of-service conditions, perform limited replay attacks, or gain unauthorized access on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected versions Apache Tomcat.
+Risk Assessment:
+High risk of unauthorized access to sensitive data, denial-of-service conditions, perform limited replay attacks.
+Impact Assessment:
+Potential for compromise of the affected system.
+Description
+Apache Tomcat is an open-source web server and servlet container that runs java-base web applications.
+These vulnerabilities exist in Apache Tomcat due to improper handling of authentication and authorization, request handling, session management, and access-control mechanisms.
+Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication or security constraints, cause denial-of-service conditions, perform limited replay attacks, or gain unauthorized access on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://tomcat.apache.org/security-9.html
+Vendor Information
+Apache Tomcat
+https://tomcat.apache.org/
+References
+Apache Tomcat
+https://tomcat.apache.org/security-9.html
+CVE Name
+CVE-2026-73180
+CVE-2026-68763
+CVE-2026-68569
+CVE-2026-68525
+CVE-2026-66422
+CVE-2026-66299
+CVE-2026-65927
+CVE-2026-65905
+CVE-2026-65637
+CVE-2026-65183
+CVE-2026-65182
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-04 08:51:08
+63969b85f1e30ef3,CERT-In Vulnerability Note  CIVN-2026-0439,"September 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0439,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0439
+Multiple Vulnerabilities in Mozilla Products
+Original Issue Date:September 04, 2026
+Severity Rating: HIGH
+Software Affected
+Mozilla Firefox versions prior to 155
+Mozilla Firefox ESR versions prior to 115.40, 140.15, and 153.2
+Mozilla Thunderbird versions prior to 140.15, 153.2, and 155
+Overview
+Multiple vulnerabilities have been reported in Mozilla Products that could allow a remote attacker to exploit the vulnerabilities to cause denial of service, elevation of privilege, security restriction bypass, sensitive information disclosure, remote code execution, and spoofing on the affected systems.
+Target Audience:
+All organizations and individuals using the affected Mozilla Firefox, Firefox ESR, and Thunderbird products.
+Risk Assessment:
+High risk of unauthorized access, remote code execution, privilege escalation, information disclosure, and security boundary bypass.
+Impact Assessment:
+Potential for data theft, sensitive information disclosure and compromise of affected systems.
+Description
+Mozilla Firefox is a free and open-source web browser developed by Mozilla. Firefox ESR (Extended Support Release) is a version of Firefox intended for organizations that require extended support and stability. Mozilla Thunderbird is an open-source email client developed by the Mozilla.
+Multiple vulnerabilities have been reported in Mozilla Firefox, Firefox ESR, and Thunderbird due to memory safety issues, useafter-free vulnerabilities, improper security boundary enforcement, race conditions, privilege escalation flaws, information disclosure issues, and other security-related flaws.
+Successful exploitation of these vulnerabilities could allow a remote attacker to exploit the vulnerabilities to cause denial of service, elevation of privilege, security restriction bypass, sensitive information disclosure, remote code execution, and spoofing on the affected systems.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-82/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-83/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-84/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-85/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-86/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-87/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-88/
+Vendor Information
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/
+References
+Mozilla
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-82/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-83/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-84/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-85/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-86/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-87/
+https://www.mozilla.org/en-US/security/advisories/mfsa2026-88/
+CVE Name
+CVE-2026-16365
+CVE-2026-16371
+CVE-2026-74952
+CVE-2026-75874
+CVE-2026-81267
+CVE-2026-84117
+CVE-2026-84118
+CVE-2026-84119
+CVE-2026-84120
+CVE-2026-84121
+CVE-2026-84122
+CVE-2026-84123
+CVE-2026-84124
+CVE-2026-84125
+CVE-2026-84126
+CVE-2026-84127
+CVE-2026-84128
+CVE-2026-84129
+CVE-2026-84130
+CVE-2026-84131
+CVE-2026-84132
+CVE-2026-84133
+CVE-2026-84134
+CVE-2026-84135
+CVE-2026-84136
+CVE-2026-84137
+CVE-2026-84138
+CVE-2026-84139
+CVE-2026-84140
+CVE-2026-84141
+CVE-2026-84142
+CVE-2026-84143
+CVE-2026-84144
+CVE-2026-84145
+CVE-2026-84637
+CVE-2026-84639
+CVE-2026-84640
+CVE-2026-84641
+CVE-2026-84642
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-04 08:51:08
