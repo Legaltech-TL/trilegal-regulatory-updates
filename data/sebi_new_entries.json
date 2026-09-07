@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "3fa51b93dacc9aa00d54d9ed1136d14c2f072685",
+    "date": "Sep 07, 2026",
+    "title": "Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds",
+    "link": "https://www.sebi.gov.in/legal/circulars/sep-2026/relaxation-in-timeline-with-respect-to-accredited-investor-mandate-for-angel-funds_104323.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-09-07T16:01:11.775248Z",
+    "source_commit": "bd3a2e20245d6e14b4fcf1d34275b41f195f10d4",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "166af73b2b8f63aeca1747c8c94a90bf939e8029",
+    "date": "Sep 07, 2026",
+    "title": "Ease of regulatory compliances for FPIs investing only in Government Securities",
+    "link": "https://www.sebi.gov.in/legal/circulars/sep-2026/ease-of-regulatory-compliances-for-fpis-investing-only-in-government-securities_104319.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Ease of regulatory compliances for FPIs investing only in Government Securities.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-09-07T16:01:18.072408Z",
+    "source_commit": "bd3a2e20245d6e14b4fcf1d34275b41f195f10d4",
+    "category": "Circular",
+    "error": ""
+  }
+]
