@@ -19685,3 +19685,49 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-09-04 08:51:08
 0828fe655da1a637,CERT-In Vulnerability Note  CIVN-2026-0441,"September 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0441,Latest Security Alert,,2026-09-07 09:20:08
+56b68e0de4e71b52,CERT-In Vulnerability Note  CIVN-2026-0442,"September 07, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0442,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0442
+Authentication Bypass Vulnerability in Keycloak
+Original Issue Date:September 07, 2026
+Severity Rating: CRITICAL
+Software Affected
+Keycloak versions prior to 26.7.2.
+Red Hat build of Keycloak (RHBK)
+Versions 26.4 prior to 26.4.15
+Versions 26.6 prior to 26.6.6
+Overview
+A critical vulnerability has been reported in Keycloak, which could allow an unauthenticated attacker to bypass the password reset mechanism and take over arbitrary user accounts, including administrative accounts.
+Target Audience:
+Organizations and administrators using affected versions of Keycloak and Red Hat build of Keycloak (RHBK).
+Risk Assessment:
+Critical risk of unauthenticated account takeover, unauthorized access, and compromise of administrative accounts.
+Impact Assessment:
+Potential for authentication bypass, unauthorized password reset, account takeover, and privilege escalation through compromised administrative accounts.
+Description
+Keycloak is an open-source identity and access management platform used to provide authentication and authorization services for applications and services.
+A vulnerability has been reported in Keycloak due to improper state validation within the reset-credentials authentication flow. An attacker may send a specially crafted request to the reset-credentials endpoint, causing the authentication session to transition directly to the password update phase without requiring the action token normally delivered through email.
+Successful exploitation could allow an unauthenticated attacker to bypass the password reset mechanism and take over user accounts, including administrative accounts.
+Solution
+Users are advised to upgrade to the latest available version:
+Upstream Keycloak: Upgrade to 26.7.2 or later.
+Red Hat build of Keycloak 26.4: Upgrade to 26.4.15 or later.
+Red Hat build of Keycloak 26.6: Upgrade to 26.6.6 or later.
+Note: As a temporary mitigation, organizations that cannot immediately apply the security updates should disable the Forgot password functionality across all Keycloak realms until the affected systems can be upgraded.
+Vendor Information
+https://www.keycloak.org/
+References
+https://www.keycloak.org/2026/08/keycloak-2672-released
+CVE Name
+CVE-2026-18963
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-07 13:41:39
