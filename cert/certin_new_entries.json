@@ -1,38 +1,20 @@
 [
   {
-    "id":"ff2d5c5d15725263",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0450",
+    "id":"dfe6210f3ff0048c",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0452",
     "date":"September 09, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0450",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0452",
     "category":"Latest Security Alert",
     "content":"",
-    "scraped_at":"2026-09-09 12:30:17"
+    "scraped_at":"2026-09-09 15:00:20"
   },
   {
-    "id":"c3eb53059dcb0e24",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0449",
+    "id":"fcf9bac427822904",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0451",
     "date":"September 09, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0449",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0451",
     "category":"Latest Security Alert",
     "content":"",
-    "scraped_at":"2026-09-09 12:30:17"
-  },
-  {
-    "id":"08e32558cd6d0427",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0448",
-    "date":"September 09, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0448",
-    "category":"Latest Security Alert",
-    "content":"",
-    "scraped_at":"2026-09-09 12:30:17"
-  },
-  {
-    "id":"ef37061af0bac511",
-    "title":"CERT-In Advisory   CIAD-2026-0044",
-    "date":"September 09, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0044",
-    "category":"Latest Security Alert",
-    "content":"",
-    "scraped_at":"2026-09-09 12:30:17"
+    "scraped_at":"2026-09-09 15:00:20"
   }
 ]
