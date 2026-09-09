@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:38:48.489631",
-  "count": 2,
-  "items": [
-    {
-      "id": "fb79fb9b5057a609",
-      "title": "Office Order- Closing of Central...",
-      "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/301830/Office+Order-+Closing+of+Central+Government+Offices+located+in+DelhiNew+Delhi+on+11.09.2026+on.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "09/09/2026"
-    },
-    {
-      "id": "0b98c1be03d5349a",
-      "title": "Office Order - List of...",
-      "publish_date": "",
-      "pdf_url": "https://www.pfrda.org.in/documents/33652/301830/Office+Order+-+List+of+Holidays+to+be+observed+during+the+calendar+year+2026+at+Mumbai+Regional+Office.pdf",
-      "category": "CIRCULAR",
-      "scraped_at": "09/09/2026"
-    }
-  ]
+  "generated_at": "2026-09-09T10:58:16.801436",
+  "count": 0,
+  "items": []
 }
