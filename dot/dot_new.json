@@ -1,30 +1,14 @@
 {
-  "generated_at": "2026-09-09T13:23:52.336830",
-  "count": 3,
+  "generated_at": "2026-09-10T07:50:41.330146",
+  "count": 1,
   "items": [
     {
-      "id": "8874cce9a73d5637",
-      "title": "Termination Letters (June-Sep 2026)",
-      "publish_date": "09/03/2026",
-      "pdf_url": "https://www.dot.gov.in/documents/orders-and-notices/termination-letters-june-2026-AzN5kjNtQWa?pageTitle=Termination-Letters-(June-Sep-2026)",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "09/09/2026"
-    },
-    {
-      "id": "119c1a077a104654",
-      "title": "India endorses the Call to Action for 6G Leadership and Security; Department of Telecommunications to take the initiative forward",
-      "publish_date": "09/09/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/85bff66bdaa0817cc2bd58b3c6753294.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "09/09/2026"
-    },
-    {
-      "id": "8b250fefef7ad0c2",
-      "title": "Citizens\u2019 Money Saved before It Is Lost: Financial Fraud Risk Indicator (FRI) Prevents Suspected Cyber Fraud transactions of over \u20b95,000 Crore",
+      "id": "a5f8685ae81e40dd",
+      "title": "Circular for UBR",
       "publish_date": "09/08/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/ee48cf6fd82141ca33fce2fe9f628973.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "09/09/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/e5f76c32d5963c3c47e92420521e9d34.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "09/10/2026"
     }
   ]
 }
