@@ -1,24 +1,13 @@
 [
   {
-    "id": "8a3d09754260ad58ac4c33b54494264795707296",
+    "id": "3cd2499cfb98b0cd1092f3fb260d622d8c7c9203",
     "source": "Bharat Connect",
     "category": "Circulars",
-    "title": "008 - Generation of ‘Transaction Reference Id’ for all bill payment transactions",
-    "date": "16 Jul, 2026",
-    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/008_Generation_of_Transaction_Reference_Id_for_all_bill_payment_transactions_3eb095caee.pdf",
-    "pdf_filename": "008_Generation_of_Transaction_Reference_Id_for_all_bill_payment_transactions_3eb095caee.pdf",
+    "title": "012-Adequate Maintenance of Net Debit Cap (NDC) Limits",
+    "date": "03 Sep, 2026",
+    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/012_Adequate_Maintenance_of_Net_Debit_Cap_NDC_Limits_2bb40888c9.pdf",
+    "pdf_filename": "012_Adequate_Maintenance_of_Net_Debit_Cap_NDC_Limits_2bb40888c9.pdf",
     "source_page": "https://www.bharat-connect.com/circulars/",
-    "scraped_at": "2026-08-07T21:40:51.427683+00:00"
-  },
-  {
-    "id": "d47cfe10b9414589397f83f4a7691e71e9c30a16",
-    "source": "Bharat Connect",
-    "category": "Circulars",
-    "title": "Implementation of CCF 1 (Biller Fee) in BBPS Ecosystem",
-    "date": "25 Jun, 2026",
-    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/Implementation_of_CCF_1_Biller_Fee_in_BBPS_Ecosystem_5bab24c364.pdf",
-    "pdf_filename": "Implementation_of_CCF_1_Biller_Fee_in_BBPS_Ecosystem_5bab24c364.pdf",
-    "source_page": "https://www.bharat-connect.com/circulars/",
-    "scraped_at": "2026-08-07T21:40:51.427856+00:00"
+    "scraped_at": "2026-09-11T16:54:35.169011+00:00"
   }
 ]
