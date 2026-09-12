@@ -1,16 +1,3 @@
 {
-  "new_items": [
-    {
-      "faq_id": "179",
-      "title_text": "Sep 11, 2026 All you wanted to know about ARCs",
-      "published_date": "2026-09-11",
-      "category": "Non-banking",
-      "url": "https://rbi.org.in/Scripts/FAQDisplay.aspx?Id=179",
-      "pdf_link": "https://rbidocs.rbi.org.in/rdocs/faqs/PDFs/NBCARC11092026SP13269333FLS333.PDF",
-      "last_updated": "2026-09-11T15:08:27.754228",
-      "full_text": "",
-      "pdf_filename": "179_sep_11_2026_all_you_wanted_to_know_about_arcs.PDF",
-      "scraped_at": "2026-09-11T15:08:27.754228"
-    }
-  ]
+  "new_items": []
 }
