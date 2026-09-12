@@ -1,46 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:20:26.283867",
-  "count": 5,
-  "items": [
-    {
-      "id": "05784a368f61108b",
-      "title": "Statements of Monthly Account figures for the month\u00a0of\u00a0July - 2026",
-      "publish_date": "09/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/162ac2f836390d3ffc31725d55b8b80c.pdf",
-      "category": "REPORTS",
-      "scraped_at": "09/11/2026"
-    },
-    {
-      "id": "0fd4957d56dac2a8",
-      "title": "Statements of Monthly Account figures for the month\u00a0of\u00a0May- 2026",
-      "publish_date": "09/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/77c245756ae336b39897e7bea4d442f8.pdf",
-      "category": "REPORTS",
-      "scraped_at": "09/11/2026"
-    },
-    {
-      "id": "55e861431fbda328",
-      "title": "Statements of Monthly Account figures for the month\u00a0of\u00a0May- 2026",
-      "publish_date": "09/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/082287907bf32f956aa9cedf6d9df99f.pdf",
-      "category": "REPORTS",
-      "scraped_at": "09/11/2026"
-    },
-    {
-      "id": "b9e0bc045760239e",
-      "title": "Statements of Monthly Account figures for the month of April- 2026",
-      "publish_date": "09/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/fc18b708c7ecdb91c54c64b426c31882.pdf",
-      "category": "REPORTS",
-      "scraped_at": "09/11/2026"
-    },
-    {
-      "id": "16c1b38dd6a9c3a9",
-      "title": "Agreement Signed between DBN (Digital Bharat Nidhi) - Department of Telecommunications; Government of Jharkhand; JDICL; BSNL & JCNL for Implementation of Amended BharatNet Program in Jharkhand",
-      "publish_date": "09/10/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/78efeb47acbe50b511fded2490b87313.pdf",
-      "category": "PRESS_RELEASE",
-      "scraped_at": "09/11/2026"
-    }
-  ]
+  "generated_at": "2026-09-12T07:39:51.910440",
+  "count": 0,
+  "items": []
 }
