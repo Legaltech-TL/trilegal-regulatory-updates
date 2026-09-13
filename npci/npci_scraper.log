@@ -10825,3 +10825,25 @@ Call log:
 2026-09-13 08:05:19,544 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-09-13 08:05:22,593 | INFO | Total entries collected: 17
 2026-09-13 08:05:22,602 | INFO | No new entries found
+2026-09-13 13:33:16,531 | INFO | Opening NPCI page
+2026-09-13 13:33:44,137 | INFO | Attempting Press Releases scrape (2026)
+2026-09-13 13:33:44,157 | INFO | Press Releases 2026: 10 rows found
+2026-09-13 13:33:44,164 | INFO | [press_release] NPCI Press Release - Hon’ble Union Minister Shri Nitin Gadkari Launches ‘OneTag’ to Enable NETC FASTag Portability at GFF 2026
+2026-09-13 13:33:47,227 | INFO | [press_release] NPCI Press Release - RBI Governor Unveils New UPI Capabilities at GFF 2026: AI-Powered Customer Support and Seamless Tap-and-Pay Experience
+2026-09-13 13:33:50,253 | INFO | [press_release] NPCI Press Release - NPCI launches Agentic AI platforms to streamline workflows, accelerate innovation and improve productivity at GFF 2026
+2026-09-13 13:33:53,287 | INFO | [press_release] NPCI Press Release - NPCI unveils FiMI Banking, India’s first sovereign compact model for Indian retail banking GFF 2026; To Collaborate with HDFC Bank to Strengthen Tech
+2026-09-13 13:33:56,320 | INFO | [press_release] NPCI Press Release - NPCI launches India’s first open reinforcement learning environment for banking AI agents at GFF 2026
+2026-09-13 13:33:59,353 | INFO | [press_release] NPCI Press Release - DFS Secretary Unveils Innovations to Advance Financial Inclusion at GFF 2026
+2026-09-13 13:34:02,386 | INFO | [press_release] Biometric Authentication-Based UPI Transactions, Including RuPay Credit Card on UPI, Cross 600 Million in June 2026
+2026-09-13 13:34:05,416 | INFO | [press_release] Press Release - NBSL appoints Gaurav Kochhar as Chief of Business
+2026-09-13 13:34:08,454 | INFO | [press_release] NBSL Press Release_BHIM Payments App Introduces Biometric Authentication for UPI Payments on Android and IOS
+2026-09-13 13:34:11,486 | INFO | [press_release] NBSL Press Release - BHIM Payments App Announces MS Dhoni as Brand Ambassador
+2026-09-13 13:34:14,512 | INFO | Switching Press Releases year to 2025
+2026-09-13 13:34:47,041 | WARNING | Press Releases 2025 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("li.circulars-cell-container div.circulars-cell p") to be visible
+
+2026-09-13 13:34:47,041 | INFO | Switching to Media Coverage tab
+2026-09-13 13:35:17,044 | WARNING | Media Coverage tab not available
+2026-09-13 13:35:17,079 | INFO | Total entries collected: 10
+2026-09-13 13:35:17,089 | INFO | No new entries found
