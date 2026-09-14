@@ -19808,3 +19808,139 @@ dfe6210f3ff0048c,CERT-In Vulnerability Note  CIVN-2026-0452,"September 09, 2026"
 fcf9bac427822904,CERT-In Vulnerability Note  CIVN-2026-0451,"September 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0451,Latest Security Alert,,2026-09-09 15:00:20
 9d5b60ba996fe2eb,CERT-In Vulnerability Note  CIVN-2026-0453,"September 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0453,Latest Security Alert,,2026-09-10 14:45:08
 06a524aaff411396,CERT-In Advisory   CIAD-2026-0045,"September 10, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0045,Latest Security Alert,,2026-09-10 14:45:08
+263a30e240bfc713,CERT-In Vulnerability Note  CIVN-2026-0454,"September 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0454,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0454
+Multiple Vulnerabilities in Android OS
+Original Issue Date:September 14, 2026
+Severity Rating: CRITICAL
+Software Affected
+Android versions 14, 15, 16, 16-qpr2, 17.
+Overview
+Multiple vulnerabilities have been identified in Android which could be exploited by an attacker to execute arbitrary code causing denial of service, privilege escalation or disclosure sensitive information on the targeted system.
+Target Audience:
+All end-user organizations and individuals using Android.
+Risk Assessment:
+Risk of remote code execution, denial of service, privilege escalation and sensitive information disclosure.
+Impact Assessment:
+Potential compromise of system, service disruption and unauthorized access to sensitive information.
+Description
+Android is an open-source operating system primarily designed for mobile devices, including smart phones, tablets, smart watches, and other embedded system.
+Multiple vulnerabilities exist in Android due to flaws in Android runtime, Documents UI, MediaTek Framework components, Media Codecs, MediaProvider, Telephonycore, UWB, WiFi, adbd.
+Successful exploitation of these vulnerabilities could allow a remote attacker to trigger remote code execution, denial of service condition, gain elevated privileges and obtain sensitive information on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://source.android.com/docs/security/bulletin/2026/2026-09-01
+Vendor Information
+Android
+https://source.android.com/docs/security/bulletin/2026/2026-09-01
+References
+Android
+https://source.android.com/docs/security/bulletin/2026/2026-09-01
+CVE Name
+CVE-2026-28664
+CVE-2026-28609
+CVE-2026-45527
+CVE-2026-28636
+CVE-2026-28618
+CVE-2026-55294
+CVE-2026-28622
+CVE-2026-28666
+CVE-2026-55273
+CVE-2026-49932
+CVE-2025-48564
+CVE-2025-48566
+CVE-2026-0010
+CVE-2026-0065
+CVE-2026-28572
+CVE-2026-28594
+CVE-2026-28599
+CVE-2026-28607
+CVE-2026-28612
+CVE-2026-28614
+CVE-2026-28620
+CVE-2026-28631
+CVE-2026-28642
+CVE-2026-28644
+CVE-2026-28650
+CVE-2026-28655
+CVE-2026-28656
+CVE-2026-28657
+CVE-2026-28658
+CVE-2026-28663
+CVE-2026-45518
+CVE-2026-45528
+CVE-2026-49887
+CVE-2026-58874
+CVE-2026-0054
+CVE-2026-28602
+CVE-2026-28660
+CVE-2026-45521
+CVE-2026-55290
+CVE-2026-28584
+CVE-2026-28596
+CVE-2026-28633
+CVE-2026-28604
+CVE-2026-28639
+CVE-2026-28662
+CVE-2026-49882
+CVE-2026-49884
+CVE-2026-49919
+CVE-2026-49921
+CVE-2026-27280
+CVE-2026-28590
+CVE-2026-33636
+CVE-2026-45515
+CVE-2026-45531
+CVE-2026-49879
+CVE-2026-49918
+CVE-2026-49927
+CVE-2026-55277
+CVE-2026-55285
+CVE-2026-58820
+CVE-2026-58823
+CVE-2026-28653
+CVE-2026-49926
+CVE-2026-55256
+CVE-2026-58822
+CVE-2025-48565
+CVE-2026-0008
+CVE-2026-0084
+CVE-2026-28583
+CVE-2026-28600
+CVE-2026-28603
+CVE-2026-28606
+CVE-2026-28611
+CVE-2026-28624
+CVE-2026-28634
+CVE-2026-28668
+CVE-2026-45520
+CVE-2026-45529
+CVE-2026-49881
+CVE-2026-49913
+CVE-2026-58839
+CVE-2026-28581
+CVE-2026-28582
+CVE-2026-28623
+CVE-2026-28627
+CVE-2026-28630
+CVE-2026-28638
+CVE-2026-28652
+CVE-2026-28671
+CVE-2026-45517
+CVE-2026-45519
+CVE-2026-45525
+CVE-2026-49895
+CVE-2026-28617
+CVE-2026-28616
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-14 09:51:43
