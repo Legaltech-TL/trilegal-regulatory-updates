@@ -10977,3 +10977,32 @@ Call log:
 2026-09-15 14:03:35,439 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-09-15 14:03:38,497 | INFO | Total entries collected: 27
 2026-09-15 14:03:38,507 | INFO | Added 1 new entries
+2026-09-16 08:20:44,288 | INFO | Opening NPCI page
+2026-09-16 08:20:50,398 | INFO | Attempting Press Releases scrape (2026)
+2026-09-16 08:20:50,416 | INFO | Press Releases 2026: 10 rows found
+2026-09-16 08:20:50,424 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions
+2026-09-16 08:20:53,464 | INFO | [press_release] NPCI Press Release - Hon’ble Union Minister Shri Nitin Gadkari Launches ‘OneTag’ to Enable NETC FASTag Portability at GFF 2026
+2026-09-16 08:20:56,493 | INFO | [press_release] NPCI Press Release - RBI Governor Unveils New UPI Capabilities at GFF 2026: AI-Powered Customer Support and Seamless Tap-and-Pay Experience
+2026-09-16 08:20:59,526 | INFO | [press_release] NPCI Press Release - NPCI launches Agentic AI platforms to streamline workflows, accelerate innovation and improve productivity at GFF 2026
+2026-09-16 08:21:02,557 | INFO | [press_release] NPCI Press Release - NPCI unveils FiMI Banking, India’s first sovereign compact model for Indian retail banking GFF 2026; To Collaborate with HDFC Bank to Strengthen Tech
+2026-09-16 08:21:05,592 | INFO | [press_release] NPCI Press Release - NPCI launches India’s first open reinforcement learning environment for banking AI agents at GFF 2026
+2026-09-16 08:21:08,624 | INFO | [press_release] NPCI Press Release - DFS Secretary Unveils Innovations to Advance Financial Inclusion at GFF 2026
+2026-09-16 08:21:11,659 | INFO | [press_release] Biometric Authentication-Based UPI Transactions, Including RuPay Credit Card on UPI, Cross 600 Million in June 2026
+2026-09-16 08:21:14,692 | INFO | [press_release] Press Release - NBSL appoints Gaurav Kochhar as Chief of Business
+2026-09-16 08:21:17,726 | INFO | [press_release] NBSL Press Release_BHIM Payments App Introduces Biometric Authentication for UPI Payments on Android and IOS
+2026-09-16 08:21:20,753 | INFO | Switching Press Releases year to 2025
+2026-09-16 08:21:23,307 | INFO | Press Releases 2025: 10 rows found
+2026-09-16 08:21:23,313 | INFO | [press_release] NBSL Press release - BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI Payments within set limits
+2026-09-16 08:21:26,340 | INFO | [press_release] NPCI Press Release - Media Statement - Update Regarding Cheque Truncation System (CTS) – Continuous Clearing
+2026-09-16 08:21:29,375 | INFO | [press_release] NPCI Press Release - RuPay JCB cardholders can now avail 25% cashback for in-store purchases* in Indonesia, Malaysia, Singapore, Japan and Philippines
+2026-09-16 08:21:32,407 | INFO | [press_release] NPCI Press Release - Media Statement Regarding Cheque Clearance
+2026-09-16 08:21:35,439 | INFO | [press_release] NPCI Press Release - RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025
+2026-09-16 08:21:38,473 | INFO | [press_release] NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025
+2026-09-16 08:21:41,505 | INFO | [press_release] NPCI Press Release - DFS Secretary Launches Initiatives to Simplify Digital Payment Experience at GFF 2025
+2026-09-16 08:21:44,540 | INFO | [press_release] NPCI Press release – NPCI and RBL Bank expand RuPay On-The-Go across All Bengaluru Metro Lines
+2026-09-16 08:21:47,573 | INFO | [press_release] NBSL Press release - BHIM, Bharat Ka Apna Payments App, Lights Up Diwali with a Touch Of Goodness, Empowering India’s Women Artisans
+2026-09-16 08:21:50,606 | INFO | [press_release] NBSL Press release - BHIM Payments App, Bharat Ka Apna Payments App Collaborates with Sony Entertainment Television to launch an exclusive ‘Golden Week’ in Kaun Banega Crorepati
+2026-09-16 08:21:53,632 | INFO | Switching to Media Coverage tab
+2026-09-16 08:22:23,651 | WARNING | Media Coverage tab not available
+2026-09-16 08:22:23,681 | INFO | Total entries collected: 20
+2026-09-16 08:22:23,689 | INFO | No new entries found
