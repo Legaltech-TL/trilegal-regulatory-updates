@@ -19945,3 +19945,52 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-09-14 09:51:43
 38d776c2ebfb9670,CERT-In Vulnerability Note  CIVN-2026-0455,"September 15, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0455,Latest Security Alert,,2026-09-15 15:25:43
+e63055d526a49427,CERT-In Vulnerability Note  CIVN-2026-0457,"September 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0457,Latest Security Alert,,2026-09-16 09:18:00
+96694116b67b6703,CERT-In Vulnerability Note  CIVN-2026-0456,"September 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0456,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0456
+Multiple Vulnerabilities in MongoDB Products
+Original Issue Date:September 16, 2026
+Severity Rating: MEDIUM
+Software Affected
+MongoDB Server 8.3 versions prior to 8.3.9
+MongoDB Server 8.0 versions prior to 8.0.30
+MongoDB Server 7.0 versions prior to 7.0.41
+MongoDB Java Driver, MongoDB Crypt Library, and Reactive Streams Driver versions prior to 5.11.1
+Laravel MongoDB (PHP) versions prior to 5.11.0
+MongoDB C# Driver 2.14.0 versions prior to 3.11.1
+MongoDB C Driver 1.17.0 versions prior to 1.30.9
+MongoDB C Driver 2.0.0 versions prior to 2.5.2
+Overview
+Multiple vulnerabilities have been reported in various MongoDB components which could allow an attacker to execute arbitrary code, elevate privileges, obtain sensitive information, bypass security restrictions, cause memory corruption, cause denial of service (DoS) conditions, gain unauthorized access, and manipulate application data on the targeted system.
+Target Audience:
+All organizations and individuals using the affected versions of MongoDB Products.
+Risk Assessment:
+High risk of compromise of affected systems.
+Impact Assessment:
+Potential for memory corruption, unauthorized access, and manipulate application data.
+Description
+MongoDB is a document-based database that stores information in flexible, JSON-like documents rather than traditional tables and rows, making it well suited for handling large or evolving data structures.
+Multiple vulnerabilities exist in MongoDB products due to race conditions, improper neutralization of special elements in data query logic, integer overflows, uncontrolled resource consumption, incorrect authorization, insufficient validation of configuration options, and use-after-free errors.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, elevate privileges, obtain/disclose sensitive information, bypass security restrictions, cause memory corruption, cause denial of service (DoS) conditions, gain unauthorized access, and manipulate application data on the targeted system.
+Solution
+Apply appropriate security updates as mentioned in the MongoDB Security Updates:
+https://www.mongodb.com/resources/products/alerts#security
+Vendor Information
+MongoDB
+https://www.mongodb.com/
+References
+https://www.mongodb.com/resources/products/alerts#security
+CVE Name
+For complete list of affected products, CVEs, workarounds and solutions, refer to the MongoDB security updates.
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-16 09:18:00
