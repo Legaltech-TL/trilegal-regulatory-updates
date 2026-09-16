@@ -1,20 +1,11 @@
 [
   {
-    "id":"e63055d526a49427",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0457",
+    "id":"9fd8798faa2f6609",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0458",
     "date":"September 16, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0457",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0458",
     "category":"Latest Security Alert",
     "content":"",
-    "scraped_at":"2026-09-16 09:18:00"
-  },
-  {
-    "id":"96694116b67b6703",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0456",
-    "date":"September 16, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0456",
-    "category":"Latest Security Alert",
-    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0456\nMultiple Vulnerabilities in MongoDB Products\nOriginal Issue Date:September 16, 2026\nSeverity Rating: MEDIUM\nSoftware Affected\nMongoDB Server 8.3 versions prior to 8.3.9\nMongoDB Server 8.0 versions prior to 8.0.30\nMongoDB Server 7.0 versions prior to 7.0.41\nMongoDB Java Driver, MongoDB Crypt Library, and Reactive Streams Driver versions prior to 5.11.1\nLaravel MongoDB (PHP) versions prior to 5.11.0\nMongoDB C# Driver 2.14.0 versions prior to 3.11.1\nMongoDB C Driver 1.17.0 versions prior to 1.30.9\nMongoDB C Driver 2.0.0 versions prior to 2.5.2\nOverview\nMultiple vulnerabilities have been reported in various MongoDB components which could allow an attacker to execute arbitrary code, elevate privileges, obtain sensitive information, bypass security restrictions, cause memory corruption, cause denial of service (DoS) conditions, gain unauthorized access, and manipulate application data on the targeted system.\nTarget Audience:\nAll organizations and individuals using the affected versions of MongoDB Products.\nRisk Assessment:\nHigh risk of compromise of affected systems.\nImpact Assessment:\nPotential for memory corruption, unauthorized access, and manipulate application data.\nDescription\nMongoDB is a document-based database that stores information in flexible, JSON-like documents rather than traditional tables and rows, making it well suited for handling large or evolving data structures.\nMultiple vulnerabilities exist in MongoDB products due to race conditions, improper neutralization of special elements in data query logic, integer overflows, uncontrolled resource consumption, incorrect authorization, insufficient validation of configuration options, and use-after-free errors.\nSuccessful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, elevate privileges, obtain\/disclose sensitive information, bypass security restrictions, cause memory corruption, cause denial of service (DoS) conditions, gain unauthorized access, and manipulate application data on the targeted system.\nSolution\nApply appropriate security updates as mentioned in the MongoDB Security Updates:\nhttps:\/\/www.mongodb.com\/resources\/products\/alerts#security\nVendor Information\nMongoDB\nhttps:\/\/www.mongodb.com\/\nReferences\nhttps:\/\/www.mongodb.com\/resources\/products\/alerts#security\nCVE Name\nFor complete list of affected products, CVEs, workarounds and solutions, refer to the MongoDB security updates.\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
-    "scraped_at":"2026-09-16 09:18:00"
+    "scraped_at":"2026-09-16 12:50:44"
   }
 ]
