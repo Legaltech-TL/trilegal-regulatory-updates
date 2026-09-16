@@ -19995,3 +19995,65 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-09-16 09:18:00
 9fd8798faa2f6609,CERT-In Vulnerability Note  CIVN-2026-0458,"September 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0458,Latest Security Alert,,2026-09-16 12:50:44
+2dfca48df27c3954,CERT-In Vulnerability Note  CIVN-2026-0460,"September 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0460,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0460
+Multiple Vulnerabilities in MikroTik RouterOS
+Original Issue Date:September 16, 2026
+Severity Rating: CRITICAL
+Software Affected
+Mikrotik router OS version 7.24 and prior to 7.24.2
+Mikrotik router OS version 7.0.0  and prior to 7.23.4
+Mikrotik router OS version 6.0.0 and prior to 6.49.21
+Overview
+Multiple vulnerabilities have been reported in MikroTik RouterOS that could allow attackers to escalate privileges, bypass authentication, and cause denial-of-service (DoS) attacks on affected systems.
+Target Audience:
+All organizations and individuals using MikroTik Router.
+Risk Assessment:
+High risks of bypass authentication and data breach.
+Impact Assessment:
+Potential impact on confidentiality, integrity and availability of the system.
+Description
+1. Denial of Service Vulnerability
+(
+CVE-2026-67277
+)
+A vulnerability exists in MikroTik RouterOS due to a missing authentication check in MikroTik RouterOSs bandwidth-test (btest) service. An attacker could exploit this vulnerability by sending specially crafted network requests to the exposed btest service.
+Successful exploitation of this vulnerability could allow the attacker to read portions of uninitialized kernel memory and cause the router to crash or restart, resulting in a denial-of-service condition.
+2. Privilege Escalation Vulnerability
+(
+CVE-2026-86060
+)
+A vulnerability exists in MikroTik RouterOS due to improper handling and neutralization of argument delimiters in the RouterOS SSH login path. An attacker could exploit this vulnerability by sending a crafted username or command argument through an accessible SSH login session to alter the RouterOS policy mask.
+Successful exploitation of this vulnerability could allow the attacker to escalate privileges and use the compromised router to access internal systems.
+3. Authentication Bypass Vulnerability
+(
+CVE-2026-67276
+)
+A vulnerability exists in MikroTik RouterOS due to an incomplete verification of RSA public keys during MikroTik RouterOS SSH authentication. An attacker could exploit this vulnerability by sending a specially crafted SSH public-key authentication request containing a forged RSA key and signature.
+Successful exploitation of this vulnerability could allow the attacker to bypass authentication and potentially gain full administrative control of the targeted system.
+Solution
+Apply appropriate updates as mentioned in MikroTik advisory:
+https://mikrotik.com/supportsec/september-2026-vulnerability/
+Vendor Information
+MikroTik
+https://mikrotik.com/supportsec/september-2026-vulnerability/
+References
+MikroTik
+https://mikrotik.com/supportsec/september-2026-vulnerability/
+CVE Name
+CVE-2026-67277
+CVE-2026-86060
+CVE-2026-67276
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-16 15:19:04
+5a7d6c4739806f23,CERT-In Vulnerability Note  CIVN-2026-0459,"September 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0459,Latest Security Alert,,2026-09-16 15:19:04

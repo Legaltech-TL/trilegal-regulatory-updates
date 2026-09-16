@@ -1,11 +1,20 @@
 [
   {
-    "id":"9fd8798faa2f6609",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0458",
+    "id":"2dfca48df27c3954",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0460",
     "date":"September 16, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0458",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0460",
+    "category":"Latest Security Alert",
+    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0460\nMultiple Vulnerabilities in MikroTik RouterOS\nOriginal Issue Date:September 16, 2026\nSeverity Rating: CRITICAL\nSoftware Affected\nMikrotik router OS version 7.24 and prior to 7.24.2\nMikrotik router OS version 7.0.0\u00a0 and prior to 7.23.4\nMikrotik router OS version 6.0.0 and prior to 6.49.21\nOverview\nMultiple vulnerabilities have been reported in MikroTik RouterOS that could allow attackers to escalate privileges, bypass authentication, and cause denial-of-service (DoS) attacks on affected systems.\nTarget Audience:\nAll organizations and individuals using MikroTik Router.\nRisk Assessment:\nHigh risks of bypass authentication and data breach.\nImpact Assessment:\nPotential impact on confidentiality, integrity and availability of the system.\nDescription\n1.\u00a0Denial of Service Vulnerability\n(\nCVE-2026-67277\n)\nA vulnerability exists in MikroTik RouterOS due to a missing authentication check in MikroTik RouterOSs bandwidth-test (btest) service. An attacker could exploit this vulnerability by sending specially crafted network requests to the exposed btest service.\nSuccessful exploitation of this vulnerability could allow the attacker to read portions of uninitialized kernel memory and cause the router to crash or restart, resulting in a denial-of-service condition.\n2.\u00a0Privilege Escalation Vulnerability\n(\nCVE-2026-86060\n)\nA vulnerability exists in MikroTik RouterOS due to improper handling and neutralization of argument delimiters in the RouterOS SSH login path. An attacker could exploit this vulnerability by sending a crafted username or command argument through an accessible SSH login session to alter the RouterOS policy mask.\nSuccessful exploitation of this vulnerability could allow the attacker to escalate privileges and use the compromised router to access internal systems.\n3.\u00a0Authentication Bypass Vulnerability\n(\nCVE-2026-67276\n)\nA vulnerability exists in MikroTik RouterOS due to an incomplete verification of RSA public keys during MikroTik RouterOS SSH authentication. An attacker could exploit this vulnerability by sending a specially crafted SSH public-key authentication request containing a forged RSA key and signature.\nSuccessful exploitation of this vulnerability could allow the attacker to bypass authentication and potentially gain full administrative control of the targeted system.\nSolution\nApply appropriate updates as mentioned in MikroTik advisory:\nhttps:\/\/mikrotik.com\/supportsec\/september-2026-vulnerability\/\nVendor Information\nMikroTik\nhttps:\/\/mikrotik.com\/supportsec\/september-2026-vulnerability\/\nReferences\nMikroTik\nhttps:\/\/mikrotik.com\/supportsec\/september-2026-vulnerability\/\nCVE Name\nCVE-2026-67277\nCVE-2026-86060\nCVE-2026-67276\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
+    "scraped_at":"2026-09-16 15:19:04"
+  },
+  {
+    "id":"5a7d6c4739806f23",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0459",
+    "date":"September 16, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0459",
     "category":"Latest Security Alert",
     "content":"",
-    "scraped_at":"2026-09-16 12:50:44"
+    "scraped_at":"2026-09-16 15:19:04"
   }
 ]
