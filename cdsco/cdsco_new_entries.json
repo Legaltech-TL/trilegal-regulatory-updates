@@ -1,3 +1,32 @@
 [
-
+  {
+    "id":"569bd1729850c944",
+    "category":"gazette_notifications",
+    "sno":"1",
+    "title":"2026.09.08 G.S.R. 791(E)_Draft notification for amendment in the Drugs Rules 1945 regarding mandatory installation of CCTV surveillance system at sales premises",
+    "date":"2026-Sep-08",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2NzQ=",
+    "filename":"20260908_GSR_791EDraft_notification_for_amendment_in",
+    "scraped_time":"2026-09-17T08:37:36.270938"
+  },
+  {
+    "id":"81e003df445af0f1",
+    "category":"gazette_notifications",
+    "sno":"3",
+    "title":"2026.09.03 G.S.R. 790(E)_Draft Notification for extension of prior intimation system for certain BA and BE studies for approval of New Drugs in India",
+    "date":"2026-Sep-03",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2NzU=",
+    "filename":"20260903_GSR_790EDraft_Notification_for_extension_of",
+    "scraped_time":"2026-09-17T08:37:36.270938"
+  },
+  {
+    "id":"780ad5ede5acfe46",
+    "category":"gazette_notifications",
+    "sno":"4",
+    "title":"2026.09.03 G.S.R. 792(E)_Draft notification to amend Schedule K by incorporating Levonorgestrel Tablets 0.75 MG, 1.5mg (emergency Contraceptives) under s.no. 06 of entry no. 15 of Schedule K of the Drugs Rules, 1945",
+    "date":"2026-Sep-03",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ2NzY=",
+    "filename":"20260903_GSR_792EDraft_notification_to_amend_Schedule",
+    "scraped_time":"2026-09-17T08:37:36.270938"
+  }
 ]
