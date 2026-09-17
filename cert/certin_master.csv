@@ -20057,3 +20057,77 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-09-16 15:19:04
 5a7d6c4739806f23,CERT-In Vulnerability Note  CIVN-2026-0459,"September 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0459,Latest Security Alert,,2026-09-16 15:19:04
+3fa194e28729f34c,CERT-In Vulnerability Note  CIVN-2026-0461,"September 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0461,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0461
+Multiple Vulnerabilities in Cisco Secure Email Gateway
+Original Issue Date:September 17, 2026
+Severity Rating: CRITICAL
+Software Affected
+Cisco Secure Email Gateway 15.5 and earlier
+Cisco Secure Email and Web Manager 15.5 and earlier
+Overview
+Multiple vulnerabilities have been reported in Cisco Secure Email Gateway and Cisco Secure Email and Web Manager that could allow an attacker to gain unauthorized access to files outside restricted directories, bypass authorization controls and access restricted resources, inject malicious input, consume excessive system resources, degrade service availability, or cause a denial-of-service (DoS) condition on the targeted system.
+Target Audience:
+All IT administrators and individuals using Cisco products.
+Risk Assessment:
+Risk of information disclosure.
+Impact Assessment:
+Potential for disclosure of sensitive information and compromise of confidentiality.
+Description
+1. Path Traversal Vulnerability
+(
+CVE-2026-76440
+)
+This vulnerability exists due to improper validation and resolution of pathnames and symbolic links, which could allow an unauthenticated, remote attacker to bypass intended directory restrictions.
+Successful exploitation of this vulnerability could allow an attacker to access, read, or modify files outside the designated restricted directories, potentially resulting in unauthorized disclosure or manipulation of sensitive system files.
+2. Improper Access Control Vulnerability
+(
+CVE-2026-76441
+)
+This vulnerability could allow a remote, unauthenticated attacker to bypass intended authentication or authorization controls and gain unauthorized access to restricted resources or functionality.
+Successful exploitation of this vulnerability could enable an attacker to access resources or perform functions that should be restricted to authenticated or authorized users, potentially resulting in unauthorized data access, modification, or other security impacts depending on the privileges associated with the affected functionality.
+3. Input Validation of Quantity Vulnerability
+(
+CVE-2026-76442
+)
+This vulnerability exists due to an input validation, which could allow a remote attacker to submit unbounded or excessively large numeric input.
+Successful exploitation of this vulnerability could allow excessive consumption of system resources, potentially degrading service availability or causing the affected system to become unresponsive, resulting in a Denial-of-Service (DoS) condition.
+4. Improper Neutralization Vulnerability
+(
+CVE-2026-76443
+)
+This vulnerability could allow an attacker to inject malicious input into security-sensitive processing contexts, including command, SQL, code/evaluation, or cross-site scripting (XSS) contexts.
+Successful exploitation of this vulnerability could allow an attacker to execute unauthorized commands or code, access or manipulate data, or perform other unauthorized actions within the context of the affected component.
+5. Resource Lifetime Control Vulnerability
+(
+CVE-2026-20353
+)
+This vulnerability could allow an attacker to trigger uncontrolled resource consumption through improper resource management, unsafe deserialization, or improper resource initialization.
+Successful exploitation of this vulnerability could allow excessive consumption of system resources, service degradation, or service disruption, potentially causing the affected system to become unresponsive and resulting in a Denial-of-Service (DoS) condition.
+Solution
+Apply appropriate updates as mentioned in Cisco Advisory
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm
+Vendor Information
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm
+References
+CISCO
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm
+CVE Name
+CVE-2026-76440
+CVE-2026-76441
+CVE-2026-76442
+CVE-2026-76443
+CVE-2026-20353
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-17 09:26:37
