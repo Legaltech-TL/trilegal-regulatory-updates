@@ -1,3 +1,20 @@
 [
-
+  {
+    "id":"4b8ed76b5c19d3e2",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0466",
+    "date":"September 18, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0466",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-09-18 12:22:59"
+  },
+  {
+    "id":"24d2705cca2c9fc1",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0465",
+    "date":"September 18, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0465",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-09-18 12:22:59"
+  }
 ]
