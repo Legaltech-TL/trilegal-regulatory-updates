@@ -20231,3 +20231,246 @@ New Delhi - 110 003
 India",2026-09-17 12:47:53
 4b8ed76b5c19d3e2,CERT-In Vulnerability Note  CIVN-2026-0466,"September 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0466,Latest Security Alert,,2026-09-18 12:22:59
 24d2705cca2c9fc1,CERT-In Vulnerability Note  CIVN-2026-0465,"September 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0465,Latest Security Alert,,2026-09-18 12:22:59
+9d1243e3e10f9ae9,CERT-In Vulnerability Note  CIVN-2026-0468,"September 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0468,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0468
+Multiple Vulnerabilities in Apple Products
+Original Issue Date:September 21, 2026
+Severity Rating: HIGH
+Software Affected
+Apple iOS versions prior to 26.7
+Apple iPadOS versions prior to 26.7
+Apple macOS Golden Gate versions prior to 27
+Apple macOS Tahoe versions prior to 26.7
+Apple macOS Sequoia versions prior to 15.8
+Apple tvOS versions prior to 27
+Apple watchOS versions prior to 27
+Apple visionOS versions prior to 27
+Apple Safari versions prior to 27
+Apple Xcode versions prior to 27
+Overview
+Multiple vulnerabilities have been reported in Apple Products, which could allow a remote attacker to execute arbitrary code, or cause denial of service (DoS) conditions on the targeted system.
+Target Audience:
+Individuals and organizational using affected Apple operating systems and devices.
+Risk Assessment:
+High risk of arbitrary code execution, denial-of-service conditions, and unauthorized access to sensitive information.
+Impact Assessment:
+Potential for complete system compromise, data theft, and service disruption.
+Description
+Multiple vulnerabilities exist in Apple Products due to out-of-bounds read/write, integer overflow, use after free, type confusion, race conditions, memory corruption, authentication issues, authorization weaknesses, permission flaws, path traversal, and improper input validation. A remote attacker could exploit these vulnerabilities by sending a specially crafted request to the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, elevate privileges, obtain/disclose sensitive information, bypass security restrictions, cause memory corruption, cause denial of service (DoS) conditions on the targeted system.
+Solution
+Apply appropriate fixes as mentioned in Apple security Updates:
+https://support.apple.com/en-us/149034
+https://support.apple.com/en-us/149041
+https://support.apple.com/en-us/149035
+https://support.apple.com/en-us/149042
+https://support.apple.com/en-us/149043
+https://support.apple.com/en-us/149036
+https://support.apple.com/en-us/149037
+https://support.apple.com/en-us/149038
+https://support.apple.com/en-us/149039
+https://support.apple.com/en-us/149040
+Vendor Information
+Apple
+https://support.apple.com/en-us/149034
+https://support.apple.com/en-us/149041
+https://support.apple.com/en-us/149035
+https://support.apple.com/en-us/149042
+https://support.apple.com/en-us/149043
+https://support.apple.com/en-us/149036
+https://support.apple.com/en-us/149037
+https://support.apple.com/en-us/149038
+https://support.apple.com/en-us/149039
+https://support.apple.com/en-us/149040
+References
+https://support.apple.com/en-us/149034
+https://support.apple.com/en-us/149041
+https://support.apple.com/en-us/149035
+https://support.apple.com/en-us/149042
+https://support.apple.com/en-us/149043
+https://support.apple.com/en-us/149036
+https://support.apple.com/en-us/149037
+https://support.apple.com/en-us/149038
+https://support.apple.com/en-us/149039
+https://support.apple.com/en-us/149040
+CVE Name
+CVE-2026-86882
+CVE-2026-43664
+CVE-2026-64761
+CVE-2026-65404
+CVE-2026-84523
+CVE-2026-86888
+CVE-2026-20683
+CVE-2026-65408
+CVE-2026-65407
+CVE-2026-84519
+CVE-2026-84593
+CVE-2026-86905
+CVE-2026-84583
+CVE-2026-65410
+CVE-2026-84616
+CVE-2026-84607
+CVE-2026-65406
+CVE-2026-86885
+CVE-2026-86879
+CVE-2026-65414
+CVE-2026-84560
+CVE-2026-86878
+CVE-2026-86895
+CVE-2026-86893
+CVE-2026-65399
+CVE-2026-64752
+CVE-2026-86876
+CVE-2026-65344
+CVE-2026-84624
+CVE-2026-43737
+CVE-2026-65412
+CVE-2026-84596
+CVE-2026-84575
+CVE-2026-84489
+CVE-2026-84571
+CVE-2026-43738
+CVE-2026-84511
+CVE-2026-84612
+CVE-2026-84552
+CVE-2026-84510
+CVE-2026-43785
+CVE-2026-84534
+CVE-2026-43688
+CVE-2026-84524
+CVE-2026-84597
+CVE-2026-65409
+CVE-2026-84492
+CVE-2026-84533
+CVE-2026-84606
+CVE-2026-64756
+CVE-2026-84564
+CVE-2026-65395
+CVE-2026-28969
+CVE-2026-65398
+CVE-2026-64760
+CVE-2026-65354
+CVE-2026-28968
+CVE-2026-84566
+CVE-2026-65415
+CVE-2026-84561
+CVE-2026-84630
+CVE-2026-65377
+CVE-2026-65360
+CVE-2026-84622
+CVE-2026-43689
+CVE-2026-43687
+CVE-2026-43686
+CVE-2026-65405
+CVE-2026-84521
+CVE-2026-65359
+CVE-2026-86903
+CVE-2026-84602
+CVE-2026-86883
+CVE-2026-86924
+CVE-2026-84628
+CVE-2026-65411
+CVE-2026-84598
+CVE-2026-84497
+CVE-2026-43695
+CVE-2026-84626
+CVE-2026-84623
+CVE-2026-84532
+CVE-2026-65403
+CVE-2026-84518
+CVE-2026-84551
+CVE-2026-84625
+CVE-2026-84603
+CVE-2026-84632
+CVE-2026-84546
+CVE-2026-84526
+CVE-2026-84531
+CVE-2026-86884
+CVE-2026-84609
+CVE-2026-86892
+CVE-2026-65345
+CVE-2026-86886
+CVE-2026-84527
+CVE-2026-65329
+CVE-2026-86887
+CVE-2026-86904
+CVE-2026-84635
+CVE-2026-64753
+CVE-2026-86898
+CVE-2026-64718
+CVE-2026-43674
+CVE-2026-84636
+CVE-2026-84617
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-21 09:56:11
+fdac35805416b64e,CERT-In Vulnerability Note  CIVN-2026-0467,"September 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0467,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0467
+Multiple Vulnerabilities in ISC BIND
+Original Issue Date:September 21, 2026
+Severity Rating: HIGH
+Software Affected
+BIND version 9.11.0 to 9.18.50
+BIND version 9.20.0 to 9.20.27
+BIND version 9.21.0 to 9.21.25
+BIND Supported Preview Edition version 9.11.3-S1 to 9.18.50-S1
+BIND Supported Preview Edition version 9.20.9-S1 to 9.20.27-S1
+Overview
+Multiple vulnerabilities have been identified in ISC BIND that could allow a remote attacker to cause denial-of-service (DoS) conditions, bypass security restrictions, conduct spoofing or cache-poisoning attacks, or cause unauthorized data to be added to a DNS zone, depending on the specific vulnerability and configuration of the affected system.
+Target Audience:
+Network Administrators and Security Professionals
+Risk Assessment:
+High risk of denial-of-service (DoS) conditions, bypass of security restrictions, spoofing, cache poisoning, and unauthorized modification of DNS zone data.
+Impact Assessment:
+Potential for denial-of-service (DoS) conditions, bypass of security restrictions, spoofing or cache-poisoning attacks, and unauthorized DNS zone data modification.
+Description
+ISC BIND is an open-source DNS server software package that provides both authoritative and recursive DNS services.
+The vulnerabilities affect ISC BIND due to issues including Use-After-Free, Numeric Truncation Error, Excessive Platform Resource Consumption within a Loop, Missing Release of Memory after Effective Lifetime, Reachable Assertion, Acceptance of Extraneous Untrusted Data with Trusted Data, Null Pointer Dereference, Origin Validation Error, Asymmetric Resource Consumption (Amplification), Insufficient Verification of Data Authenticity, and Inefficient Algorithmic Complexity. A remote attacker could exploit these vulnerabilities by sending specially crafted DNS queries, DNS responses, DNSSEC-related records, zone-transfer data, TKEY requests, SVCB/HTTPS records, or DNS-over-HTTPS requests to an affected BIND server.
+Successful exploitation of these vulnerabilities could allow an attacker to cause denial-of-service (DoS) conditions, bypass security restrictions, conduct spoofing or cache-poisoning attacks, or cause unauthorized data to be added to a DNS zone, depending on the specific vulnerability and configuration of the affected system.
+Solution
+Apply appropriate updates as mentioned as mentioned by the Vendor
+https://downloads.isc.org/isc/bind9/9.21.26/doc/arm/html/changelog.html
+https://kb.isc.org/docs/all-bind-advisories
+Vendor Information
+ISC BIND
+https://www.isc.org/bind/
+References
+ISC BIND
+https://downloads.isc.org/isc/bind9/9.21.26/doc/arm/html/changelog.html
+https://kb.isc.org/docs/all-bind-advisories
+CVE Name
+CVE-2026-19033
+CVE-2026-19662
+CVE-2026-19666
+CVE-2026-19667
+CVE-2026-19668
+CVE-2026-19941
+CVE-2026-75029
+CVE-2026-76163
+CVE-2026-77119
+CVE-2026-77692
+CVE-2026-78301
+CVE-2026-80274
+CVE-2026-81563
+CVE-2026-81736
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-21 09:56:11
