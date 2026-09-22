@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-09-21T11:37:58.001108",
-  "count": 1,
+  "generated_at": "2026-09-22T14:09:58.859440",
+  "count": 3,
   "items": [
     {
-      "id": "fb61cbecac2639d3",
-      "title": "Transfer and Posting of JAG Level officers of BWS Electrical grp A cadre",
+      "id": "20ec4c861a4753e7",
+      "title": "Union Minister of Communications Shri Jyotiraditya Scindia to convene Investors\u2019 Meet in Bengaluru along with Chief Minister, Madhya Pradesh, Dr. Mohan Yadav to attract Investment for Telecom Manufacturing Zone in Gwalior",
       "publish_date": "09/21/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/77f9f2ca1fb2bb21eb4eeee78eb9dd45.pdf",
-      "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "09/21/2026"
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/72ec1d88e1d2fed9e7bf6bd006c0e5f3.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "09/22/2026"
+    },
+    {
+      "id": "e51b255981a33edd",
+      "title": "Department of Telecommunications Cautions Citizens against fraudulent issuance of SIM cards, misuse of telecom identifiers, or tampering with IMEI numbers",
+      "publish_date": "09/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/7b00c45b914909e08cc78258efc2065b.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "09/22/2026"
+    },
+    {
+      "id": "2f76ebc037dc0003",
+      "title": "Union Minister of Communications & Development of North Eastern Region, Shri Jyotiraditya Scindia inspects site identified for Telecom Manufacturing Zone in Gwalior along with Secretary, Department of Telecommunications and senior officials",
+      "publish_date": "09/20/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/ad31f91ff679c4cc416853dfdd3977f1.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "09/22/2026"
     }
   ]
 }
