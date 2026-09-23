@@ -20476,3 +20476,47 @@ New Delhi - 110 003
 India",2026-09-21 09:56:11
 a7f91a722a2d55fd,CERT-In Vulnerability Note  CIVN-2026-0469,"September 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0469,Latest Security Alert,,2026-09-21 14:33:13
 1f04ab74d4f167ee,CERT-In Vulnerability Note  CIVN-2026-0470,"September 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0470,Latest Security Alert,,2026-09-22 09:18:47
+9053f71345d124ca,CERT-In Vulnerability Note  CIVN-2026-0471,"September 23, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0471,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0471
+Improper Input Validation Vulnerability in VeloCloud Orchestrator
+Original Issue Date:September 23, 2026
+Severity Rating: HIGH
+Software Affected
+VeloCloud Orchestrator On-Prem 5.2.3.15 or earlier
+VeloCloud Orchestrator On-Prem 6.1.3.7 or earlier
+VeloCloud Orchestrator On-Prem 6.4.2.7 or earlier
+VeloCloud Orchestrator On-Prem 7.0.0.2 or earlier
+Overview
+A vulnerability has been reported in VeloCloud Orchestrator (VCO) which could allow a remote attacker to gain unauthorized access and compromise of affected systems.
+Target Audience:
+Users of VeloCloud Orchestrator (VCO) On-Prem.
+Risk Assessment:
+High risk of unauthorized access and compromise of affected systems.
+Impact Assessment:
+Potential for loss of confidentiality, integrity, and availability of the orchestrator and managed data.
+Description
+VeloCloud Orchestrator (VCO) on-prem has a security issue due to improper authorization. A remote attacker could exploit these vulnerabilities by accessing the VCO web interface.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access and compromise f affected systems.
+Note: This vulnerability is being actively exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183
+Vendor Information
+Arista
+https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183
+References
+https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183
+CVE Name
+CVE-2026-93952
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-09-23 09:19:04
