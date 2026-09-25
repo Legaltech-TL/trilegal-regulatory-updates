@@ -1,5 +1,38 @@
 {
-  "generated_at": "2026-09-25T08:38:53.609555",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-09-25T10:59:04.958700",
+  "count": 4,
+  "items": [
+    {
+      "id": "78ed950c59bb580e",
+      "title": "Extension of deputation period of Shri Sameer Gupta, ITS (Staff No.20460) Advisor in TRAI HQ, New Delhi on deputation basis reg",
+      "publish_date": "09/24/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/2625030460d2ac0b2852ce7ad44749b1.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "09/25/2026"
+    },
+    {
+      "id": "46504ad842c9c021",
+      "title": "Civil list of officers of Indian Posts and Telecommunications Accounts and Finance Service Group A as on 1.7.2026",
+      "publish_date": "09/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/136752616f828d7e9be51a0ca4c6aa19.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "09/25/2026"
+    },
+    {
+      "id": "bbdf02e1d6c8afb5",
+      "title": "Taken on strength i.r.o. officer of JTO of TES Gr. B- Shri Aabhushan, Staff no. 60215",
+      "publish_date": "09/23/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/1ce79b1c51a382d7fef3982346cf59be.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "09/25/2026"
+    },
+    {
+      "id": "4561d66bf243e2aa",
+      "title": "Extension of deputation period of Shri Sanjay Kumar Khare P and T BWS Gr A Staff No 96533 Chief Engineer Electrical DDA",
+      "publish_date": "09/22/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/ce3e36e5fd7bb5df0d1250e6db93f2b8.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "09/25/2026"
+    }
+  ]
 }
