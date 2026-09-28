@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-09-28T12:26:09.317611",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-09-28T17:30:15.250132",
+  "count": 2,
+  "items": [
+    {
+      "id": "b0213634bc205ecf",
+      "title": "Inviting Nomination for 03-Day CIST on \u201cSatellite Communications- Emerging Technologies, Applications and Regulatory Perspectives\u201d (28\u201330 October 2026) at NCA-T, Ghaziabad",
+      "publish_date": "09/25/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/3d62734874b66d8c9ab6fb29d8dc41b5.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "09/28/2026"
+    },
+    {
+      "id": "abca9442f6da6fa7",
+      "title": "Retirement on Superannuation of Director (CFA) BSNL- Shri Vivek Banzal",
+      "publish_date": "09/25/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/ba4e7ea089d530d11de297a3efe603ee.pdf",
+      "category": "ORDERS_AND_NOTICES",
+      "scraped_at": "09/28/2026"
+    }
+  ]
 }
