@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-09-28T17:21:59.977462",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-09-29T09:11:27.847734",
+  "count": 2,
+  "items": [
+    {
+      "id": "e73056d01e167bf4",
+      "title": "Pension Fund Regulatory and Development...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/184762/Pension+Fund+Regulatory+and+Development+Authority+%28Procedure+for+Inquiry+by+Adjudicating+Officer%29+Amendment+Regulations%2C+2026.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "09/29/2026"
+    },
+    {
+      "id": "59fc3b92fbf2aa44",
+      "title": "Pension Fund Regulatory and Development Authority (Procedure for Inquiry by Adjudicating Officer) Amendment Regulations, 2026\nIssue Date: 29-09-2026",
+      "publish_date": "09/29/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/184762/Pension+Fund+Regulatory+and+Development+Authority+%28Procedure+for+Inquiry+by+Adjudicating+Officer%29+Amendment+Regulations%2C+2026.pdf",
+      "category": "REGULATION",
+      "scraped_at": "09/29/2026"
+    }
+  ]
 }
