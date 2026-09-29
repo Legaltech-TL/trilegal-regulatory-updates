@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-09-28T17:30:15.250132",
-  "count": 2,
+  "generated_at": "2026-09-29T12:05:06.449441",
+  "count": 3,
   "items": [
     {
-      "id": "b0213634bc205ecf",
-      "title": "Inviting Nomination for 03-Day CIST on \u201cSatellite Communications- Emerging Technologies, Applications and Regulatory Perspectives\u201d (28\u201330 October 2026) at NCA-T, Ghaziabad",
-      "publish_date": "09/25/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/3d62734874b66d8c9ab6fb29d8dc41b5.pdf",
+      "id": "6c9a5a2a7017b49c",
+      "title": "Empanelment of serving/ retired ITS officers as Advisers/ experts to the UPSC",
+      "publish_date": "09/29/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/3764ed9234e1380e303613ee25315000.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "09/28/2026"
+      "scraped_at": "09/29/2026"
     },
     {
-      "id": "abca9442f6da6fa7",
-      "title": "Retirement on Superannuation of Director (CFA) BSNL- Shri Vivek Banzal",
-      "publish_date": "09/25/2026",
-      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/ba4e7ea089d530d11de297a3efe603ee.pdf",
+      "id": "7c821af8ec701a8f",
+      "title": "Issued final seniority list with respect to electrical sub cadre to P and T BWS group A",
+      "publish_date": "08/21/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/0e1a61bfafd21b7ecf435a7143fd3dff.pdf",
       "category": "ORDERS_AND_NOTICES",
-      "scraped_at": "09/28/2026"
+      "scraped_at": "09/29/2026"
+    },
+    {
+      "id": "bc09a7fd71651b17",
+      "title": "Department of Telecommunications undertakes Special Campaign 6 for Swachhata, efficient record management and better office administration",
+      "publish_date": "09/28/2026",
+      "pdf_url": "https://www.dot.gov.in/static/uploads/2026/09/4e35fe54dfe9eed5b7f72da7ca596de4.pdf",
+      "category": "PRESS_RELEASE",
+      "scraped_at": "09/29/2026"
     }
   ]
 }
