@@ -1,22 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:42:18.831797",
-  "count": 2,
-  "items": [
-    {
-      "id": "8978cebd482e847c",
-      "title": "Corrigendum-Request for Proposal for Appointment...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "10/05/2026"
-    },
-    {
-      "id": "e437dbaa280aae23",
-      "title": "Pre-Bid Response: Request for Proposal...",
-      "publish_date": "",
-      "pdf_url": "",
-      "category": "CIRCULAR",
-      "scraped_at": "10/05/2026"
-    }
-  ]
+  "generated_at": "2026-10-05T13:55:46.687892",
+  "count": 0,
+  "items": []
 }
