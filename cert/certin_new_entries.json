@@ -1,3 +1,11 @@
 [
-
+  {
+    "id":"b1cf7408f70402af",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0488",
+    "date":"October 05, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0488",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-10-05 16:23:45"
+  }
 ]
