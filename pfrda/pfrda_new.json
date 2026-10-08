@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-10-08T09:37:16.681445",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-10-08T13:02:15.465987",
+  "count": 2,
+  "items": [
+    {
+      "id": "aa79351f65477814",
+      "title": "Recruitment of Grade A (Assistant...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/212847/PFRDA+%28Phase+I%29+IH+2026+%28Bilingual%29.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "10/08/2026"
+    },
+    {
+      "id": "396af60839a751b1",
+      "title": "Circular - Extension of Incentive Framework under National Pension System (NPS) \u2013 \u201cNPS e-shramik (Platform Service Partner) Model\u201d for FY 2026-27 (Copy)\nPromotion and Development - NPS Point of Presence\nRef: PFRDA/2026/43/P&DCORP/02\nIssue Date: 18-08-2026",
+      "publish_date": "08/18/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/153574/Circular-+Extension+of+POP+incentive+framework.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "10/08/2026"
+    }
+  ]
 }
