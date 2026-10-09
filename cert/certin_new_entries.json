@@ -1,3 +1,20 @@
 [
-
+  {
+    "id":"7895c8e1d749fb27",
+    "title":"CERT-In Advisory   CIAD-2026-0046",
+    "date":"October 09, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0046",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-10-09 11:19:50"
+  },
+  {
+    "id":"b53312c8bd4bf1c0",
+    "title":"Threat Actors Exploiting Payment and Disbursement APIs for Unauthorized Fund Transfers in BFSI Entities",
+    "date":"October 09, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3610",
+    "category":"Current Activities",
+    "content":"",
+    "scraped_at":"2026-10-09 11:19:50"
+  }
 ]
