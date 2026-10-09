@@ -20634,3 +20634,46 @@ India",2026-10-07 11:05:07
 590a0f189a3cfa7b,CERT-In Vulnerability Note  CIVN-2026-0493,"October 08, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0493,Latest Security Alert,,2026-10-08 11:22:09
 7895c8e1d749fb27,CERT-In Advisory   CIAD-2026-0046,"October 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0046,Latest Security Alert,,2026-10-09 11:19:50
 b53312c8bd4bf1c0,Threat Actors Exploiting Payment and Disbursement APIs for Unauthorized Fund Transfers in BFSI Entities,"October 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3610,Current Activities,,2026-10-09 11:19:50
+b03aea6901ea68d2,CERT-In Vulnerability Note  CIVN-2026-0494,"October 09, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0494,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0494
+SSH Pre-Authentication Rekey State Bypass Vulnerability in MikroTik RouterOS
+Original Issue Date:October   09, 2026
+Severity Rating: MEDIUM
+Software Affected
+MikroTik RouterOS 6.0.0 to versions below 6.49.21
+MikroTik RouterOS 7.0.0 to versions below 7.23.4
+MikroTik RouterOS 7.24 to versions below 7.24.2
+Overview
+A pre-authentication rekey state bypass vulnerability has been reported in MikroTik RouterOS which could allow an unauthenticated remote attacker to bypass the expected SSH authentication workflow, open a session channel and send an execution request on affected devices.
+Target Audience:
+Organizations and network administrators using affected MikroTik RouterOS devices.
+Risk Assessment:
+Risk of unauthorized operations within the RouterOS managed file namespace, including creation, overwriting and reconstruction of files containing configuration and diagnostic information.
+Impact Assessment:
+Potential for unauthorized file creation, modification or reconstruction, including files containing configuration and diagnostic information, and unauthorized operations on affected RouterOS devices.
+Description
+MikroTik RouterOS is an operating system used in MikroTik networking devices. It provides routing, network management and remote administration capabilities, including administration through the SSH protocol.
+A pre-authentication rekey state bypass vulnerability exists in the SSH implementation of affected MikroTik RouterOS versions due to improper enforcement of the expected authentication workflow. An unauthenticated remote attacker could exploit this vulnerability to open a session channel and send an execution request without completing user authentication.
+Successful exploitation of this vulnerability, could allow an unauthenticated attacker to perform unauthorized operations within the RouterOS managed file namespace, including creation, overwriting and reconstruction of files containing configuration and diagnostic information.
+Solution
+Apply appropriate security updates and mitigations as recommended below:
+https://mikrotik.com/support
+Vendor Information
+MikroTik
+https://mikrotik.com/support
+References
+https://mikrotik.com/support
+CVE Name
+CVE-2026-67279
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-09 14:40:58
