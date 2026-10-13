@@ -20679,3 +20679,67 @@ New Delhi - 110 003
 India",2026-10-09 14:40:58
 5f418a65ce1bcc5a,CERT-In Vulnerability Note  CIVN-2026-0495,"October 11, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0495,Latest Security Alert,,2026-10-11 14:22:46
 fa858416cd9e0a50,CERT-In Vulnerability Note  CIVN-2026-0496,"October 12, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0496,Latest Security Alert,,2026-10-12 17:01:57
+13f509fb637956a8,CERT-In Vulnerability Note  CIVN-2026-0497,"October 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0497,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0497
+Multiple Vulnerabilities in GitLab CE/EE
+Original Issue Date:October   13, 2026
+Severity Rating: HIGH
+Software Affected
+GitLab CE/EE: All versions from 10.3 to versions prior to 19.2.8, 19.3.5, and 19.4.2.
+GitLab EE: All versions from 13.6 to versions prior to 19.2.8, 19.3.5, and 19.4.2.
+Overview
+Multiple vulnerabilities have been reported in GitLab Community Edition (CE) and Enterprise Edition (EE), which could allow a remote attacker to execute arbitrary code, gain unauthorized access to restricted resources, disclose sensitive information, bypass security restrictions, manipulate data, or perform server-side request forgery (SSRF) on the targeted system.
+Target Audience:
+Administrators and organizations using affected versions of GitLab Community Edition (CE) and Enterprise Edition (EE).
+Risk Assessment:
+Critical risk of remote code execution, unauthorized access, and sensitive information disclosure in affected GitLab installations.
+Impact Assessment:
+Potential for arbitrary code execution, sensitive information disclosure, unauthorized modification of resources, and bypass of access controls.
+Description
+GitLab is a complete DevOps platform that provides source code management, CI/CD, and security features.
+Multiple vulnerabilities exist in GitLab CE/EE due to integer overflow, cross-site scripting (XSS), improper authorization, permissive regular expressions, improper neutralization of input, insufficient granularity of access control, and server-side request forgery (SSRF). A remote attacker could exploit these vulnerabilities by sending a specially crafted request to the targeted system, such as through a specially crafted regular expression in a CI/CD configuration or by interacting with specific API endpoints and web interfaces.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain unauthorized access to restricted resources, disclose sensitive information, bypass security restrictions, manipulate data, or perform server-side request forgery (SSRF) on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/#cve-2026-97229---integer-overflow-issue-in-cicd-regular-expression-compiler-impacts-gitlab-ceee
+Vendor Information
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/#cve-2026-97229---integer-overflow-issue-in-cicd-regular-expression-compiler-impacts-gitlab-ceee
+References
+https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/#cve-2026-97229---integer-overflow-issue-in-cicd-regular-expression-compiler-impacts-gitlab-ceee
+CVE Name
+CVE-2026-97229
+CVE-2026-92883
+CVE-2026-16301
+CVE-2026-14814
+CVE-2026-81839
+CVE-2026-96893
+CVE-2026-101168
+CVE-2026-7767
+CVE-2026-16275
+CVE-2026-84284
+CVE-2026-85529
+CVE-2026-100755
+CVE-2026-14552
+CVE-2026-6567
+CVE-2026-104661
+CVE-2026-14210
+CVE-2026-105458
+CVE-2026-5954
+CVE-2026-92528
+CVE-2026-78335
+CVE-2026-100104
+CVE-2026-82632
+CVE-2026-103549
+CVE-2026-9268
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-13 15:17:11
