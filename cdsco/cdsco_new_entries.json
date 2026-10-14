@@ -1,3 +1,22 @@
 [
-
+  {
+    "id":"dee6a94297655e2e",
+    "category":"public_notices",
+    "sno":"1",
+    "title":"Clarification regarding requirement of Export NOC for already approved r-DNA products.",
+    "date":"2026-Oct-14",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ3NjM=",
+    "filename":"Clarification_regarding_requirement_of_Export_NOC_for",
+    "scraped_time":"2026-10-14T12:51:26.612312"
+  },
+  {
+    "id":"a964d3e2c9a30929",
+    "category":"public_notices",
+    "sno":"2",
+    "title":"Draft Guidance document for Manufacturers of In-vitro diagnostic Medical device for stakeholders comment",
+    "date":"2026-Oct-09",
+    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ3MzA=",
+    "filename":"Draft_Guidance_document_for_Manufacturers_of_Invitro",
+    "scraped_time":"2026-10-14T12:51:26.612312"
+  }
 ]
