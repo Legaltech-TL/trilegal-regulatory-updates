@@ -20743,3 +20743,107 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-10-13 15:17:11
+d7ed382963477a01,CERT-In Vulnerability Note  CIVN-2026-0501,"October 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0501,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0501
+Elevation of Privilege Vulnerability in Microsoft Exchange Server
+Original Issue Date:October   14, 2026
+Severity Rating: CRITICAL
+Systems Affected
+Microsoft Exchange Server Subscription Edition RTM
+Microsoft Exchange Server 2019 Cumulative Update 14 and prior
+Microsoft Exchange Server 2019 Cumulative Update 15 and prior
+Microsoft Exchange Server 2016 Cumulative Update 23 and prior
+Overview
+A vulnerability has been reported in Microsoft Exchange Server which could allow a remote attacker to elevate privileges on the targeted system.
+Target Audience:
+All end-user organizations and individuals using the Microsoft Exchange Server.
+Risk Assessment:
+High risk of elevating privileges, bypass security restrictions, and gaining unauthorized access.
+Impact Assessment:
+Potential for unauthorized access to sensitive information and disclosure of confidential emails and mailbox data.
+Description
+Microsoft Exchange Server is an enterprise email and collaboration platform used by organizations to manage email, calendars, contacts, tasks, and shared mailboxes.
+An elevation of privilege vulnerability exists in Microsoft Exchange Server due to weak authorization. A remote attacker could exploit these vulnerabilities by sending a specially crafted request to the targeted system.
+Successful exploitation of this vulnerability could allow an attacker to elevate privileges and gain unauthorized access to other users mailboxes within the same organization, including reading email messages and attachments, on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96940
+Vendor Information
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96940
+References
+Microsoft
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96940
+CVE Name
+CVE-2026-96940
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-14 09:30:26
+e5e2d58d3b897a24,CERT-In Vulnerability Note  CIVN-2026-0500,"October 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0500,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0500
+Multiple Vulnerabilities in Drupal Modules
+Original Issue Date:October   14, 2026
+Severity Rating: CRITICAL
+Software Affected
+Tawk.to - Live chat application module prior to version 3.0.4
+Project Browser module versions prior to 2.0.3
+Project Browser module versions from 2.1.0 and before 2.1.5
+Cloud module prior to version 7.0.1
+Webform module versions prior to 6.2.12
+Webform module versions from 6.3.0 and before 6.3.1
+Overview
+Multiple vulnerabilities have been reported in various contributed modules of Drupal, which could allow an attacker to conduct remote code execution, cross-site request forgery, and disclosure of credentials or other sensitive information.
+Target Audience:
+Individuals and end-user organizations using Drupal Modules.
+Risk Assessment:
+High risk of unauthorized access, sensitive information disclosure, malicious script execution, and account compromise.
+Impact Assessment:
+Potential compromise of the confidentiality, integrity, and availability of affected Drupal websites.
+Description
+Drupal is an open-source content management system (CMS) used to build, manage, and publish websites and digital applications. Drupal modules are essential extensions that enhance Drupals core functionality by adding features such as content management, user authentication, search, APIs, security controls, and third-party integrations.
+These vulnerabilities exist in various modules of Drupal due to improper request validation, inadequate input sanitization, and insufficient security checks. An attacker could exploit these vulnerabilities by executing crafted requests or malicious input.
+Successful exploitation could result in remote code execution, disclosure of sensitive information, conduct cross-site scripting attacks, or compromise connected infrastructure of the target system.
+Solution
+Upgrade to the latest versions as mentioned in the advisory:
+https://www.drupal.org/sa-contrib-2026-184
+https://www.drupal.org/sa-contrib-2026-178
+https://www.drupal.org/sa-contrib-2026-177
+https://www.drupal.org/sa-contrib-2026-176
+https://www.drupal.org/sa-contrib-2026-175
+Vendor Information
+Drupal
+https://www.drupal.org/
+References
+https://www.drupal.org/sa-contrib-2026-184
+https://www.drupal.org/sa-contrib-2026-178
+https://www.drupal.org/sa-contrib-2026-177
+https://www.drupal.org/sa-contrib-2026-176
+https://www.drupal.org/sa-contrib-2026-175
+CVE Name
+CVE-2026-96388
+CVE-2026-96374
+CVE-2026-96376
+CVE-2026-96375
+CVE-2026-96355
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-14 09:30:26
+cfd8d0e41a44a806,CERT-In Vulnerability Note  CIVN-2026-0499,"October 14, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0499,Latest Security Alert,,2026-10-14 09:30:26
