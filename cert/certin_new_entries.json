@@ -1,20 +1,11 @@
 [
   {
-    "id":"d68b790ba3ae0ea6",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0506",
-    "date":"October 14, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0506",
+    "id":"03fd5750ce9500f8",
+    "title":"CERT-In Advisory   CIAD-2026-0048",
+    "date":"October 15, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0048",
     "category":"Latest Security Alert",
     "content":"",
-    "scraped_at":"2026-10-14 15:41:39"
-  },
-  {
-    "id":"e24f4a171896724e",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0505",
-    "date":"October 14, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0505",
-    "category":"Latest Security Alert",
-    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0505\nMultiple Vulnerabilities in Google Chrome for Desktop\nOriginal Issue Date:October   14, 2026\nSeverity Rating: CRITICAL\nSoftware Affected\nGoogle Chrome prior to 155.0.8059.79 for Linux\nGoogle Chrome prior to 155.0.8059.79\/.80 for Mac\nGoogle Chrome prior to 155.0.8059.79\/.80 for Windows\nOverview\nMultiple vulnerabilities have been reported in Google Chrome for Desktop which may allow an attacker to execute arbitrary code, disclose sensitive information, gain elevated privileges, bypass security restrictions, or cause denial of service (DoS) conditions on the targeted system.\nTarget Audience:\nAll end user organizations and Individuals using the affected Google Chrome for Desktop.\nRisk Assessment:\nHigh risk of remote code execution, disruption of services, security restriction bypass, and sensitive information disclosure.\nImpact Assessment:\nPotential for unauthorized access, exposure of sensitive information, and compromise of the affected system.\nDescription\nGoogle Chrome is a popular internet browser used for accessing information on the World Wide Web. It is designed for use on desktop systems including Windows, macOS and Linux.\nThese vulnerabilities exist in Google Chrome for Desktop due to security flaws affecting various browser components, including memory management, JavaScript processing, and other browser functionalities. A remote attacker could exploit these vulnerabilities by sending a specially crafted request to the targeted system.\nSuccessful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, disclose sensitive information, gain elevated privileges, bypass security restrictions, or cause denial of service (DoS) conditions on the targeted system.\nSolution\nApply appropriate updates as mentioned by the vendor:\nhttps:\/\/chromereleases.googleblog.com\/2026\/10\/stable-channel-update-for-desktop_01668083673.html\nVendor Information\nGoogle Chrome\nhttps:\/\/chromereleases.googleblog.com\/2026\/10\/stable-channel-update-for-desktop_01668083673.html\nReferences\nhttps:\/\/chromereleases.googleblog.com\/2026\/10\/stable-channel-update-for-desktop_01668083673.html\nhttps:\/\/chromereleases.googleblog.com\/\nCVE Name\nCVE-2026-110152\nCVE-2026-110149\nCVE-2026-110136\nCVE-2026-110161\nCVE-2026-110165\nCVE-2026-110148\nCVE-2026-110151\nCVE-2026-110162\nCVE-2026-110170\nCVE-2026-110160\nCVE-2026-110143\nCVE-2026-110146\nCVE-2026-110150\nCVE-2026-110156\nCVE-2026-110137\nCVE-2026-110140\nCVE-2026-110158\nCVE-2026-110145\nCVE-2026-110159\nCVE-2026-110144\nCVE-2026-110153\nCVE-2026-110166\nCVE-2026-110169\nCVE-2026-110168\nCVE-2026-110139\nCVE-2026-110172\nCVE-2026-110164\nCVE-2026-110163\nCVE-2026-110141\nCVE-2026-110138\nCVE-2026-110157\nCVE-2026-110147\nCVE-2026-110154\nCVE-2026-110155\nCVE-2026-110167\nCVE-2026-110171\nCVE-2026-110142\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
-    "scraped_at":"2026-10-14 15:41:39"
+    "scraped_at":"2026-10-15 09:08:59"
   }
 ]
