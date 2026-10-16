@@ -1,16 +1,3 @@
 {
-  "new_items": [
-    {
-      "faq_id": "180",
-      "title_text": "Oct 15, 2026 Foreign Exchange Reserve Ratio (FERR)",
-      "published_date": "2026-10-15",
-      "category": "Financial Market",
-      "url": "https://rbi.org.in/Scripts/FAQDisplay.aspx?Id=180",
-      "pdf_link": "https://rbidocs.rbi.org.in/rdocs/faqs/PDFs/FERR15102026.PDF",
-      "last_updated": "2026-10-15T15:41:12.037352",
-      "full_text": "",
-      "pdf_filename": "180_oct_15_2026_foreign_exchange_reserve_ratio_ferr.PDF",
-      "scraped_at": "2026-10-15T15:41:12.037352"
-    }
-  ]
+  "new_items": []
 }
