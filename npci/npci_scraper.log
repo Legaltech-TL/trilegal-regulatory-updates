@@ -12291,3 +12291,32 @@ Call log:
 2026-10-18 12:55:05,840 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-10-18 12:55:08,882 | INFO | Total entries collected: 27
 2026-10-18 12:55:08,894 | INFO | No new entries found
+2026-10-21 14:15:17,403 | INFO | Opening NPCI page
+2026-10-21 14:15:22,363 | INFO | Attempting Press Releases scrape (2026)
+2026-10-21 14:15:22,380 | INFO | Press Releases 2026: 10 rows found
+2026-10-21 14:15:22,389 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions, Updated 15 October 2026
+2026-10-21 14:15:25,420 | INFO | [press_release] UPI MDR on Select Merchant Transactions Shall be Implemented Post Diwali
+2026-10-21 14:15:28,450 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions - Hindi
+2026-10-21 14:15:31,482 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions
+2026-10-21 14:15:34,516 | INFO | [press_release] NPCI Press Release - Hon’ble Union Minister Shri Nitin Gadkari Launches ‘OneTag’ to Enable NETC FASTag Portability at GFF 2026
+2026-10-21 14:15:37,549 | INFO | [press_release] NPCI Press Release - RBI Governor Unveils New UPI Capabilities at GFF 2026: AI-Powered Customer Support and Seamless Tap-and-Pay Experience
+2026-10-21 14:15:40,578 | INFO | [press_release] NPCI Press Release - NPCI launches Agentic AI platforms to streamline workflows, accelerate innovation and improve productivity at GFF 2026
+2026-10-21 14:15:43,613 | INFO | [press_release] NPCI Press Release - NPCI unveils FiMI Banking, India’s first sovereign compact model for Indian retail banking GFF 2026; To Collaborate with HDFC Bank to Strengthen Tech
+2026-10-21 14:15:46,647 | INFO | [press_release] NPCI Press Release - NPCI launches India’s first open reinforcement learning environment for banking AI agents at GFF 2026
+2026-10-21 14:15:49,681 | INFO | [press_release] NPCI Press Release - DFS Secretary Unveils Innovations to Advance Financial Inclusion at GFF 2026
+2026-10-21 14:15:52,707 | INFO | Switching Press Releases year to 2025
+2026-10-21 14:15:55,248 | INFO | Press Releases 2025: 10 rows found
+2026-10-21 14:15:55,255 | INFO | [press_release] NBSL Press release - BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI Payments within set limits
+2026-10-21 14:15:58,280 | INFO | [press_release] NPCI Press Release - Media Statement - Update Regarding Cheque Truncation System (CTS) – Continuous Clearing
+2026-10-21 14:16:01,315 | INFO | [press_release] NPCI Press Release - RuPay JCB cardholders can now avail 25% cashback for in-store purchases* in Indonesia, Malaysia, Singapore, Japan and Philippines
+2026-10-21 14:16:04,346 | INFO | [press_release] NPCI Press Release - Media Statement Regarding Cheque Clearance
+2026-10-21 14:16:07,380 | INFO | [press_release] NPCI Press Release - RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025
+2026-10-21 14:16:10,414 | INFO | [press_release] NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025
+2026-10-21 14:16:13,445 | INFO | [press_release] NPCI Press Release - DFS Secretary Launches Initiatives to Simplify Digital Payment Experience at GFF 2025
+2026-10-21 14:16:16,479 | INFO | [press_release] NPCI Press release – NPCI and RBL Bank expand RuPay On-The-Go across All Bengaluru Metro Lines
+2026-10-21 14:16:19,512 | INFO | [press_release] NBSL Press release - BHIM, Bharat Ka Apna Payments App, Lights Up Diwali with a Touch Of Goodness, Empowering India’s Women Artisans
+2026-10-21 14:16:22,547 | INFO | [press_release] NBSL Press release - BHIM Payments App, Bharat Ka Apna Payments App Collaborates with Sony Entertainment Television to launch an exclusive ‘Golden Week’ in Kaun Banega Crorepati
+2026-10-21 14:16:25,573 | INFO | Switching to Media Coverage tab
+2026-10-21 14:16:55,609 | WARNING | Media Coverage tab not available
+2026-10-21 14:16:55,640 | INFO | Total entries collected: 20
+2026-10-21 14:16:55,650 | INFO | No new entries found
