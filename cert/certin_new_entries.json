@@ -1,11 +1,11 @@
 [
   {
-    "id":"5e691180b1a6d4af",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0509",
+    "id":"eb056c02e55a240d",
+    "title":"Compromise of eMudhra Intermediate CA Certificates",
     "date":"October 21, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0509",
-    "category":"Latest Security Alert",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3649",
+    "category":"Current Activities",
     "content":"",
-    "scraped_at":"2026-10-21 13:14:14"
+    "scraped_at":"2026-10-21 15:49:00"
   }
 ]
