@@ -20940,3 +20940,63 @@ b1c7ef5a9fd7dd91,CERT-In Vulnerability Note  CIVN-2026-0507,"October 16, 2026",h
 c706a4ad77c574e4,CERT-In Advisory   CIAD-2026-0050,"October 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0050,Latest Security Alert,,2026-10-21 09:22:12
 5e691180b1a6d4af,CERT-In Vulnerability Note  CIVN-2026-0509,"October 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0509,Latest Security Alert,,2026-10-21 13:14:14
 eb056c02e55a240d,Compromise of eMudhra Intermediate CA Certificates,"October 21, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3649,Current Activities,,2026-10-21 15:49:00
+e7b3d76395bad04a,CERT-In Vulnerability Note  CIVN-2026-0517,"October 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0517,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0517
+Multiple Vulnerabilities in F5 Products
+Original Issue Date:October   22, 2026
+Severity Rating: CRITICAL
+Software Affected
+NGINX Plus versions 37x and Rx: 37.0.0 to 37.0.4 and R33 to R36
+NGINX Open Source versions 1x: 1.31.0 to 1.31.6 and 1.0.0 to 1.30.5
+NGINX Instance Manager versions 2x: 2.18.0 to 2.23.0
+F5 WAF for NGINX versions 5.x: 5.9.0 to 5.15.0
+NGINX App Protect WAF versions 5x and 4x: 5.4.0 to 5.8.0 and 4.12.0 to 4.16.0
+F5 DoS for NGINX versions 4x: 4.8.0  to 4.10.0
+NGINX App Protect DoS versions 4x: 4.5.0 to 4.7.0
+NGINX Gateway Fabric versions 2x: 2.1.0 to 2.7.2
+NGINX Ingress Controller versions 5x: 5.6.0 to 5.6.3
+Overview
+Multiple vulnerabilities have been reported in F5 NGINX products which could allow an attacker to execute arbitrary code, cause unexpected termination or restart of NGINX worker processes, or denial of service (DoS) conditions on the targeted system.
+Target Audience:
+Organizations and system administrators using the affected F5 NGINX products.
+Risk Assessment:
+Critical risk of remote code execution and denial of service (DoS) conditions.
+Impact Assessment:
+Potential for execute arbitrary code and cause denial of service (DoS).
+Description
+F5 provides several NGINX software products, including NGINX Plus, NGINX Open Source, NGINX Ingress Controller, NGINX Gateway Fabric, and NGINX Instance Manager. NGINX Plus and NGINX Open Source are widely used web server and reverse proxy solutions designed to support high-performance web applications and enterprise services.
+These vulnerabilities exist in F5 NGINX products due to heap based buffer overflow and use after free in the ngx_http_core_module and the NGINX map directive. A remote attacker could exploit these vulnerabilities by sending a specially crafted request.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause unexpected termination or restart of NGINX worker processes, or denial of service (DoS) conditions on the targeted system.
+Solution
+Apply the out-of-band security patches released by F5 for the affected NGINX software products:
+https://my.f5.com/manage/s/article/K000162607
+https://my.f5.com/manage/s/article/K000162608
+https://my.f5.com/manage/s/article/K000162416
+Vendor Information
+F5
+https://www.f5.com/
+References
+F5
+https://my.f5.com/manage/s/article/K000162607
+https://my.f5.com/manage/s/article/K000162608
+https://my.f5.com/manage/s/article/K000162416
+CVE Name
+CVE-2026-15176
+CVE-2026-97205
+CVE-2026-93479
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-22 15:47:15
+1039b8930df39bda,CERT-In Vulnerability Note  CIVN-2026-0516,"October 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0516,Latest Security Alert,,2026-10-22 15:47:15
+48d1be010116aafa,CERT-In Vulnerability Note  CIVN-2026-0515,"October 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0515,Latest Security Alert,,2026-10-22 15:47:15
+8c93f68ab9cfc65d,CERT-In Advisory   CIAD-2026-0051,"October 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0051,Latest Security Alert,,2026-10-22 15:47:15
+266e490e3545e157,Critical remote code execution vulnerabilities in PHP,"October 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3650,Current Activities,,2026-10-22 15:47:15
