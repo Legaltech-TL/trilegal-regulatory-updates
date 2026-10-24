@@ -12320,3 +12320,48 @@ Call log:
 2026-10-21 14:16:55,609 | WARNING | Media Coverage tab not available
 2026-10-21 14:16:55,640 | INFO | Total entries collected: 20
 2026-10-21 14:16:55,650 | INFO | No new entries found
+2026-10-24 13:00:50,467 | INFO | Opening NPCI page
+2026-10-24 13:00:55,448 | INFO | Attempting Press Releases scrape (2026)
+2026-10-24 13:00:55,467 | INFO | Press Releases 2026: 10 rows found
+2026-10-24 13:00:55,476 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions, Updated 15 October 2026
+2026-10-24 13:00:58,524 | INFO | [press_release] UPI MDR on Select Merchant Transactions Shall be Implemented Post Diwali
+2026-10-24 13:01:01,565 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions - Hindi
+2026-10-24 13:01:04,598 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions
+2026-10-24 13:01:07,630 | INFO | [press_release] NPCI Press Release - Hon’ble Union Minister Shri Nitin Gadkari Launches ‘OneTag’ to Enable NETC FASTag Portability at GFF 2026
+2026-10-24 13:01:10,657 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:10,665 | INFO | [press_release] NPCI Press Release - RBI Governor Unveils New UPI Capabilities at GFF 2026: AI-Powered Customer Support and Seamless Tap-and-Pay Experience
+2026-10-24 13:01:13,697 | INFO | [press_release] NPCI Press Release - NPCI launches Agentic AI platforms to streamline workflows, accelerate innovation and improve productivity at GFF 2026
+2026-10-24 13:01:16,723 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:16,730 | INFO | [press_release] NPCI Press Release - NPCI unveils FiMI Banking, India’s first sovereign compact model for Indian retail banking GFF 2026; To Collaborate with HDFC Bank to Strengthen Tech
+2026-10-24 13:01:19,764 | INFO | [press_release] NPCI Press Release - NPCI launches India’s first open reinforcement learning environment for banking AI agents at GFF 2026
+2026-10-24 13:01:22,791 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:22,799 | INFO | [press_release] NPCI Press Release - DFS Secretary Unveils Innovations to Advance Financial Inclusion at GFF 2026
+2026-10-24 13:01:25,824 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:25,824 | INFO | Switching Press Releases year to 2025
+2026-10-24 13:01:28,367 | INFO | Press Releases 2025: 10 rows found
+2026-10-24 13:01:28,374 | INFO | [press_release] NBSL Press release - BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI Payments within set limits
+2026-10-24 13:01:31,406 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:31,414 | INFO | [press_release] NPCI Press Release - Media Statement - Update Regarding Cheque Truncation System (CTS) – Continuous Clearing
+2026-10-24 13:01:34,447 | INFO | [press_release] NPCI Press Release - RuPay JCB cardholders can now avail 25% cashback for in-store purchases* in Indonesia, Malaysia, Singapore, Japan and Philippines
+2026-10-24 13:01:37,480 | INFO | [press_release] NPCI Press Release - Media Statement Regarding Cheque Clearance
+2026-10-24 13:01:40,513 | INFO | [press_release] NPCI Press Release - RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025
+2026-10-24 13:01:43,547 | INFO | [press_release] NPCI Press Release - RBI Deputy Governor Launches New Digital Payment Innovations at GFF 2025
+2026-10-24 13:01:46,572 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:46,580 | INFO | [press_release] NPCI Press Release - DFS Secretary Launches Initiatives to Simplify Digital Payment Experience at GFF 2025
+2026-10-24 13:01:49,612 | INFO | [press_release] NPCI Press release – NPCI and RBL Bank expand RuPay On-The-Go across All Bengaluru Metro Lines
+2026-10-24 13:01:52,637 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:52,644 | INFO | [press_release] NBSL Press release - BHIM, Bharat Ka Apna Payments App, Lights Up Diwali with a Touch Of Goodness, Empowering India’s Women Artisans
+2026-10-24 13:01:55,678 | INFO | [press_release] NBSL Press release - BHIM Payments App, Bharat Ka Apna Payments App Collaborates with Sony Entertainment Television to launch an exclusive ‘Golden Week’ in Kaun Banega Crorepati
+2026-10-24 13:01:58,705 | WARNING | No PDF or image asset captured
+2026-10-24 13:01:58,705 | INFO | Switching to Media Coverage tab
+2026-10-24 13:02:02,041 | INFO | Media Coverage: 7 rows found
+2026-10-24 13:02:02,047 | INFO | [media_coverage] 26-03 New Bhim 3.0 launched, allows users to split bills, track payments
+2026-10-24 13:02:05,078 | INFO | [media_coverage] 15-10 BHIM's monthly transactions triple between January and September
+2026-10-24 13:02:08,104 | WARNING | No PDF or image asset captured
+2026-10-24 13:02:08,111 | INFO | [media_coverage] 18-11 CNBC TV18 - Bharat Connect for Business boosts digital payments among MSMEs, says NBBL’s CEO
+2026-10-24 13:02:11,144 | INFO | [media_coverage] 26-11 UPI Circle to net new users BHIM chief
+2026-10-24 13:02:14,179 | INFO | [media_coverage] 27-11 ETBFSI - NPCI’s Bharat Billpay aims to cover half of India’s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi
+2026-10-24 13:02:17,210 | INFO | [media_coverage] 28-11 Netbanking switch to provide better visibility into transactions: NBBL CEO
+2026-10-24 13:02:20,243 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
+2026-10-24 13:02:23,300 | INFO | Total entries collected: 18
+2026-10-24 13:02:23,310 | INFO | Added 3 new entries
