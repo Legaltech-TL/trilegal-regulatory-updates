@@ -21007,3 +21007,93 @@ f9dcea15cc02efae,CERT-In Advisory   CIAD-2026-0053,"October 23, 2026",https://ww
 f5c643fd5d62ff5a,CERT-In Advisory   CIAD-2026-0052,"October 22, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0052,Latest Security Alert,,2026-10-23 12:52:41
 8fa77ebae50c4ec5,CERT-In Vulnerability Note  CIVN-2026-0522,"October 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0522,Latest Security Alert,,2026-10-24 12:13:44
 65516a10bc242bf3,CERT-In Advisory   CIAD-2026-0054,"October 24, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0054,Latest Security Alert,,2026-10-24 12:13:44
+7278ccb1b46c7453,CERT-In Vulnerability Note  CIVN-2026-0527,"October 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0527,Latest Security Alert,,2026-10-26 14:34:31
+0aa43d6924d63985,CERT-In Vulnerability Note  CIVN-2026-0526,"October 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0526,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0526
+Use-After-Free Vulnerability in curl and libcurl
+Original Issue Date:October   26, 2026
+Severity Rating: HIGH
+Software Affected
+curl versions 8.12.0 to 8.22.0
+libcurl versions corresponding to the affected releases
+Overview
+A Use-After-Free vulnerability has been reported in curl and libcurl, which could allow a remote attacker to execute arbitrary code or cause a denial-of-service condition on affected systems.
+Target Audience:
+All organizations and administrators using affected versions of curl and libcurl.
+Risk Assessment:
+High risk of remote code execution and denial of service under specific conditions.
+Impact Assessment:
+Successful exploitation could lead to arbitrary code execution or application crashes.
+Description
+curl is a command-line tool and libcurl is a library used for transferring data over various network protocols, including HTTP and HTTPS.
+A Use-After-Free vulnerability exists in curl and libcurl due to improper handling of HTTP/2 stream reset responses received from a server during data uploads.
+The vulnerability could allow a remote attacker to execute arbitrary code or cause a denial-of-service condition under specific conditions.
+Solution
+Apply appropriate security updates and mitigations as recommended by the vendor.
+https://curl.se/docs/CVE-2026-92392.html
+Vendor Information
+curl Project
+https://curl.se/docs/CVE-2026-92392.html
+References
+https://curl.se/docs/CVE-2026-92392.html
+CVE Name
+CVE-2026-92392
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-26 14:34:31
+74996fa3ba7c91b1,CERT-In Vulnerability Note  CIVN-2026-0525,"October 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0525,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0525
+VeloCloud Orchestrator (VCO) SQL Injection Vulnerability
+Original Issue Date:October   26, 2026
+Severity Rating: CRITICAL
+Software Affected
+VeloCloud Orchestrator On-Prem 5.2.x prior to 5.2.3.18
+VeloCloud Orchestrator On-Prem 6.1.x prior to 6.1.3.10
+VeloCloud Orchestrator On-Prem 6.4.x prior to 6.4.2.12
+Overview
+A vulnerability has been reported in VeloCloud Orchestrator (VCO), which could allow a remote attacker to escalate privileges and gain unauthorized access to privileged functionality on affected systems.
+Target Audience:
+Network Administrators, IT Security Professionals, and organizations operating affected on-premises Velo-Cloud Orchestrator (VCO) deployments.
+Risk Assessment:
+High risk of privilege escalation, data compromise, disruption of network management services.
+Impact Assessment:
+Potential for unauthorized access to sensitive orchestrator data and information it manages, disruption or compromise of the VCO host.
+Description
+VeloCloud Orchestrator (VCO) is a centralized management and orchestration platform used to configure, monitor, and manage VMware VeloCloud SD-WAN networks, including edge devices, network policies, and connectivity across distributed sites.
+A vulnerability exist in VeloCloud Orchestrator (VCO) due to improper neutralization of special elements used in SQL commands. A remote attacker could exploit this vulnerability by sending a specially crafted request to the targeted VCO web interface using a valid authenticated session.
+Successful exploitation of this vulnerability may compromise the confidentiality, integrity, and availability of the orchestrator and the data it manages.
+Note: This vulnerability (CVE-2026-114625) is being actively exploited in the wild. Users are strongly advised to apply the latest patches immediately.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199
+Vendor Information
+Arista
+https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199
+References
+Arista
+https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199
+The Hacker news
+https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html
+CVE Name
+CVE-2026-114625
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-26 14:34:31
