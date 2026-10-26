@@ -1,32 +1,3 @@
 [
-  {
-    "id":"ccf8e193ec33cebf",
-    "category":"public_notices",
-    "sno":"1",
-    "title":"WHO Alert on falsified DEFITELIO (Defibrotide) 80 mg\/ml concentrate for solution for infusion, B. No. 24GC01A, Exp date 04\/2027, Mfg by: Patheon, II Trav. sx Via Morolense, 5, 03013 Ferentino (FR) Italy and Marketing authorisation holder: Gentium S.r.l, Piazza XX Settembre, 2, 22079 Villa Guardia (Como) Italy and identified in India",
-    "date":"2026-Oct-26",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ4MDI=",
-    "filename":"WHO_Alert_on_falsified_DEFITELIO_Defibrotide_80",
-    "scraped_time":"2026-10-26T14:11:21.720767"
-  },
-  {
-    "id":"6bdec0216aaec760",
-    "category":"public_notices",
-    "sno":"2",
-    "title":"Misleading or false claims of the product FatX solution registered under COS-2 vide RC no. RC\/COS-003300 by the firm M\/s Tekno Midas Aesthetics",
-    "date":"2026-Oct-26",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ4MDM=",
-    "filename":"Misleading_or_false_claims_of_the_product",
-    "scraped_time":"2026-10-26T14:11:21.720767"
-  },
-  {
-    "id":"70f9819b1f230d76",
-    "category":"public_notices",
-    "sno":"3",
-    "title":"List of Ethics Committees cancelled by CLA",
-    "date":"2026-Oct-19",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ3Njc=",
-    "filename":"List_of_Ethics_Committees_cancelled_by_CLA",
-    "scraped_time":"2026-10-26T14:11:21.720767"
-  }
+
 ]
