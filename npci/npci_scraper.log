@@ -12365,3 +12365,25 @@ Call log:
 2026-10-24 13:02:20,243 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-10-24 13:02:23,300 | INFO | Total entries collected: 18
 2026-10-24 13:02:23,310 | INFO | Added 3 new entries
+2026-10-26 08:36:10,898 | INFO | Opening NPCI page
+2026-10-26 08:36:35,821 | INFO | Attempting Press Releases scrape (2026)
+2026-10-26 08:36:35,834 | INFO | Press Releases 2026: 10 rows found
+2026-10-26 08:36:35,839 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions, Updated 15 October 2026
+2026-10-26 08:36:38,863 | INFO | [press_release] UPI MDR on Select Merchant Transactions Shall be Implemented Post Diwali
+2026-10-26 08:36:41,891 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions - Hindi
+2026-10-26 08:36:44,924 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions
+2026-10-26 08:36:47,957 | INFO | [press_release] NPCI Press Release - Hon’ble Union Minister Shri Nitin Gadkari Launches ‘OneTag’ to Enable NETC FASTag Portability at GFF 2026
+2026-10-26 08:36:50,973 | INFO | [press_release] NPCI Press Release - RBI Governor Unveils New UPI Capabilities at GFF 2026: AI-Powered Customer Support and Seamless Tap-and-Pay Experience
+2026-10-26 08:36:54,007 | INFO | [press_release] NPCI Press Release - NPCI launches Agentic AI platforms to streamline workflows, accelerate innovation and improve productivity at GFF 2026
+2026-10-26 08:36:57,040 | INFO | [press_release] NPCI Press Release - NPCI unveils FiMI Banking, India’s first sovereign compact model for Indian retail banking GFF 2026; To Collaborate with HDFC Bank to Strengthen Tech
+2026-10-26 08:37:00,074 | INFO | [press_release] NPCI Press Release - NPCI launches India’s first open reinforcement learning environment for banking AI agents at GFF 2026
+2026-10-26 08:37:03,106 | INFO | [press_release] NPCI Press Release - DFS Secretary Unveils Innovations to Advance Financial Inclusion at GFF 2026
+2026-10-26 08:37:06,134 | INFO | Switching Press Releases year to 2025
+2026-10-26 08:37:38,662 | WARNING | Press Releases 2025 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("li.circulars-cell-container div.circulars-cell p") to be visible
+
+2026-10-26 08:37:38,663 | INFO | Switching to Media Coverage tab
+2026-10-26 08:38:08,664 | WARNING | Media Coverage tab not available
+2026-10-26 08:38:08,693 | INFO | Total entries collected: 10
+2026-10-26 08:38:08,702 | INFO | No new entries found
