@@ -1,32 +1,3 @@
 [
-  {
-    "id":"85c3823a669924df",
-    "category":"public_notices",
-    "sno":"1",
-    "title":"Appointment of Central Compounding Authority Order",
-    "date":"2026-Oct-28",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ4MDk=",
-    "filename":"Appointment_of_Central_Compounding_Authority_Order",
-    "scraped_time":"2026-10-28T13:58:51.442732"
-  },
-  {
-    "id":"9cfe934db63a7836",
-    "category":"public_notices",
-    "sno":"2",
-    "title":"Misleading or false claims of the product FatX solution registered under COS-2 vide RC no. RC\/COS-003300 by the firm M\/s Tekno Midas Aesthetics",
-    "date":"2026-Oct-28",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ4MDc=",
-    "filename":"Misleading_or_false_claims_of_the_product",
-    "scraped_time":"2026-10-28T13:58:51.442732"
-  },
-  {
-    "id":"5c295c3a16cb4d0f",
-    "category":"public_notices",
-    "sno":"4",
-    "title":"Digital Monitoring System on the ONDLS portal for monitoring the supply chain of high-risk solvents.",
-    "date":"2026-Oct-27",
-    "pdf_link":"https:\/\/cdsco.gov.in\/opencms\/opencms\/system\/modules\/CDSCO.WEB\/elements\/download_file_division.jsp?num_id=MTQ4MDY=",
-    "filename":"Digital_Monitoring_System_on_the_ONDLS_portal",
-    "scraped_time":"2026-10-28T13:58:51.442732"
-  }
+
 ]
