@@ -21102,3 +21102,51 @@ cc6ea6774a9be0d2,CERT-In Vulnerability Note  CIVN-2026-0528,"October 27, 2026",h
 64759b00b7a12156,CERT-In Advisory   CIAD-2026-0055,"October 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0055,Latest Security Alert,,2026-10-27 13:34:43
 3f6b53a02529f011,CERT-In Vulnerability Note  CIVN-2026-0530,"October 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0530,Latest Security Alert,,2026-10-28 10:34:41
 cffcd55f41c3f338,CERT-In Advisory   CIAD-2026-0056,"October 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0056,Latest Security Alert,,2026-10-28 10:34:41
+9c42be4a5748d286,CERT-In Vulnerability Note  CIVN-2026-0531,"October 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0531,Latest Security Alert,,2026-10-28 14:31:37
+f85791e5cce6e3b5,CERT-In Advisory   CIAD-2026-0057,"October 28, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0057,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0057
+Multiple vulnerabilities in GoAhead Web Server
+Original Issue Date: October   28, 2026
+Severity Rating: Critical
+Software Affected
+GoAhead Web Server versions 3.4.5 to 6.1.0 with OpenSSL TLS build
+GoAhead Web Server versions 4.0.2 to 6.1.0 with Mbed TLS build
+GoAhead Web Server versions 6.1.0 and prior with LibreSSL Legacy TLS build
+Overview
+Multiple vulnerabilities have been reported in GoAhead Web Server which could allow a remote attacker to bypass security restrictions, obtain sensitive information, decrypt certain TLS-encrypted communications, or unauthorized access to affected services on the targeted system.
+Target Audience:
+All organizations and Individuals using GoAhead Web Server.
+Risk Assessment:
+High risk of bypassing security restrictions and obtaining sensitive information.
+Impact Assessment:
+Potential for unauthorized access, disclosure of sensitive information, and compromise of affected systems.
+Description
+GoAhead is an embedded web server used for device management in various IoT, firewall, and industrial control devices.
+These vulnerabilities exist in GoAhead due to improper certificate validation.
+Successful exploitation of these vulnerabilities could allow an attacker to bypass security restrictions, obtain sensitive information, decrypt certain TLS-encrypted communications, or unauthorized access to affected services on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.embedthis.com/goahead/
+Vendor Information
+EmbedThis (GoAhead)
+https://www.embedthis.com/goahead/
+References
+https://foxio.io/blog/introducing-ja4scan-active-server-fingerprinting-for-tls-and-quic
+https://github.com/embedthis/goahead/security/advisories/GHSA-5m75-xq69-c3c5
+https://github.com/embedthis/goahead/security/advisories/GHSA-r392-vqwx-3r4g
+https://github.com/embedthis/goahead/security/advisories/GHSA-fmvx-2xfx-2gq4
+CVE Name
+CVE-2026-115881
+CVE-2026-115884
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-10-28 14:31:37
