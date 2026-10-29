@@ -1,13 +1,24 @@
 [
   {
-    "id": "de17428486a1126130d892116c1d777d62fa5e35",
+    "id": "e84e0dfd86038a4acba6cafdb4ddeef7bfc92c71",
     "source": "Bharat Connect",
     "category": "Circulars",
-    "title": "017-Advisory on Security Incident Involving eMudhra Intermediate Certificate Authorities and Recommended Actions",
-    "date": "22 Oct, 2026",
-    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/017_Advisoryon_Security_Incident_Involving_e_Mudhra_Intermediate_Certificate_Authorities_and_Recommended_Actions_5fcce69772.pdf",
-    "pdf_filename": "017_Advisoryon_Security_Incident_Involving_e_Mudhra_Intermediate_Certificate_Authorities_and_Recommended_Actions_5fcce69772.pdf",
+    "title": "019-Guidelines for Settlement of Bill Payment Transactions",
+    "date": "24 Oct, 2026",
+    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/019_Guidelines_for_Settlement_of_Bill_Payment_Transactions_9aa7e5e10b.pdf",
+    "pdf_filename": "019_Guidelines_for_Settlement_of_Bill_Payment_Transactions_9aa7e5e10b.pdf",
     "source_page": "https://www.bharat-connect.com/circulars/",
-    "scraped_at": "2026-10-27T18:32:28.334089+00:00"
+    "scraped_at": "2026-10-29T18:47:08.084455+00:00"
+  },
+  {
+    "id": "7d954687c3b31034ed353f2d0619242e629a3b8a",
+    "source": "Bharat Connect",
+    "category": "Circulars",
+    "title": "018-Display of Biller Logo on Payment Confirmation Page",
+    "date": "24 Oct, 2026",
+    "pdf_link": "https://www.bharat-connect.com/strapi/uploads/018_Display_of_Biller_Logo_on_Payment_Confirmation_Page_5eb66be050.pdf",
+    "pdf_filename": "018_Display_of_Biller_Logo_on_Payment_Confirmation_Page_5eb66be050.pdf",
+    "source_page": "https://www.bharat-connect.com/circulars/",
+    "scraped_at": "2026-10-29T18:47:08.084639+00:00"
   }
 ]
