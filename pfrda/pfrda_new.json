@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-10-30T09:11:05.626535",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-10-30T12:22:19.640973",
+  "count": 3,
+  "items": [
+    {
+      "id": "29ad87d2feddfa2c",
+      "title": "Pre-bid Query Response: REQUEST FOR...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "10/30/2026"
+    },
+    {
+      "id": "f783bd00f683f5f5",
+      "title": "Operationalisation of \"UPS Jeewan Setu...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/311487/PFRDA+Circular+dated+30102026++Operationalisation+of+UPS+Jeewan+Setu+Digital+Life+Certificate+DLC+facility+for+pensioners+under+the+UPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "10/30/2026"
+    },
+    {
+      "id": "774c1f3cee30e36b",
+      "title": "Operationalisation of \"UPS Jeewan Setu \u2014 Digital Life Certificate (DLC)\" facility for pensioners under the Unified Pension Scheme (UPS) \u2014 reg.\nUnified Pension Scheme\nRef: PFRDA/2026/54/SUP-CG-SG/02\nIssue Date: 30-10-2026",
+      "publish_date": "10/30/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/311487/PFRDA+Circular+dated+30102026++Operationalisation+of+UPS+Jeewan+Setu+Digital+Life+Certificate+DLC+facility+for+pensioners+under+the+UPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "10/30/2026"
+    }
+  ]
 }
