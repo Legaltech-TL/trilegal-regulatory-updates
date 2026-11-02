@@ -21152,3 +21152,45 @@ New Delhi - 110 003
 India",2026-10-28 14:31:37
 fd8de66a224d9bd7,CERT-In Vulnerability Note  CIVN-2026-0532,"October 29, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0532,Latest Security Alert,,2026-10-29 10:53:41
 de0769340747e10a,CERT-In Vulnerability Note  CIVN-2026-0533,"October 30, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0533,Latest Security Alert,,2026-10-30 14:31:52
+fafa24a5eb1e11b0,CERT-In Vulnerability Note  CIVN-2026-0534,"November 02, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0534,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0534
+Denial of Service Vulnerability in Cisco product
+Original Issue Date:November  02, 2026
+Severity Rating: HIGH
+Software Affected
+Cisco Secure Firewall Adaptive Security Appliance (ASA) Software version 9.16 and prior, 9.18, 9.20, 9.22, 9.23, 9.24
+Cisco Secure Firewall Threat Defense (FTD) Software versions 7.0 and prior, 7.2, 7.4, 7.6, 7.7, 10.0, and 10.1
+Overview
+A vulnerability has been reported in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software which could allow a remote attacker to cause denial of service (DoS) conditions on the targeted system.
+Target Audience:
+All organizations and individuals using affected versions of Cisco Secure Firewall ASA and FTD Software.
+Risk Assessment:
+High risk of service disruption.
+Impact Assessment:
+Potential for High risk of denial of service (DoS) conditions.
+Description
+Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software are security appliances used for firewall and VPN services.
+This vulnerability exists in Cisco Secure Firewall ASA Software and Cisco Secure FTD Software due to logic errors when secondary authentication is configured on a tunnel group. A remote attacker could exploit these vulnerabilities by sending a specially crafted request when connecting to the SSL remote access VPN.
+Successful exploitation of these vulnerabilities could allow an attacker to cause denial of service (DoS) conditions on the targeted system.
+Solution
+Apply appropriate security as mentioned in CISCO advisory:
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75
+Vendor Information
+Cisco
+https://www.cisco.com/
+References
+https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75
+CVE Name
+CVE-2026-76418
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-02 12:22:30
