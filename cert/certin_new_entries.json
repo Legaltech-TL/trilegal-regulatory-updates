@@ -1,3 +1,38 @@
 [
-
+  {
+    "id":"76e8780e59f56c8f",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0537",
+    "date":"November 04, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-11-04 12:07:15"
+  },
+  {
+    "id":"ed3d74e89118f340",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0536",
+    "date":"November 04, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0536",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-11-04 12:07:15"
+  },
+  {
+    "id":"2b850507e8700794",
+    "title":"CERT-In Advisory   CIAD-2026-0058",
+    "date":"November 04, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-11-04 12:07:15"
+  },
+  {
+    "id":"c8790898853d4fea",
+    "title":"Escalation of AI-Driven Attacks on BFSI Entities by Threat Actor \"CRAFTY FALCON\"",
+    "date":"November 04, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3651",
+    "category":"Current Activities",
+    "content":"",
+    "scraped_at":"2026-11-04 12:07:15"
+  }
 ]
