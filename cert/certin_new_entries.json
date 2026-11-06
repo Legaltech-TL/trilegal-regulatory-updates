@@ -1,11 +1,3 @@
 [
-  {
-    "id":"5375af23df7e1721",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0542",
-    "date":"November 06, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0542",
-    "category":"Latest Security Alert",
-    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0542\nAuthentication Bypass Vulnerability in OpenSSH\nOriginal Issue Date:November  06, 2026\nSeverity Rating: CRITICAL\nSoftware Affected\nOpenSSH versions prior to 10.6p2\nOverview\nA vulnerability has been reported in OpenSSH which could allow a remote attacker to bypass password authentication mechanism on the targeted system.\nTarget Audience:\nAll organizations and individuals using OpenSSH.\nRisk Assessment:\nHigh risk of service disruption.\nImpact Assessment:\nPotential for High risk of denial of service (DoS) conditions.\nDescription\nOpenSSH is a SSH protocol 2.0 implementation and includes sftp client and server support.\nThis vulnerability exists in OpenSSH due to authentication bypass. A remote attacker could exploit this vulnerability by sending an unusually long password to the targeted system running OpenSSH on Linux with musl libc and PAM disabled.\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access and elevate privileges on the targeted system.\nSolution\nApply appropriate updates as mentioned by the vendor:\nhttps:\/\/www.openssh.org\/txt\/release-10.6p2\nVendor Information\nOpenSSH\nhttps:\/\/www.openssh.org\/\nReferences\nhttps:\/\/www.openssh.org\/txt\/release-10.6p2\nCVE Name\nCVE-2026-123158\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
-    "scraped_at":"2026-11-06 15:23:46"
-  }
+
 ]
