@@ -21283,3 +21283,44 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-11-06 12:05:27
 42d77b447edee1d9,CERT-In Vulnerability Note  CIVN-2026-0539,"November 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0539,Latest Security Alert,,2026-11-06 12:05:27
+5375af23df7e1721,CERT-In Vulnerability Note  CIVN-2026-0542,"November 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0542,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0542
+Authentication Bypass Vulnerability in OpenSSH
+Original Issue Date:November  06, 2026
+Severity Rating: CRITICAL
+Software Affected
+OpenSSH versions prior to 10.6p2
+Overview
+A vulnerability has been reported in OpenSSH which could allow a remote attacker to bypass password authentication mechanism on the targeted system.
+Target Audience:
+All organizations and individuals using OpenSSH.
+Risk Assessment:
+High risk of service disruption.
+Impact Assessment:
+Potential for High risk of denial of service (DoS) conditions.
+Description
+OpenSSH is a SSH protocol 2.0 implementation and includes sftp client and server support.
+This vulnerability exists in OpenSSH due to authentication bypass. A remote attacker could exploit this vulnerability by sending an unusually long password to the targeted system running OpenSSH on Linux with musl libc and PAM disabled.
+Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access and elevate privileges on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.openssh.org/txt/release-10.6p2
+Vendor Information
+OpenSSH
+https://www.openssh.org/
+References
+https://www.openssh.org/txt/release-10.6p2
+CVE Name
+CVE-2026-123158
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-06 15:23:46
