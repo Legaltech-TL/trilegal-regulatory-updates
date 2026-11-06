@@ -21200,3 +21200,86 @@ ed3d74e89118f340,CERT-In Vulnerability Note  CIVN-2026-0536,"November 04, 2026",
 2b850507e8700794,CERT-In Advisory   CIAD-2026-0058,"November 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058,Latest Security Alert,,2026-11-04 12:07:15
 c8790898853d4fea,"Escalation of AI-Driven Attacks on BFSI Entities by Threat Actor ""CRAFTY FALCON""","November 04, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3651,Current Activities,,2026-11-04 12:07:15
 5d7fd37435b1d449,Multiple Vulnerabilities in MikroTik Routers,"November 05, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADV01&CACODE=CICA-2026-3652,Current Activities,,2026-11-05 12:18:51
+9ae11deb75d9f594,CERT-In Vulnerability Note  CIVN-2026-0541,"November 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0541,Latest Security Alert,,2026-11-06 12:05:27
+b940852ea096ef9a,CERT-In Vulnerability Note  CIVN-2026-0540,"November 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0540,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0540
+Multiple Vulnerabilities in Drupal Products
+Original Issue Date:November  06, 2026
+Severity Rating: CRITICAL
+Software Affected
+AI versions prior to 1.4.11 and 1.5.2
+Commerce Core versions prior to 2.41 and 3.3.13
+Commerce Stripe versions from 2.0.0 before 2.2.3
+OAuth2 Token Manager versions prior to 1.2.0
+OAuth Login - OAuth OIDC SSO versions prior to 3.1.1
+Single Content Sync versions prior to 1.4.19
+Stage File Proxy versions prior to 3.1.7 and 4.0.1
+Overview
+Multiple vulnerabilities have been reported in Drupal products which could allow a remote attacker to execute arbitrary code, gain unauthorized access, bypass security restrictions, access restricted files or directories, and perform cross-site scripting (XSS) attacks on the targeted system.
+Target Audience:
+Users of Drupal modules.
+Risk Assessment:
+High risk of unauthorized access, remote code execution, and bypass of security controls.
+Impact Assessment:
+Potential for complete system compromise, unauthorized access to sensitive information, and financial impact due to bypassed payment processes.
+Description
+AI is a module that enables interaction with AI providers. OAuth2 Token Manager allows management of system-wide OAuth2 access and refresh tokens. OAuth Login - OAuth OIDC SSO enables login via OAuth 2.0 or OpenID Connect identity providers. Single Content Sync facilitates exporting and importing content between Drupal sites. Stage File Proxy provides a solution for retrieving production files on development servers. Commerce Core enables selling goods and services, and Commerce Stripe facilitates payments via the Stripe Connect API.
+These vulnerabilities exist in Drupal products due to improper input validation, access control weakness, and cross-site scripting flaws. A remote attacker could exploit these vulnerabilities by sending a specially crafted request to the targeted system, or by persuading a victim to click a malicious link.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, gain unauthorized access, bypass security restrictions, access restricted files or directories, and perform cross-site scripting (XSS) attacks on the targeted system.
+Note: The vulnerability in Commerce Core (CVE-2026-118539) is being actively exploited in the wild.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.drupal.org/sa-contrib-2026-290
+https://www.drupal.org/sa-contrib-2026-286
+https://www.drupal.org/sa-contrib-2026-285
+https://www.drupal.org/sa-contrib-2026-284
+https://www.drupal.org/sa-contrib-2026-278
+https://www.drupal.org/sa-contrib-2026-277
+https://www.drupal.org/sa-contrib-2026-276
+https://www.drupal.org/sa-contrib-2026-275
+https://www.drupal.org/sa-contrib-2026-274
+https://www.drupal.org/sa-contrib-2026-269
+https://www.drupal.org/sa-contrib-2026-263
+https://www.drupal.org/sa-contrib-2026-254
+Vendor Information
+Drupal
+https://www.drupal.org/
+References
+https://www.drupal.org/sa-contrib-2026-290
+https://www.drupal.org/sa-contrib-2026-286
+https://www.drupal.org/sa-contrib-2026-285
+https://www.drupal.org/sa-contrib-2026-284
+https://www.drupal.org/sa-contrib-2026-278
+https://www.drupal.org/sa-contrib-2026-277
+https://www.drupal.org/sa-contrib-2026-276
+https://www.drupal.org/sa-contrib-2026-275
+https://www.drupal.org/sa-contrib-2026-274
+https://www.drupal.org/sa-contrib-2026-269
+https://www.drupal.org/sa-contrib-2026-263
+https://www.drupal.org/sa-contrib-2026-254
+CVE Name
+CVE-2026-118539
+CVE-2026-118549
+CVE-2026-118558
+CVE-2026-118561
+CVE-2026-118562
+CVE-2026-118563
+CVE-2026-118564
+CVE-2026-118565
+CVE-2026-118572
+CVE-2026-118573
+CVE-2026-118575
+CVE-2026-118576
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-06 12:05:27
+42d77b447edee1d9,CERT-In Vulnerability Note  CIVN-2026-0539,"November 06, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0539,Latest Security Alert,,2026-11-06 12:05:27
