@@ -12705,3 +12705,32 @@ Call log:
 2026-11-07 15:19:07,550 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-11-07 15:19:10,616 | INFO | Total entries collected: 27
 2026-11-07 15:19:10,627 | INFO | No new entries found
+2026-11-08 15:40:57,639 | INFO | Opening NPCI page
+2026-11-08 15:41:02,553 | INFO | Attempting Press Releases scrape (2026)
+2026-11-08 15:41:02,569 | INFO | Press Releases 2026: 10 rows found
+2026-11-08 15:41:02,577 | INFO | [press_release] NPCI Announces Formation of NPCI Tech Solutions Limited (NTSL) as a Wholly Owned Subsidiary; Appoints Vishal Kanvaty as MD & CEO
+2026-11-08 15:41:05,618 | INFO | [press_release] BHIM Payments App enables users to open NPS account instantly with ‘Tatkal NPS’
+2026-11-08 15:41:08,649 | INFO | [press_release] BHIM Payments App Partners with Goonj for ‘Meethi Diwali’ campaign, Supporting Education for Underprivileged Children Through Everyday Payments
+2026-11-08 15:41:11,680 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions, Updated 15 October 2026
+2026-11-08 15:41:14,716 | INFO | [press_release] UPI MDR on Select Merchant Transactions Shall be Implemented Post Diwali
+2026-11-08 15:41:17,746 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions - Hindi
+2026-11-08 15:41:20,780 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions
+2026-11-08 15:41:23,814 | INFO | [press_release] NPCI Press Release - Hon’ble Union Minister Shri Nitin Gadkari Launches ‘OneTag’ to Enable NETC FASTag Portability at GFF 2026
+2026-11-08 15:41:26,848 | INFO | [press_release] NPCI Press Release - RBI Governor Unveils New UPI Capabilities at GFF 2026: AI-Powered Customer Support and Seamless Tap-and-Pay Experience
+2026-11-08 15:41:29,879 | INFO | [press_release] NPCI Press Release - NPCI launches Agentic AI platforms to streamline workflows, accelerate innovation and improve productivity at GFF 2026
+2026-11-08 15:41:32,906 | INFO | Switching Press Releases year to 2025
+2026-11-08 15:42:05,434 | WARNING | Press Releases 2025 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("li.circulars-cell-container div.circulars-cell p") to be visible
+
+2026-11-08 15:42:05,434 | INFO | Switching to Media Coverage tab
+2026-11-08 15:42:33,858 | INFO | Media Coverage: 7 rows found
+2026-11-08 15:42:33,863 | INFO | [media_coverage] 26-03 New Bhim 3.0 launched, allows users to split bills, track payments
+2026-11-08 15:42:36,891 | INFO | [media_coverage] 15-10 BHIM's monthly transactions triple between January and September
+2026-11-08 15:42:39,925 | INFO | [media_coverage] 18-11 CNBC TV18 - Bharat Connect for Business boosts digital payments among MSMEs, says NBBL’s CEO
+2026-11-08 15:42:42,956 | INFO | [media_coverage] 26-11 UPI Circle to net new users BHIM chief
+2026-11-08 15:42:45,975 | INFO | [media_coverage] 27-11 ETBFSI - NPCI’s Bharat Billpay aims to cover half of India’s households through digital, assisted channels: NBBL CEO Noopur Chaturvedi
+2026-11-08 15:42:49,008 | INFO | [media_coverage] 28-11 Netbanking switch to provide better visibility into transactions: NBBL CEO
+2026-11-08 15:42:52,043 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
+2026-11-08 15:42:55,097 | INFO | Total entries collected: 17
+2026-11-08 15:42:55,104 | INFO | No new entries found
