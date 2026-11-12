@@ -1,5 +1,30 @@
 {
-  "generated_at": "2026-11-12T10:26:22.733609",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-11-12T14:50:09.825281",
+  "count": 3,
+  "items": [
+    {
+      "id": "0ca49793908bf148",
+      "title": "Recruitment of Grade A (Assistant...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/212847/Recruitment+of+Grade+A+%28Assistant+Manager%29+2026+-+Information+Handout+for+Phase+II.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "11/12/2026"
+    },
+    {
+      "id": "0e6f874668b47a17",
+      "title": "Press Release - PFRDA to...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/86710/Press+Release_PFRDA+to+Observe+Children+Financial+Security+Week+from+12_20+November+2026.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "11/12/2026"
+    },
+    {
+      "id": "ee3016755d0c6b52",
+      "title": "Consolidated Pre Bid queries and...",
+      "publish_date": "",
+      "pdf_url": "",
+      "category": "CIRCULAR",
+      "scraped_at": "11/12/2026"
+    }
+  ]
 }
