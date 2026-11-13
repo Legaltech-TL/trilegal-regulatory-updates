@@ -1,38 +1,11 @@
 [
   {
-    "id":"bb9d2eeaac6c5b97",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0550",
+    "id":"cdcbd2d8d08b5b97",
+    "title":"CERT-In Advisory   CIAD-2026-0060",
     "date":"November 13, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0550",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0060",
     "category":"Latest Security Alert",
     "content":"",
-    "scraped_at":"2026-11-13 12:11:30"
-  },
-  {
-    "id":"cdbd8572fd4f1ba7",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0549",
-    "date":"November 13, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0549",
-    "category":"Latest Security Alert",
-    "content":"",
-    "scraped_at":"2026-11-13 12:11:30"
-  },
-  {
-    "id":"7ee6585109d89e0d",
-    "title":"CERT-In Vulnerability Note  CIVN-2026-0548",
-    "date":"November 13, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0548",
-    "category":"Latest Security Alert",
-    "content":"",
-    "scraped_at":"2026-11-13 12:11:30"
-  },
-  {
-    "id":"38c7ab2918a44881",
-    "title":"CERT-In Advisory   CIAD-2026-0059",
-    "date":"November 13, 2026",
-    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0059",
-    "category":"Latest Security Alert",
-    "content":"",
-    "scraped_at":"2026-11-13 12:11:30"
+    "scraped_at":"2026-11-13 15:42:20"
   }
 ]
