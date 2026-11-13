@@ -12960,3 +12960,25 @@ Call log:
 2026-11-13 10:40:35,674 | INFO | [media_coverage] 28-11 NBBL targets 1 billion monthly transactions
 2026-11-13 10:40:38,732 | INFO | Total entries collected: 27
 2026-11-13 10:40:38,744 | INFO | No new entries found
+2026-11-13 16:51:52,867 | INFO | Opening NPCI page
+2026-11-13 16:51:56,762 | INFO | Attempting Press Releases scrape (2026)
+2026-11-13 16:51:56,774 | INFO | Press Releases 2026: 10 rows found
+2026-11-13 16:51:56,781 | INFO | [press_release] NPCI Announces Formation of NPCI Tech Solutions Limited (NTSL) as a Wholly Owned Subsidiary; Appoints Vishal Kanvaty as MD & CEO
+2026-11-13 16:51:59,811 | INFO | [press_release] BHIM Payments App enables users to open NPS account instantly with ‘Tatkal NPS’
+2026-11-13 16:52:02,838 | INFO | [press_release] BHIM Payments App Partners with Goonj for ‘Meethi Diwali’ campaign, Supporting Education for Underprivileged Children Through Everyday Payments
+2026-11-13 16:52:05,871 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions, Updated 15 October 2026
+2026-11-13 16:52:08,890 | INFO | [press_release] UPI MDR on Select Merchant Transactions Shall be Implemented Post Diwali
+2026-11-13 16:52:11,922 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions - Hindi
+2026-11-13 16:52:14,935 | INFO | [press_release] FAQs - Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions
+2026-11-13 16:52:17,954 | INFO | [press_release] NPCI Press Release - Hon’ble Union Minister Shri Nitin Gadkari Launches ‘OneTag’ to Enable NETC FASTag Portability at GFF 2026
+2026-11-13 16:52:20,970 | INFO | [press_release] NPCI Press Release - RBI Governor Unveils New UPI Capabilities at GFF 2026: AI-Powered Customer Support and Seamless Tap-and-Pay Experience
+2026-11-13 16:52:23,990 | INFO | [press_release] NPCI Press Release - NPCI launches Agentic AI platforms to streamline workflows, accelerate innovation and improve productivity at GFF 2026
+2026-11-13 16:52:27,016 | INFO | Switching Press Releases year to 2025
+2026-11-13 16:52:59,548 | WARNING | Press Releases 2025 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("li.circulars-cell-container div.circulars-cell p") to be visible
+
+2026-11-13 16:52:59,548 | INFO | Switching to Media Coverage tab
+2026-11-13 16:53:29,549 | WARNING | Media Coverage tab not available
+2026-11-13 16:53:29,627 | INFO | Total entries collected: 10
+2026-11-13 16:53:29,637 | INFO | No new entries found
