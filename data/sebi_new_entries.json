@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "90948f714d864b29041498b54c0ba69830e3afe8",
+    "date": "",
+    "title": "websitehelp@sebi.gov.in",
+    "link": "mailto:websitehelp@sebi.gov.in?Subject=Security Page - Case Number 914602954&body=Case Description:",
+    "pdf_link": "",
+    "pdf_filename": "Act_websitehelp@sebi.gov.in.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-11-14T09:17:21.957616Z",
+    "source_commit": "e9499cd62249555b467c34186dffdd750cfa7193",
+    "category": "Act",
+    "error": "detail_timeout: Page.goto: net::ERR_ABORTED at mailto:websitehelp@sebi.gov.in?Subject=Security%20Page%20-%20Case%20Number%20914602954&body=Case%20Description:\nCall log:\n  - nav"
+  }
+]
