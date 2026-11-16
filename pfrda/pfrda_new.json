@@ -1,5 +1,22 @@
 {
-  "generated_at": "2026-11-15T16:05:50.618766",
-  "count": 0,
-  "items": []
+  "generated_at": "2026-11-16T10:16:27.635987",
+  "count": 2,
+  "items": [
+    {
+      "id": "a97118fc09b33fea",
+      "title": "Amendment to Circular dated 02.12.2025...",
+      "publish_date": "",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Amendment+to+Circular+dated+02.12.2025+regarding+KYC+requirements+for+NRI+and+OCI+subscribers+to+NPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "11/16/2026"
+    },
+    {
+      "id": "16f27c34a0fad97a",
+      "title": "Amendment to Circular dated 02.12.2025 regarding KYC requirements for NRI and OCI subscribers to NPS\nPoint of Presence\nRef: PFRDA/2026/55/REG-POP/10\nIssue Date: 13-11-2026",
+      "publish_date": "11/13/2026",
+      "pdf_url": "https://www.pfrda.org.in/documents/33652/154928/Amendment+to+Circular+dated+02.12.2025+regarding+KYC+requirements+for+NRI+and+OCI+subscribers+to+NPS.pdf",
+      "category": "CIRCULAR",
+      "scraped_at": "11/16/2026"
+    }
+  ]
 }
