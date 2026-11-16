@@ -1,3 +1,20 @@
 [
-
+  {
+    "id":"c1908d283ac94b57",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0552",
+    "date":"November 16, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0552",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-11-16 12:44:31"
+  },
+  {
+    "id":"4fdc0105be968566",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0551",
+    "date":"November 16, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0551",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-11-16 12:44:31"
+  }
 ]
