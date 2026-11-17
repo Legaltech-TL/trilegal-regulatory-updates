@@ -21336,3 +21336,50 @@ cdbd8572fd4f1ba7,CERT-In Vulnerability Note  CIVN-2026-0549,"November 13, 2026",
 cdcbd2d8d08b5b97,CERT-In Advisory   CIAD-2026-0060,"November 13, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0060,Latest Security Alert,,2026-11-13 15:42:20
 c1908d283ac94b57,CERT-In Vulnerability Note  CIVN-2026-0552,"November 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0552,Latest Security Alert,,2026-11-16 12:44:31
 4fdc0105be968566,CERT-In Vulnerability Note  CIVN-2026-0551,"November 16, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0551,Latest Security Alert,,2026-11-16 12:44:31
+a8e89af37df76005,CERT-In Vulnerability Note  CIVN-2026-0558,"November 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0558,Latest Security Alert,,2026-11-17 13:23:05
+1203e199e00f455d,CERT-In Vulnerability Note  CIVN-2026-0557,"November 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0557,Latest Security Alert,,2026-11-17 13:23:05
+7bacced9d4da4895,CERT-In Vulnerability Note  CIVN-2026-0556,"November 17, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0556,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0556
+TCP Pre-Authentication Remote Corruption vulnerability in the Linux kernel: NoisyTCP
+Original Issue Date:November  17, 2026
+Severity Rating: HIGH
+Software Affected
+Linux Kernel versions prior to 6.12.117, 6.18.63, 7.3.4 and 7.4-rc2
+Overview
+A vulnerability has been reported in Linux Kernel which could allow, a remote unauthenticated attacker to cause a denial-of-service (DoS) condition on the targeted system.
+Target Audience:
+Users and administrators of Linux-based systems.
+Risk Assessment:
+High risk of denial-of-service (DoS) condition.
+Impact Assessment:
+Potential for a kernel crash, resulting in a denial-of-service (DoS) condition.
+Description
+The Linux kernel is the core component of Linux-based operating systems and is responsible for managing hardware resources, memory and essential system services.
+This vulnerability exists in the Linux Kernel's TCP networking subsystem due to a race condition during lockless socket lookups. A remote unauthenticated attacker could exploit this vulnerability by sending specially crafted TCP packets to the targeted system.
+Successful exploitation of this vulnerability could allow an attacker to cause a kernel panic, resulting in a denial-of-service (DoS) condition on the targeted system.
+Solution
+Apply appropriate security updates as mentioned by the vendor:
+https://www.kernel.org/
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=8e5172cbd227fae32f3313cba1f3e1b9edb5c4fd
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d69100340b4cae08d40f898f1b601032403f6be6
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=eb8a2d156f2c1d862fffdfd1b3432bfbcd939879
+Vendor Information
+Linux
+https://www.kernel.org/
+References
+https://cybersecuritynews.com/noisytcp-linux-kernel-vulnerability/
+https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/
+CVE Name
+CVE-2026-99288
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-17 13:23:05

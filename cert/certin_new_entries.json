@@ -1,3 +1,29 @@
 [
-
+  {
+    "id":"a8e89af37df76005",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0558",
+    "date":"November 17, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0558",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-11-17 13:23:05"
+  },
+  {
+    "id":"1203e199e00f455d",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0557",
+    "date":"November 17, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0557",
+    "category":"Latest Security Alert",
+    "content":"",
+    "scraped_at":"2026-11-17 13:23:05"
+  },
+  {
+    "id":"7bacced9d4da4895",
+    "title":"CERT-In Vulnerability Note  CIVN-2026-0556",
+    "date":"November 17, 2026",
+    "link":"https:\/\/www.cert-in.org.in\/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0556",
+    "category":"Latest Security Alert",
+    "content":"CERT-In Vulnerability Note \n                                                                      CIVN-2026-0556\nTCP Pre-Authentication Remote Corruption vulnerability in the Linux kernel: NoisyTCP\nOriginal Issue Date:November  17, 2026\nSeverity Rating: HIGH\nSoftware Affected\nLinux Kernel versions prior to 6.12.117, 6.18.63, 7.3.4 and 7.4-rc2\nOverview\nA vulnerability has been reported in Linux Kernel which could allow, a remote unauthenticated attacker to cause a denial-of-service (DoS) condition on the targeted system.\nTarget Audience:\nUsers and administrators of Linux-based systems.\nRisk Assessment:\nHigh risk of denial-of-service (DoS) condition.\nImpact Assessment:\nPotential for a kernel crash, resulting in a denial-of-service (DoS) condition.\nDescription\nThe Linux kernel is the core component of Linux-based operating systems and is responsible for managing hardware resources, memory and essential system services.\nThis vulnerability exists in the Linux Kernel's TCP networking subsystem due to a race condition during lockless socket lookups. A remote unauthenticated attacker could exploit this vulnerability by sending specially crafted TCP packets to the targeted system.\nSuccessful exploitation of this vulnerability could allow an attacker to cause a kernel panic, resulting in a denial-of-service (DoS) condition on the targeted system.\nSolution\nApply appropriate security updates as mentioned by the vendor:\nhttps:\/\/www.kernel.org\/\nhttps:\/\/git.kernel.org\/pub\/scm\/linux\/kernel\/git\/stable\/linux.git\/commit\/?id=8e5172cbd227fae32f3313cba1f3e1b9edb5c4fd\nhttps:\/\/git.kernel.org\/pub\/scm\/linux\/kernel\/git\/stable\/linux.git\/commit\/?id=d69100340b4cae08d40f898f1b601032403f6be6\nhttps:\/\/git.kernel.org\/pub\/scm\/linux\/kernel\/git\/stable\/linux.git\/commit\/?id=eb8a2d156f2c1d862fffdfd1b3432bfbcd939879\nVendor Information\nLinux\nhttps:\/\/www.kernel.org\/\nReferences\nhttps:\/\/cybersecuritynews.com\/noisytcp-linux-kernel-vulnerability\/\nhttps:\/\/www.bleepingcomputer.com\/news\/linux\/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers\/\nCVE Name\nCVE-2026-99288\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in  Phone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia",
+    "scraped_at":"2026-11-17 13:23:05"
+  }
 ]
