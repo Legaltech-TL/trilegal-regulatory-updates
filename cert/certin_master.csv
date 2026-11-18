@@ -21383,3 +21383,93 @@ Electronics Niketan
 6, CGO Complex, Lodhi Road,
 New Delhi - 110 003
 India",2026-11-17 13:23:05
+43e2a5d00a6b3fe2,CERT-In Vulnerability Note  CIVN-2026-0561,"November 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0561,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0561
+Local Privilege Escalation Vulnerability in Check Point
+Original Issue Date:November  18, 2026
+Severity Rating: HIGH
+Systems Affected
+Check Point Force Firewalls, Check Point Management and Log Servers, Maestro Orchestrator, Check Point Security Gateway, and Check Point Multi-Domain Security Management and Multi-Domain Log Server
+Check Point versions R81(EOS), R81.10 (EOS), R81.20, R82, R82.10, and R82.20
+Overview
+A vulnerability has been reported in Check Point products which could allow an authenticated local user to elevate privileges to root and execute arbitrary code on the targeted system.
+Target Audience:
+Individuals and organizations using affected Check Point products.
+Risk Assessment:
+High risk of privilege escalation, unauthorized access, and sensitive data disclosure.
+Impact Assessment:
+Potential for complete system compromise through unauthorized root-level command execution.
+Description
+Check Point provides advanced security solutions, including firewalls, network security, endpoint protection, cloud security and management solutions for enterprise environments.
+This vulnerability exists in Check Point products due to improper permission assignment for critical resources and missing authorization. A local attacker could exploit this vulnerability by sending unauthorized commands to a world-writable local IPC socket associated with the Gaia OS DynamicCLI process.
+Successful exploitation of these vulnerabilities could allow an attacker to elevate privileges and execute arbitrary code with root-level privileges on the targeted system.
+Note: This vulnerability (CVE-2026-123039) is being actively exploited in the wild.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://support.checkpoint.com/results/sk/sk1000362
+Vendor Information
+Check Point
+https://support.checkpoint.com/results/sk/sk1000362
+References
+https://support.checkpoint.com/results/sk/sk1000362
+CVE Name
+CVE-2026-123039
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in
+Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-18 13:02:07
+6493e2a639998159,CERT-In Vulnerability Note  CIVN-2026-0560,"November 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0560,Latest Security Alert,,2026-11-18 13:02:07
+57e2bb400d65367e,CERT-In Vulnerability Note  CIVN-2026-0559,"November 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0559,Latest Security Alert,,2026-11-18 13:02:07
+d6c35ef5c0cbf4ef,CERT-In Advisory   CIAD-2026-0061,"November 18, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0061,Latest Security Alert,"CERT-In Advisory  
+                                                                      CIAD-2026-0061
+Remote Code Execution Vulnerability in Oracle Java SE and Oracle GraalVM Products
+Original Issue Date: November  18, 2026
+Severity Rating: High
+Software Affected
+Oracle Java SE versions 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, and 27.0.1.0.3
+Oracle GraalVM for JDK versions 17.0.21.0.3 and 21.0.13.0.3
+Oracle GraalVM Enterprise Edition version 21.3.20.0.3
+Overview
+A vulnerability has been reported in Oracle Java SE, Oracle GraalVM for JDK and Oracle GraalVM Enterprise Edition which could allow a remote attacker to execute arbitrary code on the targeted system.
+Target Audience:
+All end-user organizations and individuals using affected versions of Oracle Java SE and Oracle GraalVM products.
+Risk Assessment:
+High risk of unauthorized access and arbitrary code execution.
+Impact Assessment:
+Potential impact on confidentiality, integrity, and availability of the system.
+Description
+Oracle Java SE, Oracle GraalVM for JDK, and Oracle GraalVM Enterprise Edition are widely used runtime environments for Java applications.
+This vulnerability exists in Oracle Java SE, Oracle GraalVM for JDK, and Oracle GraalVM Enterprise Edition Java due to improper input validation. A remote attacker could exploit these vulnerabilities by sending a specially crafted request containing malformed Base64 data to the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.oracle.com/security-alerts/cspunov2026.html
+Vendor Information
+Oracle
+https://www.oracle.com/security-alerts/cspunov2026.html
+References
+https://www.oracle.com/security-alerts/cspunov2026.html
+https://blog.talosintelligence.com/java4shell/
+CVE Name
+CVE-2026-114938
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-18 13:02:07
