@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "30a70bb8c6ae7725e020d97b872d3a386f14cb81",
+    "date": "Nov 25, 2026",
+    "title": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+    "link": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-11-25T11:37:33.983831Z",
+    "source_commit": "fc8ec917f2b560a0b8a15aa96300a7c8d3ec7815",
+    "category": "Circular",
+    "error": ""
+  },
+  {
+    "id": "8556eccbce93fc6ea69a1bca56b55baa714a88dd",
+    "date": "Nov 25, 2026",
+    "title": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+    "link": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html",
+    "pdf_link": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "pdf_filename": "Circular_Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies.pdf",
+    "pdf_downloaded": "no",
+    "created_at": "2026-11-25T11:37:39.785629Z",
+    "source_commit": "fc8ec917f2b560a0b8a15aa96300a7c8d3ec7815",
+    "category": "Circular",
+    "error": ""
+  }
+]
