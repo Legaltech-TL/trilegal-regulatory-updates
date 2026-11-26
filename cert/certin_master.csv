@@ -21482,3 +21482,103 @@ f092a9eac18e739f,CERT-In Advisory   CIAD-2026-0062,"November 20, 2026",https://w
 ec5304b023aa7d02,CERT-In Vulnerability Note  CIVN-2026-0572,"November 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0572,Latest Security Alert,,2026-11-25 14:20:00
 26b9e01255699033,CERT-In Vulnerability Note  CIVN-2026-0571,"November 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0571,Latest Security Alert,,2026-11-25 14:20:00
 f783694638c7d69a,CERT-In Vulnerability Note  CIVN-2026-0570,"November 25, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0570,Latest Security Alert,,2026-11-25 14:20:00
+278c02112855d5b2,CERT-In Vulnerability Note  CIVN-2026-0576,"November 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0576,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0576
+Multiple Vulnerabilities in Whatsapp
+Original Issue Date:November  26, 2026
+Severity Rating: HIGH
+Software Affected
+WhatsApp for Android versions prior to 2.26.35.74 and 2.26.17.4
+WhatsApp Business for Android versions prior to 2.26.23.70 and 2.26.17.4
+WhatsApp Business for iOS  prior to v2.26.23.72
+WhatsApp for iOS versions prior to 2.26.24.72 and 2.26.15.72
+WhatsApp for Mac Desktop versions prior to v2.26.23.72
+WhatsApp for Windows versions prior to v2.3000.1032164386.258709
+Overview
+Multiple vulnerabilities have been reported in WhatsApp which could allow a remote attacker to execute arbitrary code, obtain sensitive information, or bypass security restrictions on the targeted system.
+Target Audience:
+Individuals and organizations using the affected WhatsApp, WhatsApp Business, and WhatsApp for Mac/Windows.
+Risk Assessment:
+High risk of arbitrary code execution, sensitive information disclosure, and bypassing security restrictions.
+Impact Assessment:
+Potential for compromise of affected systems, unauthorized access, and bypass of hardware root of trust.
+Description
+WhatsApp for Android, WhatsApp Business for Android, WhatsApp for iOS, WhatsApp for Mac Desktop, and WhatsApp for Windows are cross-platform communication applications developed by Meta, offering instant messaging, voice and video calling, and multimedia sharing.
+These vulnerabilities exist in WhatsApp products due to attachment spoofing, SQL injection, improper certificate chain validation, incomplete validation of AI rich response messages and external ad-reply URLs. A remote attacker could exploit these vulnerabilities by sending a specially crafted message, attachment, or URL to the targeted system.
+Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, obtain sensitive information, bypass security restrictions, or manipulate application data on the targeted system.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.whatsapp.com/security/advisories
+Vendor Information
+Whatsapp
+https://www.whatsapp.com/security/advisories
+References
+Whatsapp
+https://www.whatsapp.com/security/advisories
+CVE Name
+CVE-2026-23863
+CVE-2026-102769
+CVE-2026-44908
+CVE-2026-23866
+CVE-2026-23871
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-26 13:53:09
+e44c79a97ac3828f,CERT-In Vulnerability Note  CIVN-2026-0575,"November 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0575,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0575
+Multiple Vulnerabilities in Asus
+Original Issue Date:November  26, 2026
+Severity Rating: CRITICAL
+Software Affected
+ASUS Control Center Express versions prior to v1.7.29
+ASUS Control Center Datacenter version 4.0.0.2 and earlier
+ASUS Control Center Enterprise version 3.1.0.8 and earlier
+ASUS Armoury Crate versions up to and including v6.7.2
+Overview
+Multiple vulnerabilities have been reported in ASUS products, which could allow a remote attacker to bypass authentication, forge authentication tokens, obtain administrative control, and gain elevated privileges on affected systems.
+Target Audience:
+All organizations, system administrators, and users utilizing the affected ASUS products.
+Risk Assessment:
+High risk of unauthorized administrative access to management consoles and potentially compromise the confidentiality, integrity, and availability of managed systems.
+Impact Assessment:
+Potential for unauthorized administrative access, privilege escalation, authentication bypass, and compromise of managed devices.
+Description
+ASUS is a multinational computer hardware and electronics manufacturer that provides system management software, hardware configuration utilities, and enterprise IT management solutions.
+Multiple vulnerabilities exist in ASUS products due to use of hard-coded cryptographic keys, incorrect authorization, missing authorization, and an untrusted search path. A remote attacker could exploit these vulnerabilities by forging authentication tokens, obtaining administrative privileges, creating unauthorized administrator accounts, changing administrator account passwords, bypassing authentication, or allow local low-privileged users to execute malicious libraries at a high integrity level.
+Successful exploitation of these vulnerabilities could allow a remote attacker to bypass authentication, forge authentication tokens, obtain administrative control, and gain elevated privileges on affected systems.
+Solution
+Apply appropriate updates as mentioned in the ASUS Advisory:
+https://www.asus.com/security-advisory#bulletins
+Vendor Information
+ASUS
+https://www.asus.com/security-advisory#bulletins
+References
+https://www.asus.com/security-advisory#bulletins
+CVE Name
+CVE-2026-114202
+CVE-2026-114204
+CVE-2026-114205
+CVE-2026-126574
+CVE-2026-112115
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-26 13:53:09
+feb22950ca25b546,CERT-In Vulnerability Note  CIVN-2026-0574,"November 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0574,Latest Security Alert,,2026-11-26 13:53:09
