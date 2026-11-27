@@ -21582,3 +21582,46 @@ Electronics Niketan
 New Delhi - 110 003
 India",2026-11-26 13:53:09
 feb22950ca25b546,CERT-In Vulnerability Note  CIVN-2026-0574,"November 26, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0574,Latest Security Alert,,2026-11-26 13:53:09
+53662e9b326a484d,CERT-In Vulnerability Note  CIVN-2026-0580,"November 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0580,Latest Security Alert,,2026-11-27 13:51:11
+106ab08ae1c665c2,CERT-In Vulnerability Note  CIVN-2026-0579,"November 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0579,Latest Security Alert,,2026-11-27 13:51:11
+337e5758d387166c,CERT-In Vulnerability Note  CIVN-2026-0578,"November 27, 2026",https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0578,Latest Security Alert,"CERT-In Vulnerability Note 
+                                                                      CIVN-2026-0578
+Memory Management Vulnerability in Linux Kernel KVM
+Original Issue Date:November  27, 2026
+Severity Rating: HIGH
+Software Affected
+Linux Kernel versions prior to 5.16, 6.1.193, 6.12.118, 6.18.64, 7.3.5 and 7.4-rc2
+Overview
+A vulnerability has been identified in the Linux Kernel KVM subsystem which may allow an attacker with privileges inside a guest virtual machine to gain unauthorized read and write access to host memory under specific conditions.
+Target Audience:
+All end user organizations and individuals using the affected Linux Kernel KVM-based virtualization environments.
+Risk Assessment:
+High risk of unauthorized access to host memory, compromise of virtual machine isolation, and potential compromise of the host system.
+Impact Assessment:
+Potential for unauthorized access to host memory, exposure of sensitive information, and compromise of the confidentiality, integrity, and availability of the affected system.
+Description
+Linux Kernel-based Virtual Machine (KVM) is a virtualization technology that allows Linux systems to function as hypervisors, enabling multiple virtual machines to run on a single physical host.
+This vulnerability exists in the Linux Kernel KVM subsystem due to improper handling of the Memory Management Unit (MMU) context while emulating an INIT reset in nested AMD virtualization environments. The issue may result in a stale nested page table pointer due to improper reset of the MMU context.
+A local attacker with privileges inside a guest virtual machine could exploit this vulnerability under specific conditions to gain read and write access to host memory, potentially compromising the host system and other virtual machines running on the same physical server.
+Solution
+Apply appropriate updates as mentioned by the vendor:
+https://www.kernel.org/
+Vendor Information
+Linux Kernel
+https://www.kernel.org/
+References
+https://www.kernel.org/
+CVE Name
+CVE-2026-99312
+Disclaimer
+The information provided herein is on ""as is"" basis, without warranty of any kind.
+Contact Information
+Email: info@cert-in.org.in  Phone: +91-11-22902657
+Postal address
+Indian Computer Emergency Response Team (CERT-In)
+Ministry of Electronics and Information Technology
+Government of India
+Electronics Niketan
+6, CGO Complex, Lodhi Road,
+New Delhi - 110 003
+India",2026-11-27 13:51:11
